@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "North Germanic",
   "parent_ids": ["proto-germanic"],
-  "successor_ids": [],
+  "successor_ids": ["west-norse"],
   "era": "c. 2nd century CE (Proto-Norse runic) – present",
   "region": "Scandinavia, later the North Atlantic: Faroe Islands, Iceland, Norse Greenland, Orkney and Shetland",
   "defining_innovation": "Proto-Norse lost word-initial *j- and kept final *-z as a distinct r-like sound (ʀ), against West Germanic, which dropped final *-z altogether.",
@@ -99,18 +99,6 @@
       "contested": false,
       "sources": [
         { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
-      ]
-    },
-    {
-      "id": "tp-norn-extinction",
-      "branch_id": "north-germanic",
-      "date": "18th – mid-19th century",
-      "type": "EXTINCTION",
-      "title": "Norn gives way to Scots",
-      "description": "After Orkney and Shetland passed to the Scottish crown in 1468–69, Norn was gradually replaced by Scots. When it finally died is disputed. Walter Sutherland of Unst, who died around 1850, is often named as the last person with any command of it, but the evidence is anecdotal.",
-      "contested": true,
-      "sources": [
-        { "citation": "Barnes, Michael P. 1998. The Norn Language of Orkney and Shetland. Lerwick: Shetland Times.", "url": null }
       ]
     }
   ],

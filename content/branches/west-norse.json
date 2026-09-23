@@ -1,0 +1,101 @@
+{
+  "id": "west-norse",
+  "family": "germanic",
+  "name": "West Norse",
+  "parent_ids": ["north-germanic"],
+  "successor_ids": [],
+  "era": "c. 10th century CE – present",
+  "region": "Norway and the North Atlantic: Iceland, the Faroe Islands, Orkney, Shetland and Norse Greenland",
+  "defining_innovation": "It kept the old diphthongs that East Norse smoothed away, and applied u-umlaut more widely (Old Norse sǫk 'cause', hǫnd 'hand' against Old Swedish sak, hand).",
+  "descendants": ["Icelandic", "Faroese", "Norwegian", "Norn †", "Greenlandic Norse †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "West Norse is the western half of the Old Norse dialect continuum: the speech of Norway and of the islands that Norwegians settled during the Viking Age. Most of what is usually called 'Old Norse', including the Eddic poems, the skaldic verse and the Icelandic sagas, is written in West Norse, specifically in its Icelandic form.\n\nTwo features mark it off from East Norse. It kept the old diphthongs `ei`, `au` and `ey` (Icelandic *steinn* 'stone', *auga* 'eye'), which East Norse turned into simple vowels (Swedish *sten*, *öga*). It also let **u-umlaut** round the vowel `a` far more often, so that Old Norse has *hǫnd* 'hand' and *sǫk* 'cause' where Old Swedish has *hand* and *sak*."
+    },
+    {
+      "title": "The Island Languages",
+      "body": "The settlement of Iceland from about 870 carried West Norse across the Atlantic, and isolation did the rest. Modern Icelandic has changed its pronunciation a good deal, but its spelling and grammar are close enough to the medieval language that Icelanders can read the sagas with modest effort. Faroese went a similar way, although it was hardly written between the Middle Ages and the 19th century, when a standard spelling was built on etymological principles.\n\nNot every island community survived. Norn, spoken in Orkney and Shetland, gave way to Scots. The Norse settlements in Greenland were abandoned in the 15th century, and their language went with them."
+    },
+    {
+      "title": "Norway: Two Written Norms",
+      "body": "Norway was ruled from Denmark from the late 14th century until 1814, and Danish became the written language there. After independence from Denmark, two answers emerged to the question of what written Norwegian should be. One gradually made written Danish more Norwegian, and became today's **Bokmål**. The other, developed by the self-taught linguist **Ivar Aasen** in the 1850s, built a new written norm from rural dialects that had changed least from Old Norse. This became **Nynorsk**. Both are official today, and the spoken dialects remain unusually strong."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-iceland-settlement",
+      "branch_id": "west-norse",
+      "date": "c. 870–930 CE",
+      "type": "SPLIT",
+      "title": "Settlement of Iceland",
+      "description": "Norse settlers, mainly from western Norway and the Norse colonies in the British Isles, take land in Iceland. Separated from Norway by open sea, Icelandic begins its own development.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-first-grammatical-treatise",
+      "branch_id": "west-norse",
+      "date": "12th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Latin letters fitted to Icelandic",
+      "description": "The anonymous *First Grammatical Treatise* proposes a spelling for Icelandic in Latin letters, using minimal pairs to argue for each distinction, such as vowel length and nasality. It is often praised as an early piece of phonological analysis. Saga writing in the Latin alphabet follows in the 13th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Haugen, Einar. 1972. First Grammatical Treatise: The Earliest Germanic Phonology, 2nd ed. London: Longman.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-greenland-norse-extinction",
+      "branch_id": "west-norse",
+      "date": "15th century CE",
+      "type": "EXTINCTION",
+      "title": "Norse Greenland falls silent",
+      "description": "The Norse settlements in Greenland, founded around 985, are abandoned. The last written record is a wedding at Hvalsey in 1408. Why the colony failed, whether through climate cooling, isolation from trade or conflict, and when exactly it ended are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-danish-norway",
+      "branch_id": "west-norse",
+      "date": "Late 14th century – 1814",
+      "type": "CONTACT",
+      "title": "Danish rule in Norway",
+      "description": "Under the union with Denmark, Danish replaces Norwegian as the written language of Norway. Educated town speech also moves towards Danish, while rural dialects continue the West Norse line. The result is the Bokmål/Nynorsk divide of modern Norway.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-norn-extinction",
+      "branch_id": "west-norse",
+      "date": "18th – mid-19th century",
+      "type": "EXTINCTION",
+      "title": "Norn gives way to Scots",
+      "description": "After Orkney and Shetland passed to the Scottish crown in 1468–69, Norn was gradually replaced by Scots. When it finally died is disputed. Walter Sutherland of Unst, who died around 1850, is often named as the last person with any command of it, but the evidence is anecdotal.",
+      "contested": true,
+      "sources": [
+        { "citation": "Barnes, Michael P. 1998. The Norn Language of Orkney and Shetland. Lerwick: Shetland Times.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nynorsk",
+      "branch_id": "west-norse",
+      "date": "1850s onward",
+      "type": "REVITALIZATION",
+      "title": "Aasen's Landsmål (Nynorsk)",
+      "description": "Ivar Aasen publishes a grammar (1848) and a dictionary (1850) of the rural Norwegian dialects and builds a written standard from them, restoring a Norwegian written norm after centuries of Danish. Landsmål, renamed Nynorsk in 1929, gains equal official status with the Dano-Norwegian standard in 1885.",
+      "contested": false,
+      "sources": [
+        { "citation": "Haugen, Einar. 1966. Language Conflict and Language Planning: The Case of Modern Norwegian. Cambridge, MA: Harvard University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["ivar-aasen"]
+}

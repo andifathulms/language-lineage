@@ -33,5 +33,12 @@
     "lifespan": "1522–1592",
     "branch_ids": ["east-germanic"],
     "turning_point_ids": ["tp-crimean-gothic-extinction"]
+  },
+  {
+    "id": "ivar-aasen",
+    "name": "Ivar Aasen",
+    "lifespan": "1813–1896",
+    "branch_ids": ["west-norse"],
+    "turning_point_ids": ["tp-nynorsk"]
   }
 ]
