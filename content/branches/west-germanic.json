@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "West Germanic",
   "parent_ids": ["proto-germanic"],
-  "successor_ids": ["anglo-frisian", "high-german"],
+  "successor_ids": ["anglo-frisian", "low-franconian", "high-german"],
   "era": "c. 2nd–5th century CE – present",
   "region": "The North Sea coast and the Rhine, Weser and Elbe basins; later Britain",
   "defining_innovation": "West Germanic gemination: a consonant other than r doubled after a short vowel before *j (Gothic satjan, Old English settan 'to set').",

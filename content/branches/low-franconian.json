@@ -1,0 +1,105 @@
+{
+  "id": "low-franconian",
+  "family": "germanic",
+  "name": "Low Franconian",
+  "parent_ids": ["west-germanic"],
+  "successor_ids": [],
+  "era": "c. 5th century CE – present",
+  "region": "The Rhine–Meuse–Scheldt delta (the Netherlands and Flanders); later South Africa and Namibia",
+  "defining_innovation": "The Frankish dialects of the lower Rhine stayed outside the High German shift and mostly outside the North Sea changes: Dutch ons, gans, mond against English us, goose, mouth and German uns, Gans, Mund.",
+  "descendants": ["Dutch", "Afrikaans", "Limburgish", "Zeelandic"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Low Franconian continues the speech of the Salian Franks and their neighbours in the delta of the Rhine, Meuse and Scheldt. It sits between two areas of change. To the south, the High German consonant shift stopped short of it (Dutch *maken*, *water*, *pond*). To the north and west, it shared only a few of the North Sea features that shaped English and Frisian. Dutch keeps the nasal in *ons* 'us', *gans* 'goose' and *mond* 'mouth', though a few words such as *vijf* 'five' show the coastal change.\n\nThe oldest connected text is the *Wachtendonck Psalms*, a 10th-century psalm translation that survives only in later copies. The best-known early line, *Hebban olla vogala nestas hagunnan…* ('All birds have begun their nests…'), was written in the late 11th century by a Flemish monk in an English monastery."
+    },
+    {
+      "title": "Middle Dutch to Modern Dutch",
+      "body": "In the Middle Ages the cities of Flanders and Brabant set the literary tone. After the Spanish reconquest of the south in the late 16th century, many of their writers and merchants moved north, and Holland became the centre. The Middle Dutch long vowels spelled *ij* and *ui* became diphthongs in this period (*wijn* 'wine', *huis* 'house'), a change that parallels the High German one but happened independently. The *Statenbijbel* of 1637, the official Dutch Bible translation, became a model for the written standard."
+    },
+    {
+      "title": "Dutch Overseas",
+      "body": "Dutch trading empires carried the language to the Cape, the Caribbean, North America and the Indonesian archipelago. In Indonesia Dutch never became a mass language, but it left hundreds of everyday words in Indonesian: *kantor* 'office' (*kantoor*), *handuk* 'towel' (*handdoek*), *kulkas* 'refrigerator' (*koelkast*), *wortel* 'carrot'.\n\nAt the Cape, the Dutch of settlers from 1652 developed among a multilingual population of Khoekhoe, enslaved people from Asia and Africa, and European immigrants. The result was **Afrikaans**, which replaced Dutch as an official language of South Africa in 1925. How it formed, as ordinary Dutch change or through creolisation, is one of the classic debates in contact linguistics."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-low-franconian-split",
+      "branch_id": "low-franconian",
+      "date": "c. 5th – 9th century CE",
+      "type": "SPLIT",
+      "title": "Franks of the lower Rhine",
+      "description": "The Frankish dialects of the delta develop apart from those upriver, which take part in the High German shift. The line between them, later the Benrath and Uerdingen isoglosses, becomes the border between Dutch and German dialects.",
+      "contested": false,
+      "sources": [
+        { "citation": "Willemyns, Roland. 2013. Dutch: Biography of a Language. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-old-dutch-texts",
+      "branch_id": "low-franconian",
+      "date": "10th – late 11th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old Dutch in writing",
+      "description": "The Wachtendonck Psalms (10th century) and the *Hebban olla vogala* line (late 11th century) are the earliest Dutch texts in Latin letters. Whether the famous line is purely Old West Flemish or partly Old English has been debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Willemyns, Roland. 2013. Dutch: Biography of a Language. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dutch-diphthongisation",
+      "branch_id": "low-franconian",
+      "date": "16th – 17th century CE",
+      "type": "SOUND_LAW",
+      "title": "Dutch diphthongisation",
+      "description": "Long `iː` and `yː` become `ɛi` and `œy` in Holland and Brabant: *wijn* 'wine', *huis* 'house'. The change parallels New High German diphthongisation but happened independently.",
+      "contested": false,
+      "sources": [
+        { "citation": "Willemyns, Roland. 2013. Dutch: Biography of a Language. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cape-dutch",
+      "branch_id": "low-franconian",
+      "date": "1652 onward",
+      "type": "SPLIT",
+      "title": "Cape Dutch becomes Afrikaans",
+      "description": "At the Dutch East India Company's Cape settlement, Dutch is used by a mixed population and loses most verb inflection and grammatical gender. By the 19th century it is a separate language, Afrikaans. How much of that change comes from contact is contested.",
+      "contested": true,
+      "sources": [
+        { "citation": "Ponelis, Fritz. 1993. The Development of Afrikaans. Frankfurt am Main: Peter Lang.", "url": null },
+        { "citation": "Deumert, Ana. 2004. Language Standardization and Language Change: The Dynamics of Cape Dutch. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dutch-indonesian-contact",
+      "branch_id": "low-franconian",
+      "date": "17th – 20th century CE",
+      "type": "CONTACT",
+      "title": "Dutch loanwords in Indonesian",
+      "description": "Colonial administration, schooling and trade in the Dutch East Indies bring hundreds of Dutch words into Malay and later Indonesian, especially for offices, technology and household items: *kantor* (*kantoor*), *handuk* (*handdoek*), *kulkas* (*koelkast*).",
+      "contested": false,
+      "sources": [
+        { "citation": "Tadmor, Uri. 2009. Loanwords in Indonesian. In Loanwords in the World's Languages: A Comparative Handbook, ed. Martin Haspelmath & Uri Tadmor. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-afrikaans-creole",
+      "branch_id": "low-franconian",
+      "proposed_grouping": "Afrikaans as a creole or semi-creole: a language restructured through contact, not a straightforward daughter of Dutch",
+      "status": "minority_position",
+      "evidence_for": "Afrikaans lost almost all verb inflection for person and number, grammatical gender, and the simple past tense. It also has double negation (*nie … nie*). It formed in a strongly multilingual colonial society, where many speakers learned Dutch as a second language, including Khoekhoe speakers and enslaved people who spoke Malay and Portuguese creole.",
+      "evidence_against": "Nearly all of its vocabulary and most of its grammar continue 17th-century Hollandic Dutch, and several of the 'creole' simplifications have parallels in Dutch dialects. There is no evidence of an earlier pidgin stage. Most specialists describe Afrikaans as Dutch that was restructured by contact, but not as a creole.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Valkhoff, Marius F. 1966. Studies in Portuguese and Creole, with Special Reference to South Africa. Johannesburg: Witwatersrand University Press.", "url": null },
+        { "citation": "Ponelis, Fritz. 1993. The Development of Afrikaans. Frankfurt am Main: Peter Lang.", "url": null },
+        { "citation": "Deumert, Ana. 2004. Language Standardization and Language Change: The Dynamics of Cape Dutch. Amsterdam: John Benjamins.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
