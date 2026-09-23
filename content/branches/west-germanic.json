@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "West Germanic",
   "parent_ids": ["proto-germanic"],
-  "successor_ids": ["anglo-frisian", "low-franconian", "high-german"],
+  "successor_ids": ["anglo-frisian", "low-german", "low-franconian", "high-german"],
   "era": "c. 2nd–5th century CE – present",
   "region": "The North Sea coast and the Rhine, Weser and Elbe basins; later Britain",
   "defining_innovation": "West Germanic gemination: a consonant other than r doubled after a short vowel before *j (Gothic satjan, Old English settan 'to set').",
@@ -110,7 +110,7 @@
       "status": "minority_position",
       "evidence_for": "The three share distinctive changes, most famously the loss of a nasal before a fricative with lengthening of the vowel: Old English *gōs* 'goose', *ūs* 'us', *fīf* 'five', and Old Saxon *ūs*, *fīf*, against German *Gans*, *uns*, *fünf*. They also share a single verb ending for all persons of the plural, and pronouns without a final *r* (Old English *wē*, *hē* against German *wir*, *er*).",
       "evidence_against": "Old Saxon shows these features unevenly and otherwise patterns with the continental dialects, so most scholars treat 'North Sea Germanic' as a zone where features spread along the coast rather than a node of the tree. The features are real, but the genealogical reading is disputed.",
-      "linked_branch_ids": [],
+      "linked_branch_ids": ["anglo-frisian", "low-german"],
       "sources": [
         { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
         { "citation": "Stiles, Patrick V. 1995. Remarks on the 'Anglo-Frisian' thesis. In Friesische Studien II (NOWELE Supplement 12). Odense: Odense University Press.", "url": null }

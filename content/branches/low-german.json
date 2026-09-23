@@ -1,0 +1,89 @@
+{
+  "id": "low-german",
+  "family": "germanic",
+  "name": "Low German",
+  "parent_ids": ["west-germanic"],
+  "successor_ids": [],
+  "era": "c. 8th century CE (Old Saxon) – present",
+  "region": "The North German Plain and the north-eastern Netherlands; Mennonite communities from Russia to the Americas",
+  "defining_innovation": "Old Saxon stayed outside the High German shift but shared some North Sea changes (ūs 'us', fīf 'five'), and generalised one verb ending across the plural (wi, ji, se maakt 'we, you, they make').",
+  "descendants": ["Low German", "Dutch Low Saxon", "Plautdietsch"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Low German continues **Old Saxon**, the language of the Saxons between the Rhine and the Elbe. The Saxons were conquered and forcibly Christianised by Charlemagne in wars lasting from 772 to 804, and their earliest literature is Christian as a result. The *Heliand* ('Saviour'), a gospel harmony of about 6,000 alliterative lines from the 830s, retells the life of Christ in the style of Germanic heroic verse, with Christ as a lord and his disciples as his warrior band.\n\nOld Saxon stands between the continent and the coast. It has some North Sea features that link it to English and Frisian, such as *ūs* 'us' and *fīf* 'five', but it shares much else with the Franconian dialects to the south. Whether that makes it part of a North Sea subgroup is disputed."
+    },
+    {
+      "title": "The Language of the Hanse",
+      "body": "In the later Middle Ages, Middle Low German was one of the great commercial languages of Europe. The Hanseatic League, led by Lübeck, ran trade from London and Bruges to Bergen, Stockholm and Novgorod, and wrote its charters, accounts and law in Low German. Scandinavian languages took large numbers of words from it.\n\nThe decline came quickly. From the 16th century, High German, carried by the Reformation, printing and the princely chanceries, replaced Low German as the written language of northern Germany. Low German survived as the everyday spoken language, called *Plattdeutsch*, but lost its written prestige."
+    },
+    {
+      "title": "Today",
+      "body": "Low German is still spoken across northern Germany and, as Low Saxon, in the north-eastern Netherlands, though mostly by older speakers and in rural areas. Both states now recognise it as a regional language. **Plautdietsch**, the Low German of the Mennonites, left the Vistula delta for the Russian Empire in the 18th century and has since been carried to Canada, Mexico, Paraguay and Bolivia, where it is a thriving community language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-saxon-wars",
+      "branch_id": "low-german",
+      "date": "772–804",
+      "type": "CONTACT",
+      "title": "Charlemagne's Saxon wars",
+      "description": "Frankish conquest brings the Saxons under Carolingian rule and the Church. Frankish and Latin influence, and the missionary writing that produces the first Old Saxon texts, follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-heliand",
+      "branch_id": "low-german",
+      "date": "c. 830s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Heliand",
+      "description": "An Old Saxon gospel epic in alliterative verse, the largest Old Saxon text. Together with fragments of an Old Saxon *Genesis*, it provides most of the evidence for the language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hanse-lingua-franca",
+      "branch_id": "low-german",
+      "date": "13th – 16th century CE",
+      "type": "CONTACT",
+      "title": "Language of the Hanse",
+      "description": "Middle Low German serves as the written and commercial language of the Hanseatic League around the North Sea and the Baltic, and is the source of a large share of the loanwords in Danish and Swedish.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sanders, Willy. 1982. Sachsensprache, Hansesprache, Plattdeutsch: Sprachgeschichtliche Grundzüge des Niederdeutschen. Göttingen: Vandenhoeck & Ruprecht.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-high-german-replaces",
+      "branch_id": "low-german",
+      "date": "16th – 17th century CE",
+      "type": "CONTACT",
+      "title": "High German takes over the writing",
+      "description": "Chanceries, churches and printers in northern Germany switch to High German. Low German stops being a written standard and continues as regional speech.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sanders, Willy. 1982. Sachsensprache, Hansesprache, Plattdeutsch: Sprachgeschichtliche Grundzüge des Niederdeutschen. Göttingen: Vandenhoeck & Ruprecht.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-low-german-charter",
+      "branch_id": "low-german",
+      "date": "1990s",
+      "type": "REVITALIZATION",
+      "title": "Recognised as a regional language",
+      "description": "Under the European Charter for Regional or Minority Languages, Germany and the Netherlands recognise Low German / Low Saxon as a regional language. This supports teaching, broadcasting and some official use, though the number of speakers continues to fall.",
+      "contested": false,
+      "sources": [
+        { "citation": "Council of Europe. 1992. European Charter for Regional or Minority Languages (ETS No. 148).", "url": "https://www.coe.int/en/web/european-charter-regional-or-minority-languages" }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
