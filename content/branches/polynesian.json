@@ -57,11 +57,14 @@
       "date": "c. 18th – early 19th century CE",
       "type": "SOUND_LAW",
       "title": "Hawaiian t becomes k",
-      "description": "Hawaiian `t` shifts to `k` (*tapu* → *kapu*, *mata* → *maka*). Early European records still write *t* in names, such as *Tamehameha* for Kamehameha, which suggests the change was still spreading at contact. The missionaries' spelling fixed *k*. Its exact timing and social spread are debated.",
+      "description": "After old `*k` had become a glottal stop (Māori *waka* 'canoe', Hawaiian *waʻa*), Hawaiian `t` moves into the empty slot and becomes `k` (*tapu* → *kapu*, *mata* → *maka*). This is a pull chain on a small scale. Early European records still write *t* in names, such as *Tamehameha* for Kamehameha, which suggests the change was still spreading at contact. The missionaries' spelling fixed *k*. Its exact timing and social spread are debated.",
       "contested": true,
       "sources": [
         { "citation": "Schütz, Albert J. 1994. The Voices of Eden: A History of Hawaiian Language Studies. Honolulu: University of Hawaii Press.", "url": null }
-      ]
+      ],
+      "process": "consonant_shift",
+      "notation": "*k → ʔ, then *t → k",
+      "sort_year": 1790
     },
     {
       "id": "tp-tupaia-1769",

@@ -33,7 +33,10 @@
       "contested": false,
       "sources": [
         { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
-      ]
+      ],
+      "process": "merger",
+      "notation": "*ə, *o → *o (PMP *enem → POc *onom 'six')",
+      "sort_year": -1500
     },
     {
       "id": "tp-lapita",
@@ -71,6 +74,21 @@
       "sources": [
         { "citation": "Kirch, Patrick V. 2000. On the Road of the Winds: An Archaeological History of the Pacific Islands before European Contact. Berkeley: University of California Press.", "url": null }
       ]
+    },
+    {
+      "id": "tp-cp-final-consonants",
+      "branch_id": "oceanic",
+      "date": "c. 1000 BCE",
+      "type": "SOUND_LAW",
+      "title": "Final consonants lost in the Central Pacific",
+      "description": "In the Central Pacific languages (Fijian, Rotuman, Polynesian), every Proto-Oceanic word-final consonant disappears, so all words end in a vowel. Proto-Oceanic `*manuk` 'bird' becomes Tongan and Samoan *manu*, and `*ikan` 'fish' becomes Fijian and Tongan *ika*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ],
+      "process": "loss",
+      "notation": "C → ∅ / _# (*manuk → manu)",
+      "sort_year": -1000
     },
     {
       "id": "tp-fijian-orthography",

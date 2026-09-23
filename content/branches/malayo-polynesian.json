@@ -34,7 +34,10 @@
       "sources": [
         { "citation": "Blust, Robert. 1977. The Proto-Austronesian pronouns and Austronesian subgrouping: A preliminary report. University of Hawaii Working Papers in Linguistics 9(2).", "url": null },
         { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
-      ]
+      ],
+      "process": "merger",
+      "notation": "*C, *t → *t · *N, *n → *n · *S → *h",
+      "sort_year": -2250
     },
     {
       "id": "tp-out-of-taiwan",
