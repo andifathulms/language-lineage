@@ -68,5 +68,12 @@
     "lifespan": "c. 1491–c. 1531",
     "branch_ids": ["malayic"],
     "turning_point_ids": ["tp-malay-lingua-franca"]
+  },
+  {
+    "id": "otto-dahl",
+    "name": "Otto Christian Dahl",
+    "lifespan": "1903–1995",
+    "branch_ids": ["barito"],
+    "turning_point_ids": ["tp-madagascar-settlement"]
   }
 ]

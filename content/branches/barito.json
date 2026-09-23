@@ -1,0 +1,104 @@
+{
+  "id": "barito",
+  "family": "austronesian",
+  "name": "Barito",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Barito river basin of southern Borneo, and Madagascar, 7,000 km to the west",
+  "defining_innovation": "A subgroup of southern Borneo identified by Hudson (1967) from shared sound changes and vocabulary. Its Southeast Barito branch includes both Ma'anyan and Malagasy.",
+  "descendants": ["Malagasy", "Ma'anyan", "Ngaju", "Paku"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Barito languages are spoken along the Barito river and its neighbours in southern Borneo (Indonesian Kalimantan). Ngaju, a regional lingua franca, and Ma'anyan are among the largest. Most are small and have received little attention. One member does not fit the geography at all: **Malagasy**, the national language of Madagascar, off the coast of Africa."
+    },
+    {
+      "title": "From Borneo to Madagascar",
+      "body": "Early European visitors had already noticed that Malagasy resembled Malay. In 1951 **Otto Christian Dahl**, a Norwegian missionary-linguist, showed that its closest relative is Ma'anyan of southeastern Borneo. The inherited vocabulary is plain once the sound changes are known: Malagasy *maso* 'eye' (`*mata`), *dimy* 'five' (`*lima`), *afo* 'fire' (`*hapuy`).\n\nThe crossing of the Indian Ocean probably took place in the second half of the first millennium CE. Adelaar notes that Malagasy has many loanwords from Malay and Javanese, including Sanskrit words that came through Malay. He concludes that the Barito-speaking settlers sailed as part of Malay-led, possibly Srivijayan, voyages. In Madagascar they met Bantu-speaking East Africans, and Malagasy vocabulary and sound structure show that contact, for example *omby* 'cattle', from a Bantu source like Swahili *ng'ombe*."
+    },
+    {
+      "title": "Writing Malagasy",
+      "body": "Malagasy was first written in **Sorabe**, an Arabic-derived script used by scribes in the southeast from about the 15th or 16th century, mostly for religious and astrological texts. In 1823 King Radama I adopted a Latin alphabet devised with missionaries of the London Missionary Society, and a printed Bible, schools and a standard written language based on the Merina dialect followed within a generation."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-malay-javanese-in-barito",
+      "branch_id": "barito",
+      "date": "1st millennium CE",
+      "type": "CONTACT",
+      "title": "Malay and Javanese influence",
+      "description": "Southeast Barito speakers take in Malay and Javanese vocabulary, and through Malay some Sanskrit, before and during the move west. The layer is visible in Malagasy and supports a Malay-led migration.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-madagascar-settlement",
+      "branch_id": "barito",
+      "date": "c. 5th – 9th century CE",
+      "type": "SPLIT",
+      "title": "Across the Indian Ocean",
+      "description": "Speakers of a Southeast Barito language settle Madagascar, and Malagasy begins its separate history. The route, the date, and whether the settlement happened in one wave or several are debated. Linguistic, archaeological and genetic estimates do not fully agree.",
+      "contested": true,
+      "sources": [
+        { "citation": "Dahl, Otto Christian. 1951. Malgache et Maanjan: une comparaison linguistique. Oslo: Egede-Instituttet.", "url": null },
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bantu-contact",
+      "branch_id": "barito",
+      "date": "Late 1st millennium CE – present",
+      "type": "CONTACT",
+      "title": "Bantu contact in Madagascar",
+      "description": "Intermarriage and trade with Bantu-speaking East Africans bring Bantu vocabulary, especially for animals and farming (*omby* 'cattle'), and may have reinforced Malagasy's tendency for words to end in a vowel.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sorabe",
+      "branch_id": "barito",
+      "date": "c. 15th – 16th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Sorabe: Malagasy in Arabic script",
+      "description": "Scribes in southeastern Madagascar write Malagasy in an adapted Arabic script, mostly for religious and astrological manuscripts. When and how the script arrived is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-malagasy-latin",
+      "branch_id": "barito",
+      "date": "1823",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Latin alphabet under Radama I",
+      "description": "The Merina king Radama I adopts a Latin orthography developed with London Missionary Society teachers. It remains the basis of written Malagasy today.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-malagasy-barito",
+      "branch_id": "barito",
+      "proposed_grouping": "Malagasy as Southeast Barito: Malagasy's closest relatives are Ma'anyan and its neighbours in southern Borneo",
+      "status": "widely_accepted",
+      "evidence_for": "Dahl showed regular sound correspondences and shared innovations between Malagasy and Ma'anyan, and later work confirms that Malagasy groups with Southeast Barito and not with Malay, despite its many Malay loanwords.",
+      "evidence_against": "The heavy Malay and Javanese layer in Malagasy once led scholars to link it directly with Malay or other western Indonesian languages. Some still see the settlers as a mixed population, with Barito speech only one part of their background. The genealogical placement is secure, but it does not settle who the settlers were.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Dahl, Otto Christian. 1951. Malgache et Maanjan: une comparaison linguistique. Oslo: Egede-Instituttet.", "url": null },
+        { "citation": "Hudson, Alfred B. 1967. The Barito Isolects of Borneo. Ithaca: Cornell University Southeast Asia Program.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["otto-dahl"]
+}
