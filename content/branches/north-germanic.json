@@ -1,0 +1,119 @@
+{
+  "id": "north-germanic",
+  "family": "germanic",
+  "name": "North Germanic",
+  "parent_ids": ["proto-germanic"],
+  "successor_ids": [],
+  "era": "c. 2nd century CE (Proto-Norse runic) – present",
+  "region": "Scandinavia, later the North Atlantic: Faroe Islands, Iceland, Norse Greenland, Orkney and Shetland",
+  "defining_innovation": "Proto-Norse lost word-initial *j- and kept final *-z as a distinct r-like sound (ʀ), against West Germanic, which dropped final *-z altogether.",
+  "descendants": ["Icelandic", "Faroese", "Norwegian", "Danish", "Swedish", "Norn †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The ancestor of the Scandinavian languages is known as **Proto-Norse**. Unlike Proto-Germanic, it is not purely reconstructed. It is written in Elder Futhark runes on a few hundred objects from about the 2nd to the 8th century. The best known is one of the Gallehus golden horns from southern Jutland (c. 400 CE): *ek hlewagastiʀ holtijaʀ horna tawidō*, 'I, Hlewagastiz of Holt, made the horn'.\n\nThe inscription preserves full unstressed endings (*-gastiʀ*, *horna*) that the later Scandinavian languages lost, and it writes the reflex of Proto-Germanic final `*-z` with a special rune, conventionally transcribed `ʀ`. Some scholars prefer to call this language late Northwest Germanic and not specifically Norse, because it shows few features that are exclusively North Germanic."
+    },
+    {
+      "title": "From Proto-Norse to Old Norse",
+      "body": "Between about 500 and 800 CE the language changed faster than at almost any other time. Unstressed vowels were cut away (**syncope**), and they often left their mark by colouring the vowel of the stressed syllable before them (**umlaut**). Runic *-gastiʀ* 'guest' became Old Norse *gestr*: the `i` in the ending fronted the `a` to `e` and then disappeared.\n\nThe results are the familiar shapes of Old Norse, the language of the Icelandic sagas and the Eddic poems. Word-initial `*j-` had also dropped: Old Norse *ár* 'year' and *ungr* 'young' against Gothic *jēr* and English *year*, *young*."
+    },
+    {
+      "title": "The Viking Age Expansion",
+      "body": "From the late 8th century Norse speakers spread by raiding, trade and settlement: into the British Isles and Normandy, along the rivers of Eastern Europe, and across the North Atlantic to the Faroes, Iceland and Greenland. The runic script itself was pared down to the 16-letter **Younger Futhark**. It had fewer letters than the language had sounds, so a single rune often stood for several of them.\n\nThe settlement of northern and eastern England had the biggest effect on another language. English took from Norse not only nouns such as *sky*, *skin* and *egg* but the pronouns *they*, *them* and *their*, which is very unusual for borrowing. That episode is described under Anglo-Frisian, where it happened."
+    },
+    {
+      "title": "Daughter Languages",
+      "body": "By around 1000–1200 CE Old Norse had split into a **West Norse** group (Norwegian, Icelandic, Faroese and the extinct Norn of Orkney and Shetland) and an **East Norse** group (Danish, Swedish). Later history has blurred the genetic split. Centuries of Danish rule shaped written Norwegian, and today Danish, Norwegian and Swedish are largely mutually intelligible (more easily in writing than in speech). Icelandic and Faroese, which developed in relative isolation, are much harder for mainland speakers to understand."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-north-split",
+      "branch_id": "north-germanic",
+      "date": "c. 2nd–5th century CE",
+      "type": "SPLIT",
+      "title": "Nordic dialects diverge",
+      "description": "Scandinavian dialects gradually separate from their southern neighbours. There was probably no single moment of division. The early runic language sits so close to the Northwest Germanic common stage that it is disputed when a distinctly North Germanic language can be identified.",
+      "contested": true,
+      "sources": [
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-proto-norse-changes",
+      "branch_id": "north-germanic",
+      "date": "Proto-Norse period",
+      "type": "SOUND_LAW",
+      "title": "Loss of initial j-; final -z as ʀ",
+      "description": "Word-initial `*j-` is lost (Old Norse *ár* 'year' : Gothic *jēr*). Final `*-z` develops into a separate phoneme `ʀ` with its own rune, which later merges with `r` (Old Norse *dagr* 'day' : Gothic *dags*, Old English *dæg*).",
+      "contested": false,
+      "sources": [
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null },
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-syncope",
+      "branch_id": "north-germanic",
+      "date": "c. 500–700 CE",
+      "type": "SOUND_LAW",
+      "title": "Syncope and umlaut",
+      "description": "Unstressed vowels drop out and often leave umlaut on the stressed vowel before them. Runic *-gastiʀ* becomes Old Norse *gestr* 'guest'. In about two centuries the long runic word shapes turn into the compact forms of Old Norse.",
+      "contested": false,
+      "sources": [
+        { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null },
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-younger-futhark",
+      "branch_id": "north-germanic",
+      "date": "c. 8th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Younger Futhark",
+      "description": "The runic alphabet is reduced from 24 to 16 characters, even though the language now has more distinct sounds. Rune-stones of the Viking Age, including the large Jelling stone (c. 965), are written in it.",
+      "contested": false,
+      "sources": [
+        { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-viking-expansion",
+      "branch_id": "north-germanic",
+      "date": "c. 790–1050 CE",
+      "type": "CONTACT",
+      "title": "Viking Age expansion",
+      "description": "Norse speakers settle the Faroes, Iceland, Greenland, the Scottish isles, parts of Ireland, northern and eastern England, and Normandy. The contact with Old English is the deepest, and how far it reached into English grammar is still debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Townend, Matthew. 2002. Language and History in Viking Age England. Turnhout: Brepols.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-east-west-norse",
+      "branch_id": "north-germanic",
+      "date": "c. 10th–12th century CE",
+      "type": "SPLIT",
+      "title": "West Norse and East Norse",
+      "description": "Old Norse divides into a western group (Norwegian, Icelandic, Faroese, Norn) and an eastern group (Danish, Swedish). One marker of the split is that East Norse monophthongised old diphthongs where West Norse kept them: Old West Norse *steinn* 'stone', *auga* 'eye' against Old East Norse *stēn*, *ø̄ga*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-norn-extinction",
+      "branch_id": "north-germanic",
+      "date": "18th – mid-19th century",
+      "type": "EXTINCTION",
+      "title": "Norn gives way to Scots",
+      "description": "After Orkney and Shetland passed to the Scottish crown in 1468–69, Norn was gradually replaced by Scots. When it finally died is disputed. Walter Sutherland of Unst, who died around 1850, is often named as the last person with any command of it, but the evidence is anecdotal.",
+      "contested": true,
+      "sources": [
+        { "citation": "Barnes, Michael P. 1998. The Norn Language of Orkney and Shetland. Lerwick: Shetland Times.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
