@@ -50,7 +50,10 @@
       "sources": [
         { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null },
         { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
-      ]
+      ],
+      "process": "loss",
+      "notation": "*j- → ∅ · *-z → ʀ",
+      "sort_year": 300
     },
     {
       "id": "tp-syncope",
@@ -63,7 +66,10 @@
       "sources": [
         { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null },
         { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
-      ]
+      ],
+      "process": "loss",
+      "notation": "V → ∅ in unstressed syllables (*gastiʀ → gestr)",
+      "sort_year": 600
     },
     {
       "id": "tp-younger-futhark",

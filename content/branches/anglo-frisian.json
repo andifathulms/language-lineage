@@ -50,7 +50,10 @@
       "contested": false,
       "sources": [
         { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "loss",
+      "notation": "VN → Vː / _ f θ s",
+      "sort_year": 400
     },
     {
       "id": "tp-af-brightening",
@@ -63,7 +66,10 @@
       "sources": [
         { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null },
         { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
-      ]
+      ],
+      "process": "vowel_shift",
+      "notation": "*a → æ",
+      "sort_year": 450
     },
     {
       "id": "tp-af-palatalisation",
@@ -76,7 +82,10 @@
       "sources": [
         { "citation": "Stiles, Patrick V. 1995. Remarks on the 'Anglo-Frisian' thesis. In Friesische Studien II (NOWELE Supplement 12). Odense: Odense University Press.", "url": null },
         { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "assimilation",
+      "notation": "k ɡ → tʃ j / next to front vowels",
+      "sort_year": 600
     },
     {
       "id": "tp-migration-britain",

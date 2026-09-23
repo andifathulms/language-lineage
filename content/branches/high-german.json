@@ -34,7 +34,10 @@
       "sources": [
         { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
         { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
-      ]
+      ],
+      "process": "consonant_shift",
+      "notation": "p t → pf ts · p t k → ff ss xx after vowels",
+      "sort_year": 650
     },
     {
       "id": "tp-ohg-writing",
@@ -71,7 +74,10 @@
       "contested": false,
       "sources": [
         { "citation": "Salmons, Joseph. 2018. A History of German: What the Past Reveals about Today's Language, 2nd ed. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "vowel_shift",
+      "notation": "iː uː yː → ai au ɔy",
+      "sort_year": 1350
     },
     {
       "id": "tp-worms-mahzor",

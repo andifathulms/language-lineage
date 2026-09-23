@@ -74,7 +74,10 @@
       "sources": [
         { "citation": "Jespersen, Otto. 1909. A Modern English Grammar on Historical Principles, Part I: Sounds and Spellings. Heidelberg: Carl Winter.", "url": null },
         { "citation": "Lass, Roger. 1999. Phonology and morphology. In The Cambridge History of the English Language, vol. 3: 1476–1776, ed. Roger Lass. Cambridge: Cambridge University Press.", "url": null }
-      ]
+      ],
+      "process": "vowel_shift",
+      "notation": "iː uː → aɪ aʊ · eː oː → iː uː · aː → eɪ",
+      "sort_year": 1550
     },
     {
       "id": "tp-global-english",

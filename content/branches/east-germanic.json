@@ -51,7 +51,10 @@
       "contested": true,
       "sources": [
         { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
-      ]
+      ],
+      "process": "assimilation",
+      "notation": "*-jj- *-ww- → Gothic -ddj- -ggw-, Norse -ggj- -ggv-",
+      "sort_year": 200
     },
     {
       "id": "tp-gothic-alphabet",

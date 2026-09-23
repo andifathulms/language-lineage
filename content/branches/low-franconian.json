@@ -57,7 +57,10 @@
       "contested": false,
       "sources": [
         { "citation": "Willemyns, Roland. 2013. Dutch: Biography of a Language. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "vowel_shift",
+      "notation": "iː yː → ɛi œy",
+      "sort_year": 1600
     },
     {
       "id": "tp-cape-dutch",

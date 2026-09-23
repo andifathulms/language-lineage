@@ -34,7 +34,10 @@
       "sources": [
         { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null },
         { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null }
-      ]
+      ],
+      "process": "vowel_shift",
+      "notation": "ei au øy → eː øː øː",
+      "sort_year": 1000
     },
     {
       "id": "tp-provincial-laws",
@@ -70,7 +73,10 @@
       "contested": true,
       "sources": [
         { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
-      ]
+      ],
+      "process": "lenition",
+      "notation": "p t k → b d ɡ / V _ (weakened further in speech)",
+      "sort_year": 1400
     },
     {
       "id": "tp-reformation-bibles",

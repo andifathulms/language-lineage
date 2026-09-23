@@ -38,7 +38,10 @@
         { "citation": "Rask, Rasmus. 1818. Undersøgelse om det gamle Nordiske eller Islandske Sprogs Oprindelse. Copenhagen: Gyldendal.", "url": null },
         { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
         { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "consonant_shift",
+      "notation": "*p *t *k → *f *θ *x · *b *d *g → *p *t *k · *bʰ *dʰ *gʰ → *β *ð *ɣ",
+      "sort_year": -500
     },
     {
       "id": "tp-verners-law",
@@ -51,7 +54,10 @@
       "sources": [
         { "citation": "Verner, Karl. 1877. Eine Ausnahme der ersten Lautverschiebung. Zeitschrift für vergleichende Sprachforschung 23: 97–130.", "url": null },
         { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null }
-      ]
+      ],
+      "process": "lenition",
+      "notation": "*f *θ *x *s → *β *ð *ɣ *z / after an unaccented syllable",
+      "sort_year": -400
     },
     {
       "id": "tp-initial-stress",
@@ -63,7 +69,10 @@
       "contested": false,
       "sources": [
         { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
-      ]
+      ],
+      "process": "prosody",
+      "notation": "σ σ ˈσ → ˈσ σ σ (stress fixed on the root's first syllable)",
+      "sort_year": -250
     },
     {
       "id": "tp-celtic-contact",
