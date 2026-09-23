@@ -405,9 +405,9 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               y = n.extinct ? n.end.y - 30 : n.end.y - 44;
             }
             const sub = n.isLeaf
-              ? n.descendants.length > 2
-                ? `${n.descendants.slice(0, 2).join(" · ")} +${n.descendants.length - 2}`
-                : n.descendants.join(" · ")
+              ? n.descendants.length > 1
+                ? `${n.descendants[0]} +${n.descendants.length - 1}`
+                : n.descendants.join("")
               : null;
             return (
               <Link

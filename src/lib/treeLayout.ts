@@ -217,7 +217,7 @@ export function layoutTree(
     }
     return leafMemo.get(id)!;
   };
-  const girth = (id: string) => 7 + 8 * leafCount(id);
+  const girth = (id: string) => 6 + 9 * Math.sqrt(leafCount(id)); // sqrt keeps wide families from a bloated trunk
 
   const internalY = (d: number) => groundY - ((groundY - canopyY) * (d + 1)) / (maxInternal + 2);
 
