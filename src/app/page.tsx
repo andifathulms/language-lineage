@@ -63,6 +63,15 @@ export default function Home() {
             );
           })}
         </ul>
+        <p className="mt-10 border-t border-ring/60 pt-6">
+          <Link href="/sound-laws/" className="font-display text-xl font-semibold no-underline hover:text-accent">
+            Compare sound laws across families →
+          </Link>
+          <span className="mt-1 block text-bark-soft">
+            Grimm&apos;s law beside the Hawaiian shift, lost final consonants in Germanic and in the Pacific, on one
+            timeline.
+          </span>
+        </p>
       </section>
 
       <section aria-labelledby="reading-heading" className="mt-20 grid gap-10 border-t border-ring/60 pt-10 md:grid-cols-3">

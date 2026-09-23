@@ -1,8 +1,9 @@
+import Link from "next/link";
 import type { Figure, TurningPoint } from "@/lib/types";
 import { TypeGlyph } from "./LineageTree";
 import { InlineMarkdown } from "./Markdown";
 import { SourceList } from "./SourceList";
-import { TP_LABEL } from "./labels";
+import { PROCESS_LABEL, TP_LABEL } from "./labels";
 
 // Vertical ring-mark list: the branch drawn as a single upright limb with
 // each turning point cut into it, oldest at the top.
@@ -45,6 +46,7 @@ export function TurningPointList({
               )}
             </div>
             <h3 className="mt-2 text-xl font-semibold leading-snug">{tp.title}</h3>
+            {tp.notation && <p className="ipa mt-1.5 text-lg text-bark">{tp.notation}</p>}
             <p className="mt-2 max-w-reading leading-relaxed">
               <InlineMarkdown>{tp.description}</InlineMarkdown>
             </p>
@@ -58,6 +60,13 @@ export function TurningPointList({
                     {f.lifespan && <span> ({f.lifespan})</span>}
                   </span>
                 ))}
+              </p>
+            )}
+            {tp.process && (
+              <p className="mt-3 text-sm">
+                <Link href={`/sound-laws/#${tp.process}`}>
+                  Compare with other {PROCESS_LABEL[tp.process].toLowerCase()} across families →
+                </Link>
               </p>
             )}
             <SourceList sources={tp.sources} />

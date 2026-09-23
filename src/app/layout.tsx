@@ -32,13 +32,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <header className="border-b border-ring/60">
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-4 sm:px-6">
             <Link href="/" className="group flex items-center gap-2.5 no-underline">
               <RingGlyph className="h-7 w-7 text-heartwood transition-transform duration-base ease-grow group-hover:rotate-[20deg]" />
               <span className="font-display text-lg font-semibold tracking-tight text-bark">Language Lineage</span>
             </Link>
             <nav aria-label="Primary" className="font-label text-xs uppercase tracking-[0.14em] text-bark-soft">
-              <ul className="flex gap-5">
+              <ul className="flex flex-wrap gap-x-5 gap-y-1">
                 {getFamilies().map((f) => (
                   <li key={f.slug}>
                     <Link href={`/${f.slug}/`} className="no-underline hover:text-accent">
@@ -46,6 +46,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link href="/sound-laws/" className="no-underline hover:text-accent">
+                    Sound laws
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
