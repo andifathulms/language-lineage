@@ -1,0 +1,115 @@
+{
+  "id": "oceanic",
+  "family": "austronesian",
+  "name": "Oceanic",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": ["polynesian"],
+  "era": "c. 1500 BCE – present",
+  "region": "Coastal New Guinea, the Bismarck Archipelago and the Solomons, then Vanuatu, New Caledonia, Micronesia, Fiji and Polynesia",
+  "defining_innovation": "Among a set of shared innovations, the Malayo-Polynesian schwa merged with *o: PMP *enem 'six' became Proto-Oceanic *onom, so Malay enam but Fijian and Hawaiian ono.",
+  "descendants": ["Fijian", "Tolai", "Motu", "Kiribati", "Chuukese"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Oceanic is the largest well-established subgroup of Austronesian, with roughly 500 languages, from the coasts of New Guinea to Hawaii and Rapa Nui. Its ancestor, Proto-Oceanic, is among the best-reconstructed proto-languages anywhere, thanks to work by Andrew Pawley, Malcolm Ross and their colleagues. Its vocabulary describes outrigger canoes, sails, reef fishing, taro and yams, pigs and chickens.\n\nMost scholars link Proto-Oceanic with the **Lapita** cultural complex, known from distinctive dentate-stamped pottery that appears in the Bismarck Archipelago around 1350 BCE. The link rests on matching time, place and material culture. It is persuasive, but the evidence is indirect."
+    },
+    {
+      "title": "Into Remote Oceania",
+      "body": "Within a few centuries, Lapita voyagers did something no humans had done before. They sailed beyond the Solomons into islands that had never been inhabited: Vanuatu, New Caledonia, Fiji, and by about 900 BCE Tonga and Samoa. Each group was out of sight of the last, and the speed of the spread implies deliberate navigation, not drift.\n\nThe Oceanic languages that stayed in the west, around New Guinea, lived beside Papuan languages that had been there for tens of thousands of years. Several adopted Papuan features, such as verb-final word order. In the east, the settlers had no neighbours, and the language changed only by descent."
+    },
+    {
+      "title": "Recent History",
+      "body": "European contact brought writing, largely through missionaries. Fijian spelling, devised in the 1830s, uses *c* for `ð` and *b* for `ᵐb`, which is why the chief written *Cakobau* is pronounced 'Thakombau'. The 19th-century plantation labour trade brought speakers of many Oceanic languages together and produced English-based pidgins, which became **Tok Pisin**, **Bislama** and **Solomons Pijin**. Their grammar owes a good deal to Oceanic languages such as Tolai."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-poc-schwa",
+      "branch_id": "oceanic",
+      "date": "c. 1500 BCE",
+      "type": "SOUND_LAW",
+      "title": "Schwa becomes *o",
+      "description": "The Malayo-Polynesian schwa merges with `*o`: `*enem` 'six' → `*onom`, `*telu` 'three' → `*tolu`. It is one of the sound changes that mark all Oceanic languages as descendants of a single ancestor.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-lapita",
+      "branch_id": "oceanic",
+      "date": "c. 1350 BCE",
+      "type": "SPLIT",
+      "title": "Lapita in the Bismarcks",
+      "description": "Lapita pottery appears in the Bismarck Archipelago, usually identified with speakers of Proto-Oceanic. How much of the Lapita package came with migrants from Island Southeast Asia and how much developed locally is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kirch, Patrick V. 2000. On the Road of the Winds: An Archaeological History of the Pacific Islands before European Contact. Berkeley: University of California Press.", "url": null },
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-papuan-contact",
+      "branch_id": "oceanic",
+      "date": "c. 1300 BCE onward",
+      "type": "CONTACT",
+      "title": "Papuan neighbours",
+      "description": "Western Oceanic languages around New Guinea live alongside unrelated Papuan languages, and some take on Papuan structure, notably verb-final word order in many languages of the Papuan Tip.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-remote-oceania",
+      "branch_id": "oceanic",
+      "date": "c. 1100–900 BCE",
+      "type": "SPLIT",
+      "title": "Into Remote Oceania",
+      "description": "Lapita settlers reach uninhabited Vanuatu, New Caledonia, Fiji, Tonga and Samoa within a few centuries. The Central Pacific languages (Fijian, Rotuman, Polynesian) descend from the easternmost groups.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kirch, Patrick V. 2000. On the Road of the Winds: An Archaeological History of the Pacific Islands before European Contact. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-fijian-orthography",
+      "branch_id": "oceanic",
+      "date": "1830s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Missionary spelling of Fijian",
+      "description": "Methodist missionaries devise a Fijian orthography with one letter per sound: *c* for `ð`, *b* for `ᵐb`, *d* for `ⁿd`, *q* for `ᵑɡ`. It is still in use.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-melanesian-pidgins",
+      "branch_id": "oceanic",
+      "date": "19th – 20th century CE",
+      "type": "CONTACT",
+      "title": "Plantation pidgins",
+      "description": "Labourers recruited from across Melanesia to plantations in Queensland, Samoa and Fiji develop an English-based pidgin with Oceanic grammar. It becomes Tok Pisin, Bislama and Solomons Pijin, now the most widely spoken languages of their countries.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-central-pacific",
+      "branch_id": "oceanic",
+      "proposed_grouping": "Central Pacific: Fijian, Rotuman and Polynesian form one subgroup within Oceanic",
+      "status": "widely_accepted",
+      "evidence_for": "The three share sound changes and vocabulary not found elsewhere in Oceanic. Geraghty showed that the Fijian dialects form a chain running into Polynesian, which fits a single colonising population around Fiji and western Polynesia.",
+      "evidence_against": "Because it was a dialect chain, the internal structure of Central Pacific is not a clean tree: western and eastern Fijian share features with Polynesian to different degrees. Rotuman's position is clouded by heavy borrowing from Polynesian languages.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Geraghty, Paul A. 1983. The History of the Fijian Languages. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
