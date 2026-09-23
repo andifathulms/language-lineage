@@ -1,0 +1,103 @@
+{
+  "id": "high-german",
+  "family": "germanic",
+  "name": "High German",
+  "parent_ids": ["west-germanic"],
+  "successor_ids": [],
+  "era": "c. 6th century CE – present",
+  "region": "The uplands of central and southern Germany, Austria, Switzerland, Luxembourg and Alsace; Yiddish across Central and Eastern Europe",
+  "defining_innovation": "The Second (High German) Consonant Shift: p, t, k became pf/ff, ts/ss and ch (English pound, water, make against German Pfund, Wasser, machen).",
+  "descendants": ["German", "Swiss German", "Bavarian", "Luxembourgish", "Yiddish"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "'High' here means geographically higher: the uplands and Alps of the south, as opposed to the lowlands of the north. High German is the part of West Germanic that went through the **second consonant shift**. The shift was strongest in the far south, in Alemannic and Bavarian (together *Upper German*). It weakened northward through the *Central German* dialects, which shifted some consonants and some words and not others.\n\nOld High German, the stage from about 750 to 1050, is not one language but a set of written dialects, each tied to a monastery or court: Alemannic at St Gall and Reichenau, Bavarian at Freising and Regensburg, East Franconian at Fulda. The oldest book is the *Abrogans*, a Latin–German glossary of the late 8th century."
+    },
+    {
+      "title": "From Old to New High German",
+      "body": "Between the 12th and 16th centuries, a change that began in Bavarian spread north and west: the long vowels `iː`, `uː` and `yː` became diphthongs. Middle High German *mīn niuwez hūs* became modern *mein neues Haus* 'my new house'. Most of Alemannic never took part, and Swiss German *Huus* and *Ziit* still have the old vowels.\n\nThe written standard grew out of the chanceries of the east-central territories and was spread by printing. Martin Luther's Bible (New Testament 1522, complete Bible 1534) followed the Saxon chancery usage and did more than any other book to spread it. Spoken dialects continued to differ widely, and in Switzerland they are still the everyday language of all classes."
+    },
+    {
+      "title": "Yiddish",
+      "body": "Yiddish is the language of Ashkenazi Jews. It formed when medieval Jewish communities spoke the German of their Christian neighbours, wrote it in Hebrew script, and mixed in a large Hebrew–Aramaic vocabulary. After the eastward migrations of the late Middle Ages it gained a Slavic layer as well. Where it began is still argued. **Max Weinreich** placed its origins in the Rhineland communities of about the 10th century, while others point to Bavarian and East Central German features that suggest a more south-eastern base.\n\nBefore the Second World War Yiddish had perhaps eleven to thirteen million speakers. The Holocaust destroyed most of its heartland. Today it is spoken mainly in Hasidic communities, where it is growing, and studied and revived as a literary language elsewhere."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-high-german-shift",
+      "branch_id": "high-german",
+      "date": "c. 6th–8th century CE",
+      "type": "SOUND_LAW",
+      "title": "High German consonant shift",
+      "description": "Voiceless stops become affricates or fricatives in the southern dialects: `p t k` → `pf ts x` (English *pound*, *ten*, *make* : German *Pfund*, *zehn*, *machen*). Its dating is disputed, and so is how it spread: outward from the Alpine south, or arising in several places at once.",
+      "contested": true,
+      "sources": [
+        { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ohg-writing",
+      "branch_id": "high-german",
+      "date": "Late 8th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old High German in the monasteries",
+      "description": "Monastic scribes begin writing German in the Latin alphabet, first as glosses on Latin texts. The *Abrogans* glossary is usually counted as the oldest German book. Spelling varies by monastery, because there is no standard to follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "Salmons, Joseph. 2018. A History of German: What the Past Reveals about Today's Language, 2nd ed. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yiddish-emergence",
+      "branch_id": "high-german",
+      "date": "c. 10th – 13th century CE",
+      "type": "SPLIT",
+      "title": "Yiddish takes shape",
+      "description": "The German of Ashkenazi communities develops into a separate language, with a Hebrew–Aramaic component and, after the eastward migrations, a Slavic one. Weinreich's Rhineland origin is disputed by scholars who see a Bavarian or East Central German base.",
+      "contested": true,
+      "sources": [
+        { "citation": "Weinreich, Max. 1980. History of the Yiddish Language, trans. Shlomo Noble. Chicago: University of Chicago Press.", "url": null },
+        { "citation": "Jacobs, Neil G. 2005. Yiddish: A Linguistic Introduction. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nhg-diphthongisation",
+      "branch_id": "high-german",
+      "date": "12th – 16th century CE",
+      "type": "SOUND_LAW",
+      "title": "New High German diphthongisation",
+      "description": "Long `iː uː yː` become `ai au oi`: *mīn niuwez hūs* → *mein neues Haus*. It starts in Bavarian and spreads north through the written standard. Most Alemannic dialects keep the old vowels (Swiss German *Huus*).",
+      "contested": false,
+      "sources": [
+        { "citation": "Salmons, Joseph. 2018. A History of German: What the Past Reveals about Today's Language, 2nd ed. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-worms-mahzor",
+      "branch_id": "high-german",
+      "date": "1272",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "German in Hebrew script",
+      "description": "A rhymed blessing written into the Worms Mahzor, a Hebrew prayer book, is the earliest securely dated sentence in Yiddish. It is German in Hebrew letters, the writing practice that would define Yiddish.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jacobs, Neil G. 2005. Yiddish: A Linguistic Introduction. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-luxembourgish",
+      "branch_id": "high-german",
+      "date": "1984",
+      "type": "REVITALIZATION",
+      "title": "Luxembourgish as national language",
+      "description": "Luxembourg's language law of 1984 declares Luxembourgish, a Moselle Franconian variety, the national language, alongside French and German as administrative languages. A local dialect becomes a written national language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["jacob-grimm", "max-weinreich"]
+}

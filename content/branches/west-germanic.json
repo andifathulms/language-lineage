@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "West Germanic",
   "parent_ids": ["proto-germanic"],
-  "successor_ids": ["anglo-frisian"],
+  "successor_ids": ["anglo-frisian", "high-german"],
   "era": "c. 2nd–5th century CE – present",
   "region": "The North Sea coast and the Rhine, Weser and Elbe basins; later Britain",
   "defining_innovation": "West Germanic gemination: a consonant other than r doubled after a short vowel before *j (Gothic satjan, Old English settan 'to set').",
@@ -19,7 +19,7 @@
     },
     {
       "title": "The Second Consonant Shift",
-      "body": "Between about the 6th and 8th centuries, the southern West Germanic dialects went through a second round of consonant shifting, and this is what separates High German from everything else in the branch. Voiceless stops became affricates or fricatives depending on position: `p` → `pf`/`ff`, `t` → `ts`/`ss`, `k` → `x` (spelt *ch*). English *pound*, *water*, *make* correspond to German *Pfund*, *Wasser*, *machen*.\n\nThe shift is strongest in the south and weakens northward in a series of staggered isoglosses, the 'Rhenish fan'. The best known, the *Benrath line* (*maken* : *machen*), still divides Low German and Dutch from High German. Jacob Grimm, who had already formulated the first shift, described this one too."
+      "body": "Between about the 6th and 8th centuries the southern dialects went through a second round of consonant shifting: English *pound*, *water*, *make* against German *Pfund*, *Wasser*, *machen*. The shift is strongest in the south and fades northward in a series of staggered isoglosses, the 'Rhenish fan'. The best known of them, the *Benrath line* (*maken* : *machen*), still divides Low German and Dutch from High German. Because the shift is what defines High German, its turning point is recorded on that branch."
     },
     {
       "title": "Daughter Branches",
@@ -77,19 +77,6 @@
       ]
     },
     {
-      "id": "tp-high-german-shift",
-      "branch_id": "west-germanic",
-      "date": "c. 6th–8th century CE",
-      "type": "SOUND_LAW",
-      "title": "High German consonant shift",
-      "description": "Voiceless stops become affricates or fricatives in the southern dialects: `p t k` → `pf ts x` (English *pound*, *ten*, *make* : German *Pfund*, *zehn*, *machen*). Its dating is disputed, and so is how it spread: outward from the Alpine south, or arising in several places at once.",
-      "contested": true,
-      "sources": [
-        { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
-        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
-      ]
-    },
-    {
       "id": "tp-latin-script-west",
       "branch_id": "west-germanic",
       "date": "7th–8th century CE",
@@ -130,5 +117,5 @@
       ]
     }
   ],
-  "figure_ids": ["jacob-grimm"]
+  "figure_ids": []
 }

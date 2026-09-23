@@ -10,7 +10,7 @@
     "id": "jacob-grimm",
     "name": "Jacob Grimm",
     "lifespan": "1785–1863",
-    "branch_ids": ["proto-germanic", "west-germanic"],
+    "branch_ids": ["proto-germanic", "high-german"],
     "turning_point_ids": ["tp-grimms-law", "tp-high-german-shift"]
   },
   {
@@ -40,5 +40,12 @@
     "lifespan": "1813–1896",
     "branch_ids": ["west-norse"],
     "turning_point_ids": ["tp-nynorsk"]
+  },
+  {
+    "id": "max-weinreich",
+    "name": "Max Weinreich",
+    "lifespan": "1894–1969",
+    "branch_ids": ["high-german"],
+    "turning_point_ids": ["tp-yiddish-emergence"]
   }
 ]
