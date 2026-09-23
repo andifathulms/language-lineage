@@ -72,7 +72,9 @@ export interface ClassificationArc {
   status: ClassificationStatus;
   from: Pt;
   to: Pt;
-  apex: Pt;
+  c1: Pt;
+  c2: Pt;
+  peak: Pt; // highest point of the arc, where its label sits
 }
 
 export interface TreeLayout {
@@ -157,10 +159,11 @@ export function layoutTree(
   rootId: string,
   classifications: TreeClassificationInput[],
   width = 1000,
-  height = 720,
+  height = 780,
 ): TreeLayout {
   const groundY = height - 130;
-  const canopyY = 170;
+  const canopyY = 250;
+  const arcBandY = 36;
   const marginX = 120;
   const byId = new Map(branches.map((b) => [b.id, b]));
   const kids = (id: string) => (byId.get(id)?.successor_ids ?? []).filter((s) => byId.has(s));
@@ -210,7 +213,7 @@ export function layoutTree(
     }
     return leafMemo.get(id)!;
   };
-  const girth = (id: string) => 5 + 6 * leafCount(id);
+  const girth = (id: string) => 7 + 8 * leafCount(id);
 
   const internal = branches.filter((b) => kids(b.id).length);
   const maxInternal = internal.length ? Math.max(...internal.map((b) => depthOf(b.id))) : 0;
@@ -288,13 +291,17 @@ export function layoutTree(
     });
   }
 
-  // Contested groupings float outside the tree proper as dotted arcs.
+  // Contested groupings float outside the tree proper: dotted arcs that rise
+  // from the two limbs into a band above the canopy.
   const arcs: ClassificationArc[] = [];
   for (const c of classifications) {
     const linked = c.linked.filter((id) => nodes.has(id));
     for (let i = 0; i + 1 < linked.length; i++) {
-      const a = bezierPoint(nodes.get(linked[i])!.limb, 0.9);
-      const z = bezierPoint(nodes.get(linked[i + 1])!.limb, 0.9);
+      const a = bezierPoint(nodes.get(linked[i])!.limb, 0.86);
+      const z = bezierPoint(nodes.get(linked[i + 1])!.limb, 0.86);
+      const inset = (z.x - a.x) * 0.22;
+      const c1 = { x: a.x + inset, y: arcBandY };
+      const c2 = { x: z.x - inset, y: arcBandY };
       arcs.push({
         key: `${c.id}-${i}`,
         id: c.id,
@@ -302,7 +309,9 @@ export function layoutTree(
         status: c.status,
         from: a,
         to: z,
-        apex: { x: (a.x + z.x) / 2, y: Math.min(a.y, z.y) - 105 },
+        c1,
+        c2,
+        peak: { x: (a.x + 3 * c1.x + 3 * c2.x + z.x) / 8, y: (a.y + 3 * c1.y + 3 * c2.y + z.y) / 8 },
       });
     }
   }

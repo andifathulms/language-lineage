@@ -78,6 +78,8 @@ function SnappedTip({ node }: { node: TreeNode }) {
   return (
     <path
       aria-hidden="true"
+      data-grow="snap"
+      data-delay={node.depth * STAGGER_MS + LIMB_MS * 0.9}
       d={`M${x - w},${y + 1}L${x - w * 0.4},${y - 5}L${x},${y - 1}L${x + w * 0.5},${y - 7}L${x + w},${y + 1}Z`}
       className="fill-bark-soft"
       fillOpacity={0.55}
@@ -280,11 +282,10 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
 
         {/* Contested classifications: outside the tree proper, dotted, lower confidence. */}
         {layout.arcs.map((a) => {
-          const mid = { x: (a.from.x + 2 * a.apex.x + a.to.x) / 4, y: (a.from.y + 2 * a.apex.y + a.to.y) / 4 };
           return (
             <g key={a.key} data-grow="arc" data-delay={arcsDelay}>
               <path
-                d={`M${a.from.x},${a.from.y} Q${a.apex.x},${a.apex.y} ${a.to.x},${a.to.y}`}
+                d={`M${a.from.x},${a.from.y} C${a.c1.x},${a.c1.y} ${a.c2.x},${a.c2.y} ${a.to.x},${a.to.y}`}
                 fill="none"
                 className="stroke-accent"
                 strokeOpacity={a.status === "widely_accepted" ? 0.75 : a.status === "minority_position" ? 0.5 : 0.3}
@@ -294,7 +295,7 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               />
               <circle cx={a.from.x} cy={a.from.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
               <circle cx={a.to.x} cy={a.to.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
-              <text x={mid.x} y={mid.y - 8} textAnchor="middle" className="fill-accent font-display italic" fontSize={13}>
+              <text x={a.peak.x} y={a.peak.y - 9} textAnchor="middle" className="tree-halo fill-accent font-display italic" fontSize={14}>
                 {a.label}?
               </text>
             </g>
@@ -330,8 +331,8 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
             y = n.extinct ? n.end.y - 30 : n.end.y - 44;
           }
           const sub = n.isLeaf
-            ? n.descendants.length > 3
-              ? `${n.descendants.slice(0, 3).join(" · ")} +${n.descendants.length - 3}`
+            ? n.descendants.length > 2
+              ? `${n.descendants.slice(0, 2).join(" · ")} +${n.descendants.length - 2}`
               : n.descendants.join(" · ")
             : null;
           return (
@@ -345,12 +346,12 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               onBlur={() => setHoverBranch(null)}
             >
               <g data-grow="label" data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.85}>
-                <text x={x} y={y} textAnchor={anchor} className="fill-bark font-display font-semibold" fontSize={n.isLeaf ? 18 : 16}>
+                <text x={x} y={y} textAnchor={anchor} className="tree-halo fill-bark font-display font-semibold" fontSize={n.isLeaf ? 18 : 16}>
                   {n.name}
                   {n.extinct ? " †" : ""}
                 </text>
                 {sub && (
-                  <text x={x} y={y + 16} textAnchor={anchor} className="fill-bark-soft font-label uppercase" fontSize={9} letterSpacing="0.1em">
+                  <text x={x} y={y + 16} textAnchor={anchor} className="tree-halo fill-bark-soft font-label uppercase" fontSize={9} letterSpacing="0.1em">
                     {sub}
                   </text>
                 )}

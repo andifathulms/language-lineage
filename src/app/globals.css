@@ -164,3 +164,10 @@ html.js .tree-pre [data-limb] {
 .tree-label:focus-visible text:first-child {
   fill: rgb(var(--accent));
 }
+/* Cartographic halo: text knocks out lines that pass behind it. */
+.tree-halo {
+  paint-order: stroke;
+  stroke: rgb(var(--cream));
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
