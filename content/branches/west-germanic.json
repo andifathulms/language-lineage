@@ -1,0 +1,134 @@
+{
+  "id": "west-germanic",
+  "family": "germanic",
+  "name": "West Germanic",
+  "parent_ids": ["proto-germanic"],
+  "successor_ids": ["anglo-frisian"],
+  "era": "c. 2nd–5th century CE – present",
+  "region": "The North Sea coast and the Rhine, Weser and Elbe basins; later Britain",
+  "defining_innovation": "West Germanic gemination: a consonant other than r doubled after a short vowel before *j (Gothic satjan, Old English settan 'to set').",
+  "descendants": ["English", "Frisian", "Dutch", "Low German", "German", "Luxembourgish", "Yiddish", "Afrikaans"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "West Germanic is the branch left behind on the continent between the North Sea and the Alps after East Germanic speakers moved away and Nordic speech went its own way. It has the most speakers of any Germanic branch today, including English, German and Dutch, but in its early centuries it is almost silent. Apart from a few runic inscriptions and names, the first real texts come in the 7th and 8th centuries, by which point the daughter languages are already distinct."
+    },
+    {
+      "title": "A Unity or a Continuum?",
+      "body": "Whether West Germanic was ever a single language is one of the family's longest-running arguments. In the 1940s Friedrich Maurer proposed five early Germanic groups based on archaeology and tribal names: North Sea, Weser-Rhine, Elbe, Oder-Vistula and North Germanic. On that view, 'West Germanic' is a later convergence of neighbours rather than a node on the tree.\n\nThe case for a real West Germanic ancestor rests on shared changes that are hard to explain as coincidence. **Gemination** doubled consonants before `*j`: Gothic *satjan* but Old Saxon *settian*, Old English *settan*. Final `*-z` was lost: Gothic *dags*, Old Norse *dagr* but Old English *dæg*, Old High German *tag*. There are shared morphological innovations as well, such as the second-person singular past-tense ending *-i*. Old English *nōme* and Old High German *nāmi* 'you took' contrast with Gothic *namt*. Ringe and Taylor (2014) conclude that these add up to a genuine clade."
+    },
+    {
+      "title": "The Second Consonant Shift",
+      "body": "Between about the 6th and 8th centuries, the southern West Germanic dialects went through a second round of consonant shifting, and this is what separates High German from everything else in the branch. Voiceless stops became affricates or fricatives depending on position: `p` → `pf`/`ff`, `t` → `ts`/`ss`, `k` → `x` (spelt *ch*). English *pound*, *water*, *make* correspond to German *Pfund*, *Wasser*, *machen*.\n\nThe shift is strongest in the south and weakens northward in a series of staggered isoglosses, the 'Rhenish fan'. The best known, the *Benrath line* (*maken* : *machen*), still divides Low German and Dutch from High German. Jacob Grimm, who had already formulated the first shift, described this one too."
+    },
+    {
+      "title": "Daughter Branches",
+      "body": "West Germanic is conventionally divided into three groups:\n\n- **Anglo-Frisian**: English and Frisian, the one daughter branch covered in depth here\n- **Low Franconian and Low German**: Dutch, Afrikaans, Low Saxon, which did not take part in the second shift\n- **High German**: Standard German, Swiss German, Bavarian, Luxembourgish, and Yiddish, which formed through the contact of medieval German with Hebrew, Aramaic and Slavic\n\nThe exact internal groupings, especially the position of Old Saxon, which shares several 'North Sea' features with English and Frisian, are themselves disputed."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-west-split",
+      "branch_id": "west-germanic",
+      "date": "c. 2nd–4th century CE",
+      "type": "SPLIT",
+      "title": "West Germanic emerges",
+      "description": "The continental dialects south of Scandinavia develop shared innovations of their own. Whether they did this as a unified language or as a network of neighbouring dialects is a central dispute (see Contested Classifications).",
+      "contested": true,
+      "sources": [
+        { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null },
+        { "citation": "Maurer, Friedrich. 1942. Nordgermanen und Alemannen. Strasbourg: Hünenburg.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-wg-gemination",
+      "branch_id": "west-germanic",
+      "date": "c. 3rd–5th century CE",
+      "type": "SOUND_LAW",
+      "title": "West Germanic gemination",
+      "description": "Consonants other than `r` are doubled after a short vowel before `*j`: `*satjan-` → Old English *settan*, Old Saxon *settian* 'to set'. The doubling often outlived the `j` that caused it: Gothic *bidjan* 'to ask' against Old English *biddan*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-final-z-loss",
+      "branch_id": "west-germanic",
+      "date": "Before the earliest West Germanic texts",
+      "type": "SOUND_LAW",
+      "title": "Loss of final *-z",
+      "description": "Proto-Germanic final `*-z` disappears in West Germanic, while Gothic keeps it as `-s` and Norse as `-r`: `*dagaz` 'day' → Old English *dæg*, Old High German *tag*, against Gothic *dags* and Old Norse *dagr*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-frankish-contact",
+      "branch_id": "west-germanic",
+      "date": "5th–9th century CE",
+      "type": "CONTACT",
+      "title": "Franks in Gaul",
+      "description": "Frankish rule over northern Gaul leaves a Germanic layer in Gallo-Romance: Old French *guerre* 'war' (from Frankish `*werra`), *blanc* 'white', and *jardin* 'garden'. It may also have influenced French phonology, although that is less certain. The Frankish-speaking elite eventually adopts Romance, while in the north-east Frankish dialects continue into Dutch.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-high-german-shift",
+      "branch_id": "west-germanic",
+      "date": "c. 6th–8th century CE",
+      "type": "SOUND_LAW",
+      "title": "High German consonant shift",
+      "description": "Voiceless stops become affricates or fricatives in the southern dialects: `p t k` → `pf ts x` (English *pound*, *ten*, *make* : German *Pfund*, *zehn*, *machen*). Its dating is disputed, and so is how it spread: outward from the Alpine south, or arising in several places at once.",
+      "contested": true,
+      "sources": [
+        { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-latin-script-west",
+      "branch_id": "west-germanic",
+      "date": "7th–8th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Latin alphabet via the missions",
+      "description": "Christian missions bring the Latin alphabet into use for Old English and Old High German. English scribes added letters for sounds Latin lacked: `þ` and `ƿ` (wynn), both taken from runes, `ð`, and `æ`.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-west-germanic-unity",
+      "branch_id": "west-germanic",
+      "proposed_grouping": "West Germanic as a single ancestral language, and not a later convergence of separate groups",
+      "status": "widely_accepted",
+      "evidence_for": "A set of shared innovations that is hard to attribute to chance: gemination before `*j`, loss of final `*-z`, the second-person singular past-tense ending *-i*, and several changes to pronouns and verb classes. Ringe and Taylor (2014) argue that together they require a common West Germanic ancestor.",
+      "evidence_against": "Maurer's five-group model and later continuum approaches read the same features as spreading between already distinct neighbours. Some of the innovations are missing, or only partly present, at the edges of the area. It is also hard to find a time and place where one West Germanic speech community could have existed.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null },
+        { "citation": "Maurer, Friedrich. 1942. Nordgermanen und Alemannen. Strasbourg: Hünenburg.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-ingvaeonic",
+      "branch_id": "west-germanic",
+      "proposed_grouping": "North Sea Germanic (Ingvaeonic) as a genetic subgroup: Old English, Old Frisian and Old Saxon descend from one ancestor within West Germanic",
+      "status": "minority_position",
+      "evidence_for": "The three share distinctive changes, most famously the loss of a nasal before a fricative with lengthening of the vowel: Old English *gōs* 'goose', *ūs* 'us', *fīf* 'five', and Old Saxon *ūs*, *fīf*, against German *Gans*, *uns*, *fünf*. They also share a single verb ending for all persons of the plural, and pronouns without a final *r* (Old English *wē*, *hē* against German *wir*, *er*).",
+      "evidence_against": "Old Saxon shows these features unevenly and otherwise patterns with the continental dialects, so most scholars treat 'North Sea Germanic' as a zone where features spread along the coast rather than a node of the tree. The features are real, but the genealogical reading is disputed.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
+        { "citation": "Stiles, Patrick V. 1995. Remarks on the 'Anglo-Frisian' thesis. In Friesische Studien II (NOWELE Supplement 12). Odense: Odense University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["jacob-grimm"]
+}
