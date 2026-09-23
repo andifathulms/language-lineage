@@ -1,0 +1,120 @@
+{
+  "id": "malayic",
+  "family": "austronesian",
+  "name": "Malayic",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Western Borneo, Sumatra and the Malay Peninsula; through Malay, the whole archipelago",
+  "defining_innovation": "A subgroup set up by shared sound changes and vocabulary reconstructed for Proto-Malayic (Adelaar 1992), whose homeland was most likely western Borneo. Its best-known member, Malay, became the lingua franca of island Southeast Asia.",
+  "descendants": ["Malay", "Indonesian", "Minangkabau", "Iban", "Banjar"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Malayic is a close-knit subgroup: Malay, Minangkabau, Iban, Banjar and several dozen related languages. Alexander Adelaar reconstructed its common ancestor, Proto-Malayic, in 1992. The greatest diversity of Malayic languages is in western Borneo, and most scholars place the homeland there, from which speakers crossed to southeastern Sumatra and the Malay Peninsula.\n\nMalay itself became the most important language of the Austronesian world. Its history is unusually well documented for the region, and it is written in three different scripts in succession."
+    },
+    {
+      "title": "Old Malay and Srivijaya",
+      "body": "Old Malay is one of the earliest written Austronesian languages; only a short Old Cham inscription from Vietnam, probably of the 4th century, is clearly older. A group of inscriptions from the kingdom of Srivijaya in southern Sumatra (Kedukan Bukit, 683 CE; Talang Tuwo, 684; Kota Kapur, 686) records royal expeditions, oaths and a Buddhist foundation. They are written in a script derived from South Indian Pallava and are full of Sanskrit. Srivijaya dominated the Strait of Malacca for centuries, and its language travelled with its ships: the Laguna Copperplate from the Philippines (900 CE) is also written in a form of Old Malay."
+    },
+    {
+      "title": "Language of the Straits",
+      "body": "From the 15th century the Sultanate of Malacca made Malay the language of Islam and trade in the archipelago. It came to be written in **Jawi**, an adaptation of the Arabic script, and took in Arabic and Persian vocabulary (*kitab* 'book', *ilmu* 'knowledge', *waktu* 'time'). Later layers came from Portuguese (*meja* 'table', *jendela* 'window', *gereja* 'church', *sepatu* 'shoe'), Hokkien Chinese (*teh* 'tea', *mi* 'noodles') and Dutch.\n\nThe Europeans who arrived found Malay already in use from Sumatra to the Moluccas. When Magellan's expedition reached Tidore in 1521, **Antonio Pigafetta** wrote down a Malay word list, one of the earliest records of the language by a European."
+    },
+    {
+      "title": "Indonesian and Malaysian",
+      "body": "In the Dutch East Indies, Malay became the language of administration alongside Dutch, and Charles van Ophuijsen's spelling (1901) standardised it in Latin letters. On 28 October 1928 the Youth Congress in Batavia adopted the *Sumpah Pemuda* (Youth Pledge), which proclaimed 'Bahasa Indonesia' the language of national unity. Choosing Malay, and not the numerically larger Javanese, gave the new nation a language that belonged to no single dominant group. The 1945 constitution made it the national language.\n\nIndonesian and Malaysian Malay are two standards of one language, differing in vocabulary and, until 1972, in spelling. That year both countries adopted a common spelling (in Indonesia, the *Ejaan yang Disempurnakan*). Indonesian now has more than two hundred million speakers, most of whom speak another regional language at home."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-malayic-borneo",
+      "branch_id": "malayic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Proto-Malayic in western Borneo",
+      "description": "The ancestor of the Malayic languages develops in western Borneo and spreads to Sumatra and the Malay Peninsula. The Borneo homeland rests on where Malayic diversity is greatest, and it is widely but not universally accepted.",
+      "contested": true,
+      "sources": [
+        { "citation": "Adelaar, K. Alexander. 1992. Proto-Malayic: The Reconstruction of Its Phonology and Parts of Its Lexicon and Morphology. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-srivijaya-inscriptions",
+      "branch_id": "malayic",
+      "date": "683–686 CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old Malay inscriptions of Srivijaya",
+      "description": "The Kedukan Bukit, Talang Tuwo and Kota Kapur inscriptions are written in Pallava-derived script, in Old Malay heavily mixed with Sanskrit. They are among the earliest texts in any Austronesian language, preceded only by the short Old Cham inscription of Đông Yên Châu.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-jawi",
+      "branch_id": "malayic",
+      "date": "14th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Jawi: Malay in Arabic script",
+      "description": "With Islam, Malay starts to be written in an adapted Arabic alphabet with extra letters for sounds Arabic lacks. The Terengganu Inscription Stone is the oldest known Jawi text, though whether it dates from 1303 or later in the 14th century is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sneddon, James. 2003. The Indonesian Language: Its History and Role in Modern Society. Sydney: UNSW Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-malay-lingua-franca",
+      "branch_id": "malayic",
+      "date": "15th – 17th century CE",
+      "type": "CONTACT",
+      "title": "Lingua franca of the archipelago",
+      "description": "Under Malacca and its successor sultanates, Malay becomes the language of trade and Islam across island Southeast Asia and absorbs Arabic, Persian, Portuguese and Chinese words. Pigafetta's word list of 1521, recorded in the Moluccas, shows how far it had spread.",
+      "contested": false,
+      "sources": [
+        { "citation": "Tadmor, Uri. 2009. Loanwords in Indonesian. In Loanwords in the World's Languages: A Comparative Handbook, ed. Martin Haspelmath & Uri Tadmor. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Sneddon, James. 2003. The Indonesian Language: Its History and Role in Modern Society. Sydney: UNSW Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-van-ophuijsen",
+      "branch_id": "malayic",
+      "date": "1901",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Van Ophuijsen's Latin spelling",
+      "description": "The colonial government adopts a standard Latin-alphabet spelling for Malay, with Dutch-influenced conventions such as *oe* for `u` and *tj* for `tʃ`. These were simplified in 1947 and replaced in 1972 by a spelling shared with Malaysia.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sneddon, James. 2003. The Indonesian Language: Its History and Role in Modern Society. Sydney: UNSW Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sumpah-pemuda",
+      "branch_id": "malayic",
+      "date": "1928",
+      "type": "SPLIT",
+      "title": "Sumpah Pemuda: Bahasa Indonesia",
+      "description": "The Youth Pledge of 28 October 1928 names Malay, as 'Bahasa Indonesia', the language of national unity. From then on Indonesian develops as a standard separate from the Malay of British Malaya, and the 1945 constitution makes it the national language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sneddon, James. 2003. The Indonesian Language: Its History and Role in Modern Society. Sydney: UNSW Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-malayo-sumbawan",
+      "branch_id": "malayic",
+      "proposed_grouping": "Malayo-Sumbawan: Malayic, Chamic, Sundanese, Madurese and Balinese–Sasak–Sumbawa form one subgroup",
+      "status": "minority_position",
+      "evidence_for": "Adelaar identified sound changes and vocabulary shared by these groups. The grouping would explain why Chamic, spoken in Vietnam and Cambodia, is so close to Malay, and why Malay, Sundanese and Balinese resemble each other more than they resemble Javanese.",
+      "evidence_against": "Blust argues that the evidence is thin and partly explained by borrowing from Malay, which influenced every language in the region. He places Malayic instead in a 'Greater North Borneo' subgroup together with most languages of northern and western Borneo. The two proposals cannot both be right, and neither has won general acceptance.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Adelaar, K. Alexander. 2005. Malayo-Sumbawan. Oceanic Linguistics 44(2).", "url": null },
+        { "citation": "Blust, Robert. 2010. The Greater North Borneo hypothesis. Oceanic Linguistics 49(1).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["antonio-pigafetta"]
+}

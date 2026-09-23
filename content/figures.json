@@ -61,5 +61,12 @@
     "lifespan": "1940–2022",
     "branch_ids": ["malayo-polynesian"],
     "turning_point_ids": ["tp-mp-mergers"]
+  },
+  {
+    "id": "antonio-pigafetta",
+    "name": "Antonio Pigafetta",
+    "lifespan": "c. 1491–c. 1531",
+    "branch_ids": ["malayic"],
+    "turning_point_ids": ["tp-malay-lingua-franca"]
   }
 ]
