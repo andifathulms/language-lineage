@@ -81,7 +81,7 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
           <p className="mt-4 max-w-reading text-lg leading-relaxed text-bark-soft">{family.summary}</p>
         </header>
 
-        <section aria-label={`${family.name} lineage tree`} className="-mx-2 sm:mx-0">
+        <section aria-label={`${family.name} lineage tree`}>
           <LineageTree
             familySlug={family.slug}
             rootId={family.root_branch_id}
