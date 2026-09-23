@@ -7,7 +7,7 @@ Two families are covered:
 - **Germanic** (Indo-European), 12 branches. v1 proved the format on a five-node thread here, and it was then widened: Proto-Germanic → East Germanic †, North Germanic (→ West Norse, East Norse), West Germanic (→ Anglo-Frisian (→ Anglic, Frisian), Low German, Low Franconian, High German).
 - **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
 
-Next on PRD.md's v2 list is the comparative sound-law view, which lines up sound changes across the two families.
+The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
 See [PRD.md](PRD.md) for scope, [DESIGN.md](DESIGN.md) for visual identity and [CLAUDE.md](CLAUDE.md) for build notes.
 
@@ -34,6 +34,7 @@ content/
 Conventions:
 
 - **IPA and reconstructed forms** go in inline code (`` `*kuningaz` ``). They render in Gentium Plus as selectable text.
+- **Sound laws** (`SOUND_LAW` turning points) must also set `process` (the kind of change, used as the comparison row), `notation` (the change in IPA, e.g. `*p *t *k → *f *θ *x`) and `sort_year` (a rough midpoint for the timeline; negative is BCE). The free-text `date` stays the text of record.
 - **Turning points** are listed oldest first. The tree places them along the limb in that order.
 - **Contested classifications** may set `linked_branch_ids` to draw a dotted arc between the branches the grouping would join.
 - Each family file sets `buried_root`, the ancestry below its root branch. Setting `proven: false` draws the roots faint and dashed.
