@@ -1,0 +1,85 @@
+{
+  "id": "frisian",
+  "family": "germanic",
+  "name": "Frisian",
+  "parent_ids": ["anglo-frisian"],
+  "successor_ids": [],
+  "era": "c. 5th century CE – present (texts from the 13th century)",
+  "region": "The North Sea coast from Fryslân (Netherlands) to North Frisia (Schleswig-Holstein), with Saterland in Lower Saxony",
+  "defining_innovation": "The half of Anglo-Frisian that stayed on the continent, keeping the coastal changes it shared with English while developing its own, such as West Frisian breaking (stien 'stone' but stiennen 'stones').",
+  "descendants": ["West Frisian", "North Frisian", "Saterland Frisian", "Wangerooge Frisian †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "In the early Middle Ages the Frisians held a long strip of the North Sea coast and were among the leading traders of the region. Their language is the continental twin of Old English, and the two share brightening, palatalisation and many other changes. Frisian, however, is written down only from the 13th century, in a rich body of legal texts, so its early history must be reconstructed from comparison and place names.\n\nFrom the coast, Frisian settlers moved north into what became North Frisia, on the islands and marshes of the west coast of Schleswig, probably in two waves. That separation is one reason North Frisian differs so much from the Frisian of the Netherlands."
+    },
+    {
+      "title": "Three Small Languages",
+      "body": "Frisian lost ground for five centuries. In the Netherlands, Dutch replaced it as the written language around 1500. The poet **Gysbert Japicx** (1603–1666) kept a literary tradition alive, but Frisian remained mainly a spoken language. East of the Ems, East Frisian gave way almost entirely to Low German. It survives only in the Saterland, a once-isolated fen district, while the dialect of the island of Wangerooge died out in the 20th century.\n\nWhat remains is three languages that are not mutually intelligible: **West Frisian**, spoken by several hundred thousand people in Fryslân; **North Frisian**, a group of very diverse island and mainland dialects; and **Saterland Frisian**, one of the smallest languages of Europe."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-north-frisian-settlement",
+      "branch_id": "frisian",
+      "date": "c. 7th – 11th century CE",
+      "type": "SPLIT",
+      "title": "Frisians settle North Frisia",
+      "description": "Frisian speakers settle the islands and coastal marshes of western Schleswig, probably in an earlier wave to the islands and a later one to the mainland. The number and dating of the waves are debated, and they are partly reconstructed from dialect differences.",
+      "contested": true,
+      "sources": [
+        { "citation": "Munske, Horst Haider, ed. 2001. Handbuch des Friesischen / Handbook of Frisian Studies. Tübingen: Niemeyer.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-old-frisian-laws",
+      "branch_id": "frisian",
+      "date": "13th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old Frisian law codes",
+      "description": "The Frisian lands, largely free of feudal lords, write down their laws in Frisian, including the Seventeen Statutes and the Twenty-four Land Laws. These texts are the first large body of written Frisian.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bremmer, Rolf H., Jr. 2009. An Introduction to Old Frisian: History, Grammar, Reader, Glossary. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dutch-replaces-frisian",
+      "branch_id": "frisian",
+      "date": "c. 1500",
+      "type": "CONTACT",
+      "title": "Dutch takes over the writing",
+      "description": "After Friesland lost its independence at the end of the 15th century, Dutch replaced Frisian in administration and law. Frisian continued as a spoken language, and its only written use for the next centuries was literary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bremmer, Rolf H., Jr. 2009. An Introduction to Old Frisian: History, Grammar, Reader, Glossary. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-east-frisian-decline",
+      "branch_id": "frisian",
+      "date": "15th – 20th century CE",
+      "type": "EXTINCTION",
+      "title": "East Frisian gives way to Low German",
+      "description": "On the mainland between the Ems and the Weser, East Frisian is replaced by Low German, which is why 'East Frisian' there now refers to a Low German dialect. It survives only in Saterland. The Wangerooge dialect died out in the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Munske, Horst Haider, ed. 2001. Handbuch des Friesischen / Handbook of Frisian Studies. Tübingen: Niemeyer.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-frisian-revitalisation",
+      "branch_id": "frisian",
+      "date": "19th – 21st century",
+      "type": "REVITALIZATION",
+      "title": "West Frisian regains standing",
+      "description": "A Frisian movement grows from the 19th century onward. After the 1951 'Kneppelfreed' protests over the use of Frisian in court, Dutch law gradually allows the language in the courts, schools and administration of Fryslân, and a 2014 act gives it an equal legal footing with Dutch in the province. North and Saterland Frisian remain seriously endangered.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}

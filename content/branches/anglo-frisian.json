@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "Anglo-Frisian",
   "parent_ids": ["west-germanic"],
-  "successor_ids": ["anglic"],
+  "successor_ids": ["anglic", "frisian"],
   "era": "c. 4th–5th century CE – present",
   "region": "The Frisian coast of the North Sea; lowland Britain",
   "defining_innovation": "Anglo-Frisian brightening: West Germanic *a fronted to æ (Old English dæg, Old Frisian dei, against Old Saxon dag), together with palatalisation of *k before front vowels.",
@@ -89,18 +89,6 @@
       "sources": [
         { "citation": "Bede. c. 731. Historia ecclesiastica gentis Anglorum, I.15.", "url": null },
         { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
-      ]
-    },
-    {
-      "id": "tp-frisian-revitalisation",
-      "branch_id": "anglo-frisian",
-      "date": "19th – 21st century",
-      "type": "REVITALIZATION",
-      "title": "West Frisian regains standing",
-      "description": "A Frisian movement grows from the 19th century onward. After the 1951 'Kneppelfreed' protests over the use of Frisian in court, Dutch law gradually allows the language in the courts, schools and administration of Fryslân, and a 2014 act gives it an equal legal footing with Dutch in the province. North and Saterland Frisian remain seriously endangered.",
-      "contested": false,
-      "sources": [
-        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
       ]
     }
   ],
