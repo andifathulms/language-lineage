@@ -2,6 +2,12 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Branch, Family, Figure, TurningPoint } from "./types";
 
+export interface SoundLawEntry {
+  tp: TurningPoint;
+  branch: Branch;
+  family: Family;
+}
+
 // Build-time content access. Everything is read from /content at build and
 // baked into the static export; nothing here runs in the browser.
 
@@ -70,4 +76,16 @@ export function familyStats(familySlug: string) {
     turningPoints: branches.reduce((n, b) => n + b.turning_points.length, 0),
     contested: branches.reduce((n, b) => n + b.contested_classifications.length, 0),
   };
+}
+
+/** Every sound law across all families, oldest first, for the comparative view. */
+export function getSoundLaws(): SoundLawEntry[] {
+  const { families, branches } = load();
+  return branches
+    .flatMap((branch) =>
+      branch.turning_points
+        .filter((tp) => tp.type === "SOUND_LAW")
+        .map((tp) => ({ tp, branch, family: families.find((f) => f.slug === branch.family)! })),
+    )
+    .sort((a, b) => (a.tp.sort_year ?? 0) - (b.tp.sort_year ?? 0));
 }
