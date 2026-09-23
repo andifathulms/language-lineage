@@ -41,13 +41,35 @@ function seeded(id: string) {
 export function TypeGlyph({ type, className }: { type: TurningPointType; className?: string }) {
   switch (type) {
     case "SPLIT":
-      return <path d="M0,-4.5L4.5,0L0,4.5L-4.5,0Z" className={`fill-cream stroke-accent ${className ?? ""}`} strokeWidth={1.4} />;
+      return (
+        <path
+          d="M0,-4.5L4.5,0L0,4.5L-4.5,0Z"
+          className={`fill-cream stroke-accent ${className ?? ""}`}
+          strokeWidth={1.4}
+        />
+      );
     case "CONTACT":
       return <circle r={3.4} className={`fill-accent ${className ?? ""}`} />;
     case "WRITING_SYSTEM_ADOPTED":
-      return <rect x={-3.2} y={-3.2} width={6.4} height={6.4} className={`fill-cream stroke-accent ${className ?? ""}`} strokeWidth={1.4} />;
+      return (
+        <rect
+          x={-3.2}
+          y={-3.2}
+          width={6.4}
+          height={6.4}
+          className={`fill-cream stroke-accent ${className ?? ""}`}
+          strokeWidth={1.4}
+        />
+      );
     case "EXTINCTION":
-      return <path d="M-3.4,-3.4L3.4,3.4M3.4,-3.4L-3.4,3.4" className={`stroke-bark ${className ?? ""}`} strokeWidth={1.6} strokeLinecap="round" />;
+      return (
+        <path
+          d="M-3.4,-3.4L3.4,3.4M3.4,-3.4L-3.4,3.4"
+          className={`stroke-bark ${className ?? ""}`}
+          strokeWidth={1.6}
+          strokeLinecap="round"
+        />
+      );
     case "REVITALIZATION":
       return <path d="M0,-4.6L4.2,3.4L-4.2,3.4Z" className={`fill-moss ${className ?? ""}`} />;
     case "SOUND_LAW":
@@ -231,10 +253,23 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               strokeLinecap="round"
             />
           ))}
-          <text x={rootBase.x} y={height - 26} textAnchor="middle" className="fill-bark-soft font-display italic" fontSize={15}>
+          <text
+            x={rootBase.x}
+            y={height - 26}
+            textAnchor="middle"
+            className="fill-bark-soft font-display italic"
+            fontSize={15}
+          >
             Proto-Indo-European
           </text>
-          <text x={rootBase.x} y={height - 10} textAnchor="middle" className="fill-bark-soft font-label uppercase" fontSize={9} letterSpacing="0.14em">
+          <text
+            x={rootBase.x}
+            y={height - 10}
+            textAnchor="middle"
+            className="fill-bark-soft font-label uppercase"
+            fontSize={9}
+            letterSpacing="0.14em"
+          >
             buried root · outside v1
           </text>
         </g>
@@ -266,19 +301,49 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
         {layout.nodes
           .filter((n) => !n.isLeaf)
           .map((n) => (
-            <circle key={`collar-${n.id}`} cx={n.end.x} cy={n.end.y} r={n.limb.w1 / 2} className="fill-heartwood" data-grow="collar" data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.9} />
+            <circle
+              key={`collar-${n.id}`}
+              cx={n.end.x}
+              cy={n.end.y}
+              r={n.limb.w1 / 2}
+              className="fill-heartwood"
+              data-grow="collar"
+              data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.9}
+            />
           ))}
         {layout.nodes
           .filter((n) => n.graft)
           .map((n) => (
             <g key={`graft-${n.id}`} data-grow="graft" data-delay={n.depth * STAGGER_MS}>
-              <ellipse cx={n.graft!.x} cy={n.graft!.y} rx={n.limb.w0 * 0.75} ry={n.limb.w0 * 0.45} className="fill-heartwood stroke-bark" strokeWidth={1.2} />
-              <line x1={n.graft!.x - n.limb.w0 * 0.7} x2={n.graft!.x + n.limb.w0 * 0.7} y1={n.graft!.y} y2={n.graft!.y} className="stroke-cream" strokeWidth={1.2} />
+              <ellipse
+                cx={n.graft!.x}
+                cy={n.graft!.y}
+                rx={n.limb.w0 * 0.75}
+                ry={n.limb.w0 * 0.45}
+                className="fill-heartwood stroke-bark"
+                strokeWidth={1.2}
+              />
+              <line
+                x1={n.graft!.x - n.limb.w0 * 0.7}
+                x2={n.graft!.x + n.limb.w0 * 0.7}
+                y1={n.graft!.y}
+                y2={n.graft!.y}
+                className="stroke-cream"
+                strokeWidth={1.2}
+              />
             </g>
           ))}
 
-        {layout.nodes.filter((n) => n.isLeaf && !n.extinct).map((n) => <Canopy key={`canopy-${n.id}`} node={n} />)}
-        {layout.nodes.filter((n) => n.isLeaf && n.extinct).map((n) => <SnappedTip key={`snap-${n.id}`} node={n} />)}
+        {layout.nodes
+          .filter((n) => n.isLeaf && !n.extinct)
+          .map((n) => (
+            <Canopy key={`canopy-${n.id}`} node={n} />
+          ))}
+        {layout.nodes
+          .filter((n) => n.isLeaf && n.extinct)
+          .map((n) => (
+            <SnappedTip key={`snap-${n.id}`} node={n} />
+          ))}
 
         {/* Contested classifications: outside the tree proper, dotted, lower confidence. */}
         {layout.arcs.map((a) => {
@@ -295,7 +360,13 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               />
               <circle cx={a.from.x} cy={a.from.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
               <circle cx={a.to.x} cy={a.to.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
-              <text x={a.peak.x} y={a.peak.y - 9} textAnchor="middle" className="tree-halo fill-accent font-display italic" fontSize={14}>
+              <text
+                x={a.peak.x}
+                y={a.peak.y - 9}
+                textAnchor="middle"
+                className="tree-halo fill-accent font-display italic"
+                fontSize={14}
+              >
                 {a.label}?
               </text>
             </g>
@@ -346,12 +417,25 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               onBlur={() => setHoverBranch(null)}
             >
               <g data-grow="label" data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.85}>
-                <text x={x} y={y} textAnchor={anchor} className="tree-halo fill-bark font-display font-semibold" fontSize={n.isLeaf ? 18 : 16}>
+                <text
+                  x={x}
+                  y={y}
+                  textAnchor={anchor}
+                  className="tree-halo fill-bark font-display font-semibold"
+                  fontSize={n.isLeaf ? 18 : 16}
+                >
                   {n.name}
                   {n.extinct ? " †" : ""}
                 </text>
                 {sub && (
-                  <text x={x} y={y + 16} textAnchor={anchor} className="tree-halo fill-bark-soft font-label uppercase" fontSize={9} letterSpacing="0.1em">
+                  <text
+                    x={x}
+                    y={y + 16}
+                    textAnchor={anchor}
+                    className="tree-halo fill-bark-soft font-label uppercase"
+                    fontSize={9}
+                    letterSpacing="0.1em"
+                  >
                     {sub}
                   </text>
                 )}
@@ -361,12 +445,17 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
         })}
       </svg>
 
-      <figcaption aria-live="polite" className="mt-3 flex min-h-[3.5rem] flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ring/60 pt-3 text-sm">
+      <figcaption
+        aria-live="polite"
+        className="mt-3 flex min-h-[3.5rem] flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ring/60 pt-3 text-sm"
+      >
         {active ? (
           <>
             <span className="specimen">{TP_LABEL[active.type]}</span>
             <span className="font-label text-xs text-bark-soft">{active.date}</span>
-            <span className={`font-display text-base font-semibold ${active.contested ? "contested-mark" : ""}`}>{active.title}</span>
+            <span className={`font-display text-base font-semibold ${active.contested ? "contested-mark" : ""}`}>
+              {active.title}
+            </span>
             <span className="text-bark-soft">· {layout.nodes.find((n) => n.id === active.branchId)?.name}</span>
           </>
         ) : (
