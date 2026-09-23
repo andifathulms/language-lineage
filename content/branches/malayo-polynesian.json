@@ -1,0 +1,105 @@
+{
+  "id": "malayo-polynesian",
+  "family": "austronesian",
+  "name": "Malayo-Polynesian",
+  "parent_ids": ["proto-austronesian"],
+  "successor_ids": ["malayic", "barito", "oceanic"],
+  "era": "c. 2500 BCE – present",
+  "region": "The Philippines and Indonesia, then Madagascar, mainland Southeast Asia and the Pacific",
+  "defining_innovation": "Three mergers that no Formosan language shares: *C with *t, *N with *n, and *S becoming *h (Proto-Austronesian *Cau 'person' → Tagalog tao; *Sapuy 'fire' → *hapuy, Malay api).",
+  "descendants": ["Tagalog", "Javanese", "Malay/Indonesian", "Malagasy", "Chamorro", "Fijian", "Hawaiian"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Every Austronesian language outside Taiwan belongs to Malayo-Polynesian. Its ancestor, Proto-Malayo-Polynesian, is defined by a handful of sound mergers. Proto-Austronesian `*C` and `*t` fell together as `*t`, `*N` and `*n` as `*n`, and `*S` weakened to `*h`. So PAn `*Cau` 'person' is Tagalog *tao*, and `*Sapuy` 'fire' became `*hapuy`, later Malay *api* and Tagalog *apoy*. Robert Blust also pointed to a new set of pronouns as evidence that all these languages share one ancestor.\n\nThe mergers probably happened in eastern or southern Taiwan. Some time after 2500 BCE, speakers crossed the Bashi Channel to the Batanes Islands and northern Luzon, where red-slipped pottery of Taiwanese type appears around 2000 BCE."
+    },
+    {
+      "title": "The Great Dispersal",
+      "body": "Over the next two thousand years Malayo-Polynesian speakers spread through the Philippines, Borneo, Sulawesi, Java and Sumatra, and onto the coasts of the Malay Peninsula and Vietnam. Around 1500 BCE a group sailed more than 2,000 kilometres of open sea to the Mariana Islands, the ancestors of the Chamorro. In eastern Indonesia and around New Guinea they met long-established Papuan-speaking populations, and the languages of both sides show the contact.\n\nIn the first millennium CE, Indian religion and statecraft reached the western islands. Sanskrit gave hundreds of words to Malay, Javanese and even Tagalog (Malay *bahasa* 'language', *raja* 'king', *agama* 'religion'; Tagalog *guro* 'teacher', from *guru*), and Brahmi-derived scripts came into use across the region."
+    },
+    {
+      "title": "Subgroups",
+      "body": "This tree follows three well-supported branches of Malayo-Polynesian: **Malayic**, **Barito** and **Oceanic**. The groupings between them are less certain. 'Western Malayo-Polynesian', long used for everything from the Philippines to Madagascar, is now generally seen as a geographical grouping without a common ancestor. Blust places Oceanic within 'Central-Eastern' and 'Eastern' Malayo-Polynesian, but these intermediate nodes are disputed, so here Oceanic grows directly from Malayo-Polynesian."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-mp-mergers",
+      "branch_id": "malayo-polynesian",
+      "date": "c. 2500–2000 BCE",
+      "type": "SOUND_LAW",
+      "title": "The Malayo-Polynesian mergers",
+      "description": "`*C` merges with `*t`, `*N` with `*n`, and `*S` becomes `*h`. Every language outside Taiwan shows these mergers, which is the main evidence that they all descend from one ancestor.",
+      "contested": false,
+      "sources": [
+        { "citation": "Blust, Robert. 1977. The Proto-Austronesian pronouns and Austronesian subgrouping: A preliminary report. University of Hawaii Working Papers in Linguistics 9(2).", "url": null },
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-out-of-taiwan",
+      "branch_id": "malayo-polynesian",
+      "date": "c. 2200–2000 BCE",
+      "type": "SPLIT",
+      "title": "Out of Taiwan",
+      "description": "Settlers cross from Taiwan to the Batanes Islands and northern Luzon. The 'Out of Taiwan' model is widely held, but alternatives that place the expansion's centre in Island Southeast Asia (Solheim's *Nusantao* network, Oppenheimer's 'Out of Sundaland') still have advocates.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bellwood, Peter. 2005. First Farmers: The Origins of Agricultural Societies. Oxford: Blackwell.", "url": null },
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-marianas",
+      "branch_id": "malayo-polynesian",
+      "date": "c. 1500 BCE",
+      "type": "SPLIT",
+      "title": "Open-sea voyage to the Marianas",
+      "description": "Settlers reach the Mariana Islands directly from the Philippines, one of the longest sea crossings known from this early a date. Chamorro descends from their language. The date of settlement is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sanskrit-contact",
+      "branch_id": "malayo-polynesian",
+      "date": "1st millennium CE",
+      "type": "CONTACT",
+      "title": "Sanskrit and Indic kingdoms",
+      "description": "Hindu-Buddhist kingdoms such as Srivijaya and Mataram bring Sanskrit vocabulary into western Malayo-Polynesian languages: Malay *bahasa*, *raja*, *agama*, *negara*, and Tagalog *guro*. Much of it comes by way of Malay.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-brahmic-scripts",
+      "branch_id": "malayo-polynesian",
+      "date": "7th – 10th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Brahmi-derived scripts",
+      "description": "Scripts descended from South Indian Pallava writing are adapted for Old Malay, Old Javanese (Kawi) and other languages. The Laguna Copperplate Inscription (900 CE), the oldest known document from the Philippines, is written in Kawi script in a form of Old Malay.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-western-mp",
+      "branch_id": "malayo-polynesian",
+      "proposed_grouping": "Western Malayo-Polynesian: the languages of the Philippines, western Indonesia and Madagascar form one branch",
+      "status": "largely_rejected",
+      "evidence_for": "The languages share a broad profile: Philippine-type voice systems or their remnants, similar morphology, and a long common history of Indic and Islamic contact. For decades the grouping was used as if it were a branch.",
+      "evidence_against": "No sound changes or other innovations shared by all of these languages and no others have been found. Blust himself, who introduced the term, describes it as a residual category for whatever is not Central-Eastern Malayo-Polynesian. Well-defined groups such as Malayic and Barito probably branch separately from Malayo-Polynesian.",
+      "linked_branch_ids": ["malayic", "barito"],
+      "sources": [
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null },
+        { "citation": "Adelaar, Alexander & Nikolaus P. Himmelmann, eds. 2005. The Austronesian Languages of Asia and Madagascar. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["robert-blust"]
+}

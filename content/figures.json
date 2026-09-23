@@ -54,5 +54,12 @@
     "lifespan": "1860–1943",
     "branch_ids": ["anglic"],
     "turning_point_ids": ["tp-great-vowel-shift"]
+  },
+  {
+    "id": "robert-blust",
+    "name": "Robert Blust",
+    "lifespan": "1940–2022",
+    "branch_ids": ["malayo-polynesian"],
+    "turning_point_ids": ["tp-mp-mergers"]
   }
 ]
