@@ -1,0 +1,130 @@
+{
+  "id": "polynesian",
+  "family": "austronesian",
+  "name": "Polynesian",
+  "parent_ids": ["oceanic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Tonga and Samoa, then the Polynesian triangle (Hawaii, Rapa Nui, New Zealand) and the Outliers in Melanesia and Micronesia",
+  "defining_innovation": "Grammatical and sound changes shared by all descendants of Proto-Polynesian, spoken around Tonga and Samoa. Its descendants have some of the smallest consonant inventories known: Hawaiian has eight consonants.",
+  "descendants": ["Tongan", "Samoan", "Māori", "Hawaiian", "Tahitian", "Rapa Nui"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Polynesian took shape in Tonga and Samoa, among Lapita settlers who had arrived around 900 BCE and then stayed put for a long time. Andrew Pawley showed in 1966 that the Polynesian languages divide first into **Tongic** (Tongan, Niuean) and **Nuclear Polynesian** (Samoan, the Outliers and everything in the east), from shared innovations in grammar, not just vocabulary.\n\nThe languages are famous for how few sounds they use and how closely related they remain. Across thousands of kilometres, regular correspondences are easy to see: Proto-Polynesian `*tapu` 'sacred, forbidden' is Tongan and Māori *tapu* and Hawaiian *kapu*, and `*mata` 'eye' is Samoan *mata* and Hawaiian *maka*."
+    },
+    {
+      "title": "The Last Great Migration",
+      "body": "After a long pause in western Polynesia, voyagers pushed east. Radiocarbon dating now places the settlement of the Society Islands around 1000 CE, followed within a few centuries by the corners of the Polynesian triangle: Hawaii, Rapa Nui and, last of all the major landmasses on earth, New Zealand, around 1250–1300. Earlier chronologies put the dates centuries earlier, and the question is not fully closed.\n\nThe spread was so fast that East Polynesian languages stayed close. When James Cook's *Endeavour* reached New Zealand in 1769, **Tupaia**, a navigator and priest from Raiatea near Tahiti, could talk with Māori and interpret for the expedition, thousands of kilometres from home."
+    },
+    {
+      "title": "Writing, Suppression and Revival",
+      "body": "American missionaries arrived in Hawaii in 1820 and within a few years settled on a 12-letter alphabet. Literacy in Hawaiian spread quickly, and a vigorous Hawaiian-language press followed. After the overthrow of the Hawaiian monarchy, an 1896 law made English the only medium of schooling, and by the late 20th century few children spoke Hawaiian. Māori went through a similar decline in New Zealand.\n\nBoth languages have since become models of revitalisation. The Māori *Kōhanga Reo* ('language nest') preschools began in 1982, Hawaii's *Pūnana Leo* followed in 1984, and immersion schooling now runs through to university level. On Rapa Nui the *rongorongo* tablets remain undeciphered, and whether they are true writing, and whether they predate European contact, is still argued."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tonga-samoa",
+      "branch_id": "polynesian",
+      "date": "c. 900 BCE – 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Tongic and Nuclear Polynesian",
+      "description": "Proto-Polynesian develops in Tonga and Samoa and divides into Tongic and Nuclear Polynesian. The long residence in western Polynesia before the eastward push shows in the depth of this first split.",
+      "contested": false,
+      "sources": [
+        { "citation": "Pawley, Andrew. 1966. Polynesian languages: A subgrouping based on shared innovations in morphology. Journal of the Polynesian Society 75.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-east-polynesia",
+      "branch_id": "polynesian",
+      "date": "c. 1000 – 1300 CE",
+      "type": "SPLIT",
+      "title": "Settlement of East Polynesia",
+      "description": "Voyagers settle the Society Islands and then Hawaii, Rapa Nui and New Zealand in a rapid burst. High-precision radiocarbon dating supports this short chronology, but some researchers still argue for earlier dates.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Wilmshurst, Janet M., Terry L. Hunt, Carl P. Lipo & Atholl J. Anderson. 2011. High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia. Proceedings of the National Academy of Sciences 108(5).",
+          "url": null
+        },
+        { "citation": "Kirch, Patrick V. 2000. On the Road of the Winds: An Archaeological History of the Pacific Islands before European Contact. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hawaiian-t-k",
+      "branch_id": "polynesian",
+      "date": "c. 18th – early 19th century CE",
+      "type": "SOUND_LAW",
+      "title": "Hawaiian t becomes k",
+      "description": "Hawaiian `t` shifts to `k` (*tapu* → *kapu*, *mata* → *maka*). Early European records still write *t* in names, such as *Tamehameha* for Kamehameha, which suggests the change was still spreading at contact. The missionaries' spelling fixed *k*. Its exact timing and social spread are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Schütz, Albert J. 1994. The Voices of Eden: A History of Hawaiian Language Studies. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tupaia-1769",
+      "branch_id": "polynesian",
+      "date": "1769",
+      "type": "CONTACT",
+      "title": "Tupaia speaks with Māori",
+      "description": "Aboard Cook's *Endeavour*, the Raiatean navigator Tupaia converses with Māori in New Zealand. Europeans had direct evidence that one language family stretched across the Pacific, and it foreshadowed the comparative work that followed.",
+      "contested": false,
+      "sources": [
+        { "citation": "Druett, Joan. 2011. Tupaia: Captain Cook's Polynesian Navigator. Santa Barbara: Praeger.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hawaiian-alphabet",
+      "branch_id": "polynesian",
+      "date": "1820–1826",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Hawaiian alphabet",
+      "description": "Missionaries and Hawaiian scholars settle on a 12-letter alphabet (five vowels and *h k l m n p w*). Literacy spreads rapidly, and the glottal stop (*ʻokina*) and vowel length (*kahakō*) are marked consistently only in the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Schütz, Albert J. 1994. The Voices of Eden: A History of Hawaiian Language Studies. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-english-only-1896",
+      "branch_id": "polynesian",
+      "date": "1896",
+      "type": "CONTACT",
+      "title": "English-only schooling in Hawaii",
+      "description": "After the overthrow of the monarchy, the Republic of Hawaii makes English the sole medium of instruction. Within two generations Hawaiian is rarely passed to children, except on Niʻihau.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne & Ken Hale, eds. 2001. The Green Book of Language Revitalization in Practice. San Diego: Academic Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-language-nests",
+      "branch_id": "polynesian",
+      "date": "1982–1987",
+      "type": "REVITALIZATION",
+      "title": "Language nests",
+      "description": "Māori *Kōhanga Reo* preschools open in 1982, Hawaiian *Pūnana Leo* in 1984, and the Māori Language Act of 1987 makes Māori an official language of New Zealand. The immersion model is copied by revitalisation movements worldwide.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne & Ken Hale, eds. 2001. The Green Book of Language Revitalization in Practice. San Diego: Academic Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-tongic-nuclear",
+      "branch_id": "polynesian",
+      "proposed_grouping": "Tongic vs Nuclear Polynesian: the first split in Polynesian separates Tongan and Niuean from all the rest",
+      "status": "widely_accepted",
+      "evidence_for": "Pawley identified grammatical innovations shared by Samoan, the Outliers and the East Polynesian languages but absent from Tongan and Niuean. Later work has largely confirmed the division.",
+      "evidence_against": "Tonga and Samoa stayed in close contact for millennia, and borrowing between them blurs the boundary. The internal structure of Nuclear Polynesian, especially the relationships among Samoic and the Outlier languages, is much less clear than the first split.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Pawley, Andrew. 1966. Polynesian languages: A subgrouping based on shared innovations in morphology. Journal of the Polynesian Society 75.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["tupaia"]
+}

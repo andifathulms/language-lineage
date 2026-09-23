@@ -75,5 +75,12 @@
     "lifespan": "1903–1995",
     "branch_ids": ["barito"],
     "turning_point_ids": ["tp-madagascar-settlement"]
+  },
+  {
+    "id": "tupaia",
+    "name": "Tupaia",
+    "lifespan": "c. 1725–1770",
+    "branch_ids": ["polynesian"],
+    "turning_point_ids": ["tp-tupaia-1769"]
   }
 ]
