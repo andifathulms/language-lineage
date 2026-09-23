@@ -1,0 +1,108 @@
+{
+  "id": "anglic",
+  "family": "germanic",
+  "name": "Anglic",
+  "parent_ids": ["anglo-frisian"],
+  "successor_ids": [],
+  "era": "c. 5th century CE (Old English) – present",
+  "region": "Britain, later worldwide",
+  "defining_innovation": "Old English, cut off from the continent by the North Sea, and later reshaped by Norse and French contact far more than its Frisian sister was.",
+  "descendants": ["English", "Scots"],
+  "chapters": [
+    {
+      "title": "Old English",
+      "body": "Anglic is the English side of Anglo-Frisian: Old English and everything that grew from it, including Scots. Old English was written in several dialects (Northumbrian, Mercian, Kentish and, eventually dominant, West Saxon) and had a large literature, from *Beowulf* to the prose of King Alfred's court. It was a fully inflected Germanic language, with grammatical gender and four cases, and it is unreadable to modern English speakers without study."
+    },
+    {
+      "title": "Norse and Norman",
+      "body": "English then went through two episodes of contact that Frisian did not. From the late 9th century, Norse settlement in the Danelaw brought everyday vocabulary (*sky*, *skin*, *egg*, *take*, *window*) and even pronouns (*they*, *them*, *their*). Borrowing that deep suggests close bilingual contact, not just trade. Whether it also sped up English's loss of inflection is disputed.\n\nAfter 1066, Norman French became the language of the ruling class, and thousands of French words entered English, especially in law, government, religion and cuisine. Food words show the social layering: the animal kept its English name (*cow*, *pig*) while the meat on the table took a French one (*beef*, *pork*)."
+    },
+    {
+      "title": "The Great Vowel Shift",
+      "body": "Between about 1400 and 1700 the English long vowels moved. The high vowels became diphthongs, and each lower vowel rose to take the place above it: *bite* went from `[biːt]` to `[baɪt]`, *house* from `[huːs]` to `[haʊs]`, *name* from `[naːm]` towards `[neɪm]`. The spelling had mostly been fixed by the printers before the shift finished. That is the main reason English vowel letters do not match their sounds as they do in most European languages. The Danish linguist **Otto Jespersen** named the change in 1909. Whether it was one connected chain shift or a series of separate changes is still argued."
+    },
+    {
+      "title": "Scots and World English",
+      "body": "In the north, the Northumbrian dialect of Old English developed into **Scots**. By the 14th and 15th centuries it was the language of the Scottish court and of poetry such as Barbour's *Bruce* (1375). After the union of the crowns in 1603 English became the prestige written language in Scotland, and Scots has since existed in a long, blurred continuum with Scottish English.\n\nFrom the 17th century, trade, settlement and empire took English across the world. It is now the most widely used second language on earth, with many national standards. It has also supplied the vocabulary for many creoles, such as Jamaican Creole and Tok Pisin."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-norse-contact-english",
+      "branch_id": "anglic",
+      "date": "Late 9th – 11th century CE",
+      "type": "CONTACT",
+      "title": "Norse in the Danelaw",
+      "description": "Close contact with Old Norse settlers brings basic vocabulary (*sky*, *egg*, *take*) and the pronouns *they*, *them*, *their* into English. Whether Norse contact also sped up the loss of English inflection is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Townend, Matthew. 2002. Language and History in Viking Age England. Turnhout: Brepols.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-norman-contact",
+      "branch_id": "anglic",
+      "date": "1066 – c. 1400",
+      "type": "CONTACT",
+      "title": "Norman French",
+      "description": "After the Norman Conquest, French is the language of the court, law and administration. Thousands of French words enter Middle English, which gives English its characteristic pairs of a native and a French word, such as *cow*/*beef*, *freedom*/*liberty* and *kingly*/*royal*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-scots-split",
+      "branch_id": "anglic",
+      "date": "14th – 15th century CE",
+      "type": "SPLIT",
+      "title": "Scots becomes a national language",
+      "description": "Early Scots, grown from Northumbrian Old English with a strong Norse element, becomes the written language of the Scottish kingdom and its literature, and diverges from the English of the south.",
+      "contested": false,
+      "sources": [
+        { "citation": "Corbett, John, J. Derrick McClure & Jane Stuart-Smith, eds. 2003. The Edinburgh Companion to Scots. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-great-vowel-shift",
+      "branch_id": "anglic",
+      "date": "c. 1400 – 1700",
+      "type": "SOUND_LAW",
+      "title": "The Great Vowel Shift",
+      "description": "The long vowels rise, and the highest become diphthongs: `iː` → `aɪ` (*bite*), `uː` → `aʊ` (*house*), `aː` → `eɪ` (*name*). Scholars dispute its order and cause (whether raising pulled the other vowels or diphthongisation pushed them), and whether it was a single shift at all.",
+      "contested": true,
+      "sources": [
+        { "citation": "Jespersen, Otto. 1909. A Modern English Grammar on Historical Principles, Part I: Sounds and Spellings. Heidelberg: Carl Winter.", "url": null },
+        { "citation": "Lass, Roger. 1999. Phonology and morphology. In The Cambridge History of the English Language, vol. 3: 1476–1776, ed. Roger Lass. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-global-english",
+      "branch_id": "anglic",
+      "date": "17th – 20th century CE",
+      "type": "CONTACT",
+      "title": "English worldwide",
+      "description": "Colonial settlement, trade and empire spread English across North America, Australia, Africa and Asia. It develops national standards, supplies the vocabulary for creoles such as Jamaican Creole and Tok Pisin, and becomes the main international lingua franca of the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Crystal, David. 2003. English as a Global Language, 2nd ed. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-middle-english-creole",
+      "branch_id": "anglic",
+      "proposed_grouping": "Middle English as a creole: contact with French (and Norse) so restructured English that it is a mixed language and not a direct continuation of Old English",
+      "status": "largely_rejected",
+      "evidence_for": "Between Old and Middle English, English lost most of its inflection and grammatical gender, and took in a very large French and Norse vocabulary. Bailey and Maroldt argued that such heavy change under an elite of another language fits creolisation.",
+      "evidence_against": "Basic vocabulary, word formation and core grammar continue Old English without a break. The loss of inflection was already underway in the north before 1066. French influence is mainly lexical, and most French loans entered after 1250, when a bilingual elite was returning to English. Thomason and Kaufman's review of the case found none of the discontinuity that creolisation would require.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Bailey, Charles-James N. & Karl Maroldt. 1977. The French lineage of English. In Langues en contact – Pidgins – Creoles, ed. Jürgen M. Meisel. Tübingen: Narr.", "url": null },
+        { "citation": "Thomason, Sarah Grey & Terrence Kaufman. 1988. Language Contact, Creolization, and Genetic Linguistics. Berkeley: University of California Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["otto-jespersen"]
+}

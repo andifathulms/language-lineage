@@ -47,5 +47,12 @@
     "lifespan": "1894–1969",
     "branch_ids": ["high-german"],
     "turning_point_ids": ["tp-yiddish-emergence"]
+  },
+  {
+    "id": "otto-jespersen",
+    "name": "Otto Jespersen",
+    "lifespan": "1860–1943",
+    "branch_ids": ["anglic"],
+    "turning_point_ids": ["tp-great-vowel-shift"]
   }
 ]

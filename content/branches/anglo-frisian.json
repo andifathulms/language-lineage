@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "Anglo-Frisian",
   "parent_ids": ["west-germanic"],
-  "successor_ids": [],
+  "successor_ids": ["anglic"],
   "era": "c. 4th–5th century CE – present",
   "region": "The Frisian coast of the North Sea; lowland Britain",
   "defining_innovation": "Anglo-Frisian brightening: West Germanic *a fronted to æ (Old English dæg, Old Frisian dei, against Old Saxon dag), together with palatalisation of *k before front vowels.",
@@ -22,12 +22,8 @@
       "body": "In the 5th and 6th centuries, speakers of these coastal dialects settled in lowland Britain. Bede, writing around 731, names them as Angles, Saxons and Jutes. Old English and Old Frisian became separate languages when they were divided by sea. How many people moved, and how much of the British population shifted language instead of being replaced, is still debated by historians, archaeologists and geneticists.\n\nIn Britain, Old English developed rich literary traditions in several dialects (Northumbrian, Mercian, Kentish and West Saxon). The Frisians remained on the continental coast and lost ground over the centuries to Low German and Dutch."
     },
     {
-      "title": "Norse and Norman",
-      "body": "English then went through two episodes of contact that Frisian did not. From the late 9th century, Norse settlement in the Danelaw brought everyday vocabulary (*sky*, *skin*, *egg*, *take*, *window*) and even pronouns (*they*, *them*, *their*). Borrowing that deep suggests close bilingual contact, not just trade. Whether it also sped up English's loss of inflection is disputed.\n\nAfter 1066, Norman French became the language of the ruling class, and thousands of French words entered English, especially in law, government, religion and cuisine. Food words show the social layering: the animal kept its English name (*cow*, *pig*) while the meat on the table took a French one (*beef*, *pork*)."
-    },
-    {
-      "title": "Modern Descendants",
-      "body": "The English side of the branch now includes **English**, one of the most widely spoken languages in history, and **Scots**, which grew out of Northumbrian Old English. The Frisian side survives as three small languages: **West Frisian** in the Dutch province of Fryslân, **North Frisian** on the coast and islands of Schleswig-Holstein, and **Saterland Frisian**, the last remnant of East Frisian, in a few villages in Lower Saxony."
+      "title": "Daughter Branches",
+      "body": "Once the sea divided them, the two halves went separate ways. **Anglic** (Old English, and from it English and Scots) was reshaped by Norse and French contact and spread worldwide. **Frisian** stayed on the continental coast, lost ground over the centuries to Dutch and Low German, and survives as three small languages."
     }
   ],
   "turning_points": [
@@ -93,30 +89,6 @@
       "sources": [
         { "citation": "Bede. c. 731. Historia ecclesiastica gentis Anglorum, I.15.", "url": null },
         { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
-      ]
-    },
-    {
-      "id": "tp-norse-contact-english",
-      "branch_id": "anglo-frisian",
-      "date": "Late 9th – 11th century CE",
-      "type": "CONTACT",
-      "title": "Norse in the Danelaw",
-      "description": "Close contact with Old Norse settlers brings basic vocabulary (*sky*, *egg*, *take*) and the pronouns *they*, *them*, *their* into English. Whether Norse contact also sped up the loss of English inflection is disputed.",
-      "contested": true,
-      "sources": [
-        { "citation": "Townend, Matthew. 2002. Language and History in Viking Age England. Turnhout: Brepols.", "url": null }
-      ]
-    },
-    {
-      "id": "tp-norman-contact",
-      "branch_id": "anglo-frisian",
-      "date": "1066 – c. 1400",
-      "type": "CONTACT",
-      "title": "Norman French",
-      "description": "After the Norman Conquest, French is the language of the court, law and administration. Thousands of French words enter Middle English, which gives English its characteristic pairs of a native and a French word, such as *cow*/*beef*, *freedom*/*liberty* and *kingly*/*royal*.",
-      "contested": false,
-      "sources": [
-        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
       ]
     },
     {
