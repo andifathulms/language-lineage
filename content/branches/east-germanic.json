@@ -1,0 +1,111 @@
+{
+  "id": "east-germanic",
+  "family": "germanic",
+  "name": "East Germanic",
+  "parent_ids": ["proto-germanic"],
+  "successor_ids": [],
+  "era": "c. 1st century BCE – 18th century CE (last traces)",
+  "region": "Vistula basin, then the Black Sea steppe, the Balkans, Italy, Iberia and Crimea",
+  "defining_innovation": "The first branch to leave, before the Northwest Germanic changes, so it is marked as much by what it kept as by what it changed.",
+  "extinct": true,
+  "descendants": ["Gothic †", "Vandalic †", "Burgundian †", "Crimean Gothic †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "East Germanic is the branch whose speakers moved farthest and whose languages disappeared first. Roman and Greek writers place Goths, Vandals, Burgundians, Gepids and Rugians around the lower Vistula at the turn of the era. Over the next four centuries many of them moved south-east to the Black Sea and then west through the collapsing Roman Empire, reaching Italy, southern Gaul, Iberia and North Africa.\n\nThe Goths' own origin story, which the 6th-century historian Jordanes tells in the *Getica*, brings them from 'Scandza' across the Baltic. Historians are divided on whether this preserves a real memory of migration or is a literary construct, and the linguistic evidence does not settle it. The branch's early departure is important for the reconstruction. Changes that North and West Germanic went through together never reached it, which makes Gothic a window onto an older stage of Germanic."
+    },
+    {
+      "title": "Gothic: the Bible and the Alphabet",
+      "body": "Almost everything known about East Germanic comes from one text tradition: the 4th-century Bible translation made by the bishop **Wulfila** for the Goths north of the Danube. It survives in 6th-century manuscripts, most famously the *Codex Argenteus* ('Silver Book') now in Uppsala. This puts Gothic centuries ahead of any other Germanic language in connected text.\n\nGothic keeps features the other branches later lost. It has a synthetic mediopassive (*haitada* 'is called'), reduplicating past tenses (*haíhait* 'was called'), and a dual number in verbs and pronouns. Because of these it has been the backbone of Germanic reconstruction since the 19th century. Gothic spelling has its own conventions: the digraph `ai`, written *aí* in scholarly editions, often stands for a short vowel, roughly `[ɛ]`."
+    },
+    {
+      "title": "Fragments",
+      "body": "The other East Germanic languages survive mostly as names and a handful of words. From Vandalic there are personal names and possibly a short liturgical phrase quoted in a Latin text. Burgundian left names and a few legal terms. The groups that set up kingdoms in the old Roman West, including the Visigoths in Iberia and the Ostrogoths and Vandals in the Mediterranean, generally shifted to the local Latin or Romance within a few generations. Their languages left traces mainly in place names and personal names such as Spanish *Rodrigo* and *Álvaro*."
+    },
+    {
+      "title": "The Long Fade: Crimean Gothic",
+      "body": "One East Germanic variety outlived the others by a thousand years. In the 1560s the Flemish diplomat **Ogier Ghiselin de Busbecq**, then Habsburg ambassador at Constantinople, wrote down about eighty words and a short song from two men connected with Crimea. The word list is clearly Germanic, and some forms point to East Germanic, though not all scholars agree that it descends directly from Wulfila's Gothic. Busbecq's list is garbled in places and survives only in a print with evident errors. How long Crimean Gothic survived after that is unknown. Estimates run to the late 18th century."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-east-split",
+      "branch_id": "east-germanic",
+      "date": "c. 1st century BCE – 1st century CE",
+      "type": "SPLIT",
+      "title": "Departure to the Vistula",
+      "description": "East Germanic speakers separate from the rest before the Northwest Germanic changes. Linguists debate whether East Germanic was a single node or just the scattered remainder, and the traditional link to a Scandinavian homeland rests partly on Jordanes' origin legend.",
+      "contested": true,
+      "sources": [
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-holtzmanns-law",
+      "branch_id": "east-germanic",
+      "date": "Early centuries CE",
+      "type": "SOUND_LAW",
+      "title": "Holtzmann's law",
+      "description": "'Sharpening' of `*-jj-` and `*-ww-` into consonant clusters: Gothic *twaddjē* 'of two' against Old Norse *tveggja* and Old High German *zweiio*. North Germanic has it too (with `ggj`). Whether it was one shared innovation or two parallel developments is the main evidence in the Gotho-Nordic debate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-gothic-alphabet",
+      "branch_id": "east-germanic",
+      "date": "Mid-4th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Wulfila's Gothic alphabet",
+      "description": "To translate the Bible, Wulfila builds an alphabet mostly on Greek uncial letters, with some Latin and probably runic additions (for example for `þ` and `ƕ`). It is the first Germanic writing system designed for long connected text.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Codex Argenteus. 6th century. Uppsala University Library.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-greek-latin-church-contact",
+      "branch_id": "east-germanic",
+      "date": "4th–6th century CE",
+      "type": "CONTACT",
+      "title": "Greek and Latin Christian vocabulary",
+      "description": "Christianisation brings in Greek and Latin church words: *aíkklēsjō* 'church' from Greek *ekklēsía*, and *aípiskaúpus* 'bishop' from *epískopos*. Later, Goths living in Roman provinces shift to the local Latin and Romance languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-crimean-gothic-extinction",
+      "branch_id": "east-germanic",
+      "date": "Last recorded 1560s; probably extinct by the late 18th century",
+      "type": "EXTINCTION",
+      "title": "Crimean Gothic falls silent",
+      "description": "Busbecq's word list from the 1560s is the last substantial record of any East Germanic language. When the last speakers died, and whether Crimean Gothic descends directly from Wulfila's Gothic, are both uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Stearns, MacDonald. 1978. Crimean Gothic: Analysis and Etymology of the Corpus. Saratoga, CA: Anma Libri.", "url": null },
+        { "citation": "Busbecq, Ogier Ghiselin de. 1589. Legationis Turcicae epistolae quatuor. Paris.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-gotho-nordic",
+      "branch_id": "east-germanic",
+      "proposed_grouping": "Gotho-Nordic: East and North Germanic share an ancestor that West Germanic does not",
+      "status": "minority_position",
+      "evidence_for": "Holtzmann's law ('sharpening' of `*-jj-`, `*-ww-`) appears in both Gothic and Norse but not in West Germanic, along with a few shared morphological traits, such as some second-person singular past-tense endings. The idea fits the Goths' traditional Scandinavian origin legend.",
+      "evidence_against": "Sharpening may have arisen independently, since the resulting clusters differ in detail (`ddj` against `ggj`). The shared features could be retentions and not innovations, and retentions do not prove a subgroup. The Northwest Germanic changes, which link North and West Germanic, are more numerous. Most current handbooks prefer a Northwest Germanic node.",
+      "linked_branch_ids": ["east-germanic", "north-germanic"],
+      "sources": [
+        { "citation": "Schwarz, Ernst. 1951. Goten, Nordgermanen, Angelsachsen: Studien zur Ausgliederung der germanischen Sprachen. Bern: Francke.", "url": null },
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["wulfila", "busbecq"]
+}
