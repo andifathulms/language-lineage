@@ -1,0 +1,90 @@
+{
+  "id": "proto-austronesian",
+  "family": "austronesian",
+  "name": "Proto-Austronesian",
+  "parent_ids": [],
+  "successor_ids": ["formosan", "malayo-polynesian"],
+  "era": "c. 4000–3000 BCE (reconstructed)",
+  "region": "Taiwan",
+  "defining_innovation": "The reconstructed ancestor of more than 1,200 languages. It had a consonant system rich in contrasts (*C, *t, *N, *n, *S, *s) that only the languages of Taiwan still keep apart.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Austronesian is reconstructed, like Proto-Germanic, by comparing its descendants. The vocabulary rebuilt this way describes a farming and fishing society: `*pajay` 'rice (plant)' (Malay *padi*), `*Rumaq` 'house' (Malay *rumah*), `*Sapuy` 'fire' (Malay *api*, Hawaiian *ahi*). It also includes basic words that have survived almost unchanged across 20,000 kilometres, such as `*mata` 'eye' and `*lima` 'five', still *mata* and *lima* in Malay and *maka* and *lima* in Hawaiian.\n\nMost linguists and archaeologists place the language in Taiwan, about five to six thousand years ago. Its speakers' ancestors had probably crossed the Taiwan Strait from the coast of what is now southern China, bringing rice and millet farming. No relative on the mainland has been proven, so this tree's roots are drawn dashed."
+    },
+    {
+      "title": "Why Taiwan?",
+      "body": "The argument is linguistic before it is archaeological. The Austronesian languages of Taiwan are few, but between them they make up most of the family's primary branches. All the rest, from Madagascar to Hawaii, belong to a single branch, Malayo-Polynesian. A family's place of origin is usually where its deepest splits are found, just as English's greatest dialect diversity is in England and not in Australia.\n\nTaiwan's languages also keep sound contrasts that every language outside Taiwan has merged. Most Formosan languages still distinguish reflexes of `*C` from `*t` and `*N` from `*n`, while Malayo-Polynesian merged each pair. Archaeology agrees broadly: red-slipped pottery and other traces move from Taiwan into the northern Philippines around 2000 BCE."
+    },
+    {
+      "title": "Daughter Branches",
+      "body": "The first division is between the **Formosan languages**, which stayed in Taiwan, and **Malayo-Polynesian**, which left. 'Formosan' is a geographical label and not a branch: Taiwan's languages form perhaps nine or ten separate primary branches. This tree draws them as one limb for legibility and records the dispute under Contested Classifications."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-taiwan-settlement",
+      "branch_id": "proto-austronesian",
+      "date": "c. 4000–3500 BCE",
+      "type": "SPLIT",
+      "title": "Across the Taiwan Strait",
+      "description": "Farmers from the coast of southern China settle Taiwan, and their language develops into Proto-Austronesian. The link to the mainland is archaeological, not linguistic: no Austronesian relative survives there, and which mainland culture it was is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bellwood, Peter. 2005. First Farmers: The Origins of Agricultural Societies. Oxford: Blackwell.", "url": null },
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pan-breakup",
+      "branch_id": "proto-austronesian",
+      "date": "c. 3000–2500 BCE",
+      "type": "SPLIT",
+      "title": "Breakup within Taiwan",
+      "description": "Proto-Austronesian splits into dialect groups across the island. One of them later leaves Taiwan as the ancestor of Malayo-Polynesian. Both the order of the splits and the number of primary branches are disputed.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Blust, Robert. 1999. Subgrouping, circularity and extinction: some issues in Austronesian comparative linguistics. In Selected Papers from the Eighth International Conference on Austronesian Linguistics, ed. Elizabeth Zeitoun & Paul Jen-kuei Li. Taipei: Academia Sinica.",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-austric",
+      "branch_id": "proto-austronesian",
+      "proposed_grouping": "Austric: Austronesian and Austroasiatic (Mon-Khmer, Munda, Vietnamese) descend from one ancestor",
+      "status": "minority_position",
+      "evidence_for": "Wilhelm Schmidt proposed it in 1906 on the basis of shared word-building morphology, including a causative prefix *pa-* and infixes such as *-m-* and *-n-* found in both families, together with some basic vocabulary. Lawrence Reid has argued that the morphological parallels are too specific to be chance.",
+      "evidence_against": "Few regular sound correspondences have been demonstrated, and the shared words are few enough to be explained by chance or ancient contact. Infixes of this kind also occur in unrelated languages. Most specialists regard Austric as plausible at best but unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Schmidt, Wilhelm. 1906. Die Mon-Khmer-Völker: ein Bindeglied zwischen Völkern Zentralasiens und Austronesiens. Braunschweig: Vieweg.", "url": null },
+        {
+          "citation": "Reid, Lawrence A. 2005. The current status of Austric: A review and evaluation of the lexical and morphosyntactic evidence. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "cc-austro-tai",
+      "branch_id": "proto-austronesian",
+      "proposed_grouping": "Austro-Tai: Austronesian and Kra-Dai (Thai, Lao, Zhuang and relatives) share an ancestor",
+      "status": "minority_position",
+      "evidence_for": "Kra-Dai shares basic vocabulary with Austronesian, often matching the end of the Austronesian word: Proto-Tai *ta* 'eye' beside Austronesian `*mata`, and *taay* 'die' beside `*m-atay`. Ostapirat has shown regular sound correspondences for a core set of such words. Sagart goes further and places Kra-Dai inside Austronesian, as an offshoot from Taiwan.",
+      "evidence_against": "Kra-Dai is tonal and isolating, and centuries of contact with Chinese have overlaid its vocabulary, so the evidence rests on a limited set of words that could reflect early borrowing. Supporters disagree among themselves whether Kra-Dai is a sister of Austronesian or a branch within it. The proposal is taken more seriously than Austric but is not established.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in Southeastern Asia. American Anthropologist 44: 576–601.", "url": null },
+        {
+          "citation": "Ostapirat, Weera. 2005. Kra-Dai and Austronesian: Notes on phonological correspondences and vocabulary distribution. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        },
+        { "citation": "Sagart, Laurent. 2004. The higher phylogeny of Austronesian and the position of Tai-Kadai. Oceanic Linguistics 43(2).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
