@@ -28,6 +28,7 @@ const figureIds = new Set(figures.map((f) => f.id));
 for (const { file, data: f } of families) {
   if (`families/${f.slug}.json` !== file) err(file, `file name should match slug "${f.slug}"`);
   if (!byId.has(f.root_branch_id)) err(file, `root_branch_id "${f.root_branch_id}" not found`);
+  if (!f.buried_root?.name) err(file, "missing buried_root (what lies below the root branch)");
 }
 
 for (const { file, data: b } of branches) {

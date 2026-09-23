@@ -1,0 +1,13 @@
+{
+  "slug": "austronesian",
+  "name": "Austronesian",
+  "superfamily": null,
+  "summary": "Before European expansion, no language family had spread over more of the globe: from Madagascar in the west to Rapa Nui in the east, and from Taiwan to New Zealand. Most scholars trace it to Taiwan. From there, speakers of its languages crossed island by island through the Philippines and Indonesia and out into the Pacific in outrigger canoes. It has more than 1,200 languages, among them Malay and Indonesian, Javanese, Tagalog, Malagasy, Fijian and the Polynesian languages.",
+  "root_branch_id": "proto-austronesian",
+  "buried_root": { "name": "No proven deeper root", "note": "Austric? Austro-Tai? · disputed", "proven": false },
+  "accent": { "light": "138 98 16", "dark": "214 168 72" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Austronesian (aust1307).", "url": "https://glottolog.org/resource/languoid/id/aust1307" },
+    { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+  ]
+}
