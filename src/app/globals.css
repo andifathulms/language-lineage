@@ -71,7 +71,7 @@
 @layer components {
   /* Specimen label: small pinned tag, not a stamp. */
   .specimen {
-    @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-[2px] border border-ring bg-cream px-1.5 py-[1px] font-label text-[0.68rem] font-medium uppercase tracking-[0.12em] text-bark-soft;
+    @apply inline-flex max-w-full items-center gap-1.5 rounded-[2px] border border-ring bg-cream px-1.5 py-[1px] font-label text-[0.68rem] font-medium uppercase tracking-[0.12em] text-bark-soft;
   }
   .specimen::before {
     content: "";

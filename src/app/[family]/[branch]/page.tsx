@@ -79,7 +79,7 @@ export default function BranchPage({ params }: { params: { family: string; branc
           </div>
         </header>
 
-        <div className="grid gap-12 pt-10 lg:grid-cols-[minmax(0,1fr)_17rem]">
+        <div className="grid grid-cols-1 gap-12 pt-10 lg:grid-cols-[minmax(0,1fr)_17rem]">
           <div className="min-w-0">
             {branch.chapters.map((c) => (
               <section key={c.title} id={slugify(c.title)} className="scroll-mt-24 pb-6">
@@ -115,7 +115,7 @@ export default function BranchPage({ params }: { params: { family: string; branc
             )}
           </div>
 
-          <aside className="order-first lg:order-none">
+          <aside className="order-first min-w-0 lg:order-none">
             <div className="space-y-8 lg:sticky lg:top-8">
               <nav aria-label="On this page" className="hidden lg:block">
                 <p className="font-label text-[0.7rem] font-medium uppercase tracking-[0.14em] text-bark-soft">On this page</p>
