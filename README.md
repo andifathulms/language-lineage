@@ -2,14 +2,12 @@
 
 A read-only narrative encyclopedia of language families. It covers how each branch split from its parent, the dated sound laws and contact events behind each split, and the classifications historical linguists still dispute.
 
-The pilot family is **Germanic** (Indo-European). v1 proved the format on a five-node thread, and the tree has since been widened to twelve branches:
+Two families are covered:
 
-- Proto-Germanic → East Germanic †, North Germanic, West Germanic
-- North Germanic → West Norse, East Norse
-- West Germanic → Anglo-Frisian, Low German, Low Franconian, High German
-- Anglo-Frisian → Anglic, Frisian
+- **Germanic** (Indo-European), 12 branches. v1 proved the format on a five-node thread here, and it was then widened: Proto-Germanic → East Germanic †, North Germanic (→ West Norse, East Norse), West Germanic (→ Anglo-Frisian (→ Anglic, Frisian), Low German, Low Franconian, High German).
+- **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
 
-Still to come, from PRD.md's v2 list: more families, then the comparative sound-law view across them.
+Next on PRD.md's v2 list is the comparative sound-law view, which lines up sound changes across the two families.
 
 See [PRD.md](PRD.md) for scope, [DESIGN.md](DESIGN.md) for visual identity and [CLAUDE.md](CLAUDE.md) for build notes.
 
