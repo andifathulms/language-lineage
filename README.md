@@ -2,7 +2,14 @@
 
 A read-only narrative encyclopedia of language families. It covers how each branch split from its parent, the dated sound laws and contact events behind each split, and the classifications historical linguists still dispute.
 
-The v1 pilot covers the **Germanic** thread of Indo-European, five nodes deep: Proto-Germanic → East, North and West Germanic → Anglo-Frisian.
+The pilot family is **Germanic** (Indo-European). v1 proved the format on a five-node thread, and the tree has since been widened to twelve branches:
+
+- Proto-Germanic → East Germanic †, North Germanic, West Germanic
+- North Germanic → West Norse, East Norse
+- West Germanic → Anglo-Frisian, Low German, Low Franconian, High German
+- Anglo-Frisian → Anglic, Frisian
+
+Still to come, from PRD.md's v2 list: more families, then the comparative sound-law view across them.
 
 See [PRD.md](PRD.md) for scope, [DESIGN.md](DESIGN.md) for visual identity and [CLAUDE.md](CLAUDE.md) for build notes.
 
