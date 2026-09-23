@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rasmus-rask",
+    "name": "Rasmus Rask",
+    "lifespan": "1787–1832",
+    "branch_ids": ["proto-germanic"],
+    "turning_point_ids": ["tp-grimms-law"]
+  },
+  {
+    "id": "jacob-grimm",
+    "name": "Jacob Grimm",
+    "lifespan": "1785–1863",
+    "branch_ids": ["proto-germanic", "west-germanic"],
+    "turning_point_ids": ["tp-grimms-law", "tp-high-german-shift"]
+  },
+  {
+    "id": "karl-verner",
+    "name": "Karl Verner",
+    "lifespan": "1846–1896",
+    "branch_ids": ["proto-germanic"],
+    "turning_point_ids": ["tp-verners-law"]
+  },
+  {
+    "id": "wulfila",
+    "name": "Wulfila",
+    "lifespan": "c. 311–383",
+    "branch_ids": ["east-germanic"],
+    "turning_point_ids": ["tp-gothic-alphabet"]
+  },
+  {
+    "id": "busbecq",
+    "name": "Ogier Ghiselin de Busbecq",
+    "lifespan": "1522–1592",
+    "branch_ids": ["east-germanic"],
+    "turning_point_ids": ["tp-crimean-gothic-extinction"]
+  }
+]
