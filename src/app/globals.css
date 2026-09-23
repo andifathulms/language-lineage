@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   Tokens — warm wood-tone neutrals. Values are RGB triplets so Tailwind
+   can apply alpha. --accent is overridden per family (see FamilyAccent).
+   ------------------------------------------------------------------ */
+:root {
+  --bark: 58 42 31;
+  --bark-soft: 107 84 67;
+  --cream: 246 239 225;
+  --heartwood: 138 90 59;
+  --sapwood: 222 203 164;
+  --ring: 203 182 144;
+  --soil: 235 224 201;
+  --moss: 104 115 62;
+  --accent: 156 74 34;
+
+  --ease-grow: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-base: 600ms;
+  --dur-slow: 1100ms;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bark: 236 225 204;
+    --bark-soft: 186 166 142;
+    --cream: 28 22 18;
+    --heartwood: 190 139 101;
+    --sapwood: 92 72 55;
+    --ring: 78 62 49;
+    --soil: 38 30 24;
+    --moss: 151 166 100;
+    --accent: 222 134 84;
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream font-serif text-bark antialiased;
+    font-feature-settings: "kern", "liga", "onum";
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-bark;
+    font-variation-settings: "SOFT" 100, "WONK" 0;
+    letter-spacing: -0.01em;
+  }
+  a {
+    @apply underline decoration-ring decoration-1 underline-offset-[3px] transition-colors duration-base ease-grow;
+  }
+  a:hover {
+    @apply decoration-accent;
+  }
+  :focus-visible {
+    @apply rounded-sm outline outline-2 outline-offset-2 outline-accent;
+  }
+  ::selection {
+    background: rgb(var(--accent) / 0.2);
+  }
+}
+
+@layer components {
+  /* Specimen label: small pinned tag, not a stamp. */
+  .specimen {
+    @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-[2px] border border-ring bg-cream px-1.5 py-[1px] font-label text-[0.68rem] font-medium uppercase tracking-[0.12em] text-bark-soft;
+  }
+  .specimen::before {
+    content: "";
+    @apply inline-block h-1.5 w-1.5 rounded-full bg-heartwood;
+  }
+
+  /* Contested marker: hatched underline in the family accent. */
+  .contested-mark {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      rgb(var(--accent) / 0.85) 0 1.5px,
+      transparent 1.5px 4px
+    );
+    background-size: 100% 4px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    padding-bottom: 5px;
+  }
+
+  .ipa {
+    @apply font-ipa;
+    font-size: 1.06em;
+    font-feature-settings: normal;
+  }
+
+  /* Reading column for chapter prose — no card treatment. */
+  .prose-grown {
+    @apply max-w-reading text-[1.075rem] leading-[1.75];
+  }
+  .prose-grown p {
+    @apply my-5;
+  }
+  .prose-grown em {
+    @apply italic;
+  }
+  .prose-grown strong {
+    @apply font-semibold;
+  }
+  .prose-grown ul {
+    @apply my-5 list-disc pl-6 marker:text-heartwood;
+  }
+  .prose-grown ol {
+    @apply my-5 list-decimal pl-6 marker:text-heartwood;
+  }
+  .prose-grown li {
+    @apply my-1.5;
+  }
+  .prose-grown blockquote {
+    @apply my-6 border-l-2 border-ring pl-5 italic text-bark-soft;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
