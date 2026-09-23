@@ -132,3 +132,35 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ------------------------------------------------------------------
+   Lineage tree
+   ------------------------------------------------------------------ */
+/* With JS, the tree starts ungrown and the growth animation reveals it. */
+html.js .tree-pre [data-grow],
+html.js .tree-pre [data-limb] {
+  opacity: 0;
+}
+.tree-mark {
+  cursor: pointer;
+  outline: none;
+}
+.tree-mark .tree-hit {
+  stroke: transparent;
+  stroke-width: 1.5;
+  transition: stroke var(--dur-base) var(--ease-grow);
+}
+.tree-mark:hover .tree-hit,
+.tree-mark:focus-visible .tree-hit {
+  stroke: rgb(var(--accent) / 0.8);
+}
+.tree-label {
+  outline: none;
+}
+.tree-label text:first-child {
+  transition: fill var(--dur-base) var(--ease-grow);
+}
+.tree-label:hover text:first-child,
+.tree-label:focus-visible text:first-child {
+  fill: rgb(var(--accent));
+}
