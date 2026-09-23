@@ -37,7 +37,7 @@ export default function Home() {
                   <article className="group grid gap-6 border-l-2 border-accent/70 pl-6 md:grid-cols-[1fr_auto] md:items-end">
                     <div>
                       <p className="font-label text-xs uppercase tracking-[0.14em] text-accent">
-                        {f.superfamily ? `${f.superfamily} › ` : ""}pilot family
+                        {f.superfamily ? `Branch of ${f.superfamily}` : "Top-level family"}
                       </p>
                       <h3 className="mt-2 text-4xl font-semibold">
                         <Link href={`/${f.slug}/`} className="no-underline hover:text-accent">

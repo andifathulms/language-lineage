@@ -4,6 +4,7 @@
   "superfamily": "Indo-European",
   "summary": "One branch of Indo-European, grown from a single reconstructed ancestor usually placed in southern Scandinavia and on the north German coast in the last centuries BCE. A consonant shift set it apart; later splits scattered it from the Black Sea to Iceland. Today its canopy includes English, German, Dutch, Frisian and the Scandinavian languages. Gothic, its oldest well-recorded member, is gone.",
   "root_branch_id": "proto-germanic",
+  "buried_root": { "name": "Proto-Indo-European", "note": "buried root · outside this tree", "proven": true },
   "accent": { "light": "156 74 34", "dark": "222 134 84" },
   "sources": [
     { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Germanic (germ1287).", "url": "https://glottolog.org/resource/languoid/id/germ1287" },

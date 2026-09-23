@@ -58,7 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               dating or grouping, the disagreement is stated, not resolved.
             </p>
             <p className="font-label text-[0.7rem] uppercase tracking-[0.14em]">
-              Read-only · corrections by repository edit · v1 pilot family
+              Read-only · corrections by repository edit
             </p>
           </div>
         </footer>

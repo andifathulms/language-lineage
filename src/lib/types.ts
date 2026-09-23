@@ -75,6 +75,8 @@ export interface Family {
   superfamily: string | null;
   summary: string;
   root_branch_id: string;
+  // What lies below the root: shown in the tree's soil and on the root branch page.
+  buried_root: { name: string; note: string; proven: boolean };
   accent: { light: string; dark: string }; // RGB triplets, e.g. "156 74 34"
   sources: Source[];
 }

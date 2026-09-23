@@ -140,7 +140,8 @@ export default function BranchPage({ params }: { params: { family: string; branc
                       <BranchLinks ids={branch.parent_ids} byId={byId} familySlug={family.slug} />
                     ) : (
                       <span className="italic text-bark-soft">
-                        {family.superfamily ? `Proto-${family.superfamily}` : "—"} (outside v1)
+                        {family.buried_root.name}
+                        {family.buried_root.proven ? " (outside this tree)" : ""}
                       </span>
                     )}
                   </dd>

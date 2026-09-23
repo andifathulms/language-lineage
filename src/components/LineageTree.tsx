@@ -22,6 +22,7 @@ const STAGGER_MS = 650;
 interface Props {
   familySlug: string;
   rootId: string;
+  buriedRoot: { name: string; note: string; proven: boolean };
   branches: TreeBranchInput[];
   classifications: TreeClassificationInput[];
 }
@@ -159,7 +160,7 @@ function Mark({ m, href, onFocus, onBlur }: { m: RingMark; href: string; onFocus
   );
 }
 
-export function LineageTree({ familySlug, rootId, branches, classifications }: Props) {
+export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifications }: Props) {
   const layout = useMemo(() => layoutTree(branches, rootId, classifications), [branches, rootId, classifications]);
   const svgRef = useRef<SVGSVGElement>(null);
   const [active, setActive] = useState<RingMark | null>(null);
@@ -251,7 +252,8 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
                 d={`M${rootBase.x + dir * 8},${groundY + 4} C${rootBase.x + dir * 30},${groundY + 30} ${rootBase.x + dir * 70},${groundY + 40 + i * 6} ${rootBase.x + dir * (110 + i * 12)},${groundY + 70 + (i % 2) * 22}`}
                 fill="none"
                 className="stroke-heartwood"
-                strokeOpacity={0.45}
+                strokeOpacity={buriedRoot.proven ? 0.45 : 0.25}
+                strokeDasharray={buriedRoot.proven ? undefined : "3 5"}
                 strokeWidth={2.6 - i * 0.3}
                 strokeLinecap="round"
               />
@@ -263,7 +265,7 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               className="fill-bark-soft font-display italic"
               fontSize={15}
             >
-              Proto-Indo-European
+              {buriedRoot.name}
             </text>
             <text
               x={rootBase.x}
@@ -273,7 +275,7 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
               fontSize={9}
               letterSpacing="0.14em"
             >
-              buried root · outside v1
+              {buriedRoot.note}
             </text>
           </g>
 

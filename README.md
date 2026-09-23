@@ -38,6 +38,7 @@ Conventions:
 - **IPA and reconstructed forms** go in inline code (`` `*kuningaz` ``). They render in Gentium Plus as selectable text.
 - **Turning points** are listed oldest first. The tree places them along the limb in that order.
 - **Contested classifications** may set `linked_branch_ids` to draw a dotted arc between the branches the grouping would join.
+- Each family file sets `buried_root`, the ancestry below its root branch. Setting `proven: false` draws the roots faint and dashed.
 - Optional extensions to the CLAUDE.md schema: `Branch.extinct`, `Branch.descendants`, `TurningPoint.title`, `ContestedClassification.linked_branch_ids` / `sources`, `Figure.lifespan`, and the `Family` file itself.
 
 `npm run validate` checks parent/successor symmetry, id uniqueness, figure links, required sources and that the lineage is acyclic. It runs before every build.

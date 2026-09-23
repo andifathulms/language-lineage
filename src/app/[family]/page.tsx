@@ -85,6 +85,7 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
           <LineageTree
             familySlug={family.slug}
             rootId={family.root_branch_id}
+            buriedRoot={family.buried_root}
             branches={treeBranches}
             classifications={treeClassifications}
           />
