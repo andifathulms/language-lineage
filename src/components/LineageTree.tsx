@@ -209,241 +209,245 @@ export function LineageTree({ familySlug, rootId, branches, classifications }: P
 
   return (
     <figure className="relative">
-      <svg
-        ref={svgRef}
-        viewBox={`0 0 ${width} ${height}`}
-        className="tree-pre h-auto w-full select-none"
-        role="group"
-        aria-label="Lineage tree. Each limb is a branch; ring-marks along it are turning points; dotted arcs are contested groupings."
-      >
-        <defs>
-          <clipPath id="above-ground">
-            <rect x={0} y={0} width={width} height={groundY} />
-          </clipPath>
-        </defs>
+      {/* Wide trees keep a legible minimum size and scroll sideways on phones. */}
+      <div className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+        <svg
+          ref={svgRef}
+          viewBox={`0 0 ${width} ${height}`}
+          style={{ minWidth: `${Math.round(width * 0.62)}px` }}
+          className="tree-pre h-auto w-full select-none"
+          role="group"
+          aria-label="Lineage tree. Each limb is a branch; ring-marks along it are turning points; dotted arcs are contested groupings."
+        >
+          <defs>
+            <clipPath id="above-ground">
+              <rect x={0} y={0} width={width} height={groundY} />
+            </clipPath>
+          </defs>
 
-        {/* Growth rings radiating from the root: the cross-section backdrop. */}
-        <g clipPath="url(#above-ground)" aria-hidden="true">
-          {Array.from({ length: 10 }, (_, i) => (
-            <circle
-              key={i}
-              cx={rootBase.x}
-              cy={groundY + 40}
-              r={80 + i * 62 + (i % 3) * 7}
-              fill="none"
-              className="stroke-ring"
-              strokeOpacity={0.45 - i * 0.03}
-              strokeWidth={i % 4 === 0 ? 1.4 : 0.8}
-            />
-          ))}
-        </g>
-
-        {/* Soil and the buried proto-form. */}
-        <g aria-hidden="true">
-          <rect x={0} y={groundY} width={width} height={height - groundY} className="fill-soil" />
-          <line x1={0} x2={width} y1={groundY} y2={groundY} className="stroke-ring" strokeWidth={1.2} />
-          {[-1, -0.45, 0.2, 0.7, 1].map((dir, i) => (
-            <path
-              key={i}
-              d={`M${rootBase.x + dir * 8},${groundY + 4} C${rootBase.x + dir * 30},${groundY + 30} ${rootBase.x + dir * 70},${groundY + 40 + i * 6} ${rootBase.x + dir * (110 + i * 12)},${groundY + 70 + (i % 2) * 22}`}
-              fill="none"
-              className="stroke-heartwood"
-              strokeOpacity={0.45}
-              strokeWidth={2.6 - i * 0.3}
-              strokeLinecap="round"
-            />
-          ))}
-          <text
-            x={rootBase.x}
-            y={height - 26}
-            textAnchor="middle"
-            className="fill-bark-soft font-display italic"
-            fontSize={15}
-          >
-            Proto-Indo-European
-          </text>
-          <text
-            x={rootBase.x}
-            y={height - 10}
-            textAnchor="middle"
-            className="fill-bark-soft font-label uppercase"
-            fontSize={9}
-            letterSpacing="0.14em"
-          >
-            buried root · outside v1
-          </text>
-        </g>
-
-        {/* Graft feeds, then limbs (thickest first so forks overlap cleanly). */}
-        {layout.feeds.map((f) => (
-          <path key={f.key} data-limb={f.key} d={taperedPath(f)} className="fill-heartwood" />
-        ))}
-        {[...layout.nodes]
-          .sort((a, b) => a.depth - b.depth)
-          .map((n) => (
-            <Link
-              key={n.id}
-              href={branchHref(n.id)}
-              aria-label={`${n.name} branch`}
-              tabIndex={-1}
-              onMouseEnter={() => setHoverBranch(n.id)}
-              onMouseLeave={() => setHoverBranch(null)}
-            >
-              <path
-                data-limb={n.limb.key}
-                d={taperedPath(n.limb)}
-                className={`transition-opacity duration-base ease-grow ${dim(n.id)} ${n.extinct ? "fill-bark-soft/55" : "fill-heartwood"}`}
-              />
-            </Link>
-          ))}
-
-        {/* Fork collars smooth the joins between parent and child limbs. */}
-        {layout.nodes
-          .filter((n) => !n.isLeaf)
-          .map((n) => (
-            <circle
-              key={`collar-${n.id}`}
-              cx={n.end.x}
-              cy={n.end.y}
-              r={n.limb.w1 / 2}
-              className="fill-heartwood"
-              data-grow="collar"
-              data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.9}
-            />
-          ))}
-        {layout.nodes
-          .filter((n) => n.graft)
-          .map((n) => (
-            <g key={`graft-${n.id}`} data-grow="graft" data-delay={n.depth * STAGGER_MS}>
-              <ellipse
-                cx={n.graft!.x}
-                cy={n.graft!.y}
-                rx={n.limb.w0 * 0.75}
-                ry={n.limb.w0 * 0.45}
-                className="fill-heartwood stroke-bark"
-                strokeWidth={1.2}
-              />
-              <line
-                x1={n.graft!.x - n.limb.w0 * 0.7}
-                x2={n.graft!.x + n.limb.w0 * 0.7}
-                y1={n.graft!.y}
-                y2={n.graft!.y}
-                className="stroke-cream"
-                strokeWidth={1.2}
-              />
-            </g>
-          ))}
-
-        {layout.nodes
-          .filter((n) => n.isLeaf && !n.extinct)
-          .map((n) => (
-            <Canopy key={`canopy-${n.id}`} node={n} />
-          ))}
-        {layout.nodes
-          .filter((n) => n.isLeaf && n.extinct)
-          .map((n) => (
-            <SnappedTip key={`snap-${n.id}`} node={n} />
-          ))}
-
-        {/* Contested classifications: outside the tree proper, dotted, lower confidence. */}
-        {layout.arcs.map((a) => {
-          return (
-            <g key={a.key} data-grow="arc" data-delay={arcsDelay}>
-              <path
-                d={`M${a.from.x},${a.from.y} C${a.c1.x},${a.c1.y} ${a.c2.x},${a.c2.y} ${a.to.x},${a.to.y}`}
+          {/* Growth rings radiating from the root: the cross-section backdrop. */}
+          <g clipPath="url(#above-ground)" aria-hidden="true">
+            {Array.from({ length: 10 }, (_, i) => (
+              <circle
+                key={i}
+                cx={rootBase.x}
+                cy={groundY + 40}
+                r={80 + i * 62 + (i % 3) * 7}
                 fill="none"
-                className="stroke-accent"
-                strokeOpacity={a.status === "widely_accepted" ? 0.75 : a.status === "minority_position" ? 0.5 : 0.3}
-                strokeWidth={1.4}
-                strokeDasharray="1.5 5"
+                className="stroke-ring"
+                strokeOpacity={0.45 - i * 0.03}
+                strokeWidth={i % 4 === 0 ? 1.4 : 0.8}
+              />
+            ))}
+          </g>
+
+          {/* Soil and the buried proto-form. */}
+          <g aria-hidden="true">
+            <rect x={0} y={groundY} width={width} height={height - groundY} className="fill-soil" />
+            <line x1={0} x2={width} y1={groundY} y2={groundY} className="stroke-ring" strokeWidth={1.2} />
+            {[-1, -0.45, 0.2, 0.7, 1].map((dir, i) => (
+              <path
+                key={i}
+                d={`M${rootBase.x + dir * 8},${groundY + 4} C${rootBase.x + dir * 30},${groundY + 30} ${rootBase.x + dir * 70},${groundY + 40 + i * 6} ${rootBase.x + dir * (110 + i * 12)},${groundY + 70 + (i % 2) * 22}`}
+                fill="none"
+                className="stroke-heartwood"
+                strokeOpacity={0.45}
+                strokeWidth={2.6 - i * 0.3}
                 strokeLinecap="round"
               />
-              <circle cx={a.from.x} cy={a.from.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
-              <circle cx={a.to.x} cy={a.to.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
-              <text
-                x={a.peak.x}
-                y={a.peak.y - 9}
-                textAnchor="middle"
-                className="tree-halo fill-accent font-display italic"
-                fontSize={14}
-              >
-                {a.label}?
-              </text>
-            </g>
-          );
-        })}
-
-        {layout.marks.map((m) => (
-          <Mark
-            key={m.id}
-            m={m}
-            href={`${branchHref(m.branchId)}#${m.id}`}
-            onFocus={() => setActive(m)}
-            onBlur={() => setActive((cur) => (cur?.id === m.id ? null : cur))}
-          />
-        ))}
-
-        {/* Labels. */}
-        {layout.nodes.map((n) => {
-          let x = n.end.x;
-          let y = n.end.y;
-          let anchor: "start" | "middle" | "end" = "middle";
-          if (n.isRoot) {
-            const p = bezierPoint(n.limb, 0.08);
-            x = p.x + n.limb.w0 / 2 + 14;
-            y = p.y - 4;
-            anchor = "start";
-          } else if (!n.isLeaf) {
-            x = n.end.x + n.limb.w1 / 2 + 16;
-            y = n.end.y + 5;
-            anchor = x + 160 > width ? "end" : "start";
-            if (anchor === "end") x = n.end.x - n.limb.w1 / 2 - 16;
-          } else {
-            y = n.extinct ? n.end.y - 30 : n.end.y - 44;
-          }
-          const sub = n.isLeaf
-            ? n.descendants.length > 2
-              ? `${n.descendants.slice(0, 2).join(" · ")} +${n.descendants.length - 2}`
-              : n.descendants.join(" · ")
-            : null;
-          return (
-            <Link
-              key={`label-${n.id}`}
-              href={branchHref(n.id)}
-              className="tree-label no-underline"
-              onMouseEnter={() => setHoverBranch(n.id)}
-              onMouseLeave={() => setHoverBranch(null)}
-              onFocus={() => setHoverBranch(n.id)}
-              onBlur={() => setHoverBranch(null)}
+            ))}
+            <text
+              x={rootBase.x}
+              y={height - 26}
+              textAnchor="middle"
+              className="fill-bark-soft font-display italic"
+              fontSize={15}
             >
-              <g data-grow="label" data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.85}>
+              Proto-Indo-European
+            </text>
+            <text
+              x={rootBase.x}
+              y={height - 10}
+              textAnchor="middle"
+              className="fill-bark-soft font-label uppercase"
+              fontSize={9}
+              letterSpacing="0.14em"
+            >
+              buried root · outside v1
+            </text>
+          </g>
+
+          {/* Graft feeds, then limbs (thickest first so forks overlap cleanly). */}
+          {layout.feeds.map((f) => (
+            <path key={f.key} data-limb={f.key} d={taperedPath(f)} className="fill-heartwood" />
+          ))}
+          {[...layout.nodes]
+            .sort((a, b) => a.depth - b.depth)
+            .map((n) => (
+              <Link
+                key={n.id}
+                href={branchHref(n.id)}
+                aria-label={`${n.name} branch`}
+                tabIndex={-1}
+                onMouseEnter={() => setHoverBranch(n.id)}
+                onMouseLeave={() => setHoverBranch(null)}
+              >
+                <path
+                  data-limb={n.limb.key}
+                  d={taperedPath(n.limb)}
+                  className={`transition-opacity duration-base ease-grow ${dim(n.id)} ${n.extinct ? "fill-bark-soft/55" : "fill-heartwood"}`}
+                />
+              </Link>
+            ))}
+
+          {/* Fork collars smooth the joins between parent and child limbs. */}
+          {layout.nodes
+            .filter((n) => !n.isLeaf)
+            .map((n) => (
+              <circle
+                key={`collar-${n.id}`}
+                cx={n.end.x}
+                cy={n.end.y}
+                r={n.limb.w1 / 2}
+                className="fill-heartwood"
+                data-grow="collar"
+                data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.9}
+              />
+            ))}
+          {layout.nodes
+            .filter((n) => n.graft)
+            .map((n) => (
+              <g key={`graft-${n.id}`} data-grow="graft" data-delay={n.depth * STAGGER_MS}>
+                <ellipse
+                  cx={n.graft!.x}
+                  cy={n.graft!.y}
+                  rx={n.limb.w0 * 0.75}
+                  ry={n.limb.w0 * 0.45}
+                  className="fill-heartwood stroke-bark"
+                  strokeWidth={1.2}
+                />
+                <line
+                  x1={n.graft!.x - n.limb.w0 * 0.7}
+                  x2={n.graft!.x + n.limb.w0 * 0.7}
+                  y1={n.graft!.y}
+                  y2={n.graft!.y}
+                  className="stroke-cream"
+                  strokeWidth={1.2}
+                />
+              </g>
+            ))}
+
+          {layout.nodes
+            .filter((n) => n.isLeaf && !n.extinct)
+            .map((n) => (
+              <Canopy key={`canopy-${n.id}`} node={n} />
+            ))}
+          {layout.nodes
+            .filter((n) => n.isLeaf && n.extinct)
+            .map((n) => (
+              <SnappedTip key={`snap-${n.id}`} node={n} />
+            ))}
+
+          {/* Contested classifications: outside the tree proper, dotted, lower confidence. */}
+          {layout.arcs.map((a) => {
+            return (
+              <g key={a.key} data-grow="arc" data-delay={arcsDelay}>
+                <path
+                  d={`M${a.from.x},${a.from.y} C${a.c1.x},${a.c1.y} ${a.c2.x},${a.c2.y} ${a.to.x},${a.to.y}`}
+                  fill="none"
+                  className="stroke-accent"
+                  strokeOpacity={a.status === "widely_accepted" ? 0.75 : a.status === "minority_position" ? 0.5 : 0.3}
+                  strokeWidth={1.4}
+                  strokeDasharray="1.5 5"
+                  strokeLinecap="round"
+                />
+                <circle cx={a.from.x} cy={a.from.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
+                <circle cx={a.to.x} cy={a.to.y} r={2.6} className="fill-accent" fillOpacity={0.7} />
                 <text
-                  x={x}
-                  y={y}
-                  textAnchor={anchor}
-                  className="tree-halo fill-bark font-display font-semibold"
-                  fontSize={n.isLeaf ? 18 : 16}
+                  x={a.peak.x}
+                  y={a.peak.y - 9}
+                  textAnchor="middle"
+                  className="tree-halo fill-accent font-display italic"
+                  fontSize={14}
                 >
-                  {n.name}
-                  {n.extinct ? " †" : ""}
+                  {a.label}?
                 </text>
-                {sub && (
+              </g>
+            );
+          })}
+
+          {layout.marks.map((m) => (
+            <Mark
+              key={m.id}
+              m={m}
+              href={`${branchHref(m.branchId)}#${m.id}`}
+              onFocus={() => setActive(m)}
+              onBlur={() => setActive((cur) => (cur?.id === m.id ? null : cur))}
+            />
+          ))}
+
+          {/* Labels. */}
+          {layout.nodes.map((n) => {
+            let x = n.end.x;
+            let y = n.end.y;
+            let anchor: "start" | "middle" | "end" = "middle";
+            if (n.isRoot) {
+              const p = bezierPoint(n.limb, 0.08);
+              x = p.x + n.limb.w0 / 2 + 14;
+              y = p.y - 4;
+              anchor = "start";
+            } else if (!n.isLeaf) {
+              x = n.end.x + n.limb.w1 / 2 + 16;
+              y = n.end.y + 5;
+              anchor = x + 160 > width ? "end" : "start";
+              if (anchor === "end") x = n.end.x - n.limb.w1 / 2 - 16;
+            } else {
+              y = n.extinct ? n.end.y - 30 : n.end.y - 44;
+            }
+            const sub = n.isLeaf
+              ? n.descendants.length > 2
+                ? `${n.descendants.slice(0, 2).join(" · ")} +${n.descendants.length - 2}`
+                : n.descendants.join(" · ")
+              : null;
+            return (
+              <Link
+                key={`label-${n.id}`}
+                href={branchHref(n.id)}
+                className="tree-label no-underline"
+                onMouseEnter={() => setHoverBranch(n.id)}
+                onMouseLeave={() => setHoverBranch(null)}
+                onFocus={() => setHoverBranch(n.id)}
+                onBlur={() => setHoverBranch(null)}
+              >
+                <g data-grow="label" data-delay={n.depth * STAGGER_MS + LIMB_MS * 0.85}>
                   <text
                     x={x}
-                    y={y + 16}
+                    y={y}
                     textAnchor={anchor}
-                    className="tree-halo fill-bark-soft font-label uppercase"
-                    fontSize={9}
-                    letterSpacing="0.1em"
+                    className="tree-halo fill-bark font-display font-semibold"
+                    fontSize={n.isLeaf ? 18 : 16}
                   >
-                    {sub}
+                    {n.name}
+                    {n.extinct ? " †" : ""}
                   </text>
-                )}
-              </g>
-            </Link>
-          );
-        })}
-      </svg>
+                  {sub && (
+                    <text
+                      x={x}
+                      y={y + 16}
+                      textAnchor={anchor}
+                      className="tree-halo fill-bark-soft font-label uppercase"
+                      fontSize={9}
+                      letterSpacing="0.1em"
+                    >
+                      {sub}
+                    </text>
+                  )}
+                </g>
+              </Link>
+            );
+          })}
+        </svg>
+      </div>
 
       <figcaption
         aria-live="polite"

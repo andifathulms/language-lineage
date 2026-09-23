@@ -158,10 +158,7 @@ export function layoutTree(
   branches: TreeBranchInput[],
   rootId: string,
   classifications: TreeClassificationInput[],
-  width = 1000,
-  height = 780,
 ): TreeLayout {
-  const groundY = height - 130;
   const canopyY = 250;
   const arcBandY = 36;
   const marginX = 120;
@@ -192,6 +189,13 @@ export function layoutTree(
   walk(rootId);
   branches.forEach((b) => walk(b.id)); // anything unreachable from the root
 
+  // The canvas grows with the tree: wider per leaf, taller per internal level.
+  const internal = branches.filter((b) => kids(b.id).length);
+  const maxInternal = internal.length ? Math.max(...internal.map((b) => depthOf(b.id))) : 0;
+  const width = Math.max(1000, leafOrder.length * 150 + 2 * marginX);
+  const height = 780 + 120 * Math.max(0, maxInternal - 1);
+  const groundY = height - 130;
+
   const slot = (width - 2 * marginX) / Math.max(leafOrder.length, 1);
   const xMemo = new Map<string, number>();
   const xOf = (id: string): number => {
@@ -215,8 +219,6 @@ export function layoutTree(
   };
   const girth = (id: string) => 7 + 8 * leafCount(id);
 
-  const internal = branches.filter((b) => kids(b.id).length);
-  const maxInternal = internal.length ? Math.max(...internal.map((b) => depthOf(b.id))) : 0;
   const internalY = (d: number) => groundY - ((groundY - canopyY) * (d + 1)) / (maxInternal + 2);
 
   // Resolve nodes parent-first so every start point exists.
