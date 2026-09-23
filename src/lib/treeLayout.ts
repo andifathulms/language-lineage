@@ -275,7 +275,9 @@ export function layoutTree(
     const node = nodes.get(b.id)!;
     const n = b.turning_points.length;
     b.turning_points.forEach((tp, i) => {
-      const t = n === 1 ? 0.5 : 0.14 + (i * 0.74) / (n - 1);
+      // The root's label sits at the base of the trunk, so its marks start higher.
+      const t0 = node.isRoot ? 0.26 : 0.14;
+      const t = n === 1 ? (t0 + 0.88) / 2 : t0 + (i * (0.88 - t0)) / (n - 1);
       marks.push({
         id: tp.id,
         branchId: b.id,
