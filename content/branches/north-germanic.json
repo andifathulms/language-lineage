@@ -3,7 +3,7 @@
   "family": "germanic",
   "name": "North Germanic",
   "parent_ids": ["proto-germanic"],
-  "successor_ids": ["west-norse"],
+  "successor_ids": ["west-norse", "east-norse"],
   "era": "c. 2nd century CE (Proto-Norse runic) – present",
   "region": "Scandinavia, later the North Atlantic: Faroe Islands, Iceland, Norse Greenland, Orkney and Shetland",
   "defining_innovation": "Proto-Norse lost word-initial *j- and kept final *-z as a distinct r-like sound (ʀ), against West Germanic, which dropped final *-z altogether.",

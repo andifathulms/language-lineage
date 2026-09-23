@@ -1,0 +1,90 @@
+{
+  "id": "east-norse",
+  "family": "germanic",
+  "name": "East Norse",
+  "parent_ids": ["north-germanic"],
+  "successor_ids": [],
+  "era": "c. 10th century CE – present",
+  "region": "Denmark and Sweden, including Scania and the Baltic islands",
+  "defining_innovation": "Monophthongisation: the old diphthongs became long simple vowels (Old Danish stēn 'stone', ø̄gha 'eye' against Old West Norse steinn, auga).",
+  "descendants": ["Danish", "Swedish", "Gutnish"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "East Norse is the speech of Denmark and Sweden once it had begun to part from the Norse of Norway and the Atlantic islands. Its signature change shows up on Danish rune-stones from the late Viking Age: the diphthongs `ei`, `au` and `øy` became long monophthongs, so *steinn* 'stone' became *stēn* and *auga* 'eye' became *ø̄gha*. Modern Swedish *sten* and *öga* and Danish *sten* and *øje* continue those forms.\n\nThe change did not reach everywhere. The island of Gotland kept its diphthongs, which is one reason Old Gutnish is sometimes treated as a separate branch of Norse and not simply part of East Norse."
+    },
+    {
+      "title": "Laws, Runes and Hanseatic Trade",
+      "body": "The first long East Norse texts are the medieval provincial laws of the 13th century. In Sweden the oldest is the Older Westrogothic Law (*Äldre Västgötalagen*). In Denmark the Scanian Law was even copied out in runes, in the *Codex Runicus* of about 1300, long after the Latin alphabet had become the normal script.\n\nFrom the 13th century the Hanseatic League dominated Baltic trade, and its working language, Middle Low German, flooded Danish and Swedish. Everyday verbs such as Swedish *betala*, Danish *betale* 'pay', the prefix *be-*, and the noun suffix Swedish *-het*, Danish *-hed* (German *-heit*) all entered then. Few other Germanic languages took so much from a close relative."
+    },
+    {
+      "title": "Danish and Swedish Diverge",
+      "body": "Danish went its own way in pronunciation. From the late Middle Ages the voiceless stops `p t k` after vowels were weakened, and in the modern language they are often not stops at all: Danish *gade* 'street' and *kage* 'cake' against Swedish *gata* and *kaka*. Danish also developed the *stød*, a creaky-voice feature that distinguishes words like *hun* 'she' from *hund* 'dog'.\n\nThe Reformation fixed the two standards. Gustav Vasa's Swedish Bible of 1541 and Christian III's Danish Bible of 1550 gave each kingdom a model for written prose. The borders then shaped the dialects: after Denmark ceded Scania to Sweden in 1658, the Scanian dialects, though historically Danish, came under the Swedish standard."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-east-norse-monophthongisation",
+      "branch_id": "east-norse",
+      "date": "Late 10th – 11th century CE",
+      "type": "SOUND_LAW",
+      "title": "Monophthongisation",
+      "description": "The diphthongs `ei`, `au`, `øy` become long `ē`, `ø̄`, `ø̄` in Danish and most of Swedish: *steinn* → *stēn*, *auga* → *ø̄gha*. Rune-stone spellings date its spread. Gotland is left out.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-provincial-laws",
+      "branch_id": "east-norse",
+      "date": "13th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Provincial laws in Latin letters",
+      "description": "Danish and Swedish are written in the Latin alphabet at length for the first time, in the regional law codes. Runes stay in use alongside: the Scanian Law survives in a runic manuscript, the *Codex Runicus* (c. 1300).",
+      "contested": false,
+      "sources": [
+        { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hanseatic-contact",
+      "branch_id": "east-norse",
+      "date": "13th – 16th century CE",
+      "type": "CONTACT",
+      "title": "Middle Low German via the Hanse",
+      "description": "Hanseatic merchants, many of them settled in Scandinavian towns such as Stockholm and Bergen, bring in large numbers of Middle Low German words and word-building elements: *betala*/*betale* 'pay', the prefix *be-*, and the suffix *-het*/*-hed*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-danish-lenition",
+      "branch_id": "east-norse",
+      "date": "c. 13th – 15th century CE",
+      "type": "SOUND_LAW",
+      "title": "Danish stop weakening",
+      "description": "After vowels, Danish `p t k` weaken to `b d g` in spelling and much further in speech: *gade* 'street', *kage* 'cake' against Swedish *gata*, *kaka*. Scholars dispute when it began, because spelling lags well behind pronunciation.",
+      "contested": true,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-reformation-bibles",
+      "branch_id": "east-norse",
+      "date": "1541–1550",
+      "type": "SPLIT",
+      "title": "Two national standards",
+      "description": "The Gustav Vasa Bible (1541) and Christian III's Bible (1550) give Swedish and Danish separate written models. The dialect continuum between them remains, but from here on it is split between two standard languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
