@@ -1,0 +1,80 @@
+// Data model — mirrors CLAUDE.md. Self-contained to this app.
+// Optional fields marked "extension" are additions the tree view needs;
+// they are safe to omit in content files.
+
+export type TurningPointType =
+  | "SPLIT"
+  | "SOUND_LAW"
+  | "CONTACT"
+  | "WRITING_SYSTEM_ADOPTED"
+  | "EXTINCTION"
+  | "REVITALIZATION";
+
+export type ClassificationStatus = "widely_accepted" | "minority_position" | "largely_rejected";
+
+export interface Source {
+  citation: string;
+  url: string | null;
+}
+
+export interface Chapter {
+  title: string;
+  body: string; // markdown; inline code (`…`) renders as an IPA transcription
+}
+
+export interface TurningPoint {
+  id: string;
+  branch_id: string;
+  date: string; // approximate/ranged — free text, listed in chronological order
+  type: TurningPointType;
+  title: string; // extension: short label for the ring-mark
+  description: string;
+  contested: boolean;
+  sources: Source[];
+}
+
+export interface ContestedClassification {
+  id: string;
+  branch_id: string;
+  proposed_grouping: string;
+  status: ClassificationStatus;
+  evidence_for: string;
+  evidence_against: string;
+  linked_branch_ids?: string[]; // extension: branches the grouping would join (drawn as a dotted arc)
+  sources?: Source[]; // extension
+}
+
+export interface Branch {
+  id: string;
+  family: string; // family slug
+  name: string;
+  parent_ids: string[];
+  successor_ids: string[];
+  era: string;
+  region: string;
+  defining_innovation: string;
+  extinct?: boolean; // extension: drawn as a dead limb that stops short of the canopy
+  descendants?: string[]; // extension: modern/attested languages shown at the canopy
+  chapters: Chapter[];
+  turning_points: TurningPoint[];
+  contested_classifications: ContestedClassification[];
+  figure_ids: string[];
+}
+
+export interface Figure {
+  id: string;
+  name: string;
+  lifespan?: string; // extension
+  branch_ids: string[];
+  turning_point_ids: string[];
+}
+
+export interface Family {
+  slug: string;
+  name: string;
+  superfamily: string | null;
+  summary: string;
+  root_branch_id: string;
+  accent: { light: string; dark: string }; // RGB triplets, e.g. "156 74 34"
+  sources: Source[];
+}

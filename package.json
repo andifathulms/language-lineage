@@ -5,7 +5,7 @@
   "description": "A read-only narrative encyclopedia of language families and branches.",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate && next build",
     "start": "npx serve out",
     "typecheck": "tsc --noEmit",
     "validate": "node scripts/validate-content.mjs"
