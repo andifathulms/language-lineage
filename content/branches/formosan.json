@@ -1,0 +1,102 @@
+{
+  "id": "formosan",
+  "family": "austronesian",
+  "name": "Formosan languages",
+  "parent_ids": ["proto-austronesian"],
+  "successor_ids": [],
+  "era": "c. 3000 BCE – present",
+  "region": "Taiwan",
+  "defining_innovation": "Not one branch but several: a geographical label for the Austronesian languages that never left Taiwan, which between them form most of the family's primary branches.",
+  "descendants": ["Amis", "Atayal", "Paiwan", "Bunun", "Tsou", "Seediq", "Siraya (revived)"],
+  "chapters": [
+    {
+      "title": "The Oldest Diversity",
+      "body": "About two dozen Austronesian languages are known from Taiwan, and roughly half are still spoken. In the mountains live Atayal, Seediq, Bunun, Tsou, Rukai and Paiwan. Amis, Puyuma and Kavalan are spoken on the east coast. The languages of the western plains, such as Siraya, Babuza and Hoanya, are mostly gone or only now being revived.\n\nWhat makes them important is how different they are from each other. Most of the deepest divisions in the whole family are between Formosan groups. For comparative linguistics they are the equivalent of Gothic for Germanic: without them, Proto-Austronesian's consonant contrasts, such as `*C` against `*t`, could not be reconstructed at all."
+    },
+    {
+      "title": "Four Centuries of Pressure",
+      "body": "When the Dutch East India Company held southwestern Taiwan (1624–1662), missionaries wrote Siraya in the Latin alphabet and printed a Gospel of Matthew in it. Siraya communities went on using the script for land contracts, the *Sinckan Manuscripts*, into the early 19th century.\n\nFrom the 17th century, large-scale Hoklo and Hakka settlement pushed the plains peoples into language shift, and most plains languages were no longer spoken by the 20th century. Japanese rule (1895–1945) and then Mandarin-only schooling pressed on the mountain languages too. Since the 1990s Taiwan has recognised its indigenous peoples officially, and the Indigenous Languages Development Act of 2017 made their languages national languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-dutch-formosa",
+      "branch_id": "formosan",
+      "date": "1624–1662",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Siraya in Latin letters",
+      "description": "Dutch missionaries write Siraya in the Latin alphabet and print a Gospel of Matthew in it. Siraya speakers keep using the script for bilingual land contracts, the *Sinckan Manuscripts*, until the early 19th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander. 2011. Siraya: Retrieving the Phonology, Grammar and Lexicon of a Dormant Formosan Language. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-han-settlement",
+      "branch_id": "formosan",
+      "date": "17th – 19th century CE",
+      "type": "CONTACT",
+      "title": "Hoklo and Hakka settlement",
+      "description": "Chinese settlers occupy the western plains. The plains peoples intermarry and shift to Taiwanese Hokkien and Hakka, while the mountain peoples keep their languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-plains-extinction",
+      "branch_id": "formosan",
+      "date": "19th – 20th century CE",
+      "type": "EXTINCTION",
+      "title": "Plains languages fall silent",
+      "description": "Siraya, Babuza, Hoanya, Basay and others lose their last fluent speakers. The dates are uncertain for most of them, since they were barely recorded before they disappeared.",
+      "contested": true,
+      "sources": [
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-indigenous-languages-act",
+      "branch_id": "formosan",
+      "date": "2017",
+      "type": "REVITALIZATION",
+      "title": "National languages of Taiwan",
+      "description": "The Indigenous Languages Development Act makes Taiwan's indigenous languages national languages and funds teaching and documentation. Siraya is being revived in Tainan from the Dutch-era texts.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Alexander. 2011. Siraya: Retrieving the Phonology, Grammar and Lexicon of a Dormant Formosan Language. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-formosan-unity",
+      "branch_id": "formosan",
+      "proposed_grouping": "Formosan as a single branch: all the Austronesian languages of Taiwan share an ancestor that Malayo-Polynesian does not",
+      "status": "largely_rejected",
+      "evidence_for": "The languages share a homeland and many typological features, including the elaborate 'focus' voice system, and a few scholars have proposed a common Formosan subgroup on that basis.",
+      "evidence_against": "The features they share are mostly retentions from Proto-Austronesian, which Malayo-Polynesian languages such as Tagalog also keep. No convincing set of innovations shared by all Formosan languages alone has been found. Blust divides them into as many as nine primary branches of the family.",
+      "linked_branch_ids": [],
+      "sources": [
+        {
+          "citation": "Blust, Robert. 1999. Subgrouping, circularity and extinction: some issues in Austronesian comparative linguistics. In Selected Papers from the Eighth International Conference on Austronesian Linguistics, ed. Elizabeth Zeitoun & Paul Jen-kuei Li. Taipei: Academia Sinica.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "cc-nested-phylogeny",
+      "branch_id": "formosan",
+      "proposed_grouping": "Nested phylogeny: Malayo-Polynesian branches off late from inside one Formosan subgroup, not directly from Proto-Austronesian",
+      "status": "minority_position",
+      "evidence_for": "Sagart points to innovations in the numerals, such as new forms for 'five' to 'ten', that are shared by Malayo-Polynesian and only some Formosan languages, and argues for a stair-step sequence of splits within Taiwan. Ross's 'Nuclear Austronesian', which excludes Rukai, Tsouic and Puyuma on verbal morphology, likewise nests Malayo-Polynesian more deeply.",
+      "evidence_against": "Numeral forms spread easily between neighbouring languages, and the two nested models do not agree on the order of branching. Blust's flat model, with several primary Formosan branches beside Malayo-Polynesian, remains the reference point.",
+      "linked_branch_ids": ["formosan", "malayo-polynesian"],
+      "sources": [
+        { "citation": "Sagart, Laurent. 2004. The higher phylogeny of Austronesian and the position of Tai-Kadai. Oceanic Linguistics 43(2).", "url": null },
+        { "citation": "Ross, Malcolm. 2009. Proto Austronesian verbal morphology: A reappraisal. In Austronesian Historical Linguistics and Culture History, ed. Alexander Adelaar & Andrew Pawley. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
