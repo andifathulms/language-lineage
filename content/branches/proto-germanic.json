@@ -1,0 +1,148 @@
+{
+  "id": "proto-germanic",
+  "family": "germanic",
+  "name": "Proto-Germanic",
+  "parent_ids": [],
+  "successor_ids": ["east-germanic", "north-germanic", "west-germanic"],
+  "era": "c. 500 BCE – c. 200 CE (reconstructed)",
+  "region": "Southern Scandinavia and the North German Plain",
+  "defining_innovation": "The First Germanic Consonant Shift (Grimm's and Verner's laws), followed by stress fixed on the first syllable of the root.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Germanic is not written down anywhere. It is reconstructed by the comparative method: line up Gothic, Old Norse, Old English, Old High German and their relatives, work out which differences are regular, and infer the ancestor that explains them all. Proto-Germanic's own ancestor, Proto-Indo-European, is the buried root of this tree and lies outside the scope of v1.\n\nMost handbooks date the language to roughly the second half of the first millennium BCE and place it in southern Scandinavia and on the adjoining North German Plain. Attempts to match it with a specific archaeological culture, most often the Jastorf culture, are suggestive but unproven. Language and material culture do not have to travel together.\n\nThe oldest indirect evidence is borrowing. Finnic languages took over Germanic words early enough to keep sounds and endings that the daughter languages later lost. Finnish *kuningas* 'king' preserves something very close to reconstructed `*kuningaz`, and *rengas* 'ring' reflects `*hringaz`. Roman writers such as Tacitus later recorded Germanic tribal and personal names, but no continuous text."
+    },
+    {
+      "title": "The Defining Sound Shift",
+      "body": "What makes a language Germanic rather than just Indo-European is one systematic reshuffling of the consonants, usually called **Grimm's law**. Every series of Indo-European stops moved one step:\n\n- voiceless stops became fricatives: `*p *t *k` → `*f *θ *x`\n- plain voiced stops became voiceless: `*b *d *g` → `*p *t *k`\n- voiced aspirates lost their aspiration: `*bʰ *dʰ *gʰ` → `*β *ð *ɣ` (later stops in many positions)\n\nThat is why Latin *pater* corresponds to English *father*, Latin *decem* to English *ten*, and Sanskrit *bhrā́tar-* to English *brother*. None of these words was borrowed. They are inherited cognates, and the consonants differ by rule, not by chance.\n\nGrimm's law had exceptions. Gothic *fadar* 'father' has a `d` where the rule predicts `þ` (as in *brōþar* 'brother'). In 1877 Karl Verner showed that the exceptions were regular too: they depend on where the accent fell in the parent language. That result, **Verner's law**, was a landmark for the idea that sound change works without exceptions."
+    },
+    {
+      "title": "Stress and the Shape of Words",
+      "body": "Indo-European had a free, mobile accent that could fall on almost any syllable. Proto-Germanic fixed it on the first syllable of the root. Verner's law must have acted before this happened, because it depends on the old accent position. That ordering is one of the firmest pieces of relative chronology in the reconstruction.\n\nFixed initial stress has had consequences ever since. Unstressed endings wore down generation after generation, which is part of why English and the Scandinavian languages have so little inflection left, and why alliteration (matching word-initial sounds) rather than rhyme became the backbone of early Germanic verse."
+    },
+    {
+      "title": "Daughter Branches",
+      "body": "The traditional division has three branches: **East Germanic** (Gothic and its relatives), **North Germanic** (the Scandinavian languages) and **West Germanic** (English, Frisian, Dutch, German). The exact shape of the split is still debated. Many linguists think North and West Germanic went through a shared Northwest Germanic stage after the East Germanic speakers had moved away. A minority pairs Gothic with North Germanic instead. Both proposals appear under Contested Classifications below.\n\nIn the Germanic of the earliest runic inscriptions, from about the 2nd century CE, some of these splits are only just becoming visible."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-grimms-law",
+      "branch_id": "proto-germanic",
+      "date": "c. 500 BCE (relative chronology secure; absolute date debated)",
+      "type": "SOUND_LAW",
+      "title": "Grimm's law",
+      "description": "The First Germanic Consonant Shift. PIE voiceless stops became fricatives (`*p` → `*f`), voiced stops became voiceless (`*d` → `*t`), and voiced aspirates became voiced fricatives (`*bʰ` → `*β`). Latin *piscis* : English *fish*; Latin *duo* : English *two*. Its absolute date is inferred from loanwords and is disputed. Credit is disputed too: Rask described the correspondences in 1818, and Grimm's 1822 formulation made them famous.",
+      "contested": true,
+      "sources": [
+        { "citation": "Rask, Rasmus. 1818. Undersøgelse om det gamle Nordiske eller Islandske Sprogs Oprindelse. Copenhagen: Gyldendal.", "url": null },
+        { "citation": "Grimm, Jacob. 1822. Deutsche Grammatik, vol. 1, 2nd ed. Göttingen: Dieterich.", "url": null },
+        { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-verners-law",
+      "branch_id": "proto-germanic",
+      "date": "After Grimm's law, before stress was fixed",
+      "type": "SOUND_LAW",
+      "title": "Verner's law",
+      "description": "Voiceless fricatives (`*f *θ *x *s`) became voiced (`*β *ð *ɣ *z`) inside a word when the preceding syllable was unaccented in the inherited accent system. It explains Gothic *fadar* (PIE accent after the consonant) against *brōþar* (accent before it), and the alternation still visible in English *was* : *were*, where `*z` later became `r`.",
+      "contested": false,
+      "sources": [
+        { "citation": "Verner, Karl. 1877. Eine Ausnahme der ersten Lautverschiebung. Zeitschrift für vergleichende Sprachforschung 23: 97–130.", "url": null },
+        { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-initial-stress",
+      "branch_id": "proto-germanic",
+      "date": "Late Proto-Germanic",
+      "type": "SOUND_LAW",
+      "title": "Stress fixed on the root",
+      "description": "The mobile Indo-European accent was replaced by fixed stress on the first syllable of the root. It sets up the long erosion of unstressed endings in every daughter branch.",
+      "contested": false,
+      "sources": [
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-celtic-contact",
+      "branch_id": "proto-germanic",
+      "date": "Last centuries BCE",
+      "type": "CONTACT",
+      "title": "Celtic loanwords",
+      "description": "Words tied to rank and metalwork entered from neighbouring Celtic: `*rīk-` 'ruler' (Gothic *reiks*), from Celtic *rīx*, and `*ambahtaz` 'servant' (Gothic *andbahts*), from Gaulish *ambactos*. Their Celtic sound shapes date them to a period of close contact before the Roman expansion.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null },
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-latin-contact",
+      "branch_id": "proto-germanic",
+      "date": "1st century BCE – 4th century CE",
+      "type": "CONTACT",
+      "title": "Roman frontier loans",
+      "description": "Trade along the Roman frontier brought Latin words into Germanic before the branches separated completely. Latin *caupo* 'petty trader' gave `*kaupōn-` 'to trade' (German *kaufen*, English *cheap*), *vinum* gave `*wīna-` 'wine', and *Caesar* gave `*kaisar-` (Gothic *kaisar*, German *Kaiser*).",
+      "contested": false,
+      "sources": [
+        { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pgmc-breakup",
+      "branch_id": "proto-germanic",
+      "date": "c. 1st century BCE – 2nd century CE",
+      "type": "SPLIT",
+      "title": "Breakup into branches",
+      "description": "As East Germanic groups moved south-east towards the Vistula and beyond, the remaining dialects diverged. Both the timing and the shape of the split are debated: a clean three-way split, a Northwest Germanic stage, or a Gotho-Nordic pairing.",
+      "contested": true,
+      "sources": [
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
+        { "citation": "Fulk, R. D. 2018. A Comparative Grammar of the Early Germanic Languages. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-elder-futhark",
+      "branch_id": "proto-germanic",
+      "date": "By the 2nd century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Elder Futhark runes",
+      "description": "A 24-letter runic alphabet appears, with early secure inscriptions such as the Vimose comb (Funen, Denmark, c. 160 CE). It was adapted from a Mediterranean alphabet, but scholars disagree whether the model was Latin or one of the North Italic alphabets. The language of the oldest inscriptions is variously labelled late Proto-Germanic, Northwest Germanic or Proto-Norse.",
+      "contested": true,
+      "sources": [
+        { "citation": "Barnes, Michael P. 2012. Runes: A Handbook. Woodbridge: Boydell Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-northwest-germanic",
+      "branch_id": "proto-germanic",
+      "proposed_grouping": "Northwest Germanic: North and West Germanic share an intermediate ancestor after East Germanic split off",
+      "status": "widely_accepted",
+      "evidence_for": "North and West Germanic share changes that Gothic lacks. The long vowel `*ē` was lowered to `ā` (Gothic *mēna* 'moon' against Old Norse *máni*, Old High German *māno*), and the old reduplicating past tenses were remodelled (Gothic *haíhait* 'was called' against Old Norse *hét*, Old High German *hiaz*). The oldest runic inscriptions fit a language ancestral to both.",
+      "evidence_against": "The shared features could have spread across a dialect continuum after the split instead of being inherited from one ancestor. Some, such as i-umlaut, clearly worked out differently in each branch. Scholars who favour a Gotho-Nordic pairing, or a flat three-way split, read the same evidence differently.",
+      "linked_branch_ids": ["north-germanic", "west-germanic"],
+      "sources": [
+        { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
+        { "citation": "Ringe, Don & Ann Taylor. 2014. The Development of Old English. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-germanic-substrate",
+      "branch_id": "proto-germanic",
+      "proposed_grouping": "Germanic substrate hypothesis: much of Proto-Germanic's vocabulary, and its consonant shift, come from a non-Indo-European population that adopted an Indo-European language",
+      "status": "largely_rejected",
+      "evidence_for": "A noticeable group of common Germanic words, many to do with the sea and seafaring, has no secure Indo-European etymology. Feist also argued that a change as sweeping as Grimm's law looked like the result of a foreign population learning Indo-European.",
+      "evidence_against": "Many of the supposedly isolated words have since been given plausible Indo-European etymologies. The share of words without an etymology is not unusual for an Indo-European branch. No source language has been identified, and consonant shifts of this kind can happen without language shift. Variants of the idea (for example Vennemann's proposals) survive only as minority views.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Feist, Sigmund. 1932. The origin of the Germanic languages and the Europeanization of North Europe. Language 8(4): 245–254.", "url": null },
+        { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic, 2nd ed. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["rasmus-rask", "jacob-grimm", "karl-verner"]
+}
