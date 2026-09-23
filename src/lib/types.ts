@@ -10,6 +10,16 @@ export type TurningPointType =
   | "EXTINCTION"
   | "REVITALIZATION";
 
+// Kind of sound change, used to line up sound laws across families.
+export type SoundProcess =
+  | "consonant_shift"
+  | "vowel_shift"
+  | "lenition"
+  | "merger"
+  | "loss"
+  | "assimilation"
+  | "prosody";
+
 export type ClassificationStatus = "widely_accepted" | "minority_position" | "largely_rejected";
 
 export interface Source {
@@ -31,6 +41,10 @@ export interface TurningPoint {
   description: string;
   contested: boolean;
   sources: Source[];
+  // Required on SOUND_LAW turning points (extension), for the comparative view:
+  process?: SoundProcess;
+  notation?: string; // the change itself, rendered in the IPA face, e.g. "*p *t *k → *f *θ *x"
+  sort_year?: number; // rough midpoint for plotting; negative = BCE. `date` stays the text of record.
 }
 
 export interface ContestedClassification {

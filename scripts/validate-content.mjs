@@ -15,6 +15,7 @@ const branches = readDir("branches");
 const figures = JSON.parse(fs.readFileSync(path.join(root, "figures.json"), "utf8"));
 
 const TP_TYPES = new Set(["SPLIT", "SOUND_LAW", "CONTACT", "WRITING_SYSTEM_ADOPTED", "EXTINCTION", "REVITALIZATION"]);
+const PROCESSES = new Set(["consonant_shift", "vowel_shift", "lenition", "merger", "loss", "assimilation", "prosody"]);
 const STATUSES = new Set(["widely_accepted", "minority_position", "largely_rejected"]);
 
 const errors = [];
@@ -50,6 +51,11 @@ for (const { file, data: b } of branches) {
     if (tp.branch_id !== b.id) err(file, `turning point "${tp.id}" has branch_id "${tp.branch_id}"`);
     if (!TP_TYPES.has(tp.type)) err(file, `turning point "${tp.id}" has unknown type "${tp.type}"`);
     if (!tp.sources?.length) err(file, `turning point "${tp.id}" has no sources`);
+    if (tp.type === "SOUND_LAW") {
+      if (!PROCESSES.has(tp.process)) err(file, `sound law "${tp.id}" needs a process (${[...PROCESSES].join(", ")})`);
+      if (!tp.notation) err(file, `sound law "${tp.id}" needs a notation`);
+      if (typeof tp.sort_year !== "number") err(file, `sound law "${tp.id}" needs a numeric sort_year`);
+    }
   }
   for (const cc of b.contested_classifications) {
     if (cc.branch_id !== b.id) err(file, `classification "${cc.id}" has branch_id "${cc.branch_id}"`);
