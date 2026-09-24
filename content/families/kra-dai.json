@@ -38,5 +38,97 @@
     { "citation": "Sagart, Laurent. 2004. The higher phylogeny of Austronesian and the position of Tai-Kadai. Oceanic Linguistics 43(2): 411–444.", "url": null },
     { "citation": "Pittayaporn, Pittayawat. 2014. Layers of Chinese loanwords in Proto-Southwestern Tai as evidence for the dating of the spread of Southwestern Tai. MANUSYA: Journal of Humanities, Special Issue 20: 47–68.", "url": null },
     { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Look along each row. The Tai languages, Kam, Hlai and Buyang have changed their sounds in different ways, but the changes are regular. Where Thai has *t*, Wuming Zhuang has `ɣ`, so 'eye' and 'die' behave alike; where the older languages had `*p`, Thai and Zhuang have *f*. Buyang, a Kra language, still keeps a first syllable (`ma⁰ ta` 'eye') that the others lost, which is why the reconstructions are longer than any modern word. Digits in the transcriptions mark tones. Capital letters in Ostapirat's reconstructions mark consonants whose exact value is still uncertain, and a blank means the language uses an unrelated word.",
+    "proto_label": "Proto-Kra-Dai (Ostapirat)",
+    "languages": [
+      { "name": "Thai", "branch_id": "southwestern-tai" },
+      { "name": "Zhuang (Wuming)", "branch_id": "northern-tai" },
+      { "name": "Kam (Southern Dong)", "branch_id": "kam-sui" },
+      { "name": "Hlai (Baoding)", "branch_id": "hlai" },
+      { "name": "Buyang (Langjia)", "branch_id": "kra" }
+    ],
+    "rows": [
+      {
+        "gloss": "eye",
+        "proto": "maTaː",
+        "forms": ["taa", "ɣa1", "ta55", "tsha1", "ma0 ta54"]
+      },
+      {
+        "gloss": "die",
+        "proto": "maTaːj",
+        "forms": ["taai", "ɣaːi1", "tɐi55", null, null]
+      },
+      {
+        "gloss": "fire",
+        "proto": "(C)apuj",
+        "forms": ["fai", "fai2", "pui55", "fei1", "pui54"]
+      },
+      {
+        "gloss": "water",
+        "proto": "(C)aNam",
+        "forms": ["náam", "ɣam4", "nɐm31", "nom3", null]
+      },
+      {
+        "gloss": "louse",
+        "proto": "KuTuː",
+        "forms": ["hǎw", "ɣau1", "tau55", "fou1", "qa0 tu54"]
+      },
+      {
+        "gloss": "hand",
+        "proto": "(C)imɤː",
+        "forms": ["mɯɯ", "faɯ2", "mja212", "meɯ1", null]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "lipan",
+        "forms": ["fan", "fan2", "pjɐn55", "fan1", null]
+      },
+      {
+        "gloss": "bird",
+        "proto": null,
+        "forms": ["nók", "ɣok8", "mok21", null, "ma0 nuk11"]
+      },
+      {
+        "gloss": "blood",
+        "proto": "pɤlaːc",
+        "forms": ["lɯ̂at", "lɯət8", "phat13", "ɬaːȶ7", null]
+      },
+      {
+        "gloss": "I",
+        "proto": "akuː",
+        "forms": ["kuu", "kau1", null, "hou1", "ku54"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*T",
+        "reflexes": ["t", "ɣ", "t", "tsh", "t"],
+        "rows": [0, 1]
+      },
+      {
+        "label": "*p",
+        "reflexes": ["f", "f", "p", "f", "p"],
+        "rows": [2, 6]
+      },
+      {
+        "label": "*N",
+        "reflexes": ["n", "ɣ", "n", "n", null],
+        "rows": [3]
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Ostapirat, Weera. 2018. Macrophyletic trees of East Asian languages re-examined. In Ritsuko Kikusawa & Lawrence A. Reid, eds., Let's Talk about Trees. Senri Ethnological Studies 98. Osaka: National Museum of Ethnology.",
+        "url": null
+      },
+      {
+        "citation": "Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. Evolutionary Bioinformatics 4: 271–283. (Tai-Kadai word lists: Thai by P. Pittayaporn; Wuming Zhuang from Zhang Junru et al. 1999; Southern Dong from Long & Zheng 1998; Baoding Hlai from Ouyang & Zheng 1980; Langjia Buyang by L. Sagart.)",
+        "url": "https://abvd.eva.mpg.de/"
+      },
+      { "citation": "Long, Yaohong & Guoqiao Zheng. 1998. The Dong Language in Guizhou Province, China. Dallas: Summer Institute of Linguistics and University of Texas at Arlington.", "url": null },
+      { "citation": "Pittayaporn, Pittayawat. 2009. The Phonology of Proto-Tai. PhD dissertation, Cornell University.", "url": null }
+    ]
+  }
 }
