@@ -22,6 +22,33 @@
       "body": "In 1928 the new Turkish Republic under **Mustafa Kemal Atatürk** replaced Arabic script with a Latin alphabet designed for Turkish vowel harmony, with letters such as *ı*, *ö*, *ü*, *ş* and *ğ*. From 1932 the Turkish Language Association replaced thousands of Arabic and Persian words with Turkic coinages and revived words (*okul* 'school' for *mektep*). The historian Geoffrey Lewis called it 'a catastrophic success': it made the language easier to learn and write, but it also made Ottoman literature unreadable to later generations. After 1991, Azerbaijan and Turkmenistan also switched from Cyrillic to Latin alphabets."
     }
   ],
+  "speakers": {
+    "estimate": "c. 110 million",
+    "vitality": "mixed",
+    "note": "Turkish alone has some 80 million first-language speakers; Gagauz and Khorasani Turkic are far smaller and less secure.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "TUR", "name": "Turkey", "speakers": "c. 70 million" },
+    { "iso": "IRN", "name": "Iran", "speakers": "c. 15–20 million (mostly Azerbaijani)" },
+    { "iso": "AZE", "name": "Azerbaijan", "speakers": "c. 9 million" },
+    { "iso": "TKM", "name": "Turkmenistan", "speakers": "c. 5 million" },
+    { "iso": "DEU", "name": "Germany", "speakers": "c. 1.5 million" },
+    { "iso": "BGR", "name": "Bulgaria", "speakers": "c. 600,000" },
+    { "iso": "MDA", "name": "Moldova", "speakers": "c. 100,000" }
+  ],
+  "sample": {
+    "language": "Turkish",
+    "text": "Damlaya damlaya göl olur.",
+    "gloss": "drip-CVB drip-CVB lake become-AOR",
+    "translation": "Drop by drop, a lake forms. (Small amounts add up.)",
+    "sources": [
+      { "citation": "Türk Dil Kurumu. Atasözleri ve Deyimler Sözlüğü (Dictionary of Proverbs and Idioms).", "url": "https://sozluk.gov.tr/" }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-oghuz-voicing",

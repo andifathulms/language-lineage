@@ -17,6 +17,15 @@
       "body": "Turkic divides first into **Oghur**, whose only living member is Chuvash on the middle Volga, and **Common Turkic**, which covers everything else. The two differ in a few systematic consonants: where Common Turkic has *z* and *š*, Oghur has *r* and *l*. Turkish *dokuz* 'nine' corresponds to Chuvash *tăxăr*, and Turkish *taş* 'stone' to Chuvash *čul*.\n\nThis tree follows the standard division of Common Turkic into Oghuz (southwest), Kipchak (northwest), Karluk (southeast) and the Siberian languages. It draws only **Lena Turkic** (Sakha) from the Siberian group, because the grouping of the other Siberian languages is uncertain."
     }
   ],
+  "speakers": {
+    "estimate": "c. 180 million",
+    "vitality": "mixed",
+    "note": "The total is uncertain mainly because figures for Azerbaijani in Iran vary widely; it includes several small Siberian and Iranian Turkic languages not drawn in this tree.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-xiongnu",

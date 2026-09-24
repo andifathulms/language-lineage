@@ -18,6 +18,15 @@
       "body": "The Uyghur khaganate (744–840) that followed adopted a script derived from Sogdian, and after moving to the Tarim Basin the Uyghurs produced a large Buddhist and Manichaean literature in it. The Uyghur script later passed to the Mongols and from them to the Manchus.\n\nFrom the 10th century, Turkic dynasties in Central Asia converted to Islam, and Arabic script, Arabic religious vocabulary and above all Persian cultural vocabulary spread through the Turkic languages. Over the next centuries migrations and conquests (Seljuk, Mongol, Timurid, Ottoman) carried Common Turkic west to the Balkans and north to the Arctic, and the branches recorded here took shape."
     }
   ],
+  "speakers": {
+    "estimate": "c. 180 million",
+    "vitality": "mixed",
+    "note": "Every Turkic speaker except the Chuvash; the figure is uncertain mainly because counts of Azerbaijani speakers in Iran vary widely.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-gokturk",

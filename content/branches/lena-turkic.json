@@ -18,6 +18,18 @@
       "body": "With some 450,000 speakers, Sakha is among the most vigorous indigenous languages of Russia and serves as a lingua franca for smaller groups in the republic. Its first modern alphabet, a Latin-based script devised by **Semyon Novgorodov** in the 1910s and 1920s, was replaced by Cyrillic in 1939.\n\nDolgan, on the Taymyr Peninsula, grew out of Sakha in the 18th and 19th centuries, as Evenki reindeer herders, Sakha and Russian settlers formed a new community that spoke a Sakha-based language."
     }
   ],
+  "speakers": {
+    "estimate": "c. 400,000",
+    "vitality": "mixed",
+    "note": "Almost all are Sakha speakers; Dolgan has at most a few thousand speakers and is endangered.",
+    "sources": [
+      { "citation": "Rosstat. 2023. All-Russian Population Census 2021, vol. 5: National Composition and Language Proficiency. Moscow: Federal State Statistics Service.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 400,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-mongolic-sakha",

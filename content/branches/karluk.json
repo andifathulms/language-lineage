@@ -22,6 +22,22 @@
       "body": "In the Soviet period the Chagatai tradition was divided into national standards. Uzbek was based on the dialects of Tashkent and Fergana, which after centuries of bilingualism with Tajik Persian had lost vowel harmony and rounded `*a` to *o*: *ota* 'father', *bor* 'there is'. Uzbekistan adopted a Latin alphabet in 1993, though Cyrillic is still widely used. Uyghur, in Xinjiang, is written in a reformed Arabic script."
     }
   ],
+  "speakers": {
+    "estimate": "c. 45 million",
+    "vitality": "safe",
+    "note": "Over 30 million Uzbek speakers and about 11 million Uyghur speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "UZB", "name": "Uzbekistan", "speakers": "c. 30 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 11 million" },
+    { "iso": "AFG", "name": "Afghanistan", "speakers": "c. 3 million" },
+    { "iso": "TJK", "name": "Tajikistan", "speakers": "c. 1 million" },
+    { "iso": "KGZ", "name": "Kyrgyzstan", "speakers": "c. 1 million" },
+    { "iso": "KAZ", "name": "Kazakhstan", "speakers": "c. 700,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-karakhanid",
