@@ -2,7 +2,7 @@
 
 A read-only narrative encyclopedia of language families. It covers how each branch split from its parent, the dated sound laws and contact events behind each split, and the classifications historical linguists still dispute.
 
-Fifteen families are covered:
+Sixteen families are covered:
 
 - **Germanic** (Indo-European), 12 branches. v1 proved the format on a five-node thread here, and it was then widened: Proto-Germanic → East Germanic †, North Germanic (→ West Norse, East Norse), West Germanic (→ Anglo-Frisian (→ Anglic, Frisian), Low German, Low Franconian, High German).
 - **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
@@ -19,6 +19,7 @@ Fifteen families are covered:
 - **Algonquian** (Algic), 7 branches: Proto-Algonquian → Blackfoot, Arapahoan, Cheyenne, Cree–Innu, Ojibwe, Eastern Algonquian. Only Eastern Algonquian is a proven subgroup; Menominee, Meskwaki, Shawnee and Miami-Illinois are not yet drawn.
 - **Japonic**, 7 branches: Proto-Japonic → Mainland Japonic (→ Japanese, Hachijō), Ryukyuan (→ Northern Ryukyuan, Southern Ryukyuan).
 - **Koreanic**, 3 branches: Proto-Koreanic → Korean, Jeju.
+- **Kra-Dai**, 7 branches: Proto-Kra-Dai, Kra, Hlai, Kam-Sui, Tai, Northern Tai and Southwestern Tai, with the Great Tone Split and the Austro-Tai question.
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
