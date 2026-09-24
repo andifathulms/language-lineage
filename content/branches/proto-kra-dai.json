@@ -3,7 +3,7 @@
   "family": "kra-dai",
   "name": "Proto-Kra-Dai",
   "parent_ids": [],
-  "successor_ids": ["kra", "hlai", "kam-sui", "tai"],
+  "successor_ids": ["kra", "hlai", "kam-sui", "be", "tai"],
   "era": "c. 2000 BCE (reconstructed; dating debated)",
   "region": "Probably the coast and hills of southern China (Guangdong, Guangxi), or, on one view, Taiwan",
   "defining_innovation": "The reconstructed ancestor of about 90 languages, whose basic vocabulary often matches the last syllable of Austronesian words: Proto-Tai *ta 'eye' beside Austronesian *mata.",
@@ -76,9 +76,9 @@
   ],
   "figure_ids": [],
   "speakers": {
-    "estimate": "c. 90 million",
+    "estimate": "c. 85 million",
     "vitality": "mixed",
-    "note": "About two-thirds speak Thai, Lao or Isan; the total also includes Central Tai (Tày, Nùng, Southern Zhuang) and Be of Hainan, which have no branch of their own here.",
+    "note": "About two-thirds speak Thai, Lao or Isan, and Zhuang, Tày, Nùng and the other Tai languages of China and Vietnam make up most of the rest; the Kam-Sui, Hlai, Be and Kra branches together have fewer than 4 million speakers.",
     "sources": [
       { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
       { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }

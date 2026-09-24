@@ -1,0 +1,79 @@
+{
+  "id": "be",
+  "family": "kra-dai",
+  "name": "Be",
+  "parent_ids": ["proto-kra-dai"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The north coast of Hainan Island, China: Lingao and Chengmai counties, western Haikou (formerly Qiongshan) and parts of Danzhou",
+  "defining_innovation": "The Kra-Dai language of northern Hainan. Its tones and initial consonants correspond regularly with Tai's, and it shares with Tai a set of basic words not found in Kam-Sui or Hlai, which is why most scholars place it next to Tai.",
+  "descendants": ["Lincheng (Lingao)", "Chengmai", "Xinying", "Qiongshan"],
+  "chapters": [
+    {
+      "title": "The Other Language of Hainan",
+      "body": "**Be** is spoken by about 600,000 people along the north coast of Hainan, in Lingao and Chengmai counties, the western part of Haikou and neighbouring parts of Danzhou. Chinese linguists call it *Lingao*, after the county where it is strongest; the name Be comes from the word lists of the French missionary François-Marie Savina, made in the early 20th century. Its speakers are officially classified as Han Chinese, not as a minority, so no census counts them. There are two main dialect groups, western (Lincheng) and eastern (Qiongshan), which are not easily understood by each other's speakers.\n\nBe is not related closely to Hlai, the other Kra-Dai branch on Hainan. Hlai speakers have been on the island much longer and are concentrated in the mountainous interior, while Be is much closer to the Tai languages of the mainland. That points to two separate crossings. Liang Min and Zhang Junru, whose monograph of 1997 is the fullest description, suggest that the ancestors of the Be crossed from the Leizhou Peninsula of Guangdong about 2,500 years ago, in the Warring States period. The date rests on historical inference rather than direct evidence, and others would place the crossing later or look for Be's origins further west in Guangxi."
+    },
+    {
+      "title": "Living Beside Hainanese",
+      "body": "For most of the last thousand years Be has shared northern Hainan with Hainanese, a Min Chinese language brought by settlers mainly from Fujian and Guangdong. Nearly all Be speakers also speak Hainanese or Mandarin, and Be has absorbed Chinese words in several layers, each with its own pronunciation: older borrowings adapted to Be's sound system, and later ones taken from local Hainanese or from standard Chinese. Some scholars think the influence ran the other way as well, and that the implosive consonants `ɓ` and `ɗ` of Hainanese, unusual for a Chinese language, were brought in by Be or Hlai speakers who shifted to Chinese.\n\nBe was documented late. Savina's vocabulary was published only in 1965, edited by André-Georges Haudricourt; Mantaro Hashimoto published a classified lexicon of the Lingao dialect in 1980; and Liang and Zhang's survey compared many local varieties. Mark Hansell used this material in 1988 to show that Be's tones and initial consonants line up with Tai's in regular patterns. Be has no standard written form. It remains the everyday language of many villages and market towns, but schooling and media are in Mandarin, and its use among young people in Haikou is declining."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-be-hainan",
+      "branch_id": "be",
+      "date": "c. mid-1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Across to northern Hainan",
+      "description": "The ancestors of the Be cross from the mainland, probably the Leizhou Peninsula, to the north coast of Hainan and separate from the Tai-speaking mainland. The date and point of departure are disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Liang Min & Zhang Junru. 1997. Lingaoyu yanjiu [A study of the Lingao language]. Shanghai: Shanghai Yuandong Chubanshe.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-be-hainanese",
+      "branch_id": "be",
+      "date": "c. 10th century CE onward",
+      "type": "CONTACT",
+      "title": "Hainanese settlement",
+      "description": "Min-speaking settlers from Fujian and Guangdong arrive in growing numbers on northern Hainan, especially from the Song dynasty on. Be speakers become bilingual in Hainanese, and Be takes in successive layers of Chinese vocabulary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Liang Min & Zhang Junru. 1997. Lingaoyu yanjiu [A study of the Lingao language]. Shanghai: Shanghai Yuandong Chubanshe.", "url": null },
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-be-tai",
+      "branch_id": "be",
+      "proposed_grouping": "Be-Tai: Be is the closest relative of Tai, and the two form one branch within Kam-Tai",
+      "status": "widely_accepted",
+      "evidence_for": "Hansell (1988) showed regular correspondences between Be and Tai tones and initial consonants and a body of shared basic vocabulary not found in Kam-Sui. Edmondson and Solnit, Norquest and the Glottolog classification follow him, and Chinese scholars likewise put Lingao close to Zhuang and Tai.",
+      "evidence_against": "Be's place is still not settled in detail. Ostapirat does not use Kam-Tai as a subgroup at all, and small mainland languages such as Jizhao, which shares some vocabulary with Be, are still poorly described. Long contact between Be and Tai speakers before the crossing to Hainan, and heavy borrowing from Chinese by both, could explain some of the shared words.",
+      "linked_branch_ids": ["tai"],
+      "sources": [
+        {
+          "citation": "Hansell, Mark. 1988. The relation of Be to Tai: Evidence from tones and initials. In Comparative Kadai: Linguistic Studies beyond Tai, ed. Jerold A. Edmondson & David B. Solnit, 239–288. Dallas: Summer Institute of Linguistics and University of Texas at Arlington.",
+          "url": null
+        },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Tai-Kadai (taik1256).", "url": "https://glottolog.org/resource/languoid/id/taik1256" }
+      ]
+    }
+  ],
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 600,000",
+    "vitality": "vulnerable",
+    "note": "Speakers are officially Han Chinese, so the figure comes from survey estimates, not a census; almost all are bilingual in Hainanese or Mandarin.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Liang Min & Zhang Junru. 1997. Lingaoyu yanjiu [A study of the Lingao language]. Shanghai: Shanghai Yuandong Chubanshe.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 600,000" }
+  ]
+}

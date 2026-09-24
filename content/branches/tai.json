@@ -3,7 +3,7 @@
   "family": "kra-dai",
   "name": "Tai",
   "parent_ids": ["proto-kra-dai"],
-  "successor_ids": ["northern-tai", "southwestern-tai"],
+  "successor_ids": ["northern-tai", "central-tai", "southwestern-tai"],
   "era": "c. 1st millennium BCE – present",
   "region": "From Guangxi and Guizhou southwest to Laos, Thailand, Myanmar and Assam",
   "defining_innovation": "The branch of Thai, Lao, Shan and Zhuang. Proto-Tai had three tones plus 'dead' checked syllables, and every tone later split in two according to the old initial consonant.",
@@ -51,9 +51,9 @@
   "contested_classifications": [],
   "figure_ids": ["li-fang-kuei"],
   "speakers": {
-    "estimate": "c. 85 million",
+    "estimate": "c. 80 million",
     "vitality": "mixed",
-    "note": "Includes the Central Tai languages of northern Vietnam and Guangxi (Tày, Nùng, Southern Zhuang), about 7 million speakers not shown as a separate branch.",
+    "note": "About 60 million speak Southwestern Tai, 12 million Northern Tai and 7 million Central Tai (Tày, Nùng, Southern Zhuang). All are rough, since Chinese and Vietnamese censuses count ethnicity, not language.",
     "sources": [
       { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
       { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
