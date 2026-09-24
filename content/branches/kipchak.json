@@ -1,0 +1,117 @@
+{
+  "id": "kipchak",
+  "family": "turkic",
+  "name": "Kipchak",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 11th century CE – present",
+  "region": "The western and central steppe: Kazakhstan, the Volga–Ural region, Crimea, the North Caucasus and Kyrgyzstan",
+  "defining_innovation": "Final and intervocalic *γ became w or disappeared: *taγ 'mountain' is Kazakh and Tatar taw, beside Turkish dağ.",
+  "descendants": ["Kazakh", "Tatar", "Bashkir", "Kyrgyz", "Crimean Tatar", "Karachay-Balkar", "Kumyk", "Nogai"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Kipchaks, known to Byzantines and Hungarians as Cumans and to Russians as Polovtsy, dominated the western steppe from the 11th century to the Mongol conquest. Their language is recorded in the *Codex Cumanicus* (c. 1303), a manuscript of glossaries, riddles and hymns compiled by Italian merchants and German missionaries in Crimea. Kipchak slaves and soldiers also founded the Mamluk sultanate of Egypt, where Kipchak grammars were written in Arabic.\n\nA characteristic change is the weakening of `*γ`: `*taγ` 'mountain' became *taw* in Kazakh, Tatar and Bashkir, where Turkish has *dağ*."
+    },
+    {
+      "title": "The Golden Horde and After",
+      "body": "After the Mongol conquest of the 1230s–40s, the Mongol ruling class of the Golden Horde was absorbed into its Kipchak-speaking population. The Horde's successor states (Kazan, Crimea, the Nogai Horde, the Kazakh khanates) spread Kipchak across the western steppe. Tatar, Bashkir, Kazakh, Nogai and Crimean Tatar all grew out of this period.\n\nKyrgyz is usually classed as Kipchak today, but its speakers' ancestors are linked to the Yenisei Kyrgyz of southern Siberia, and some features point that way. It is one of several cases where the tree drawn by sound changes and the history of the people do not line up neatly."
+    },
+    {
+      "title": "Three Alphabets in a Century",
+      "body": "Under Soviet rule the Kipchak languages changed script twice. Arabic script gave way to Latin in 1928–29, and Latin to Cyrillic in 1938–40, which cut readers off from their own recent literature each time. In 1944 the entire Crimean Tatar people was deported to Central Asia, and the language lost its homeland for nearly half a century. Since 2017 Kazakhstan has been moving Kazakh from Cyrillic to Latin."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kipchak-w",
+      "branch_id": "kipchak",
+      "date": "By the 11th – 13th century CE",
+      "type": "SOUND_LAW",
+      "title": "*γ becomes w",
+      "description": "After back vowels, `*γ` weakens to *w* or disappears: `*taγ` 'mountain' → Kazakh, Tatar *taw*. Oghuz keeps a consonant (*dağ*), which makes this a quick test for telling the two branches apart.",
+      "contested": false,
+      "process": "lenition",
+      "notation": "*γ → w / V_ (*taγ → taw 'mountain')",
+      "sort_year": 1100,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-codex-cumanicus",
+      "branch_id": "kipchak",
+      "date": "c. 1303",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Codex Cumanicus",
+      "description": "Italian and German compilers in Crimea write Kipchak in the Latin alphabet in glossaries, riddles and religious texts. It is the main record of medieval western Kipchak.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-golden-horde",
+      "branch_id": "kipchak",
+      "date": "13th – 15th century CE",
+      "type": "CONTACT",
+      "title": "The Golden Horde",
+      "description": "Under Mongol rule the Kipchak-speaking majority absorbs the Mongol elite, and Mongolic words enter the language. The Horde's successor khanates lay the foundations of today's Kipchak languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-soviet-alphabets-kipchak",
+      "branch_id": "kipchak",
+      "date": "1928 – 1940",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Arabic to Latin to Cyrillic",
+      "description": "Soviet policy replaces Arabic script with Latin in 1928–29 and Latin with Cyrillic in 1938–40, separating each generation from the written language of the last.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-crimean-tatar-deportation",
+      "branch_id": "kipchak",
+      "date": "1944",
+      "type": "CONTACT",
+      "title": "Deportation of the Crimean Tatars",
+      "description": "The Soviet state deports the whole Crimean Tatar population to Central Asia. Scattered among speakers of other languages and barred from returning until the late 1980s, the community sees its language decline sharply.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kazakh-latin",
+      "branch_id": "kipchak",
+      "date": "2017 onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Kazakh moves to Latin",
+      "description": "A 2017 decree begins Kazakhstan's transition from Cyrillic to a Latin alphabet. The alphabet has been revised several times and the change is still under way.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-kyrgyz-kipchak",
+      "branch_id": "kipchak",
+      "proposed_grouping": "Kyrgyz as Kipchak: modern Kyrgyz belongs with Kazakh and the other Kipchak languages",
+      "status": "widely_accepted",
+      "evidence_for": "Kyrgyz shares the defining Kipchak sound changes, including the weakening of `*γ`, and is close enough to Kazakh for extensive mutual understanding. Most classifications place it in Kipchak.",
+      "evidence_against": "The Kyrgyz are historically linked to the Yenisei Kyrgyz of southern Siberia, whose language belonged with Siberian Turkic, and Kyrgyz keeps some features shared with Southern Altai. On this view Kyrgyz is a Siberian Turkic language later reshaped by Kipchak contact, a case of the family tree and contact history pulling in different directions.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
