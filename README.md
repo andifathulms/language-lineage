@@ -2,7 +2,7 @@
 
 A read-only narrative encyclopedia of language families. It covers how each branch split from its parent, the dated sound laws and contact events behind each split, and the classifications historical linguists still dispute.
 
-Eight families are covered:
+Nine families are covered:
 
 - **Germanic** (Indo-European), 12 branches. v1 proved the format on a five-node thread here, and it was then widened: Proto-Germanic → East Germanic †, North Germanic (→ West Norse, East Norse), West Germanic (→ Anglo-Frisian (→ Anglic, Frisian), Low German, Low Franconian, High German).
 - **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
@@ -12,6 +12,7 @@ Eight families are covered:
 - **Bantu** (Niger-Congo), 7 branches: Proto-Bantu → Northwest Bantu, Western Bantu, Eastern Bantu (→ Great Lakes Bantu, Sabaki, Kusi). Northwest Bantu is drawn as one limb but is a geographical label, and Guthrie's zones are not used as branches.
 - **Mayan**, 9 branches: Proto-Mayan → Huastecan, Yucatecan, Western Mayan (→ Cholan-Tzeltalan, Q'anjob'alan), Eastern Mayan (→ K'iche'an, Mamean), following Kaufman's classification.
 - **Dravidian**, 9 branches: Proto-Dravidian → North Dravidian, Central Dravidian, South Dravidian (→ South-Central Dravidian, South Dravidian I (→ Tulu, Kannada, Tamil-Malayalam)), following Krishnamurti (2003).
+- **Austroasiatic**, 8 branches: Proto-Austroasiatic → Munda, Khasian, Vietic, Khmeric, Monic, Aslian, Nicobarese, drawn as a single fan because the family has about a dozen primary branches and no well-supported intermediate groups.
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
