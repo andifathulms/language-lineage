@@ -1,0 +1,76 @@
+{
+  "id": "northwest-semitic",
+  "family": "semitic",
+  "name": "Northwest Semitic",
+  "parent_ids": ["central-semitic"],
+  "successor_ids": ["aramaic", "canaanite"],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "The Levant and Syria",
+  "defining_innovation": "Word-initial *w became y: Hebrew yeled 'child' beside Arabic walad, which keeps the old w.",
+  "descendants": ["Hebrew", "Aramaic", "Phoenician †", "Ugaritic †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Northwest Semitic is the Semitic of the Levant and Syria in the Bronze and Iron Ages. Its earliest traces are the names of **Amorites**, West Semitic newcomers who appear in Mesopotamian records around 2000 BCE and who founded dynasties at Mari and Babylon. Hammurabi's name is Amorite. A clear shared change is at the start of words, where `*w` became *y*: Hebrew *yeled* 'child' corresponds to Arabic *walad*.\n\nIts two great branches are **Canaanite** (Hebrew, Phoenician, Moabite) and **Aramaic**. **Ugaritic**, the language of the city of Ugarit on the Syrian coast, is also Northwest Semitic, but whether it is a form of Canaanite or a separate branch is disputed."
+    },
+    {
+      "title": "Ugarit",
+      "body": "Ugarit's scribes of the 14th–13th centuries BCE wrote their language in a unique alphabet of 30 wedge-shaped signs, an alphabet pressed into clay in cuneiform style. Its myths of the storm god Baal and the ruler god El illuminate Canaanite religion and the background of the Hebrew Bible. The city was destroyed around 1185 BCE in the upheavals at the end of the Bronze Age, and the language disappeared with it."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-amorites",
+      "branch_id": "northwest-semitic",
+      "date": "c. 2000 – 1600 BCE",
+      "type": "CONTACT",
+      "title": "Amorites in Mesopotamia",
+      "description": "Amorite names fill Mesopotamian records as West Semitic groups establish dynasties at Mari and Babylon. The language is known only from names. Its precise relationship to later Northwest Semitic is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nws-w-y",
+      "branch_id": "northwest-semitic",
+      "date": "c. 2nd millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Initial *w becomes y",
+      "description": "At the start of a word, `*w` becomes *y*: Hebrew *yeled* 'child' against Arabic *walad*. Inside words the old *w* often survives, so the change shows up as alternations within verb families.",
+      "contested": false,
+      "process": "consonant_shift",
+      "notation": "*w- → y- (*wald- → yeled 'child'; Arabic walad)",
+      "sort_year": -1800,
+      "sources": [
+        { "citation": "Sáenz-Badillos, Angel. 1993. A History of the Hebrew Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ugaritic",
+      "branch_id": "northwest-semitic",
+      "date": "14th – 12th century BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Ugaritic alphabet",
+      "description": "Ugarit writes its language in a 30-sign alphabet in cuneiform style, with its own letter order. Abecedaries found at the site show that this order is ancestral to the order of the later Semitic and Greek alphabets.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nws-split",
+      "branch_id": "northwest-semitic",
+      "date": "Late 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Canaanite and Aramaic diverge",
+      "description": "In the Iron Age, the Canaanite dialects of the coast and southern Levant and the Aramaic of inland Syria develop into separate language groups, each soon with its own writing tradition.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
