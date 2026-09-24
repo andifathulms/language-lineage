@@ -1,0 +1,65 @@
+{
+  "id": "ojibwe",
+  "family": "algonquian",
+  "name": "Ojibwe",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Around the Great Lakes and west to the Prairies, in Ontario, Manitoba, Minnesota, Wisconsin and Michigan",
+  "defining_innovation": "Anishinaabemowin, a chain of dialects (Ojibwe, Odawa, Algonquin, Saulteaux, Oji-Cree) around the Great Lakes, spoken by one of the largest Indigenous nations of North America.",
+  "descendants": ["Ojibwe", "Odawa", "Algonquin", "Saulteaux", "Oji-Cree", "Potawatomi"],
+  "chapters": [
+    {
+      "title": "Around the Great Lakes",
+      "body": "Ojibwe (*Anishinaabemowin*) and its close relatives are spoken around the upper Great Lakes, and westward to the Prairies. The Anishinaabe were central partners in the French fur trade, and Ojibwe served as a regional lingua franca. English took words such as *totem* (from Ojibwe *doodem*, 'clan') from it. Potawatomi is closely related and is sometimes grouped with it."
+    },
+    {
+      "title": "Syncope and Immersion",
+      "body": "In the 20th century the Odawa and eastern Ojibwe dialects dropped their short unstressed vowels on a large scale, so *Anishinaabe* became *Nishnaabe*. The change happened within living memory and has been studied as it happened. Since the 1990s immersion schools, such as Waadookodaading in Wisconsin (founded 2000), have been raising new child speakers."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ojibwe-fur-trade",
+      "branch_id": "ojibwe",
+      "date": "17th – 19th century",
+      "type": "CONTACT",
+      "title": "The French fur trade",
+      "description": "The Anishinaabe become key partners of French and later British traders around the Great Lakes. Ojibwe becomes a trade language, and words like *totem* pass into French and English.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-odawa-syncope",
+      "branch_id": "ojibwe",
+      "date": "20th century",
+      "type": "SOUND_LAW",
+      "title": "Odawa vowel syncope",
+      "description": "In Odawa and eastern Ojibwe, short unstressed vowels are lost in large numbers: *Anishinaabe* → *Nishnaabe*. It is one of the few Algonquian sound changes that linguists have been able to observe while it happened.",
+      "contested": false,
+      "process": "loss",
+      "notation": "short unstressed V → ∅ (Anishinaabe → Nishnaabe)",
+      "sort_year": 1920,
+      "sources": [
+        { "citation": "Rhodes, Richard A. 1985. Eastern Ojibwa-Chippewa-Ottawa Dictionary. Berlin: Mouton.", "url": null },
+        { "citation": "Valentine, J. Randolph. 2001. Nishnaabemwin Reference Grammar. Toronto: University of Toronto Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-waadookodaading",
+      "branch_id": "ojibwe",
+      "date": "2000 onward",
+      "type": "REVITALIZATION",
+      "title": "Immersion schools",
+      "description": "Ojibwe-immersion schools such as Waadookodaading on the Lac Courte Oreilles reservation in Wisconsin begin raising children who speak Ojibwe as a first language again.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne, Leena Huss & Gerald Roche, eds. 2018. The Routledge Handbook of Language Revitalization. New York: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
