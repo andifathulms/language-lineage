@@ -1,0 +1,63 @@
+{
+  "id": "proto-quechua",
+  "family": "quechuan",
+  "name": "Proto-Quechua",
+  "parent_ids": [],
+  "successor_ids": ["quechua-i", "quechua-ii"],
+  "era": "c. 1st millennium CE (reconstructed; dating debated)",
+  "region": "Central Peru, on the coast and in the highlands around Lima",
+  "defining_innovation": "The reconstructed ancestor of all Quechua varieties. It was spoken in central Peru, about a thousand years before the Inca made a later form of it the language of their empire.",
+  "chapters": [
+    {
+      "title": "Not the Language of Cusco",
+      "body": "Quechua is often thought of as the language of the Inca, but its greatest diversity lies in central Peru, in the highlands of Ancash, Huánuco and Junín and on the coast near Lima. By the usual reasoning of historical linguistics, that is where it began. **Alfredo Torero** and Gary Parker showed in the 1960s that the varieties fall into two groups, Quechua I in the centre and Quechua II around it, north and south. The Inca, whose own court language may originally have been something else, adopted a southern variety of Quechua II as the common language of their empire in the 15th century."
+    },
+    {
+      "title": "Quechua and Aymara",
+      "body": "Quechua and the Aymaran languages have been neighbours for well over a thousand years. They share much of their vocabulary, a nearly identical sound system and very similar agglutinative grammar, built entirely with suffixes. Some scholars have therefore grouped them as 'Quechumaran'. Most specialists now think the resemblances come from long, intense contact, because the shared words do not show the regular sound correspondences expected of inherited vocabulary."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-quechua-first-split",
+      "branch_id": "proto-quechua",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Quechua I and Quechua II",
+      "description": "Proto-Quechua divides into a central group (Quechua I) and a peripheral group (Quechua II), which later spreads north and south along the Andes. The date and exact homeland, coast or highlands, are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Torero, Alfredo. 1964. Los dialectos quechuas. Anales Científicos de la Universidad Agraria 2: 446–478.", "url": null },
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-quechua-aymara-contact",
+      "branch_id": "proto-quechua",
+      "date": "1st millennium CE onward",
+      "type": "CONTACT",
+      "title": "Centuries beside Aymara",
+      "description": "Quechua and Aymaran speakers live side by side in the central and southern Andes, exchanging vocabulary and converging in sound system and grammar until the two families look deceptively alike.",
+      "contested": false,
+      "sources": [
+        { "citation": "Cerrón-Palomino, Rodolfo. 2000. Lingüística aimara. Cusco: Centro Bartolomé de Las Casas.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-quechumaran",
+      "branch_id": "proto-quechua",
+      "proposed_grouping": "Quechumaran: Quechua and Aymara share a common ancestor",
+      "status": "minority_position",
+      "evidence_for": "The two families share perhaps a fifth or more of their basic vocabulary, almost the same consonant inventory, and parallel suffix-based grammar. Orr and Longacre (1968) proposed a genetic relationship on this basis.",
+      "evidence_against": "Much of the shared vocabulary is identical rather than regularly corresponding, which points to borrowing, and the grammatical suffixes that carry the most weight in proving relationship mostly differ. Cerrón-Palomino and others explain the similarities as the result of centuries of contact.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Orr, Carolyn & Robert E. Longacre. 1968. Proto-Quechumaran: Structural comparison of Quechua and Aymara. Language 44(3): 528–555.", "url": null },
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["alfredo-torero"]
+}
