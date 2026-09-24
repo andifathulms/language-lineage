@@ -1,0 +1,116 @@
+{
+  "id": "saami",
+  "family": "uralic",
+  "name": "Saami",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Northern Norway, Sweden and Finland, and the Kola Peninsula of Russia",
+  "defining_innovation": "The Proto-Saami vowel shift rebuilt the stressed vowels, turning *a into uo: Proto-Uralic *kala 'fish' is North Saami guolli, beside Finnish kala.",
+  "descendants": ["North Saami", "Lule Saami", "South Saami", "Inari Saami", "Skolt Saami", "Kildin Saami", "Akkala Saami †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Saami languages form a chain of about ten languages across the far north of Europe, from central Norway to the Kola Peninsula. The ends of the chain are not mutually intelligible. Proto-Saami probably took shape somewhere near Lake Onega and the Finnish lakeland in the first millennium BCE, and it spread north and west into Scandinavia later than is often assumed.\n\nAs it spread it replaced older, unknown languages. Ante Aikio has identified a layer of Saami vocabulary, much of it for landscape and northern wildlife, that has no Uralic or Indo-European source and may come from those vanished languages. The vowel system went through its own reshuffle: Proto-Uralic `*kala` 'fish' became North Saami *guolli*."
+    },
+    {
+      "title": "Neighbours, Missionaries and Schools",
+      "body": "Saami borrowed from Finnic and from Norse over many centuries, and some Norse loans preserve Proto-Norse shapes older than any Old Norse text. The first Saami books were printed in the early 17th century for Swedish church use.\n\nFrom the mid-19th century, Norway's policy of *fornorskning* (Norwegianisation), and similar policies in Sweden, Finland and Russia, pushed Saami out of schools and public life. Children were often sent to boarding schools where only the majority language was allowed. Several Saami languages came close to disappearing, and Akkala Saami did."
+    },
+    {
+      "title": "Revival",
+      "body": "Since the 1970s the Saami movement has won political institutions and language rights: Saami parliaments in Norway (1989), Sweden and Finland, Saami-medium schools, and official status in Saami areas. Inari Saami, with only a few hundred speakers, became a model for revival when its first language nest opened in 1997 and brought a new generation of child speakers."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-saami-vowel-shift",
+      "branch_id": "saami",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Proto-Saami vowel shift",
+      "description": "The stressed vowels of Proto-Uralic rotate into a new system, and `*a` becomes the diphthong `uo`: `*kala` 'fish' → North Saami *guolli*. When it happened, relative to the spread of Saami into Scandinavia, is debated.",
+      "contested": true,
+      "process": "vowel_shift",
+      "notation": "*a → uo, with the other stressed vowels rotating (*kala → guolli)",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Sammallahti, Pekka. 1998. The Saami Languages: An Introduction. Kárášjohka: Davvi Girji.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-saami-expansion",
+      "branch_id": "saami",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Spread across the north",
+      "description": "Saami spreads across northern Fennoscandia and splits into the western and eastern languages. The unexplained substrate vocabulary suggests that it replaced earlier languages there. How far the substrate reaches is still under study.",
+      "contested": true,
+      "sources": [
+        { "citation": "Aikio, Ante. 2012. An essay on Saami ethnolinguistic prehistory. In A Linguistic Map of Prehistoric Northern Europe, ed. Riho Grünthal & Petri Kallio. Helsinki: Suomalais-Ugrilainen Seura.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-norse-saami-contact",
+      "branch_id": "saami",
+      "date": "1st millennium CE onward",
+      "type": "CONTACT",
+      "title": "Norse neighbours",
+      "description": "Long coexistence with Norse speakers along the Norwegian coast leaves layers of Scandinavian loanwords in Saami. The oldest of them show Proto-Norse forms that predate the Viking Age.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sammallahti, Pekka. 1998. The Saami Languages: An Introduction. Kárášjohka: Davvi Girji.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-saami-print",
+      "branch_id": "saami",
+      "date": "Early 17th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "First Saami books",
+      "description": "Swedish church authorities print the first books in Saami, a primer and a service book, in the Latin alphabet. Later each Saami language develops its own orthography.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sammallahti, Pekka. 1998. The Saami Languages: An Introduction. Kárášjohka: Davvi Girji.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-norwegianisation",
+      "branch_id": "saami",
+      "date": "c. 1850 – 1960s",
+      "type": "CONTACT",
+      "title": "Assimilation policies",
+      "description": "Norwegianisation in Norway, and similar policies in Sweden, Finland and later the Soviet Union, exclude Saami from schools and official life. Intergenerational transmission breaks down in many communities.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-saami-revival",
+      "branch_id": "saami",
+      "date": "1989 – 1997",
+      "type": "REVITALIZATION",
+      "title": "Parliaments and language nests",
+      "description": "The Norwegian Saami Parliament opens in 1989, followed by those of Finland and Sweden. The first Inari Saami language nest (1997) begins to produce new child speakers of a language with only a few hundred users.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-akkala-extinction",
+      "branch_id": "saami",
+      "date": "2003",
+      "type": "EXTINCTION",
+      "title": "Akkala Saami falls silent",
+      "description": "The last speaker of Akkala Saami, on the Kola Peninsula, dies. Kemi Saami in Finland had already disappeared in the 19th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
