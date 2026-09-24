@@ -1,0 +1,64 @@
+{
+  "id": "arandic",
+  "family": "pama-nyungan",
+  "name": "Arandic",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Central Australia, around Alice Springs (Mparntwe)",
+  "defining_innovation": "Arrernte, Anmatyerr, Kaytetye and Alyawarr, which reshaped the Pama-Nyungan word: initial consonants were lost, so words now begin with vowels, and final vowels reduced to a schwa.",
+  "descendants": ["Arrernte", "Western Arrarnta", "Anmatyerr", "Alyawarr", "Kaytetye"],
+  "chapters": [
+    {
+      "title": "A Reshaped Word",
+      "body": "The Arandic languages of central Australia look very unlike their Pama-Nyungan relatives. Over time they dropped the initial consonant of most words and reduced final vowels. As a result many Arrernte words begin with a vowel and end in a weak *e*, and linguists have argued whether the Arrernte syllable should be analysed as VC rather than the usual CV. Harold Koch showed how these words can be traced back, sound by sound, to Proto-Pama-Nyungan."
+    },
+    {
+      "title": "Missions and the Telegraph",
+      "body": "The Overland Telegraph line reached Alice Springs in 1872, bringing the first permanent settlers to Arrernte country. In 1877 Lutheran missionaries founded Hermannsburg (Ntaria) among the Western Arrarnta. The missionary Carl Strehlow and his successors wrote the language down and translated scripture into it, and it became one of the earliest written Aboriginal languages of central Australia. Arrernte is still spoken, and taught in Alice Springs schools."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-arandic-initial-loss",
+      "branch_id": "arandic",
+      "date": "Proto-Arandic period",
+      "type": "SOUND_LAW",
+      "title": "Initial consonants lost",
+      "description": "Arandic loses the initial consonant of most words and reduces final vowels, so that words typically begin with a vowel. The changes can be traced regularly from Pama-Nyungan forms, but they are not dated.",
+      "contested": true,
+      "process": "loss",
+      "notation": "#C → ∅ · final V → ə (words now begin with a vowel)",
+      "sort_year": 500,
+      "sources": [
+        { "citation": "Koch, Harold. 1997. Pama-Nyungan reflexes in the Arandic languages. In Boundary Rider: Essays in Honour of Geoffrey O'Grady, ed. Darrell Tryon & Michael Walsh. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-overland-telegraph",
+      "branch_id": "arandic",
+      "date": "1872",
+      "type": "CONTACT",
+      "title": "The Overland Telegraph",
+      "description": "The telegraph line and its repeater station at Alice Springs bring settlers, pastoralists and English into Arrernte country.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kenny, Anna. 2013. The Aranda's Pepa: An Introduction to Carl Strehlow's Masterpiece Die Aranda- und Loritja-Stämme in Zentral-Australien (1907–1920). Canberra: ANU Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hermannsburg",
+      "branch_id": "arandic",
+      "date": "1877 onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Hermannsburg and Western Arrarnta",
+      "description": "Lutheran missionaries at Hermannsburg write Western Arrarnta in the Latin alphabet and translate scripture into it. Carl Strehlow's work makes it one of the best-documented Aboriginal languages of its time.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kenny, Anna. 2013. The Aranda's Pepa: An Introduction to Carl Strehlow's Masterpiece Die Aranda- und Loritja-Stämme in Zentral-Australien (1907–1920). Canberra: ANU Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["carl-strehlow"]
+}

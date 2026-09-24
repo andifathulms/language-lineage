@@ -292,5 +292,12 @@
     "lifespan": "1499–1590",
     "branch_ids": ["aztecan"],
     "turning_point_ids": ["tp-florentine-codex"]
+  },
+  {
+    "id": "carl-strehlow",
+    "name": "Carl Strehlow",
+    "lifespan": "1871–1922",
+    "branch_ids": ["arandic"],
+    "turning_point_ids": ["tp-hermannsburg"]
   }
 ]
