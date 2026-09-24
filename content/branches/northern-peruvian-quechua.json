@@ -12,7 +12,23 @@
     {
       "title": "Northern Outliers",
       "body": "Torero's Quechua II-A takes in the Quechua of Cajamarca and of the Cañaris and Incahuasi districts in the highlands of Lambayeque, spoken by a few tens of thousands of people. They share some features with Central Quechua, their southern neighbour, and some with Quechua II, and their exact position is one of the unsettled points in Quechua classification. They are threatened by the spread of Spanish in the northern highlands."
+    },
+    {
+      "title": "Before and After the Inca",
+      "body": "Cajamarca is best known as the town where Francisco Pizarro captured the Inca ruler Atahualpa in 1532, but the Quechua spoken in its countryside is not simply a relic of Inca rule. Its differences from the Cusco-based imperial language led Torero to conclude that Quechua reached the northern highlands earlier, before the Inca expansion. Other languages, now gone, were spoken nearby: Culle in the highlands to the south, and Mochica on the coast of Lambayeque, which survived until the early 20th century. Quechua has outlasted them both.\n\nToday Cajamarca Quechua is spoken mainly in rural districts near the city, such as Chetilla and Porcón. Cañaris and Incahuasi lie in the mountains of Ferreñafe province, Lambayeque, where the language has held on in more isolated communities. The 1976 national series of Quechua grammars gave these varieties their own grammar and dictionary, prepared by Félix Quesada, which recognised them as distinct from both Central and Southern Quechua. Community radio and some bilingual schooling now use them, but the spread of roads, migration to the coast and Spanish-medium schools are moving many families towards Spanish."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 40,000–60,000",
+    "vitality": "definitely_endangered",
+    "note": "Estimates for Cajamarca and for Cañaris-Incahuasi vary widely, and children in many communities now grow up speaking Spanish.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "PER", "name": "Peru", "speakers": "c. 40,000–60,000" }
   ],
   "turning_points": [
     {

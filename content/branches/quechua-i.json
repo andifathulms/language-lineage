@@ -12,7 +12,24 @@
     {
       "title": "The Heartland",
       "body": "Central Quechua, or Quechua I in Torero's terms, is spoken by perhaps a million people in the valleys of central Peru. It never became a colonial 'general language', so it stayed split into many local varieties that can differ sharply from valley to valley and from the Quechua of Cusco. A characteristic feature is the lengthening of a vowel to mark the first person, where Quechua II uses *-y*: Ancash *wasii* 'my house' against Cusco *wasiy*. In Huanca, the variety of the Mantaro valley, the old uvular stop `*q` has become a glottal stop.\n\nThroughout the 20th century many speakers shifted to Spanish, and several varieties now have few young speakers."
+    },
+    {
+      "title": "Many Languages in Small Valleys",
+      "body": "Because Central Quechua was never standardised, each valley kept its own form, and the differences are often as large as those between separate Romance languages. Speakers of Ancash-Huailas and of Huanca in the Mantaro valley can have real difficulty understanding each other, and both find the Quechua of Cusco hard going. Catalogues such as Ethnologue therefore list Central Quechua not as one language but as more than a dozen.\n\nOne recurring feature is contrastive vowel length, which Southern Quechua lacks. Long vowels arise both from the first-person marker described above and from older sequences that collapsed, so that length alone can distinguish words. Many Central varieties also keep a retroflex affricate, a *ch* made with the tongue curled back, which Southern Quechua has merged with ordinary *ch*.\n\nIn 1975, when Peru made Quechua an official language, the government commissioned grammars and dictionaries of six regional varieties, published in 1976 with the Instituto de Estudios Peruanos. Three of them described Central or neighbouring northern varieties: Ancash-Huailas, Junín-Huanca and Cajamarca-Cañaris. These remain standard references, and they gave the central varieties a written form independent of Cusco for the first time. Bilingual schooling has since used them, although materials are scarce and the pressure towards Spanish in the towns remains strong."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 750,000–1 million",
+    "vitality": "mixed",
+    "note": "Figures are uncertain because the Peruvian census does not separate Quechua varieties; some Central varieties, such as that of Pacaraos, are near extinction.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Instituto Nacional de Estadística e Informática (INEI). 2018. Censos Nacionales 2017: XII de Población, VII de Vivienda y III de Comunidades Indígenas. Lima: INEI.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "PER", "name": "Peru", "speakers": "c. 750,000–1 million" }
   ],
   "turning_points": [
     {

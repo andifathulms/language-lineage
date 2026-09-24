@@ -18,6 +18,32 @@
       "body": "After the great rebellion of Túpac Amaru II in 1780–1781, colonial authorities treated Quechua culture as dangerous. The sentence against the rebels banned Inca dress and symbols and ordered that Indigenous people be taught Castilian. Quechua remained the everyday language of the southern Andes but lost its prestige. Peru made Quechua an official language in 1975, and Bolivia's 2009 constitution recognises it among 36 official Indigenous languages."
     }
   ],
+  "speakers": {
+    "estimate": "c. 4.5–5 million",
+    "vitality": "mixed",
+    "note": "Most varieties are classed as vulnerable, but Santiagueño in Argentina is more endangered, and Bolivia's 2012 census counted about 1.7 million people who could speak Quechua, including second-language speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Instituto Nacional de Estadística e Informática (INEI). 2018. Censos Nacionales 2017: XII de Población, VII de Vivienda y III de Comunidades Indígenas. Lima: INEI.", "url": null },
+      { "citation": "Instituto Nacional de Estadística (INE), Bolivia. Censo Nacional de Población y Vivienda 2012.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "PER", "name": "Peru", "speakers": "c. 3 million" },
+    { "iso": "BOL", "name": "Bolivia", "speakers": "c. 1.5 million" },
+    { "iso": "ARG", "name": "Argentina", "speakers": "c. 60,000–100,000" },
+    { "iso": "CHL", "name": "Chile" }
+  ],
+  "sample": {
+    "language": "Southern Quechua (Bolivia)",
+    "text": "ama qhilla, ama llulla, ama suwa",
+    "gloss": "don't lazy don't liar don't thief",
+    "translation": "Do not be lazy, do not lie, do not steal.",
+    "sources": [
+      { "citation": "Constitución Política del Estado Plurinacional de Bolivia. 2009. Article 8.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-cusco-ejectives",

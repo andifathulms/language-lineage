@@ -11,8 +11,23 @@
     {
       "title": "An Imperial Language",
       "body": "Quechua II surrounds Central Quechua on both sides. Torero divided it into II-A in the northern Peruvian highlands, II-B in Ecuador, Colombia and the Peruvian Amazon, and II-C in southern Peru, Bolivia and Argentina. Its spread was partly the work of trade along the coast before the Inca, and partly of the Inca themselves, who used a southern variety across their empire in the 15th century. After the conquest, the Spanish kept that role going: missionaries preached, wrote and printed in a standardised *lengua general*.\n\nThe first grammar of the language, published in 1560 by the Dominican **Domingo de Santo Tomás**, describes a coastal Quechua II variety."
+    },
+    {
+      "title": "The Written Colonial Language",
+      "body": "Quechua II is the branch in which almost all early Quechua writing was done. The Jesuit Diego González Holguín published a grammar of the Cusco language in 1607 and a large Quechua–Spanish dictionary in 1608. His *Vocabulario* records thousands of words and idioms and is still consulted for the meaning of older terms.\n\nThe same years produced the most remarkable Quechua text of the colonial period, the Huarochirí Manuscript of about 1608. It is an anonymous collection of myths and religious practices from the highlands east of Lima, gathered in connection with the campaign against 'idolatry' led by the priest Francisco de Ávila. Although collected in a Central Quechua region, it is written in a form close to the colonial general language. It is the only extensive account of Andean religion written in an Andean language.\n\nThe Andean chronicler Felipe Guaman Poma de Ayala included Quechua songs and speeches in his illustrated letter to the Spanish king of about 1615. In the 18th century the Quechua drama *Ollantay*, set in the Inca court, became the best-known work of the language's literature. Its date and author are uncertain, and scholars still debate how much it owes to Spanish Golden Age theatre."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5–6 million",
+    "vitality": "mixed",
+    "note": "Nearly all of the total is Southern Quechua in Peru and Bolivia; northern varieties are far smaller and more endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Instituto Nacional de Estadística e Informática (INEI). 2018. Censos Nacionales 2017: XII de Población, VII de Vivienda y III de Comunidades Indígenas. Lima: INEI.", "url": null },
+      { "citation": "Instituto Nacional de Estadística (INE), Bolivia. Censo Nacional de Población y Vivienda 2012.", "url": null },
+      { "citation": "Instituto Nacional de Estadística y Censos (INEC), Ecuador. Censo de Población y Vivienda 2010.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-inca-lingua-franca",
