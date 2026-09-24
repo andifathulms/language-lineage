@@ -18,7 +18,7 @@ const config: Config = {
         accent: "rgb(var(--accent) / <alpha-value>)",
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
+        display: ["var(--font-display-ext)", "var(--font-display)", "Georgia", "serif"], // ext = extended Latin only (see fonts.ts)
         serif: ["var(--font-serif)", "Georgia", "serif"],
         label: ["var(--font-label)", "ui-monospace", "monospace"],
         ipa: ["var(--font-ipa)", "Charis SIL", "Doulos SIL", "Noto Serif", "serif"],
