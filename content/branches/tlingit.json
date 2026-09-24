@@ -1,0 +1,45 @@
+{
+  "id": "tlingit",
+  "family": "na-dene",
+  "name": "Tlingit",
+  "parent_ids": ["proto-na-dene"],
+  "successor_ids": [],
+  "era": "Several thousand years ago – present",
+  "region": "The Alaskan panhandle and adjacent British Columbia and Yukon",
+  "defining_innovation": "The most distant member of the family, with a consonant system rich in uvulars and ejectives and a tone system of its own.",
+  "descendants": ["Tlingit"],
+  "chapters": [
+    {
+      "title": "Lingít",
+      "body": "Tlingit (*Lingít*) is spoken along the islands and fjords of southeast Alaska. It has more than forty consonants, including a full series of ejectives and uvulars, and very few vowels. It developed tone independently of the Athabaskan languages.\n\nRussian traders and the Russian-American Company reached Tlingit country in the late 18th century, and fought with the Tlingit at Sitka in 1802 and 1804. After the United States bought Alaska in 1867, boarding schools and mission schools punished children for speaking the language. Today the fluent first-language speakers are mostly elderly, but there are active programmes, including language classes and immersion camps, a large body of recorded oral literature, and a practical alphabet developed in the 1960s."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sitka-battles",
+      "branch_id": "tlingit",
+      "date": "1799 – 1867",
+      "type": "CONTACT",
+      "title": "Russian America",
+      "description": "The Russian-American Company establishes posts at Sitka. The Tlingit destroy the first fort in 1802 and lose the battle of 1804. Russian traders and clergy leave some loanwords, and after 1867 the language faces English-only schooling under American rule.",
+      "contested": false,
+      "sources": [
+        { "citation": "Dauenhauer, Nora Marks, Richard Dauenhauer & Lydia T. Black, eds. 2008. Anóoshi Lingít Aaní Ká / Russians in Tlingit America: The Battles of Sitka, 1802 and 1804. Seattle: University of Washington Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tlingit-orthography",
+      "branch_id": "tlingit",
+      "date": "1960s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A practical alphabet",
+      "description": "Constance Naish and Gillian Story develop the Latin-based orthography that, with later revisions, is used in Tlingit teaching materials and in the Dauenhauers' editions of Tlingit oral literature.",
+      "contested": false,
+      "sources": [
+        { "citation": "Dauenhauer, Nora Marks & Richard Dauenhauer, eds. 1987. Haa Shuká, Our Ancestors: Tlingit Oral Narratives. Seattle: University of Washington Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
