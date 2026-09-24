@@ -51,6 +51,11 @@ for (const { file, data: b } of branches) {
     if (tp.branch_id !== b.id) err(file, `turning point "${tp.id}" has branch_id "${tp.branch_id}"`);
     if (!TP_TYPES.has(tp.type)) err(file, `turning point "${tp.id}" has unknown type "${tp.type}"`);
     if (!tp.sources?.length) err(file, `turning point "${tp.id}" has no sources`);
+    // An event from 1500 on must have at least one source written after it happened.
+    const eventYears = (tp.date.match(/\b(1[5-9]\d\d|20\d\d)\b/g) ?? []).map(Number);
+    const sourceYears = (tp.sources ?? []).map((s) => Number(s.citation.match(/\b(1[5-9]\d\d|20\d\d)\b/)?.[0])).filter(Boolean);
+    if (eventYears.length && sourceYears.length && Math.max(...sourceYears) < Math.min(...eventYears))
+      err(file, `turning point "${tp.id}" (${Math.min(...eventYears)}) is newer than all its sources (latest ${Math.max(...sourceYears)})`);
     if (tp.type === "SOUND_LAW") {
       if (!PROCESSES.has(tp.process)) err(file, `sound law "${tp.id}" needs a process (${[...PROCESSES].join(", ")})`);
       if (!tp.notation) err(file, `sound law "${tp.id}" needs a notation`);
