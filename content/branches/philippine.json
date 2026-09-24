@@ -1,0 +1,123 @@
+{
+  "id": "philippine",
+  "family": "austronesian",
+  "name": "Philippine",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": [],
+  "era": "c. 2000 BCE – present",
+  "region": "The Philippine archipelago, with the Batanes Islands and Orchid Island (Taiwan) to the north and northern Sulawesi (Indonesia) to the south",
+  "defining_innovation": "More than 150 languages that Blust unites through a small set of shared vocabulary innovations, most of them in a dozen or so well-defined 'microgroups' such as Cordilleran, Central Luzon and Greater Central Philippine. Whether the whole forms one subgroup is disputed.",
+  "descendants": ["Tagalog", "Cebuano", "Ilocano", "Hiligaynon", "Bikol", "Waray", "Kapampangan", "Pangasinan"],
+  "chapters": [
+    {
+      "title": "Many Groups, One Archipelago",
+      "body": "The Philippines is home to more than 150 Austronesian languages, and closely related ones are spoken just beyond its borders: Yami (Tao) on Orchid Island off Taiwan, and Sangir, Minahasan and Gorontalo-Mongondow in northern Sulawesi. They fall into a dozen or so clear 'microgroups'. **Cordilleran** languages such as Ilocano, Pangasinan and Ifugao fill northern Luzon; **Central Luzon** includes Kapampangan; and **Greater Central Philippine**, proposed by Robert Blust in 1991, covers Tagalog, Bikol, the Bisayan languages (Cebuano, Hiligaynon, Waray, Tausug) and most of the languages of Mindanao.\n\nThe microgroups are often told apart by sound changes. Conant's 'RGH law' (1911) describes how Proto-Malayo-Polynesian `*R` has a different reflex in each: `*baqeRu` 'new' is Tagalog *bago*, Ilocano *baro*, Kapampangan *bayu* and Pangasinan *balo*.\n\nGreater Central Philippine covers a huge area but is shallow, with languages that are still fairly similar. Blust explains this as the result of an expansion around 500 BCE that replaced most of the earlier languages of the central and southern islands. Pockets of older diversity survive, among them the North Mangyan languages of Mindoro, the Kalamian languages of northern Palawan and several languages of the Negrito peoples, the islands' earliest inhabitants, who adopted Austronesian speech."
+    },
+    {
+      "title": "Scripts, Spanish and Filipino",
+      "body": "When the Spanish arrived in the 16th century, Tagalog and several other lowland languages were written in **baybayin**, a Brahmi-derived script that marked each consonant with an inherent vowel. The first book printed in the Philippines, the *Doctrina Christiana* of 1593, gives its Tagalog text in both baybayin and Latin letters. Within two centuries the Latin alphabet had replaced baybayin almost everywhere, although related scripts are still used by the Hanunó'o and Buhid of Mindoro and the Tagbanwa of Palawan.\n\nThree centuries of Spanish rule left thousands of loanwords: Tagalog *kutsara* 'spoon', *bintana* 'window', *sapatos* 'shoes', and a counting system in which Spanish numbers are used for prices and clock time. English followed under American rule after 1898.\n\nIn 1937 the Commonwealth government chose Tagalog as the basis of a national language, renamed Pilipino in 1959. The 1987 constitution names Filipino, in practice standard Tagalog open to words from other languages, as the national language, with English as a second official language. Cebuano, Ilocano, Hiligaynon and the other large languages remain the everyday speech of their regions, and most Filipinos speak two or three languages."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 110 million",
+    "vitality": "mixed",
+    "note": "Almost the whole population of the Philippines, plus some 2–3 million speakers in northern Sulawesi; Tagalog, Cebuano, Ilocano and Hiligaynon are the largest. Many small languages, especially those of Negrito groups, are endangered. Filipino (Tagalog) is also a second language for most other Filipinos and is widely spoken in the diaspora.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "PHL", "name": "Philippines", "speakers": "c. 105 million" },
+    { "iso": "IDN", "name": "Indonesia", "speakers": "c. 2–3 million" },
+    { "iso": "MYS", "name": "Malaysia" },
+    { "iso": "TWN", "name": "Taiwan" }
+  ],
+  "sample": {
+    "language": "Tagalog",
+    "text": "Magandang umaga po.",
+    "gloss": "good.LNK morning HON",
+    "translation": "Good morning (said politely).",
+    "sources": [
+      { "citation": "Schachter, Paul & Fe T. Otanes. 1972. Tagalog Reference Grammar. Berkeley: University of California Press.", "url": null }
+    ]
+  },
+  "turning_points": [
+    {
+      "id": "tp-greater-central-philippine",
+      "branch_id": "philippine",
+      "date": "c. 500 BCE",
+      "type": "SPLIT",
+      "title": "Greater Central Philippine expansion",
+      "description": "On Blust's account, speakers of Proto-Greater Central Philippine spread from the central islands through the southern Philippines and replaced most of the languages already there, which is why the region's languages are so alike. The date is an estimate from the languages' degree of difference.",
+      "contested": true,
+      "sources": [
+        { "citation": "Blust, Robert. 1991. The Greater Central Philippines hypothesis. Oceanic Linguistics 30(2): 73–129.", "url": null },
+        {
+          "citation": "Blust, Robert. 2005. The linguistic macrohistory of the Philippines: Some speculations. In Current Issues in Philippine Linguistics and Anthropology, ed. Hsiu-chuan Liao & Carl R. Galvez Rubino. Manila: Linguistic Society of the Philippines & SIL Philippines.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "tp-philippine-spanish",
+      "branch_id": "philippine",
+      "date": "1565 – 1898",
+      "type": "CONTACT",
+      "title": "Spanish rule",
+      "description": "From Legazpi's settlement at Cebu in 1565, Spain rules the lowland Philippines for more than three centuries. Missionaries write grammars and dictionaries of the main languages, and Spanish loanwords enter every lowland language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Scott, William Henry. 1994. Barangay: Sixteenth-Century Philippine Culture and Society. Quezon City: Ateneo de Manila University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-doctrina-christiana-tagalog",
+      "branch_id": "philippine",
+      "date": "1593",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Doctrina Christiana",
+      "description": "The first book printed in the Philippines sets Tagalog in both baybayin and the Latin alphabet. Missionary printing in Latin letters gradually displaces baybayin over the following two centuries.",
+      "contested": false,
+      "sources": [
+        { "citation": "Scott, William Henry. 1984. Prehispanic Source Materials for the Study of Philippine History, revised ed. Quezon City: New Day.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-filipino-national",
+      "branch_id": "philippine",
+      "date": "1937 – 1987",
+      "type": "SPLIT",
+      "title": "Tagalog becomes Filipino",
+      "description": "Tagalog is chosen in 1937 as the basis of the national language, renamed Pilipino in 1959 and Filipino in the 1987 constitution. The choice was resented in some non-Tagalog regions, especially the Cebuano-speaking south.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gonzalez, Andrew. 1998. The language planning situation in the Philippines. Journal of Multilingual and Multicultural Development 19(5–6).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-philippine-subgroup",
+      "branch_id": "philippine",
+      "proposed_grouping": "Philippine: the languages of the Philippines, with Yami and those of northern Sulawesi, share a single ancestor, Proto-Philippines, below Proto-Malayo-Polynesian",
+      "status": "minority_position",
+      "evidence_for": "Blust points to vocabulary innovations shared across the microgroups. Blust argues that the low diversity of the region is itself evidence: an early Proto-Philippine expansion would have replaced the first Malayo-Polynesian languages of the archipelago, leaving one family where an older and more varied set had been. The grouping is used as a branch in many handbooks.",
+      "evidence_against": "Lawrence Reid argued in 1982 that no convincing innovations define Proto-Philippines, and has since argued that the microgroups may branch separately from Malayo-Polynesian. Malcolm Ross has suggested that the Batanic languages of the far north are an early offshoot of Malayo-Polynesian in their own right. On this view 'Philippine' is a geographical label, like 'Western Malayo-Polynesian'. The tree draws it as one branch for convenience.",
+      "linked_branch_ids": [],
+      "sources": [
+        {
+          "citation": "Reid, Lawrence A. 1982. The demise of Proto-Philippines. In Papers from the Third International Conference on Austronesian Linguistics, vol. 2, ed. Amran Halim, Lois Carrington & S. A. Wurm. Canberra: Pacific Linguistics.",
+          "url": null
+        },
+        { "citation": "Blust, Robert. 1991. The Greater Central Philippines hypothesis. Oceanic Linguistics 30(2): 73–129.", "url": null },
+        {
+          "citation": "Reid, Lawrence A. 2018. Modeling the linguistic situation in the Philippines. In Let's Talk about Trees: Genetic Relationships of Languages and Their Phylogenic Representation, ed. Ritsuko Kikusawa & Lawrence A. Reid. Senri Ethnological Studies 98. Osaka: National Museum of Ethnology.",
+          "url": null
+        },
+        { "citation": "Ross, Malcolm. 2005. The Batanic languages in relation to the early history of the Malayo-Polynesian subgroup of Austronesian. Journal of Austronesian Studies 1(2).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
