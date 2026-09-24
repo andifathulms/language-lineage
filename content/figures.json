@@ -376,5 +376,12 @@
     "lifespan": "c. 1561–1633",
     "branch_ids": ["japanese"],
     "turning_point_ids": ["tp-portuguese-japan"]
+  },
+  {
+    "id": "sejong",
+    "name": "Sejong the Great",
+    "lifespan": "1397–1450",
+    "branch_ids": ["korean"],
+    "turning_point_ids": ["tp-hangul"]
   }
 ]

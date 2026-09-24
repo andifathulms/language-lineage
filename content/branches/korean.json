@@ -1,0 +1,131 @@
+{
+  "id": "korean",
+  "family": "koreanic",
+  "name": "Korean",
+  "parent_ids": ["proto-koreanic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "North and South Korea, northeast China, and diaspora communities worldwide",
+  "defining_innovation": "The language of Silla and its successor states, written since 1446 in Hangul, an alphabet designed for it, and now standardised separately in the two Koreas.",
+  "descendants": ["Korean", "Gyeongsang", "Jeolla", "Hamgyong", "Pyongan"],
+  "chapters": [
+    {
+      "title": "Old Korean and Chinese Characters",
+      "body": "Old Korean, the language of Silla, is known only through Chinese characters, used either for meaning or for sound in systems called *idu* and *hyangchal*. They record official documents and a small body of poems (*hyangga*). As in Japan and Vietnam, Chinese became the language of learning, and Korean took in a vast Sino-Korean vocabulary that today makes up more than half of its dictionary words."
+    },
+    {
+      "title": "Hangul",
+      "body": "In 1443 **King Sejong** and scholars of his court created a new alphabet, promulgated in 1446 as the *Hunminjeongeum* ('the correct sounds for instructing the people'). Its consonant letters depict the position of the speech organs: ㄱ *g* shows the back of the tongue touching the soft palate, and ㅁ *m* the closed mouth. Letters are grouped into syllable blocks. The elite long preferred Chinese characters, and Hangul came into general use only in the late 19th and 20th centuries.\n\nMiddle Korean, as written in early Hangul, had pitch accent marked by dots beside each syllable, and a vowel ㆍ (*arae-a*) that no longer exists in Seoul Korean. Both were lost in the standard language in the following centuries."
+    },
+    {
+      "title": "Colony, Division and Two Standards",
+      "body": "Under Japanese rule (1910–1945) Korean was pushed out of schools and public life, most harshly after 1938, and members of the Korean Language Society were arrested in 1942. After liberation and division, both Koreas made Korean their sole national language. North Korea abolished Chinese characters in everyday writing, and its 1966 'cultured language' (*munhwaŏ*) standard, based on Pyongyang speech, replaced many loanwords with native coinages. The two standards now differ noticeably in vocabulary."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-silla-unification",
+      "branch_id": "korean",
+      "date": "668 CE",
+      "type": "SPLIT",
+      "title": "Silla unifies the peninsula",
+      "description": "Silla's defeat of Baekje and Goguryeo makes its language the ancestor of later Korean. The languages of the other kingdoms leave only uncertain traces in place names.",
+      "contested": true,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-idu-hyangchal",
+      "branch_id": "korean",
+      "date": "7th – 10th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Writing Korean with Chinese characters",
+      "description": "Silla scribes use Chinese characters for both meaning and sound to write Korean (*idu* and *hyangchal*), recording official documents and the *hyangga* poems.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sino-korean",
+      "branch_id": "korean",
+      "date": "1st millennium CE onward",
+      "type": "CONTACT",
+      "title": "The Sino-Korean layer",
+      "description": "Buddhism, Confucian learning and the civil-service examinations bring Chinese into Korean as the language of learning, and Sino-Korean words come to make up more than half the vocabulary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sohn, Ho-min. 1999. The Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hangul",
+      "branch_id": "korean",
+      "date": "1443 – 1446",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Hangul",
+      "description": "King Sejong's court creates and promulgates an alphabet designed for Korean, with letter shapes modelled on the speech organs, grouped into syllable blocks. It becomes the national script only in the modern era.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kim-Renaud, Young-Key, ed. 1997. The Korean Alphabet: Its History and Structure. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-korean-tone-loss",
+      "branch_id": "korean",
+      "date": "c. 16th – 17th century CE",
+      "type": "SOUND_LAW",
+      "title": "Pitch accent lost in the centre",
+      "description": "The pitch accent of Middle Korean, marked by dots in early Hangul texts, disappears from the central dialects, leaving vowel length in its place. The southeastern (Gyeongsang) and northeastern (Hamgyong) dialects still have pitch accent.",
+      "contested": false,
+      "process": "prosody",
+      "notation": "Middle Korean pitch accent → vowel length (kept in Gyeongsang, Hamgyong)",
+      "sort_year": 1600,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-arae-a",
+      "branch_id": "korean",
+      "date": "c. 16th – 18th century CE",
+      "type": "SOUND_LAW",
+      "title": "The arae-a vowel merges",
+      "description": "The Middle Korean vowel ㆍ (*arae-a*, probably `ʌ`) merges with other vowels, mostly *a* in first syllables and *ɨ* elsewhere. The letter stays in spelling until the 1933 orthography removes it. Jeju keeps the vowel to this day.",
+      "contested": false,
+      "process": "merger",
+      "notation": "ㆍ /ʌ/ → a (first syllables), ɨ (elsewhere)",
+      "sort_year": 1700,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-japanese-rule-korea",
+      "branch_id": "korean",
+      "date": "1910 – 1945",
+      "type": "CONTACT",
+      "title": "Colonial rule",
+      "description": "Japan annexes Korea. From 1938 Korean is removed from schools, Koreans are pressed to adopt Japanese names, and in 1942 members of the Korean Language Society are arrested while compiling a dictionary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-two-standards",
+      "branch_id": "korean",
+      "date": "1948 – 1966",
+      "type": "SPLIT",
+      "title": "Two Koreas, two standards",
+      "description": "After division, South Korea keeps a Seoul-based standard, while North Korea abolishes Chinese characters in everyday writing and in 1966 proclaims a Pyongyang-based 'cultured language' that replaces many loanwords with native coinages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sohn, Ho-min. 1999. The Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["sejong"]
+}
