@@ -1,0 +1,61 @@
+{
+  "id": "arapahoan",
+  "family": "algonquian",
+  "name": "Arapahoan",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The central Plains; today the Wind River Reservation in Wyoming, Oklahoma, and Fort Belknap in Montana",
+  "defining_innovation": "Arapaho and Gros Ventre (Aaniiih), Plains languages whose sound changes are among the most drastic in the family.",
+  "descendants": ["Arapaho", "Gros Ventre †"],
+  "chapters": [
+    {
+      "title": "Plains Algonquian",
+      "body": "Arapaho and its close relative Gros Ventre (*Aaniiih*) were spoken on the central Plains. With Blackfoot and Cheyenne they are often called 'Plains Algonquian', but that is a geographical label, not a branch. Arapahoan went through such sweeping sound changes that many of its words are hard to recognise as Algonquian at all, though Ives Goddard has traced them regularly back to Proto-Algonquian."
+    },
+    {
+      "title": "Reservations",
+      "body": "After the Plains wars the Arapaho were divided. The Northern Arapaho were settled on the Wind River Reservation in Wyoming in 1878, alongside the Eastern Shoshone, and the Southern Arapaho in Oklahoma with the Southern Cheyenne. Gros Ventre speakers at Fort Belknap in Montana dwindled through the 20th century. Northern Arapaho communities now run immersion programmes for children."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-arapahoan-split",
+      "branch_id": "arapahoan",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Onto the central Plains",
+      "description": "The ancestors of the Arapaho and Gros Ventre move onto the Plains and undergo radical sound changes. Their route and date are uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-wind-river",
+      "branch_id": "arapahoan",
+      "date": "1878",
+      "type": "CONTACT",
+      "title": "Wind River",
+      "description": "The Northern Arapaho are settled on the Wind River Reservation with the Eastern Shoshone, separated from the Southern Arapaho in Oklahoma. Reservation life and boarding schools begin the shift to English.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-gros-ventre",
+      "branch_id": "arapahoan",
+      "date": "Late 20th – early 21st century",
+      "type": "EXTINCTION",
+      "title": "Gros Ventre falls silent",
+      "description": "The last fluent speakers of Gros Ventre at Fort Belknap pass away. The community is working to revive the language from recordings and documentation.",
+      "contested": true,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
