@@ -38,5 +38,96 @@
       "citation": "Kitchen, Andrew, Christopher Ehret, Shiferaw Assefa & Connie J. Mulligan. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B 276.",
       "url": null
     }
-  ]
+  ],
+  "cognates": {
+    "intro": "Each row is one word in five languages that were written down up to 3,000 years apart. Look at the consonants, not the vowels: Semitic roots live in their consonants, and the vowels change with grammar. Where Hebrew and Akkadian have *š*, Arabic and Ge'ez regularly have *s* ('name', 'tongue', 'tooth', 'head'). The sound `*ṯ`, like English *th* in *thin*, is kept in Arabic but becomes *š* in Hebrew and *t* in Aramaic ('ox'). Akkadian, alone, has lost the throat consonant *ʿ* ('eye'). Forms are given in standard scholarly transliteration.",
+    "proto_label": "Proto-Semitic",
+    "languages": [
+      { "name": "Akkadian", "branch_id": "east-semitic" },
+      { "name": "Arabic", "branch_id": "arabic" },
+      { "name": "Hebrew", "branch_id": "canaanite" },
+      { "name": "Syriac", "branch_id": "aramaic" },
+      { "name": "Ge'ez", "branch_id": "ethiosemitic" }
+    ],
+    "rows": [
+      {
+        "gloss": "eye",
+        "proto": "ʕayn-",
+        "forms": ["īnu", "ʿayn", "ʿayin", "ʿaynā", "ʿayn"]
+      },
+      {
+        "gloss": "ear",
+        "proto": "ʔuḏn-",
+        "forms": ["uznu", "ʾuḏn", "ʾōzen", "ʾednā", "ʾəzn"]
+      },
+      {
+        "gloss": "head",
+        "proto": "raʔš-",
+        "forms": ["rēšu", "raʾs", "rōš", "rēšā", "rəʾs"]
+      },
+      {
+        "gloss": "tongue",
+        "proto": "lišān-",
+        "forms": ["lišānu", "lisān", "lāšōn", "leššānā", "ləssān"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "šinn-",
+        "forms": ["šinnu", "sinn", "šēn", "šennā", "sənn"]
+      },
+      {
+        "gloss": "blood",
+        "proto": "dam-",
+        "forms": ["damu", "dam", "dām", "dmā", "dam"]
+      },
+      {
+        "gloss": "water",
+        "proto": "may-",
+        "forms": ["mû", "māʾ", "mayim", "mayyā", "māy"]
+      },
+      {
+        "gloss": "house",
+        "proto": "bayt-",
+        "forms": ["bītu", "bayt", "bayit", "baytā", "bet"]
+      },
+      {
+        "gloss": "name",
+        "proto": "šim-",
+        "forms": ["šumu", "ism", "šēm", "šmā", "səm"]
+      },
+      {
+        "gloss": "ox",
+        "proto": "ṯawr-",
+        "forms": ["šūru", "ṯawr", "šōr", "tawrā", "sor"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*š",
+        "reflexes": ["š", "s", "š", "š", "s"],
+        "rows": [2, 3, 4, 8]
+      },
+      {
+        "label": "*ṯ",
+        "reflexes": ["š", "ṯ", "š", "t", "s"],
+        "rows": [9]
+      },
+      {
+        "label": "*ḏ",
+        "reflexes": ["z", "ḏ", "z", "d", "z"],
+        "rows": [1]
+      },
+      {
+        "label": "*ʕ",
+        "reflexes": ["∅", "ʿ", "ʿ", "ʿ", "ʿ"],
+        "rows": [0]
+      }
+    ],
+    "sources": [
+      { "citation": "Huehnergard, John. 2011. Proto-Semitic language and culture, and Appendix of Semitic roots. In The American Heritage Dictionary of the English Language, 5th ed. Boston: Houghton Mifflin Harcourt.", "url": null },
+      { "citation": "Kogan, Leonid. 2011. Proto-Semitic lexicon. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+      { "citation": "Leslau, Wolf. 1987. Comparative Dictionary of Ge'ez (Classical Ethiopic). Wiesbaden: Harrassowitz.", "url": null },
+      { "citation": "Moscati, Sabatino, Anton Spitaler, Edward Ullendorff & Wolfram von Soden. 1964. An Introduction to the Comparative Grammar of the Semitic Languages. Wiesbaden: Harrassowitz.", "url": null }
+    ]
+  }
 }
