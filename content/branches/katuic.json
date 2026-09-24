@@ -1,0 +1,99 @@
+{
+  "id": "katuic",
+  "family": "austroasiatic",
+  "name": "Katuic",
+  "parent_ids": ["proto-austroasiatic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Southern Laos, north-eastern Thailand, central Vietnam along the Annamite Range, and northern Cambodia",
+  "defining_innovation": "About twenty languages, including Kuy, Bru, Ta'oi, Katang, Pacoh and Katu, whose shared sound changes and vocabulary Sidwell (2005) used to reconstruct a Proto-Katuic ancestor distinct from neighbouring Bahnaric.",
+  "descendants": ["Kuy", "Bru", "Ta'oi", "Katang", "Pacoh", "Katu"],
+  "chapters": [
+    {
+      "title": "Either Side of the Annamite Range",
+      "body": "The Katuic languages are spoken on both sides of the Annamite Range, which divides Laos from central Vietnam, and westward across the Mekong into north-eastern Thailand and northern Cambodia. There are around twenty of them, with about a million and a half speakers in all. **Kuy** and **Bru** are the largest, with several hundred thousand speakers each. Kuy is spoken in the Thai provinces of Surin, Sisaket and Buriram, in southern Laos and in northern Cambodia. Bru, which includes the Vân Kiều of Vietnam and the So of Thailand, lies further north. The Ta'oi group, Katang, Pacoh and Katu are spoken in the mountains of southern Laos and central Vietnam.\n\nPaul Sidwell's 2005 reconstruction of Proto-Katuic divides the branch into four groups: West Katuic (Kuy and Bru), Ta'oi, Pacoh and Katu. Proto-Katuic was probably spoken near the present Laos–Vietnam border, and it keeps some Proto-Austroasiatic sounds that other branches lost, such as the palatal implosive `*ʄ`.\n\nIn the west, Kuy speakers were long associated with the Khmer and later the Lao and Thai states. The Kuy of Surin are famous as elephant catchers and trainers, and tradition links Kuy iron smelters in northern Cambodia to the Khmer empire. Research on the eastern languages expanded after Laos opened to foreign linguists in the 1990s."
+    },
+    {
+      "title": "Registers, War and Shift",
+      "body": "Several Katuic languages turned an old consonant contrast into a contrast of voice quality. In Kuy and Bru the old voiced stops lost their voicing, and the vowels after them took on a breathy 'register', so that syllables with the same consonant are now kept apart by the voice quality of the vowel. Gérard Diffloth traced this history across the branch in 1982. Combined with long and short vowels and diphthongs, register gives these languages some of the largest vowel systems in mainland Southeast Asia. Languages further east, such as Katu, did not develop register in the same way.\n\nIn the 20th century the eastern Katuic homeland became a battleground. The Ho Chi Minh Trail ran through Ta'oi, Pacoh and Katu country in southern Laos and Vietnam, and the Bru lived around Khe Sanh. Bombing, fighting and resettlement uprooted many communities.\n\nToday the languages are in very different positions. Katang, Ta'oi and Bru are still learnt by children in much of Laos and Vietnam. In Thailand, many Kuy and So families have shifted to Lao (Isan), Thai or Khmer, and young people often do not speak the language. Katuic languages have no script of their own and are written, where at all, in Latin, Thai, Lao or Khmer letters."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 1.5 million",
+    "vitality": "mixed",
+    "note": "Kuy and Bru have several hundred thousand speakers each and the Ta'oi group around 200,000; figures for Thailand count ethnic Kuy, many of whom have shifted to Lao, Thai or Khmer. Vietnam's 2019 census counted about 220,000 Bru–Vân Kiều, Katu (Cơ Tu) and Ta'oi.",
+    "sources": [
+      { "citation": "Sidwell, Paul. 2005. The Katuic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "General Statistics Office of Vietnam. 2020. Completed Results of the 2019 Viet Nam Population and Housing Census. Hanoi.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "LAO", "name": "Laos" },
+    { "iso": "THA", "name": "Thailand" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 220,000" },
+    { "iso": "KHM", "name": "Cambodia" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-katuic-split",
+      "branch_id": "katuic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Proto-Katuic",
+      "description": "Proto-Katuic, probably spoken near the present Laos–Vietnam border, divides into West Katuic, Ta'oi, Pacoh and Katu. Both the homeland and the date are estimates.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sidwell, Paul. 2005. The Katuic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-katuic-register",
+      "branch_id": "katuic",
+      "date": "c. 1st – 2nd millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Voicing becomes register",
+      "description": "In Kuy and Bru the old voiced stops become voiceless, and the following vowels take on a breathy register, so a contrast of consonants becomes a contrast of voice quality. Diffloth traced the change and its effects on vowel quality across the branch; when it happened is not known.",
+      "contested": true,
+      "process": "prosody",
+      "notation": "*b *d *ɟ *g → p t c k + breathy register on the vowel",
+      "sort_year": 1000,
+      "sources": [
+        { "citation": "Diffloth, Gérard. 1982. Registres, dévoisement, timbres vocaliques: leur histoire en katouique. Mon-Khmer Studies 11.", "url": null },
+        { "citation": "Sidwell, Paul. 2005. The Katuic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kuy-khmer-lao",
+      "branch_id": "katuic",
+      "date": "2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Kuy among Khmer, Lao and Thai",
+      "description": "Kuy and Bru speakers west of the Annamites live under Khmer, then Lao and Siamese rule, borrow widely from Khmer and Lao, and in Thailand increasingly shift to Isan, Thai or Khmer.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-katu-bahnaric",
+      "branch_id": "katuic",
+      "proposed_grouping": "Katu-Bahnaric: Katuic and Bahnaric share an intermediate ancestor within Austroasiatic",
+      "status": "minority_position",
+      "evidence_for": "The two branches are neighbours and share a number of words not found elsewhere in the family. Gérard Diffloth grouped them together, within a larger eastern Mon-Khmer division, in his tree of Austroasiatic.",
+      "evidence_against": "Sidwell's reconstructions of both branches found only about a dozen shared items and no shared sound changes, which fits borrowing between neighbours better than common descent. He treats Katuic and Bahnaric as separate primary branches, as this tree does.",
+      "linked_branch_ids": ["bahnaric"],
+      "sources": [
+        { "citation": "Sidwell, Paul. 2005. The Katuic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null },
+        { "citation": "Sidwell, Paul. 2009. Classifying the Austroasiatic Languages: History and State of the Art. Munich: LINCOM Europa.", "url": null },
+        {
+          "citation": "Diffloth, Gérard. 2005. The contribution of linguistic palaeontology to the homeland of Austro-Asiatic. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
