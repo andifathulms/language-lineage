@@ -1,0 +1,73 @@
+{
+  "id": "taracahitan",
+  "family": "uto-aztecan",
+  "name": "Taracahitan",
+  "parent_ids": ["southern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Sonora, Sinaloa and Chihuahua in northwestern Mexico; Yaqui communities in Arizona",
+  "defining_innovation": "Yaqui, Mayo, Rarámuri (Tarahumara) and Guarijío, and the extinct Opata, the languages of the river valleys and canyons of northwestern Mexico. Whether they form a single branch is debated.",
+  "descendants": ["Yaqui (Yoeme)", "Mayo", "Rarámuri", "Guarijío", "Opata †"],
+  "chapters": [
+    {
+      "title": "Rivers and Canyons",
+      "body": "The Taracahitan languages are spoken along the Yaqui and Mayo rivers of Sonora and in the Copper Canyon country of Chihuahua, home of the Rarámuri (Tarahumara), famous for long-distance running. Some classifications split Taracahitan into a Cahitan group (Yaqui, Mayo) and a Tarahumaran group (Rarámuri, Guarijío), without a common ancestor between them."
+    },
+    {
+      "title": "Missions, Wars and Deportation",
+      "body": "Jesuit missionaries arrived among the Yaqui in 1617 and reorganised them into eight mission towns, which remain the core of Yaqui identity. From the 18th to the early 20th centuries the Yaqui fought repeated wars for their land against the Spanish and then the Mexican state. Under Porfirio Díaz, thousands were deported to the henequen plantations of Yucatán, far to the south, and many fled north into Arizona, where the Pascua Yaqui community formed. Opata, once spoken widely in Sonora, died out in the 20th century."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-taracahitan-split",
+      "branch_id": "taracahitan",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Cahitan and Tarahumaran",
+      "description": "The river-valley Cahitan languages (Yaqui, Mayo) and the mountain Tarahumaran languages (Rarámuri, Guarijío) diverge. Whether they share a single Taracahitan ancestor is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yaqui-missions",
+      "branch_id": "taracahitan",
+      "date": "1617 onward",
+      "type": "CONTACT",
+      "title": "The Jesuit mission towns",
+      "description": "Jesuits reorganise the Yaqui into eight mission towns, which fuse Catholic and Yaqui ceremony and bring many Spanish loans into the language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Spicer, Edward H. 1962. Cycles of Conquest: The Impact of Spain, Mexico, and the United States on the Indians of the Southwest, 1533–1960. Tucson: University of Arizona Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yaqui-deportation",
+      "branch_id": "taracahitan",
+      "date": "c. 1900 – 1910",
+      "type": "CONTACT",
+      "title": "Deportation and exile",
+      "description": "The Mexican government deports thousands of Yaqui to Yucatán and elsewhere. Many escape north to Arizona, where Yaqui is still spoken in the Pascua Yaqui community.",
+      "contested": false,
+      "sources": [
+        { "citation": "Spicer, Edward H. 1962. Cycles of Conquest: The Impact of Spain, Mexico, and the United States on the Indians of the Southwest, 1533–1960. Tucson: University of Arizona Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-opata-extinction",
+      "branch_id": "taracahitan",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Opata falls silent",
+      "description": "Opata, once widespread in Sonora and recorded by colonial missionaries, loses its last speakers. When it happened is not well recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
