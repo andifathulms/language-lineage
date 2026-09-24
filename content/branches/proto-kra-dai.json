@@ -1,0 +1,74 @@
+{
+  "id": "proto-kra-dai",
+  "family": "kra-dai",
+  "name": "Proto-Kra-Dai",
+  "parent_ids": [],
+  "successor_ids": ["kra", "hlai", "kam-sui", "tai"],
+  "era": "c. 2000 BCE (reconstructed; dating debated)",
+  "region": "Probably the coast and hills of southern China (Guangdong, Guangxi), or, on one view, Taiwan",
+  "defining_innovation": "The reconstructed ancestor of about 90 languages, whose basic vocabulary often matches the last syllable of Austronesian words: Proto-Tai *ta 'eye' beside Austronesian *mata.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Kra-Dai languages are tonal, mostly monosyllabic and isolating, and centuries of contact with Chinese have given them large layers of Chinese vocabulary, including many numerals: Thai *sǎam* 'three' and *sìi* 'four' are Chinese loans. For a long time they were therefore classified with Chinese in Sino-Tibetan. In 1942 Paul Benedict argued instead that their core vocabulary links them with Austronesian ('Austro-Tai'), and Weera Ostapirat later showed regular correspondences in that core.\n\nThe homeland is usually placed in southern China, in the hills and coast of Guangdong and Guangxi, around 2000 BCE. The four main branches, Kra, Hlai, Kam-Sui and Tai, divided there before the Tai languages spread southwest into mainland Southeast Asia much later."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pkd-breakup",
+      "branch_id": "proto-kra-dai",
+      "date": "c. 2000 – 1000 BCE",
+      "type": "SPLIT",
+      "title": "Four branches in southern China",
+      "description": "Kra, Hlai, Kam-Sui and Tai diverge in southern China and on Hainan. The date and the homeland, on the mainland coast or, on Sagart's view, Taiwan, are disputed.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Ostapirat, Weera. 2005. Kra-Dai and Austronesian: Notes on phonological correspondences and vocabulary distribution. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        },
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chinese-layers-kd",
+      "branch_id": "proto-kra-dai",
+      "date": "1st millennium BCE onward",
+      "type": "CONTACT",
+      "title": "Chinese expansion south",
+      "description": "As Chinese states and settlers push into the south, Kra-Dai languages absorb successive layers of Chinese vocabulary, including numerals, which later misled scholars into classifying them as Sino-Tibetan.",
+      "contested": false,
+      "sources": [
+        { "citation": "Pittayaporn, Pittayawat. 2014. Layers of Chinese loanwords in Proto-Southwestern Tai as evidence for the dating of the spread of Southwestern Tai. MANUSYA: Journal of Humanities, Special Issue 20.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-kra-dai-austro-tai",
+      "branch_id": "proto-kra-dai",
+      "proposed_grouping": "Austro-Tai: Kra-Dai is related to Austronesian, perhaps as a branch within it",
+      "status": "minority_position",
+      "evidence_for": "Benedict (1942) and Ostapirat (2005) point to regular correspondences in basic vocabulary, where Kra-Dai often matches the final syllable of Austronesian words (*ta* 'eye' : `*mata`; *taay* 'die' : `*m-atay`). Sagart argues Kra-Dai branched off inside Austronesian, from Taiwan. The Austronesian tree records the same proposal.",
+      "evidence_against": "The shared words are a limited set, and early borrowing between neighbours on the south China coast could explain them. The structural differences are large, and even supporters disagree on whether Kra-Dai is a sister or a daughter of Austronesian.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in Southeastern Asia. American Anthropologist 44: 576–601.", "url": null },
+        { "citation": "Sagart, Laurent. 2004. The higher phylogeny of Austronesian and the position of Tai-Kadai. Oceanic Linguistics 43(2).", "url": null }
+      ]
+    },
+    {
+      "id": "cc-tai-sino-tibetan",
+      "branch_id": "proto-kra-dai",
+      "proposed_grouping": "Tai as Sino-Tibetan: Thai and its relatives belong with Chinese",
+      "status": "largely_rejected",
+      "evidence_for": "Tai and Chinese share tone systems, monosyllabic words and a large vocabulary, including numerals. The older Western and Chinese classifications put them together.",
+      "evidence_against": "The shared vocabulary is borrowed in datable layers, and the tones developed in parallel and later, as they did in Vietnamese. The core vocabulary points elsewhere. Almost all specialists now treat Kra-Dai as a separate family.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in Southeastern Asia. American Anthropologist 44: 576–601.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
