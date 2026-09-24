@@ -1,0 +1,45 @@
+{
+  "id": "hachijo",
+  "family": "japonic",
+  "name": "Hachijō",
+  "parent_ids": ["mainland-japonic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Hachijō-jima and Aogashima in the Izu Islands, about 300 km south of Tokyo",
+  "defining_innovation": "A small language of the Izu Islands that preserves features of Eastern Old Japanese, known from the 8th-century eastern poems of the Man'yōshū.",
+  "descendants": ["Hachijō"],
+  "chapters": [
+    {
+      "title": "An Eastern Survivor",
+      "body": "Hachijō is spoken by a few hundred mostly elderly people on Hachijō-jima and Aogashima. It keeps grammatical forms, such as certain verb and adjective endings, that match the Eastern Old Japanese of the *Man'yōshū*'s eastern poems. That makes it the only surviving descendant of eastern Old Japanese, and a separate language from standard Japanese. In the Edo period Hachijō-jima was a place of exile. Today the young speak standard Japanese, and in 2009 UNESCO listed Hachijō as definitely endangered."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-hachijo-east",
+      "branch_id": "hachijo",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "An eastern branch in the islands",
+      "description": "A variety descended from Eastern Old Japanese reaches the Izu Islands and develops in isolation. When the islands were settled, and how directly Hachijō descends from the Man'yōshū's eastern dialects, are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hachijo-endangered",
+      "branch_id": "hachijo",
+      "date": "20th century – 2009",
+      "type": "CONTACT",
+      "title": "Standard Japanese takes over",
+      "description": "Schooling and media in standard Japanese end the transmission of Hachijō to children. UNESCO lists it as definitely endangered in 2009, and local classes and materials now try to keep it alive.",
+      "contested": false,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
