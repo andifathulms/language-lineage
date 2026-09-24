@@ -1,0 +1,75 @@
+{
+  "id": "proto-algonquian",
+  "family": "algonquian",
+  "name": "Proto-Algonquian",
+  "parent_ids": [],
+  "successor_ids": ["blackfoot", "arapahoan", "cheyenne", "cree-innu", "ojibwe", "eastern-algonquian"],
+  "era": "c. 1000 BCE (reconstructed; dating debated)",
+  "region": "Probably the plateau region west of the Great Lakes",
+  "defining_innovation": "The reconstructed ancestor of about thirty languages, with an elaborate system of animate and inanimate nouns and obviation (marking which third person is central to the story). Leonard Bloomfield's reconstruction of it showed that the comparative method works for languages without writing.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Algonquian was probably spoken somewhere west of the Great Lakes, perhaps around 1000 BCE, from where its descendants spread east to the Atlantic and west onto the Plains. Its grammar divides nouns into animate and inanimate, and in any stretch of narrative it marks one third person as 'proximate', the centre of attention, and others as 'obviative'.\n\nIn 1925 **Leonard Bloomfield** set out regular sound correspondences among four Central Algonquian languages (Fox, Cree, Menominee and Ojibwe). He reconstructed a cluster, `*çk`, on the evidence of one correspondence set, and predicted it would show up distinctly somewhere. It did: Swampy Cree, recorded later, has *htk*. The result became a classic demonstration that sound change is regular in languages without writing, just as in Indo-European."
+    },
+    {
+      "title": "The Ritwan Controversy",
+      "body": "In 1913 Edward Sapir proposed that Wiyot and Yurok, two languages of northern California far from any Algonquian language, were related to Algonquian. Truman Michelson rejected it vigorously, and the dispute became one of the bitterest in American linguistics. In 1958 Mary Haas published evidence that settled it: Wiyot, Yurok and Algonquian form the **Algic** family, with Proto-Algic buried below this tree.\n\nWithin Algonquian, only **Eastern Algonquian** is a proven subgroup. 'Central' and 'Plains' Algonquian are geographical labels. This tree draws six branches directly from the root: Blackfoot, Arapahoan, Cheyenne, Cree–Innu, Ojibwe and Eastern Algonquian. Menominee, Meskwaki, Shawnee and Miami-Illinois are not yet drawn."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pa-dispersal",
+      "branch_id": "proto-algonquian",
+      "date": "c. 1000 BCE onward",
+      "type": "SPLIT",
+      "title": "East to the Atlantic, west to the Plains",
+      "description": "Algonquian speakers spread from the interior east to the Atlantic coast and west onto the Plains. The homeland and dates rest on linguistic evidence such as the plant and animal vocabulary, and are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Goddard, Ives. 1994. The west-to-east cline in Algonquian dialectology. In Actes du vingt-cinquième Congrès des Algonquinistes, ed. William Cowan. Ottawa: Carleton University.", "url": null },
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-residential-schools",
+      "branch_id": "proto-algonquian",
+      "date": "c. 1880 – 1996",
+      "type": "CONTACT",
+      "title": "Residential and boarding schools",
+      "description": "In Canada and the United States, Indigenous children are taken to church- and state-run schools where speaking their languages is punished. Canada's Truth and Reconciliation Commission (2015) described the system as cultural genocide.",
+      "contested": false,
+      "sources": [
+        { "citation": "Truth and Reconciliation Commission of Canada. 2015. Honouring the Truth, Reconciling for the Future. Ottawa: TRC.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-algic",
+      "branch_id": "proto-algonquian",
+      "proposed_grouping": "Algic: Algonquian is related to Wiyot and Yurok of northern California",
+      "status": "widely_accepted",
+      "evidence_for": "Sapir (1913) proposed the link from shared vocabulary and morphology. Haas (1958) and later Goddard showed regular correspondences in pronominal prefixes, noun and verb morphology and basic vocabulary.",
+      "evidence_against": "Michelson's objections rested on the geographical gap and on the difficulty of the early evidence. The gap remains unexplained: how two Algic languages came to be in California, far from the others, is still debated. The relationship itself is now accepted.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Sapir, Edward. 1913. Wiyot and Yurok, Algonkin languages of California. American Anthropologist 15.", "url": null },
+        { "citation": "Haas, Mary R. 1958. Algonkian-Ritwan: The end of a controversy. International Journal of American Linguistics 24(3).", "url": null }
+      ]
+    },
+    {
+      "id": "cc-central-algonquian",
+      "branch_id": "proto-algonquian",
+      "proposed_grouping": "Central Algonquian as a genetic subgroup: Cree, Ojibwe, Menominee, Fox and their neighbours share an ancestor",
+      "status": "largely_rejected",
+      "evidence_for": "These were the languages Bloomfield compared, and they share much vocabulary and many features. The label is still widely used.",
+      "evidence_against": "Goddard showed that the 'Central' and 'Plains' groups have no shared innovations of their own, and that they are geographical groupings of separate branches. Only Eastern Algonquian has been shown to be a genuine subgroup.",
+      "linked_branch_ids": ["cree-innu", "ojibwe"],
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["leonard-bloomfield"]
+}

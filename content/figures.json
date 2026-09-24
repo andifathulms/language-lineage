@@ -341,5 +341,12 @@
     "lifespan": "1886–1938",
     "branch_ids": ["lolo-burmese"],
     "turning_point_ids": ["tp-lisu-fraser"]
+  },
+  {
+    "id": "leonard-bloomfield",
+    "name": "Leonard Bloomfield",
+    "lifespan": "1887–1949",
+    "branch_ids": ["proto-algonquian", "cree-innu"],
+    "turning_point_ids": ["tp-swampy-cree-htk"]
   }
 ]
