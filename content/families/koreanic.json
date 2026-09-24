@@ -38,5 +38,91 @@
     { "citation": "Vovin, Alexander. 2010. Korea-Japonica: A Re-evaluation of a Common Genetic Origin. Honolulu: University of Hawaii Press.", "url": null },
     { "citation": "Whitman, John. 2011. Northeast Asian linguistic ecology and the advent of rice agriculture in Korea and Japan. Rice 4.", "url": null },
     { "citation": "Robbeets, Martine, et al. 2021. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Koreanic has only two languages, so this table works differently from most. Jeju split from the mainland recently, and the reconstructed ancestor is barely older than 15th-century Middle Korean, whose forms are given in the first column. Look first at the vowel `ʌ` (the letter ㆍ, *arae-a*): Korean replaced it with *a* in first syllables, while Jeju kept it as a rounded `ɒ` ('horse', 'moon', 'one'). Then look at what does not match: Jeju *pataŋ* 'sea' and *naŋ* 'tree' show how far the two vocabularies have drifted, even where the words share a root. Korean ㅓ is written `ə` and ㅡ `ɨ`.",
+    "proto_label": "Middle Korean",
+    "proto_attested": true,
+    "languages": [
+      { "name": "Korean", "branch_id": "korean" },
+      { "name": "Jeju", "branch_id": "jeju" }
+    ],
+    "rows": [
+      {
+        "gloss": "horse",
+        "proto": "mʌl",
+        "forms": ["mal", "mɒl"]
+      },
+      {
+        "gloss": "moon",
+        "proto": "tʌl",
+        "forms": ["tal", "tɒl"]
+      },
+      {
+        "gloss": "one",
+        "proto": "hʌnah",
+        "forms": ["hana", "hɒna"]
+      },
+      {
+        "gloss": "autumn",
+        "proto": "kʌzʌl",
+        "forms": ["kaɨl", "kɒsɨl"]
+      },
+      {
+        "gloss": "stone",
+        "proto": "tolh",
+        "forms": ["tol", "tol"]
+      },
+      {
+        "gloss": "water",
+        "proto": "mul",
+        "forms": ["mul", "mul"]
+      },
+      {
+        "gloss": "night",
+        "proto": "pam",
+        "forms": ["pam", "pam"]
+      },
+      {
+        "gloss": "sea",
+        "proto": null,
+        "forms": ["pata", "pataŋ"]
+      },
+      {
+        "gloss": "tree",
+        "proto": "namo",
+        "forms": ["namu", "naŋ"]
+      },
+      {
+        "gloss": "father",
+        "proto": "api",
+        "forms": ["apəci", "apaŋ"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "ʌ (first syllable)",
+        "reflexes": ["a", "ɒ"],
+        "rows": [0, 1, 2, 3]
+      },
+      {
+        "label": "z",
+        "reflexes": ["∅", "s"],
+        "rows": [3]
+      },
+      {
+        "label": "-h (final)",
+        "reflexes": ["∅", "∅"],
+        "rows": [2, 4]
+      }
+    ],
+    "sources": [
+      { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null },
+      {
+        "citation": "O'Grady, William, Changyong Yang & Sejung Yang. 2022. Jejueo: Korea's other language. In The Cambridge Handbook of Korean Linguistics, ed. Sungdai Cho & John Whitman, 717–748. Cambridge: Cambridge University Press.",
+        "url": null
+      },
+      { "citation": "Jeju Special Self-Governing Province. 2009. Gaejeong jeungbo Jejueo sajeon [Revised and enlarged Jejueo dictionary]. Jeju.", "url": null }
+    ]
+  }
 }
