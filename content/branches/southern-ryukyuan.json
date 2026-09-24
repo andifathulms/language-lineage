@@ -1,0 +1,57 @@
+{
+  "id": "southern-ryukyuan",
+  "family": "japonic",
+  "name": "Southern Ryukyuan",
+  "parent_ids": ["ryukyuan"],
+  "successor_ids": [],
+  "era": "c. 11th century CE – present",
+  "region": "The Miyako and Yaeyama Islands and Yonaguni, near Taiwan",
+  "defining_innovation": "Miyako, Yaeyama and Yonaguni, the southernmost Japonic languages, with unusual sound systems such as Miyako's syllabic fricatives and Yonaguni's shift of *y to d.",
+  "descendants": ["Miyako", "Yaeyama", "Yonaguni"],
+  "chapters": [
+    {
+      "title": "The Southern Islands",
+      "body": "The Southern Ryukyuan languages are spoken in the Sakishima islands, closer to Taiwan than to Okinawa. They are sharply different from each other and from Okinawan. Miyako has syllables made of a fricative with no vowel, and Yonaguni turned initial *y* into *d*. Under the Ryukyu Kingdom, the islands paid a heavy head tax from 1637, abolished only in 1903, and their populations remained poor and isolated."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sakishima-settlement",
+      "branch_id": "southern-ryukyuan",
+      "date": "c. 11th – 13th century CE",
+      "type": "SPLIT",
+      "title": "Settling the Sakishima islands",
+      "description": "Ryukyuan speakers settle Miyako, Yaeyama and Yonaguni, and Southern Ryukyuan diverges from the northern languages. The earlier inhabitants of the islands had different, southern connections, and the relationship is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Pellard, Thomas. 2015. The linguistic archeology of the Ryukyu Islands. In Handbook of the Ryukyuan Languages, ed. Patrick Heinrich, Shinsho Miyara & Michinori Shimoji. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-head-tax",
+      "branch_id": "southern-ryukyuan",
+      "date": "1637 – 1903",
+      "type": "CONTACT",
+      "title": "The head tax",
+      "description": "The Ryukyu Kingdom, itself under Satsuma pressure, imposes a harsh head tax on the southern islands. The islands stay poor and isolated, which helps preserve their distinct languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick, Shinsho Miyara & Michinori Shimoji, eds. 2015. Handbook of the Ryukyuan Languages. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yonaguni-endangered",
+      "branch_id": "southern-ryukyuan",
+      "date": "2009 onward",
+      "type": "REVITALIZATION",
+      "title": "Documentation and revival",
+      "description": "After UNESCO lists Yonaguni as severely endangered and Miyako and Yaeyama as definitely endangered, linguists and islanders produce dictionaries, grammars and teaching materials.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick, Shinsho Miyara & Michinori Shimoji, eds. 2015. Handbook of the Ryukyuan Languages. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
