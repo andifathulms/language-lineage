@@ -1,0 +1,33 @@
+{
+  "id": "south-dravidian-i",
+  "family": "dravidian",
+  "name": "South Dravidian I",
+  "parent_ids": ["south-dravidian"],
+  "successor_ids": ["tulu", "kannada", "tamil-malayalam"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Tamil Nadu, Kerala, Karnataka and the Nilgiri hills; Sri Lanka and the Tamil diaspora",
+  "defining_innovation": "The branch of Tamil, Malayalam, Kannada and Tulu, together with smaller languages such as Kodava, Toda and Kota. Tulu split off first.",
+  "descendants": ["Tamil", "Malayalam", "Kannada", "Tulu", "Kodava", "Toda", "Kota"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "South Dravidian I is the branch of the far south. Tulu, on the coast around Mangalore, separated first. The rest divided into Kannada and a Tamil–Malayalam group, with the small Nilgiri languages Toda and Kota and the Kodava of Coorg branching off along the way. These languages have the longest continuous literary traditions in the Dravidian family, and their speakers ruled the kingdoms of the Cheras, Cholas, Pandyas and Hoysalas."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sd1-split",
+      "branch_id": "south-dravidian-i",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Tulu, Kannada and Tamil diverge",
+      "description": "Tulu separates first, then Kannada and Tamil–Malayalam, with the Nilgiri languages and Kodava branching off along the way. The order after Tulu, and the dates, are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
