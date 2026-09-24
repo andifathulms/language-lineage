@@ -1,0 +1,120 @@
+{
+  "id": "aramaic",
+  "family": "semitic",
+  "name": "Aramaic",
+  "parent_ids": ["northwest-semitic"],
+  "successor_ids": [],
+  "era": "c. 10th century BCE – present",
+  "region": "Syria and Mesopotamia, then the whole Near East from Egypt to Afghanistan; today scattered communities in Syria, Iraq, Turkey and Iran and in diaspora",
+  "defining_innovation": "Proto-Semitic *ð merged with d: Aramaic dəhav 'gold' beside Hebrew zāhāv and Arabic ḏahab.",
+  "descendants": ["Syriac (liturgical)", "Turoyo", "Assyrian Neo-Aramaic", "Western Neo-Aramaic", "Mandaic", "Jewish Neo-Aramaic"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Aramaic first appears in inscriptions of the small Aramean kingdoms of Syria in the 10th–9th centuries BCE. It then became something much larger. The Assyrian empire deported and resettled Aramaic speakers across its territory, and Aramaic spread as the everyday language of the empire. The Babylonians and then the Achaemenid Persians used it as their administrative language from Egypt to India. Parts of the biblical books of Daniel and Ezra are in Aramaic, and it was the everyday language of Judea in the time of Jesus.\n\nAramaic merged some Proto-Semitic consonants differently from Hebrew: `*ð` became *d*, so 'gold' is *dəhav* against Hebrew *zāhāv*."
+    },
+    {
+      "title": "A Script for Half of Asia",
+      "body": "The Aramaic alphabet had even wider descendants than the language. Jews adopted it for Hebrew, and the 'square' Hebrew letters are Aramaic in origin. The Nabataeans developed a cursive form of it that became the Arabic script. Syriac, Mandaic and Palmyrene scripts are Aramaic, and so are the Kharosthi script of northwest India and the Sogdian script of Central Asia. Sogdian in turn gave rise to the Old Uyghur script on the Turkic tree, and through it to Mongolian and Manchu writing."
+    },
+    {
+      "title": "Syriac and Neo-Aramaic",
+      "body": "The Aramaic of Edessa, **Syriac**, became the literary language of Christianity in the east from the 2nd century CE. Its missionaries took it to India and China: a bilingual Chinese–Syriac stele was set up in Xi'an in 781. After the Arab conquests, Arabic gradually replaced Aramaic as the spoken language of the region. The **Neo-Aramaic** languages of today survived in mountain villages and among Christian, Jewish and Mandaean minorities.\n\nThe 20th and 21st centuries have been devastating: massacres during the First World War, and war and emigration from Iraq and Syria, have scattered the remaining speakers. Western Neo-Aramaic survives in Maaloula and two neighbouring villages near Damascus."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-aramaic-d",
+      "branch_id": "aramaic",
+      "date": "Before the earliest inscriptions",
+      "type": "SOUND_LAW",
+      "title": "*ð merges with d",
+      "description": "Proto-Semitic `*ð` merges with `d`: Aramaic *dəhav* 'gold' against Hebrew *zāhāv* and Arabic *ḏahab*. The earliest inscriptions write it with the letter for *z*, which suggests the merger came after the script was borrowed.",
+      "contested": false,
+      "process": "merger",
+      "notation": "*ð → d (dəhav 'gold'; Hebrew zāhāv, Arabic ḏahab)",
+      "sort_year": -900,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-imperial-aramaic",
+      "branch_id": "aramaic",
+      "date": "8th – 4th century BCE",
+      "type": "CONTACT",
+      "title": "Language of empires",
+      "description": "Assyria, then Babylon, then Achaemenid Persia use Aramaic as the everyday and administrative language of their empires. It replaces Akkadian and is written from Egypt to Afghanistan.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-spirantization",
+      "branch_id": "aramaic",
+      "date": "c. mid-1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Spirantisation of b g d k p t",
+      "description": "After vowels, the stops `b g d k p t` become fricatives `v ɣ ð x f θ`. The change spreads to Hebrew, and the Tiberian vowel signs record it in the Hebrew Bible. Its date and whether it began in Aramaic are debated.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "b g d k p t → v ɣ ð x f θ / V_",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null },
+        { "citation": "Sáenz-Badillos, Angel. 1993. A History of the Hebrew Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-aramaic-script-spread",
+      "branch_id": "aramaic",
+      "date": "1st millennium BCE – 1st millennium CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Aramaic script family",
+      "description": "The Aramaic alphabet becomes the parent of the Hebrew square script, Nabataean (and so Arabic), Syriac, Mandaic and Sogdian. Through Sogdian it leads to the Old Uyghur, Mongolian and Manchu scripts.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-syriac-east",
+      "branch_id": "aramaic",
+      "date": "2nd – 8th century CE",
+      "type": "CONTACT",
+      "title": "Syriac Christianity travels east",
+      "description": "Syriac becomes the literary language of the churches of the east, and its missionaries reach India, Central Asia and China. The Xi'an stele of 781 is inscribed in Chinese and Syriac.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-arabic-replaces-aramaic",
+      "branch_id": "aramaic",
+      "date": "7th century CE onward",
+      "type": "CONTACT",
+      "title": "Arabic replaces Aramaic",
+      "description": "After the Arab conquests, Arabic becomes the everyday language of Syria and Mesopotamia over several centuries. Aramaic survives mainly in villages and in liturgy.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-neo-aramaic-displacement",
+      "branch_id": "aramaic",
+      "date": "20th – 21st century",
+      "type": "CONTACT",
+      "title": "Massacre, war and diaspora",
+      "description": "Massacres during the First World War and later wars in Iraq and Syria scatter the Neo-Aramaic-speaking communities, and many now live in diaspora in Europe, North America and Australia. Several Neo-Aramaic varieties have only elderly speakers.",
+      "contested": false,
+      "sources": [
+        { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
