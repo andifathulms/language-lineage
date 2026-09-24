@@ -1,0 +1,62 @@
+{
+  "id": "menominee",
+  "family": "algonquian",
+  "name": "Menominee",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "Recorded since the 19th century – present",
+  "region": "The Menominee Reservation around Keshena and Neopit in northeastern Wisconsin; formerly the country west of Green Bay and along the Menominee River",
+  "defining_innovation": "A single language, set apart from its neighbours above all by a reshaped vowel system that includes a low front vowel æ, rare elsewhere in the family.",
+  "descendants": ["Menominee"],
+  "chapters": [
+    {
+      "title": "The Wild-Rice People",
+      "body": "**Menominee** is spoken on the Menominee Reservation in northeastern Wisconsin, in and around Keshena, Neopit and Zoar. Its speakers have lived west of Green Bay and along the Menominee River, on the present border between Wisconsin and Michigan, for as long as there are records, and Menominee tradition places the people's origin at the mouth of that river. The English name comes from the Ojibwe for 'wild-rice people', after the grain gathered in the lakes and streams of the region.\n\nMenominee is a single language with no close sister. Among the Algonquian languages it stands out for its vowels: it has a low front vowel æ, like the vowel of English *cat*, which is rare elsewhere in the family, and its vowels have shifted enough that they no longer line up simply with those of Proto-Algonquian. It was nonetheless one of the four languages, with Fox, Cree and Ojibwe, on which Leonard Bloomfield built his reconstruction of Proto-Algonquian.\n\nUnlike many peoples of the region, the Menominee were never removed west. The Treaty of Wolf River (1854) secured them a reservation on part of their homeland, which they kept through a costly episode in the 20th century: in 1954 Congress 'terminated' the tribe's federal status, and it took nearly twenty years of campaigning, led in part by Ada Deer, to have it restored in 1973. By then English had largely replaced Menominee in the home, and the remaining first-language speakers are elderly."
+    },
+    {
+      "title": "Bloomfield's Menominee",
+      "body": "Leonard Bloomfield worked on Menominee at Keshena in 1920 and 1921, and it became the Algonquian language he knew best. His *Menomini Texts* (1928) printed the stories and accounts he recorded, with English translations. His full grammar, *The Menomini Language*, was unfinished when he died in 1949; Charles Hockett edited it for publication in 1962, and later also edited Bloomfield's *Menominee Lexicon* (1975). The grammar is still one of the most detailed descriptions of any Algonquian language.\n\nMenominee also gave Bloomfield material for an argument about language and society. In 'Literate and Illiterate Speech' (1927) he reported that Menominee speakers, with no writing and no schools, still judged some people's speech to be good and others' to be bad, much as speakers of written languages do. He described speakers whose Menominee was admired, and one man, White-Thunder, whose Menominee he called 'atrocious' and whose English was no better; the passage was later much cited in debates about so-called semilingualism.\n\nBloomfield's records now serve the community itself. The tribe's Menominee Language and Culture Commission, classes from preschool to the College of Menominee Nation, and a dictionary project led by the linguist Monica Macaulay draw on them alongside recordings of recent elders."
+    }
+  ],
+  "speakers": {
+    "estimate": "Fewer than 20 fluent speakers",
+    "vitality": "critically_endangered",
+    "note": "All first-language speakers are elderly; a 2007 count found about 35 fluent speakers, and later tribal reports put those able to converse at fewer than ten.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "fewer than 20" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-menominee-bloomfield",
+      "branch_id": "menominee",
+      "date": "1920 – 1921",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Bloomfield at Keshena",
+      "description": "Leonard Bloomfield records Menominee texts and grammar on the reservation. The material underlies his *Menomini Texts* (1928), the posthumous grammar (1962) and lexicon (1975), and much of his reconstruction of Proto-Algonquian.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bloomfield, Leonard. 1928. Menomini Texts. Publications of the American Ethnological Society 12. New York: G. E. Stechert.", "url": null },
+        { "citation": "Bloomfield, Leonard. 1962. The Menomini Language, ed. Charles F. Hockett. New Haven: Yale University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-menominee-termination",
+      "branch_id": "menominee",
+      "date": "1954 – 1973",
+      "type": "CONTACT",
+      "title": "Termination and restoration",
+      "description": "The Menominee Termination Act (1954, in force 1961) ends federal recognition of the tribe and turns the reservation into a county. A campaign led by Ada Deer and the group DRUMS wins the Menominee Restoration Act in 1973. The upheaval of these years speeds the shift to English.",
+      "contested": false,
+      "sources": [
+        { "citation": "Peroff, Nicholas C. 1982. Menominee DRUMS: Tribal Termination and Restoration, 1954–1974. Norman: University of Oklahoma Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["leonard-bloomfield", "ada-deer"]
+}
