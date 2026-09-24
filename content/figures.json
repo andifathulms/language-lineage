@@ -283,8 +283,8 @@
     "id": "kenneth-hale",
     "name": "Kenneth Hale",
     "lifespan": "1934–2001",
-    "branch_ids": ["tepiman"],
-    "turning_point_ids": ["tp-oodham-alphabet"]
+    "branch_ids": ["tepiman", "paman"],
+    "turning_point_ids": ["tp-oodham-alphabet", "tp-paman-initial-dropping"]
   },
   {
     "id": "bernardino-de-sahagun",
@@ -306,5 +306,12 @@
     "lifespan": "1815–1893",
     "branch_ids": ["thura-yura"],
     "turning_point_ids": ["tp-kaurna-grammar"]
+  },
+  {
+    "id": "james-cook",
+    "name": "James Cook",
+    "lifespan": "1728–1779",
+    "branch_ids": ["paman"],
+    "turning_point_ids": ["tp-kangaroo"]
   }
 ]

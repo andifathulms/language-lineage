@@ -1,0 +1,64 @@
+{
+  "id": "paman",
+  "family": "pama-nyungan",
+  "name": "Paman",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Cape York Peninsula, Queensland",
+  "defining_innovation": "The Cape York languages that gave the family the first half of its name (pama 'person'). In the Northern Paman languages, initial consonants were dropped wholesale.",
+  "descendants": ["Guugu Yimithirr", "Kuuk Thaayorre", "Wik Mungkan", "Kugu Nganhcara", "Umpila", "Uradhi"],
+  "chapters": [
+    {
+      "title": "Cape York",
+      "body": "The Paman languages fill Cape York Peninsula, close to the probable Pama-Nyungan homeland. They are unusually diverse for a single subgroup. In the far north, the Northern Paman languages dropped the initial consonant of almost every word, a change so drastic that their relationship to the rest was hard to see until **Kenneth Hale** worked it out in the 1960s. The same kind of change happened independently in Arandic."
+    },
+    {
+      "title": "Kangaroo, and Which Way Is North",
+      "body": "In 1770 James Cook's *Endeavour* spent seven weeks at the mouth of the Endeavour River, where the crew recorded words of Guugu Yimithirr. One of them, *gangurru*, the name of a large grey kangaroo, became the English word 'kangaroo'. The linguist John Haviland later confirmed the word, which had been doubted.\n\nGuugu Yimithirr became famous again in the 1990s. Its speakers describe spatial relations with cardinal directions ('the cup is north of the plate') rather than 'left' and 'right', and research by Haviland and Stephen Levinson showed that they keep track of direction constantly. Wik Mungkan, further south at Aurukun, is still learned by children."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-paman-initial-dropping",
+      "branch_id": "paman",
+      "date": "Proto-Northern-Paman period",
+      "type": "SOUND_LAW",
+      "title": "Initial dropping",
+      "description": "The Northern Paman languages lose the initial consonant of nearly every word, often along with the first vowel, and weaken the consonants that follow. Hale's reconstruction of these changes was one of the first detailed demonstrations of regular sound change in an Australian language.",
+      "contested": true,
+      "process": "loss",
+      "notation": "#C(V) → ∅, with later lenition of the new initial consonant",
+      "sort_year": 0,
+      "sources": [
+        { "citation": "Hale, Kenneth. 1964. Classification of Northern Paman languages, Cape York Peninsula, Australia: A research report. Oceanic Linguistics 3(2).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kangaroo",
+      "branch_id": "paman",
+      "date": "1770",
+      "type": "CONTACT",
+      "title": "Cook at the Endeavour River",
+      "description": "The crew of the *Endeavour* record Guugu Yimithirr words, including *gangurru*, which enters English as 'kangaroo' and becomes the first Australian word known worldwide.",
+      "contested": false,
+      "sources": [
+        { "citation": "Haviland, John B. 1974. A last look at Cook's Guugu-Yimidhirr word list. Oceania 44(3).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hope-vale",
+      "branch_id": "paman",
+      "date": "1886 onward",
+      "type": "CONTACT",
+      "title": "Missions and reserves",
+      "description": "Lutheran missions such as Hope Vale, and government reserves, gather speakers of different Paman languages together. English and Guugu Yimithirr become the languages of the missions, and many smaller languages decline.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["kenneth-hale", "james-cook"]
+}
