@@ -38,5 +38,97 @@
     { "citation": "Grünthal, Riho, Volker Heyd, Sampsa Holopainen, Juha Janhunen et al. 2022. Drastic demographic events triggered the Uralic spread. Diachronica 39(4): 490–524.", "url": null },
     { "citation": "Lamnidis, Thiseas C. et al. 2018. Ancient Fennoscandian genomes reveal origin and spread of Siberian ancestry in Europe. Nature Communications 9: 5018.", "url": null },
     { "citation": "Kallio, Petri. 2006. Suomen kantakielten absoluuttista kronologiaa. Virittäjä 110(1): 2–25.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Each row below is one inherited word, traced from its Proto-Uralic form into a language from each of the six branches on this tree. The words look very different, so do not look for resemblance. Look for regularity: wherever Finnish has *k* before a back vowel, Hungarian has *h* and Mansi and Nenets have *x*; wherever Finnish has *p*, Hungarian has *f*. Gaps mark words that were replaced. Komi, Mansi and Nenets, written in Cyrillic, are given in a romanisation; reconstructions follow the current convention (`*wete` 'water', formerly written `*weti`).",
+    "proto_label": "Proto-Uralic",
+    "languages": [
+      { "name": "Finnish", "branch_id": "finnic" },
+      { "name": "North Saami", "branch_id": "saami" },
+      { "name": "Komi", "branch_id": "permic" },
+      { "name": "Hungarian", "branch_id": "hungarian" },
+      { "name": "Northern Mansi", "branch_id": "ob-ugric" },
+      { "name": "Tundra Nenets", "branch_id": "samoyedic" }
+    ],
+    "rows": [
+      {
+        "gloss": "fire",
+        "proto": "tule",
+        "forms": ["tuli", "dolla", "tyv", "tűz", null, "tu"]
+      },
+      {
+        "gloss": "water",
+        "proto": "wete",
+        "forms": ["vesi", null, "va", "víz", "wit", "jiʔ"]
+      },
+      {
+        "gloss": "ice",
+        "proto": "jäŋe",
+        "forms": ["jää", "jiekŋa", "ji", "jég", "jāŋk", null]
+      },
+      {
+        "gloss": "fish",
+        "proto": "kala",
+        "forms": ["kala", "guolli", null, "hal", "xūl", "xalʲa"]
+      },
+      {
+        "gloss": "nest",
+        "proto": "pesä",
+        "forms": ["pesä", "beassi", "poz", "fészek", "pitʲi", "pʲidʲa"]
+      },
+      {
+        "gloss": "hand",
+        "proto": "käte",
+        "forms": ["käsi", "giehta", "ki", "kéz", "kāt", null]
+      },
+      {
+        "gloss": "eye",
+        "proto": "śilmä",
+        "forms": ["silmä", "čalbmi", "śin", "szem", "sam", "sæw"]
+      },
+      {
+        "gloss": "fathom (outstretched arms)",
+        "proto": "süle",
+        "forms": ["syli", "salla", "syv", "öl", "tal", "tʲibʲa"]
+      },
+      {
+        "gloss": "blood",
+        "proto": "were",
+        "forms": ["veri", "varra", "vir", "vér", null, null]
+      },
+      {
+        "gloss": "to die",
+        "proto": "kale-",
+        "forms": ["kuolla", null, "kuvny", "halni", null, "xasʲ"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*k (before a back vowel)",
+        "reflexes": ["k", "g", "k", "h", "x", "x"],
+        "rows": [3, 9]
+      },
+      {
+        "label": "*p",
+        "reflexes": ["p", "b", "p", "f", "p", "p"],
+        "rows": [4]
+      },
+      {
+        "label": "*ś",
+        "reflexes": ["s", "č", "ś", "sz", "s", "s"],
+        "rows": [6]
+      },
+      {
+        "label": "*s",
+        "reflexes": ["s", "s", "s", "∅", "t", "tʲ"],
+        "rows": [7]
+      }
+    ],
+    "sources": [
+      { "citation": "Rédei, Károly, ed. 1986–1991. Uralisches etymologisches Wörterbuch. Budapest: Akadémiai Kiadó; Wiesbaden: Harrassowitz.", "url": null },
+      { "citation": "Sammallahti, Pekka. 1988. Historical phonology of the Uralic languages. In Denis Sinor, ed., The Uralic Languages: Description, History and Foreign Influences, 478–554. Leiden: Brill.", "url": null },
+      { "citation": "Aikio, Ante. 2022. Proto-Uralic. In Marianne Bakró-Nagy, Johanna Laakso & Elena Skribnik, eds., The Oxford Guide to the Uralic Languages, 3–27. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Janhunen, Juha. 1977. Samojedischer Wortschatz: gemeinsamojedische Etymologien. Helsinki: Castrenianum.", "url": null }
+    ]
+  }
 }
