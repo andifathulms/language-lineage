@@ -82,5 +82,19 @@
     "lifespan": "c. 1725–1770",
     "branch_ids": ["polynesian"],
     "turning_point_ids": ["tp-tupaia-1769"]
+  },
+  {
+    "id": "mikael-agricola",
+    "name": "Mikael Agricola",
+    "lifespan": "c. 1510–1557",
+    "branch_ids": ["finnic"],
+    "turning_point_ids": ["tp-agricola"]
+  },
+  {
+    "id": "elias-lonnrot",
+    "name": "Elias Lönnrot",
+    "lifespan": "1802–1884",
+    "branch_ids": ["finnic"],
+    "turning_point_ids": ["tp-finnish-national"]
   }
 ]

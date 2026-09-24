@@ -1,0 +1,109 @@
+{
+  "id": "finnic",
+  "family": "uralic",
+  "name": "Finnic",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Around the Gulf of Finland: Finland, Estonia, Karelia and the Ingrian and Livonian coasts",
+  "defining_innovation": "Assibilation: *t became s before i, which is why Finnish has vesi 'water' but the case form veden, from Proto-Uralic *weti.",
+  "descendants": ["Finnish", "Estonian", "Karelian", "Võro", "Veps", "Livonian †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Finnic was spoken around the Gulf of Finland, probably in the late first millennium BCE, and its descendants still form a close-knit group. A Finn and an Estonian can recognise much of each other's vocabulary, though they need practice to understand each other's speech. Finnic is also the most conservative branch in sound structure: Finnish *kala* 'fish' and *nimi* 'name' look almost exactly like their Proto-Uralic reconstructions.\n\nFinnic shows the result of long contact with Indo-European neighbours more clearly than any other branch. Baltic gave words such as *hammas* 'tooth' and *heinä* 'hay'. Germanic gave *kuningas* 'king', *rengas* 'ring' and *kaunis* 'beautiful', in forms older than any attested Germanic language (the Germanic tree cites the same words)."
+    },
+    {
+      "title": "Finnish and Estonian",
+      "body": "Both languages were first written in the Reformation. **Mikael Agricola**, a student of Luther's Wittenberg, published a Finnish primer (*Abckiria*, 1543) and a New Testament (1548), and his spelling, modelled on Swedish, German and Latin, set the course for written Finnish. Estonian printing began at about the same time, but under German-speaking clergy and landowners, which shows in its early spelling and vocabulary.\n\nEstonian changed more than Finnish. It lost many final vowels and developed a three-way contrast of length (short, long, overlong) that distinguishes words such as *linna* 'of the town' and *linna* 'to the town' by quantity alone."
+    },
+    {
+      "title": "National Languages and Small Ones",
+      "body": "In the 19th century Finnish went from peasant speech to national language. Elias Lönnrot compiled the *Kalevala* (1835, expanded 1849) from oral poetry, and a language decree of 1863 began to put Finnish on an equal footing with Swedish in administration. Estonian became a state language with independence in 1918, and again in 1991.\n\nThe small Finnic languages fared worse. Votic has only a handful of elderly speakers. Livonian, once spoken along the coast of Latvia, lost its last native speaker in 2013, although it is still learned and taught as a heritage language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-finnic-assibilation",
+      "branch_id": "finnic",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Assibilation: *ti → si",
+      "description": "`*t` becomes `s` before `*i`. Finnish *vesi* 'water' comes from `*weti`, while the genitive *veden* keeps the old consonant because no *i* followed it. The alternation survives in many Finnish words.",
+      "contested": false,
+      "process": "assimilation",
+      "notation": "*t → s / _i (*weti → vesi, but veden)",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Kallio, Petri. 2006. Suomen kantakielten absoluuttista kronologiaa. Virittäjä 110.", "url": null },
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-finnic-ie-loans",
+      "branch_id": "finnic",
+      "date": "c. 1st millennium BCE – 1st millennium CE",
+      "type": "CONTACT",
+      "title": "Baltic and Germanic loanwords",
+      "description": "Baltic and then Germanic neighbours contribute hundreds of words, including *hammas* 'tooth', *kuningas* 'king' and *rengas* 'ring'. The Germanic loans preserve endings like `*-az` that no Germanic text records, which makes them evidence for Proto-Germanic itself.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kallio, Petri. 2006. Suomen kantakielten absoluuttista kronologiaa. Virittäjä 110.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-consonant-gradation",
+      "branch_id": "finnic",
+      "date": "c. 1st millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Consonant gradation",
+      "description": "Stops weaken when the syllable closes: Finnish *kukka* 'flower' : *kukan* 'of the flower', *pata* 'pot' : *padan*. Saami has a similar system, and whether it was inherited from a shared ancestor or developed separately through contact is disputed.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "kk pp tt → k p t · k p t → ∅ v d in closed syllables (kukka : kukan, pata : padan)",
+      "sort_year": 0,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null },
+        { "citation": "Sammallahti, Pekka. 1998. The Saami Languages: An Introduction. Kárášjohka: Davvi Girji.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-agricola",
+      "branch_id": "finnic",
+      "date": "1543–1548",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Agricola's Finnish",
+      "description": "Mikael Agricola's primer (1543) and New Testament (1548) are the first books in Finnish. His Latin-alphabet spelling, drawing on Swedish, German and Latin habits, is the ancestor of modern Finnish orthography.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-finnish-national",
+      "branch_id": "finnic",
+      "date": "1835–1863",
+      "type": "REVITALIZATION",
+      "title": "The Kalevala and the 1863 decree",
+      "description": "Lönnrot's *Kalevala* makes Finnish a language of national literature, and the language decree of 1863 begins to raise it to equal status with Swedish, the language of administration and education.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-livonian-extinction",
+      "branch_id": "finnic",
+      "date": "2013",
+      "type": "EXTINCTION",
+      "title": "Livonian's last native speaker",
+      "description": "Grizelda Kristiņa, the last person to speak Livonian as a first language, dies. The language survives in a small community of learners and in Latvian place names along the Livonian coast.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["mikael-agricola", "elias-lonnrot"]
+}
