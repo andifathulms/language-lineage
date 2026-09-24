@@ -2,7 +2,7 @@
 
 A read-only narrative encyclopedia of language families. It covers how each branch split from its parent, the dated sound laws and contact events behind each split, and the classifications historical linguists still dispute.
 
-Seventeen families are covered:
+Eighteen families are covered:
 
 - **Germanic** (Indo-European), 12 branches. v1 proved the format on a five-node thread here, and it was then widened: Proto-Germanic → East Germanic †, North Germanic (→ West Norse, East Norse), West Germanic (→ Anglo-Frisian (→ Anglic, Frisian), Low German, Low Franconian, High German).
 - **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
@@ -21,6 +21,7 @@ Seventeen families are covered:
 - **Koreanic**, 3 branches: Proto-Koreanic → Korean, Jeju.
 - **Kra-Dai**, 7 branches: Proto-Kra-Dai → Kra, Hlai, Kam-Sui, Tai (→ Northern Tai, Southwestern Tai). Central Tai (Tày, Nùng, Southern Zhuang) and Be are not yet drawn.
 - **Quechuan**, 6 branches: Proto-Quechua → Central Quechua (Quechua I), Quechua II (→ Northern Peruvian, Kichwa, Southern Quechua), following Torero's classification.
+- **Na-Dene** (Athabaskan-Eyak-Tlingit), 8 branches: Proto-Na-Dene → Tlingit, Athabaskan-Eyak (→ Eyak †, Athabaskan (→ Northern Athabaskan, Pacific Coast Athabaskan, Apachean)). Northern Athabaskan is drawn as one limb but is a geographical continuum, not a proven subgroup.
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
