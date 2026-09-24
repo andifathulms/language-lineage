@@ -35,5 +35,96 @@
     { "citation": "Bellwood, Peter, James J. Fox & Darrell Tryon, eds. 1995. The Austronesians: Historical and Comparative Perspectives. Canberra: Australian National University.", "url": null },
     { "citation": "Gray, Russell D., Alexei J. Drummond & Simon J. Greenhill. 2009. Language phylogenies reveal expansion pulses and pauses in Pacific settlement. Science 323: 479–483.", "url": null },
     { "citation": "Skoglund, Pontus et al. 2016. Genomic insights into the peopling of the Southwest Pacific. Nature 538: 510–513.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The six columns run from Taiwan to Hawaii, one language from each part of the tree. Many rows need little explanation: 'five' is *lima* almost everywhere, 5,000 years after the family began to split. The interest is in the columns that differ. Hawaiian has *k* wherever the others have *t*, and *h* where they have *p*. Paiwan, spoken in Taiwan, keeps `*C` (written *c*, `[ts]`) apart from `*t` (written *tj*), a distinction every language outside Taiwan has lost. Paiwan is written in Taiwan's official orthography, in which *dj*, *lj* and *dr* are also single consonants; in Fijian *g* is `[ŋ]` and *c* is `[ð]`.",
+    "proto_label": "Proto-Austronesian",
+    "languages": [
+      { "name": "Paiwan", "branch_id": "formosan" },
+      { "name": "Tagalog", "branch_id": "malayo-polynesian" },
+      { "name": "Malay", "branch_id": "malayic" },
+      { "name": "Malagasy", "branch_id": "barito" },
+      { "name": "Fijian", "branch_id": "oceanic" },
+      { "name": "Hawaiian", "branch_id": "polynesian" }
+    ],
+    "rows": [
+      {
+        "gloss": "eye",
+        "proto": "maCa",
+        "forms": ["maca", "mata", "mata", "maso", "mata", "maka"]
+      },
+      {
+        "gloss": "two",
+        "proto": "duSa",
+        "forms": ["drusa", "dalawa", "dua", "roa", "rua", "lua"]
+      },
+      {
+        "gloss": "three",
+        "proto": "telu",
+        "forms": ["tjelu", "tatlo", null, "telo", "tolu", "kolu"]
+      },
+      {
+        "gloss": "four",
+        "proto": "Sepat",
+        "forms": ["sepatj", "apat", "empat", "efatra", "vā", "hā"]
+      },
+      {
+        "gloss": "five",
+        "proto": "lima",
+        "forms": ["lima", "lima", "lima", "dimy", "lima", "lima"]
+      },
+      {
+        "gloss": "six",
+        "proto": "enem",
+        "forms": ["enem", "anim", "enam", "enina", "ono", "ono"]
+      },
+      {
+        "gloss": "eight",
+        "proto": "walu",
+        "forms": ["alu", "walo", null, "valo", "walu", "walu"]
+      },
+      {
+        "gloss": "rain",
+        "proto": "quzaN",
+        "forms": ["qudjalj", "ulan", "hujan", "orana", "uca", "ua"]
+      },
+      {
+        "gloss": "sky",
+        "proto": "laŋiC",
+        "forms": [null, "langit", "langit", "lanitra", "lagi", "lani"]
+      },
+      {
+        "gloss": "tree, wood",
+        "proto": "kaSiw",
+        "forms": ["kasiw", "kahoy", "kayu", "hazo", "kau", null]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*C",
+        "reflexes": ["c", "t", "t", null, "t", "k"],
+        "rows": [0]
+      },
+      {
+        "label": "*t",
+        "reflexes": ["tj", "t", null, "t", "t", "k"],
+        "rows": [2]
+      },
+      {
+        "label": "*p",
+        "reflexes": ["p", "p", "p", "f", "v", "h"],
+        "rows": [3]
+      },
+      {
+        "label": "*ŋ",
+        "reflexes": [null, "ng", "ng", "n", "g", "n"],
+        "rows": [8]
+      }
+    ],
+    "sources": [
+      { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null },
+      { "citation": "Blust, Robert & Stephen Trussel. 2010–. The Austronesian Comparative Dictionary, web edition.", "url": "https://acd.clld.org" },
+      { "citation": "Pukui, Mary Kawena & Samuel H. Elbert. 1986. Hawaiian Dictionary, revised and enlarged ed. Honolulu: University of Hawaii Press.", "url": null }
+    ]
+  }
 }
