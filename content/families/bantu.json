@@ -1,0 +1,13 @@
+{
+  "slug": "bantu",
+  "name": "Bantu",
+  "superfamily": "Niger-Congo",
+  "summary": "About 500 closely related languages spoken by some 350 million people across the southern half of Africa. From a homeland on the Nigeria–Cameroon border, farming communities spread south and east over three thousand years until Bantu languages reached the Cape. The family is named after its word for 'people' (*ba-ntu*), and it includes Swahili, Zulu, Xhosa, Shona, Kikongo, Lingala, Kinyarwanda and Luganda.",
+  "root_branch_id": "proto-bantu",
+  "buried_root": { "name": "Proto-Benue-Congo", "note": "buried root · Niger-Congo beyond it disputed", "proven": true },
+  "accent": { "light": "104 56 110", "dark": "196 150 204" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Narrow Bantu (narr1281).", "url": "https://glottolog.org/resource/languoid/id/narr1281" },
+    { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+  ]
+}
