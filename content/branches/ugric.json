@@ -1,0 +1,78 @@
+{
+  "id": "ugric",
+  "family": "uralic",
+  "name": "Ugric",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": ["hungarian", "ob-ugric"],
+  "era": "c. 2nd – 1st millennium BCE",
+  "region": "The forest-steppe on the eastern side of the southern Urals and in western Siberia",
+  "defining_innovation": "Proto-Uralic *k became a fricative before back vowels: *kala 'fish' is Hungarian hal and Mansi and Khanty xul, against Finnish kala.",
+  "descendants": ["Hungarian", "Khanty", "Mansi"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Ugric groups Hungarian with its closest relatives, Khanty and Mansi, which are spoken today along the Ob river in western Siberia, thousands of kilometres from Hungary. Their shared ancestor probably lived on the forest-steppe border east of the southern Urals, where forest hunting met the horse cultures of the steppe.\n\nThe clearest shared change is in the consonants: Proto-Uralic `*k` before a back vowel became a fricative, so `*kala` 'fish' is Hungarian *hal* and Mansi and Khanty *xul*. The three languages also share a word for 'horse' (Hungarian *ló*, Mansi *lū*, Khanty *law*) and other horse-riding vocabulary, which fits a people in contact with the steppe."
+    },
+    {
+      "title": "A Contested Node",
+      "body": "Ugric is one of the more widely accepted intermediate groupings in Uralic, but it is not beyond dispute. The shared innovations are fewer than for Finnic or Saami, and some might reflect contact on the forest-steppe rather than a single ancestor. Hungarian also spent over a thousand years apart, on the steppe and then in the Carpathian Basin, and changed so much that comparing it with Khanty and Mansi is hard."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ugric-k-x",
+      "branch_id": "ugric",
+      "date": "c. 2nd – 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "*k becomes a fricative",
+      "description": "Before back vowels, `*k` becomes `*x`: `*kala` 'fish' → Mansi and Khanty *xul*, Hungarian *hal* (where `x` later weakened to `h`). It is the best-known sound change shared by the Ugric languages.",
+      "contested": false,
+      "process": "consonant_shift",
+      "notation": "*k → *x / _ back vowel (*kala → hal, xul)",
+      "sort_year": -1000,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ugric-steppe",
+      "branch_id": "ugric",
+      "date": "c. 2nd – 1st millennium BCE",
+      "type": "CONTACT",
+      "title": "Horses and the steppe",
+      "description": "Shared words for the horse, saddle and riding point to Ugric speakers adopting horse culture from steppe neighbours, some of them Iranian-speaking. Which words are inherited and which were borrowed is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ugric-split",
+      "branch_id": "ugric",
+      "date": "c. 1000–500 BCE",
+      "type": "SPLIT",
+      "title": "Hungarian and Ob-Ugric part",
+      "description": "The ancestors of the Hungarians move south onto the steppe, and those of the Khanty and Mansi move north and east into the Ob basin. The date is estimated from loanwords and archaeology and is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-ugric",
+      "branch_id": "ugric",
+      "proposed_grouping": "Ugric: Hungarian, Khanty and Mansi share an ancestor that the other Uralic branches do not",
+      "status": "widely_accepted",
+      "evidence_for": "The three share the fricative development of `*k` before back vowels, a set of vocabulary including horse terms, and some grammatical features. Most handbooks treat Ugric as a genuine branch.",
+      "evidence_against": "The shared innovations are relatively few, and some could have spread by contact among neighbours on the forest-steppe. Even whether Khanty and Mansi form an 'Ob-Ugric' subgroup together is questioned. Critics such as Salminen treat Hungarian, Khanty and Mansi as potentially separate branches of Uralic.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Salminen, Tapani. 2002. Problems in the taxonomy of the Uralic languages in the light of modern comparative studies. In Lingvističeskij bespredel. Moscow: Moscow State University Press.", "url": null },
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
