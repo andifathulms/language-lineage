@@ -1,0 +1,73 @@
+{
+  "id": "kulin",
+  "family": "pama-nyungan",
+  "name": "Kulin",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Central and western Victoria, including the Melbourne area (Narrm)",
+  "defining_innovation": "The languages of the Kulin nations of Victoria, among them Woiwurrung (the language of Melbourne), Boonwurrung, Wathawurrung, Dja Dja Wurrung and Wemba Wemba, many of which have names ending in 'wurrung' ('mouth, speech').",
+  "descendants": ["Woiwurrung", "Boonwurrung", "Wathawurrung", "Dja Dja Wurrung", "Wemba Wemba"],
+  "chapters": [
+    {
+      "title": "The Kulin Nations",
+      "body": "The Kulin languages were spoken across central Victoria, around Port Phillip Bay, where Melbourne now stands, and along the Murray River. Many of their names contain *wurrung* 'mouth, speech': Woiwurrung, Boonwurrung, Wathawurrung. The peoples of the five Kulin nations shared ceremonies and marriage ties across the language boundaries."
+    },
+    {
+      "title": "Colonisation and Return",
+      "body": "Melbourne was founded in 1835 on Wurundjeri land, and within a few decades disease, violence and confinement on reserves such as Coranderrk had devastated the Kulin population. By the early 20th century few people spoke the languages fluently. Since the 1990s Kulin communities, supported by the Victorian Aboriginal Corporation for Languages, have been reviving them from 19th-century records and the memories of elders. Woiwurrung words are now heard in welcomes to country across Melbourne, where the city itself is often called *Narrm*."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kulin-split",
+      "branch_id": "kulin",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "The Kulin group forms",
+      "description": "The Kulin languages diverge across central Victoria. They belong to the southeastern Pama-Nyungan languages, but their closer relationships are uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Blake, Barry J. 1991. Woiwurrung, the Melbourne language. In Handbook of Australian Languages, vol. 4, ed. R. M. W. Dixon & Barry J. Blake. Melbourne: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-melbourne-1835",
+      "branch_id": "kulin",
+      "date": "1835 onward",
+      "type": "CONTACT",
+      "title": "Melbourne founded",
+      "description": "The settlement of Port Phillip and rapid pastoral expansion across Victoria bring dispossession, epidemics and the removal of Kulin people to reserves such as Coranderrk.",
+      "contested": false,
+      "sources": [
+        { "citation": "Blake, Barry J. 1991. Woiwurrung, the Melbourne language. In Handbook of Australian Languages, vol. 4, ed. R. M. W. Dixon & Barry J. Blake. Melbourne: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kulin-silence",
+      "branch_id": "kulin",
+      "date": "Late 19th – 20th century",
+      "type": "EXTINCTION",
+      "title": "Fluent speakers pass away",
+      "description": "The last fluent speakers of the Kulin languages die, leaving word lists, grammatical notes and remembered words and songs. The dates for individual languages are poorly recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Blake, Barry J. 1991. Woiwurrung, the Melbourne language. In Handbook of Australian Languages, vol. 4, ed. R. M. W. Dixon & Barry J. Blake. Melbourne: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-vacl",
+      "branch_id": "kulin",
+      "date": "1994 onward",
+      "type": "REVITALIZATION",
+      "title": "Reviving the Kulin languages",
+      "description": "The Victorian Aboriginal Corporation for Languages is founded to support revival, and Kulin communities rebuild their languages for ceremony, schools and public life.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
