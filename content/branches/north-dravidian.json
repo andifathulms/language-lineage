@@ -1,0 +1,76 @@
+{
+  "id": "north-dravidian",
+  "family": "dravidian",
+  "name": "North Dravidian",
+  "parent_ids": ["proto-dravidian"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Jharkhand, Chhattisgarh, Odisha and West Bengal in eastern India; Brahui in Balochistan (Pakistan and Afghanistan)",
+  "defining_innovation": "Proto-Dravidian *k became x before non-front vowels: *kaṇ 'eye' is Kurukh xann and Brahui xan, against Tamil kaṇ.",
+  "descendants": ["Kurukh", "Malto", "Brahui"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "North Dravidian includes Kurukh (Oraon) and Malto, spoken by Adivasi communities in the hills of eastern India, and **Brahui**, spoken by perhaps two million people in Balochistan, far to the west in Pakistan. All three changed `*k` to a fricative *x* before back vowels, so 'eye' is Kurukh *xann* and Brahui *xan*, against Tamil *kaṇ*. The same change happened, entirely independently, in the Ugric branch of Uralic.\n\nBrahui has been heavily influenced by Balochi and other Iranian languages. Only a small share of its vocabulary is Dravidian, although its grammar and many basic words clearly are."
+    },
+    {
+      "title": "The Brahui Question",
+      "body": "Why is a Dravidian language spoken in Balochistan? One view is that Brahui is a relic of a time when Dravidian languages were spoken across the northwest, perhaps even in the Indus Valley. The other, argued by Josef Elfenbein, is that the Brahui migrated there from central India, relatively recently, after 1000 CE. Their language lacks old Iranian loans that a long residence should have left, and it is close to Kurukh and Malto. The question matters because it is often cited in the Indus debate."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-nd-k-x",
+      "branch_id": "north-dravidian",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "*k becomes x",
+      "description": "Before non-front vowels, `*k` becomes `x`: `*kaṇ` 'eye' → Kurukh *xann*, Brahui *xan*. It is the main sound change uniting the North Dravidian languages, and it parallels Ugric `*kala` → *xul* on the Uralic tree.",
+      "contested": false,
+      "process": "consonant_shift",
+      "notation": "*k → x / _ non-front V (*kaṇ → Kurukh xann, Brahui xan)",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-brahui-west",
+      "branch_id": "north-dravidian",
+      "date": "Before c. 1000 CE, or much earlier",
+      "type": "SPLIT",
+      "title": "Brahui in Balochistan",
+      "description": "Brahui ends up in Balochistan, separated from Kurukh and Malto by 1,500 kilometres. Whether it is an ancient relic or a medieval migrant is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Elfenbein, Josef. 1987. A periplus of the 'Brahui problem'. Studia Iranica 16.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-brahui-balochi",
+      "branch_id": "north-dravidian",
+      "date": "2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Brahui among Balochi speakers",
+      "description": "Widespread bilingualism with Balochi, and contact with Persian, Pashto and Sindhi, replaces most Brahui vocabulary and much of its sound system, while the Dravidian grammatical core remains.",
+      "contested": false,
+      "sources": [
+        { "citation": "Elfenbein, Josef. 1987. A periplus of the 'Brahui problem'. Studia Iranica 16.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tolong-siki",
+      "branch_id": "north-dravidian",
+      "date": "1990s onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A script for Kurukh",
+      "description": "Kurukh activists introduce Tolong Siki, a new script designed for the language, as an alternative to Devanagari, and it is taught in some community schools in Jharkhand.",
+      "contested": false,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
