@@ -12,8 +12,21 @@
     {
       "title": "Origins",
       "body": "The Southern Uto-Aztecan languages run down the western side of Mexico, from the O'odham of southern Arizona through the Yaqui, Mayo and Rarámuri of Sonora and Chihuahua and the Cora and Huichol of Nayarit, to the Nahuatl of central Mexico and the Pipil of El Salvador. Most of their speakers were maize farmers. If Jane Hill's farming hypothesis is right, this is close to the family's original homeland, and the northern languages are the ones that moved."
+    },
+    {
+      "title": "Across Two Countries Today",
+      "body": "Southern Uto-Aztecan is by far the larger half of the family. In Mexico's 2020 census about 1.65 million people aged three and over said they spoke Nahuatl, which makes it the most widely spoken Indigenous language in the country. The other southern languages are much smaller: about 92,000 speakers of Rarámuri (Tarahumara), 44,000 of Southern Tepehuan, 39,000 of Mayo and 19,000 of Yaqui, with Northern Tepehuan, Guarijío and Pima Bajo in the thousands or fewer. Cora and Huichol, the Corachol languages of Nayarit and Jalisco, have about 33,000 and 60,000.\n\nThe 2003 General Law on the Linguistic Rights of Indigenous Peoples recognised all of these as national languages of Mexico, alongside Spanish, and set up the National Institute of Indigenous Languages (INALI), which catalogues them and their many local varieties. In practice schooling and public life remain largely in Spanish, and most speakers are bilingual.\n\nTwo southern languages cross into the United States. O'odham is the largest Uto-Aztecan language north of the border, with most of its speakers in Arizona and only a few hundred in Sonora. Yaqui is spoken in the Pascua Yaqui communities of Arizona as well as in the Yaqui towns of Sonora. Pipil in El Salvador is the family's southernmost outpost."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.9 million",
+    "vitality": "mixed",
+    "note": "Cora and Huichol (Corachol), not yet drawn here, add about 93,000 more.",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-south-ua-split",

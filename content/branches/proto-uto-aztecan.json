@@ -17,6 +17,15 @@
       "body": "Most classifications divide the family into a **Northern** group (Numic, Hopi, Takic and Tübatulabal, all in the United States) and a **Southern** group (Tepiman, Taracahitan, Corachol and Aztecan, mostly in Mexico). The Southern group is widely accepted. The Northern one is more contested, because its members may simply be neighbours that stayed behind. Tübatulabal and the Corachol languages (Cora, Huichol) are not yet drawn here."
     }
   ],
+  "speakers": {
+    "estimate": "c. 2 million",
+    "vitality": "mixed",
+    "note": "Nahuatl accounts for about 1.65 million of the total; every other Uto-Aztecan language has fewer than 100,000 speakers, and most are endangered.",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-pua-homeland",

@@ -22,6 +22,30 @@
       "body": "Nahuatl, in its many regional varieties, is spoken by around 1.7 million people, the largest indigenous language of Mexico, and since 2003 it has been one of Mexico's national languages. Pochutec, a divergent Aztecan language of Oaxaca, was recorded by Franz Boas in 1917 and has since died out. Pipil, in El Salvador, survived the 1932 massacre of Indigenous peasants but has only a few elderly speakers, and it is the focus of revival efforts."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.65 million",
+    "vitality": "mixed",
+    "note": "Nahuatl in Mexico (2020 census); Pipil in El Salvador has at most a few hundred, mostly elderly, speakers, and Pochutec is extinct.",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 1.65 million" },
+    { "iso": "SLV", "name": "El Salvador", "speakers": "A few hundred at most" }
+  ],
+  "sample": {
+    "language": "Classical Nahuatl",
+    "text": "in xōchitl in cuīcatl",
+    "gloss": "DET flower DET song",
+    "translation": "flower and song (a set phrase meaning 'poetry')",
+    "sources": [
+      { "citation": "León-Portilla, Miguel. 1963. Aztec Thought and Culture: A Study of the Ancient Nahuatl Mind. Norman: University of Oklahoma Press.", "url": null },
+      { "citation": "Karttunen, Frances. 1983. An Analytical Dictionary of Nahuatl. Austin: University of Texas Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-cacao-dispute",

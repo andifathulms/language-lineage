@@ -18,6 +18,19 @@
       "body": "The Jesuit Eusebio Kino founded missions among the O'odham from 1687. In 1853 the Gadsden Purchase drew the US–Mexico border through the middle of O'odham land, dividing communities that still cross it for family and ceremony. In the 1970s the linguist **Kenneth Hale** and the Tohono O'odham scholar Albert Alvarez developed a practical alphabet for O'odham. It has since been used in dictionaries and teaching, and it became a model for linguists working with communities, not just on them."
     }
   ],
+  "speakers": {
+    "estimate": "c. 70,000",
+    "vitality": "mixed",
+    "note": "About 55,000 in Mexico (mostly Southern Tepehuan) in the 2020 census, and perhaps 14,000 O'odham speakers in Arizona.",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 55,000" },
+    { "iso": "USA", "name": "United States", "speakers": "c. 14,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-tepiman-split",

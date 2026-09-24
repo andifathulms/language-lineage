@@ -18,6 +18,18 @@
       "body": "Spanish missions from 1769 onward, including San Gabriel among the Tongva and San Luis Rey among the Luiseño, gathered Takic speakers into mission communities where disease and forced labour devastated them. The American period brought land loss and boarding schools. Several Takic languages lost their last native speakers in the 20th century. Cupeño's last speaker, Roscinda Nolasquez, died in 1987 after working with the linguist Jane Hill. Tongva and Luiseño communities are now reclaiming their languages from historical records and recordings."
     }
   ],
+  "speakers": {
+    "estimate": "Very few, possibly none fully fluent",
+    "vitality": "critically_endangered",
+    "note": "Cahuilla has had a few elderly speakers into the 21st century; Luiseño and Serrano are being learned again as second languages.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "Very few" }
+  ],
   "turning_points": [
     {
       "id": "tp-takic-split",

@@ -18,6 +18,19 @@
       "body": "Jesuit missionaries arrived among the Yaqui in 1617 and reorganised them into eight mission towns, which remain the core of Yaqui identity. From the 18th to the early 20th centuries the Yaqui fought repeated wars for their land against the Spanish and then the Mexican state. Under Porfirio Díaz, thousands were deported to the henequen plantations of Yucatán, far to the south, and many fled north into Arizona, where the Pascua Yaqui community formed. Opata, once spoken widely in Sonora, died out in the 20th century."
     }
   ],
+  "speakers": {
+    "estimate": "c. 150,000",
+    "vitality": "mixed",
+    "note": "Rarámuri has about 92,000 speakers; Guarijío about 2,000; Opata is extinct.",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 150,000" },
+    { "iso": "USA", "name": "United States", "speakers": "A few hundred" }
+  ],
   "turning_points": [
     {
       "id": "tp-taracahitan-split",

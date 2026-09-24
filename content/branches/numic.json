@@ -22,6 +22,18 @@
       "body": "Reservation life and boarding schools in the late 19th and 20th centuries, where children were punished for speaking their languages, broke transmission in most Numic communities. The Native American Languages Act of 1990 reversed official US policy and declared support for Native languages. Numic communities now run classes, immersion camps and dictionary projects."
     }
   ],
+  "speakers": {
+    "estimate": "A few thousand at most",
+    "vitality": "mixed",
+    "note": "Counts vary with how fluency is judged; most first-language speakers of Shoshone, Paiute, Ute and Comanche are elderly, and Mono has only a handful.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "A few thousand at most" }
+  ],
   "turning_points": [
     {
       "id": "tp-numic-gradation",

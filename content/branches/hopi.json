@@ -18,6 +18,21 @@
       "body": "Hopi became famous in linguistics through Benjamin Lee Whorf, who argued in the 1930s and 1940s that it had “no words, grammatical forms, constructions or expressions that refer directly to what we call ‘time’”. He took this as evidence that language shapes thought. In 1983 Ekkehart Malotki published *Hopi Time*, a 600-page study documenting Hopi's rich vocabulary and grammar of time, tense and calendar. The claim is now regarded as a cautionary example of how a strong hypothesis outran the data."
     }
   ],
+  "speakers": {
+    "estimate": "c. 6,800",
+    "vitality": "definitely_endangered",
+    "note": "US census figure for people speaking Hopi at home in 2006–2010; fewer children now learn it as a first language.",
+    "sources": [
+      {
+        "citation": "Siebens, Julie & Tiffany Julian. 2011. Native North American Languages Spoken at Home in the United States and Puerto Rico: 2006–2010. American Community Survey Briefs ACSBR/10-10. Washington, DC: US Census Bureau.",
+        "url": null
+      },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "c. 6,800" }
+  ],
   "turning_points": [
     {
       "id": "tp-hopi-split",
