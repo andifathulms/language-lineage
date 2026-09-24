@@ -198,6 +198,7 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
               familySlug={family.slug}
               table={{
                 proto_label: family.cognates.proto_label,
+                proto_attested: family.cognates.proto_attested,
                 languages: family.cognates.languages,
                 rows: family.cognates.rows,
                 correspondences: family.cognates.correspondences,

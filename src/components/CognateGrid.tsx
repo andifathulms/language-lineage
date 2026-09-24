@@ -10,6 +10,7 @@ export function CognateGrid({ table, familySlug }: { table: Omit<CognateTable, "
   const [active, setActive] = useState<number | null>(table.correspondences.length ? 0 : null);
   const c = active === null ? null : table.correspondences[active];
   const lit = new Set(c?.rows ?? []);
+  const star = table.proto_attested ? "" : "*";
 
   return (
     <div>
@@ -69,7 +70,7 @@ export function CognateGrid({ table, familySlug }: { table: Omit<CognateTable, "
                   <th scope="row" className="sticky left-0 bg-paper px-4 py-2.5 font-serif text-[0.95rem] font-normal italic text-bark-soft">
                     ‘{r.gloss}’
                   </th>
-                  <td className="whitespace-nowrap px-4 py-2.5 font-ipa text-[1.05rem] text-accent">{r.proto ? `*${r.proto}` : "—"}</td>
+                  <td className="whitespace-nowrap px-4 py-2.5 font-ipa text-[1.05rem] text-accent">{r.proto ? `${star}${r.proto}` : "—"}</td>
                   {r.forms.map((f, j) => (
                     <td key={j} className="whitespace-nowrap px-4 py-2.5 font-ipa text-[1.05rem]">
                       {f ?? <span className="text-bark-soft/60">—</span>}

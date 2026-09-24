@@ -131,6 +131,7 @@ export interface Correspondence {
 export interface CognateTable {
   intro: string; // markdown paragraph
   proto_label: string; // column heading, e.g. "Proto-Austronesian"
+  proto_attested?: boolean; // the first column holds attested forms (e.g. Middle Korean): no asterisk
   languages: CognateLanguage[];
   rows: CognateRow[];
   correspondences: Correspondence[];
