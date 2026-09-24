@@ -82,5 +82,14 @@
       ]
     }
   ],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "Unknown (no census)",
+    "vitality": "mixed",
+    "note": "There is no census of Ryukyuan speakers; fluent speakers are mostly elderly, and the population of the region (about 1.5 million) is far larger than the number who speak the languages.",
+    "sources": [
+      { "citation": "Shimoji, Michinori & Thomas Pellard (eds.). 2010. An Introduction to Ryukyuan Languages. Tokyo: Research Institute for Languages and Cultures of Asia and Africa (ILCAA).", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  }
 }

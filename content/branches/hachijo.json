@@ -12,6 +12,10 @@
     {
       "title": "An Eastern Survivor",
       "body": "Hachijō is spoken by a few hundred mostly elderly people on Hachijō-jima and Aogashima. It keeps grammatical forms, such as certain verb and adjective endings, that match the Eastern Old Japanese of the *Man'yōshū*'s eastern poems. That makes it the only surviving descendant of eastern Old Japanese, and a separate language from standard Japanese. In the Edo period Hachijō-jima was a place of exile. Today the young speak standard Japanese, and in 2009 UNESCO listed Hachijō as definitely endangered."
+    },
+    {
+      "title": "Old Endings, New Islands",
+      "body": "What sets Hachijō apart from Japanese is visible in its grammar. Where Japanese adjectives end in *-i* before a noun (*takai* 'high'), Hachijō uses *-ke*, the same ending found in the eastern poems of the *Man'yōshū*, where the western court language had *-ki*. Verbs likewise take an attributive ending *-o* or *-ro*, matching Eastern Old Japanese, where the western standard and modern Japanese have *-u* or *-ru*. No other living variety keeps these eastern forms so consistently, and on the test of mutual intelligibility linguists such as David Iannucci treat Hachijō as a separate Japonic language.\n\nThe language is not uniform. The villages of Hachijō-jima have their own dialects, with Sueyoshi standing apart from the rest, and Aogashima, a small volcanic island to the south, is different again. A variety was also spoken on Hachijō-kojima until that island was abandoned in 1969.\n\nHachijō also travelled. Settlers from Hachijō-jima colonised the uninhabited Daitō Islands, far to the south-west in what is now Okinawa Prefecture, from 1900, and a form of Hachijō is still heard there alongside Okinawan and Japanese.\n\nSince at least 2009 the town of Hachijō has supported primary-school classes, *karuta* card games and theatre in the language, but it is not being passed on at home."
     }
   ],
   "turning_points": [
@@ -41,5 +45,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "A few hundred",
+    "vitality": "definitely_endangered",
+    "note": "Native speakers are estimated in the low hundreds and are mostly elderly; children do not learn the language at home.",
+    "sources": [
+      { "citation": "Iannucci, David J. 2019. The Hachijō Language of Japan: Phonology and Historical Development. PhD dissertation, University of Hawaiʻi at Mānoa.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "JPN", "name": "Japan", "speakers": "a few hundred" }
+  ]
 }

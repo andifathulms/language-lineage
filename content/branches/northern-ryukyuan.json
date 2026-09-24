@@ -60,5 +60,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "Unknown; fluent speakers are mostly elderly",
+    "vitality": "definitely_endangered",
+    "note": "UNESCO lists Amami, Kunigami and Okinawan as definitely endangered; many more people understand the languages than speak them fluently.",
+    "sources": [
+      { "citation": "Shimoji, Michinori & Thomas Pellard (eds.). 2010. An Introduction to Ryukyuan Languages. Tokyo: Research Institute for Languages and Cultures of Asia and Africa (ILCAA).", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "JPN", "name": "Japan" }
+  ]
 }

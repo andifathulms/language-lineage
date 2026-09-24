@@ -12,6 +12,10 @@
     {
       "title": "West and East",
       "body": "The earliest Japanese texts reflect the western dialect of the Nara court. The great 8th-century poetry anthology, the *Man'yōshū*, also preserves *Azuma-uta* ('eastern songs') and poems by eastern frontier guards (*sakimori*) in a noticeably different Eastern Old Japanese. Modern Japanese descends mainly from the western variety. Hachijō, spoken on islands south of Tokyo, keeps some features of the eastern one."
+    },
+    {
+      "title": "Dialects and Accents",
+      "body": "Modern Japanese is far from uniform. Its traditional dialects divide broadly into eastern and western groups, with Kyushu often treated as a third, and speakers from rural Aomori and Kagoshima would once have struggled to understand each other.\n\nThe east–west line, running roughly through the mountains of central Honshu, shows in everyday grammar. Eastern dialects, including Tokyo, form the negative with *-nai* and use the copula *da*: *ikanai* 'don't go', *sō da* 'that's right'. Western dialects use *-n* or *-hen* and *ja* or *ya*: Osaka *ikahen*, *sō ya*.\n\nAccent varies even more. Tokyo and Kyoto–Osaka both have pitch accent, but their systems differ, and a word that is high-pitched at the start in one is often low in the other. Parts of southern Tohoku, northern Kanto and central Kyushu have no distinctive accent at all, while Kagoshima dialects have just two accent patterns, determined by the whole phrase rather than the word.\n\nSince the Meiji era, schooling, radio and television have spread the Tokyo-based standard, and most Japanese people now speak it alongside a regional variety, or instead of one. Regional speech has not disappeared: Kansai speech in particular remains a confident and widely heard variety."
     }
   ],
   "turning_points": [
@@ -29,5 +33,14 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 123 million",
+    "vitality": "mixed",
+    "note": "Japanese is safe; Hachijō has only a few hundred speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Iannucci, David J. 2019. The Hachijō Language of Japan: Phonology and Historical Development. PhD dissertation, University of Hawaiʻi at Mānoa.", "url": null }
+    ]
+  }
 }

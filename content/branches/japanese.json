@@ -113,5 +113,26 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": ["hashimoto-shinkichi", "joao-rodrigues"]
+  "figure_ids": ["hashimoto-shinkichi", "joao-rodrigues"],
+  "speakers": {
+    "estimate": "c. 123 million",
+    "vitality": "safe",
+    "note": "Almost all live in Japan; there are also heritage-speaking communities in Brazil, the United States and elsewhere.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "JPN", "name": "Japan", "speakers": "c. 120 million" }
+  ],
+  "sample": {
+    "language": "Japanese",
+    "text": "古池や蛙飛び込む水の音",
+    "transliteration": "furuike ya kawazu tobikomu mizu no oto",
+    "gloss": "old.pond EXCL frog jump.in water GEN sound",
+    "translation": "The old pond: a frog jumps in, the sound of water.",
+    "sources": [
+      { "citation": "Matsuo Bashō, 1686. Discussed in Shirane, Haruo. 1998. Traces of Dreams: Landscape, Cultural Memory, and the Poetry of Bashō. Stanford: Stanford University Press.", "url": null }
+    ]
+  }
 }

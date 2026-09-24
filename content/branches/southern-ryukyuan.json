@@ -12,6 +12,10 @@
     {
       "title": "The Southern Islands",
       "body": "The Southern Ryukyuan languages are spoken in the Sakishima islands, closer to Taiwan than to Okinawa. They are sharply different from each other and from Okinawan. Miyako has syllables made of a fricative with no vowel, and Yonaguni turned initial *y* into *d*. Under the Ryukyu Kingdom, the islands paid a heavy head tax from 1637, abolished only in 1903, and their populations remained poor and isolated."
+    },
+    {
+      "title": "Words Without Vowels",
+      "body": "Southern Ryukyuan preserves one of the oldest features of Japonic and has created some of its strangest.\n\nThe old feature is *p*. Proto-Japonic `*p` became *h* in Japanese and in most of Okinawan, but Miyako and Yaeyama kept it: 'flower' is *pana* in Miyako, as it was in 8th-century Japanese. Yonaguni has *h* instead.\n\nThe new features come from what happened to the high vowels. In many Miyako varieties old *i* after certain consonants became a buzzing, fricative-like vowel, and in some it disappeared, leaving the consonant itself to carry the syllable. Thomas Pellard's description of Ōgami, a tiny island off Miyako, records words such as `pstu` 'person', `kss` 'breast' and `ff` 'comb', with no vowel at all. Such syllables are rare among the world's languages.\n\nYonaguni went the other way, reducing its vowels to three, *a*, *i* and *u*, and changing initial *y* to *d*. It also has a distinction between plain and glottalised consonants that Japanese lacks.\n\nThe grammars are more familiar: verb-final, with case particles and focus particles such as Irabu *du*. Grammars and grammar sketches of Irabu, Ōgami, Ikema and Hateruma, produced since 2008, have made Southern Ryukyuan far better known than it was a generation ago."
     }
   ],
   "turning_points": [
@@ -53,5 +57,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "Unknown; fluent speakers are mostly elderly",
+    "vitality": "mixed",
+    "note": "UNESCO lists Miyako as definitely endangered and Yonaguni, with a few hundred speakers, as severely endangered.",
+    "sources": [
+      { "citation": "Shimoji, Michinori & Thomas Pellard (eds.). 2010. An Introduction to Ryukyuan Languages. Tokyo: Research Institute for Languages and Cultures of Asia and Africa (ILCAA).", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "JPN", "name": "Japan" }
+  ]
 }

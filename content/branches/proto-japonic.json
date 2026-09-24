@@ -71,5 +71,14 @@
       ]
     }
   ],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 123 million",
+    "vitality": "mixed",
+    "note": "Almost all are speakers of Japanese; the Ryukyuan languages and Hachijō are endangered and their speakers uncounted.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  }
 }
