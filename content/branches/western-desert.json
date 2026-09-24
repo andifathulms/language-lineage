@@ -1,0 +1,73 @@
+{
+  "id": "western-desert",
+  "family": "pama-nyungan",
+  "name": "Western Desert",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The deserts of Western Australia, South Australia and the Northern Territory, about a sixth of the continent",
+  "defining_innovation": "A single dialect chain spread over some 600,000 square kilometres of desert: Pitjantjatjara, Yankunytjatjara, Ngaanyatjarra, Pintupi, Martu and others, mutually intelligible between neighbours.",
+  "descendants": ["Pitjantjatjara", "Yankunytjatjara", "Ngaanyatjarra", "Pintupi", "Martu Wangka"],
+  "chapters": [
+    {
+      "title": "One Language Across the Desert",
+      "body": "The Western Desert language covers more territory than any other Australian language, from the Nullarbor Plain to the Pilbara and the Northern Territory. Its dialects (Pitjantjatjara, Yankunytjatjara, Ngaanyatjarra, Pintupi, Martu Wangka and more) form a chain in which neighbours understand each other easily. Its uniformity over such a vast area suggests that it spread relatively recently, perhaps within the last 1,000–2,000 years, though that is debated.\n\nWestern Desert people were among the last Australians to come into contact with the colonial world. In 1984 a group of nine Pintupi people who had never met outsiders walked out of the Gibson Desert, the last such first contact on the continent."
+    },
+    {
+      "title": "A Language Still Growing",
+      "body": "Western Desert dialects are among the few Australian languages still learned by children. Pitjantjatjara was written in the 1940s at the Ernabella mission, where it was used in schooling. The 1981 *Anangu Pitjantjatjara Yankunytjatjara Land Rights Act* returned a large area of South Australia to its speakers. Today Pitjantjatjara is taught in schools and universities, used in media, and heard at Uluṟu, which lies in Pitjantjatjara and Yankunytjatjara country."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-western-desert-spread",
+      "branch_id": "western-desert",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Across the desert",
+      "description": "Western Desert speech spreads across the arid interior, and its low internal diversity suggests a relatively recent expansion. The date and its connection with changes in desert settlement are disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Evans, Nicholas & Patrick McConvell. 1998. The enigma of Pama-Nyungan expansion in Australia. In Archaeology and Language II, ed. Roger Blench & Matthew Spriggs. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ernabella",
+      "branch_id": "western-desert",
+      "date": "1940s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Pitjantjatjara in writing",
+      "description": "At the Ernabella mission, Pitjantjatjara is written in the Latin alphabet and used in teaching, the start of literacy in the language and, later, of bilingual education in the region.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-apy-land-rights",
+      "branch_id": "western-desert",
+      "date": "1981",
+      "type": "REVITALIZATION",
+      "title": "Land rights",
+      "description": "The Anangu Pitjantjatjara Yankunytjatjara Land Rights Act returns freehold title over a large area of northwest South Australia. Communities living on their own land keep the language strong.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pintupi-nine",
+      "branch_id": "western-desert",
+      "date": "1984",
+      "type": "CONTACT",
+      "title": "The last first contact",
+      "description": "Nine Pintupi people who had lived entirely in the traditional way in the Gibson Desert come into contact with outsiders, the last recorded first contact in Australia.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
