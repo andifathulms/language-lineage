@@ -1,0 +1,80 @@
+{
+  "id": "karluk",
+  "family": "turkic",
+  "name": "Karluk",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 10th century CE – present",
+  "region": "The oases of Central Asia and the Tarim Basin: Uzbekistan and Xinjiang",
+  "defining_innovation": "The southeastern branch, heir to the literary Turkic of the Karakhanid and Timurid courts. Its modern languages were reshaped by Persian contact: standard Uzbek rounded *a to o (ota 'father', bor 'there is').",
+  "descendants": ["Uzbek", "Uyghur"],
+  "chapters": [
+    {
+      "title": "The Karakhanid Beginnings",
+      "body": "The Karakhanids, the first Turkic dynasty to adopt Islam in the 10th century, ruled Kashgar and the cities of Transoxiana. Their court produced the first Islamic Turkic literature, the long didactic poem *Qutadγu Bilig* ('Wisdom that Brings Good Fortune', 1069). In the 1070s, in Baghdad, **Mahmud al-Kashgari** wrote the *Dīwān Lughāt al-Turk*. This Arabic-language dictionary of Turkic dialects notes their sound differences and includes a map of the Turkic world, and it is the first comparative work on Turkic."
+    },
+    {
+      "title": "Chagatai",
+      "body": "Under the Timurids (15th century), Chagatai Turkic became a great literary language of the Persianate world. Its greatest poet, **Ali-Shir Navoiy** (1441–1501), wrote in both Persian and Turkic, and in *Muḥākamat al-Lughatayn* ('Judgement between the Two Languages', 1499) argued that Turkic was fully the equal of Persian for poetry. Chagatai remained the written language of Central Asian Turks until the 20th century."
+    },
+    {
+      "title": "Uzbek and Uyghur",
+      "body": "In the Soviet period the Chagatai tradition was divided into national standards. Uzbek was based on the dialects of Tashkent and Fergana, which after centuries of bilingualism with Tajik Persian had lost vowel harmony and rounded `*a` to *o*: *ota* 'father', *bor* 'there is'. Uzbekistan adopted a Latin alphabet in 1993, though Cyrillic is still widely used. Uyghur, in Xinjiang, is written in a reformed Arabic script."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-karakhanid",
+      "branch_id": "karluk",
+      "date": "1069 – 1077",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Karakhanid Turkic in Arabic script",
+      "description": "The *Qutadγu Bilig* and al-Kashgari's *Dīwān Lughāt al-Turk* establish Turkic as a written language of Islamic scholarship and poetry, in Arabic script. The *Dīwān* also records and compares other Turkic dialects of the time.",
+      "contested": false,
+      "sources": [
+        { "citation": "Dankoff, Robert & James Kelly, trans. 1982–1985. Maḥmūd al-Kāšγarī: Compendium of the Turkic Dialects (Dīwān Luγāt at-Turk). Cambridge, MA: Harvard University.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chagatai",
+      "branch_id": "karluk",
+      "date": "15th century CE",
+      "type": "CONTACT",
+      "title": "Chagatai and Persian",
+      "description": "Timurid court literature sets Chagatai Turkic alongside Persian and borrows Persian genres, metres and vocabulary. Navoiy's defence of Turkic (1499) marks its arrival as a literary language of equal standing.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-uzbek-rounding",
+      "branch_id": "karluk",
+      "date": "Early modern period",
+      "type": "SOUND_LAW",
+      "title": "Uzbek *a → o",
+      "description": "In the urban dialects behind standard Uzbek, `*a` is rounded to *o* and vowel harmony breaks down: *ota* 'father' (Turkish *ata*), *bor* 'there is' (Turkish *var*). Tajik bilingualism is usually given as the cause. The timing is uncertain.",
+      "contested": true,
+      "process": "vowel_shift",
+      "notation": "*a → o (*ata → ota 'father', *bar → bor)",
+      "sort_year": 1700,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-uzbek-latin",
+      "branch_id": "karluk",
+      "date": "1993 onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Uzbek in Latin letters",
+      "description": "Independent Uzbekistan adopts a Latin alphabet to replace Cyrillic. The transition has been slow, and both scripts remain in everyday use.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["mahmud-al-kashgari", "ali-shir-navoiy"]
+}

@@ -138,5 +138,19 @@
     "lifespan": "1881–1938",
     "branch_ids": ["oghuz"],
     "turning_point_ids": ["tp-harf-devrimi"]
+  },
+  {
+    "id": "mahmud-al-kashgari",
+    "name": "Mahmud al-Kashgari",
+    "lifespan": "11th century",
+    "branch_ids": ["karluk"],
+    "turning_point_ids": ["tp-karakhanid"]
+  },
+  {
+    "id": "ali-shir-navoiy",
+    "name": "Ali-Shir Navoiy",
+    "lifespan": "1441–1501",
+    "branch_ids": ["karluk"],
+    "turning_point_ids": ["tp-chagatai"]
   }
 ]
