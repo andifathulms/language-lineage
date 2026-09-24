@@ -1,0 +1,13 @@
+{
+  "slug": "quechuan",
+  "name": "Quechuan",
+  "superfamily": null,
+  "summary": "The largest indigenous language family of the Americas, with perhaps eight to ten million speakers from southern Colombia through Ecuador, Peru and Bolivia to northwest Argentina. It grew up in central Peru, not Cusco: the Inca adopted an already widespread language as the speech of their empire, and Spanish missionaries later spread it further as a 'general language'. Its long contact with Aymara is so deep that whether the two share an ancestor is still argued over.",
+  "root_branch_id": "proto-quechua",
+  "buried_root": { "name": "No proven deeper root", "note": "Quechumaran? · disputed", "proven": false },
+  "accent": { "light": "98 82 118", "dark": "190 176 210" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Quechuan (quec1387).", "url": "https://glottolog.org/resource/languoid/id/quec1387" },
+    { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
