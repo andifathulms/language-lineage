@@ -12,8 +12,35 @@
     {
       "title": "Lingít",
       "body": "Tlingit (*Lingít*) is spoken along the islands and fjords of southeast Alaska. It has more than forty consonants, including a full series of ejectives and uvulars, and very few vowels. It developed tone independently of the Athabaskan languages.\n\nRussian traders and the Russian-American Company reached Tlingit country in the late 18th century, and fought with the Tlingit at Sitka in 1802 and 1804. After the United States bought Alaska in 1867, boarding schools and mission schools punished children for speaking the language. Today the fluent first-language speakers are mostly elderly, but there are active programmes, including language classes and immersion camps, a large body of recorded oral literature, and a practical alphabet developed in the 1960s."
+    },
+    {
+      "title": "Oral Literature",
+      "body": "Tlingit has one of the best-published oral literatures of any Native North American language. Stories, speeches and songs belong to particular clans as *at.óow*, 'owned things', together with crests, names and regalia, and are performed at memorial gatherings often called potlatches. Oratory at these events answers grief with a formal exchange of speeches that draw on clan histories and images of the land and sea.\n\nFrom the 1970s the Tlingit scholar Nora Marks Dauenhauer and her husband Richard Dauenhauer recorded elders, transcribed their words in the practical alphabet and published them with facing English translations and detailed notes. Their series *Classics of Tlingit Oral Literature* includes *Haa Shuká, Our Ancestors* (1987), a collection of narratives, *Haa Tuwunáagu Yís, for Healing Our Spirit* (1990), a collection of oratory, and *Haa Kusteeyí, Our Culture* (1994), life histories of elders. The books were designed for use by the community as much as by outside readers, and they are now standard materials in Tlingit language teaching.\n\nEarlier collections exist too, notably the texts gathered by John R. Swanton in 1904, published in 1909. The modern editions differ in giving the Tlingit text in full, so that the language of the performance, not only its content, is preserved."
     }
   ],
+  "speakers": {
+    "estimate": "Fewer than 200",
+    "vitality": "severely_endangered",
+    "note": "Counts vary with the level of fluency required: estimates of fluent first-language speakers in Alaska range from a few dozen to about a hundred, nearly all elderly, with a smaller number in Canada and a growing group of second-language learners.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Krauss, Michael E. 2007. Native languages of Alaska. In Osahito Miyaoka, Osamu Sakiyama & Michael E. Krauss, eds., The Vanishing Languages of the Pacific Rim, 406–417. Oxford: Oxford University Press.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "fewer than 100" },
+    { "iso": "CAN", "name": "Canada", "speakers": "a few dozen" }
+  ],
+  "sample": {
+    "language": "Tlingit",
+    "text": "Wáa sá iyatee?",
+    "gloss": "how Q 2SG.be",
+    "translation": "How are you?",
+    "sources": [
+      { "citation": "Yakutat Tlingit Master-Apprentice Program. General Phrases 2. Sealaska Heritage Institute / Lingít Yoo X̲ʼatángi.", "url": "https://tlingitlanguage.com/wp-content/uploads/2015/01/MAP-Phrases-2.pdf" }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-sitka-battles",

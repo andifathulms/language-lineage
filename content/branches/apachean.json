@@ -12,8 +12,34 @@
     {
       "title": "Into the Southwest",
       "body": "The Apachean languages are so close to one another, and so clearly Athabaskan, that their speakers must have reached the Southwest fairly recently, probably around 1300 to 1500 CE. They came either along the eastern edge of the Rockies or through the Great Basin, and the route is still debated. **Harry Hoijer** classified them in 1938 into a western group (Navajo, Western Apache, Chiricahua, Mescalero) and an eastern group (Jicarilla, Lipan, Plains Apache). Plains Apache is now often treated as a separate branch.\n\nNavajo has about 170,000 speakers, more than any other Native language in the United States. During the Second World War, Navajo Code Talkers in the US Marine Corps used it as the basis of a battlefield code that was never broken."
+    },
+    {
+      "title": "Navajo Today",
+      "body": "Navajo is the only Na-Dene language with a large community of speakers, but it is shrinking. In the mid-20th century most Navajo children arrived at school speaking Navajo; today most grow up speaking English first, and the average age of speakers is rising. The Navajo Nation has responded with its own language policy. Its schools include immersion programmes such as Tséhootsooí Diné Bi'ólta' at Fort Defiance, and Diné College, founded in 1968 as the first tribally controlled college in the United States, teaches the language.\n\nThe written standard goes back to the alphabet developed in the 1930s and 1940s and used by Robert Young and William Morgan in their dictionaries. It marks high tone with an acute accent, nasal vowels with a hook, long vowels by doubling, and the glottal stop with an apostrophe, as in *hózhǫ́*, 'beauty, harmony', a central idea in Navajo thought.\n\nThe Apache languages are in a weaker position. Western Apache is still spoken on the San Carlos and Fort Apache reservations in Arizona, and Mescalero-Chiricahua and Jicarilla in New Mexico, but mostly by older people. Each nation runs its own teaching programmes, often built on the dictionaries and text collections produced with linguists over the last century."
     }
   ],
+  "speakers": {
+    "estimate": "c. 170,000",
+    "vitality": "mixed",
+    "note": "Nearly all are Navajo speakers, about 160,000 of whom speak it at home; the Apache languages together have a few thousand speakers, most of them Western Apache, and Lipan and Plains Apache are no longer spoken as first languages.",
+    "sources": [
+      { "citation": "US Census Bureau. 2025. Native North American language use: 2017–2021 American Community Survey.", "url": "https://www.census.gov/library/stories/2025/06/native-american-language-use.html" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "c. 170,000" }
+  ],
+  "sample": {
+    "language": "Navajo (Blessingway prayer)",
+    "text": "Hózhóogo naasháa doo",
+    "gloss": "in.beauty 1SG.walk.about FUT",
+    "translation": "In beauty I shall walk",
+    "sources": [
+      { "citation": "Young, Robert W. & William Morgan, Sr. 1987. The Navajo Language: A Grammar and Colloquial Dictionary, rev. ed. Albuquerque: University of New Mexico Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-apachean-arrival",

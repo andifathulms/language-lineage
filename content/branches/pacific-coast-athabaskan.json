@@ -12,7 +12,24 @@
     {
       "title": "The Coast Group",
       "body": "Athabaskan speakers reached the coast of Oregon and northern California about a thousand years ago and adopted the salmon-and-acorn way of life of their neighbours, the Yurok and Karuk. Hupa, in the Hoopa Valley, is one of the best documented Native languages of California, recorded by Pliny Earle Goddard in the early 1900s and later by Edward Sapir. Violence and dispossession after the Gold Rush of 1849 destroyed many of these communities, and most of the languages ceased to be spoken during the 20th century. Hupa and Tolowa are now taught in revival programmes."
+    },
+    {
+      "title": "Records and Revival",
+      "body": "The Pacific Coast languages are among the best recorded in California, which is the main reason their revival is possible. Pliny Earle Goddard published *Hupa Texts* in 1904 and a grammar, *The Morphology of the Hupa Language*, in 1905. Sapir worked with Hupa speakers in 1927, and his notes were edited long afterwards by Victor Golla, whose own work from the 1960s onward includes a grammar and the *Hupa Language Dictionary*. Much of this material is now searchable online with recordings of speakers.\n\nHupa and its neighbours belong to the northwest California culture area, where the Athabaskan-speaking Hupa, the Algic-speaking Yurok and the Karuk, whose language has no proven relatives, shared ceremonies such as the White Deerskin Dance and a common way of life, while keeping three unrelated languages. Hupa vocabulary reflects that setting, with detailed terms for salmon fishing, acorn preparation and regalia.\n\nToday the Hoopa Valley Tribe and the Tolowa Dee-ni' Nation run language programmes. Tolowa was carried into the present by teachers such as Loren Bommelyn, who learned it from elders and has taught it in schools; Hupa is taught in classes and in an immersion nest for young children."
     }
+  ],
+  "speakers": {
+    "estimate": "No first-language speakers",
+    "vitality": "critically_endangered",
+    "note": "Verdena Parker, widely described as the last fluent first-language speaker of Hupa, died in 2026; Hupa and Tolowa are spoken by second-language learners in revival programmes.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Hoopa Valley Tribe. 2026. Family statement announcing the passing of Verdena Leona Chase Parker.", "url": "https://www.hoopa-nsn.gov/family-statement-announcing-the-passing-of-verdena-leona-chase-parker/" }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States" }
   ],
   "turning_points": [
     {

@@ -18,6 +18,17 @@
       "body": "Proto-Athabaskan had no tone. Instead, some word stems ended in a glottal 'constriction'. In many daughter languages this constriction became a tone, but not the same one everywhere: in some, such as Navajo and Dene Sųłiné, constricted syllables became high, while in others, such as Gwich'in, the same syllables became low. Krauss called the pattern 'tone reversal'. Some languages, such as Koyukon, never developed tone."
     }
   ],
+  "speakers": {
+    "estimate": "c. 180,000",
+    "vitality": "mixed",
+    "note": "Almost all are Navajo speakers; US census figures count people who speak a language at home, which is not quite the same as first-language speakers.",
+    "sources": [
+      { "citation": "US Census Bureau. 2025. Native North American language use: 2017–2021 American Community Survey.", "url": "https://www.census.gov/library/stories/2025/06/native-american-language-use.html" },
+      { "citation": "Statistics Canada. 2025. Indigenous language families in Canada: Reports from the 2021 Census of Population.", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-athabaskan-tonogenesis",

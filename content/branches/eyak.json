@@ -12,7 +12,23 @@
     {
       "title": "The Last Speaker",
       "body": "Eyak was spoken in a few villages near the mouth of the Copper River, between Tlingit to the east and the Alutiiq (Sugpiaq) to the west, and was already declining when it was first recorded. **Michael Krauss** worked with its last speakers from the 1960s and produced a dictionary and a large body of texts. The last, Marie Smith Jones, died in 2008, and her death drew worldwide attention to language loss.\n\nThanks to Krauss's documentation Eyak can still be learned, and since the 2010s a small group of learners, including a Frenchman who taught himself from the materials, has worked to bring it back into use."
+    },
+    {
+      "title": "A Language on Paper",
+      "body": "Everything now known of Eyak comes from a small number of speakers recorded over about forty years. De Laguna and the Danish ethnologist Kaj Birket-Smith described the Eyak people and their culture in *The Eyak Indians of the Copper River Delta, Alaska* (1938). Krauss's later work was far more detailed: a large dictionary file, grammatical analyses and a body of texts.\n\nThe most substantial texts are the stories of Anna Nelson Harry, told in Eyak and published by Krauss with translations in *In Honor of Eyak: The Art of Anna Nelson Harry* (1982). They include traditional narratives and her own reflections on the end of the Eyak world, and they are the main record of Eyak as a literary language.\n\nStructurally Eyak is recognisably close to Athabaskan in its verb, with prefixes in fixed slots and the same 'classifier' prefixes, but its sounds differ: it has no tone, and much of its basic vocabulary differs from Athabaskan, so that cognates have to be found through regular correspondences rather than by eye. By the time it was studied most Eyak families also spoke Tlingit or English, and the Eyak shared many Tlingit social and ceremonial customs, a sign of the long pressure from their larger neighbours that preceded the language's end."
     }
+  ],
+  "speakers": {
+    "estimate": "None since 2008",
+    "vitality": "extinct",
+    "note": "A small number of people have learned Eyak as a second language from Krauss's documentation.",
+    "sources": [
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States" }
   ],
   "turning_points": [
     {

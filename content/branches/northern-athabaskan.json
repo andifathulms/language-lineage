@@ -12,7 +12,26 @@
     {
       "title": "A Continuum",
       "body": "The Northern Athabaskan languages stretch from Cook Inlet in Alaska to Hudson Bay, spoken by hunting and fishing peoples who call themselves *Dene*, *Dine* or similar names meaning 'people'. Each language grades into its neighbours, and the borders between them are often better described by features than by clear lines, so the group is geographical rather than a proven genetic subgroup.\n\nIn the 19th century missionaries adapted the Cree syllabics of James Evans to Dene Sųłiné, Slavey and other languages, and some communities still use them. The Northwest Territories now gives official status to several Dene languages, alongside English, French and Inuit languages."
+    },
+    {
+      "title": "One Sound, Many Outcomes",
+      "body": "The Northern languages are close enough to be compared word by word, and differ enough in their sounds to make a classic study in sound change. The best-known case is the fate of the Proto-Athabaskan affricate `*ts` and its series. It remains *ts* in many languages, but becomes *tth* (a sound like *t* followed by the *th* of English *thin*) in Dene Sųłiné and *kw* in Tłı̨chǫ. In the Slavey dialects the same consonant appears as *kw* in Bearlake, *f* in Hare and *p* in Mountain Slavey. The word for 'stone' is *tthe* in Dene Sųłiné and *kwe* in Tłı̨chǫ, and it is the same word as Navajo *tsé*.\n\nOther changes cut across the region in different directions. Tłı̨chǫ turned many *n* sounds into *d*, so that 'eye' is *-daà* where Hupa and Navajo have *-na:'* and *-náá'*. The glottal constriction of Proto-Athabaskan became high tone in some languages, low tone in others and nothing at all in Koyukon and several other Alaskan languages.\n\nBecause each change has its own boundaries, a map of any one of them cuts the Northern area differently, and none marks off a clean subgroup. This is the main reason why linguists treat Northern Athabaskan as a continuum rather than a branch with a single origin."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 13,000",
+    "vitality": "mixed",
+    "note": "About 12,900 people in Canada reported an Athabaskan mother tongue in 2021, most of them speakers of Dene Sųłiné, Slavey or Tłı̨chǫ; the Alaskan languages have a few hundred speakers between them, and several have none or only a handful.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous language families in Canada: Reports from the 2021 Census of Population.", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.htm" },
+      { "citation": "Krauss, Michael E. 2007. Native languages of Alaska. In Osahito Miyaoka, Osamu Sakiyama & Michael E. Krauss, eds., The Vanishing Languages of the Pacific Rim, 406–417. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 13,000" },
+    { "iso": "USA", "name": "United States", "speakers": "a few hundred" }
   ],
   "turning_points": [
     {

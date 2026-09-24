@@ -17,6 +17,17 @@
       "body": "In 2008 Edward Vajda proposed that Na-Dene is related to the Yeniseian languages of central Siberia, of which only Ket survives. He pointed to parallels in the verb prefixes and a set of lexical correspondences. If correct, 'Dene-Yeniseian' would be the first demonstrated link between languages of the Old and New Worlds. The proposal was well received by some typologists and historical linguists, but others judge the evidence insufficient, and it remains a minority position."
     }
   ],
+  "speakers": {
+    "estimate": "c. 180,000",
+    "vitality": "mixed",
+    "note": "Almost all are Navajo speakers; US census figures count people who speak a language at home, which is not quite the same as first-language speakers.",
+    "sources": [
+      { "citation": "US Census Bureau. 2025. Native North American language use: 2017–2021 American Community Survey.", "url": "https://www.census.gov/library/stories/2025/06/native-american-language-use.html" },
+      { "citation": "Statistics Canada. 2025. Indigenous language families in Canada: Reports from the 2021 Census of Population.", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-tlingit-split",

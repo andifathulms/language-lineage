@@ -11,8 +11,22 @@
     {
       "title": "Eyak's Relatives",
       "body": "Until the 1930s Eyak was hardly known. The anthropologist Frederica de Laguna recorded it, and in the 1960s **Michael Krauss** showed that it is the sister of the whole Athabaskan branch. It shares with Athabaskan the verb structure and the regular correspondences that allow Proto-Athabaskan-Eyak to be reconstructed, but it stands apart from all the Athabaskan languages in its vocabulary and sounds."
+    },
+    {
+      "title": "Rebuilding the Common Ancestor",
+      "body": "Krauss set out the case in two papers, 'Proto-Athapaskan-Eyak and the Problem of Na-Dene', published in the *International Journal of American Linguistics* in 1964 and 1965. His method was the standard comparative one, but applied to a verb built almost entirely of prefixes. He matched Eyak's prefixes with Athabaskan ones slot by slot, including the 'classifier' prefixes that change a verb's voice, and then showed that the consonants of the stems corresponded regularly, series by series, including Athabaskan's several sets of affricates.\n\nThe result was important in two ways. It gave Proto-Athabaskan a sister, so that features found in both Eyak and Athabaskan could be pushed back one stage further, to Proto-Athabaskan-Eyak. And it gave a firmer base for comparison with Tlingit, which is much further away: Leer's later correspondences between Tlingit and the rest were worked out against the reconstructed Athabaskan-Eyak forms rather than against any single modern language.\n\nEyak on its own is only a partial witness, because it was documented late and from few speakers. Much of what can be said about Proto-Athabaskan-Eyak therefore rests on the careful records Krauss made in the 1960s and 1970s."
     }
   ],
+  "speakers": {
+    "estimate": "c. 180,000",
+    "vitality": "mixed",
+    "note": "Almost all are Navajo speakers; US census figures count people who speak a language at home, which is not quite the same as first-language speakers.",
+    "sources": [
+      { "citation": "US Census Bureau. 2025. Native North American language use: 2017–2021 American Community Survey.", "url": "https://www.census.gov/library/stories/2025/06/native-american-language-use.html" },
+      { "citation": "Statistics Canada. 2025. Indigenous language families in Canada: Reports from the 2021 Census of Population.", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250331/dq250331a-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-eyak-athabaskan-split",
