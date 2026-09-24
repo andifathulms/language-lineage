@@ -1,0 +1,13 @@
+{
+  "slug": "dravidian",
+  "name": "Dravidian",
+  "superfamily": null,
+  "summary": "About eighty languages spoken by some 250 million people, mostly in southern India. They include Tamil, Telugu, Kannada and Malayalam, each with more than a thousand years of literature, and small languages scattered across central and eastern India. One outlier, Brahui, is spoken 1,500 kilometres away in Pakistan. Dravidian is older in India than the Indo-Aryan languages that now surround it, and it left its mark on them.",
+  "root_branch_id": "proto-dravidian",
+  "buried_root": { "name": "No proven deeper root", "note": "Elamo-Dravidian? Nostratic? · disputed", "proven": false },
+  "accent": { "light": "40 112 56", "dark": "128 204 140" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Dravidian (drav1251).", "url": "https://glottolog.org/resource/languoid/id/drav1251" },
+    { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
