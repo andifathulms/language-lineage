@@ -22,6 +22,28 @@
       "body": "Norway was ruled from Denmark from the late 14th century until 1814, and Danish became the written language there. After independence from Denmark, two answers emerged to the question of what written Norwegian should be. One gradually made written Danish more Norwegian, and became today's **Bokmål**. The other, developed by the self-taught linguist **Ivar Aasen** in the 1850s, built a new written norm from rural dialects that had changed least from Old Norse. This became **Nynorsk**. Both are official today, and the spoken dialects remain unusually strong."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5.5 million",
+    "vitality": "mixed",
+    "note": "Norwegian, Icelandic (c. 350,000) and Faroese are all safe; Norn and Greenlandic Norse are extinct.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "NOR", "name": "Norway", "speakers": "c. 5 million" },
+    { "iso": "ISL", "name": "Iceland", "speakers": "c. 350,000" },
+    { "iso": "FRO", "name": "Faroe Islands", "speakers": "c. 50,000" }
+  ],
+  "sample": {
+    "language": "Old Norse (Hávamál, stanza 77)",
+    "text": "Deyr fé, deyja frændr, deyr sjalfr it sama",
+    "gloss": "dies cattle die kinsmen dies self the same",
+    "translation": "Cattle die, kinsmen die, the self dies too",
+    "sources": [
+      { "citation": "Neckel, Gustav & Hans Kuhn (eds.). 1983. Edda: Die Lieder des Codex Regius nebst verwandten Denkmälern. 5th ed. Heidelberg: Carl Winter.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-iceland-settlement",

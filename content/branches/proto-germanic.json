@@ -25,6 +25,15 @@
       "body": "The traditional division has three branches: **East Germanic** (Gothic and its relatives), **North Germanic** (the Scandinavian languages) and **West Germanic** (English, Frisian, Dutch, German). The exact shape of the split is still debated. Many linguists think North and West Germanic went through a shared Northwest Germanic stage after the East Germanic speakers had moved away. A minority pairs Gothic with North Germanic instead. Both proposals appear under Contested Classifications below.\n\nIn the Germanic of the earliest runic inscriptions, from about the 2nd century CE, some of these splits are only just becoming visible."
     }
   ],
+  "speakers": {
+    "estimate": "c. 540 million",
+    "vitality": "mixed",
+    "note": "First-language speakers of all living Germanic languages; English alone adds hundreds of millions of second-language speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-grimms-law",

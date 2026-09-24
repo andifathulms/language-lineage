@@ -26,6 +26,15 @@
       "body": "West Germanic is conventionally divided into three groups:\n\n- **Anglo-Frisian**: English and Frisian\n- **Low German** (Low Saxon) and **Low Franconian** (Dutch, Afrikaans), which did not take part in the second shift\n- **High German**: Standard German, Swiss German, Bavarian, Luxembourgish, and Yiddish, which formed through the contact of medieval German with Hebrew, Aramaic and Slavic\n\nThe exact internal groupings, especially the position of Old Saxon, which shares several 'North Sea' features with English and Frisian, are themselves disputed."
     }
   ],
+  "speakers": {
+    "estimate": "c. 520 million",
+    "vitality": "mixed",
+    "note": "English makes up about three-quarters of the total; smaller members such as North Frisian and Saterland Frisian are endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-west-split",

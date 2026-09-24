@@ -22,6 +22,32 @@
       "body": "Dutch trading empires carried the language to the Cape, the Caribbean, North America and the Indonesian archipelago. In Indonesia Dutch never became a mass language, but it left hundreds of everyday words in Indonesian: *kantor* 'office' (*kantoor*), *handuk* 'towel' (*handdoek*), *kulkas* 'refrigerator' (*koelkast*), *wortel* 'carrot'.\n\nAt the Cape, the Dutch of settlers from 1652 developed among a multilingual population of Khoekhoe, enslaved people from Asia and Africa, and European immigrants. The result was **Afrikaans**, which replaced Dutch as an official language of South Africa in 1925. How it formed, as ordinary Dutch change or through creolisation, is one of the classic debates in contact linguistics."
     }
   ],
+  "speakers": {
+    "estimate": "c. 30 million",
+    "vitality": "mixed",
+    "note": "Dutch (c. 24 million) and Afrikaans (c. 7 million) are safe; UNESCO's Atlas lists Limburgish as endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Statistics South Africa. 2023. Census 2022: Statistical Release P0301.4.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "NLD", "name": "Netherlands", "speakers": "c. 16 million" },
+    { "iso": "BEL", "name": "Belgium", "speakers": "c. 6.5 million" },
+    { "iso": "ZAF", "name": "South Africa", "speakers": "c. 6.5 million" },
+    { "iso": "SUR", "name": "Suriname" },
+    { "iso": "NAM", "name": "Namibia", "speakers": "c. 200,000" }
+  ],
+  "sample": {
+    "language": "Old Dutch (11th-century pen trial)",
+    "text": "Hebban olla vogala nestas hagunnan",
+    "gloss": "have all birds nests begun",
+    "translation": "All birds have begun their nests",
+    "sources": [
+      { "citation": "Willemyns, Roland. 2013. Dutch: Biography of a Language. Oxford: Oxford University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-low-franconian-split",

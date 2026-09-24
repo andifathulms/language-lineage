@@ -26,6 +26,34 @@
       "body": "In the north, the Northumbrian dialect of Old English developed into **Scots**. By the 14th and 15th centuries it was the language of the Scottish court and of poetry such as Barbour's *Bruce* (1375). After the union of the crowns in 1603 English became the prestige written language in Scotland, and Scots has since existed in a long, blurred continuum with Scottish English.\n\nFrom the 17th century, trade, settlement and empire took English across the world. It is now the most widely used second language on earth, with many national standards. It has also supplied the vocabulary for many creoles, such as Jamaican Creole and Tok Pisin."
     }
   ],
+  "speakers": {
+    "estimate": "c. 390 million",
+    "vitality": "mixed",
+    "note": "English is safe; UNESCO's Atlas lists Scots as vulnerable. About 1.5 million people in Scotland reported speaking Scots in the 2022 census.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "National Records of Scotland. 2024. Scotland's Census 2022: Language.", "url": "https://www.scotlandscensus.gov.uk/" }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "c. 240 million" },
+    { "iso": "GBR", "name": "United Kingdom", "speakers": "c. 60 million" },
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 20 million" },
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 18 million" },
+    { "iso": "ZAF", "name": "South Africa", "speakers": "c. 5 million" },
+    { "iso": "IRL", "name": "Ireland", "speakers": "c. 4 million" },
+    { "iso": "NZL", "name": "New Zealand", "speakers": "c. 4 million" }
+  ],
+  "sample": {
+    "language": "Old English (Beowulf, lines 1–2)",
+    "text": "Hwæt! We Gardena in geardagum, þeodcyninga þrym gefrunon",
+    "gloss": "listen we Spear-Danes.GEN in year-days people-kings.GEN glory heard.1PL",
+    "translation": "Listen! We have heard of the glory of the Spear-Danes' kings in days of old",
+    "sources": [
+      { "citation": "Fulk, R. D., Robert E. Bjork & John D. Niles (eds.). 2008. Klaeber's Beowulf. 4th ed. Toronto: University of Toronto Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-norse-contact-english",

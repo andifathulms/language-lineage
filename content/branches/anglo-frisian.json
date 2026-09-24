@@ -26,6 +26,15 @@
       "body": "Once the sea divided them, the two halves went separate ways. **Anglic** (Old English, and from it English and Scots) was reshaped by Norse and French contact and spread worldwide. **Frisian** stayed on the continental coast, lost ground over the centuries to Dutch and Low German, and survives as three small languages."
     }
   ],
+  "speakers": {
+    "estimate": "c. 390 million",
+    "vitality": "mixed",
+    "note": "Almost all English; the Frisian languages together have well under half a million speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-af-split",

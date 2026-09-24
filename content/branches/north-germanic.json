@@ -26,6 +26,15 @@
       "body": "By around 1000–1200 CE Old Norse had split into a **West Norse** group (Norwegian, Icelandic, Faroese and the extinct Norn of Orkney and Shetland) and an **East Norse** group (Danish, Swedish). Later history has blurred the genetic split. Centuries of Danish rule shaped written Norwegian, and today Danish, Norwegian and Swedish are largely mutually intelligible (more easily in writing than in speech). Icelandic and Faroese, which developed in relative isolation, are much harder for mainland speakers to understand."
     }
   ],
+  "speakers": {
+    "estimate": "c. 20 million",
+    "vitality": "mixed",
+    "note": "Swedish, Danish and Norwegian account for almost all speakers; Norn is extinct and Gutnish is endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-north-split",

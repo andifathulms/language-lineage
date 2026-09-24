@@ -22,6 +22,33 @@
       "body": "Yiddish is the language of Ashkenazi Jews. It formed when medieval Jewish communities spoke the German of their Christian neighbours, wrote it in Hebrew script, and mixed in a large Hebrew–Aramaic vocabulary. After the eastward migrations of the late Middle Ages it gained a Slavic layer as well. Where it began is still argued. **Max Weinreich** placed its origins in the Rhineland communities of about the 10th century, while others point to Bavarian and East Central German features that suggest a more south-eastern base.\n\nBefore the Second World War Yiddish had perhaps eleven to thirteen million speakers. The Holocaust destroyed most of its heartland. Today it is spoken mainly in Hasidic communities, where it is growing, and studied and revived as a literary language elsewhere."
     }
   ],
+  "speakers": {
+    "estimate": "c. 90–100 million",
+    "vitality": "mixed",
+    "note": "Totals depend on whether dialects such as Bavarian and Swiss German are counted apart from Standard German; UNESCO's Atlas lists Yiddish as definitely endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "DEU", "name": "Germany", "speakers": "c. 70 million" },
+    { "iso": "AUT", "name": "Austria", "speakers": "c. 8 million" },
+    { "iso": "CHE", "name": "Switzerland", "speakers": "c. 5 million" },
+    { "iso": "FRA", "name": "France" },
+    { "iso": "LUX", "name": "Luxembourg", "speakers": "c. 300,000" },
+    { "iso": "ITA", "name": "Italy", "speakers": "c. 300,000" },
+    { "iso": "LIE", "name": "Liechtenstein", "speakers": "c. 35,000" }
+  ],
+  "sample": {
+    "language": "German (Goethe, 'Wandrers Nachtlied II', 1780)",
+    "text": "Über allen Gipfeln ist Ruh",
+    "gloss": "over all.DAT.PL peaks.DAT is rest",
+    "translation": "Over all the hilltops is peace",
+    "sources": [
+      { "citation": "Goethe, Johann Wolfgang von. 1981. Goethes Werke (Hamburger Ausgabe), vol. 1: Gedichte und Epen I. Ed. Erich Trunz. Munich: C. H. Beck.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-high-german-shift",

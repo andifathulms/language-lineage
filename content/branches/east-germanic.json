@@ -27,6 +27,34 @@
       "body": "One East Germanic variety outlived the others by a thousand years. In the 1560s the Flemish diplomat **Ogier Ghiselin de Busbecq**, then Habsburg ambassador at Constantinople, wrote down about eighty words and a short song from two men connected with Crimea. The word list is clearly Germanic, and some forms point to East Germanic, though not all scholars agree that it descends directly from Wulfila's Gothic. Busbecq's list is garbled in places and survives only in a print with evident errors. How long Crimean Gothic survived after that is unknown. Estimates run to the late 18th century."
     }
   ],
+  "speakers": {
+    "estimate": "None; Crimean Gothic, the last, was probably gone by the late 18th century",
+    "vitality": "extinct",
+    "sources": [
+      { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "POL", "name": "Poland" },
+    { "iso": "UKR", "name": "Ukraine" },
+    { "iso": "ROU", "name": "Romania" },
+    { "iso": "BGR", "name": "Bulgaria" },
+    { "iso": "ITA", "name": "Italy" },
+    { "iso": "FRA", "name": "France" },
+    { "iso": "ESP", "name": "Spain" },
+    { "iso": "PRT", "name": "Portugal" },
+    { "iso": "TUN", "name": "Tunisia" }
+  ],
+  "sample": {
+    "language": "Gothic",
+    "text": "Atta unsar þu in himinam",
+    "gloss": "father our thou in heaven.DAT.PL",
+    "translation": "Our Father, who art in heaven (Matthew 6:9, Wulfila's Bible, in Latin transcription)",
+    "sources": [
+      { "citation": "Streitberg, Wilhelm (ed.). 1919. Die gotische Bibel. Heidelberg: Carl Winter.", "url": null },
+      { "citation": "Wright, Joseph. 1954. Grammar of the Gothic Language. 2nd ed., revised by O. L. Sayce. Oxford: Clarendon Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-east-split",

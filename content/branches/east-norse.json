@@ -22,6 +22,20 @@
       "body": "Danish went its own way in pronunciation. From the late Middle Ages the voiceless stops `p t k` after vowels were weakened, and in the modern language they are often not stops at all: Danish *gade* 'street' and *kage* 'cake' against Swedish *gata* and *kaka*. Danish also developed the *stød*, a creaky-voice feature that distinguishes words like *hun* 'she' from *hund* 'dog'.\n\nThe Reformation fixed the two standards. Gustav Vasa's Swedish Bible of 1541 and Christian III's Danish Bible of 1550 gave each kingdom a model for written prose. The borders then shaped the dialects: after Denmark ceded Scania to Sweden in 1658, the Scanian dialects, though historically Danish, came under the Swedish standard."
     }
   ],
+  "speakers": {
+    "estimate": "c. 15 million",
+    "vitality": "mixed",
+    "note": "Swedish and Danish are safe national languages; UNESCO's Atlas lists Gutnish, on Gotland, as definitely endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "SWE", "name": "Sweden", "speakers": "c. 9 million" },
+    { "iso": "DNK", "name": "Denmark", "speakers": "c. 5.5 million" },
+    { "iso": "FIN", "name": "Finland", "speakers": "c. 300,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-east-norse-monophthongisation",

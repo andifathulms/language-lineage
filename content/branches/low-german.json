@@ -22,6 +22,32 @@
       "body": "Low German is still spoken across northern Germany and, as Low Saxon, in the north-eastern Netherlands, though mostly by older speakers and in rural areas. Both states now recognise it as a regional language. **Plautdietsch**, the Low German of the Mennonites, left the Vistula delta for the Russian Empire in the 18th century and has since been carried to Canada, Mexico, Paraguay and Bolivia, where it is a thriving community language."
     }
   ],
+  "speakers": {
+    "estimate": "c. 2–5 million",
+    "vitality": "vulnerable",
+    "note": "Estimates vary widely with how fluency is defined; Plautdietsch, spoken in Mennonite communities in the Americas, adds a few hundred thousand.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger. 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "DEU", "name": "Germany", "speakers": "c. 2 million" },
+    { "iso": "NLD", "name": "Netherlands" },
+    { "iso": "MEX", "name": "Mexico" },
+    { "iso": "BOL", "name": "Bolivia" },
+    { "iso": "PRY", "name": "Paraguay" },
+    { "iso": "CAN", "name": "Canada" }
+  ],
+  "sample": {
+    "language": "Old Saxon (Heliand, line 1)",
+    "text": "Manega uuaron, the sia iro mod gespon",
+    "gloss": "many were who them their mind urged",
+    "translation": "There were many whose minds urged them",
+    "sources": [
+      { "citation": "Behaghel, Otto (ed.). 1984. Heliand und Genesis. 9th ed., revised by Burkhard Taeger. Tübingen: Niemeyer.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-saxon-wars",
