@@ -117,5 +117,19 @@
     "lifespan": "1848–1930",
     "branch_ids": ["oghur"],
     "turning_point_ids": ["tp-chuvash-alphabet"]
+  },
+  {
+    "id": "tonyukuk",
+    "name": "Tonyukuk",
+    "lifespan": "c. 646–726",
+    "branch_ids": ["common-turkic"],
+    "turning_point_ids": ["tp-orkhon-inscriptions"]
+  },
+  {
+    "id": "vilhelm-thomsen",
+    "name": "Vilhelm Thomsen",
+    "lifespan": "1842–1927",
+    "branch_ids": ["common-turkic"],
+    "turning_point_ids": ["tp-orkhon-inscriptions"]
   }
 ]

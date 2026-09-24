@@ -1,0 +1,74 @@
+{
+  "id": "common-turkic",
+  "family": "turkic",
+  "name": "Common Turkic",
+  "parent_ids": ["proto-turkic"],
+  "successor_ids": ["oghuz", "kipchak", "karluk", "lena-turkic"],
+  "era": "c. 1st millennium CE – present",
+  "region": "From Mongolia across the Eurasian steppe, then to Anatolia, Central Asia, the Volga and northeastern Siberia",
+  "defining_innovation": "Every Turkic language except Oghur, with z and š where Oghur has r and l. Its oldest form, Old Turkic, is known from the 8th-century Orkhon inscriptions.",
+  "descendants": ["Turkish", "Azerbaijani", "Uzbek", "Kazakh", "Uyghur", "Tatar", "Kyrgyz", "Sakha"],
+  "chapters": [
+    {
+      "title": "Old Turkic",
+      "body": "Common Turkic enters history with the Türk (Göktürk) khaganate, founded in 552 on the Mongolian steppe, which within a generation reached from Manchuria to the Black Sea. Its successor, the Second Türk khaganate, raised the first Turkic texts: large stone monuments beside the Orkhon river in Mongolia. They were written in a runic-looking alphabet for Tonyukuk, the statesman who composed his own memorial (c. 720), and for the khagans Kül Tegin (732) and Bilge (735).\n\nThe inscriptions speak directly to their readers ('Hear my words well, Turkic lords and people!') and tell the history of the empire in a language that modern Turkic speakers can partly follow. Europeans could not read them until 1893, when the Danish linguist **Vilhelm Thomsen** deciphered the script."
+    },
+    {
+      "title": "Uyghur and Islam",
+      "body": "The Uyghur khaganate (744–840) that followed adopted a script derived from Sogdian, and after moving to the Tarim Basin the Uyghurs produced a large Buddhist and Manichaean literature in it. The Uyghur script later passed to the Mongols and from them to the Manchus.\n\nFrom the 10th century, Turkic dynasties in Central Asia converted to Islam, and Arabic script, Arabic religious vocabulary and above all Persian cultural vocabulary spread through the Turkic languages. Over the next centuries migrations and conquests (Seljuk, Mongol, Timurid, Ottoman) carried Common Turkic west to the Balkans and north to the Arctic, and the branches recorded here took shape."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-gokturk",
+      "branch_id": "common-turkic",
+      "date": "552 CE",
+      "type": "SPLIT",
+      "title": "The Türk khaganate",
+      "description": "The Türk khaganate unites the steppe from Mongolia to the Black Sea and spreads Common Turkic across it. The later branches grow out of the dialects of its successor states and confederations.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-orkhon-inscriptions",
+      "branch_id": "common-turkic",
+      "date": "c. 720 – 735 CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Orkhon inscriptions",
+      "description": "Monuments to Tonyukuk, Kül Tegin and Bilge Khagan are carved in the Old Turkic runic script, the first long Turkic texts. The script's origin, whether it was developed from Sogdian or another Aramaic-derived alphabet or partly from local signs, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Tekin, Talât. 1968. A Grammar of Orkhon Turkic. Bloomington: Indiana University.", "url": null },
+        { "citation": "Thomsen, Vilhelm. 1893. Déchiffrement des inscriptions de l'Orkhon et de l'Iénisséi. Copenhagen: Bianco Luno.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-uyghur-script",
+      "branch_id": "common-turkic",
+      "date": "8th – 9th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old Uyghur script",
+      "description": "The Uyghurs adopt a script derived from Sogdian and use it for a large Buddhist and Manichaean literature. It is later passed on to the Mongols and the Manchus.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-islamisation",
+      "branch_id": "common-turkic",
+      "date": "10th century CE onward",
+      "type": "CONTACT",
+      "title": "Islam, Arabic and Persian",
+      "description": "Conversion to Islam brings Arabic script and religious vocabulary into the Turkic languages, along with a deep layer of Persian cultural vocabulary that shapes Turkic literary languages for a thousand years.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["tonyukuk", "vilhelm-thomsen"]
+}
