@@ -18,6 +18,21 @@
       "body": "From 1990, Kaurna people working with the linguist Rob Amery began to reconstruct the language from Teichelmann and Schürmann's work and other records. Kaurna is now used in songs, speeches of welcome, place names and classes, and new words have been coined for modern life. It is one of the best-known cases of a language revived from written records alone. Barngarla, on the Eyre Peninsula, has followed with its own reclamation based on an 1844 vocabulary."
     }
   ],
+  "speakers": {
+    "estimate": "c. 250",
+    "vitality": "mixed",
+    "note": "Mostly Adnyamathanha (about 260 home users in 2021). Kaurna, Barngarla and Narungga lost their last fluent speakers in the 20th century and are now being revived by learners.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "AIATSIS. AUSTLANG: Australian Indigenous Languages Database. Canberra: Australian Institute of Aboriginal and Torres Strait Islander Studies.", "url": "https://collection.aiatsis.gov.au/austlang" }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 250" }
+  ],
   "turning_points": [
     {
       "id": "tp-thura-yura-split",

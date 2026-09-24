@@ -18,6 +18,21 @@
       "body": "The Overland Telegraph line reached Alice Springs in 1872, bringing the first permanent settlers to Arrernte country. In 1877 Lutheran missionaries founded Hermannsburg (Ntaria) among the Western Arrarnta. The missionary Carl Strehlow and his successors wrote the language down and translated scripture into it, and it became one of the earliest written Aboriginal languages of central Australia. Arrernte is still spoken, and taught in Alice Springs schools."
     }
   ],
+  "speakers": {
+    "estimate": "c. 4,000–4,500",
+    "vitality": "mixed",
+    "note": "Arrernte, Alyawarr and Anmatyerr are still learned by some children; Kaytetye had only about 100 home users in 2021. Census figures count people who use the language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 4,000–4,500" }
+  ],
   "turning_points": [
     {
       "id": "tp-arandic-initial-loss",

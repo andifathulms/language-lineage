@@ -17,6 +17,18 @@
       "body": "Below the family level, Pama-Nyungan contains many well-established subgroups, but how they group into larger branches is uncertain. Bowern and Atkinson propose four major clades (Western, Central, Northern and South-Eastern), but they are less secure than the subgroups themselves. This tree draws seven established groups directly from the root: Western Desert, Arandic, Thura-Yura, Yolŋu Matha, Paman, Kulin and Wiradhuric."
     }
   ],
+  "speakers": {
+    "estimate": "c. 20,000 (groups shown here)",
+    "vitality": "mixed",
+    "note": "Other Pama-Nyungan languages not drawn on this tree, such as Warlpiri (about 2,600 home users in the 2021 census), add several thousand more.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-ppn-expansion",

@@ -18,6 +18,18 @@
       "body": "Melbourne was founded in 1835 on Wurundjeri land, and within a few decades disease, violence and confinement on reserves such as Coranderrk had devastated the Kulin population. By the early 20th century few people spoke the languages fluently. Since the 1990s Kulin communities, supported by the Victorian Aboriginal Corporation for Languages, have been reviving them from 19th-century records and the memories of elders. Woiwurrung words are now heard in welcomes to country across Melbourne, where the city itself is often called *Narrm*."
     }
   ],
+  "speakers": {
+    "estimate": "None (no first-language speakers since the 20th century)",
+    "vitality": "extinct",
+    "note": "Woiwurrung, Boonwurrung, Wathawurrung and other Kulin languages are being revived from written records.",
+    "sources": [
+      { "citation": "AIATSIS. AUSTLANG: Australian Indigenous Languages Database. Canberra: Australian Institute of Aboriginal and Torres Strait Islander Studies.", "url": "https://collection.aiatsis.gov.au/austlang" },
+      { "citation": "Blake, Barry J. 1991. Woiwurrung, the Melbourne language. In R. M. W. Dixon & Barry J. Blake (eds.), Handbook of Australian Languages, vol. 4. Melbourne: Oxford University Press.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia" }
+  ],
   "turning_points": [
     {
       "id": "tp-kulin-split",

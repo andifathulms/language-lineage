@@ -18,6 +18,21 @@
       "body": "From about the early 18th century until 1907, fleets of trepang (sea cucumber) fishermen from Makassar in Sulawesi visited the Arnhem Land coast every year. They left words from Makassarese and Malay, both Austronesian languages recorded on the Austronesian tree, in Yolŋu Matha: *rupiya* 'money', *balanda* 'white person' (from 'Hollander'), *jama* 'work'.\n\nIn 1963, after the federal government excised land at Yirrkala for bauxite mining without consultation, Yolŋu elders sent the Australian Parliament two petitions typed in Gumatj and English and framed by painted bark. The **Yirrkala bark petitions** were the first documents in an Aboriginal language recognised by the Parliament, and they helped begin the land rights movement."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5,000–6,000",
+    "vitality": "mixed",
+    "note": "Djambarrpuyŋu alone had about 3,800 home users in the 2021 census and is learned by children; some smaller clan varieties have few speakers. Census figures count people who use the language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 5,000–6,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-yolngu-origin",

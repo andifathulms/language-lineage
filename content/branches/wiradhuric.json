@@ -18,6 +18,21 @@
       "body": "Colonial settlement crossed the Blue Mountains in the 1810s, and the Wiradjuri resisted it. In 1824 the colonial government declared martial law around Bathurst during the frontier war. Over the following century missions and reserves, the removal of children, and English-only schooling all but ended the use of the languages. Revival work since the 1990s, including a Wiradjuri dictionary compiled by the elder Stan Grant Sr and John Rudder and a Gamilaraay dictionary and school programmes, has brought them back into classrooms. In 2017 New South Wales passed the first state law in Australia to recognise Aboriginal languages."
     }
   ],
+  "speakers": {
+    "estimate": "No traditional first-language speakers",
+    "vitality": "critically_endangered",
+    "note": "In the 2021 census about 1,500 people reported using Wiradjuri at home and about 1,000 Gamilaraay, most of them learners of the revived languages; Ngiyampaa has a handful of speakers.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "AIATSIS. AUSTLANG: Australian Indigenous Languages Database. Canberra: Australian Institute of Aboriginal and Torres Strait Islander Studies.", "url": "https://collection.aiatsis.gov.au/austlang" }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia" }
+  ],
   "turning_points": [
     {
       "id": "tp-wiradhuric-split",

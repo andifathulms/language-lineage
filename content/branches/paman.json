@@ -18,6 +18,21 @@
       "body": "In 1770 James Cook's *Endeavour* spent seven weeks at the mouth of the Endeavour River, where the crew recorded words of Guugu Yimithirr. One of them, *gangurru*, the name of a large grey kangaroo, became the English word 'kangaroo'. The linguist John Haviland later confirmed the word, which had been doubted.\n\nGuugu Yimithirr became famous again in the 1990s. Its speakers describe spatial relations with cardinal directions ('the cup is north of the plate') rather than 'left' and 'right', and research by Haviland and Stephen Levinson showed that they keep track of direction constantly. Wik Mungkan, further south at Aurukun, is still learned by children."
     }
   ],
+  "speakers": {
+    "estimate": "c. 3,000",
+    "vitality": "mixed",
+    "note": "Wik Mungkan (about 950 home users in 2021) and Guugu Yimithirr (about 800) are the largest; many Cape York languages have only a few elderly speakers or none. Census figures count people who use the language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 3,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-paman-initial-dropping",

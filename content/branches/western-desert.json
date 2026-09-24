@@ -18,6 +18,30 @@
       "body": "Western Desert dialects are among the few Australian languages still learned by children. Pitjantjatjara was written in the 1940s at the Ernabella mission, where it was used in schooling. The 1981 *Anangu Pitjantjatjara Yankunytjatjara Land Rights Act* returned a large area of South Australia to its speakers. Today Pitjantjatjara is taught in schools and universities, used in media, and heard at Uluṟu, which lies in Pitjantjatjara and Yankunytjatjara country."
     }
   ],
+  "speakers": {
+    "estimate": "c. 7,500",
+    "vitality": "vulnerable",
+    "note": "Largest dialects in the 2021 census: Pitjantjatjara c. 3,400, Luritja c. 1,300, Ngaanyatjarra c. 1,050, Martu Wangka c. 800. Census figures count people who use the language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 7,500" }
+  ],
+  "sample": {
+    "language": "Pitjantjatjara",
+    "text": "Tjiḻpingku nyinara kapi tjikinu.",
+    "gloss": "old.man-ERG sit-SERIAL water drink-PAST",
+    "translation": "The old man sat drinking water.",
+    "sources": [
+      { "citation": "Goddard, Cliff. English to Pitjantjatjara/Yankunytjatjara: Basic Wordlist. Alice Springs: Institute for Aboriginal Development, p. 74.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-western-desert-spread",
