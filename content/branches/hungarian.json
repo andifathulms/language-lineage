@@ -1,0 +1,106 @@
+{
+  "id": "hungarian",
+  "family": "uralic",
+  "name": "Hungarian",
+  "parent_ids": ["ugric"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The steppe north of the Black Sea, then from 895 the Carpathian Basin",
+  "defining_innovation": "Word-initial *p became f: Proto-Uralic *pesä 'nest' is Hungarian fészek, beside Finnish pesä. It is one of many changes that make Hungarian look unlike its relatives.",
+  "descendants": ["Hungarian", "Csángó"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Hungarian is the most widely spoken Uralic language and the most distant from its relatives in geography and appearance. After the Ugric split its speakers lived for more than a thousand years on the steppe, among Turkic- and Iranian-speaking peoples, and their language absorbed a great deal from them. Sound changes also reshaped the inherited words: initial `*p` became *f* (*fészek* 'nest', Finnish *pesä*), and `*k` before back vowels became *h* (*hal* 'fish', Finnish *kala*).\n\nThe steppe years left a large layer of West Old Turkic vocabulary, borrowed from a Chuvash-like language: *búza* 'wheat', *szőlő* 'grape', *ökör* 'ox', *gyümölcs* 'fruit'. Much of the vocabulary of farming and animal-keeping comes from this source."
+    },
+    {
+      "title": "The Conquest and the First Texts",
+      "body": "In 895–896 the Hungarian tribes crossed the Carpathians and settled the basin of the middle Danube, the event Hungarians call the *honfoglalás* ('conquest of the homeland'). The kingdom adopted Latin Christianity around 1000, and Latin remained the language of state for centuries.\n\nHungarian first appears as words embedded in Latin documents, most famously the founding charter of Tihany Abbey (1055). The first connected text is the *Halotti beszéd* ('Funeral Sermon', c. 1192–1195). There was also a native script, the Old Hungarian *rovás* runes, carved on wood and stone. How old it is and where it came from are disputed."
+    },
+    {
+      "title": "Language Reform",
+      "body": "At the end of the 18th century, Hungarian writers led by **Ferenc Kazinczy** set out to make Hungarian fit for science, law and literature in competition with Latin and German. The *nyelvújítás* ('language renewal') coined or revived about ten thousand words, many of which are standard today, such as *szótár* 'dictionary' and *jármű* 'vehicle'. In 1844 Hungarian replaced Latin as the official language of the Kingdom of Hungary."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-hungarian-p-f",
+      "branch_id": "hungarian",
+      "date": "Proto-Hungarian period (before c. 900 CE)",
+      "type": "SOUND_LAW",
+      "title": "Initial *p becomes f",
+      "description": "`*p` at the start of a word becomes *f*: `*pesä` 'nest' → *fészek*, beside Finnish *pesä*. Khanty and Mansi keep *p*, so the change is Hungarian alone. Its exact date is unknown, but the earliest Hungarian records already have *f*.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "*p- → f- (*pesä → fészek)",
+      "sort_year": 0,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-west-old-turkic",
+      "branch_id": "hungarian",
+      "date": "c. 5th – 9th century CE",
+      "type": "CONTACT",
+      "title": "West Old Turkic loanwords",
+      "description": "Several hundred words enter from a Chuvash-type ('Oghur') Turkic language, especially for farming, animal husbandry and social life: *búza* 'wheat', *szőlő* 'grape', *ökör* 'ox'. Where and when the contact happened is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Róna-Tas, András & Árpád Berta. 2011. West Old Turkic: Turkic Loanwords in Hungarian. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-honfoglalas",
+      "branch_id": "hungarian",
+      "date": "895–896",
+      "type": "SPLIT",
+      "title": "Into the Carpathian Basin",
+      "description": "The Hungarian tribal federation settles the Carpathian Basin. Separated from the steppe, Hungarian now develops among Slavic, German and Latin neighbours and takes many Slavic words (*király* 'king', *asztal* 'table').",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-halotti-beszed",
+      "branch_id": "hungarian",
+      "date": "1055 – c. 1195",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "From the Tihany charter to the Funeral Sermon",
+      "description": "Hungarian place names and phrases appear in the Latin founding charter of Tihany Abbey (1055), and the *Funeral Sermon* (c. 1192–1195) is the first continuous Hungarian text. Both are in Latin letters, adapted with some difficulty to Hungarian sounds.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nyelvujitas",
+      "branch_id": "hungarian",
+      "date": "c. 1770 – 1844",
+      "type": "REVITALIZATION",
+      "title": "Nyelvújítás: the language renewal",
+      "description": "Kazinczy and his circle coin and revive thousands of words to modernise Hungarian. By Act II of 1844 Hungarian replaces Latin as the official language of the kingdom.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-hungarian-turkic",
+      "branch_id": "hungarian",
+      "proposed_grouping": "Turkic origin of Hungarian: Hungarian is at root a Turkic language, not a Uralic one",
+      "status": "largely_rejected",
+      "evidence_for": "Ármin Vámbéry argued in the 1870s–80s from the large Turkic vocabulary, the steppe culture of the early Hungarians, and Byzantine sources that called them 'Turks'. The debate, known as the 'Ugric–Turkic war', was also a fight over national identity.",
+      "evidence_against": "József Budenz showed that Hungarian's basic vocabulary, pronouns, numerals and inflection correspond regularly with Khanty, Mansi and the rest of Uralic, while the Turkic words are loans that can be dated by their Chuvash-like shapes. The Uralic affiliation is not disputed among linguists today.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Vámbéry, Ármin. 1882. A magyarok eredete: ethnologiai tanulmány. Budapest: Franklin.", "url": null },
+        { "citation": "Budenz, József. 1873–1881. Magyar–ugor összehasonlító szótár. Budapest: Magyar Tudományos Akadémia.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["ferenc-kazinczy"]
+}

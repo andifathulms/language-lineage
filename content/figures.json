@@ -103,5 +103,12 @@
     "lifespan": "c. 1340–1396",
     "branch_ids": ["permic"],
     "turning_point_ids": ["tp-old-permic-script"]
+  },
+  {
+    "id": "ferenc-kazinczy",
+    "name": "Ferenc Kazinczy",
+    "lifespan": "1759–1831",
+    "branch_ids": ["hungarian"],
+    "turning_point_ids": ["tp-nyelvujitas"]
   }
 ]
