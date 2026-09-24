@@ -96,5 +96,12 @@
     "lifespan": "1802–1884",
     "branch_ids": ["finnic"],
     "turning_point_ids": ["tp-finnish-national"]
+  },
+  {
+    "id": "stephen-of-perm",
+    "name": "Stephen of Perm",
+    "lifespan": "c. 1340–1396",
+    "branch_ids": ["permic"],
+    "turning_point_ids": ["tp-old-permic-script"]
   }
 ]

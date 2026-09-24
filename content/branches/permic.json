@@ -1,0 +1,89 @@
+{
+  "id": "permic",
+  "family": "uralic",
+  "name": "Permic",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Kama and Vyatka basins and, for Komi, north to the Vychegda and Pechora rivers in Russia",
+  "defining_innovation": "A close pair of languages, Komi and Udmurt, from a Proto-Permic that thoroughly rebuilt the inherited vowel system and lost most of the Uralic vowel contrasts in non-initial syllables.",
+  "descendants": ["Komi-Zyrian", "Komi-Permyak", "Udmurt"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Permic was spoken along the Kama river in the first millennium CE. Its speakers later divided: the ancestors of the Komi moved north into the forests of the Vychegda and Pechora, while the Udmurt stayed on the Kama and Vyatka. The Udmurt lived next to the Volga Bulgar state and later the Tatars, and took many Turkic words. The Komi traded furs north to the Arctic coast and borrowed more from Russian and from their northern neighbours."
+    },
+    {
+      "title": "Stephen of Perm's Alphabet",
+      "body": "Komi was one of the first Uralic languages to be written, after Hungarian and a single 13th-century Finnic charm on birch bark from Novgorod. In 1372 the missionary monk **Stephen of Perm**, who grew up among the Komi, created an alphabet for them. Now called *Abur* or Old Permic, it was built from Greek and Cyrillic letters together with signs resembling the property marks (*tamgas*) used locally. He translated liturgical texts into it. After Russian settlement advanced in the following centuries, the script fell out of use by the 17th century."
+    },
+    {
+      "title": "Modern Komi and Udmurt",
+      "body": "In the Soviet period both languages were given standard written forms in the Cyrillic alphabet and became languages of their own autonomous regions. Since the 1990s they have been state languages of the Komi and Udmurt republics, but both are losing speakers to Russian, especially in the cities. A 2018 federal law that made the study of republic languages voluntary weakened their place in schools."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-permic-split",
+      "branch_id": "permic",
+      "date": "Late 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Komi and Udmurt part",
+      "description": "The ancestors of the Komi move north to the Vychegda basin, and Komi and Udmurt begin to diverge. The date rests on loanword layers and archaeology and is approximate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-volga-bulgar-contact",
+      "branch_id": "permic",
+      "date": "c. 8th – 16th century CE",
+      "type": "CONTACT",
+      "title": "Volga Bulgar and Tatar",
+      "description": "Udmurt borrows heavily from Volga Bulgar, a Turkic language related to modern Chuvash, and later from Tatar. Komi, further north, shows much less of this layer.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-old-permic-script",
+      "branch_id": "permic",
+      "date": "1372",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Stephen of Perm's Old Permic script",
+      "description": "Stephen of Perm creates an alphabet for Komi from Greek and Cyrillic letters and local property marks, and translates church texts into it. It is one of the earliest scripts made for a Uralic language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-russian-permic-contact",
+      "branch_id": "permic",
+      "date": "15th century onward",
+      "type": "CONTACT",
+      "title": "Russian expansion",
+      "description": "The Permic lands are absorbed into Muscovy. Russian becomes the language of church and administration, the Old Permic script falls out of use, and Russian loans flow into both languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-permic-state-languages",
+      "branch_id": "permic",
+      "date": "1990s",
+      "type": "REVITALIZATION",
+      "title": "State languages of their republics",
+      "description": "Komi and Udmurt become state languages of the Komi and Udmurt republics alongside Russian. Official status has not stopped the shift to Russian, and the 2018 federal education law reduced their place in schools.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["stephen-of-perm"]
+}
