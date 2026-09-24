@@ -1,0 +1,13 @@
+{
+  "slug": "na-dene",
+  "name": "Na-Dene",
+  "superfamily": null,
+  "summary": "About 45 languages of northwestern North America: Tlingit on the Alaskan panhandle, the extinct Eyak of the Copper River delta, and the large Athabaskan branch, which runs from interior Alaska across the Canadian subarctic and reappears far to the south on the Pacific coast and, with Navajo and the Apache languages, in the American Southwest. Also called Athabaskan-Eyak-Tlingit. A proposed link with the Yeniseian languages of central Siberia would make it the only family to span the Bering Strait, but it remains unproven.",
+  "root_branch_id": "proto-na-dene",
+  "buried_root": { "name": "No proven deeper root", "note": "Dene-Yeniseian? · disputed", "proven": false },
+  "accent": { "light": "122 72 96", "dark": "214 170 190" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Athabaskan-Eyak-Tlingit (atha1245).", "url": "https://glottolog.org/resource/languoid/id/atha1245" },
+    { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
