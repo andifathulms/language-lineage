@@ -1,0 +1,73 @@
+{
+  "id": "qanjobalan",
+  "family": "mayan",
+  "name": "Q'anjob'alan",
+  "parent_ids": ["western-mayan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Cuchumatanes highlands of Guatemala and the neighbouring border region of Chiapas; diaspora communities in the United States",
+  "defining_innovation": "The Mayan languages of the Cuchumatanes and the Mexican border (Q'anjob'al, Popti', Akatek, Chuj, Tojolab'al and Mocho'), spoken close to the likely Proto-Mayan homeland.",
+  "descendants": ["Q'anjob'al", "Popti' (Jakaltek)", "Akatek", "Chuj", "Tojolab'al", "Mocho'"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Q'anjob'alan languages are spoken in and around the Cuchumatanes mountains, the region Kaufman identified as the Proto-Mayan homeland. They form a chain of closely related languages running from Q'anjob'al and Popti' in Guatemala to Chuj and Tojolab'al across the Mexican border. Mocho', near Motozintla in Chiapas, has only a few elderly speakers."
+    },
+    {
+      "title": "War and Migration",
+      "body": "During Guatemala's civil war, the army's counter-insurgency campaigns of the early 1980s destroyed hundreds of highland villages, many of them Q'anjob'al and Chuj. Tens of thousands of people fled to refugee camps in Chiapas. Since the 1990s, large communities of Q'anjob'al and other Mayan speakers have formed in the United States, in Florida, California and elsewhere. Guatemala's 2003 National Languages Law recognises the country's Mayan languages and requires public services to be offered in them."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-qanjobalan-split",
+      "branch_id": "qanjobalan",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "A chain across the border",
+      "description": "The Q'anjob'alan languages diverge into the Q'anjob'al–Popti' group and the Chuj–Tojolab'al group along the Cuchumatanes and the Chiapas border. The dates are approximate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-guatemala-war-qanjobalan",
+      "branch_id": "qanjobalan",
+      "date": "1980s",
+      "type": "CONTACT",
+      "title": "Civil war and exile",
+      "description": "Army massacres and scorched-earth campaigns drive Q'anjob'al and Chuj communities into exile in Mexico. Communities are broken up, and many children grow up speaking Spanish.",
+      "contested": false,
+      "sources": [
+        { "citation": "England, Nora C. 2003. Mayan language revival and revitalization politics: Linguists and linguistic ideologies. American Anthropologist 105(4).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-qanjobal-diaspora",
+      "branch_id": "qanjobalan",
+      "date": "1990s onward",
+      "type": "CONTACT",
+      "title": "Diaspora in the United States",
+      "description": "Q'anjob'al-speaking communities form in Florida, California and other US states, where courts and hospitals now need Mayan-language interpreters.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-guatemala-languages-law",
+      "branch_id": "qanjobalan",
+      "date": "2003",
+      "type": "REVITALIZATION",
+      "title": "Guatemala's National Languages Law",
+      "description": "The law recognises Guatemala's Mayan, Xinka and Garífuna languages and calls for their use in public administration, education and justice in the regions where they are spoken.",
+      "contested": false,
+      "sources": [
+        { "citation": "England, Nora C. 2003. Mayan language revival and revitalization politics: Linguists and linguistic ideologies. American Anthropologist 105(4).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
