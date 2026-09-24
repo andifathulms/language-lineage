@@ -22,6 +22,32 @@
       "body": "At the end of the 18th century, Hungarian writers led by **Ferenc Kazinczy** set out to make Hungarian fit for science, law and literature in competition with Latin and German. The *nyelvújítás* ('language renewal') coined or revived about ten thousand words, many of which are standard today, such as *szótár* 'dictionary' and *jármű* 'vehicle'. In 1844 Hungarian replaced Latin as the official language of the Kingdom of Hungary."
     }
   ],
+  "speakers": {
+    "estimate": "c. 13 million",
+    "vitality": "safe",
+    "note": "About a quarter of native speakers live outside Hungary, mostly in neighbouring countries where they are recognised minorities.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Hungarian Central Statistical Office (KSH). 2023. Census 2022.", "url": "https://nepszamlalas2022.ksh.hu/en/" }
+    ]
+  },
+  "countries": [
+    { "iso": "HUN", "name": "Hungary", "speakers": "c. 9.5 million" },
+    { "iso": "ROU", "name": "Romania", "speakers": "c. 1 million" },
+    { "iso": "SVK", "name": "Slovakia", "speakers": "c. 450,000" },
+    { "iso": "SRB", "name": "Serbia", "speakers": "c. 200,000" },
+    { "iso": "UKR", "name": "Ukraine", "speakers": "c. 150,000" }
+  ],
+  "sample": {
+    "language": "Old Hungarian",
+    "text": "Látjátuk feleim szümtükhel, mik vogymuk",
+    "gloss": "see.2PL.DEF brother-PL-1SG eye-2PL-with what be.1PL",
+    "translation": "You see, my brethren, with your own eyes what we are (opening of the Funeral Sermon, c. 1192–1195)",
+    "sources": [
+      { "citation": "Halotti beszéd és könyörgés (c. 1192–1195). Pray Codex, National Széchényi Library, Budapest; standard modern transcription.", "url": null },
+      { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-hungarian-p-f",

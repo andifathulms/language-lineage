@@ -25,6 +25,15 @@
       "body": "Older handbooks split Uralic in two, **Samoyedic** and **Finno-Ugric**, and then divided Finno-Ugric step by step into Ugric, Permic and so on. Many specialists now doubt most of these intermediate steps, because the shared innovations that should define them are few. This tree therefore draws the main branches growing from one fork: **Samoyedic** (drawn first, as the traditional earliest split), **Finnic**, **Saami**, **Permic** and **Ugric**. Mordvinic, Mari and some smaller branches are not yet drawn."
     }
   ],
+  "speakers": {
+    "estimate": "c. 20 million",
+    "vitality": "mixed",
+    "note": "Total for the branches drawn here, over 60 per cent of it Hungarian; Mari, Mordvin and the other undrawn branches add several hundred thousand more.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-indo-iranian-loans",

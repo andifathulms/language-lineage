@@ -22,6 +22,18 @@
       "body": "In the Soviet period both languages were given standard written forms in the Cyrillic alphabet and became languages of their own autonomous regions. Since the 1990s they have been state languages of the Komi and Udmurt republics, but both are losing speakers to Russian, especially in the cities. A 2018 federal law that made the study of republic languages voluntary weakened their place in schools."
     }
   ],
+  "speakers": {
+    "estimate": "c. 350,000",
+    "vitality": "definitely_endangered",
+    "note": "Census figures count people who declare the language as their mother tongue, about 270,000 for Udmurt and 100,000 for Komi in 2021; the number of everyday speakers is lower and falling.",
+    "sources": [
+      { "citation": "Rosstat. 2022–2023. Itogi Vserossiyskoy perepisi naseleniya 2020 goda [Results of the All-Russian Population Census 2020, held in 2021], vol. 5: national composition and languages.", "url": "https://rosstat.gov.ru/vpn_popul" },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 350,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-permic-split",

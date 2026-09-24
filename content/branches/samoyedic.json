@@ -22,6 +22,19 @@
       "body": "Nenets, with about 20,000 speakers, is the largest Samoyedic language and one of the better-preserved indigenous languages of the Russian north, helped by nomadic reindeer herding, which keeps families on the land. Enets and Nganasan have only a few hundred speakers or fewer and are severely endangered. Like the Ob-Ugric languages, they were given Latin alphabets in the 1930s and Cyrillic from 1937."
     }
   ],
+  "speakers": {
+    "estimate": "c. 20,000–40,000",
+    "vitality": "mixed",
+    "note": "Almost all Nenets: about 38,000 people declared Nenets their mother tongue in the 2021 census, though researchers' estimates of fluent speakers are nearer 20,000. Selkup, Enets and Nganasan are severely or critically endangered.",
+    "sources": [
+      { "citation": "Rosstat. 2022–2023. Itogi Vserossiyskoy perepisi naseleniya 2020 goda [Results of the All-Russian Population Census 2020, held in 2021], vol. 5: national composition and languages.", "url": "https://rosstat.gov.ru/vpn_popul" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 20,000–40,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-proto-samoyedic",

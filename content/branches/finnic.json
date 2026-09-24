@@ -22,6 +22,31 @@
       "body": "In the 19th century Finnish went from peasant speech to national language. Elias Lönnrot compiled the *Kalevala* (1835, expanded 1849) from oral poetry, and a language decree of 1863 began to put Finnish on an equal footing with Swedish in administration. Estonian became a state language with independence in 1918, and again in 1991.\n\nThe small Finnic languages fared worse. Votic has only a handful of elderly speakers. Livonian, once spoken along the coast of Latvia, lost its last native speaker in 2013, although it is still learned and taught as a heritage language."
     }
   ],
+  "speakers": {
+    "estimate": "c. 6.5 million",
+    "vitality": "mixed",
+    "note": "Finnish (about 5 million) and Estonian (about 1 million) are safe; Karelian, Veps and Votic are endangered, and Livonian has no native speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Statistics Finland. Population structure: population by language.", "url": "https://stat.fi/en/statistics/vaerak" }
+    ]
+  },
+  "countries": [
+    { "iso": "FIN", "name": "Finland", "speakers": "c. 4.8 million" },
+    { "iso": "EST", "name": "Estonia", "speakers": "c. 0.9 million" },
+    { "iso": "SWE", "name": "Sweden", "speakers": "c. 150,000" },
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 15,000" }
+  ],
+  "sample": {
+    "language": "Finnish",
+    "text": "Mieleni minun tekevi",
+    "gloss": "mind-my I.GEN make.3SG",
+    "translation": "My mind desires (first line of the Kalevala)",
+    "sources": [
+      { "citation": "Lönnrot, Elias. 1849. Kalevala, 2nd ed. Helsinki: Suomalaisen Kirjallisuuden Seura. Poem 1, line 1.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-finnic-assibilation",

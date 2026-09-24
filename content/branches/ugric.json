@@ -18,6 +18,15 @@
       "body": "Ugric is one of the more widely accepted intermediate groupings in Uralic, but it is not beyond dispute. The shared innovations are fewer than for Finnic or Saami, and some might reflect contact on the forest-steppe rather than a single ancestor. Hungarian also spent over a thousand years apart, on the steppe and then in the Carpathian Basin, and changed so much that comparing it with Khanty and Mansi is hard."
     }
   ],
+  "speakers": {
+    "estimate": "c. 13 million",
+    "vitality": "mixed",
+    "note": "Almost all Hungarian; Khanty and Mansi together have only about ten thousand speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Rosstat. 2012. Itogi Vserossiyskoy perepisi naseleniya 2010 goda [Results of the All-Russian Population Census 2010], vol. 4: national composition and languages.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-ugric-k-x",
