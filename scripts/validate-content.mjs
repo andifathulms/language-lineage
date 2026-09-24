@@ -2,6 +2,7 @@
 // edit fails loudly instead of rendering a broken tree.
 import fs from "node:fs";
 import path from "node:path";
+import countries from "i18n-iso-countries";
 
 const root = path.join(process.cwd(), "content");
 const readDir = (d) =>
@@ -13,10 +14,21 @@ const readDir = (d) =>
 const families = readDir("families");
 const branches = readDir("branches");
 const figures = JSON.parse(fs.readFileSync(path.join(root, "figures.json"), "utf8"));
+const primers = fs.existsSync(path.join(root, "primers")) ? readDir("primers") : [];
 
 const TP_TYPES = new Set(["SPLIT", "SOUND_LAW", "CONTACT", "WRITING_SYSTEM_ADOPTED", "EXTINCTION", "REVITALIZATION"]);
 const PROCESSES = new Set(["consonant_shift", "vowel_shift", "lenition", "merger", "loss", "assimilation", "prosody"]);
 const STATUSES = new Set(["widely_accepted", "minority_position", "largely_rejected"]);
+const VITALITY = new Set([
+  "safe",
+  "vulnerable",
+  "definitely_endangered",
+  "severely_endangered",
+  "critically_endangered",
+  "extinct",
+  "mixed",
+]);
+const words = (s) => s.trim().split(/\s+/).length;
 
 const errors = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);
@@ -30,6 +42,31 @@ for (const { file, data: f } of families) {
   if (`families/${f.slug}.json` !== file) err(file, `file name should match slug "${f.slug}"`);
   if (!byId.has(f.root_branch_id)) err(file, `root_branch_id "${f.root_branch_id}" not found`);
   if (!f.buried_root?.name) err(file, "missing buried_root (what lies below the root branch)");
+  if (f.essay) {
+    if (!f.essay.length || f.essay.some((c) => !c.title || !c.body)) err(file, "essay chapters need a title and body");
+    if (!f.essay_sources?.length) err(file, "essay needs essay_sources");
+  }
+  const ct = f.cognates;
+  if (ct) {
+    const n = ct.languages.length;
+    for (const l of ct.languages) {
+      const b = branches.find((x) => x.data.id === l.branch_id)?.data;
+      if (!b || b.family !== f.slug) err(file, `cognate language "${l.name}" points at "${l.branch_id}", not a branch of this family`);
+    }
+    ct.rows.forEach((r, i) => {
+      if (r.forms.length !== n) err(file, `cognate row ${i} ("${r.gloss}") has ${r.forms.length} forms for ${n} languages`);
+    });
+    for (const c of ct.correspondences) {
+      if (c.reflexes.length !== n) err(file, `correspondence "${c.label}" has ${c.reflexes.length} reflexes for ${n} languages`);
+      if (!c.rows.length || c.rows.some((i) => !ct.rows[i])) err(file, `correspondence "${c.label}" points at missing rows`);
+    }
+    if (!ct.sources?.length) err(file, "cognate table needs sources");
+  }
+}
+
+for (const { file, data: p } of primers) {
+  if (`primers/${p.slug}.json` !== file) err(file, `file name should match slug "${p.slug}"`);
+  if (!p.chapters?.length || !p.sources?.length) err(file, "primer needs chapters and sources");
 }
 
 for (const { file, data: b } of branches) {
@@ -68,6 +105,19 @@ for (const { file, data: b } of branches) {
     for (const l of cc.linked_branch_ids ?? []) if (!byId.has(l)) err(file, `classification "${cc.id}" links unknown "${l}"`);
   }
   for (const f of b.figure_ids) if (!figureIds.has(f)) err(file, `unknown figure "${f}"`);
+  if (b.speakers) {
+    if (!VITALITY.has(b.speakers.vitality)) err(file, `unknown vitality "${b.speakers.vitality}"`);
+    if (!b.speakers.sources?.length) err(file, "speakers need sources");
+  }
+  for (const c of b.countries ?? []) {
+    if (!countries.isValid(c.iso) || c.iso.length !== 3) err(file, `country "${c.name}" has invalid ISO alpha-3 "${c.iso}"`);
+  }
+  if (b.sample) {
+    if (!b.sample.sources?.length) err(file, "sample needs sources");
+    const aligned = b.sample.transliteration ?? b.sample.text;
+    if (b.sample.gloss && words(b.sample.gloss) !== words(aligned))
+      err(file, `sample gloss has ${words(b.sample.gloss)} words for ${words(aligned)} in "${aligned}"`);
+  }
 }
 
 for (const f of figures) {
