@@ -1,0 +1,13 @@
+{
+  "slug": "pama-nyungan",
+  "name": "Pama-Nyungan",
+  "superfamily": null,
+  "summary": "The largest family of Australian languages, which once covered about nine-tenths of the continent with some 300 languages. Its name joins the words for 'person' at its two extremes: pama in Cape York and nyunga in the southwest. Colonisation silenced most of its languages, but Western Desert and Yolŋu languages are still spoken by children, and communities are reclaiming others, like Kaurna of Adelaide, from old records.",
+  "root_branch_id": "proto-pama-nyungan",
+  "buried_root": { "name": "No proven deeper root", "note": "Macro-Pama-Nyungan? · disputed", "proven": false },
+  "accent": { "light": "52 112 24", "dark": "164 212 110" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Pama-Nyungan (pama1250).", "url": "https://glottolog.org/resource/languoid/id/pama1250" },
+    { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+  ]
+}
