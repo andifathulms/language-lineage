@@ -166,5 +166,12 @@
     "lifespan": "1810–1895",
     "branch_ids": ["east-semitic"],
     "turning_point_ids": ["tp-akkadian-cuneiform"]
+  },
+  {
+    "id": "eliezer-ben-yehuda",
+    "name": "Eliezer Ben-Yehuda",
+    "lifespan": "1858–1922",
+    "branch_ids": ["canaanite"],
+    "turning_point_ids": ["tp-hebrew-revival"]
   }
 ]

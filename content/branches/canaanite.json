@@ -1,0 +1,117 @@
+{
+  "id": "canaanite",
+  "family": "semitic",
+  "name": "Canaanite",
+  "parent_ids": ["northwest-semitic"],
+  "successor_ids": [],
+  "era": "c. 14th century BCE – present",
+  "region": "The southern Levant and the Phoenician coast; Phoenician colonies across the Mediterranean",
+  "defining_innovation": "The Canaanite shift: long *ā became ō, so Hebrew šālôm 'peace' corresponds to Arabic salām.",
+  "descendants": ["Hebrew", "Phoenician †", "Punic †", "Moabite †", "Ammonite †", "Edomite †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Canaanite languages were spoken along the Levantine coast and in its hinterland: Phoenician in the coastal cities of Tyre, Sidon and Byblos, and Hebrew, Moabite, Ammonite and Edomite in the Iron Age kingdoms inland. Their shared mark is the **Canaanite shift** of `*ā` to *ō*: Hebrew *šālôm* 'peace' beside Arabic *salām*. It is already visible in Canaanite words written in the 14th-century BCE Amarna letters.\n\nThe small kingdoms left a few inscriptions, such as the Moabite Mesha Stele (c. 840 BCE), in which King Mesha describes his war against Israel in a language very close to Biblical Hebrew."
+    },
+    {
+      "title": "Phoenician and the Alphabet",
+      "body": "Phoenician merchants carried the Semitic alphabet around the Mediterranean. By about 1050 BCE it had settled into a standard set of 22 letters, and around the 8th century BCE the Greeks adopted it, adding vowels. It became the ancestor of the Greek, Latin and Cyrillic scripts. Carthage, traditionally founded from Tyre in 814 BCE, spread the language as **Punic** across North Africa, where Augustine of Hippo could still refer to Punic speakers around 400 CE."
+    },
+    {
+      "title": "Hebrew: Loss and Return",
+      "body": "Hebrew was the language of the kingdoms of Israel and Judah and of most of the Hebrew Bible. After the Babylonian exile, Aramaic gradually replaced it in daily life. Mishnaic Hebrew, the language of the rabbinic law codes, was probably still spoken in parts of Judea in the 2nd century CE, but by about 200–400 CE Hebrew had stopped being anyone's first language. For the next 1,500 years it lived on as a language of prayer, law, poetry and scholarship, read and written by Jews everywhere but spoken natively by no one.\n\nIts return as a spoken language is unique. From the 1880s, **Eliezer Ben-Yehuda** and the schools of the new Jewish settlements in Ottoman Palestine began to use Hebrew as an everyday language and to coin words for modern life. Within a generation there were children who spoke it as their first language, and in 1922 it became an official language of Mandatory Palestine. Today it has around nine million speakers."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-canaanite-shift",
+      "branch_id": "canaanite",
+      "date": "By the 14th century BCE",
+      "type": "SOUND_LAW",
+      "title": "The Canaanite shift",
+      "description": "Long `*ā` becomes `ō`: `*salām-` → Hebrew *šālôm*, beside Arabic *salām*. Canaanite glosses in the Amarna letters already show the change, which gives it an unusually early date for a sound law.",
+      "contested": false,
+      "process": "vowel_shift",
+      "notation": "*ā → ō (*salām- → šālôm 'peace'; Arabic salām)",
+      "sort_year": -1500,
+      "sources": [
+        { "citation": "Sáenz-Badillos, Angel. 1993. A History of the Hebrew Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-phoenician-alphabet",
+      "branch_id": "canaanite",
+      "date": "c. 1050 BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Phoenician alphabet",
+      "description": "Phoenician scribes use a standard 22-letter consonantal alphabet. Traders carry it across the Mediterranean, and the Greeks adopt it around the 8th century BCE, reusing some consonant letters for vowels.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-punic",
+      "branch_id": "canaanite",
+      "date": "9th century BCE onward",
+      "type": "SPLIT",
+      "title": "Punic in the western Mediterranean",
+      "description": "Phoenician colonies, above all Carthage, carry the language to North Africa, Sicily, Sardinia and Spain, where it develops into Punic. Punic outlives Carthage's destruction in 146 BCE by centuries.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hebrew-vernacular-ends",
+      "branch_id": "canaanite",
+      "date": "c. 200 – 400 CE",
+      "type": "EXTINCTION",
+      "title": "Hebrew stops being spoken",
+      "description": "Aramaic replaces Hebrew as the everyday language of Jews in Palestine, and Hebrew survives only as a written and liturgical language. When native speech actually ended is debated, and estimates range from before the Common Era to the 4th century.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sáenz-Badillos, Angel. 1993. A History of the Hebrew Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-punic-extinction",
+      "branch_id": "canaanite",
+      "date": "c. 5th – 6th century CE",
+      "type": "EXTINCTION",
+      "title": "Punic falls silent",
+      "description": "Punic, still mentioned by Augustine around 400 CE, gives way to Latin and Berber. The last Canaanite language other than Hebrew disappears. When it died is not recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hebrew-revival",
+      "branch_id": "canaanite",
+      "date": "1880s – 1922",
+      "type": "REVITALIZATION",
+      "title": "Hebrew spoken again",
+      "description": "Ben-Yehuda and the Hebrew-medium schools of the new settlements make Hebrew a home and street language. It is the best-known case of a language with no native speakers becoming the first language of a whole society. In 1922 it becomes an official language of Mandatory Palestine.",
+      "contested": false,
+      "sources": [
+        { "citation": "Fellman, Jack. 1973. The Revival of a Classical Tongue: Eliezer Ben Yehuda and the Modern Hebrew Language. The Hague: Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-israeli-hebrew",
+      "branch_id": "canaanite",
+      "proposed_grouping": "Israeli Hebrew as a Semito-European hybrid: the revived language is as much European, especially Yiddish, as Semitic",
+      "status": "minority_position",
+      "evidence_for": "Ghil'ad Zuckermann points to the European pronunciation, word order and meanings that the revivers, most of them native Yiddish and Slavic speakers, carried into the new language, including loan translations and idioms. The Yiddish on the Germanic tree is one of its main sources.",
+      "evidence_against": "The words, roots and inflectional morphology are overwhelmingly Hebrew, and many linguists hold that genealogical classification rests on those, not on the substrate features every revived or shifted language carries. Most classify Modern Hebrew simply as a Semitic language, a later stage of Hebrew.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Zuckermann, Ghil'ad. 2003. Language Contact and Lexical Enrichment in Israeli Hebrew. Basingstoke: Palgrave Macmillan.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["eliezer-ben-yehuda"]
+}
