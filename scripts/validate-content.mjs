@@ -42,6 +42,8 @@ for (const { file, data: f } of families) {
   if (`families/${f.slug}.json` !== file) err(file, `file name should match slug "${f.slug}"`);
   if (!byId.has(f.root_branch_id)) err(file, `root_branch_id "${f.root_branch_id}" not found`);
   if (!f.buried_root?.name) err(file, "missing buried_root (what lies below the root branch)");
+  if (!f.essay?.length) err(file, "missing essay (the family long read)");
+  if (!f.cognates) err(file, "missing cognates (the How-we-know table)");
   if (f.essay) {
     if (!f.essay.length || f.essay.some((c) => !c.title || !c.body)) err(file, "essay chapters need a title and body");
     if (!f.essay_sources?.length) err(file, "essay needs essay_sources");
@@ -105,6 +107,8 @@ for (const { file, data: b } of branches) {
     for (const l of cc.linked_branch_ids ?? []) if (!byId.has(l)) err(file, `classification "${cc.id}" links unknown "${l}"`);
   }
   for (const f of b.figure_ids) if (!figureIds.has(f)) err(file, `unknown figure "${f}"`);
+  if (!b.speakers) err(file, "missing speakers (present-day speakers of this branch)");
+  if (!b.successor_ids.length && !b.countries?.length) err(file, "leaf branch needs countries");
   if (b.speakers) {
     if (!VITALITY.has(b.speakers.vitality)) err(file, `unknown vitality "${b.speakers.vitality}"`);
     if (!b.speakers.sources?.length) err(file, "speakers need sources");
