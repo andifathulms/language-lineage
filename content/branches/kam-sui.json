@@ -1,0 +1,57 @@
+{
+  "id": "kam-sui",
+  "family": "kra-dai",
+  "name": "Kam-Sui",
+  "parent_ids": ["proto-kra-dai"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Guizhou, Guangxi and Hunan in southern China",
+  "defining_innovation": "Kam (Dong), Sui, Maonan and Mulam, languages of the southern Chinese uplands. The Kam are known for polyphonic choral singing, the Sui for a traditional ritual script.",
+  "descendants": ["Kam (Dong)", "Sui", "Maonan", "Mulam", "Mak"],
+  "chapters": [
+    {
+      "title": "Songs and a Ritual Script",
+      "body": "The Kam-Sui languages are spoken in the valleys where Guizhou, Guangxi and Hunan meet. The Kam (Dong) people, about three million strong, are famous for their 'grand songs', polyphonic choral music without instruments, which UNESCO recognised as intangible heritage in 2009. The Sui preserve a traditional script, *Shuishu*, used by ritual specialists for divination and calendars, with characters partly borrowed from Chinese and partly their own."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kam-sui-split",
+      "branch_id": "kam-sui",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "The upland valleys",
+      "description": "Kam-Sui separates from the other Kra-Dai branches in the uplands of southern China. The date is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sui-script",
+      "branch_id": "kam-sui",
+      "date": "Undated; attested in manuscripts of recent centuries",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Sui script",
+      "description": "Sui ritual specialists keep manuscripts in *Shuishu*, a script of several hundred characters, some borrowed from Chinese, some reversed or invented. Its age is unknown and disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kam-grand-song",
+      "branch_id": "kam-sui",
+      "date": "1958 – 2009",
+      "type": "REVITALIZATION",
+      "title": "Writing Kam and recognising its songs",
+      "description": "A Latin alphabet is created for Kam in 1958, and in 2009 UNESCO inscribes the Kam 'grand song' on its list of intangible cultural heritage, supporting its transmission.",
+      "contested": false,
+      "sources": [
+        { "citation": "UNESCO. 2009. Grand song of the Dong ethnic group. Representative List of the Intangible Cultural Heritage of Humanity. Paris: UNESCO.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
