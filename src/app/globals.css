@@ -225,7 +225,7 @@ html.js .tree-pre [data-limb] {
 /* Cartographic halo: text knocks out lines that pass behind it. */
 .tree-halo {
   paint-order: stroke;
-  stroke: rgb(var(--cream));
+  stroke: rgb(var(--paper));
   stroke-width: 5px;
   stroke-linejoin: round;
 }

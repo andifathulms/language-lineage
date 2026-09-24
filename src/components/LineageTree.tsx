@@ -45,7 +45,7 @@ export function TypeGlyph({ type, className }: { type: TurningPointType; classNa
       return (
         <path
           d="M0,-4.5L4.5,0L0,4.5L-4.5,0Z"
-          className={`fill-cream stroke-accent ${className ?? ""}`}
+          className={`fill-paper stroke-accent ${className ?? ""}`}
           strokeWidth={1.4}
         />
       );
@@ -58,7 +58,7 @@ export function TypeGlyph({ type, className }: { type: TurningPointType; classNa
           y={-3.2}
           width={6.4}
           height={6.4}
-          className={`fill-cream stroke-accent ${className ?? ""}`}
+          className={`fill-paper stroke-accent ${className ?? ""}`}
           strokeWidth={1.4}
         />
       );
@@ -133,7 +133,7 @@ function Mark({ m, href, onFocus, onBlur }: { m: RingMark; href: string; onFocus
           y1={p.y + n.y * side * a}
           x2={p.x + n.x * side * b}
           y2={p.y + n.y * side * b}
-          className="stroke-cream"
+          className="stroke-paper"
           strokeWidth={full ? 2 : 1.4}
           strokeDasharray={m.contested ? "2.2 1.8" : undefined}
           strokeLinecap="round"
@@ -209,9 +209,9 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
   const dim = (id: string) => (hoverBranch && hoverBranch !== id ? "opacity-50" : "opacity-100");
 
   return (
-    <figure className="relative">
+    <figure className="plate relative overflow-hidden">
       {/* Wide trees keep a legible minimum size and scroll sideways on phones. */}
-      <div className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+      <div className="overflow-x-auto">
         <svg
           ref={svgRef}
           viewBox={`0 0 ${width} ${height}`}
@@ -333,7 +333,7 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
                   x2={n.graft!.x + n.limb.w0 * 0.7}
                   y1={n.graft!.y}
                   y2={n.graft!.y}
-                  className="stroke-cream"
+                  className="stroke-paper"
                   strokeWidth={1.2}
                 />
               </g>
@@ -461,7 +461,7 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
 
       <figcaption
         aria-live="polite"
-        className="mt-3 flex min-h-[3.5rem] flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ring/60 pt-3 text-sm"
+        className="flex min-h-[3.75rem] flex-wrap items-center gap-x-3 gap-y-1 border-t border-ring/70 bg-cream/60 px-4 py-3 text-sm sm:px-6"
       >
         {active ? (
           <>
@@ -474,7 +474,10 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
           </>
         ) : (
           <span className="text-bark-soft">
-            Hover or tab to a ring-mark to read it. Select a limb or its name to open that branch.
+            <span className="hidden sm:inline">
+              Hover or tab to a ring-mark to read it. Select a limb or its name to open that branch.
+            </span>
+            <span className="sm:hidden">Tap a limb or its name to open that branch.</span>
           </span>
         )}
       </figcaption>

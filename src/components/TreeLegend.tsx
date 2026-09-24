@@ -19,7 +19,7 @@ export function TreeLegend() {
         <dt>
           <Swatch>
             <rect x={-5} y={-10} width={10} height={20} className="fill-heartwood" />
-            <line x1={-9} x2={9} y1={0} y2={0} className="stroke-cream" strokeWidth={2} />
+            <line x1={-9} x2={9} y1={0} y2={0} className="stroke-paper" strokeWidth={2} />
           </Swatch>
         </dt>
         <dd>Full ring: a sound law, the line between before and after</dd>
@@ -28,7 +28,7 @@ export function TreeLegend() {
         <dt>
           <Swatch>
             <rect x={-5} y={-10} width={10} height={20} className="fill-heartwood" />
-            <line x1={-9} x2={9} y1={0} y2={0} className="stroke-cream" strokeWidth={2} strokeDasharray="2.2 1.8" />
+            <line x1={-9} x2={9} y1={0} y2={0} className="stroke-paper" strokeWidth={2} strokeDasharray="2.2 1.8" />
           </Swatch>
         </dt>
         <dd>Dashed ring: dating, cause or credit is contested</dd>
@@ -55,7 +55,7 @@ export function TreeLegend() {
         <dt>
           <Swatch>
             <ellipse rx={8} ry={5} className="fill-heartwood stroke-bark" strokeWidth={1.2} />
-            <line x1={-7} x2={7} className="stroke-cream" strokeWidth={1.2} />
+            <line x1={-7} x2={7} className="stroke-paper" strokeWidth={1.2} />
           </Swatch>
         </dt>
         <dd>Graft: two lineages converging through contact</dd>

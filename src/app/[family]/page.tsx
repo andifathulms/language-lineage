@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { ConfidenceRings } from "@/components/ConfidenceRings";
 import { FamilyAccent } from "@/components/FamilyAccent";
 import { LineageTree } from "@/components/LineageTree";
+import { Pager } from "@/components/Pager";
 import { TreeLegend } from "@/components/TreeLegend";
-import { getBranches, getFamilies, getFamily } from "@/lib/content";
+import { familyStats, getBranches, getFamilies, getFamily } from "@/lib/content";
 import type { TreeBranchInput, TreeClassificationInput } from "@/lib/treeLayout";
 import type { Branch } from "@/lib/types";
 
@@ -66,21 +67,54 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
     linked: c.linked_branch_ids ?? [],
   }));
 
+  const families = getFamilies();
+  const idx = families.findIndex((f) => f.slug === family.slug);
+  const prev = families[(idx - 1 + families.length) % families.length];
+  const next = families[(idx + 1) % families.length];
+  const stats = familyStats(family.slug);
+  const facts = [
+    { label: "Branches", value: String(stats.branches) },
+    { label: "Turning points", value: String(stats.turningPoints) },
+    { label: "Disputed", value: String(stats.contested) },
+  ];
+
   return (
     <FamilyAccent family={family}>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <header className="pb-6 pt-12 sm:pt-16">
-          <nav aria-label="Breadcrumb" className="font-label text-xs uppercase tracking-[0.14em] text-bark-soft">
-            <Link href="/" className="no-underline hover:text-accent">
-              Families
-            </Link>
-            <span aria-hidden="true"> / </span>
-            <span className="text-accent">{family.superfamily ?? family.name}</span>
-          </nav>
-          <h1 className="mt-4 text-[clamp(2.2rem,5vw,3.6rem)] font-semibold leading-tight">The {family.name} tree</h1>
-          <p className="mt-4 max-w-reading text-lg leading-relaxed text-bark-soft">{family.summary}</p>
+      <div className="bg-gradient-to-b from-accent/[0.07] to-transparent">
+        <header className="mx-auto grid max-w-page gap-10 px-4 pb-10 pt-12 sm:px-6 sm:pt-16 lg:grid-cols-[1fr_16rem] lg:items-end">
+          <div>
+            <nav aria-label="Breadcrumb" className="meta">
+              <Link href="/#families" className="no-underline hover:text-accent">
+                Families
+              </Link>
+              <span aria-hidden="true" className="mx-2 text-ring">
+                /
+              </span>
+              <span className="text-accent">{family.superfamily ?? "Top-level family"}</span>
+            </nav>
+            <h1 className="mt-4 text-[clamp(2.4rem,5.5vw,4rem)] font-semibold leading-[1.04]">
+              The {family.name} tree
+            </h1>
+            <p className="mt-5 max-w-reading text-[1.1rem] leading-[1.7] text-bark-soft">{family.summary}</p>
+          </div>
+          <dl className="grid grid-cols-3 gap-4 border-t border-ring/70 pt-5 lg:grid-cols-1 lg:gap-5 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
+            {facts.map((f) => (
+              <div key={f.label}>
+                <dt className="meta">{f.label}</dt>
+                <dd className="mt-1 font-display text-3xl font-semibold tabular-nums [font-feature-settings:'lnum']">
+                  {f.value}
+                </dd>
+              </div>
+            ))}
+            <div className="col-span-3 lg:col-span-1">
+              <dt className="meta">Buried root</dt>
+              <dd className="mt-1 font-display text-lg italic text-bark-soft">{family.buried_root.name}</dd>
+            </div>
+          </dl>
         </header>
+      </div>
 
+      <div className="mx-auto max-w-page px-4 sm:px-6">
         <section aria-label={`${family.name} lineage tree`}>
           <LineageTree
             familySlug={family.slug}
@@ -91,18 +125,25 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
           />
         </section>
 
-        <details className="mt-8 border-y border-ring/60 py-4 [&_summary::-webkit-details-marker]:hidden" open>
-          <summary className="cursor-pointer font-label text-xs font-medium uppercase tracking-[0.14em] text-bark-soft">
-            How to read the tree
+        <details open className="group mt-6 rounded-[10px] border border-ring/70 px-5 py-4 [&_summary::-webkit-details-marker]:hidden sm:px-6">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-4">
+            <span className="meta">How to read the tree</span>
+            <span
+              aria-hidden="true"
+              className="text-bark-soft transition-transform duration-base ease-grow group-open:rotate-180"
+            >
+              ⌄
+            </span>
           </summary>
-          <div className="mt-5">
+          <div className="mt-5 border-t border-ring/60 pt-5">
             <TreeLegend />
           </div>
         </details>
 
         <div className="mt-16 grid gap-16 lg:grid-cols-[1.25fr_1fr]">
           <section aria-labelledby="spine-heading">
-            <h2 id="spine-heading" className="text-2xl font-semibold">
+            <p className="meta">Every branch</p>
+            <h2 id="spine-heading" className="mt-2 text-3xl font-semibold">
               The spine, base to canopy
             </h2>
             <ol className="mt-6 space-y-0">
@@ -114,7 +155,10 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
                       aria-hidden="true"
                       className={`absolute -left-[7px] top-6 h-3.5 w-3.5 rounded-full border-2 ${b.extinct ? "border-bark-soft bg-cream" : "border-heartwood bg-heartwood"}`}
                     />
-                    <Link href={`/${family.slug}/${b.id}/`} className="font-display text-xl font-semibold no-underline hover:text-accent">
+                    <Link
+                      href={`/${family.slug}/${b.id}/`}
+                      className="font-display text-xl font-semibold no-underline transition-colors duration-base ease-grow hover:text-accent"
+                    >
                       {b.name}
                       {b.extinct ? " †" : ""}
                     </Link>
@@ -127,7 +171,8 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
           </section>
 
           <section aria-labelledby="contested-heading">
-            <h2 id="contested-heading" className="text-2xl font-semibold">
+            <p className="meta">Outside the tree</p>
+            <h2 id="contested-heading" className="mt-2 text-3xl font-semibold">
               Still disputed
             </h2>
             <p className="mt-2 text-bark-soft">
@@ -136,7 +181,7 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
             </p>
             <ul className="mt-6 space-y-5">
               {classifications.map((c) => (
-                <li key={c.id} className="rounded-sm border border-dashed border-accent/50 p-4">
+                <li key={c.id} className="rounded-[8px] border border-dashed border-accent/50 bg-accent/[0.03] p-5">
                   <ConfidenceRings status={c.status} />
                   <p className="mt-2 font-display text-lg font-semibold leading-snug">
                     <Link href={`/${family.slug}/${c.branch_id}/#${c.id}`} className="no-underline hover:text-accent">
@@ -151,6 +196,12 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
             </ul>
           </section>
         </div>
+
+        <Pager
+          label="Other families"
+          prev={{ href: `/${prev.slug}/`, kicker: "Previous family", label: prev.name }}
+          next={{ href: `/${next.slug}/`, kicker: "Next family", label: next.name }}
+        />
       </div>
     </FamilyAccent>
   );
