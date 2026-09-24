@@ -3,7 +3,7 @@
   "family": "turkic",
   "name": "Common Turkic",
   "parent_ids": ["proto-turkic"],
-  "successor_ids": ["oghuz", "kipchak", "karluk", "lena-turkic"],
+  "successor_ids": ["oghuz", "arghu", "kipchak", "karluk", "south-siberian-turkic", "lena-turkic"],
   "era": "c. 1st millennium CE – present",
   "region": "From Mongolia across the Eurasian steppe, then to Anatolia, Central Asia, the Volga and northeastern Siberia",
   "defining_innovation": "Every Turkic language except Oghur, with z and š where Oghur has r and l. Its oldest form, Old Turkic, is known from the 8th-century Orkhon inscriptions.",

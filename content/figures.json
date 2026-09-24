@@ -418,5 +418,12 @@
     "lifespan": "1904–1976",
     "branch_ids": ["apachean"],
     "turning_point_ids": ["tp-apachean-arrival"]
+  },
+  {
+    "id": "gerhard-doerfer",
+    "name": "Gerhard Doerfer",
+    "lifespan": "1920–2003",
+    "branch_ids": ["arghu"],
+    "turning_point_ids": ["tp-khalaj-documentation", "tp-kashgari-arghu"]
   }
 ]

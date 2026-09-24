@@ -1,0 +1,93 @@
+{
+  "id": "arghu",
+  "family": "turkic",
+  "name": "Arghu (Khalaj)",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Villages of Markazi Province in central Iran, between Qom, Ashtian and Tafresh",
+  "defining_innovation": "Khalaj, a single language set apart less by innovations than by what it kept: Proto-Turkic initial `*h` and medial `*d`, lost or changed everywhere else in Common Turkic (Khalaj *hadaq* 'foot', Turkish *ayak*).",
+  "descendants": ["Khalaj"],
+  "chapters": [
+    {
+      "title": "The Khalaj of Central Iran",
+      "body": "Khalaj is spoken by a small community in villages between Qom and Arak in central Iran, surrounded by Persian and, to the north and west, by Azerbaijani. The Khalaj are named in medieval Islamic sources, which place Turkic Khalaj groups in what is now Afghanistan, and in the 1070s **Mahmud al-Kashgari** named both the Khalaj and the Arghu in his dictionary of Turkic dialects. How and when the present community came to central Iran is not known.\n\nThe Russian-born orientalist Vladimir Minorsky, working in Britain, published notes on the language in 1940 and saw that it was unusual. Until the late 1960s, however, Khalaj was generally taken to be a variety of Azerbaijani. The German Turkologist **Gerhard Doerfer** began fieldwork among the Khalaj in 1968 and showed that it was a distinct and very conservative Turkic language. He argued that it continues the Arghu dialect recorded by al-Kashgari, and Lars Johanson's classification accordingly treats Arghu as one of the six main branches of Turkic.\n\nDoerfer counted about 17,000 speakers in 1968. Later estimates range from about 19,000 to over 40,000. Nearly all speakers also use Persian, and surveys in the 2010s found that few families still passed Khalaj on to their children."
+    },
+    {
+      "title": "An Archaic Turkic",
+      "body": "Khalaj matters to comparative Turkic linguistics because it keeps several features that the other languages have lost. The best known is initial *h*: Khalaj *hadaq* 'foot' corresponds to Turkish *ayak* and Old Turkic *adaq*. Most scholars, following Doerfer, take this *h* to continue a Proto-Turkic sound, which makes Khalaj the only living language to preserve it, although some have argued that it arose secondarily.\n\nKhalaj also keeps Proto-Turkic `*d` inside words, where Oghuz languages such as Turkish and Azerbaijani have *y* and Khakas has *z*: *hadaq* against Turkish *ayak* and Khakas *azax*. And it keeps distinctions of vowel length that match those preserved in Turkmen and Sakha, with Proto-Turkic long vowels often surfacing as diphthongs.\n\nAt the same time Khalaj has been reshaped by long bilingualism. Its vocabulary is full of Persian words, it has borrowed Persian conjunctions and clause types, and its word order and verb forms show Persian and Azerbaijani influence. It is therefore both one of the most archaic and one of the most heavily contact-influenced Turkic languages."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 20,000–40,000",
+    "vitality": "definitely_endangered",
+    "note": "Estimates vary widely: Doerfer counted about 17,000 speakers in 1968, Ethnologue has given about 42,000, and a 2018 local estimate put the number at about 19,000. Few children are learning the language.",
+    "sources": [
+      { "citation": "Doerfer, Gerhard. 1971. Khalaj Materials. Bloomington: Indiana University.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Hamshahri Online. 2019. زبان خلجی در حال انقراض [The endangered Khalaj language], 14 August 2019.", "url": "https://www.hamshahrionline.ir/news/451382" }
+    ]
+  },
+  "countries": [
+    { "iso": "IRN", "name": "Iran", "speakers": "c. 20,000–40,000" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kashgari-arghu",
+      "branch_id": "arghu",
+      "date": "1070s CE",
+      "type": "SPLIT",
+      "title": "Arghu in al-Kashgari",
+      "description": "Mahmud al-Kashgari's dictionary names the Arghu and the Khalaj as Turkic groups with speech of their own. Doerfer identified Khalaj as the descendant of this Arghu, an identification most Turkologists follow but which rests on limited evidence.",
+      "contested": true,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Ágnes Csató (eds.). 1998. The Turkic Languages. London: Routledge.", "url": null },
+        { "citation": "Doerfer, Gerhard. 1987. Lexik und Sprachgeographie des Chaladsch. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-khalaj-persian",
+      "branch_id": "arghu",
+      "date": "2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Persian bilingualism",
+      "description": "Living as a small enclave among Persian speakers, the Khalaj become bilingual. Persian vocabulary, conjunctions and clause types enter the language, alongside influence from neighbouring Azerbaijani.",
+      "contested": false,
+      "sources": [
+        { "citation": "Doerfer, Gerhard. 1971. Khalaj Materials. Bloomington: Indiana University.", "url": null },
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-khalaj-documentation",
+      "branch_id": "arghu",
+      "date": "1940 – 1980s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Recording Khalaj",
+      "description": "Vladimir Minorsky publishes the first notes on the language in 1940. From 1968 Gerhard Doerfer documents it in detail, recognises it as a separate branch of Turkic rather than a dialect of Azerbaijani, and publishes materials, a dictionary and a dialect atlas.",
+      "contested": false,
+      "sources": [
+        { "citation": "Minorsky, Vladimir. 1940. The Turkish dialect of the Khalaj. Bulletin of the School of Oriental Studies 10(2).", "url": null },
+        { "citation": "Doerfer, Gerhard. 1971. Khalaj Materials. Bloomington: Indiana University.", "url": null },
+        { "citation": "Doerfer, Gerhard. 1987. Lexik und Sprachgeographie des Chaladsch. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-khalaj-oghuz",
+      "branch_id": "arghu",
+      "proposed_grouping": "Khalaj as an Oghuz language, a variety close to Azerbaijani",
+      "status": "largely_rejected",
+      "evidence_for": "Khalaj speakers live near Azerbaijani speakers and their language has absorbed much Azerbaijani vocabulary and grammar, so before Doerfer's fieldwork it was generally treated as a dialect of Azerbaijani.",
+      "evidence_against": "Doerfer showed that Khalaj keeps initial `*h`, medial `*d` and old vowel-length contrasts that Oghuz has lost or changed (Khalaj *hadaq*, Azerbaijani *ayaq* 'foot'). Such archaisms cannot have been borrowed, so the Oghuz-like features are best explained as contact. Doerfer and later Johanson and Glottolog treat it as a separate branch of Common Turkic.",
+      "linked_branch_ids": ["oghuz"],
+      "sources": [
+        { "citation": "Doerfer, Gerhard. 1987. Lexik und Sprachgeographie des Chaladsch. Wiesbaden: Harrassowitz.", "url": null },
+        { "citation": "Johanson, Lars & Éva Ágnes Csató (eds.). 1998. The Turkic Languages. London: Routledge.", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Khalaj Turkic (turk1303).", "url": "https://glottolog.org/resource/languoid/id/turk1303" }
+      ]
+    }
+  ],
+  "figure_ids": ["gerhard-doerfer"]
+}
