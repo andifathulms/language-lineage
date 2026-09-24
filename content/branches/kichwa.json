@@ -1,0 +1,57 @@
+{
+  "id": "kichwa",
+  "family": "quechuan",
+  "name": "Kichwa",
+  "parent_ids": ["quechua-ii"],
+  "successor_ids": [],
+  "era": "c. 15th century CE – present",
+  "region": "Ecuador, southern Colombia (Inga) and the Peruvian Amazon (Chachapoyas, Lamas)",
+  "defining_innovation": "Torero's Quechua II-B, the northern Quechua of Ecuador, Colombia and the Amazon, simplified in grammar and much shaped by Spanish contact.",
+  "descendants": ["Highland Kichwa", "Lowland Kichwa", "Inga", "San Martín", "Chachapoyas"],
+  "chapters": [
+    {
+      "title": "Northern Quechua",
+      "body": "Kichwa, the Ecuadorian form of the name, is spoken by several hundred thousand people in the Ecuadorian highlands and Amazon, and related varieties reach into Colombia (Inga) and the Peruvian lowlands. Its presence in Ecuador is usually traced to the Inca conquest in the late 15th century and to its spread as a colonial *lengua general*, though some scholars argue for earlier trade contacts. Compared with southern Quechua it has lost the possessive person suffixes on nouns and simplified its verb agreement.\n\nIn the town of Salcedo, Kichwa grammar combined with almost entirely Spanish vocabulary to create *Media Lengua*, one of the clearest examples of a mixed language anywhere."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kichwa-ecuador",
+      "branch_id": "kichwa",
+      "date": "late 15th – 16th century CE",
+      "type": "SPLIT",
+      "title": "North with the Inca",
+      "description": "Quechua spreads into Ecuador with Inca conquest and then with Spanish missionaries, replacing many local languages. How much of the spread is Inca and how much colonial, and whether Quechua arrived earlier through trade, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-media-lengua",
+      "branch_id": "kichwa",
+      "date": "early 20th century",
+      "type": "CONTACT",
+      "title": "Media Lengua",
+      "description": "Kichwa speakers in the Salcedo area develop Media Lengua, a mixed language with Kichwa grammar and suffixes attached to nearly all Spanish word stems.",
+      "contested": false,
+      "sources": [
+        { "citation": "Muysken, Pieter. 1997. Media Lengua. In Contact Languages: A Wider Perspective, ed. Sarah G. Thomason. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ecuador-2008",
+      "branch_id": "kichwa",
+      "date": "2008",
+      "type": "REVITALIZATION",
+      "title": "Ecuador's constitution",
+      "description": "Ecuador's 2008 constitution makes Kichwa and Shuar official languages of intercultural relations, alongside Spanish, following decades of intercultural bilingual education.",
+      "contested": false,
+      "sources": [
+        { "citation": "Constitución de la República del Ecuador. 2008. Artículo 2.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
