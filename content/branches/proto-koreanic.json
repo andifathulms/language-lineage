@@ -1,0 +1,47 @@
+{
+  "id": "proto-koreanic",
+  "family": "koreanic",
+  "name": "Proto-Koreanic",
+  "parent_ids": [],
+  "successor_ids": ["korean", "jeju"],
+  "era": "c. 1st millennium BCE (reconstructed; dating debated)",
+  "region": "Probably southern Manchuria and the northern Korean peninsula",
+  "defining_innovation": "The reconstructed ancestor of Korean and Jeju, largely inferred from Middle Korean, the language recorded in Hangul from the 15th century, and from the modern dialects.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Koreanic is reconstructed mainly from Middle Korean, the language of the 15th- and 16th-century texts written in Hangul, and from the modern dialects and Jeju. Older stages are known only through Chinese characters, which record sound poorly. Where the family began is unclear. Many scholars think Koreanic spread southward through the peninsula from the north during the first millennium BCE, perhaps replacing Japonic languages spoken there before.\n\nThe three kingdoms of the early centuries CE, Goguryeo, Baekje and Silla, may not all have spoken Koreanic. Only Silla's language, which became the basis of later Korean after Silla unified the peninsula in 668, is securely Koreanic. The place names of the former Goguryeo territory are disputed: some read them as Koreanic, others as Japonic."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-koreanic-south",
+      "branch_id": "proto-koreanic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "South into the peninsula",
+      "description": "Koreanic speakers spread south through the Korean peninsula. Whether they replaced earlier Japonic speakers, and when, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Whitman, John. 2011. Northeast Asian linguistic ecology and the advent of rice agriculture in Korea and Japan. Rice 4.", "url": null },
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-koreanic-japonic",
+      "branch_id": "proto-koreanic",
+      "proposed_grouping": "Japano-Koreanic: Koreanic and Japonic share an ancestor",
+      "status": "minority_position",
+      "evidence_for": "Korean and Japanese have strikingly similar grammar, including verb-final order, particles, and elaborate honorific systems, and Whitman and others have proposed sound correspondences. The Japonic tree records the same proposal.",
+      "evidence_against": "Convincing cognates in basic vocabulary are few, and the similarities may come from long contact on the peninsula. Vovin, after decades of work on the question, rejected the relationship. It remains unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Whitman, John. 2012. The relationship between Japanese and Korean. In The Languages of Japan and Korea, ed. Nicolas Tranter. London: Routledge.", "url": null },
+        { "citation": "Vovin, Alexander. 2010. Korea-Japonica: A Re-evaluation of a Common Genetic Origin. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
