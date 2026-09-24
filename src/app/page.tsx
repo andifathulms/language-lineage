@@ -23,7 +23,7 @@ export default function Home() {
         <RingGlyph className="hidden h-56 w-56 justify-self-end text-ring lg:block" />
       </section>
 
-      <section aria-labelledby="families-heading" className="border-t border-ring/60 pt-10">
+      <section id="families" aria-labelledby="families-heading" className="scroll-mt-6 border-t border-ring/60 pt-10">
         <h2 id="families-heading" className="font-label text-xs font-medium uppercase tracking-[0.16em] text-bark-soft">
           Families covered
         </h2>

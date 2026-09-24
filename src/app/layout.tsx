@@ -38,14 +38,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="font-display text-lg font-semibold tracking-tight text-bark">Language Lineage</span>
             </Link>
             <nav aria-label="Primary" className="font-label text-xs uppercase tracking-[0.14em] text-bark-soft">
+              {/* One entry for all families: the list lives on the landing page and scales with it. */}
               <ul className="flex flex-wrap gap-x-5 gap-y-1">
-                {getFamilies().map((f) => (
-                  <li key={f.slug}>
-                    <Link href={`/${f.slug}/`} className="no-underline hover:text-accent">
-                      {f.name} tree
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link href="/#families" className="no-underline hover:text-accent">
+                    Families ({getFamilies().length})
+                  </Link>
+                </li>
                 <li>
                   <Link href="/sound-laws/" className="no-underline hover:text-accent">
                     Sound laws
