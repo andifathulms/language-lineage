@@ -1,0 +1,94 @@
+{
+  "id": "modern-south-arabian",
+  "family": "semitic",
+  "name": "Modern South Arabian",
+  "parent_ids": ["west-semitic"],
+  "successor_ids": [],
+  "era": "Prehistoric origin – present",
+  "region": "Mahra in eastern Yemen, Dhofar in southern Oman, the Saudi borderlands and the island of Socotra",
+  "defining_innovation": "Six languages that never developed a written tradition, set apart from their relatives by shared changes such as the second-person feminine suffix `-š`, which replaced the older `*-ki` (Mehri *-š* 'your', said to a woman).",
+  "descendants": ["Mehri", "Soqotri", "Jibbali (Shehri)", "Harsusi", "Bathari", "Hobyot"],
+  "chapters": [
+    {
+      "title": "Six Unwritten Languages",
+      "body": "The Modern South Arabian languages are spoken in the far south-east of the Arabian Peninsula: in the Mahra region of eastern Yemen, in Dhofar in southern Oman, in small communities across the border in Saudi Arabia, and on the island of Socotra. There are six. **Mehri** is the largest, with perhaps 100,000 speakers or more. **Soqotri** is the language of Socotra and its neighbouring islands, and **Jibbali**, also called Shehri, of the mountains of Dhofar. **Harsusi**, **Bathari** and **Hobyot** are spoken by small groups, each numbering a few hundred to a couple of thousand people, and Bathari and Hobyot by far fewer.\n\nDespite the name, these languages do not descend from the Old South Arabian of the ancient inscriptions. They form a separate line within West Semitic, and because they were never written, nothing is known of their history before European and Arab scholars began to record them in the 19th century.\n\nThey are traditionally grouped with the Semitic languages of Ethiopia in a South Semitic branch, but the shared innovations are few, and several specialists prefer to treat them as an independent branch of West Semitic. All six are now under pressure from Arabic, the language of school, religion and government."
+    },
+    {
+      "title": "Sounds Kept, and a Language Under Pressure",
+      "body": "Modern South Arabian keeps sounds that almost every other Semitic language has lost. Proto-Semitic is reconstructed with two lateral consonants, pronounced with air escaping along the sides of the tongue like Welsh *ll*: a plain `*ɬ` (traditionally written *ś*) and an emphatic `*ɬʼ` (*ṣ́*). Hebrew merged the first with *s* in speech, and Arabic turned the second into the sound written with the letter *ḍād*. In Mehri, Jibbali and Soqotri both are still laterals. As in Ethiosemitic, the 'emphatic' consonants are glottalised rather than pharyngealised as in Arabic, which supports the view that this was the older pronunciation. The languages also keep the dual in pronouns and verbs, which most spoken Arabic has abandoned outside nouns.\n\nSerious documentation began with the Austrian Academy's South Arabian Expedition of 1898–99, which published texts in Mehri, Soqotri and Jibbali, and continued with T. M. Johnstone's lexicons of Harsusi, Jibbali and Mehri (1977–87). Since then Mehri, Jibbali and Soqotri have received full grammars, and Soqotri's large body of oral poetry has been recorded and published. Among younger people, however, Arabic is spreading fast, and UNESCO lists all six languages as endangered."
+    }
+  ],
+  "speakers": {
+    "estimate": "Perhaps 200,000",
+    "vitality": "mixed",
+    "note": "Figures are uncertain. Mehri is the largest language, followed by Soqotri and Jibbali; Harsusi, Bathari and Hobyot have only a few hundred to a couple of thousand speakers between them, and Bathari and Hobyot are close to extinction.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Simeone-Senelle, Marie-Claude. 2011. Modern South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "YEM", "name": "Yemen" },
+    { "iso": "OMN", "name": "Oman" },
+    { "iso": "SAU", "name": "Saudi Arabia" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-msa-split",
+      "branch_id": "modern-south-arabian",
+      "date": "Prehistoric; date unknown",
+      "type": "SPLIT",
+      "title": "A separate southern line",
+      "description": "The ancestor of the Modern South Arabian languages separates from the rest of West Semitic. Whether it first shared a period of common development with Ethiosemitic, as the South Semitic hypothesis holds, is disputed, and the date cannot be fixed because the languages were never written.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Simeone-Senelle, Marie-Claude. 2011. Modern South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-msa-arabic-contact",
+      "branch_id": "modern-south-arabian",
+      "date": "7th century CE onward",
+      "type": "CONTACT",
+      "title": "Under Arabic",
+      "description": "With Islam, Arabic becomes the language of religion and writing throughout the region, and Modern South Arabian speakers become bilingual. Arabic loanwords accumulate, and since the spread of schooling in the 20th century many younger speakers have shifted to Arabic altogether.",
+      "contested": false,
+      "sources": [
+        { "citation": "Simeone-Senelle, Marie-Claude. 2011. Modern South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Watson, Janet C. E. 2012. The Structure of Mehri. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-msa-documentation",
+      "branch_id": "modern-south-arabian",
+      "date": "1898 – 1987",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Recorded for the first time",
+      "description": "The South Arabian Expedition of the Austrian Academy of Sciences (1898–99) collects texts in Mehri, Soqotri and Jibbali, published by David Heinrich Müller from 1902. T. M. Johnstone's lexicons of Harsusi (1977), Jibbali (1981) and Mehri (1987) lay the foundation for modern study.",
+      "contested": false,
+      "sources": [
+        { "citation": "Müller, David Heinrich. 1902. Die Mehri- und Soqoṭri-Sprache, I: Texte. Südarabische Expedition 4. Vienna: Alfred Hölder.", "url": null },
+        { "citation": "Johnstone, T. M. 1987. Mehri Lexicon and English–Mehri Word-List. London: School of Oriental and African Studies.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-msa-south-semitic",
+      "branch_id": "modern-south-arabian",
+      "proposed_grouping": "South Semitic: Modern South Arabian forms a subgroup of West Semitic with Ethiosemitic (and, in the traditional scheme, Old South Arabian)",
+      "status": "widely_accepted",
+      "evidence_for": "Modern South Arabian and Ethiosemitic both keep the old imperfective with a doubled middle consonant, which Central Semitic lost; both generalised `-k` as the ending of the first-person singular and second-person past tense (Ge'ez *qätälku* 'I killed'); and both have glottalised emphatics. The languages are neighbours across the Gulf of Aden, and most handbooks list them together.",
+      "evidence_against": "The doubled imperfective is an inherited feature, not a shared innovation, and the `-k` endings also occur in some Yemeni Arabic dialects, so they may have spread by contact. Huehnergard and Rubin find no clear innovation shared only by these languages, and several specialists therefore treat Modern South Arabian as an independent branch of West Semitic, or leave its position open.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Simeone-Senelle, Marie-Claude. 2011. Modern South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}

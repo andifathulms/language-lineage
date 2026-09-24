@@ -3,7 +3,7 @@
   "family": "semitic",
   "name": "West Semitic",
   "parent_ids": ["proto-semitic"],
-  "successor_ids": ["ethiosemitic", "central-semitic"],
+  "successor_ids": ["ethiosemitic", "modern-south-arabian", "old-south-arabian", "central-semitic"],
   "era": "c. 3rd millennium BCE – present",
   "region": "The Levant and the Arabian Peninsula, later the Horn of Africa",
   "defining_innovation": "The suffix conjugation (qatal-) became a past tense. Arabic kataba and Hebrew kātav mean 'he wrote', while Akkadian uses the matching form as a stative describing a state.",
@@ -59,7 +59,7 @@
       "proposed_grouping": "South Semitic: Ethiosemitic, Modern South Arabian and Old South Arabian share an ancestor within West Semitic",
       "status": "widely_accepted",
       "evidence_for": "These languages keep the old imperfective pattern (Ge'ez *yəqättəl*) that Central Semitic replaced, share some vocabulary, and are neighbours across the Red Sea. Most handbooks group them together.",
-      "evidence_against": "Keeping an old form is not a shared innovation, and Huehnergard and Rubin find few changes that only these languages share. Old South Arabian may be closer to Central Semitic. For this reason the tree draws Ethiosemitic directly from West Semitic and leaves the South Arabian languages out until their position is clearer.",
+      "evidence_against": "Keeping an old form is not a shared innovation, and Huehnergard and Rubin find few changes that only these languages share. Old South Arabian may be closer to Central Semitic. For this reason the tree draws Ethiosemitic and both South Arabian groups directly from West Semitic, without a South Semitic node.",
       "linked_branch_ids": [],
       "sources": [
         { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
