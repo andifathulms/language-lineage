@@ -271,5 +271,12 @@
     "lifespan": "1593–1660",
     "branch_ids": ["vietic"],
     "turning_point_ids": ["tp-quoc-ngu"]
+  },
+  {
+    "id": "chuon-nath",
+    "name": "Chuon Nath",
+    "lifespan": "1883–1969",
+    "branch_ids": ["khmeric"],
+    "turning_point_ids": ["tp-chuon-nath"]
   }
 ]
