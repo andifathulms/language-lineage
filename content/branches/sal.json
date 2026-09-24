@@ -18,6 +18,21 @@
       "body": "The choice of script has been a political question. Garo and Jingpho were written in Latin letters by missionaries. The Jingpho alphabet was devised by the Swedish-American missionary Ola Hanson in the 1890s. The Bodo movement argued in the 1970s over whether to use Latin or Devanagari script, and Bodo was eventually written in Devanagari. In 2003 Bodo was added to India's Eighth Schedule, in the same amendment that added Santali, recorded on the Austroasiatic tree."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5 million",
+    "vitality": "mixed",
+    "note": "Bodo (about 1.5 million in India's 2011 census), Garo, Kokborok and Jingpho are the largest; some small Konyak and Bodo-Garo languages are endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" },
+      { "citation": "Census of India 2011. Language: India, States and Union Territories (Paper 1 of 2018). New Delhi: Office of the Registrar General & Census Commissioner.", "url": "https://censusindia.gov.in" }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 4 million" },
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 0.9 million" },
+    { "iso": "BGD", "name": "Bangladesh", "speakers": "c. 0.2 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 0.1 million" }
+  ],
   "turning_points": [
     {
       "id": "tp-sal-split",

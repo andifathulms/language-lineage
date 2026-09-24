@@ -18,6 +18,18 @@
       "body": "American Baptist missionaries arrived among the Karen in the 1820s. Jonathan Wade created a Karen script based on the Burmese alphabet in the 1830s, and many Karen became Christian. Since 1949 Karen nationalists have fought the Myanmar state in one of the world's longest-running civil conflicts. Hundreds of thousands of Karen have lived in refugee camps on the Thai border or resettled abroad, where Karen communities now maintain the language."
     }
   ],
+  "speakers": {
+    "estimate": "c. 4–5 million",
+    "vitality": "mixed",
+    "note": "S'gaw and Pwo Karen account for most speakers; several smaller Karenic languages are endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 4 million" },
+    { "iso": "THA", "name": "Thailand", "speakers": "c. 0.4 million" }
+  ],
   "turning_points": [
     {
       "id": "tp-karen-svo",

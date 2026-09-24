@@ -17,6 +17,14 @@
       "body": "The traditional division is into **Sinitic** (the Chinese languages) and **Tibeto-Burman** (everything else). This tree follows it, since both 2019 phylogenies support Sinitic as the first split. Tibeto-Burman itself contains dozens of subgroups, and this tree draws five of the best established: Tibetic, Lolo-Burmese, Karenic, Kuki-Chin and Sal. Many others (Kiranti, Tani, Qiangic, Nungish, Tamangic and more) are not yet drawn."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.4 billion",
+    "vitality": "mixed",
+    "note": "Almost all are speakers of Chinese; many of the family's roughly 450 other languages are small and endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-pst-dispersal",

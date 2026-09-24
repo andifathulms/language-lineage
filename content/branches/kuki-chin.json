@@ -18,6 +18,20 @@
       "body": "In 1894 the missionaries J. H. Lorrain and F. W. Savidge devised a Latin alphabet for Mizo (then called Lushai), and literacy spread fast. Mizoram now has one of the highest literacy rates in India. When Mizoram became a Union Territory in 1972 and a state in 1987, Mizo became its official language, the language of a flourishing press and literature."
     }
   ],
+  "speakers": {
+    "estimate": "c. 2.5 million",
+    "vitality": "mixed",
+    "note": "Rough figure: many Kuki-Chin varieties are counted inconsistently across census categories; Mizo has about 0.8 million speakers in India.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" },
+      { "citation": "Census of India 2011. Language: India, States and Union Territories (Paper 1 of 2018). New Delhi: Office of the Registrar General & Census Commissioner.", "url": "https://censusindia.gov.in" }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 1.5 million" },
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 1 million" },
+    { "iso": "BGD", "name": "Bangladesh", "speakers": "c. 0.05 million" }
+  ],
   "turning_points": [
     {
       "id": "tp-kuki-chin-split",

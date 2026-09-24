@@ -12,8 +12,21 @@
     {
       "title": "Into the Mountains",
       "body": "Tibeto-Burman is the traditional name for all the non-Chinese Sino-Tibetan languages. Only a few have a long written history (Tibetan, Burmese, Newar and Meitei), and hundreds are spoken by small communities in the valleys of the Himalayas, the hills of northeast India and Myanmar, and the mountains of southwest China. Almost all put the verb at the end of the clause, unlike Chinese and Karen. James Matisoff's *Handbook of Proto-Tibeto-Burman* (2003) reconstructs their common ancestor.\n\nWhether Tibeto-Burman is a genuine branch, one that excludes Chinese, is disputed. The two 2019 phylogenies support it, but George van Driem argues that Chinese is just one branch among many and prefers the name 'Trans-Himalayan' for the whole family."
+    },
+    {
+      "title": "Agents, Agreement and Evidence",
+      "body": "Beyond verb-final word order, Tibeto-Burman languages share a set of grammatical habits that set them apart from Chinese. Many mark the agent of a transitive verb with a special case ending (Written Tibetan *-kyis*/*-gis*, which also marks the instrument), but often only when the agent is unexpected, contrastive or needs emphasis. Randy LaPolla called this 'optional ergativity', and it is common across the Himalayas.\n\nVerb agreement is the great puzzle. The Kiranti languages of eastern Nepal, such as Limbu and Bantawa, and rGyalrong in western Sichuan mark the person and number of both subject and object on the verb, with paradigms of dozens of forms. Other languages, Tibetan and Burmese among them, have no agreement at all. Scott DeLancey and George van Driem see the Kiranti and rGyalrong systems as inherited from Proto-Tibeto-Burman and lost elsewhere; LaPolla argues that they arose independently, later, in separate branches.\n\nMany languages also build knowledge into grammar. In Lhasa Tibetan the choice between copulas such as *yin* and *red* ('is') depends on whether the speaker speaks from personal involvement or reports something as external fact, a system now usually called egophoricity. Similar distinctions between what the speaker saw, inferred or was told run through the languages of the plateau and the Himalayas."
     }
   ],
+  "speakers": {
+    "estimate": "c. 60–70 million",
+    "vitality": "mixed",
+    "note": "Includes branches not drawn on this tree, such as Meitei, Newar and the Tamangic and Kiranti languages; about half the total are speakers of Burmese.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" },
+      { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-tb-dispersal",

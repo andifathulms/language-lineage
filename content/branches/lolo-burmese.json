@@ -18,6 +18,30 @@
       "body": "The 'Loloish' languages (Yi, Lisu, Lahu, Hani, Akha and others) are spoken by upland peoples across southwest China and the northern parts of mainland Southeast Asia. The Yi had their own logographic script, used by ritual specialists for centuries. In 1974–1980 a standard syllabary based on it was adopted for the Nuosu variety in Sichuan. Lisu is written in the Fraser alphabet, uppercase Latin letters, some rotated, devised around 1915 by the missionary James O. Fraser and the Karen evangelist Sara Ba Thaw."
     }
   ],
+  "speakers": {
+    "estimate": "c. 40–45 million",
+    "vitality": "mixed",
+    "note": "About 33 million are first-language speakers of Burmese, which is also a second language for many more in Myanmar.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 34 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 9 million" },
+    { "iso": "THA", "name": "Thailand", "speakers": "c. 0.2 million" },
+    { "iso": "LAO", "name": "Laos", "speakers": "c. 0.1 million" }
+  ],
+  "sample": {
+    "language": "Burmese",
+    "text": "မင်္ဂလာပါ",
+    "transliteration": "mingala ba",
+    "gloss": "auspiciousness POL",
+    "translation": "Hello (literally, 'blessings')",
+    "sources": [
+      { "citation": "Okell, John. 1994. Burmese: An Introduction to the Spoken Language, Book 1. DeKalb: Northern Illinois University Center for Southeast Asian Studies.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-burmese-pagan",

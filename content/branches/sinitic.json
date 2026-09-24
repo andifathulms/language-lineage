@@ -22,6 +22,32 @@
       "body": "For two thousand years educated Chinese wrote in Classical Chinese, far from the spoken language. In the New Culture movement of 1917–1919, **Hu Shi** and others argued for writing in the vernacular (*báihuà*), and within a decade it had become the norm. In the 1950s the People's Republic promoted Mandarin (*Pǔtōnghuà*) as the national standard, simplified the characters (1956), and adopted **pinyin**, a Latin alphabet devised under **Zhou Youguang** (1958), for teaching pronunciation. Pinyin is now the standard way of typing Chinese."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.3 billion",
+    "vitality": "safe",
+    "note": "Mandarin alone has over 900 million first-language speakers; many local varieties are losing young speakers to Mandarin.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 1.25 billion" },
+    { "iso": "TWN", "name": "Taiwan", "speakers": "c. 23 million" },
+    { "iso": "HKG", "name": "Hong Kong", "speakers": "c. 7 million" },
+    { "iso": "MYS", "name": "Malaysia", "speakers": "c. 6 million" },
+    { "iso": "USA", "name": "United States", "speakers": "c. 3.5 million" },
+    { "iso": "SGP", "name": "Singapore", "speakers": "c. 2 million" }
+  ],
+  "sample": {
+    "language": "Chinese (Tang-dynasty poem by Li Bai)",
+    "text": "床前明月光",
+    "transliteration": "chuáng qián míng yuè guāng",
+    "gloss": "bed front bright moon light",
+    "translation": "Before my bed, the bright moonlight",
+    "sources": [
+      { "citation": "Li Bai (701–762). 'Quiet Night Thoughts' (Jìng yè sī), opening line.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-oracle-bones",

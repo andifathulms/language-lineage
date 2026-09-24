@@ -18,6 +18,31 @@
       "body": "Spoken Tibetan has moved far from its spelling. In Lhasa Tibetan the clusters have been simplified, and the lost prefixes and voicing distinctions have left behind a contrast between high and low tones: *brgyad* is pronounced something like *gyè*. The eastern dialects of Amdo, by contrast, keep many clusters and have no tones, and they are often closer to the written form.\n\nSince 1950 Tibet has been part of the People's Republic of China, where Mandarin dominates education and public life. After 1959 a Tibetan exile community in India, centred on Dharamsala, developed its own standard. In Bhutan, Dzongkha, a Tibetic language, became the national language in 1971."
     }
   ],
+  "speakers": {
+    "estimate": "c. 6–7 million",
+    "vitality": "mixed",
+    "note": "Most speakers are in China; UNESCO lists several Tibetic varieties as endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 5–6 million" },
+    { "iso": "PAK", "name": "Pakistan", "speakers": "c. 0.4 million" },
+    { "iso": "IND", "name": "India", "speakers": "c. 0.3 million" },
+    { "iso": "NPL", "name": "Nepal", "speakers": "c. 0.2 million" },
+    { "iso": "BTN", "name": "Bhutan", "speakers": "c. 0.2 million" }
+  ],
+  "sample": {
+    "language": "Tibetan",
+    "text": "བཀྲ་ཤིས་བདེ་ལེགས།",
+    "transliteration": "bkra-shis bde-legs",
+    "gloss": "good.fortune well-being",
+    "translation": "Good fortune and well-being (the usual greeting, pronounced roughly tashi delek)",
+    "sources": [
+      { "citation": "Tournadre, Nicolas & Sangda Dorje. 2003. Manual of Standard Tibetan: Language and Civilization. Ithaca: Snow Lion.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-tibetan-script",
