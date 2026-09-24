@@ -1,0 +1,97 @@
+{
+  "id": "miami-illinois",
+  "family": "algonquian",
+  "name": "Miami-Illinois",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "Recorded from the late 17th century; no first-language speakers since the 1960s; reclaimed since the 1990s",
+  "region": "Formerly Illinois, Indiana and western Ohio; today the Miami and Peoria tribes of northeastern Oklahoma and Miami families in Indiana",
+  "defining_innovation": "A single language of the Miami, Wea, Piankashaw and the Illinois Confederation, first written down by French Jesuits. After its last speakers died it was brought back into use from written records, one of the first languages to be reclaimed this way.",
+  "descendants": ["Miami", "Peoria", "Wea †", "Piankashaw †", "Kaskaskia †"],
+  "chapters": [
+    {
+      "title": "The Miami and the Illinois",
+      "body": "**Miami-Illinois** was spoken in the 17th and 18th centuries across what is now Illinois, Indiana and western Ohio, by the Miami, Wea and Piankashaw and by the peoples of the Illinois Confederation, among them the Kaskaskia and Peoria. Their speech was close enough to count as one language with several dialects. The Miami call themselves *Myaamia* and their language *myaamiaataweenki*.\n\nFrench Jesuits recorded Illinois in detail from the 1670s. The largest of their works, an Illinois–French dictionary attributed to Jacques Gravier and compiled around 1700, runs to nearly 600 pages and some 20,000 entries; Antoine-Robert Le Boullenger's shorter dictionary followed a little later. Together they make Illinois one of the best-recorded Indigenous languages of the colonial period.\n\nThe next two centuries brought war, epidemics and removal. The much-reduced Illinois peoples were moved west in the 1830s, and most of the Miami were removed from Indiana to Kansas in 1846 and later to Indian Territory, now Oklahoma, where the Peoria and Miami tribes are based today; other Miami families stayed in Indiana. In the late 19th and early 20th centuries Albert Gatschet, Jacob Piatt Dunn and Truman Michelson still found speakers of Miami and Peoria, but English took over in the home, the language was little used by the 1930s, and the last people who had spoken it from childhood died in the 1960s."
+    },
+    {
+      "title": "Waking a Sleeping Language",
+      "body": "The Miami do not describe their language as extinct but as 'sleeping': without living speakers for a time, but able to be woken. In the 1990s Daryl Baldwin, a Miami citizen, began to teach himself the language from the archival record, working with the linguist David Costa, whose 1994 doctoral dissertation had pieced together its sounds and grammar from the Jesuit dictionaries, the notes of Gatschet, Dunn and Michelson and other manuscripts. Baldwin and his family used Miami at home with their children.\n\nIn 2001 the Miami Tribe of Oklahoma and Miami University in Oxford, Ohio, set up the Myaamia Project, with Baldwin as its director; it became the Myaamia Center in 2013. It produces dictionaries, teaching materials and an online dictionary built from the historical sources, and runs summer programmes for Miami families. Baldwin received a MacArthur Fellowship in 2016 for the work.\n\nThe Miami case has changed how linguists talk about language death. It shows that a language recorded well enough on paper can return to use after decades without speakers, though the language re-learned from documents is not identical to that of the last speakers, and some details of pronunciation depend on how the old spellings are read. The Miami linguist Wesley Leonard has argued that 'extinct' is the wrong word for such languages."
+    }
+  ],
+  "speakers": {
+    "estimate": "No first-language speakers; a few hundred second-language users",
+    "vitality": "critically_endangered",
+    "note": "The last first-language speakers died in the 1960s. Since the 1990s a growing number of Miami people have learned the language from documentary sources, including a few children raised with it at home.",
+    "sources": [
+      {
+        "citation": "Leonard, Wesley Y. 2008. When is an 'extinct language' not extinct? Miami, a formerly sleeping language. In Sustaining Linguistic Diversity: Endangered and Minority Languages and Language Varieties, ed. Kendall A. King et al. Washington, DC: Georgetown University Press.",
+        "url": null
+      },
+      { "citation": "Costa, David J. 2003. The Miami-Illinois Language. Lincoln: University of Nebraska Press.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "a few hundred second-language users" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-illinois-jesuit-dictionaries",
+      "branch_id": "miami-illinois",
+      "date": "c. 1690s – 1720s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Jesuit dictionaries",
+      "description": "Jesuit missionaries among the Illinois compile large dictionaries and religious texts in the language, above all the Illinois–French dictionary attributed to Jacques Gravier. Three centuries later these manuscripts become the backbone of the language's reclamation.",
+      "contested": false,
+      "sources": [
+        { "citation": "Masthay, Carl, ed. 2002. Kaskaskia Illinois-to-French Dictionary. St. Louis: Carl Masthay.", "url": null },
+        { "citation": "Costa, David J. 2003. The Miami-Illinois Language. Lincoln: University of Nebraska Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-miami-removal",
+      "branch_id": "miami-illinois",
+      "date": "1846",
+      "type": "CONTACT",
+      "title": "Removal from Indiana",
+      "description": "Most of the Miami are forced from Indiana to Kansas, and later to Indian Territory, splitting the people between Oklahoma and the families allowed to stay in Indiana.",
+      "contested": false,
+      "sources": [
+        { "citation": "Rafert, Stewart. 1996. The Miami Indians of Indiana: A Persistent People, 1654–1994. Indianapolis: Indiana Historical Society.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-miami-last-speakers",
+      "branch_id": "miami-illinois",
+      "date": "1960s",
+      "type": "EXTINCTION",
+      "title": "The last speakers",
+      "description": "The last people who had spoken Miami-Illinois from childhood die in Oklahoma. The Miami community rejects the label 'extinct' for what followed, preferring to speak of a 'sleeping' language.",
+      "contested": true,
+      "sources": [
+        { "citation": "Costa, David J. 2003. The Miami-Illinois Language. Lincoln: University of Nebraska Press.", "url": null },
+        {
+          "citation": "Leonard, Wesley Y. 2008. When is an 'extinct language' not extinct? Miami, a formerly sleeping language. In Sustaining Linguistic Diversity: Endangered and Minority Languages and Language Varieties, ed. Kendall A. King et al. Washington, DC: Georgetown University Press.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "tp-myaamia-reclamation",
+      "branch_id": "miami-illinois",
+      "date": "1990s onward",
+      "type": "REVITALIZATION",
+      "title": "Myaamia reclamation",
+      "description": "Daryl Baldwin, working with the linguist David Costa, re-learns Miami from archival sources and raises his children with it. The Myaamia Project, founded with Miami University in 2001 and renamed the Myaamia Center in 2013, turns the work into dictionaries, classes and family programmes.",
+      "contested": false,
+      "sources": [
+        {
+          "citation": "Leonard, Wesley Y. 2008. When is an 'extinct language' not extinct? Miami, a formerly sleeping language. In Sustaining Linguistic Diversity: Endangered and Minority Languages and Language Varieties, ed. Kendall A. King et al. Washington, DC: Georgetown University Press.",
+          "url": null
+        },
+        { "citation": "Costa, David J. 2003. The Miami-Illinois Language. Lincoln: University of Nebraska Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["daryl-baldwin", "david-costa"]
+}
