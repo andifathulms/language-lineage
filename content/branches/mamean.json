@@ -1,0 +1,76 @@
+{
+  "id": "mamean",
+  "family": "mayan",
+  "name": "Mamean",
+  "parent_ids": ["eastern-mayan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The western highlands of Guatemala (Huehuetenango, San Marcos, Quetzaltenango, the Ixil region) and adjacent Chiapas",
+  "defining_innovation": "Mam, Tektitek, Awakatek and Ixil. Proto-Mayan *r became t here, where K'iche'an keeps r and Yucatecan has y.",
+  "descendants": ["Mam", "Ixil", "Awakatek", "Tektitek"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Mamean languages are spoken in the western highlands of Guatemala. Mam, with over half a million speakers, is one of the largest Mayan languages. Mamean is marked by a series of consonant changes, the best known being `*r` → *t*, which gives Mamean a *t* where K'iche' has *r* and Yucatec has *y*. Mam's consonant system, with its retroflex and palatal affricates, is among the most complex in the family."
+    },
+    {
+      "title": "The Ixil Triangle",
+      "body": "In 1982–83, at the height of Guatemala's civil war, the army carried out massacres across the Ixil region, killing thousands of Ixil civilians and destroying most of their villages. In 2013 a Guatemalan court convicted the former head of state Efraín Ríos Montt of genocide against the Ixil. The verdict was annulled on procedural grounds days later, and the retrial was never completed before his death in 2018. Many Mam and Ixil speakers have since migrated to Mexico and the United States, where Mam is now one of the indigenous languages most often needed by interpreters."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-mamean-r-t",
+      "branch_id": "mamean",
+      "date": "c. 1st millennium CE",
+      "type": "SOUND_LAW",
+      "title": "*r becomes t",
+      "description": "Proto-Mayan `*r` becomes *t* in the Mamean languages, one of several consonant shifts that give Mam its distinctive sound. Its date is not established.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "*r → t (K'iche'an keeps r; Yucatecan has y)",
+      "sort_year": 500,
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1985. Mayan linguistics: Where are we now? Annual Review of Anthropology 14.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mamean-split",
+      "branch_id": "mamean",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Mam and Ixil diverge",
+      "description": "Mamean divides into Mam–Tektitek and Ixil–Awakatek. The dates are glottochronological estimates.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ixil-massacres",
+      "branch_id": "mamean",
+      "date": "1982 – 1983",
+      "type": "CONTACT",
+      "title": "Massacres in the Ixil region",
+      "description": "Army massacres and forced displacement devastate Ixil communities. A 2013 genocide conviction of Efraín Ríos Montt was annulled within days, and the retrial was never completed.",
+      "contested": false,
+      "sources": [
+        { "citation": "Comisión para el Esclarecimiento Histórico. 1999. Guatemala: Memoria del silencio. Guatemala City: CEH.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mam-diaspora",
+      "branch_id": "mamean",
+      "date": "1990s onward",
+      "type": "CONTACT",
+      "title": "Migration north",
+      "description": "Mam speakers migrate in large numbers to Mexico and the United States, carrying the language into new communities where interpreters in courts and hospitals are scarce.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
