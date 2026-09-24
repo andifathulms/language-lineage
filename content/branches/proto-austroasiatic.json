@@ -1,0 +1,69 @@
+{
+  "id": "proto-austroasiatic",
+  "family": "austroasiatic",
+  "name": "Proto-Austroasiatic",
+  "parent_ids": [],
+  "successor_ids": ["munda", "khasian", "vietic", "khmeric", "monic", "aslian", "nicobarese"],
+  "era": "c. 2500 – 2000 BCE (reconstructed; dating debated)",
+  "region": "Probably the middle Mekong basin of mainland Southeast Asia; southern China has also been proposed",
+  "defining_innovation": "The reconstructed ancestor of about a dozen primary branches, with 'sesquisyllabic' words (a light minor syllable before a stressed main syllable) and word-building infixes. *mat 'eye' survives as Vietnamese mắt, Mon mat and Santali met.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Austroasiatic words typically had one full stressed syllable, often preceded by a light 'minor' syllable. Linguists call this a *sesquisyllable*, 'one and a half syllables'. New words were built with prefixes and infixes, such as a causative `*p-` and a nominalising `*-n-` inserted into the root. Basic vocabulary is still recognisable across the family: `*mat` 'eye' is Vietnamese *mắt*, Mon *mat* and Santali *met*.\n\nThe homeland is usually sought in the river valleys of mainland Southeast Asia. Paul Sidwell and Roger Blench argued for the middle Mekong, with the family spreading along rivers around 2000 BCE. Others, pointing to the rice-farming vocabulary, look further north, to the Yangtze region of southern China. Later expansions of Chinese, Tai, Burmese and Malay broke the Austroasiatic area into scattered pieces."
+    },
+    {
+      "title": "A Rake, Not a Tree",
+      "body": "The family has about a dozen primary branches, and their mutual relationships are unclear. The traditional view divided it into **Munda** in India and **Mon-Khmer** for everything else, but recent comparative work finds no good evidence for a Mon-Khmer ancestor. This tree therefore draws seven of the best-known branches growing from one fork: Munda, Khasian, Vietic, Khmeric, Monic, Aslian and Nicobarese. Palaungic, Khmuic, Katuic, Bahnaric, Pearic, Pakanic and Mangic are not yet drawn."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-paa-dispersal",
+      "branch_id": "proto-austroasiatic",
+      "date": "c. 2500 – 2000 BCE",
+      "type": "SPLIT",
+      "title": "Along the rivers",
+      "description": "Austroasiatic-speaking rice farmers spread along the rivers of mainland Southeast Asia, and the branches diverge quickly. The speed of the spread may explain why the internal structure is so flat. The homeland and date are disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sidwell, Paul & Roger Blench. 2011. The Austroasiatic Urheimat: The southeastern riverine hypothesis. In Dynamics of Human Diversity, ed. N. J. Enfield. Canberra: Pacific Linguistics.", "url": null },
+        {
+          "citation": "Diffloth, Gérard. 2005. The contribution of linguistic palaeontology to the homeland of Austro-Asiatic. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-mon-khmer",
+      "branch_id": "proto-austroasiatic",
+      "proposed_grouping": "Mon-Khmer: every Austroasiatic branch except Munda descends from one intermediate ancestor",
+      "status": "minority_position",
+      "evidence_for": "Munda differs strikingly from the rest: it has verb-final word order, complex verb morphology and few sesquisyllabic words, while the mainland branches share much vocabulary. For most of the 20th century the family was divided this way.",
+      "evidence_against": "Munda's differences are largely the result of restructuring under contact with Indo-Aryan and Dravidian in India, not evidence of an early split. Sidwell's comparative work finds no innovations shared by all the non-Munda branches alone. Most specialists now treat Munda as one branch among a dozen.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null },
+        { "citation": "Shorto, Harry L. 2006. A Mon-Khmer Comparative Dictionary, ed. Paul Sidwell. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-austric-from-aa",
+      "branch_id": "proto-austroasiatic",
+      "proposed_grouping": "Austric: Austroasiatic and Austronesian share an ancestor",
+      "status": "minority_position",
+      "evidence_for": "The two families share word-building morphology, such as a causative in *p-* and infixes in *-m-* and *-n-*, and some basic words, such as Austroasiatic `*mat` beside Austronesian `*mata` 'eye'. Schmidt proposed the grouping in 1906, and Reid has defended the morphological case. The Austronesian tree records the same debate from the other side.",
+      "evidence_against": "Few regular sound correspondences have been shown, the shared words are few and short, and the morphological parallels also occur in unrelated languages. The two families were neighbours for millennia, so contact could explain some similarities. Most specialists regard Austric as unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        {
+          "citation": "Reid, Lawrence A. 2005. The current status of Austric: A review and evaluation of the lexical and morphosyntactic evidence. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
