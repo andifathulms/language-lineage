@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { geoCentroid, geoEqualEarth, geoPath } from "d3-geo";
+import { geoArea, geoCentroid, geoEqualEarth, geoPath } from "d3-geo";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import countries from "i18n-iso-countries";
 import { feature } from "topojson-client";
@@ -23,7 +23,16 @@ function load(file: string): Country[] {
 
 let cache: { coarse: Country[]; fine: Map<string, Country> } | null = null;
 function atlas() {
-  if (!cache) cache = { coarse: load("countries-110m.json"), fine: new Map(load("countries-50m.json").map((f) => [String(f.id), f])) };
+  if (!cache) {
+    // Some dependencies share their state's id (Ashmore and Cartier Islands carry Australia's 036):
+    // keep the largest shape per id so a speck of reef never stands in for the country.
+    const fine = new Map<string, Country>();
+    for (const f of load("countries-50m.json")) {
+      const prev = fine.get(String(f.id));
+      if (!prev || geoArea(f) > geoArea(prev)) fine.set(String(f.id), f);
+    }
+    cache = { coarse: load("countries-110m.json"), fine };
+  }
   return cache;
 }
 
