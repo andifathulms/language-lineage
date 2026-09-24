@@ -413,7 +413,9 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
               !n.isLeaf || !first
                 ? null
                 : !rest.length
-                  ? first
+                  ? first.length <= 14
+                    ? first
+                    : null
                   : first.length <= 14
                     ? `${first} +${rest.length}`
                     : `${n.descendants.length} languages`;
