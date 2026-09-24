@@ -1,0 +1,47 @@
+{
+  "id": "south-dravidian",
+  "family": "dravidian",
+  "name": "South Dravidian",
+  "parent_ids": ["proto-dravidian"],
+  "successor_ids": ["south-central-dravidian", "south-dravidian-i"],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Southern and south-central India",
+  "defining_innovation": "Krishnamurti's grouping of South-Central Dravidian (Telugu, Gondi) with South Dravidian I (Tamil, Kannada, Malayalam, Tulu), on shared changes in the vowels and in verb and pronoun morphology.",
+  "descendants": ["Tamil", "Telugu", "Kannada", "Malayalam", "Gondi", "Tulu"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "South Dravidian takes in all four of the great literary Dravidian languages (Tamil, Telugu, Kannada and Malayalam) and more than 90 per cent of Dravidian speakers. Krishnamurti argued that South-Central Dravidian, the branch of Telugu and Gondi, shares an ancestor with South Dravidian I, the branch of Tamil and Kannada. Others see South-Central as closer to the Central languages, or as a bridge between them. That alternative appears on the tree as a dotted arc between Central and South-Central.\n\nBy the last centuries BCE, South Dravidian speakers were living in the kingdoms of the far south, and their languages begin to appear in inscriptions and poetry."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-south-dravidian-split",
+      "branch_id": "south-dravidian",
+      "date": "c. 1100 BCE",
+      "type": "SPLIT",
+      "title": "South-Central and South Dravidian I part",
+      "description": "South Dravidian divides into South-Central Dravidian (Telugu, Gondi, Kui) and South Dravidian I (Tamil, Kannada, Malayalam, Tulu). Krishnamurti's date is approximate, and the grouping itself is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-south-central-with-central",
+      "branch_id": "south-dravidian",
+      "proposed_grouping": "South-Central with Central: Telugu, Gondi and Kui belong with the Central Dravidian languages, not with Tamil and Kannada",
+      "status": "minority_position",
+      "evidence_for": "South-Central and Central languages are neighbours across central India and share a number of features. Some earlier classifications, and some lexicostatistical studies, put them together.",
+      "evidence_against": "Krishnamurti identified innovations, such as changes in the vowel system and in the forms of pronouns and verbs, that South-Central shares only with South Dravidian I. Features shared with Central Dravidian can be explained as contact between neighbours. Most recent classifications follow Krishnamurti.",
+      "linked_branch_ids": ["central-dravidian", "south-central-dravidian"],
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Kolipakam, Vishnupriya, et al. 2018. A Bayesian phylogenetic study of the Dravidian language family. Royal Society Open Science 5.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
