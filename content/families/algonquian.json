@@ -1,0 +1,13 @@
+{
+  "slug": "algonquian",
+  "name": "Algonquian",
+  "superfamily": "Algic",
+  "summary": "About thirty languages once spoken from the Atlantic coast to the Rocky Mountains and from Hudson Bay to the Carolinas, including Cree, Ojibwe, Blackfoot, Cheyenne, Mi'kmaq and Massachusett. English took many of its first American words from them: moose, skunk, moccasin, raccoon, squash. Algonquian was also where Leonard Bloomfield showed that the comparative method works as well for unwritten languages as for Latin and Greek.",
+  "root_branch_id": "proto-algonquian",
+  "buried_root": { "name": "Proto-Algic", "note": "buried root · with Wiyot and Yurok of California", "proven": true },
+  "accent": { "light": "24 108 72", "dark": "120 204 160" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Algonquian-Blackfoot (algo1256).", "url": "https://glottolog.org/resource/languoid/id/algo1256" },
+    { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+  ]
+}
