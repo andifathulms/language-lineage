@@ -1,0 +1,13 @@
+{
+  "slug": "mayan",
+  "name": "Mayan",
+  "superfamily": null,
+  "summary": "About thirty languages spoken by some six million people in southern Mexico, Guatemala and Belize, from Huastec on the Gulf coast to K'iche' in the Guatemalan highlands. Mayan speakers built the Classic Maya cities and wrote the only fully deciphered script native to the Americas. The languages survived conquest, colonial rule and civil war, and today they are official national languages in both Mexico and Guatemala.",
+  "root_branch_id": "proto-mayan",
+  "buried_root": { "name": "No proven deeper root", "note": "Macro-Mayan? · disputed", "proven": false },
+  "accent": { "light": "66 58 152", "dark": "160 152 236" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Mayan (maya1287).", "url": "https://glottolog.org/resource/languoid/id/maya1287" },
+    { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+  ]
+}
