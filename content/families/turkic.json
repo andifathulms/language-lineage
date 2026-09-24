@@ -1,0 +1,13 @@
+{
+  "slug": "turkic",
+  "name": "Turkic",
+  "superfamily": null,
+  "summary": "About thirty-five closely related languages, from Turkish on the Mediterranean to Sakha in the Arctic. The family was carried across Eurasia by steppe empires and nomadic confederations. It includes Turkish, Azerbaijani, Uzbek, Kazakh, Uyghur, Tatar and Chuvash, and its oldest texts are 8th-century runic inscriptions in Mongolia. Its languages remain unusually similar to one another, and whether it has deeper relatives is one of the most heated disputes in the field.",
+  "root_branch_id": "proto-turkic",
+  "buried_root": { "name": "No proven deeper root", "note": "Altaic? Transeurasian? · disputed", "proven": false },
+  "accent": { "light": "44 98 92", "dark": "118 186 174" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Turkic (turk1311).", "url": "https://glottolog.org/resource/languoid/id/turk1311" },
+    { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
