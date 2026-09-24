@@ -1,0 +1,117 @@
+{
+  "id": "sabaki",
+  "family": "bantu",
+  "name": "Sabaki",
+  "parent_ids": ["eastern-bantu"],
+  "successor_ids": [],
+  "era": "c. 500 CE – present",
+  "region": "The East African coast from southern Somalia to northern Mozambique, and the Comoros; through Swahili, much of East and Central Africa",
+  "defining_innovation": "The coastal group that includes Swahili, Comorian, Mijikenda and Pokomo, named after the Sabaki river in Kenya. Swahili lost *l between vowels in many words (*-lɪla 'cry' → -lia).",
+  "descendants": ["Swahili", "Comorian", "Mijikenda", "Pokomo"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Sabaki languages developed on the coast of what is now Kenya in the second half of the first millennium CE, among farming and fishing communities. Swahili (*Kiswahili*, from Arabic *sawāḥil* 'coasts') grew up in the trading towns that multiplied along the coast from Mogadishu to Kilwa and in the Comoros. It is a Bantu language through and through, close to Mijikenda and Comorian in grammar and basic vocabulary."
+    },
+    {
+      "title": "An Indian Ocean Language",
+      "body": "The coastal towns traded across the Indian Ocean with Arabia, Persia, India and beyond, and Swahili absorbed a large layer of Arabic vocabulary together with Persian, Hindi and later Portuguese words, such as *kitabu* 'book', *saa* 'hour' and *meza* 'table'. For centuries it was written in Arabic script. The oldest dated manuscript, the epic *Utendi wa Tambuka*, is from 1728. Across the channel, Comorian and the Bantu speakers of northwest Madagascar were in contact with Malagasy, the Austronesian language of Madagascar recorded on the Austronesian tree."
+    },
+    {
+      "title": "Language of a Region",
+      "body": "In the 19th century Swahili spread inland along caravan routes to the Great Lakes and the Congo, and German and British colonial administrations used it (now in Latin letters) as a language of government. After independence **Julius Nyerere** made Swahili the national language of Tanzania and a pillar of nation-building. He translated Shakespeare into it himself. Today Swahili has perhaps 100 million or more speakers, most of them second-language users, and it is an official language of the African Union."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sabaki-coast",
+      "branch_id": "sabaki",
+      "date": "c. 500 – 800 CE",
+      "type": "SPLIT",
+      "title": "Sabaki on the coast",
+      "description": "The ancestors of the Sabaki languages settle the Kenyan coast and separate from their inland Eastern Bantu relatives. Swahili develops in the coastal towns.",
+      "contested": false,
+      "sources": [
+        { "citation": "Nurse, Derek & Thomas Spear. 1985. The Swahili: Reconstructing the History and Language of an African Society, 800–1500. Philadelphia: University of Pennsylvania Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-swahili-l-loss",
+      "branch_id": "sabaki",
+      "date": "c. 1st millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Swahili loses *l between vowels",
+      "description": "In many Swahili words, Proto-Bantu `*l` between vowels disappears: `*-lɪla` 'cry' → *-lia*. The change helps separate Swahili from its closest Sabaki relatives.",
+      "contested": false,
+      "process": "loss",
+      "notation": "*l → ∅ / V_V (*-lɪla → -lia 'cry')",
+      "sort_year": 800,
+      "sources": [
+        { "citation": "Nurse, Derek & Thomas J. Hinnebusch. 1993. Swahili and Sabaki: A Linguistic History. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-indian-ocean-contact",
+      "branch_id": "sabaki",
+      "date": "9th century CE onward",
+      "type": "CONTACT",
+      "title": "Indian Ocean trade",
+      "description": "Trade with Arabia, Persia and India, and the spread of Islam along the coast, bring a large Arabic vocabulary into Swahili, together with Persian, Indian and later Portuguese words.",
+      "contested": false,
+      "sources": [
+        { "citation": "Nurse, Derek & Thomas Spear. 1985. The Swahili: Reconstructing the History and Language of an African Society, 800–1500. Philadelphia: University of Pennsylvania Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-swahili-ajami",
+      "branch_id": "sabaki",
+      "date": "1728",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Swahili in Arabic script",
+      "description": "The epic *Utendi wa Tambuka* is copied in 1728, the oldest dated Swahili manuscript, in Arabic script adapted for Swahili sounds. Latin script replaces it under colonial rule.",
+      "contested": false,
+      "sources": [
+        { "citation": "Nurse, Derek & Thomas Spear. 1985. The Swahili: Reconstructing the History and Language of an African Society, 800–1500. Philadelphia: University of Pennsylvania Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-swahili-caravans",
+      "branch_id": "sabaki",
+      "date": "19th century",
+      "type": "CONTACT",
+      "title": "Along the caravan routes",
+      "description": "Coastal traders carry Swahili inland to the Great Lakes and the eastern Congo, where it becomes a lingua franca of trade and later of colonial administration.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-swahili-national",
+      "branch_id": "sabaki",
+      "date": "1960s onward",
+      "type": "REVITALIZATION",
+      "title": "A national language",
+      "description": "Under Nyerere, Swahili becomes the national language of Tanzania, used in government and primary education, and it becomes an official language of Kenya and later of the African Union.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-swahili-mixed",
+      "branch_id": "sabaki",
+      "proposed_grouping": "Swahili as a mixed Arabic–Bantu language: Swahili arose from Arab settlers and is not simply a Bantu language",
+      "status": "largely_rejected",
+      "evidence_for": "The large Arabic vocabulary, the Islamic culture of the coastal towns and the Arabic-script literature led colonial-era writers, and some coastal traditions, to describe Swahili as the product of Arab colonisation.",
+      "evidence_against": "Swahili's grammar, noun classes and core vocabulary are Bantu and match its Sabaki relatives closely. The Arabic words are loans concentrated in religion, trade and learned vocabulary. Nurse and Spear showed that the Swahili towns grew out of local African communities.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Nurse, Derek & Thomas Spear. 1985. The Swahili: Reconstructing the History and Language of an African Society, 800–1500. Philadelphia: University of Pennsylvania Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["julius-nyerere"]
+}

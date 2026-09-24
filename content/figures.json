@@ -187,5 +187,12 @@
     "lifespan": "reigned c. 320s–360s",
     "branch_ids": ["ethiosemitic"],
     "turning_point_ids": ["tp-geez-script"]
+  },
+  {
+    "id": "julius-nyerere",
+    "name": "Julius Nyerere",
+    "lifespan": "1922–1999",
+    "branch_ids": ["sabaki"],
+    "turning_point_ids": ["tp-swahili-national"]
   }
 ]
