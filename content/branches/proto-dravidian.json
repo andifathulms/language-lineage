@@ -1,0 +1,67 @@
+{
+  "id": "proto-dravidian",
+  "family": "dravidian",
+  "name": "Proto-Dravidian",
+  "parent_ids": [],
+  "successor_ids": ["north-dravidian", "central-dravidian", "south-dravidian"],
+  "era": "c. 3rd millennium BCE (reconstructed; dating debated)",
+  "region": "Probably peninsular or central India; a northwestern origin has also been proposed",
+  "defining_innovation": "The reconstructed ancestor of about eighty languages, with a contrast between dental, alveolar and retroflex consonants and agglutinative, suffix-only morphology: *kaṇ 'eye', Tamil kaṇ, Telugu kannu.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Dravidian has been reconstructed from about eighty languages, largely through Thomas Burrow and Murray Emeneau's *Dravidian Etymological Dictionary* and Bhadriraju Krishnamurti's comparative grammar. Its speakers had words for farming, cattle, and village life. It had an unusual three-way contrast of consonants made with the tongue at the teeth, the gum ridge and curled back (retroflex), as in *ṇ* and *ḷ*. It built words only by adding suffixes: Tamil *kaṇ-kaḷ-il* 'in the eyes'.\n\nWhere and when it was spoken is uncertain. A computational study (Kolipakam et al. 2018) dated the family to about 4,500 years ago. Some scholars place the homeland in the south or centre of the peninsula, others in the northwest. The idea that the Indus Valley civilisation (c. 2600–1900 BCE) spoke a Dravidian language, argued especially by Asko Parpola and Iravatham Mahadevan, cannot be tested until the Indus script is deciphered, if it ever is."
+    },
+    {
+      "title": "A Family Recognised",
+      "body": "In 1816 the British administrator Francis Whyte Ellis showed that Telugu, Tamil, Kannada and Malayalam were related to one another and not descended from Sanskrit, as many assumed. Robert Caldwell's *Comparative Grammar of the Dravidian or South-Indian Family of Languages* (1856) established the family and its name, from Sanskrit *drāviḍa*, originally a name for the Tamil country."
+    },
+    {
+      "title": "The Branches",
+      "body": "Following Krishnamurti, Dravidian has four subgroups. **North Dravidian** (Kurukh, Malto, and Brahui in Pakistan) and **Central Dravidian** (Kolami, Parji, Gadaba) are spoken by small, mostly tribal communities in central and eastern India. **South-Central Dravidian** (Telugu, Gondi, Kui) and **South Dravidian I** (Tamil, Malayalam, Kannada, Tulu) share a common South Dravidian ancestor, although the position of South-Central is disputed."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pd-breakup",
+      "branch_id": "proto-dravidian",
+      "date": "c. 3rd millennium BCE",
+      "type": "SPLIT",
+      "title": "Proto-Dravidian breaks up",
+      "description": "North, Central and South Dravidian begin to diverge. The date, around 2500 BCE in Bayesian estimates, and the homeland are both disputed. The Indus civilisation question hangs over any answer.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kolipakam, Vishnupriya, et al. 2018. A Bayesian phylogenetic study of the Dravidian language family. Royal Society Open Science 5.", "url": null },
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-indo-aryan-contact",
+      "branch_id": "proto-dravidian",
+      "date": "c. 1500 – 500 BCE",
+      "type": "CONTACT",
+      "title": "Meeting Indo-Aryan",
+      "description": "As Indo-Aryan speakers move into northern India, the two families meet. Proposed Dravidian loanwords appear in Vedic Sanskrit, and Sanskrit's retroflex consonants are often attributed to a Dravidian substrate. Emeneau made this the classic case of South Asia as a linguistic area. How much of the evidence is borrowing and how much independent development is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Emeneau, Murray B. 1956. India as a linguistic area. Language 32(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-elamo-dravidian",
+      "branch_id": "proto-dravidian",
+      "proposed_grouping": "Elamo-Dravidian: Dravidian is related to Elamite, the extinct language of ancient southwestern Iran",
+      "status": "minority_position",
+      "evidence_for": "David McAlpin (1981) proposed sound correspondences and shared suffixes between Elamite and Proto-Dravidian. A link would fit a western origin for Dravidian and the presence of Brahui in Balochistan.",
+      "evidence_against": "Elamite is poorly understood and known only from cuneiform texts, and the proposed cognates are few and often semantically loose. Krishnamurti and others found the correspondences unconvincing. The proposal is still cited but not accepted.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "McAlpin, David W. 1981. Proto-Elamo-Dravidian: The Evidence and Its Implications. Philadelphia: American Philosophical Society.", "url": null },
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
