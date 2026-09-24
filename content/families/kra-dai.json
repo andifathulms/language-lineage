@@ -1,0 +1,13 @@
+{
+  "slug": "kra-dai",
+  "name": "Kra-Dai",
+  "superfamily": null,
+  "summary": "About 90 languages of southern China and mainland Southeast Asia, including Thai, Lao, Shan and Zhuang, the largest minority language of China. The family is also called Tai-Kadai. Its speakers spread from the hills of Guangxi and Guangdong southwest into Laos, Thailand and Myanmar about a thousand years ago. Tonal and isolating on the surface, its deepest vocabulary points to a relationship with Austronesian that is still debated.",
+  "root_branch_id": "proto-kra-dai",
+  "buried_root": { "name": "No proven deeper root", "note": "Austro-Tai? · disputed", "proven": false },
+  "accent": { "light": "40 114 36", "dark": "136 206 130" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Tai-Kadai (taik1256).", "url": "https://glottolog.org/resource/languoid/id/taik1256" },
+    { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+  ]
+}
