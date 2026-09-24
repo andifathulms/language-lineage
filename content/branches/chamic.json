@@ -1,0 +1,117 @@
+{
+  "id": "chamic",
+  "family": "austronesian",
+  "name": "Chamic",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Coastal south-central Vietnam and its Central Highlands, Cambodia, northern Sumatra (Aceh) and the southern tip of Hainan Island",
+  "defining_innovation": "The only Austronesian group to settle on the Southeast Asian mainland. Long contact with Mon-Khmer neighbours reshaped its words towards one stressed final syllable, with reduced first syllables, voice register and, in places, tone.",
+  "descendants": ["Eastern Cham", "Western Cham", "Jarai", "Rade", "Roglai", "Chru", "Acehnese", "Tsat"],
+  "chapters": [
+    {
+      "title": "The Languages of Champa",
+      "body": "The Chamic languages descend from the language of Austronesian seafarers who settled the coast of what is now central Vietnam, probably in the last centuries BCE. Their nearest relatives are the Malayic languages of Borneo and Sumatra, and most scholars think the ancestors of the Cham sailed from Borneo; the Sa Huỳnh culture of the Vietnamese coast is often, though not certainly, linked with them.\n\nFrom around the 2nd century CE Chinese sources describe a kingdom on this coast, later known as **Champa**. It was a Hindu and later partly Muslim state of trading ports and temples, whose rulers left inscriptions in Sanskrit and Old Cham. Champa was pushed steadily south by the Vietnamese, losing its capital Vijaya in 1471; its last principality, Panduranga, was absorbed in 1832.\n\nToday Chamic has two main parts. On the coast and in Cambodia are the Cham themselves. In the Central Highlands, Jarai, Rade, Roglai, Chru and Haroi are spoken by upland peoples who probably moved inland from the coast long ago. Two outliers lie far away: **Acehnese**, with more than three million speakers in northern Sumatra, and **Tsat**, spoken by a few thousand Muslims near Sanya on Hainan, whose ancestors seem to have come from Champa around the 10th century."
+    },
+    {
+      "title": "Reshaped by Mainland Neighbours",
+      "body": "For two thousand years Chamic speakers have lived among speakers of Mon-Khmer languages such as Bahnar, Koho and Khmer, and later Vietnamese. The result is one of the clearest cases of contact-induced change in the family. Graham Thurgood, who reconstructed Proto-Chamic, showed how an ordinary Malayo-Polynesian language, with two-syllable words stressed near the end, became typologically mainland Southeast Asian.\n\nStress settled on the final syllable, and the first syllable was weakened or lost, so that many words took the 'one and a half syllable' shape common in Mon-Khmer. Voiced stops lost their voicing in several languages but left their mark on the following vowel as a breathy 'low' register, as in many Mon-Khmer languages. Eastern (Phan Rang) Cham has moved from register towards pitch, and Tsat, surrounded by Chinese and Hlai on Hainan, has become a fully tonal language with five tones.\n\nThe highland languages also borrowed heavily from their Bahnaric neighbours, so that Jarai and Rade contain much Mon-Khmer vocabulary alongside inherited words. Acehnese has Mon-Khmer loanwords as well, which shows that its speakers left the mainland only after these contacts had begun."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 5 million",
+    "vitality": "mixed",
+    "note": "About 3.5 million speak Acehnese; the Chamic peoples of Vietnam number about 1.3 million (2019 census) and the Cham of Cambodia some hundreds of thousands. Tsat has only a few thousand speakers and several highland languages are declining in favour of Vietnamese.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "General Statistics Office of Vietnam. 2020. Completed Results of the 2019 Viet Nam Population and Housing Census. Hanoi: Statistical Publishing House.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IDN", "name": "Indonesia", "speakers": "c. 3.5 million" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 1–1.3 million" },
+    { "iso": "KHM", "name": "Cambodia", "speakers": "c. 300,000" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 4,000" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-chamic-mainland",
+      "branch_id": "chamic",
+      "date": "c. late 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Landfall on the mainland",
+      "description": "Austronesian speakers, most likely from Borneo, settle the coast of central Vietnam. The date rests on archaeology and the depth of Chamic diversity; the link with the Sa Huỳnh culture is widely assumed but not proven.",
+      "contested": true,
+      "sources": [
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dong-yen-chau",
+      "branch_id": "chamic",
+      "date": "c. 4th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Đông Yên Châu inscription",
+      "description": "A short stone inscription near Trà Kiệu, in an Indian script, is the oldest known text in any Austronesian language. Its date comes from the style of the letters, so it is approximate. Cham continued to be written in Indic-derived scripts, of which the modern *akhar thrah* is a descendant.",
+      "contested": true,
+      "sources": [
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chamic-mon-khmer",
+      "branch_id": "chamic",
+      "date": "1st – 2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Mon-Khmer restructuring",
+      "description": "Under long contact with Bahnaric, Katuic and Khmer, the Chamic languages shift to final-syllable stress, reduce their first syllables and develop voice register, and later, in Eastern Cham and Tsat, tone.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham. 1996. Language contact and the directionality of internal drift: The development of tones and registers in Chamic. Language 72(1).", "url": null },
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-acehnese-sumatra",
+      "branch_id": "chamic",
+      "date": "late 1st – mid 2nd millennium CE",
+      "type": "SPLIT",
+      "title": "Acehnese to Sumatra",
+      "description": "A Chamic-speaking group settles at the northern tip of Sumatra. Its Mon-Khmer loanwords show that it left the mainland after the contact period had begun, but estimates of the date range from before 1000 CE to after the fall of Vijaya in 1471.",
+      "contested": true,
+      "sources": [
+        { "citation": "Durie, Mark. 1985. A Grammar of Acehnese on the Basis of a Dialect of North Aceh. Dordrecht: Foris.", "url": null },
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-fall-of-vijaya",
+      "branch_id": "chamic",
+      "date": "1471",
+      "type": "SPLIT",
+      "title": "Fall of Vijaya",
+      "description": "Đại Việt captures Champa's capital Vijaya. Many Cham move west into Cambodia over the following centuries, and their speech develops into Western Cham, now largely Muslim and apart from the Eastern Cham of the Vietnamese coast.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-malayo-chamic",
+      "branch_id": "chamic",
+      "proposed_grouping": "Malayo-Chamic: Chamic and Malayic share an ancestor that no other group shares",
+      "status": "widely_accepted",
+      "evidence_for": "Chamic and Malayic share sound changes and a large body of vocabulary, and Proto-Chamic as reconstructed by Thurgood looks like a close sister of Proto-Malayic. Both Blust, who places the pair inside his Greater North Borneo subgroup, and Adelaar, who places it inside Malayo-Sumbawan, treat Chamic as Malayic's nearest relative.",
+      "evidence_against": "Malay was the trade language of the whole region for centuries, so some shared words may be loans rather than inheritance, and sorting the two is hard. The wider groupings that would contain Malayo-Chamic are themselves unsettled, and some scholars prefer to leave Chamic as a separate branch of Malayo-Polynesian whose exact attachment is open.",
+      "linked_branch_ids": ["malayic"],
+      "sources": [
+        { "citation": "Thurgood, Graham. 1999. From Ancient Cham to Modern Dialects: Two Thousand Years of Language Contact and Change. Oceanic Linguistics Special Publication 28. Honolulu: University of Hawai'i Press.", "url": null },
+        { "citation": "Blust, Robert. 2010. The Greater North Borneo hypothesis. Oceanic Linguistics 49(1).", "url": null },
+        { "citation": "Adelaar, K. Alexander. 2005. Malayo-Sumbawan. Oceanic Linguistics 44(2).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
