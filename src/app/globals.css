@@ -153,7 +153,7 @@
     @apply decoration-accent/40;
   }
   /* Opening paragraph of a branch: a gently larger lede. */
-  .prose-lede > p:first-child {
+  .prose-lede .prose-grown > p:first-child {
     @apply text-[1.2rem] leading-[1.7] text-bark;
   }
 

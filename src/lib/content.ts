@@ -52,6 +52,38 @@ export function getBranch(id: string): Branch | undefined {
   return load().branches.find((b) => b.id === id);
 }
 
+/** Parents before children, siblings in content order: the spine as a list. */
+export function spineOrder(familySlug: string): Branch[] {
+  const branches = getBranches(familySlug);
+  const rootId = getFamily(familySlug)?.root_branch_id ?? "";
+  const byId = new Map(branches.map((b) => [b.id, b]));
+  const out: Branch[] = [];
+  const seen = new Set<string>();
+  const visit = (id: string) => {
+    const b = byId.get(id);
+    if (!b || seen.has(id) || b.parent_ids.some((p) => byId.has(p) && !seen.has(p))) return;
+    seen.add(id);
+    out.push(b);
+    b.successor_ids.forEach(visit);
+  };
+  visit(rootId);
+  branches.forEach((b) => !seen.has(b.id) && out.push(b));
+  return out;
+}
+
+/** First-parent chain from the root down to (not including) this branch. */
+export function ancestry(branch: Branch): Branch[] {
+  const chain: Branch[] = [];
+  const seen = new Set<string>([branch.id]);
+  let cur = branch.parent_ids.map(getBranch).find(Boolean);
+  while (cur && !seen.has(cur.id)) {
+    seen.add(cur.id);
+    chain.unshift(cur);
+    cur = cur.parent_ids.map(getBranch).find(Boolean);
+  }
+  return chain;
+}
+
 export function getFigures(): Figure[] {
   return load().figures;
 }

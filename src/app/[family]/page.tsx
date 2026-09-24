@@ -6,7 +6,7 @@ import { FamilyAccent } from "@/components/FamilyAccent";
 import { LineageTree } from "@/components/LineageTree";
 import { Pager } from "@/components/Pager";
 import { TreeLegend } from "@/components/TreeLegend";
-import { familyStats, getBranches, getFamilies, getFamily } from "@/lib/content";
+import { familyStats, getBranches, getFamilies, getFamily, spineOrder } from "@/lib/content";
 import type { TreeBranchInput, TreeClassificationInput } from "@/lib/treeLayout";
 import type { Branch } from "@/lib/types";
 
@@ -21,23 +21,6 @@ export function generateMetadata({ params }: { params: { family: string } }): Me
   return family ? { title: `${family.name} tree`, description: family.summary } : {};
 }
 
-/** Parents before children, siblings in content order: the spine as a list. */
-function spineOrder(branches: Branch[], rootId: string): Branch[] {
-  const byId = new Map(branches.map((b) => [b.id, b]));
-  const out: Branch[] = [];
-  const seen = new Set<string>();
-  const visit = (id: string) => {
-    const b = byId.get(id);
-    if (!b || seen.has(id) || b.parent_ids.some((p) => byId.has(p) && !seen.has(p))) return;
-    seen.add(id);
-    out.push(b);
-    b.successor_ids.forEach(visit);
-  };
-  visit(rootId);
-  branches.forEach((b) => !seen.has(b.id) && out.push(b));
-  return out;
-}
-
 function depthOf(id: string, byId: Map<string, Branch>): number {
   const parents = byId.get(id)?.parent_ids.filter((p) => byId.has(p)) ?? [];
   return parents.length ? 1 + Math.max(...parents.map((p) => depthOf(p, byId))) : 0;
@@ -47,7 +30,7 @@ export default function FamilyPage({ params }: { params: { family: string } }) {
   const family = getFamily(params.family);
   if (!family) notFound();
   const branches = getBranches(family.slug);
-  const spine = spineOrder(branches, family.root_branch_id);
+  const spine = spineOrder(family.slug);
   const byId = new Map(branches.map((b) => [b.id, b]));
 
   const treeBranches: TreeBranchInput[] = branches.map((b) => ({

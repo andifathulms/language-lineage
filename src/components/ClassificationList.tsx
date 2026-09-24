@@ -24,7 +24,7 @@ export function ClassificationList({
           <li
             key={c.id}
             id={c.id}
-            className="scroll-mt-24 rounded-[3px] border-2 border-dashed border-accent/45 bg-accent/[0.03] p-5 sm:p-6"
+            className="scroll-mt-24 rounded-[10px] border-2 border-dashed border-accent/40 bg-accent/[0.03] p-5 sm:p-7"
           >
             <ConfidenceRings status={c.status} />
             <h3 className="mt-3 text-2xl font-semibold leading-snug">{name}</h3>
@@ -40,14 +40,14 @@ export function ClassificationList({
                 ))}
               </p>
             )}
-            <div className="mt-5 grid gap-6 md:grid-cols-2">
-              <div>
+            <div className="mt-6 grid gap-6 md:grid-cols-2">
+              <div className="border-t-2 border-moss/50 pt-3">
                 <h4 className="font-label text-[0.7rem] font-medium uppercase tracking-[0.14em] text-moss">Evidence for</h4>
                 <p className="mt-2 leading-relaxed">
                   <InlineMarkdown>{c.evidence_for}</InlineMarkdown>
                 </p>
               </div>
-              <div>
+              <div className="border-t-2 border-accent/50 pt-3">
                 <h4 className="font-label text-[0.7rem] font-medium uppercase tracking-[0.14em] text-accent">
                   Evidence against
                 </h4>
