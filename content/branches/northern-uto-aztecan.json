@@ -1,0 +1,47 @@
+{
+  "id": "northern-uto-aztecan",
+  "family": "uto-aztecan",
+  "name": "Northern Uto-Aztecan",
+  "parent_ids": ["proto-uto-aztecan"],
+  "successor_ids": ["numic", "hopi", "takic"],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "The Great Basin, southern California, the Colorado Plateau and the southern Plains",
+  "defining_innovation": "The Uto-Aztecan languages of the United States (Numic, Hopi, Takic and Tübatulabal), grouped together in most classifications, though whether they share an ancestor is disputed.",
+  "descendants": ["Shoshone", "Comanche", "Paiute", "Ute", "Hopi", "Luiseño", "Cahuilla"],
+  "chapters": [
+    {
+      "title": "A Grouping in Question",
+      "body": "The Northern Uto-Aztecan languages are spread from the deserts of southern California across the Great Basin and onto the Colorado Plateau, and, through the Comanche, onto the southern Plains. Their speakers ranged from Great Basin foragers to the maize-farming Hopi of the Arizona mesas.\n\nWhether they form a genuine branch is disputed. Wick Miller's lexical counts grouped them together, but critics argue that they are simply the northern branches that stayed close to one another, sharing features through contact."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-north-ua-split",
+      "branch_id": "northern-uto-aztecan",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Numic, Hopi and Takic diverge",
+      "description": "The northern Uto-Aztecan languages separate into Numic in the Great Basin, Hopi on the Colorado Plateau and Takic in southern California. The dates are rough estimates.",
+      "contested": true,
+      "sources": [
+        { "citation": "Miller, Wick R. 1984. The classification of the Uto-Aztecan languages based on lexical evidence. International Journal of American Linguistics 50(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-northern-uto-aztecan",
+      "branch_id": "northern-uto-aztecan",
+      "proposed_grouping": "Northern Uto-Aztecan: Numic, Hopi, Takic and Tübatulabal share one ancestor within the family",
+      "status": "widely_accepted",
+      "evidence_for": "Lexical studies such as Miller's (1984) group these languages together, and most classifications, including Glottolog, draw a Northern branch.",
+      "evidence_against": "Few sound changes are shared by all four and no others, and several scholars see the shared vocabulary as the result of long contact among neighbours in the American West. Some treat the northern groups as separate branches of Uto-Aztecan.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Miller, Wick R. 1984. The classification of the Uto-Aztecan languages based on lexical evidence. International Journal of American Linguistics 50(1).", "url": null },
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
