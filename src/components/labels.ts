@@ -1,4 +1,4 @@
-import type { ClassificationStatus, SoundProcess, TurningPointType } from "@/lib/types";
+import type { ClassificationStatus, SoundProcess, TurningPointType, Vitality } from "@/lib/types";
 
 export const TP_LABEL: Record<TurningPointType, string> = {
   SPLIT: "Split",
@@ -62,3 +62,14 @@ export const PROCESSES: { id: SoundProcess; label: string; blurb: string }[] = [
 ];
 
 export const PROCESS_LABEL = Object.fromEntries(PROCESSES.map((p) => [p.id, p.label])) as Record<SoundProcess, string>;
+
+/** UNESCO vitality levels, worded for a general reader; `level` drives the 0–5 meter. */
+export const VITALITY: Record<Vitality, { label: string; level: number | null }> = {
+  safe: { label: "Safe", level: 5 },
+  vulnerable: { label: "Vulnerable", level: 4 },
+  definitely_endangered: { label: "Definitely endangered", level: 3 },
+  severely_endangered: { label: "Severely endangered", level: 2 },
+  critically_endangered: { label: "Critically endangered", level: 1 },
+  extinct: { label: "Extinct", level: 0 },
+  mixed: { label: "Varies by language", level: null },
+};

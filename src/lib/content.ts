@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Branch, Family, Figure, TurningPoint } from "./types";
+import type { Branch, Family, Figure, Primer, TurningPoint } from "./types";
 
 export interface SoundLawEntry {
   tp: TurningPoint;
@@ -22,7 +22,7 @@ function readJsonDir<T>(dir: string): T[] {
     .map((f) => JSON.parse(fs.readFileSync(path.join(full, f), "utf8")) as T);
 }
 
-let cache: { families: Family[]; branches: Branch[]; figures: Figure[] } | null = null;
+let cache: { families: Family[]; branches: Branch[]; figures: Figure[]; primers: Primer[] } | null = null;
 
 function load() {
   if (!cache) {
@@ -30,6 +30,9 @@ function load() {
       families: readJsonDir<Family>("families"),
       branches: readJsonDir<Branch>("branches"),
       figures: JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "figures.json"), "utf8")) as Figure[],
+      primers: fs.existsSync(path.join(CONTENT_DIR, "primers"))
+        ? readJsonDir<Primer>("primers").sort((a, b) => a.order - b.order)
+        : [],
     };
   }
   return cache;
@@ -120,4 +123,58 @@ export function getSoundLaws(): SoundLawEntry[] {
         .map((tp) => ({ tp, branch, family: families.find((f) => f.slug === branch.family)! })),
     )
     .sort((a, b) => (a.tp.sort_year ?? 0) - (b.tp.sort_year ?? 0));
+}
+
+export function getPrimers(): Primer[] {
+  return load().primers;
+}
+
+export function getPrimer(slug: string): Primer | undefined {
+  return load().primers.find((p) => p.slug === slug);
+}
+
+/** Leaf branches at or below this one: where `countries` are recorded. */
+export function leavesUnder(branch: Branch): Branch[] {
+  const out: Branch[] = [];
+  const seen = new Set<string>();
+  const visit = (b: Branch | undefined) => {
+    if (!b || seen.has(b.id)) return;
+    seen.add(b.id);
+    if (!b.successor_ids.length) out.push(b);
+    b.successor_ids.forEach((id) => visit(getBranch(id)));
+  };
+  visit(branch);
+  return out;
+}
+
+/** "c. 60 million" → 60000000. Rough, for ordering only; 0 when there is no number. */
+export function parseSpeakerCount(text: string | undefined): number {
+  const m = text?.replace(/,/g, "").match(/(\d+(?:\.\d+)?)\s*(million|thousand|m\b|k\b)?/i);
+  if (!m) return 0;
+  const unit = (m[2] ?? "").toLowerCase();
+  return parseFloat(m[1]) * (unit.startsWith("m") ? 1e6 : unit.startsWith("t") || unit === "k" ? 1e3 : 1);
+}
+
+export interface CountryRollup {
+  iso: string;
+  name: string;
+  living: boolean; // at least one living branch is spoken here
+  weight: number; // summed rough speaker count, for ordering
+  entries: { branch: Branch; speakers?: string }[];
+}
+
+/** Countries for a set of leaf branches, largest communities first, historical-only last. */
+export function rollupCountries(leaves: Branch[]): CountryRollup[] {
+  const map = new Map<string, CountryRollup>();
+  for (const b of leaves) {
+    const extinct = Boolean(b.extinct) || b.speakers?.vitality === "extinct";
+    for (const c of b.countries ?? []) {
+      const r = map.get(c.iso) ?? { iso: c.iso, name: c.name, living: false, weight: 0, entries: [] };
+      r.living ||= !extinct;
+      r.weight += parseSpeakerCount(c.speakers);
+      r.entries.push({ branch: b, speakers: c.speakers });
+      map.set(c.iso, r);
+    }
+  }
+  return [...map.values()].sort((a, b) => Number(b.living) - Number(a.living) || b.weight - a.weight || a.name.localeCompare(b.name));
 }
