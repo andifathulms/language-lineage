@@ -22,6 +22,32 @@
       "body": "In the 1820s–30s the rise of the Zulu kingdom and the wars and migrations known as the *Mfecane* carried Nguni languages far to the north, to Zimbabwe (Ndebele) and as far as Malawi and Tanzania (Ngoni). How this period should be described is itself disputed. Missionaries wrote down Xhosa, Sotho and Tswana from the 1820s. Robert Moffat's complete Tswana Bible appeared in 1857, and **Sol Plaatje**, journalist and founding member of the ANC, published a collection of Tswana proverbs (1916) and translations of Shakespeare. South Africa's 1996 constitution recognises nine Bantu languages among its official languages."
     }
   ],
+  "speakers": {
+    "estimate": "c. 70 million",
+    "vitality": "safe",
+    "note": "For the languages drawn here; in South Africa's 2022 census about three-quarters of the population named a southern Bantu language as their home language.",
+    "sources": [
+      { "citation": "Statistics South Africa. 2023. Census 2022: Statistical Release P0301.4. Pretoria: Stats SA.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "ZAF", "name": "South Africa", "speakers": "c. 49 million" },
+    { "iso": "ZWE", "name": "Zimbabwe", "speakers": "c. 13 million" },
+    { "iso": "MOZ", "name": "Mozambique" },
+    { "iso": "LSO", "name": "Lesotho", "speakers": "c. 2 million" },
+    { "iso": "BWA", "name": "Botswana", "speakers": "c. 2 million" },
+    { "iso": "SWZ", "name": "Eswatini", "speakers": "c. 1 million" }
+  ],
+  "sample": {
+    "language": "Zulu",
+    "text": "Umuntu ngumuntu ngabantu",
+    "gloss": "person COP-person through-people",
+    "translation": "A person is a person through other people.",
+    "sources": [
+      { "citation": "Gade, Christian B. N. 2011. The historical development of the written discourses on ubuntu. South African Journal of Philosophy 30(3): 303–329.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-kusi-south",

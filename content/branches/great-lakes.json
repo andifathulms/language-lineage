@@ -18,6 +18,31 @@
       "body": "Protestant and Catholic missionaries reached Buganda in 1877–79 and wrote Luganda in the Latin alphabet. A Luganda Bible followed in 1896, and Luganda became the language of the colonial administration in much of Uganda. In Rwanda and Burundi, unusually for African states, a single Bantu language is spoken by nearly the whole population, and Kinyarwanda and Kirundi became national and official languages at independence in 1962."
     }
   ],
+  "speakers": {
+    "estimate": "c. 45 million",
+    "vitality": "safe",
+    "note": "A rough figure that depends on how widely the group is drawn; Kinyarwanda and Kirundi alone account for about 25 million.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Nurse, Derek & Gérard Philippson, eds. 2003. The Bantu Languages. London: Routledge.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "UGA", "name": "Uganda" },
+    { "iso": "RWA", "name": "Rwanda", "speakers": "c. 13 million" },
+    { "iso": "BDI", "name": "Burundi", "speakers": "c. 12 million" },
+    { "iso": "TZA", "name": "Tanzania" },
+    { "iso": "COD", "name": "Democratic Republic of the Congo" }
+  ],
+  "sample": {
+    "language": "Luganda",
+    "text": "Oli otya?",
+    "gloss": "2SG-be 2SG-how",
+    "translation": "How are you?",
+    "sources": [
+      { "citation": "Ashton, E. O., E. M. K. Mulira, E. G. M. Ndawula & A. N. Tucker. 1954. A Luganda Grammar. London: Longmans, Green.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-great-lakes-kingdoms",

@@ -18,6 +18,20 @@
       "body": "Duala, the language of the port of Douala, was among the first Bantu languages of the region to be written. The English Baptist missionary Alfred Saker published a Duala New Testament in the 1860s. Cameroon passed from German to French and British rule, and French and English became the languages of state. Fang, spread across three countries, and Ewondo are regional lingua francas."
     }
   ],
+  "speakers": {
+    "estimate": "Several million",
+    "vitality": "mixed",
+    "note": "Fang, Ewondo and Bulu are large and secure; some smaller languages of the zone are declining in favour of French and the regional lingua francas.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CMR", "name": "Cameroon" },
+    { "iso": "GAB", "name": "Gabon" },
+    { "iso": "GNQ", "name": "Equatorial Guinea" },
+    { "iso": "COG", "name": "Republic of the Congo" }
+  ],
   "turning_points": [
     {
       "id": "tp-nw-bantu-early-splits",

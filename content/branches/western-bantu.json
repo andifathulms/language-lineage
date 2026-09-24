@@ -22,6 +22,20 @@
       "body": "In the late 19th and early 20th centuries two new lingua francas grew up along the Congo river. **Lingala** developed from Bobangi, a river trade language, and spread through the colonial army, missions and later popular music, becoming the language of Kinshasa and Brazzaville. **Kituba** (*Kikongo ya leta*, 'the state's Kikongo') is a simplified Kikongo that became the working language of the lower Congo."
     }
   ],
+  "speakers": {
+    "estimate": "Several tens of millions",
+    "vitality": "mixed",
+    "note": "Totals depend on how widely the group is drawn and how many Lingala and Kituba speakers count as first-language speakers; both languages have millions more second-language users.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Instituto Nacional de Estatística. 2016. Resultados Definitivos do Recenseamento Geral da População e da Habitação de Angola 2014. Luanda: INE.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "COD", "name": "Democratic Republic of the Congo" },
+    { "iso": "AGO", "name": "Angola", "speakers": "c. 12 million" },
+    { "iso": "COG", "name": "Republic of the Congo" }
+  ],
   "turning_points": [
     {
       "id": "tp-western-bantu-south",

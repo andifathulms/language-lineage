@@ -18,6 +18,15 @@
       "body": "This tree draws three well-marked groups: **Great Lakes Bantu** (Luganda, Kinyarwanda, Kirundi), **Sabaki** (Swahili and its coastal relatives), and the southern languages that Ehret calls **Kusi** (Shona, Zulu, Xhosa, Sotho-Tswana). Many other Eastern Bantu languages, such as Kikuyu and Chaga in Kenya and Tanzania or Nyakyusa and Bemba further south, are not yet drawn. How they fit together is less certain."
     }
   ],
+  "speakers": {
+    "estimate": "c. 200 million",
+    "vitality": "mixed",
+    "note": "Includes many Eastern Bantu languages not drawn separately on this tree, such as Kikuyu, Sukuma, Chewa and Makhuwa; the figure is rough.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Nurse, Derek & Gérard Philippson, eds. 2003. The Bantu Languages. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-eastern-bantu-lakes",

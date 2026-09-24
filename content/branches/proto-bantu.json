@@ -17,6 +17,15 @@
       "body": "Over roughly three thousand years, Bantu-speaking farmers spread across most of sub-Saharan Africa south of the equator, one of the largest language expansions in history. The spread happened in stages. Whether the ancestors of the Eastern Bantu left early, skirting the northern edge of the rainforest, or late, through it, has long been debated. Phylogenetic work by Grollemund and colleagues (2015) favours a route through the forest, opened when a drier climate around 500 BCE broke up the rainforest into savanna corridors.\n\nThis tree follows the main lines of those studies: **Northwest Bantu**, the languages that stayed nearest the homeland, **Western Bantu** in the lower Congo and Angola, and **Eastern Bantu**, which spread from the Great Lakes to the Cape. Malcolm Guthrie's letter-and-number zones (A10, G42 and so on) are still used as reference codes, but they are geographical, not genealogical."
     }
   ],
+  "speakers": {
+    "estimate": "c. 250 million",
+    "vitality": "mixed",
+    "note": "First-language speakers, a rough figure; with second-language speakers of Swahili, Lingala and others the total is well over 350 million.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Nurse, Derek & Gérard Philippson, eds. 2003. The Bantu Languages. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-bantu-homeland",

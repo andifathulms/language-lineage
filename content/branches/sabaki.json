@@ -22,6 +22,29 @@
       "body": "In the 19th century Swahili spread inland along caravan routes to the Great Lakes and the Congo, and German and British colonial administrations used it (now in Latin letters) as a language of government. After independence **Julius Nyerere** made Swahili the national language of Tanzania and a pillar of nation-building. He translated Shakespeare into it himself. Today Swahili has perhaps 100 million or more speakers, most of them second-language users, and it is an official language of the African Union."
     }
   ],
+  "speakers": {
+    "estimate": "c. 15–20 million",
+    "vitality": "safe",
+    "note": "First-language speakers, mostly of Swahili; counts are uncertain because many people grow up with Swahili alongside another language, and Swahili has perhaps 80 million or more second-language speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "TZA", "name": "Tanzania" },
+    { "iso": "KEN", "name": "Kenya" },
+    { "iso": "COM", "name": "Comoros", "speakers": "c. 800,000" },
+    { "iso": "MYT", "name": "Mayotte" }
+  ],
+  "sample": {
+    "language": "Swahili",
+    "text": "Habari gani?",
+    "gloss": "news which",
+    "translation": "How are things? (literally 'What news?')",
+    "sources": [
+      { "citation": "Ashton, E. O. 1944. Swahili Grammar (Including Intonation). London: Longmans, Green.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-sabaki-coast",
