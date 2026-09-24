@@ -236,5 +236,12 @@
     "lifespan": "11th century",
     "branch_ids": ["south-central-dravidian"],
     "turning_point_ids": ["tp-nannaya"]
+  },
+  {
+    "id": "maraimalai-adigal",
+    "name": "Maraimalai Adigal",
+    "lifespan": "1876–1950",
+    "branch_ids": ["tamil-malayalam"],
+    "turning_point_ids": ["tp-pure-tamil"]
   }
 ]

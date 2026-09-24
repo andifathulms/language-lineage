@@ -1,0 +1,80 @@
+{
+  "id": "tamil-malayalam",
+  "family": "dravidian",
+  "name": "Tamil-Malayalam",
+  "parent_ids": ["south-dravidian-i"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Tamil Nadu, Kerala and northern and eastern Sri Lanka; diaspora in Southeast Asia, South Africa and beyond",
+  "defining_innovation": "*k became c (a palatal) before front vowels: Kannada gey- 'do' corresponds to Tamil and Malayalam cey-.",
+  "descendants": ["Tamil", "Malayalam", "Irula"],
+  "chapters": [
+    {
+      "title": "Old Tamil",
+      "body": "Tamil has the oldest literature of any Dravidian language. Inscriptions in Tamil-Brahmi script, carved in caves used by Jain and Buddhist monks, go back to at least the 2nd century BCE. Recent excavations at Keezhadi have been argued to push the script's origin earlier, a claim still under discussion. The *Tolkāppiyam*, a grammar of the language and its poetics, and the Sangam anthologies of love and war poetry are usually dated to the first centuries CE, though their exact dates are debated.\n\nA characteristic change of this group is the palatalisation of *k* before front vowels: Kannada *gey-* 'do', but Tamil *cey-*."
+    },
+    {
+      "title": "Malayalam Branches Off",
+      "body": "Malayalam grew out of the western dialects of Tamil, on the Kerala coast behind the Western Ghats. Between about the 9th and 13th centuries it became a separate language. It dropped the personal endings on verbs, and its literary style, *Maṇipravāḷam* ('rubies and coral'), mixed Malayalam with Sanskrit. Today it has around 38 million speakers."
+    },
+    {
+      "title": "Language and Identity",
+      "body": "Few languages are as bound up with identity as modern Tamil. From 1916 the scholar **Maraimalai Adigal** led the *Tanittamiḻ* ('pure Tamil') movement to replace Sanskrit words with Tamil ones, and resistance to Hindi as a national language in 1937–40 and 1965 shaped the politics of Tamil Nadu. In 2004 Tamil became the first language India declared 'classical'. It is an official language in India, Sri Lanka and Singapore."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tamil-palatalisation",
+      "branch_id": "tamil-malayalam",
+      "date": "Before the earliest Tamil records",
+      "type": "SOUND_LAW",
+      "title": "*k becomes c before front vowels",
+      "description": "Before front vowels, `*k` palatalises to *c*: Tamil and Malayalam *cey-* 'do', against Kannada *gey-*. The change is not complete, and there are many exceptions, some of them later borrowings.",
+      "contested": false,
+      "process": "assimilation",
+      "notation": "*k → c / _ front V (Tamil cey- 'do'; Kannada gey-)",
+      "sort_year": -300,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tamil-brahmi",
+      "branch_id": "tamil-malayalam",
+      "date": "c. 2nd century BCE (possibly earlier)",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Tamil-Brahmi inscriptions",
+      "description": "Short Tamil inscriptions in an adapted Brahmi script appear in rock shelters and on pottery. Whether finds at Keezhadi and elsewhere show writing several centuries earlier is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Mahadevan, Iravatham. 2003. Early Tamil Epigraphy: From the Earliest Times to the Sixth Century A.D. Cambridge, MA: Harvard University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-malayalam-split",
+      "branch_id": "tamil-malayalam",
+      "date": "c. 9th – 13th century CE",
+      "type": "SPLIT",
+      "title": "Malayalam becomes a separate language",
+      "description": "The Tamil dialects of the Kerala coast develop into Malayalam, which loses verbal person endings and develops a Sanskrit-mixed literary style. When it should be counted as a separate language is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pure-tamil",
+      "branch_id": "tamil-malayalam",
+      "date": "1916 onward",
+      "type": "REVITALIZATION",
+      "title": "The pure Tamil movement",
+      "description": "Maraimalai Adigal's *Tanittamiḻ* movement sets out to purge Sanskrit loans from Tamil, and it becomes part of a wider Tamil political identity. In 2004 Tamil is the first language declared classical by India.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ramaswamy, Sumathi. 1997. Passions of the Tongue: Language Devotion in Tamil India, 1891–1970. Berkeley: University of California Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["maraimalai-adigal"]
+}
