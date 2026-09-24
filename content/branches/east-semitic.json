@@ -1,0 +1,102 @@
+{
+  "id": "east-semitic",
+  "family": "semitic",
+  "name": "East Semitic",
+  "parent_ids": ["proto-semitic"],
+  "successor_ids": [],
+  "era": "c. 2600 BCE – 1st century CE",
+  "region": "Mesopotamia and northern Syria",
+  "defining_innovation": "The first Semitic languages to be written, Akkadian and Eblaite, in cuneiform borrowed from Sumerian. Akkadian lost most of the Semitic guttural consonants, which often left an e-vowel behind.",
+  "extinct": true,
+  "descendants": ["Akkadian †", "Eblaite †"],
+  "chapters": [
+    {
+      "title": "Akkadian",
+      "body": "Akkadian is the oldest attested Semitic language, and its written record spans more than 2,500 years. Semitic personal names appear in Sumerian texts around 2600 BCE, and with Sargon of Akkad (c. 2334 BCE) Akkadian became the language of an empire. It was written in cuneiform, the wedge-shaped script invented for Sumerian, an unrelated language. Akkadian speakers lived alongside Sumerian speakers for centuries, and Akkadian took from Sumerian both vocabulary and, unusually for Semitic, verb-final word order.\n\nAkkadian later split into Babylonian in the south and Assyrian in the north, and it produced the *Epic of Gilgamesh*, the Code of Hammurabi and a vast archive of letters, contracts and scholarship. It also lost most of the guttural consonants that other Semitic languages keep, and they often left an *e* behind them."
+    },
+    {
+      "title": "Ebla, and the Long Fade",
+      "body": "In 1974–75 excavators at Tell Mardikh in Syria found the archives of Ebla, thousands of tablets from the 24th century BCE in a Semitic language now called Eblaite. Most scholars group it with Akkadian as East Semitic, though some see it as closer to West Semitic.\n\nIn the 2nd millennium BCE Akkadian was the diplomatic language of the Near East: pharaohs and Levantine kings wrote to each other in it in the Amarna letters. From the 8th century BCE Aramaic replaced it as the everyday language, first of the Assyrian empire and then of its successors. Akkadian survived as a language of scholarship. The last datable cuneiform tablets, astronomical texts from Babylon, come from the 1st century CE."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-akkadian-guttural-loss",
+      "branch_id": "east-semitic",
+      "date": "Before and during the 3rd millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Loss of the gutturals",
+      "description": "Akkadian loses most Proto-Semitic laryngeal and pharyngeal consonants (`*ʔ *h *ḥ *ʕ *ġ`), often changing a neighbouring *a* to *e*: `*baʕal-` 'lord' → Akkadian *bēlu* (Hebrew *baʕal*). Contact with Sumerian, which lacked such sounds, is a frequently suggested cause.",
+      "contested": false,
+      "process": "loss",
+      "notation": "*ʔ *h *ḥ *ʕ *ġ → ∅, often with a → e (*baʕal- → bēlu)",
+      "sort_year": -2600,
+      "sources": [
+        { "citation": "Huehnergard, John. 2011. A Grammar of Akkadian, 3rd ed. Winona Lake: Eisenbrauns.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-akkadian-cuneiform",
+      "branch_id": "east-semitic",
+      "date": "c. 2600 – 2400 BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Akkadian in cuneiform",
+      "description": "Semitic names and then texts are written in Sumerian cuneiform, making Akkadian the earliest recorded Semitic language. Decipherment in the 19th century, driven by Henry Rawlinson's copying of the trilingual Behistun inscription, reopened this record.",
+      "contested": false,
+      "sources": [
+        { "citation": "Huehnergard, John. 2011. A Grammar of Akkadian, 3rd ed. Winona Lake: Eisenbrauns.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sumerian-akkadian",
+      "branch_id": "east-semitic",
+      "date": "3rd millennium BCE",
+      "type": "CONTACT",
+      "title": "The Sumerian–Akkadian convergence",
+      "description": "Centuries of bilingualism in southern Mesopotamia give Akkadian verb-final word order and Sumerian vocabulary, while Sumerian takes Akkadian loans. Sumerian stopped being spoken early in the 2nd millennium BCE but lived on as a written language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Huehnergard, John. 2011. A Grammar of Akkadian, 3rd ed. Winona Lake: Eisenbrauns.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ebla",
+      "branch_id": "east-semitic",
+      "date": "24th century BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Ebla archives",
+      "description": "The royal archives of Ebla in Syria preserve thousands of cuneiform tablets in Eblaite. Its classification, as East Semitic with Akkadian or as something separate, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-babylonian-assyrian",
+      "branch_id": "east-semitic",
+      "date": "c. 2000 BCE",
+      "type": "SPLIT",
+      "title": "Babylonian and Assyrian",
+      "description": "Akkadian divides into Babylonian in the south and Assyrian in the north, each with its own stages. Babylonian becomes the international language of diplomacy, used in the 14th-century BCE Amarna letters.",
+      "contested": false,
+      "sources": [
+        { "citation": "Huehnergard, John. 2011. A Grammar of Akkadian, 3rd ed. Winona Lake: Eisenbrauns.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-akkadian-extinction",
+      "branch_id": "east-semitic",
+      "date": "c. 8th century BCE – 1st century CE",
+      "type": "EXTINCTION",
+      "title": "Aramaic replaces Akkadian",
+      "description": "Aramaic becomes the spoken language of Mesopotamia, and Akkadian retreats into temple scholarship. When it stopped being spoken is uncertain. The last datable cuneiform texts are astronomical tablets from the 1st century CE.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John. 2011. A Grammar of Akkadian, 3rd ed. Winona Lake: Eisenbrauns.", "url": null },
+        { "citation": "Gzella, Holger. 2015. A Cultural History of Aramaic. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["henry-rawlinson"]
+}

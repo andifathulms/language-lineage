@@ -159,5 +159,12 @@
     "lifespan": "1892–1924",
     "branch_ids": ["lena-turkic"],
     "turning_point_ids": ["tp-novgorodov-alphabet"]
+  },
+  {
+    "id": "henry-rawlinson",
+    "name": "Henry Rawlinson",
+    "lifespan": "1810–1895",
+    "branch_ids": ["east-semitic"],
+    "turning_point_ids": ["tp-akkadian-cuneiform"]
   }
 ]
