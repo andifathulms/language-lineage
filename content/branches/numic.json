@@ -1,0 +1,92 @@
+{
+  "id": "numic",
+  "family": "uto-aztecan",
+  "name": "Numic",
+  "parent_ids": ["northern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Great Basin (Nevada, Utah, Idaho, eastern California, Oregon), and through the Comanche the southern Plains",
+  "defining_innovation": "Shoshone, Comanche, Paiute, Ute and Mono, which developed 'consonant gradation': a consonant inside a word appears as a fricative, a double consonant or a nasal cluster, depending on the morpheme before it.",
+  "descendants": ["Shoshone", "Comanche", "Northern Paiute", "Southern Paiute", "Ute", "Mono"],
+  "chapters": [
+    {
+      "title": "Across the Great Basin",
+      "body": "The Numic languages cover almost the whole Great Basin, the vast desert between the Rockies and the Sierra Nevada. Their three subgroups (Western, Central and Southern Numic) each run in a narrow wedge from a small area in southeastern California out across the Basin. In 1958 Sydney Lamb explained the pattern as a rapid spread outward from that corner of California, perhaps around 1000 CE, which replaced earlier populations. His 'Numic spread' hypothesis is still debated by archaeologists.\n\nNumic consonants behave in an unusual way. Depending on the morpheme before it, a consonant may surface as a fricative, a geminate or a nasal cluster. Linguists call this 'consonant gradation' or 'final features'."
+    },
+    {
+      "title": "Comanche",
+      "body": "Around 1700, a group of Shoshone who had acquired horses broke away onto the southern Plains and became the Comanche. Within a few generations they dominated a vast region from Colorado to Texas, and Comanche became a trade language of the southern Plains. In the Second World War, Comanche code talkers served as radio operators for the US Army."
+    },
+    {
+      "title": "Reservations and Revival",
+      "body": "Reservation life and boarding schools in the late 19th and 20th centuries, where children were punished for speaking their languages, broke transmission in most Numic communities. The Native American Languages Act of 1990 reversed official US policy and declared support for Native languages. Numic communities now run classes, immersion camps and dictionary projects."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-numic-gradation",
+      "branch_id": "numic",
+      "date": "Proto-Numic period",
+      "type": "SOUND_LAW",
+      "title": "Numic consonant gradation",
+      "description": "Medial consonants alternate between fricative, geminate and nasalised forms, depending on the preceding morpheme, after old final consonants were lost and left their mark on the next word. It is the most distinctive feature of Numic phonology.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "medial C → fricative · geminate · nasal cluster, set by the preceding morpheme ('final features')",
+      "sort_year": 800,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-numic-spread",
+      "branch_id": "numic",
+      "date": "c. 1000 CE",
+      "type": "SPLIT",
+      "title": "The Numic spread",
+      "description": "Numic speakers fan out from southeastern California across the Great Basin, and Western, Central and Southern Numic diverge. Lamb's hypothesis explains the wedge-shaped map, but archaeologists still dispute the timing and whether earlier peoples were replaced.",
+      "contested": true,
+      "sources": [
+        { "citation": "Lamb, Sydney M. 1958. Linguistic prehistory in the Great Basin. International Journal of American Linguistics 24(2).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-comanche",
+      "branch_id": "numic",
+      "date": "c. 1700",
+      "type": "SPLIT",
+      "title": "The Comanche break away",
+      "description": "Mounted on horses acquired from the Spanish colonies, a Shoshone group moves onto the southern Plains, becomes the Comanche, and develops a separate language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-boarding-schools",
+      "branch_id": "numic",
+      "date": "c. 1880 – 1960s",
+      "type": "CONTACT",
+      "title": "Reservations and boarding schools",
+      "description": "US policy sends Native children to English-only boarding schools and confines communities to reservations, and most Numic languages stop being passed on to children.",
+      "contested": false,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nala-1990",
+      "branch_id": "numic",
+      "date": "1990",
+      "type": "REVITALIZATION",
+      "title": "Native American Languages Act",
+      "description": "The US Congress declares a policy of preserving and promoting Native American languages, reversing a century of suppression. Tribal language programmes grow in the decades that follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne & Ken Hale, eds. 2001. The Green Book of Language Revitalization in Practice. San Diego: Academic Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
