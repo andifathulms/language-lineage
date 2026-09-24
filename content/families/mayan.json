@@ -34,5 +34,95 @@
     { "citation": "Law, Danny. 2013. Mayan historical linguistics in a new age. Language and Linguistics Compass 7(3): 141–156.", "url": null },
     { "citation": "Houston, Stephen, John Robertson & David Stuart. 2000. The language of Classic Maya inscriptions. Current Anthropology 41(3): 321–356.", "url": null },
     { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Read across each row. Proto-Mayan `*s` stays *s* everywhere except in Huastec, where it became *dh* (a sound like English *th* in *thin*). The uvular `*q` stays *q* in the highland languages but merged with *k* in Huastec, Yucatec and Ch'ol. The palatalised `*ty` of 'tree' comes out three different ways, and `*r` is *r* only in K'iche'. Cognates can also drift in meaning: the Huastec and Q'anjob'al words in the 'sun, day' row mean 'time, season' and 'festival'.",
+    "proto_label": "Proto-Mayan",
+    "languages": [
+      { "name": "Huastec", "branch_id": "huastecan" },
+      { "name": "Yucatec", "branch_id": "yucatecan" },
+      { "name": "Ch'ol", "branch_id": "cholan-tzeltalan" },
+      { "name": "Q'anjob'al", "branch_id": "qanjobalan" },
+      { "name": "Mam", "branch_id": "mamean" },
+      { "name": "K'iche'", "branch_id": "kichean" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "haʔ",
+        "forms": ["jaʼ", "jaʼ", "jaʼ", "haʼ", "aʼ", "jaʼ"]
+      },
+      {
+        "gloss": "tree, wood",
+        "proto": "tyeeʔ",
+        "forms": ["teʼ", "cheʼ", "teʼ", "teʼ", "tzeeʼ", "cheʼ"]
+      },
+      {
+        "gloss": "white",
+        "proto": "saq",
+        "forms": ["dhakniʼ", "sak", "säk", "saq", "saq", "saq"]
+      },
+      {
+        "gloss": "green",
+        "proto": "raʔx",
+        "forms": ["yaxuʼ", "yaʼax", "yäx", "yax", "chaʼx", "rax"]
+      },
+      {
+        "gloss": "red",
+        "proto": "kaq",
+        "forms": ["tsakniʼ", "chak", "chäk", "kaq", "kyaq", "kaq"]
+      },
+      {
+        "gloss": "sun, day",
+        "proto": "qʼiinh",
+        "forms": ["kʼij", "kʼiin", "kʼin", "qʼin", "qʼiij", "qʼij"]
+      },
+      {
+        "gloss": "firewood",
+        "proto": "siiʔ",
+        "forms": ["dhiʼ", "siʼ", "siʼ", "siʼ", "siiʼ", "siʼ"]
+      },
+      {
+        "gloss": "bat",
+        "proto": "sootzʼ",
+        "forms": ["dhutʼ", "sootsʼ", "sutzʼ", "sotzʼ", "sootzʼ", "sotzʼ"]
+      },
+      {
+        "gloss": "three",
+        "proto": "ʔoox",
+        "forms": ["oox", "oox", "ux", "oxebʼ", "ooxeʼ", "oxibʼ"]
+      },
+      {
+        "gloss": "chilli",
+        "proto": "ʔiik",
+        "forms": ["its", "iik", "ich", "ich", "iky", "ik"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*s",
+        "reflexes": ["dh", "s", "s", "s", "s", "s"],
+        "rows": [2, 6, 7]
+      },
+      {
+        "label": "*q",
+        "reflexes": ["k", "k", "k", "q", "q", "q"],
+        "rows": [2, 4]
+      },
+      {
+        "label": "*ty",
+        "reflexes": ["t", "ch", "t", "t", "tz", "ch"],
+        "rows": [1]
+      },
+      {
+        "label": "*r",
+        "reflexes": ["y", "y", "y", "y", null, "r"],
+        "rows": [3]
+      }
+    ],
+    "sources": [
+      { "citation": "Kaufman, Terrence, with John Justeson. 2003. A Preliminary Mayan Etymological Dictionary. Foundation for the Advancement of Mesoamerican Studies (FAMSI).", "url": "http://www.famsi.org/reports/01051/" },
+      { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+    ]
+  }
 }
