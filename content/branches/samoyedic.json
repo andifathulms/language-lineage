@@ -1,0 +1,89 @@
+{
+  "id": "samoyedic",
+  "family": "uralic",
+  "name": "Samoyedic",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Arctic tundra from the White Sea to the Taymyr Peninsula; formerly also the Sayan uplands of southern Siberia",
+  "defining_innovation": "Proto-Samoyedic, reconstructed by Janhunen (1977), whose vocabulary diverged so far from the rest of Uralic that only a few hundred words can be matched with them.",
+  "descendants": ["Tundra Nenets", "Forest Nenets", "Enets", "Nganasan", "Selkup", "Kamassian †", "Mator †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Samoyedic languages are the easternmost branch of Uralic. Today they are spoken mostly on the Arctic tundra by reindeer herders: Nenets from the White Sea to the Yenisei, then Enets, and Nganasan on the Taymyr Peninsula, the northernmost mainland in Eurasia. Selkup is spoken in the forests to the south.\n\nThe branch's history runs the other way from what the map suggests. Proto-Samoyedic, reconstructed by Juha Janhunen, is often placed in southern Siberia near the Sayan mountains, and until recently Samoyedic languages were still spoken there too: Kamassian and Mator. The tundra languages spread north later, taking over from earlier Arctic populations. The exact homeland and date are debated."
+    },
+    {
+      "title": "The Southern Languages",
+      "body": "In the Sayan uplands, Samoyedic speakers lived among Turkic peoples, and most of them shifted to Turkic languages. Mator was written down by 18th-century travellers and then disappeared. Kamassian lasted longest. Its last speaker, Klavdiya Plotnikova, worked with Estonian and Finnish linguists in the 1960s and 1970s and died in 1989."
+    },
+    {
+      "title": "The Tundra Today",
+      "body": "Nenets, with about 20,000 speakers, is the largest Samoyedic language and one of the better-preserved indigenous languages of the Russian north, helped by nomadic reindeer herding, which keeps families on the land. Enets and Nganasan have only a few hundred speakers or fewer and are severely endangered. Like the Ob-Ugric languages, they were given Latin alphabets in the 1930s and Cyrillic from 1937."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-proto-samoyedic",
+      "branch_id": "samoyedic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Proto-Samoyedic",
+      "description": "The ancestor of the Samoyedic languages separates from the rest of Uralic, probably in southern or western Siberia. The homeland, and whether Samoyedic split off first or is simply one branch among equals, are both disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Janhunen, Juha. 1977. Samojedischer Wortschatz: gemeinsamojedische Etymologien. Helsinki: Castrenianum.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tundra-expansion",
+      "branch_id": "samoyedic",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "North onto the tundra",
+      "description": "The ancestors of the Nenets, Enets and Nganasan move north and spread across the Arctic tundra. The unexplained vocabulary in Nganasan in particular may come from the earlier inhabitants they absorbed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sayan-turkic-shift",
+      "branch_id": "samoyedic",
+      "date": "17th – 19th century CE",
+      "type": "EXTINCTION",
+      "title": "Mator shifts to Turkic",
+      "description": "In the Sayan uplands the Samoyedic-speaking groups shift to neighbouring Turkic languages. Mator, recorded by 18th-century expeditions, is extinct by the 19th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-samoyedic-alphabets",
+      "branch_id": "samoyedic",
+      "date": "1930s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Nenets in writing",
+      "description": "Nenets receives a Latin alphabet in the early 1930s and Cyrillic from 1937, and becomes a school language on the tundra. Enets, Nganasan and Selkup get standards later or only partially.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kamassian-extinction",
+      "branch_id": "samoyedic",
+      "date": "1989",
+      "type": "EXTINCTION",
+      "title": "Kamassian's last speaker",
+      "description": "Klavdiya Plotnikova, the last speaker of Kamassian, dies. Recordings made with her in the 1960s and 1970s by Estonian and Finnish linguists preserve the language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
