@@ -3,7 +3,7 @@
   "family": "bantu",
   "name": "Eastern Bantu",
   "parent_ids": ["proto-bantu"],
-  "successor_ids": ["great-lakes", "sabaki", "kusi"],
+  "successor_ids": ["great-lakes", "sabaki", "nyasa", "kusi"],
   "era": "c. 1000 BCE – present",
   "region": "From the Great Lakes of East Africa south to the Cape, and along the Indian Ocean coast",
   "defining_innovation": "The Bantu that reached the Great Lakes and spread east and south. Most members show spirantisation of stops before the high vowels (*-kúpa 'bone' → Swahili mfupa) and a merger of the seven Proto-Bantu vowels into five.",
@@ -21,7 +21,7 @@
   "speakers": {
     "estimate": "c. 200 million",
     "vitality": "mixed",
-    "note": "Includes many Eastern Bantu languages not drawn separately on this tree, such as Kikuyu, Sukuma, Chewa and Makhuwa; the figure is rough.",
+    "note": "Includes many Eastern Bantu languages not drawn separately on this tree, such as Kikuyu, Sukuma and Makhuwa; the figure is rough.",
     "sources": [
       { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
       { "citation": "Nurse, Derek & Gérard Philippson, eds. 2003. The Bantu Languages. London: Routledge.", "url": null }

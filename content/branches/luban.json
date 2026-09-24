@@ -1,0 +1,89 @@
+{
+  "id": "luban",
+  "family": "bantu",
+  "name": "Luban",
+  "parent_ids": ["proto-bantu"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The southern savannas of the Democratic Republic of the Congo, from Kasai to the upper Lualaba (Upemba depression) in Katanga, with Kaonde across the border in north-western Zambia",
+  "defining_innovation": "A close-knit group (Guthrie's zones L20–L40) defined by a body of shared vocabulary innovations that Christine Ahmed identified in the 1990s and by high lexical similarity in the Tervuren lexicostatistical survey. Its core, Kiluba and Tshiluba, grew from the language of the Luba heartland on the upper Lualaba.",
+  "descendants": ["Tshiluba (Luba-Kasai)", "Kiluba (Luba-Katanga)", "Kisongye", "Kanyok", "Kihemba", "Kisanga", "Kaonde"],
+  "chapters": [
+    {
+      "title": "The Luba Languages",
+      "body": "The Luban languages are spoken across the savannas south of the Congo rainforest, in the Kasai and Katanga regions of the Democratic Republic of the Congo. The historian Christine Ahmed established the group in the 1990s from shared innovations in vocabulary, and the lexicostatistical survey of Bastin, Coupez and Mann (1999) found the same close cluster. It covers about half of Guthrie's zone L: **Kisongye** (L23) in the north, the Luba languages proper (L30), among them **Kiluba** or Luba-Katanga and **Tshiluba** or Luba-Kasai, together with Kanyok, Hemba and Sanga, and **Kaonde** (L40), spoken mainly in Zambia.\n\nThe heartland was the Upemba depression on the upper Lualaba, where rich cemeteries of the Kisalian period (roughly the 8th to 14th centuries CE) show a long local continuity of settlement. By the 17th century the Luba kingdom had grown up there, and its ideas of sacred kingship spread widely across the southern savanna.\n\nWhere Luban sits in the Bantu tree is less certain than its unity. Glottolog places it with the Western Bantu languages in a Central-Western group, while its many resemblances to Bemba and other eastern neighbours have led some to link it with Eastern Bantu. This tree therefore draws it as a separate branch."
+    },
+    {
+      "title": "National Language and Town Speech",
+      "body": "Tshiluba is one of the four national languages of the Democratic Republic of the Congo, alongside Lingala, Swahili and Kikongo (Kituba). The constitution of 2006 confirms the status it had held in practice since colonial times. In the Kasai provinces it is the language of the market, church, radio and the first years of primary school, and it is spoken by many people whose first language is another Bantu language of the region.\n\nThe missions shaped the written form. American Presbyterians founded a station at Luebo in 1891, and Catholic missionaries followed. William Morrison's grammar and dictionary of 1906 fixed a spelling, and Bible translations and school readers followed.\n\nFurther east the picture is different. In the copper-mining towns of Katanga, such as Lubumbashi and Likasi, Swahili became the common language of the colonial workforce, and many Luba-Katanga speakers in town now use Swahili for everyday life, while Kiluba holds its ground in the countryside. Across the border, Kaonde is one of the seven regional languages that Zambia uses in broadcasting and in early schooling."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 10 million",
+    "vitality": "safe",
+    "note": "First-language speakers, a rough figure: more than half speak Tshiluba. The Democratic Republic of the Congo has held no language census, and Tshiluba also has many second-language speakers in Kasai.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "COD", "name": "Democratic Republic of the Congo" },
+    { "iso": "ZMB", "name": "Zambia" },
+    { "iso": "AGO", "name": "Angola" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-luban-upemba",
+      "branch_id": "luban",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "The Upemba heartland",
+      "description": "The ancestor of the Luban languages takes shape in the savannas around the Upemba depression on the upper Lualaba, where archaeology shows long continuity of settlement. Ahmed reconstructs the group's early history from shared vocabulary. Its dating and its links to other Bantu groups remain uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Ahmed, Christine Choi. 1996. Before Eve Was Eve: 2200 Years of Gendered History in East-Central Africa. PhD dissertation, University of California, Los Angeles.", "url": null },
+        { "citation": "Reefe, Thomas Q. 1981. The Rainbow and the Kings: A History of the Luba Empire to 1891. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tshiluba-missions",
+      "branch_id": "luban",
+      "date": "1891 – 1906",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Tshiluba in print",
+      "description": "American Presbyterian missionaries settle at Luebo in Kasai in 1891 and begin writing Tshiluba in the Latin alphabet. William Morrison's grammar and dictionary (1906) sets a spelling used for scripture and schoolbooks.",
+      "contested": false,
+      "sources": [
+        { "citation": "Morrison, William M. 1906. Grammar and Dictionary of the Buluba-Lulua Language as Spoken in the Upper Kasai and Congo Basin. New York: American Tract Society.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-katanga-swahili",
+      "branch_id": "luban",
+      "date": "1910s – 1930s",
+      "type": "CONTACT",
+      "title": "Swahili in the mining towns",
+      "description": "The copper mines of Katanga draw workers from across the region, and Swahili becomes the working language of the colonial towns. Luba-Katanga speakers in Lubumbashi and other towns increasingly use Swahili, which remains the everyday language of urban Katanga.",
+      "contested": false,
+      "sources": [
+        { "citation": "Fabian, Johannes. 1986. Language and Colonial Power: The Appropriation of Swahili in the Former Belgian Congo 1880–1938. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-luban-position",
+      "branch_id": "luban",
+      "proposed_grouping": "Luban is closest to Eastern Bantu, in particular to Bemba and the other savanna languages of Zambia, rather than to the Western Bantu of the lower Congo and Angola",
+      "status": "minority_position",
+      "evidence_for": "Luban shares much vocabulary and many grammatical features with Bemba and other Eastern Bantu neighbours on the Zambian plateau, and Bemba royal traditions trace their origins to Luba country.",
+      "evidence_against": "Glottolog, following lexicostatistical and phylogenetic work, places Luban in a Central-Western Bantu group with Njila and the West-Coastal languages. Features shared with Bemba and other eastern neighbours may reflect long contact across the Katanga savanna, not common descent.",
+      "linked_branch_ids": ["eastern-bantu"],
+      "sources": [
+        { "citation": "Bastin, Yvonne, André Coupez & Michael Mann. 1999. Continuity and Divergence in the Bantu Languages: Perspectives from a Lexicostatistic Study. Tervuren: Royal Museum for Central Africa.", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Luban (luba1253).", "url": "https://glottolog.org/resource/languoid/id/luba1253" }
+      ]
+    }
+  ],
+  "figure_ids": []
+}

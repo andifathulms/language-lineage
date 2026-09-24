@@ -3,7 +3,7 @@
   "family": "bantu",
   "name": "Proto-Bantu",
   "parent_ids": [],
-  "successor_ids": ["northwest-bantu", "western-bantu", "eastern-bantu"],
+  "successor_ids": ["northwest-bantu", "western-bantu", "luban", "eastern-bantu"],
   "era": "c. 3000 BCE (reconstructed)",
   "region": "The Grassfields of the Nigeria–Cameroon border",
   "defining_innovation": "The reconstructed ancestor of about 500 languages, built around a system of noun classes marked by prefixes: *mʊ-ntʊ 'person', *ba-ntʊ 'people', the plural that gave the family its name.",
