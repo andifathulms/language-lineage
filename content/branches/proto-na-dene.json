@@ -1,0 +1,78 @@
+{
+  "id": "proto-na-dene",
+  "family": "na-dene",
+  "name": "Proto-Na-Dene",
+  "parent_ids": [],
+  "successor_ids": ["tlingit", "athabaskan-eyak"],
+  "era": "Several thousand years ago (reconstructed; dating very uncertain)",
+  "region": "Probably interior Alaska, the Yukon or the northern Pacific coast",
+  "defining_innovation": "The ancestor of Tlingit, Eyak and the Athabaskan languages. Its descendants share a verb that stacks a dozen or more prefixes in a fixed order before the root, with a 'classifier' prefix immediately before it.",
+  "chapters": [
+    {
+      "title": "Sapir's Na-Dene",
+      "body": "In 1915 Edward Sapir grouped Tlingit, Haida and the Athabaskan languages as 'Na-Dene', a name combining words for 'people' and 'person' from its member languages. Later work removed Haida, whose resemblances turned out to be borrowings or chance, and added Eyak, a language of the Copper River delta that Michael Krauss showed to be the closest relative of Athabaskan. Jeff Leer then worked out regular sound correspondences between Tlingit and Athabaskan-Eyak, and the family, sometimes called Athabaskan-Eyak-Tlingit to exclude Haida, is now generally accepted.\n\nNa-Dene verbs are among the most complex anywhere: subject, object, aspect, mode and other information is packed into prefixes in fixed positions before the verb root. The family has almost no suffixes."
+    },
+    {
+      "title": "Across the Bering Strait?",
+      "body": "In 2008 Edward Vajda proposed that Na-Dene is related to the Yeniseian languages of central Siberia, of which only Ket survives. He pointed to parallels in the verb prefixes and a set of lexical correspondences. If correct, 'Dene-Yeniseian' would be the first demonstrated link between languages of the Old and New Worlds. The proposal was well received by some typologists and historical linguists, but others judge the evidence insufficient, and it remains a minority position."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tlingit-split",
+      "branch_id": "proto-na-dene",
+      "date": "Several thousand years ago",
+      "type": "SPLIT",
+      "title": "Tlingit and Athabaskan-Eyak part",
+      "description": "The ancestors of Tlingit separate from those of Eyak and Athabaskan. The correspondences are regular but deep, so the split is old. Its date and place cannot yet be fixed.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Leer, Jeff. 2010. The palatal series in Athabascan-Eyak-Tlingit, with an overview of the basic sound correspondences. In The Dene-Yeniseian Connection, ed. James Kari & Ben A. Potter. Anthropological Papers of the University of Alaska, n.s. 5.",
+          "url": null
+        },
+        { "citation": "Krauss, Michael E. & Jeff Leer. 1981. Athabaskan, Eyak, and Tlingit Sonorants. Alaska Native Language Center Research Papers 5. Fairbanks: ANLC.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-alaska-official-languages",
+      "branch_id": "proto-na-dene",
+      "date": "2014",
+      "type": "REVITALIZATION",
+      "title": "Official in Alaska",
+      "description": "Alaska recognises twenty Alaska Native languages as official languages of the state, among them Tlingit, Eyak and the Alaskan Athabaskan languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Alaska State Legislature. 2014. House Bill 216: An Act relating to the official languages of the state.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-dene-yeniseian",
+      "branch_id": "proto-na-dene",
+      "proposed_grouping": "Dene-Yeniseian: Na-Dene is related to the Yeniseian languages of Siberia",
+      "status": "minority_position",
+      "evidence_for": "Vajda compared the verb prefix templates of Na-Dene and Ket and proposed about a hundred lexical correspondences with sound correspondences. The proposal fits the idea of a population link across Beringia.",
+      "evidence_against": "Critics find the sound correspondences irregular or too flexible and the shared verb structure too general, and note that Proto-Yeniseian is itself only partly reconstructed. Most specialists regard the relationship as possible but not proven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Vajda, Edward J. 2010. A Siberian link with Na-Dene languages. In The Dene-Yeniseian Connection, ed. James Kari & Ben A. Potter. Anthropological Papers of the University of Alaska, n.s. 5.", "url": null },
+        { "citation": "Campbell, Lyle. 2011. Review of The Dene-Yeniseian Connection. International Journal of American Linguistics 77(3): 445–451.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-haida-na-dene",
+      "branch_id": "proto-na-dene",
+      "proposed_grouping": "Haida as a member of Na-Dene",
+      "status": "largely_rejected",
+      "evidence_for": "Sapir (1915) included Haida, a language of Haida Gwaii, because of structural parallels and some similar words.",
+      "evidence_against": "Closer study showed that the similar words are few and irregular and that the structural parallels are areal. Haida is now treated as an isolate.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Levine, Robert D. 1979. Haida and Na-Dene: A new look at the evidence. International Journal of American Linguistics 45(2): 157–170.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
