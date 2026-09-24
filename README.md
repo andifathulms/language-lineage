@@ -25,6 +25,8 @@ Eighteen families are covered:
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
+Each family page also has a **long-read essay** (how the family was recognised, its homeland and spread, what the languages share, the open questions), a **cognate table** where picking a sound highlights its regular correspondences, and a **map of where it is spoken today**, built from per-country speaker estimates. Each branch page gives present-day **speakers** with a UNESCO vitality level, the **countries** where it is spoken, and, where one could be sourced with confidence, a short **sample phrase** with a word-by-word gloss. Four **primers** (`/primers/`) explain the comparative method, sound laws, how splits are dated and why some groupings stay disputed.
+
 See [PRD.md](PRD.md) for scope, [DESIGN.md](DESIGN.md) for visual identity and [CLAUDE.md](CLAUDE.md) for build notes.
 
 ## Develop
@@ -45,6 +47,7 @@ content/
   families/<slug>.json    # family: summary, accent colour, root branch
   branches/<id>.json      # one file per branch (file name = id)
   figures.json            # people, tied to turning point ids
+  primers/<slug>.json     # method explainers, ordered by `order`
 ```
 
 Conventions:
@@ -54,9 +57,10 @@ Conventions:
 - **Turning points** are listed oldest first. The tree places them along the limb in that order.
 - **Contested classifications** may set `linked_branch_ids` to draw a dotted arc between the branches the grouping would join.
 - Each family file sets `buried_root`, the ancestry below its root branch. Setting `proven: false` draws the roots faint and dashed.
+- **Depth fields**: `Family.essay` / `essay_sources` / `cognates`, and `Branch.speakers` / `countries` / `sample`. `countries` goes on leaf branches only, with ISO 3166-1 alpha-3 codes; internal branches and the family map aggregate their subtree. A sample's `gloss` must have as many space-separated words as its `transliteration` (or `text`).
 - Optional extensions to the CLAUDE.md schema: `Branch.extinct`, `Branch.descendants`, `TurningPoint.title`, `ContestedClassification.linked_branch_ids` / `sources`, `Figure.lifespan`, and the `Family` file itself.
 
-`npm run validate` checks parent/successor symmetry, id uniqueness, figure links, required sources, sound-law metadata, that no event from 1500 on is cited only to sources older than itself, and that the lineage is acyclic. It runs before every build.
+`npm run validate` checks parent/successor symmetry, id uniqueness, figure links, required sources, sound-law metadata, that no event from 1500 on is cited only to sources older than itself, that the lineage is acyclic, and that cognate tables, country codes, vitality levels and sample glosses are well formed. It runs before every build.
 
 Prose is AI-drafted with citations and still needs specialist review.
 
