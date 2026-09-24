@@ -1,0 +1,104 @@
+{
+  "id": "oghuz",
+  "family": "turkic",
+  "name": "Oghuz",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 9th century CE – present",
+  "region": "From the Aral steppe to Anatolia, the Caucasus, Iran and the Balkans",
+  "defining_innovation": "Initial t- and k- became voiced in much of the vocabulary: Turkish dağ 'mountain', dil 'tongue', gel- 'come', where Kipchak and Karluk keep taw, til, kel-.",
+  "descendants": ["Turkish", "Azerbaijani", "Turkmen", "Gagauz", "Khorasani Turkic"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Oghuz were a tribal confederation on the steppes east of the Aral Sea in the 9th and 10th centuries. In the 11th century one of their clans, the Seljuks, conquered Iran, and after the Byzantine defeat at Manzikert in 1071 Oghuz Turkic speakers spread across Anatolia. Their descendants' languages form the southwestern branch of Turkic: Turkish, Azerbaijani, Turkmen, and Gagauz in Moldova.\n\nA recognisable Oghuz feature is the voicing of initial consonants in many words: `*taγ` 'mountain' is Turkish and Azerbaijani *dağ*, and `*kel-` 'come' is Turkish *gel-*. Mahmud al-Kashgari already noted Oghuz peculiarities in his dictionary of the 1070s."
+    },
+    {
+      "title": "Ottoman Turkish",
+      "body": "Under the Ottoman Empire (c. 1300–1922), educated written Turkish absorbed Persian and Arabic vocabulary and even grammar, such as Persian noun phrases and Arabic plurals. It was written in Arabic script, which recorded Turkish vowels poorly. Speech remained Turkish, but the written language of the court and the ordinary language of the people drifted far apart."
+    },
+    {
+      "title": "The Republic's Reforms",
+      "body": "In 1928 the new Turkish Republic under **Mustafa Kemal Atatürk** replaced Arabic script with a Latin alphabet designed for Turkish vowel harmony, with letters such as *ı*, *ö*, *ü*, *ş* and *ğ*. From 1932 the Turkish Language Association replaced thousands of Arabic and Persian words with Turkic coinages and revived words (*okul* 'school' for *mektep*). The historian Geoffrey Lewis called it 'a catastrophic success': it made the language easier to learn and write, but it also made Ottoman literature unreadable to later generations. After 1991, Azerbaijan and Turkmenistan also switched from Cyrillic to Latin alphabets."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-oghuz-voicing",
+      "branch_id": "oghuz",
+      "date": "c. 11th – 13th century CE",
+      "type": "SOUND_LAW",
+      "title": "Initial voicing",
+      "description": "Initial `*t` and `*k` become voiced in much of the Oghuz vocabulary: `*taγ` → *dağ*, `*til` → *dil*, `*kel-` → *gel-*. The change is incomplete and irregular across words and languages, and its dating from early texts is debated.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "*t- *k- → d- g- (*taγ → dağ, *kel- → gel-)",
+      "sort_year": 1150,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-seljuk-anatolia",
+      "branch_id": "oghuz",
+      "date": "1071 onward",
+      "type": "SPLIT",
+      "title": "Into Anatolia",
+      "description": "After the Seljuk victory at Manzikert, Oghuz Turkic speakers settle Anatolia, and Anatolian Turkish separates from the Oghuz of Central Asia (later Turkmen) and of the Caucasus and Iran (later Azerbaijani).",
+      "contested": false,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ottoman-persianate",
+      "branch_id": "oghuz",
+      "date": "14th – 19th century CE",
+      "type": "CONTACT",
+      "title": "Ottoman: Persian and Arabic layers",
+      "description": "The written language of the Ottoman state takes in a large share of Persian and Arabic vocabulary and some of their grammar. Spoken Turkish stays much closer to its Oghuz base.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lewis, Geoffrey. 1999. The Turkish Language Reform: A Catastrophic Success. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-harf-devrimi",
+      "branch_id": "oghuz",
+      "date": "1928",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Latin alphabet for Turkish",
+      "description": "The 'alphabet revolution' (*harf devrimi*) replaces Arabic script with a Latin alphabet within months, and with it the written language's link to its Ottoman past.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lewis, Geoffrey. 1999. The Turkish Language Reform: A Catastrophic Success. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dil-devrimi",
+      "branch_id": "oghuz",
+      "date": "1932 onward",
+      "type": "REVITALIZATION",
+      "title": "The language reform",
+      "description": "The Turkish Language Association replaces Arabic and Persian loans with Turkic words, some revived from old texts and many newly coined. Much of the new vocabulary becomes standard. How far the purge went, and at what cost, is still argued in Turkey.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lewis, Geoffrey. 1999. The Turkish Language Reform: A Catastrophic Success. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-post-soviet-latin",
+      "branch_id": "oghuz",
+      "date": "1991–1993",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Azerbaijani and Turkmen return to Latin",
+      "description": "After independence, Azerbaijan and Turkmenistan replace Soviet Cyrillic with Latin alphabets. In Iran, Azerbaijani continues to be written in Arabic script.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["ataturk"]
+}

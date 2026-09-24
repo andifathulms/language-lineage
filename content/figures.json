@@ -131,5 +131,12 @@
     "lifespan": "1842–1927",
     "branch_ids": ["common-turkic"],
     "turning_point_ids": ["tp-orkhon-inscriptions"]
+  },
+  {
+    "id": "ataturk",
+    "name": "Mustafa Kemal Atatürk",
+    "lifespan": "1881–1938",
+    "branch_ids": ["oghuz"],
+    "turning_point_ids": ["tp-harf-devrimi"]
   }
 ]
