@@ -1,0 +1,74 @@
+{
+  "id": "tani",
+  "family": "sino-tibetan",
+  "name": "Tani",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Siang and Subansiri basins of central Arunachal Pradesh, the upper Brahmaputra valley of Assam, and neighbouring Mêdog in southeastern Tibet",
+  "defining_innovation": "A close-knit set of languages descended from a Proto-Tani reconstructed by Jackson Sun, united by regular sound correspondences and a large body of vocabulary not shared with neighbouring Tibeto-Burman groups.",
+  "descendants": ["Mising", "Adi", "Nyishi", "Galo", "Apatani", "Tagin", "Bokar"],
+  "chapters": [
+    {
+      "title": "The Children of Abotani",
+      "body": "The Tani peoples of the eastern Himalayan foothills trace their descent from a common ancestor, Abotani ('father Tani'), and the linguist Jackson Sun took their name for the language group in his 1993 study, replacing the older colonial label 'Mirish' and the still older 'Abor-Miri-Dafla'. The languages include Adi, Galo, Nyishi, Apatani and Tagin in the hills of Arunachal Pradesh, Mising in the plains of Assam, and Bokar and related varieties of the people called Lhoba in Tibet.\n\nTani is one of the clearest subgroups in northeast India: its languages resemble each other closely, and several shade into one another in chains of dialects. Sun divided them into a Western and an Eastern group, though Mark Post has shown that the lines are blurred by long contact between neighbouring communities. How Tani fits into Tibeto-Burman as a whole remains unclear.\n\nThe largest language, Mising, is spoken by people whose ancestors moved down from the hills into the Brahmaputra valley, where the language has absorbed much from Assamese. It had some 630,000 speakers in India's 2011 census. Most Tani languages were unwritten until the 20th century and are now written in the Latin alphabet."
+    },
+    {
+      "title": "Neighbours and Borrowing",
+      "body": "The Tani languages show how hard it can be to draw a family tree when languages have been in contact for a long time. Villages in the hills of Arunachal Pradesh have traded, intermarried and raided with their neighbours for generations, and speakers often know several related languages. Mark Post and Yankee Modi, working on Galo and Minyong Adi, found that sound changes and grammatical features have spread across Sun's subgroup boundaries, and that neighbouring languages have borrowed heavily from each other, so that shared features do not always reveal descent.\n\nGrammatically the languages are typical of the region. The verb comes at the end of the clause, words are built from strings of suffixes, and verbs carry rich marking of aspect, mood and evidence. Galo, described in detail in Post's grammar of 2007, has a large set of verbal suffixes and uses tone to distinguish words.\n\nToday the smaller Tani languages face pressure from Hindi, used in Arunachal Pradesh as a common language between communities, and from English in schools. Community literary bodies publish textbooks and dictionaries, and the Donyi-Polo religious revival among the Adi and Galo has encouraged writing in the languages."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 1–1.3 million",
+    "vitality": "mixed",
+    "note": "Mising (about 630,000 in India's 2011 census) is the largest; Adi and Nyishi each have about 200,000 speakers or more, while Tagin, Bokar and some Adi varieties are much smaller.",
+    "sources": [
+      { "citation": "Census of India 2011. Language: India, States and Union Territories (Paper 1 of 2018). New Delhi: Office of the Registrar General & Census Commissioner.", "url": "https://censusindia.gov.in" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 1–1.3 million" },
+    { "iso": "CHN", "name": "China", "speakers": "a few thousand" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tani-split",
+      "branch_id": "tani",
+      "date": "Date unknown",
+      "type": "SPLIT",
+      "title": "Western and Eastern Tani",
+      "description": "Proto-Tani divides into western and eastern groups spread across the Subansiri and Siang basins. The low diversity among the languages suggests the split is not very old, but no firm date has been proposed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sun, Jackson Tianshin. 1993. A Historical-Comparative Study of the Tani (Mirish) Branch in Tibeto-Burman. PhD dissertation, University of California, Berkeley.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mising-plains",
+      "branch_id": "tani",
+      "date": "2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Mising in the Brahmaputra valley",
+      "description": "The ancestors of the Mising move from the hills into the plains of Assam, where their language comes under strong Assamese influence. The timing of the move is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Post, Mark W. 2007. A Grammar of Galo. PhD thesis, La Trobe University.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tani-latin",
+      "branch_id": "tani",
+      "date": "20th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Writing in Latin letters",
+      "description": "Missionaries, government schools and community literary bodies develop Latin-alphabet spellings for Mising, Adi, Galo, Nyishi and Apatani, and textbooks and dictionaries follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "Post, Mark W. 2007. A Grammar of Galo. PhD thesis, La Trobe University.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
