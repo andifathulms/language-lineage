@@ -1,0 +1,93 @@
+{
+  "id": "oghur",
+  "family": "turkic",
+  "name": "Oghur",
+  "parent_ids": ["proto-turkic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The western steppe north of the Black Sea and Caspian, then the middle Volga",
+  "defining_innovation": "It has r and l where Common Turkic has z and š: Chuvash tăxăr 'nine' and čul 'stone' beside Turkish dokuz and taş.",
+  "descendants": ["Chuvash", "Volga Bulgar †", "Danube Bulgar †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Oghur is the first branch to leave the Turkic family and the first to appear in the west. By the 5th century CE, Byzantine writers record Oghur-speaking peoples, the Onogurs and then the Bulgars, on the steppe north of the Black Sea. Their language left loanwords in Hungarian and in the Permic languages that can still be recognised by their Oghur *r* and *l*. Hungarian *ökör* 'ox', with *r*, corresponds to Common Turkic *öküz*.\n\nIn the 7th century the Bulgar confederation broke up. One group moved to the lower Danube in 681 and founded the Bulgarian state, where its Turkic language soon gave way to Slavic, leaving only the name *Bulgarian*. Another group settled on the middle Volga, where the Volga Bulgars converted to Islam in the early 10th century. The Arab envoy Ibn Faḍlān visited them in 922."
+    },
+    {
+      "title": "Which Side Changed?",
+      "body": "The r/z and l/š correspondence is clear, but which side is original is one of the old problems of Turkic studies. The traditional view is that Proto-Turkic had *z* and *š* and Oghur changed them ('rhotacism' and 'lambdacism'). The opposite view is that Proto-Turkic had special *r*- and *l*-like sounds, which Oghur kept and Common Turkic changed ('zetacism' and 'sigmatism'). The Altaic debate plays into it, because Mongolic words that match Turkic ones often have *r* and *l*, and those matches may themselves be early Oghur loans."
+    },
+    {
+      "title": "Chuvash",
+      "body": "Chuvash, spoken by around a million people in the Chuvash Republic on the Volga, is the only living Oghur language, the descendant of Volga Bulgar. It is so different from the rest of Turkic that other Turkic speakers cannot understand it. Its modern written form is the work of the educator **Ivan Yakovlev**, whose Cyrillic-based alphabet of 1872 is the basis of today's spelling."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-oghur-r-l",
+      "branch_id": "oghur",
+      "date": "Before c. 500 CE",
+      "type": "SOUND_LAW",
+      "title": "Oghur r and l against Common Turkic z and š",
+      "description": "Oghur has *r* and *l* where Common Turkic has *z* and *š*: Chuvash *tăxăr* 'nine' : Turkish *dokuz*, Chuvash *čul* 'stone' : Turkish *taş*. Whether Oghur changed its consonants or Common Turkic did is disputed. This tree records the correspondence without choosing a direction.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "Oghur r l ~ Common Turkic z š (tăxăr ~ dokuz 'nine', čul ~ taş 'stone')",
+      "sort_year": -200,
+      "sources": [
+        { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Róna-Tas, András & Árpád Berta. 2011. West Old Turkic: Turkic Loanwords in Hungarian. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-oghur-loans-west",
+      "branch_id": "oghur",
+      "date": "c. 5th – 9th century CE",
+      "type": "CONTACT",
+      "title": "Oghur words in Hungarian and Permic",
+      "description": "Oghur-speaking peoples lend hundreds of words to their neighbours, among them Hungarian *ökör* 'ox' and *búza* 'wheat'. The *r* and *l* in these loans identify their source, and they form the West Old Turkic layer recorded on the Hungarian branch.",
+      "contested": false,
+      "sources": [
+        { "citation": "Róna-Tas, András & Árpád Berta. 2011. West Old Turkic: Turkic Loanwords in Hungarian. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-danube-bulgar-shift",
+      "branch_id": "oghur",
+      "date": "9th – 10th century CE",
+      "type": "EXTINCTION",
+      "title": "Danube Bulgars become Slavic-speaking",
+      "description": "The Bulgars who founded a state on the Danube in 681 shift to the Slavic language of their subjects. A handful of titles and dates in the *Nominalia* of the Bulgarian khans preserve fragments of their language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-volga-bulgar-epitaphs",
+      "branch_id": "oghur",
+      "date": "13th – 14th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Volga Bulgar gravestones",
+      "description": "Muslim gravestones along the Volga carry epitaphs in Arabic script, some in a language with clear Oghur features, an ancestor of Chuvash. They are the only substantial written record of an Oghur language before modern times.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chuvash-alphabet",
+      "branch_id": "oghur",
+      "date": "1872",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Yakovlev's Chuvash alphabet",
+      "description": "Ivan Yakovlev creates a Cyrillic-based alphabet for Chuvash and publishes school books in it. Revised in 1938, it is the basis of the modern written language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["ivan-yakovlev"]
+}

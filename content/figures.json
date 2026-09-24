@@ -110,5 +110,12 @@
     "lifespan": "1759–1831",
     "branch_ids": ["hungarian"],
     "turning_point_ids": ["tp-nyelvujitas"]
+  },
+  {
+    "id": "ivan-yakovlev",
+    "name": "Ivan Yakovlev",
+    "lifespan": "1848–1930",
+    "branch_ids": ["oghur"],
+    "turning_point_ids": ["tp-chuvash-alphabet"]
   }
 ]
