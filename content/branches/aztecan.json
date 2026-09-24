@@ -1,0 +1,117 @@
+{
+  "id": "aztecan",
+  "family": "uto-aztecan",
+  "name": "Aztecan",
+  "parent_ids": ["southern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Central Mexico, the Gulf coast and Guerrero; Pipil in El Salvador",
+  "defining_innovation": "Nahuatl, Pipil and the extinct Pochutec. In the central Nahuatl dialects *t became tl before a: Classical Nahuatl ātl 'water' against Pipil at.",
+  "descendants": ["Nahuatl", "Pipil", "Pochutec †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Aztecan (Nahuan) languages are the southernmost Uto-Aztecan languages. Their speakers moved south into central Mexico during the first millennium CE, perhaps in several waves, and Nahuatl-speaking groups appear in the histories of Tula and later of the Mexica (Aztecs). The most famous sound of Nahuatl, the lateral affricate *tl*, comes from an old *t* before *a*. Pipil in El Salvador and some peripheral dialects keep *t*: 'water' is Classical Nahuatl *ātl* but Pipil *at*.\n\nNahuatl may have left an early mark on its neighbours. Karen Dakin and Søren Wichmann argue that the word for cacao, Mayan *kakaw*, comes from Uto-Aztecan and not from Mixe-Zoquean, which would put Nahuatl speakers in Mesoamerica earlier than usually thought. The Mayan tree records the other side."
+    },
+    {
+      "title": "The Language of an Empire",
+      "body": "Under the Mexica empire (1428–1521) Nahuatl became the lingua franca of much of Mesoamerica, and the Spanish continued to use it as a language of administration and evangelisation. Nahua scribes quickly adapted the Latin alphabet, and a large colonial literature of wills, land records, annals and poetry survives. Its monument is the Franciscan **Bernardino de Sahagún**'s *General History of the Things of New Spain*, the Florentine Codex (completed 1577). He compiled it with Nahua scholars as an encyclopedia of Aztec culture in Nahuatl, with Spanish translation and illustrations.\n\nNahuatl words reached Spanish and then the world: *tomatl*, *xocolatl*, *āhuacatl* and *chīlli* became tomato, chocolate, avocado and chilli."
+    },
+    {
+      "title": "Today",
+      "body": "Nahuatl, in its many regional varieties, is spoken by around 1.7 million people, the largest indigenous language of Mexico, and since 2003 it has been one of Mexico's national languages. Pochutec, a divergent Aztecan language of Oaxaca, was recorded by Franz Boas in 1917 and has since died out. Pipil, in El Salvador, survived the 1932 massacre of Indigenous peasants but has only a few elderly speakers, and it is the focus of revival efforts."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-cacao-dispute",
+      "branch_id": "aztecan",
+      "date": "Before c. 400 CE, if the argument holds",
+      "type": "CONTACT",
+      "title": "A Nahuatl origin for cacao?",
+      "description": "Dakin and Wichmann derive *kakaw* 'cacao' from Uto-Aztecan, not from Mixe-Zoquean. Because *kakaw* appears in Classic Maya writing, this would put Nahuatl speakers in Mesoamerica by the early Classic period. Most scholars still prefer the Mixe-Zoquean source.",
+      "contested": true,
+      "sources": [
+        { "citation": "Dakin, Karen & Søren Wichmann. 2000. Cacao and chocolate: A Uto-Aztecan perspective. Ancient Mesoamerica 11.", "url": null },
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1976. A linguistic look at the Olmecs. American Antiquity 41(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nahua-south",
+      "branch_id": "aztecan",
+      "date": "c. 500 – 1000 CE",
+      "type": "SPLIT",
+      "title": "South into Mesoamerica",
+      "description": "Nahuan speakers move into central Mexico and beyond, and Pochutec, Pipil and Nahuatl diverge. The date, the number of waves, and whether Nahuatl was already present earlier are disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Canger, Una. 1988. Nahuatl dialectology: A survey and some suggestions. International Journal of American Linguistics 54(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nahuatl-tl",
+      "branch_id": "aztecan",
+      "date": "c. 1st millennium CE",
+      "type": "SOUND_LAW",
+      "title": "*t becomes tl before a",
+      "description": "In the central Nahuatl dialects, `*t` becomes the lateral affricate `tɬ` before *a*: Classical Nahuatl *ātl* 'water', *tlācatl* 'person'. Pipil and some peripheral dialects keep *t* (*at* 'water'), so the change is internal to Nahuan and later than its first split.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "*t → tɬ / _a (ātl 'water'; Pipil at)",
+      "sort_year": 800,
+      "sources": [
+        { "citation": "Canger, Una. 1988. Nahuatl dialectology: A survey and some suggestions. International Journal of American Linguistics 54(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mexica-lingua-franca",
+      "branch_id": "aztecan",
+      "date": "1428 – 1521",
+      "type": "CONTACT",
+      "title": "Language of the Aztec empire",
+      "description": "The Triple Alliance led by the Mexica spreads Nahuatl as the language of tribute, trade and diplomacy across Mesoamerica, and the Spanish later keep it as a colonial lingua franca.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lockhart, James. 1992. The Nahuas After the Conquest: A Social and Cultural History of the Indians of Central Mexico, Sixteenth Through Eighteenth Centuries. Stanford: Stanford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-florentine-codex",
+      "branch_id": "aztecan",
+      "date": "c. 1545 – 1577",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Nahuatl in Latin letters and the Florentine Codex",
+      "description": "Nahua scribes adopt the Latin alphabet for wills, annals and poetry, and Sahagún and his Nahua collaborators compile the Florentine Codex, a twelve-book encyclopedia of Aztec life in Nahuatl.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lockhart, James. 1992. The Nahuas After the Conquest: A Social and Cultural History of the Indians of Central Mexico, Sixteenth Through Eighteenth Centuries. Stanford: Stanford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pochutec-extinction",
+      "branch_id": "aztecan",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Pochutec falls silent",
+      "description": "Pochutec, a divergent Aztecan language of coastal Oaxaca documented by Franz Boas in 1917, dies out. It is known almost entirely from his short grammar.",
+      "contested": true,
+      "sources": [
+        { "citation": "Boas, Franz. 1917. El dialecto mexicano de Pochutla, Oaxaca. International Journal of American Linguistics 1(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nahuatl-national",
+      "branch_id": "aztecan",
+      "date": "2003",
+      "type": "REVITALIZATION",
+      "title": "A national language of Mexico",
+      "description": "Mexico's General Law on the Linguistic Rights of Indigenous Peoples makes Nahuatl, the country's largest indigenous language, a national language alongside Spanish.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ley General de Derechos Lingüísticos de los Pueblos Indígenas. Diario Oficial de la Federación, 13 March 2003.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["bernardino-de-sahagun"]
+}

@@ -285,5 +285,12 @@
     "lifespan": "1934–2001",
     "branch_ids": ["tepiman"],
     "turning_point_ids": ["tp-oodham-alphabet"]
+  },
+  {
+    "id": "bernardino-de-sahagun",
+    "name": "Bernardino de Sahagún",
+    "lifespan": "1499–1590",
+    "branch_ids": ["aztecan"],
+    "turning_point_ids": ["tp-florentine-codex"]
   }
 ]
