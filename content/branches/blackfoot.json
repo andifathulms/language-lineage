@@ -1,0 +1,61 @@
+{
+  "id": "blackfoot",
+  "family": "algonquian",
+  "name": "Blackfoot",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The northwestern Plains of Alberta and Montana",
+  "defining_innovation": "The westernmost and most divergent Algonquian language, spoken by the Siksiká, Kainai, Piikani and Aamsskáápipikani nations, and so different from the rest that its sound correspondences are hard to trace.",
+  "descendants": ["Blackfoot (Siksiká, Kainai, Piikani)"],
+  "chapters": [
+    {
+      "title": "Far West",
+      "body": "Blackfoot (*Siksiká*) is spoken on the northwestern Plains, along the Rocky Mountain front in Alberta and Montana. It is the most divergent member of the family, probably because its speakers separated earliest and lived longest among non-Algonquian neighbours. Its sound correspondences with the other Algonquian languages are only partly understood. The Blackfoot Confederacy dominated the northwestern Plains in the horse and fur-trade era of the 18th and 19th centuries."
+    },
+    {
+      "title": "Schools and Revival",
+      "body": "After the buffalo were destroyed in the 1880s and the reserve and reservation era began, residential and boarding schools broke the transmission of Blackfoot in many families. In 1995 the Piegan Institute opened the Cuts Wood School in Browning, Montana, a Blackfoot immersion school that became a model for Native language revival in the United States."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-blackfoot-west",
+      "branch_id": "blackfoot",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "The first to go west",
+      "description": "The ancestors of the Blackfoot move onto the northwestern Plains and separate from the other Algonquian languages, probably earliest of all. Their route and date are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-blackfoot-horse",
+      "branch_id": "blackfoot",
+      "date": "c. 1730 – 1880",
+      "type": "CONTACT",
+      "title": "Horses, guns and the fur trade",
+      "description": "The Blackfoot acquire horses and guns, trade with the Hudson's Bay Company and dominate the northwestern Plains until the buffalo herds are destroyed in the 1880s.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cuts-wood",
+      "branch_id": "blackfoot",
+      "date": "1995",
+      "type": "REVITALIZATION",
+      "title": "Immersion schooling",
+      "description": "The Piegan Institute opens the Cuts Wood School, a Blackfoot-immersion school for children in Browning, Montana.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne, Leena Huss & Gerald Roche, eds. 2018. The Routledge Handbook of Language Revitalization. New York: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
