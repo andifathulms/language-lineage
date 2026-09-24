@@ -1,0 +1,103 @@
+{
+  "id": "kiranti",
+  "family": "sino-tibetan",
+  "name": "Kiranti",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The hills of eastern Nepal between the Sun Kosi and the Mechi rivers, with communities in Sikkim, Darjeeling and southern Bhutan",
+  "defining_innovation": "A shared set of verb agreement endings and alternating verb stems, together with a common core vocabulary. The elaborate agreement itself may be older than Kiranti, which is why its unity rests on the shared forms rather than the system.",
+  "descendants": ["Limbu", "Bantawa", "Chamling", "Kulung", "Thulung", "Khaling", "Yakkha", "Sunwar"],
+  "chapters": [
+    {
+      "title": "The Kirati Hills",
+      "body": "The Kiranti languages are spoken by the peoples known collectively as the Kirat or Kirati: the Limbu east of the Arun river, the many groups called Rai to its west, and smaller communities such as the Sunuwar and Yakkha. There are some thirty Kiranti languages, most of them spoken in a few adjacent valleys, and neighbouring villages often speak languages that are not mutually intelligible. Limbu is the largest, with about 350,000 speakers in Nepal's 2011 census; Bantawa and Chamling are the largest Rai languages.\n\nSpecialists usually divide the group into Western and Eastern Kiranti, with Thulung, Bahing, Khaling and Dumi in the west and Limbu, Yakkha, Yamphu and Lohorung in the east, though the details differ from author to author. Hayu and Sunwar sit near the edges and their placement varies. George van Driem, Boyd Michailovsky and others have shown that the languages share a distinctive body of verb morphology and vocabulary, and their unity is now generally accepted.\n\nThe Kirat communities share an oral tradition, the Mundhum, recited by ritual specialists in archaic registers of their languages. Since the incorporation of eastern Nepal into the Gorkha kingdom in the 1770s, Nepali has spread as the language of state, school and trade, and many Kiranti languages are now spoken mainly by older people."
+    },
+    {
+      "title": "Verbs That Agree With Everyone",
+      "body": "Kiranti verbs are famous among linguists for how much they encode. A transitive verb marks the person and number of both the agent and the patient, and the languages distinguish singular, dual and plural, as well as an inclusive 'we' (including the listener) from an exclusive one. Because the endings combine and interact with changes in the verb stem, a single transitive verb in Limbu or Bantawa has dozens of distinct forms, and grammars of these languages lay out paradigms that run over several pages.\n\nThese systems are at the heart of a long debate about the history of the whole family. Van Driem and Scott DeLancey argue that such agreement was inherited from Proto-Tibeto-Burman and lost in Tibetan, Burmese and most other branches; Randy LaPolla argues that it developed independently in Kiranti and a few other groups.\n\nKiranti languages have also produced unexpected findings for general linguistics. In Chintang, documented by Balthasar Bickel, Sabine Stoll and colleagues from 2004, some verbal prefixes can occur in any order without a change in meaning, a freedom that most theories of word structure did not expect. Belhare, Puma and Chintang are among the best-documented endangered languages of the Himalayas as a result."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 1 million",
+    "vitality": "mixed",
+    "note": "Rough figure: Nepal's census counts many Rai speakers under a single 'Rai' heading. Limbu has about 350,000 speakers in Nepal; many small Rai languages are endangered as children grow up speaking Nepali.",
+    "sources": [
+      { "citation": "Central Bureau of Statistics. 2012. National Population and Housing Census 2011 (National Report). Kathmandu: Government of Nepal.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" }
+    ]
+  },
+  "countries": [
+    { "iso": "NPL", "name": "Nepal", "speakers": "c. 0.9 million" },
+    { "iso": "IND", "name": "India", "speakers": "c. 0.1 million" },
+    { "iso": "BTN", "name": "Bhutan" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kiranti-split",
+      "branch_id": "kiranti",
+      "date": "Date unknown",
+      "type": "SPLIT",
+      "title": "Western and Eastern Kiranti",
+      "description": "The Kiranti languages diverge across the hills of eastern Nepal into a western and an eastern group, with further splitting into valley-by-valley languages. Neither the date nor the exact internal tree is settled.",
+      "contested": true,
+      "sources": [
+        { "citation": "van Driem, George. 2001. Languages of the Himalayas: An Ethnolinguistic Handbook of the Greater Himalayan Region. Leiden: Brill.", "url": null },
+        { "citation": "Opgenort, Jean Robert. 2005. A Grammar of Jero. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-limbu-sirijanga",
+      "branch_id": "kiranti",
+      "date": "Early 18th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Sirijanga script",
+      "description": "The Limbu script, a Brahmi-derived script related to the Lepcha script of Sikkim, is revived and promoted by the Limbu scholar Teyongsi Sirijanga, who is said to have been killed in Sikkim in 1741. Limbu tradition credits an earlier king Sirijanga with inventing it, which historians cannot confirm.",
+      "contested": true,
+      "sources": [
+        { "citation": "van Driem, George. 1987. A Grammar of Limbu. Berlin: Mouton de Gruyter.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kiranti-nepali-shift",
+      "branch_id": "kiranti",
+      "date": "Late 18th century – present",
+      "type": "CONTACT",
+      "title": "The spread of Nepali",
+      "description": "After the Gorkha conquest of eastern Nepal in the 1770s, Nepali becomes the language of administration and, in the 20th century, of schooling. Many Kiranti communities shift towards it, and several small Rai languages have only a few hundred speakers left.",
+      "contested": false,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+        { "citation": "van Driem, George. 2001. Languages of the Himalayas: An Ethnolinguistic Handbook of the Greater Himalayan Region. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-limbu-unicode",
+      "branch_id": "kiranti",
+      "date": "2003",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Limbu in Unicode",
+      "description": "The Limbu script is encoded in version 4.0 of the Unicode Standard, making it usable in digital publishing and on the web.",
+      "contested": false,
+      "sources": [
+        { "citation": "The Unicode Consortium. 2003. The Unicode Standard, Version 4.0. Boston: Addison-Wesley.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-mahakiranti",
+      "branch_id": "kiranti",
+      "proposed_grouping": "Mahakiranti: Kiranti forms a larger subgroup with Newar, Magar and other central Himalayan languages",
+      "status": "minority_position",
+      "evidence_for": "Van Driem proposed the grouping in the 1990s on the basis of shared verb agreement morphology and some vocabulary linking Kiranti with Newar and Magar.",
+      "evidence_against": "Much of the shared agreement morphology may be inherited from further back, and so does not show a closer relationship. Van Driem himself later expressed doubts about the larger grouping, and most current classifications, including Glottolog, treat Kiranti on its own.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "van Driem, George. 2001. Languages of the Himalayas: An Ethnolinguistic Handbook of the Greater Himalayan Region. Leiden: Brill.", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. 2024. Glottolog 5.0. Leipzig: Max Planck Institute for Evolutionary Anthropology.", "url": "https://glottolog.org" }
+      ]
+    }
+  ],
+  "figure_ids": []
+}

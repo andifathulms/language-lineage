@@ -3,7 +3,7 @@
   "family": "sino-tibetan",
   "name": "Tibeto-Burman",
   "parent_ids": ["proto-sino-tibetan"],
-  "successor_ids": ["tibetic", "lolo-burmese", "karenic", "kuki-chin", "sal"],
+  "successor_ids": ["tibetic", "kiranti", "lolo-burmese", "karenic", "kuki-chin", "tani", "sal"],
   "era": "c. 4000 BCE – present",
   "region": "The Tibetan plateau, the Himalayas, northeast India, Myanmar and southwest China",
   "defining_innovation": "Every Sino-Tibetan language except Chinese: some 450 languages, most of them small, with verb-final word order in almost all of them.",
@@ -21,7 +21,7 @@
   "speakers": {
     "estimate": "c. 60–70 million",
     "vitality": "mixed",
-    "note": "Includes branches not drawn on this tree, such as Meitei, Newar and the Tamangic and Kiranti languages; about half the total are speakers of Burmese.",
+    "note": "Includes branches not drawn on this tree, such as Meitei, Newar and the Tamangic languages; about half the total are speakers of Burmese.",
     "sources": [
       { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": "https://www.ethnologue.com" },
       { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
