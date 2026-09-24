@@ -1,0 +1,76 @@
+{
+  "id": "proto-turkic",
+  "family": "turkic",
+  "name": "Proto-Turkic",
+  "parent_ids": [],
+  "successor_ids": ["oghur", "common-turkic"],
+  "era": "c. 1st millennium BCE (reconstructed)",
+  "region": "Probably the eastern steppe and forest edge: Mongolia, the Altai and southern Siberia",
+  "defining_innovation": "The reconstructed ancestor of all Turkic languages, shallow enough that much of its vocabulary survives almost unchanged: *sub 'water' (Turkish su), *at 'horse' (Turkish, Kazakh, Uzbek at).",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Compared with Indo-European or Uralic, Turkic is a young family. Proto-Turkic is usually dated to the first millennium BCE, and its descendants are still so similar that speakers of neighbouring languages often understand each other. Basic words have hardly moved: `*at` 'horse', `*taŋrï` 'sky, god', `*sub` 'water' (Turkish *su*), `*taγ` 'mountain' (Turkish *dağ*, Kazakh *taw*).\n\nThe homeland is usually placed on the eastern steppe, around Mongolia, the Altai and southern Siberia, among herders who used the horse. The great steppe confederations of the region complicate the picture. The Xiongnu, who dominated Mongolia from the 3rd century BCE, left only a few words in Chinese transcription, and scholars have identified their language variously as Turkic, Yeniseian or something else entirely."
+    },
+    {
+      "title": "The First Split",
+      "body": "Turkic divides first into **Oghur**, whose only living member is Chuvash on the middle Volga, and **Common Turkic**, which covers everything else. The two differ in a few systematic consonants: where Common Turkic has *z* and *š*, Oghur has *r* and *l*. Turkish *dokuz* 'nine' corresponds to Chuvash *tăxăr*, and Turkish *taş* 'stone' to Chuvash *čul*.\n\nThis tree follows the standard division of Common Turkic into Oghuz (southwest), Kipchak (northwest), Karluk (southeast) and the Siberian languages. It draws only **Lena Turkic** (Sakha) from the Siberian group, because the grouping of the other Siberian languages is uncertain."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-xiongnu",
+      "branch_id": "proto-turkic",
+      "date": "3rd century BCE – 1st century CE",
+      "type": "CONTACT",
+      "title": "Steppe confederations",
+      "description": "The Xiongnu confederation dominates the eastern steppe and brings together peoples of several languages. Whether Turkic was the Xiongnu's own language, one of several in the confederation, or not spoken there at all is disputed. Yeniseian and other identifications have been proposed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-oghur-split",
+      "branch_id": "proto-turkic",
+      "date": "c. late 1st millennium BCE – early 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Oghur and Common Turkic",
+      "description": "Proto-Turkic divides into Oghur and Common Turkic, and Oghur speakers move west ahead of the others. The date is inferred from loanwords and historical records of Oghur-speaking groups on the western steppe by the 5th century CE.",
+      "contested": true,
+      "sources": [
+        { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Golden, Peter B. 1992. An Introduction to the History of the Turkic Peoples. Wiesbaden: Harrassowitz.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-altaic",
+      "branch_id": "proto-turkic",
+      "proposed_grouping": "Altaic: Turkic, Mongolic and Tungusic descend from one ancestor",
+      "status": "largely_rejected",
+      "evidence_for": "The three families share a great deal: verb-final word order, suffixing morphology, vowel harmony, and a pronoun pattern with *m-* for 'I' and *s-*/*č-* for 'you' (Turkish *men*/*sen*, Mongolian *bi*/*či* with oblique *min-*/*čin-*). There are also hundreds of shared words. Starostin, Dybo and Mudrak's etymological dictionary (2003) sets out correspondences in detail.",
+      "evidence_against": "Most shared words are better explained as borrowings in long contact, above all from Turkic into Mongolic and from Mongolic into Tungusic, and they are scarce in the most basic vocabulary, such as numerals and body parts. Typological resemblances do not prove descent. Clauson, Doerfer and Vovin, among others, concluded that the relationship is not demonstrated.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Starostin, Sergei, Anna Dybo & Oleg Mudrak. 2003. Etymological Dictionary of the Altaic Languages. Leiden: Brill.", "url": null },
+        { "citation": "Vovin, Alexander. 2005. The end of the Altaic controversy. Central Asiatic Journal 49(1).", "url": null }
+      ]
+    },
+    {
+      "id": "cc-transeurasian",
+      "branch_id": "proto-turkic",
+      "proposed_grouping": "Transeurasian: Turkic, Mongolic, Tungusic, Koreanic and Japonic share an ancestor spread by early millet farmers",
+      "status": "minority_position",
+      "evidence_for": "Martine Robbeets and colleagues (2021) combine shared verb morphology and farming vocabulary with archaeological and genetic data to trace the family to millet farmers of the West Liao River region in northeast China around 7000 BCE.",
+      "evidence_against": "Critics argue that the linguistic dataset still includes loanwords and chance resemblances, and that agreement between genes, pottery and languages does not prove the linguistic relationship. Adding Korean and Japanese to the Altaic problem makes it harder, not easier. Most historical linguists remain unconvinced.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Robbeets, Martine, et al. 2021. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599.", "url": null },
+        { "citation": "Vovin, Alexander. 2005. The end of the Altaic controversy. Central Asiatic Journal 49(1).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
