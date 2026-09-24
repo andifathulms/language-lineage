@@ -1,0 +1,48 @@
+{
+  "id": "tibeto-burman",
+  "family": "sino-tibetan",
+  "name": "Tibeto-Burman",
+  "parent_ids": ["proto-sino-tibetan"],
+  "successor_ids": ["tibetic", "lolo-burmese", "karenic", "kuki-chin", "sal"],
+  "era": "c. 4000 BCE – present",
+  "region": "The Tibetan plateau, the Himalayas, northeast India, Myanmar and southwest China",
+  "defining_innovation": "Every Sino-Tibetan language except Chinese: some 450 languages, most of them small, with verb-final word order in almost all of them.",
+  "descendants": ["Tibetan", "Burmese", "Yi", "Karen", "Mizo", "Bodo", "Jingpho", "Newar"],
+  "chapters": [
+    {
+      "title": "Into the Mountains",
+      "body": "Tibeto-Burman is the traditional name for all the non-Chinese Sino-Tibetan languages. Only a few have a long written history (Tibetan, Burmese, Newar and Meitei), and hundreds are spoken by small communities in the valleys of the Himalayas, the hills of northeast India and Myanmar, and the mountains of southwest China. Almost all put the verb at the end of the clause, unlike Chinese and Karen. James Matisoff's *Handbook of Proto-Tibeto-Burman* (2003) reconstructs their common ancestor.\n\nWhether Tibeto-Burman is a genuine branch, one that excludes Chinese, is disputed. The two 2019 phylogenies support it, but George van Driem argues that Chinese is just one branch among many and prefers the name 'Trans-Himalayan' for the whole family."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tb-dispersal",
+      "branch_id": "tibeto-burman",
+      "date": "c. 4000 – 2000 BCE",
+      "type": "SPLIT",
+      "title": "West and south into the mountains",
+      "description": "Tibeto-Burman speakers spread onto the Tibetan plateau, along the Himalayas and south into the hills of northeast India and Myanmar. Their subgroups diverge rapidly and in poorly understood order.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sagart, Laurent, et al. 2019. Dated language phylogenies shed light on the ancestry of Sino-Tibetan. Proceedings of the National Academy of Sciences 116(21).", "url": null },
+        { "citation": "Matisoff, James A. 2003. Handbook of Proto-Tibeto-Burman. Berkeley: University of California Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-tibeto-burman",
+      "branch_id": "tibeto-burman",
+      "proposed_grouping": "Tibeto-Burman: all non-Chinese Sino-Tibetan languages share an ancestor that Chinese does not",
+      "status": "widely_accepted",
+      "evidence_for": "It is the traditional classification, used by Benedict and Matisoff, and both 2019 Bayesian phylogenies found Sinitic to be the first branch to split off, leaving the rest together.",
+      "evidence_against": "Van Driem and others find no innovations shared by all the Tibeto-Burman languages alone, and argue that some of them may be closer to Chinese than to each other. On that view 'Tibeto-Burman' is simply 'Sino-Tibetan minus Chinese', and the family is better called 'Trans-Himalayan' with Chinese as one branch among many.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "van Driem, George. 2001. Languages of the Himalayas: An Ethnolinguistic Handbook of the Greater Himalayan Region. Leiden: Brill.", "url": null },
+        { "citation": "Matisoff, James A. 2003. Handbook of Proto-Tibeto-Burman. Berkeley: University of California Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
