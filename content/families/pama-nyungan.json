@@ -38,5 +38,92 @@
     { "citation": "Bowern, Claire & Quentin Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4): 817–845.", "url": null },
     { "citation": "Bouckaert, Remco R., Claire Bowern & Quentin D. Atkinson. 2018. The origin and expansion of Pama–Nyungan languages across Australia. Nature Ecology & Evolution 2: 741–749.", "url": null },
     { "citation": "Malaspinas, Anna-Sapfo et al. 2016. A genomic history of Aboriginal Australia. Nature 538: 207–214.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Pama-Nyungan cognates are easy to spot once you allow for spelling. Stops have no voicing contrast, so Pitjantjatjara *k* and Guugu Yimithirr *g* write the same sound. Look instead at the regular differences. Kaurna, around Adelaide, 'prestops' `n` and `l` after a stressed first syllable, so *tjina* 'foot' matches Kaurna *tidna*. Wiradjuri writes *dh* where Pitjantjatjara has *tj*. Gaps are informative too: where a column is empty, that language replaced the old word, as Guugu Yimithirr did with *dhamal* 'foot'. Verbs are shown as roots. Reconstructions follow Alpher (2004), respelt in the practical orthography used on this site.",
+    "proto_label": "Proto-Pama-Nyungan",
+    "languages": [
+      { "name": "Pitjantjatjara", "branch_id": "western-desert" },
+      { "name": "Guugu Yimithirr", "branch_id": "paman" },
+      { "name": "Djambarrpuyŋu", "branch_id": "yolngu" },
+      { "name": "Wiradjuri", "branch_id": "wiradhuric" },
+      { "name": "Kaurna", "branch_id": "thura-yura" }
+    ],
+    "rows": [
+      {
+        "gloss": "we two (you and I)",
+        "proto": "ngali",
+        "forms": ["ngali", "ngali", "ŋali", "ngali", "ngadli"]
+      },
+      {
+        "gloss": "tongue",
+        "proto": "jalany",
+        "forms": ["tjalinypa", null, null, "dhalayn", "tadlanya"]
+      },
+      {
+        "gloss": "foot",
+        "proto": "jina",
+        "forms": ["tjina", null, null, "dhinang", "tidna"]
+      },
+      {
+        "gloss": "excrement",
+        "proto": "kuna",
+        "forms": ["kuna", null, null, null, "kudna"]
+      },
+      {
+        "gloss": "fish",
+        "proto": "kuya",
+        "forms": [null, "guyu", "guya", "guya", "kuya"]
+      },
+      {
+        "gloss": "vegetable food",
+        "proto": "mayi",
+        "forms": ["mai", "mayi", null, null, "mai"]
+      },
+      {
+        "gloss": "see",
+        "proto": "nyaa-",
+        "forms": ["nya-", "nhaa-", "nhä-", null, "naku-"]
+      },
+      {
+        "gloss": "sit",
+        "proto": "nyiina-",
+        "forms": ["nyina-", "nhinga-", "nhina-", null, null]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*l",
+        "reflexes": ["l", "l", "l", "l", "dl"],
+        "rows": [0, 1]
+      },
+      {
+        "label": "*n",
+        "reflexes": ["n", null, null, "n", "dn"],
+        "rows": [2, 3]
+      },
+      {
+        "label": "*j",
+        "reflexes": ["tj", null, null, "dh", "t"],
+        "rows": [1, 2]
+      },
+      {
+        "label": "*ny",
+        "reflexes": ["ny", "nh", "nh", null, "n"],
+        "rows": [6, 7]
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Alpher, Barry. 2004. Pama-Nyungan: phonological reconstruction and status as a phylogenetic group. In Claire Bowern & Harold Koch (eds.), Australian Languages: Classification and the Comparative Method, 93–126, 387–574. Amsterdam: John Benjamins.",
+        "url": null
+      },
+      { "citation": "Bowern, Claire & Quentin Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4): 817–845 (lexical and cognate data).", "url": null },
+      { "citation": "Goddard, Cliff. 1996. Pitjantjatjara/Yankunytjatjara to English Dictionary. 2nd ed. Alice Springs: IAD Press.", "url": null },
+      { "citation": "Haviland, John B. 1979. Guugu Yimidhirr. In R. M. W. Dixon & Barry J. Blake (eds.), Handbook of Australian Languages, vol. 1, 27–180. Canberra: ANU Press.", "url": null },
+      { "citation": "Yolŋu Matha Dictionary. Charles Darwin University.", "url": "https://yolngudictionary.cdu.edu.au/" },
+      { "citation": "Grant, Stan, Sr & John Rudder. 2010. A New Wiradjuri Dictionary. Wagga Wagga: Restoration House.", "url": null },
+      { "citation": "Simpson, Jane & Luise Hercus. 2004. Thura-Yura as a subgroup. In Claire Bowern & Harold Koch (eds.), Australian Languages: Classification and the Comparative Method, 179–206. Amsterdam: John Benjamins.", "url": null }
+    ]
+  }
 }
