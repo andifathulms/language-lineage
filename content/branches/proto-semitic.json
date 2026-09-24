@@ -1,0 +1,40 @@
+{
+  "id": "proto-semitic",
+  "family": "semitic",
+  "name": "Proto-Semitic",
+  "parent_ids": [],
+  "successor_ids": ["east-semitic", "west-semitic"],
+  "era": "c. 4th millennium BCE (reconstructed)",
+  "region": "Probably the Levant or the northern Fertile Crescent",
+  "defining_innovation": "The ancestor of the Semitic branch of Afroasiatic, built on consonantal roots, usually of three consonants, into which vowel patterns are slotted: the root k-t-b 'write' gives Arabic kataba 'he wrote' and kitāb 'book', and Hebrew kātav 'he wrote'.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Semitic is one branch of **Afroasiatic**, a much older family whose other branches (Egyptian, Berber, Cushitic, Chadic, Omotic) are all in Africa. Its best-known feature is the consonantal root: a sequence of usually three consonants carries the basic meaning, and patterns of vowels and affixes turn it into words. From `k-t-b` 'write' come Arabic *kataba* 'he wrote', *kitāb* 'book' and *maktab* 'office', and Hebrew *kātav* 'he wrote' and *mikhtāv* 'letter'. The same root runs through languages separated by thousands of years.\n\nWhere Proto-Semitic was spoken is debated. The main candidates are the Levant or northern Mesopotamia, the Arabian Peninsula, and Africa, where the other Afroasiatic branches are. A computational study by Kitchen and colleagues (2009) put its origin in the Levant around 3750 BCE, but the method and the date are both disputed."
+    },
+    {
+      "title": "The First Split",
+      "body": "The oldest division is between **East Semitic**, the extinct Akkadian and Eblaite of Mesopotamia and Syria, and **West Semitic**, the ancestor of everything else. This tree then follows the widely used model of Hetzron, Huehnergard and others. West Semitic divides into Central Semitic (Arabic and the Northwest Semitic languages) and the Ethiosemitic languages of the Horn of Africa. The Modern South Arabian languages of Yemen and Oman, and the extinct Old South Arabian, are not drawn, because where they belong is uncertain."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ps-dispersal",
+      "branch_id": "proto-semitic",
+      "date": "c. 4th millennium BCE",
+      "type": "SPLIT",
+      "title": "East and West Semitic diverge",
+      "description": "Proto-Semitic divides into East Semitic, in Mesopotamia and Syria, and West Semitic. The homeland, the date and the direction of the first movements are debated.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Kitchen, Andrew, Christopher Ehret, Shiferaw Assefa & Connie J. Mulligan. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B 276.",
+          "url": null
+        },
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
