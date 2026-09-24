@@ -1,0 +1,89 @@
+{
+  "id": "western-bantu",
+  "family": "bantu",
+  "name": "Western Bantu",
+  "parent_ids": ["proto-bantu"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The lower Congo basin, Angola and the western Democratic Republic of the Congo",
+  "defining_innovation": "The Bantu of the lower Congo and Angola, which spread south through the forest and along the Atlantic coast. The Kikongo of the Kongo kingdom was the first Bantu language to be printed.",
+  "descendants": ["Kikongo", "Kimbundu", "Umbundu", "Lingala", "Kituba"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Western Bantu languages spread south from the forest into the savannas of the lower Congo and Angola. By the 14th century the kingdom of Kongo ruled the lands around the mouth of the Congo river, and its language, Kikongo, was spoken far beyond its borders. Kimbundu and Umbundu, in what is now Angola, are close relatives."
+    },
+    {
+      "title": "Kongo and the Atlantic",
+      "body": "Portuguese ships reached the Congo estuary in 1483. The kings of Kongo adopted Christianity, corresponded with Lisbon and Rome in Portuguese, and supported the printing of a Kikongo catechism in 1624, the first book in any Bantu language.\n\nThe same connection fed the Atlantic slave trade, which carried hundreds of thousands of Kikongo and Kimbundu speakers to the Americas. Their languages left traces in Brazilian Portuguese (*moleque* 'boy', from Kimbundu *mu-leke*), in Caribbean and South American religions, and in Palenquero, the Spanish-based creole of San Basilio de Palenque in Colombia, which has a strong Kikongo component."
+    },
+    {
+      "title": "Languages of the River",
+      "body": "In the late 19th and early 20th centuries two new lingua francas grew up along the Congo river. **Lingala** developed from Bobangi, a river trade language, and spread through the colonial army, missions and later popular music, becoming the language of Kinshasa and Brazzaville. **Kituba** (*Kikongo ya leta*, 'the state's Kikongo') is a simplified Kikongo that became the working language of the lower Congo."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-western-bantu-south",
+      "branch_id": "western-bantu",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "South through the forest",
+      "description": "Western Bantu speakers spread south through the rainforest into the lower Congo and Angolan savannas. How their route relates to that of the Eastern Bantu is the central question of the expansion.",
+      "contested": true,
+      "sources": [
+        { "citation": "Grollemund, Rebecca, et al. 2015. Bantu expansion shows that habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences 112(43).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kongo-portuguese",
+      "branch_id": "western-bantu",
+      "date": "1483 onward",
+      "type": "CONTACT",
+      "title": "Kongo meets Portugal",
+      "description": "Portuguese contact brings Christianity, literacy in Portuguese and a layer of Portuguese loans into Kikongo, and it draws Kongo into the Atlantic trade.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bostoen, Koen & Inge Brinkman, eds. 2018. The Kongo Kingdom: The Origins, Dynamics and Cosmopolitan Culture of an African Polity. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kikongo-catechism",
+      "branch_id": "western-bantu",
+      "date": "1624",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The first Bantu book",
+      "description": "A Kikongo catechism is printed in Lisbon, the first book in a Bantu language, written in Latin letters with a Portuguese translation alongside.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bostoen, Koen & Inge Brinkman, eds. 2018. The Kongo Kingdom: The Origins, Dynamics and Cosmopolitan Culture of an African Polity. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-atlantic-diaspora",
+      "branch_id": "western-bantu",
+      "date": "16th – 19th century",
+      "type": "CONTACT",
+      "title": "Across the Atlantic",
+      "description": "Enslaved Kikongo and Kimbundu speakers leave words and structures in Brazilian Portuguese, Afro-Caribbean religious languages and the Palenquero creole of Colombia.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-lingala",
+      "branch_id": "western-bantu",
+      "date": "c. 1880 – 1960",
+      "type": "SPLIT",
+      "title": "Lingala and Kituba",
+      "description": "Colonial river trade, the army and missions turn Bobangi-based trade speech into Lingala, and a simplified Kikongo into Kituba. Both become major urban lingua francas of the two Congos.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
