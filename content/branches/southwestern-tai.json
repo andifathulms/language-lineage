@@ -1,0 +1,88 @@
+{
+  "id": "southwestern-tai",
+  "family": "kra-dai",
+  "name": "Southwestern Tai",
+  "parent_ids": ["tai"],
+  "successor_ids": [],
+  "era": "c. 8th century CE – present",
+  "region": "Thailand, Laos, the Shan State of Myanmar, southern Yunnan, and formerly Assam",
+  "defining_innovation": "Thai, Lao, Shan, Tai Lue and the extinct Ahom, the Tai languages that spread from southern China across mainland Southeast Asia in the late first millennium CE.",
+  "descendants": ["Thai", "Lao", "Shan", "Tai Lue", "Northern Thai", "Ahom †"],
+  "chapters": [
+    {
+      "title": "The Southwestern Spread",
+      "body": "Chinese loanwords in Proto-Southwestern Tai can be dated by their pronunciation, and Pittayawat Pittayaporn used them to place the spread of these languages out of southern China between about the 8th and 11th centuries. Southwestern Tai speakers then founded kingdoms among Mon, Khmer and other peoples: Sukhothai and Ayutthaya (Thailand), Lan Xang (Laos) and the Shan states. In 1228 Tai speakers also founded the Ahom kingdom in Assam, which ruled there for six centuries."
+    },
+    {
+      "title": "Scripts, Khmer and a Disputed Stone",
+      "body": "The Thai and Lao scripts derive from Old Khmer writing, and Thai took from Khmer, and through it from Sanskrit and Pali, much of its royal, religious and administrative vocabulary, a debt recorded on the Austroasiatic tree. The Ram Khamhaeng inscription, dated 1292 and traditionally regarded as the first text in Thai script, is a national symbol. Some scholars have argued that it was made much later, in the 19th century. The debate is unresolved.\n\nThe Southwestern languages have also diverged in sound: Lao, for example, has *h* where Thai has *r*, so 'hundred' is Thai *rɔ́ɔy* and Lao *hɔ́ɔy*."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-swt-spread",
+      "branch_id": "southwestern-tai",
+      "date": "c. 8th – 11th century CE",
+      "type": "SPLIT",
+      "title": "Out of southern China",
+      "description": "Southwestern Tai speakers spread from Guangxi and Yunnan into Laos, Thailand and the Shan hills, a dating based on the layers of Chinese loanwords in Proto-Southwestern Tai. Earlier dates have also been proposed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Pittayaporn, Pittayawat. 2014. Layers of Chinese loanwords in Proto-Southwestern Tai as evidence for the dating of the spread of Southwestern Tai. MANUSYA: Journal of Humanities, Special Issue 20.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-khmer-contact-thai",
+      "branch_id": "southwestern-tai",
+      "date": "13th – 15th century CE",
+      "type": "CONTACT",
+      "title": "Khmer, Sanskrit and Pali",
+      "description": "In the former Angkorian lands, Thai and Lao take over the Khmer-derived script and a large vocabulary of Khmer, Sanskrit and Pali words, especially for royalty and religion. The Khmeric branch records the same contact.",
+      "contested": false,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ram-khamhaeng",
+      "branch_id": "southwestern-tai",
+      "date": "1292 (disputed)",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Ram Khamhaeng inscription",
+      "description": "A stele attributed to King Ram Khamhaeng of Sukhothai, dated 1292, is traditionally the first text in Thai script. Whether it is genuine or a 19th-century composition has been fiercely debated since the 1980s.",
+      "contested": true,
+      "sources": [
+        { "citation": "Chamberlain, James R., ed. 1991. The Ram Khamhaeng Controversy: Collected Papers. Bangkok: Siam Society.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-lao-r-h",
+      "branch_id": "southwestern-tai",
+      "date": "c. 2nd millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Lao *r becomes h",
+      "description": "Proto-Southwestern Tai `*r` becomes *h* in Lao and some related varieties, while Standard Thai keeps *r* in careful speech: Thai *rɔ́ɔy* 'hundred', *rák* 'love' : Lao *hɔ́ɔy*, *hák*. The timing is uncertain.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "*r → h (Thai rɔ́ɔy : Lao hɔ́ɔy 'hundred')",
+      "sort_year": 1500,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ahom-extinction",
+      "branch_id": "southwestern-tai",
+      "date": "c. 18th – 19th century CE",
+      "type": "EXTINCTION",
+      "title": "Ahom falls silent",
+      "description": "The Tai language of the Ahom kingdom of Assam gives way to Assamese as the everyday language, surviving only among priests and in chronicles (*buranji*). When it stopped being spoken is debated, and there are modern revival efforts.",
+      "contested": true,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
