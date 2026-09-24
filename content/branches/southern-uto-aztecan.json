@@ -1,0 +1,33 @@
+{
+  "id": "southern-uto-aztecan",
+  "family": "uto-aztecan",
+  "name": "Southern Uto-Aztecan",
+  "parent_ids": ["proto-uto-aztecan"],
+  "successor_ids": ["tepiman", "taracahitan", "aztecan"],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Northwestern and central Mexico, southern Arizona, and Central America",
+  "defining_innovation": "The Uto-Aztecan languages of Mexico and the Sonoran borderlands (Tepiman, Taracahitan, Corachol and Aztecan), a grouping more securely established than its northern counterpart.",
+  "descendants": ["Nahuatl", "O'odham", "Yaqui", "Rarámuri", "Cora", "Huichol", "Pipil"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Southern Uto-Aztecan languages run down the western side of Mexico, from the O'odham of southern Arizona through the Yaqui, Mayo and Rarámuri of Sonora and Chihuahua and the Cora and Huichol of Nayarit, to the Nahuatl of central Mexico and the Pipil of El Salvador. Most of their speakers were maize farmers. If Jane Hill's farming hypothesis is right, this is close to the family's original homeland, and the northern languages are the ones that moved."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-south-ua-split",
+      "branch_id": "southern-uto-aztecan",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Tepiman, Taracahitan and Aztecan diverge",
+      "description": "The southern languages separate into Tepiman in the Sonoran desert and Sierra Madre, Taracahitan in Sonora and Chihuahua, Corachol in Nayarit, and Aztecan further south. The internal order is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
