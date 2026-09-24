@@ -1,0 +1,97 @@
+{
+  "id": "mordvinic",
+  "family": "uralic",
+  "name": "Mordvinic",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The middle Volga between the Oka, Sura and Moksha rivers, centred on the Republic of Mordovia in Russia, with scattered communities east to Samara, Orenburg and beyond",
+  "defining_innovation": "A definite declension, a second set of case endings that marks a noun as definite (Erzya *moda* 'earth', *modaś* 'the earth'), used alongside verb forms that agree with both the subject and a definite object.",
+  "descendants": ["Erzya", "Moksha"],
+  "chapters": [
+    {
+      "title": "Erzya and Moksha",
+      "body": "**Mordvinic** is a pair of languages, Erzya and Moksha, spoken by the Mordvins of the middle Volga. They have separate literary standards and are not mutually intelligible without practice, but they are clearly close, and Russian official usage long treated them as one 'Mordvin' language. Moksha is spoken mainly in the west and south of the Republic of Mordovia, Erzya in the east and in neighbouring regions.\n\nThe Mordvins are among the earliest Uralic peoples named in writing. The 6th-century historian Jordanes lists *Mordens* among the peoples of the east, and the Byzantine emperor Constantine VII mentions a land of *Mordia* in the 10th century; both are usually identified with them. Their language shows a long history on the forest-steppe edge. Like Finnic and Saami, Mordvinic has an old layer of Baltic loanwords, and it also has Iranian loans from the steppe. Later it borrowed from Tatar and, above all, from Russian, as the Mordvin lands were absorbed into Muscovy by the 16th century.\n\nNo other Uralic people is so dispersed. Under Russian rule many Mordvins moved east and south-east, to the Samara and Orenburg steppes and later to Siberia and Kazakhstan, and fewer than half now live in Mordovia itself. Whether Mordvinic forms a group with Mari, or stands closer to Finnic and Saami, is still argued."
+    },
+    {
+      "title": "Definite Nouns and Two-Way Verbs",
+      "body": "Mordvinic grammar has features found in no close neighbour. The most striking is its definite declension. A noun has an ordinary, indefinite set of case forms and a second, definite set, so that the difference between 'an earth' and 'the earth', expressed in English by an article, is expressed by the ending: Erzya *moda*, definite *modaś*. The definite forms are fullest in the nominative, genitive and dative; the other cases generally use the indefinite forms for both meanings.\n\nThe verb goes further. Besides the ordinary subjective conjugation, which agrees with the subject alone, Mordvinic has an objective conjugation in which a single ending marks the person and number of both the subject and a definite object, so that 'I see it' and 'I see you' differ in the verb itself. Hungarian, Mansi and the Samoyedic languages have object conjugations too, but the Mordvinic system, which tracks the object's person, is especially rich. Nouns and adjectives used as predicates can also take person endings, so that 'I am a teacher' can be a single inflected word.\n\nErzya and Moksha received literary standards in 1922 and 1923, both written in Cyrillic, and since the 1990s they have been state languages of Mordovia beside Russian."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 280,000",
+    "vitality": "definitely_endangered",
+    "note": "The 2021 census counted about 220,000 people who reported speaking 'Mordvin', 40,000 Erzya and 20,000 Moksha, from about 480,000 ethnic Mordvins; the figures were much higher in 2010. UNESCO rates both Erzya and Moksha definitely endangered.",
+    "sources": [
+      { "citation": "Rosstat. 2022–2023. Itogi Vserossiyskoy perepisi naseleniya 2020 goda [Results of the All-Russian Population Census 2020, held in 2021], vol. 5: national composition and languages.", "url": "https://rosstat.gov.ru/vpn_popul" },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 280,000" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-mordvinic-baltic-loans",
+      "branch_id": "mordvinic",
+      "date": "c. 2nd – 1st millennium BCE",
+      "type": "CONTACT",
+      "title": "Baltic loanwords",
+      "description": "The ancestors of the Mordvins borrow words from Baltic speakers living to the west, as the ancestors of the Finns and Saami also did. How many of the loans the three branches share, and whether they were borrowed once or separately, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Grünthal, Riho & Petri Kallio, eds. 2012. A Linguistic Map of Prehistoric Northern Europe. Helsinki: Suomalais-Ugrilainen Seura.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-erzya-moksha-split",
+      "branch_id": "mordvinic",
+      "date": "1st millennium CE (uncertain)",
+      "type": "SPLIT",
+      "title": "Erzya and Moksha diverge",
+      "description": "Proto-Mordvinic divides into Erzya and Moksha, which differ in vowels, stress and vocabulary but keep a largely common grammar. There is no firm date for the split.",
+      "contested": true,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mordvinic-russian-contact",
+      "branch_id": "mordvinic",
+      "date": "13th – 16th century onward",
+      "type": "CONTACT",
+      "title": "Golden Horde and Muscovy",
+      "description": "The Mordvin lands fall under the Golden Horde and then, by the 16th century, under Muscovy. Tatar and above all Russian loanwords enter both languages, and Mordvins begin to migrate east and south-east.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mordvinic-literary-standards",
+      "branch_id": "mordvinic",
+      "date": "1922–1923",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Erzya and Moksha standards",
+      "description": "Separate Cyrillic literary standards are established for Erzya (1922) and Moksha (1923), and are used in schools, newspapers and a growing literature in the Soviet period.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mordvinic-state-languages",
+      "branch_id": "mordvinic",
+      "date": "1990s",
+      "type": "REVITALIZATION",
+      "title": "State languages of Mordovia",
+      "description": "Erzya and Moksha become state languages of the Republic of Mordovia alongside Russian. The number of speakers has nevertheless kept falling, and the 2018 federal education law made the study of republic languages voluntary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
