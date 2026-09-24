@@ -1,0 +1,64 @@
+{
+  "id": "northern-ryukyuan",
+  "family": "japonic",
+  "name": "Northern Ryukyuan",
+  "parent_ids": ["ryukyuan"],
+  "successor_ids": [],
+  "era": "c. 10th century CE – present",
+  "region": "The Amami Islands and Okinawa",
+  "defining_innovation": "Amami, Kunigami and Okinawan. In Okinawan the mid vowels rose, e becoming i and o becoming u, so Japanese ame 'rain' and kokoro 'heart' are Okinawan ami and kukuru.",
+  "descendants": ["Okinawan", "Amami", "Kunigami", "Okinoerabu", "Yoron"],
+  "chapters": [
+    {
+      "title": "Okinawan",
+      "body": "Okinawan, the language of the Ryukyu Kingdom's capital at Shuri, was the prestige language of the islands. Its most obvious sound change raised the mid vowels, so that *e* became *i* and *o* became *u*: Japanese *ame* 'rain' and *kokoro* 'heart' are Okinawan *ami* and *kukuru*. The *Omoro Sōshi*, a collection of court and religious songs compiled between 1531 and 1623, is the most important early Ryukyuan text, written in hiragana with some characters."
+    },
+    {
+      "title": "After the War",
+      "body": "Okinawa suffered the only large ground battle fought on Japanese soil in 1945, and it remained under US administration until 1972. Few Okinawans born after the war learned the language from their parents. Since the 2000s, local governments, schools and artists have promoted Okinawan and its neighbours, and Okinawa Prefecture marks 18 September as a day for the Ryukyuan languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-okinawan-vowel-raising",
+      "branch_id": "northern-ryukyuan",
+      "date": "c. 14th – 17th century CE",
+      "type": "SOUND_LAW",
+      "title": "Mid vowels rise",
+      "description": "In Okinawan, *e* rises to *i* and *o* to *u*, leaving three basic vowels: *ame* → *ami* 'rain', *kokoro* → *kukuru* 'heart'. Similar raising occurs in other Ryukyuan languages. Its date and whether it spread from one centre are debated.",
+      "contested": true,
+      "process": "vowel_shift",
+      "notation": "*e → i · *o → u (ame → ami 'rain', kokoro → kukuru 'heart')",
+      "sort_year": 1500,
+      "sources": [
+        { "citation": "Shimoji, Michinori & Thomas Pellard, eds. 2010. An Introduction to Ryukyuan Languages. Tokyo: Research Institute for Languages and Cultures of Asia and Africa.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-omoro-soshi",
+      "branch_id": "northern-ryukyuan",
+      "date": "1531 – 1623",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Omoro Sōshi",
+      "description": "The Ryukyu court compiles the *Omoro Sōshi*, some 1,500 songs in Old Ryukyuan written mostly in hiragana, the main written record of the language before modern times.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick, Shinsho Miyara & Michinori Shimoji, eds. 2015. Handbook of the Ryukyuan Languages. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-battle-of-okinawa",
+      "branch_id": "northern-ryukyuan",
+      "date": "1945 – 1972",
+      "type": "CONTACT",
+      "title": "War and occupation",
+      "description": "The Battle of Okinawa devastates the civilian population, and 27 years of US administration follow. The postwar generation grows up speaking Japanese.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick. 2012. The Making of Monolingual Japan: Language Ideology and Japanese Modernity. Bristol: Multilingual Matters.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
