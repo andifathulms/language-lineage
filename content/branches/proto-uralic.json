@@ -3,7 +3,7 @@
   "family": "uralic",
   "name": "Proto-Uralic",
   "parent_ids": [],
-  "successor_ids": ["finnic", "saami", "permic", "ugric", "samoyedic"],
+  "successor_ids": ["samoyedic", "finnic", "saami", "permic", "ugric"],
   "era": "c. 3000–2000 BCE (reconstructed; dating debated)",
   "region": "Probably the forest zone around the Volga–Kama basin and the Urals",
   "defining_innovation": "The reconstructed ancestor of about forty languages, known from a few hundred shared words such as *kala 'fish' (Finnish kala, Hungarian hal) and *nimi 'name' (Finnish nimi, Hungarian név).",
@@ -22,7 +22,7 @@
     },
     {
       "title": "The Shape of the Tree",
-      "body": "Older handbooks split Uralic in two, **Samoyedic** and **Finno-Ugric**, and then divided Finno-Ugric step by step into Ugric, Permic and so on. Many specialists now doubt most of these intermediate steps, because the shared innovations that should define them are few. This tree therefore draws the main branches growing from one fork: **Finnic**, **Saami**, **Permic**, **Ugric** and **Samoyedic**. Mordvinic, Mari and some smaller branches are not yet drawn."
+      "body": "Older handbooks split Uralic in two, **Samoyedic** and **Finno-Ugric**, and then divided Finno-Ugric step by step into Ugric, Permic and so on. Many specialists now doubt most of these intermediate steps, because the shared innovations that should define them are few. This tree therefore draws the main branches growing from one fork: **Samoyedic** (drawn first, as the traditional earliest split), **Finnic**, **Saami**, **Permic** and **Ugric**. Mordvinic, Mari and some smaller branches are not yet drawn."
     }
   ],
   "turning_points": [
