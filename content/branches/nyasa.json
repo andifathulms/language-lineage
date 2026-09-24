@@ -1,0 +1,104 @@
+{
+  "id": "nyasa",
+  "family": "bantu",
+  "name": "Nyasa",
+  "parent_ids": ["eastern-bantu"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Around Lake Malawi and down the Shire and lower Zambezi valleys: Malawi, eastern Zambia, central Mozambique (Tete, Sofala, Zambezia) and northern Zimbabwe",
+  "defining_innovation": "The Eastern Bantu languages of Guthrie's zone N around Lake Malawi, grouped on shared vocabulary in the Tervuren lexicostatistical survey and in Glottolog. Its core, Chewa-Nyanja, Sena and Nyungwe, is closely knit; whether Tumbuka and Malawi Tonga belong is less clear.",
+  "descendants": ["Chichewa/Chinyanja", "Chitumbuka", "Sena", "Nyungwe", "Chitonga (Malawi)", "Chikunda"],
+  "chapters": [
+    {
+      "title": "The Lake Malawi Languages",
+      "body": "The Nyasa languages take their name from Lake Nyasa, now Lake Malawi. The largest is **Chichewa**, called **Chinyanja** in Zambia and Mozambique, which is spoken across central and southern Malawi, in Zambia's Eastern Province and in parts of Mozambique and Zimbabwe. **Sena** and **Nyungwe** are spoken along the lower Zambezi and around Tete in Mozambique. **Tumbuka** in northern Malawi and eastern Zambia and **Tonga** on the western shore of the lake are usually counted in the group, though some scholars see Tumbuka as closer to its northern neighbours.\n\nFrom around the 15th century the Maravi states, ruled by the Kalonga, Undi and Lundu, controlled the lands south and west of the lake and traded ivory and iron with the Portuguese on the Zambezi, who recorded them from the early 1600s. The name *Malawi* comes from Maravi.\n\nIn the 1830s and 1840s Nguni-speaking Ngoni war bands, driven north by the upheavals in South Africa, crossed the Zambezi and settled among the Chewa and Tumbuka. Within a few generations most of their descendants spoke Chewa or Tumbuka, and Ngoni survives mainly in songs and praise poetry."
+    },
+    {
+      "title": "Chichewa and Its Neighbours",
+      "body": "Scottish missions shaped the written languages: Livingstonia (1875), where Tumbuka and Tonga were written, and Blantyre (1876), where Nyanja was written. A union Nyanja Bible, *Buku Lopatulika*, followed in 1922. In 1968 President Hastings Banda made Chichewa, as the language was renamed, the national language of Malawi. Tumbuka, the main language of the north, disappeared from radio and schools, and it returned only after multiparty politics came back in the 1990s. In Zambia, Nyanja is one of the seven regional official languages and the everyday language of Lusaka, and Zimbabwe's 2013 constitution lists Chewa among its official languages.\n\nChichewa is also one of the best-studied Bantu languages in modern linguistics. Its verbs agree with both subject and object through prefixes that match the noun classes: *njuchi zi-na-lum-a alenje* 'the bees stung the hunters', where *zi-* agrees with *njuchi* 'bees' (class 10). Adding the object marker *-wa-*, which refers to *alenje* 'hunters', gives *njuchi zi-na-wa-lum-a alenje*. Work by Joan Bresnan and Sam Mchombo on such sentences made Chichewa a standard test case for theories of agreement."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 20 million",
+    "vitality": "safe",
+    "note": "First-language speakers, a rough figure: Chichewa/Chinyanja accounts for most of them and has millions more second-language speakers in Malawi, Zambia and Mozambique.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "National Statistical Office of Malawi. 2019. 2018 Malawi Population and Housing Census: Main Report. Zomba: NSO.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MWI", "name": "Malawi" },
+    { "iso": "MOZ", "name": "Mozambique" },
+    { "iso": "ZMB", "name": "Zambia" },
+    { "iso": "ZWE", "name": "Zimbabwe" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-nyasa-lake",
+      "branch_id": "nyasa",
+      "date": "c. late 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Around Lake Malawi",
+      "description": "Eastern Bantu speakers settled south and west of Lake Malawi and in the Shire and Zambezi valleys develop the Nyasa languages. The date, and whether the group descends from a southern Kusi branch, are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Nurse, Derek & Gérard Philippson, eds. 2003. The Bantu Languages. London: Routledge.", "url": null },
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ngoni-language-shift",
+      "branch_id": "nyasa",
+      "date": "1835 – late 19th century",
+      "type": "CONTACT",
+      "title": "The Ngoni settle",
+      "description": "Ngoni groups led by Zwangendaba cross the Zambezi in 1835 and later settle among the Chewa and Tumbuka. Their descendants largely shift to Chewa or Tumbuka, which take in some Nguni vocabulary, while Ngoni survives in songs and praise poetry.",
+      "contested": false,
+      "sources": [
+        { "citation": "Read, Margaret. 1956. The Ngoni of Nyasaland. London: Oxford University Press for the International African Institute.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nyanja-missions",
+      "branch_id": "nyasa",
+      "date": "1875 – 1922",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Mission literacy",
+      "description": "The Livingstonia (1875) and Blantyre (1876) missions write Nyanja, Tumbuka and Tonga in the Latin alphabet and open schools. A union Nyanja Bible appears in 1922.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kayambazinthu, Edrinnie. 1998. The language planning situation in Malawi. Journal of Multilingual and Multicultural Development 19(5): 369–439.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-malawi-language-policy",
+      "branch_id": "nyasa",
+      "date": "1968 – 1994",
+      "type": "REVITALIZATION",
+      "title": "Tumbuka back on air",
+      "description": "In 1968 Hastings Banda makes Chichewa Malawi's national language, and Tumbuka is dropped from radio and schools. After the return of multiparty politics in 1993–94, Tumbuka and other Malawian languages return to national radio.",
+      "contested": false,
+      "sources": [
+        { "citation": "Kayambazinthu, Edrinnie. 1998. The language planning situation in Malawi. Journal of Multilingual and Multicultural Development 19(5): 369–439.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-nyasa-kusi",
+      "branch_id": "nyasa",
+      "proposed_grouping": "Nyasa belongs to Kusi, a southern branch of Eastern Bantu with Shona, Sotho-Tswana and Nguni",
+      "status": "minority_position",
+      "evidence_for": "Christopher Ehret's Kusi group, based on shared vocabulary innovations, includes the Nyasa languages together with the languages further south, and the geography fits a single southward spread across the Zambezi.",
+      "evidence_against": "Lexicostatistical and phylogenetic studies do not consistently recover a Kusi group, and Glottolog treats Tumbuka-Sena-Nyanja as a separate branch of Eastern Bantu. The group's own edges are unsettled: Tumbuka and Malawi Tonga differ from the Chewa-Sena core, and some scholars place Tumbuka closer to the languages north of the lake.",
+      "linked_branch_ids": ["kusi"],
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null },
+        { "citation": "Bastin, Yvonne, André Coupez & Michael Mann. 1999. Continuity and Divergence in the Bantu Languages: Perspectives from a Lexicostatistic Study. Tervuren: Royal Museum for Central Africa.", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Tumbuka-Sena-Nyanja (tumb1253).", "url": "https://glottolog.org/resource/languoid/id/tumb1253" }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
