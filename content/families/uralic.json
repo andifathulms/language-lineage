@@ -1,0 +1,13 @@
+{
+  "slug": "uralic",
+  "name": "Uralic",
+  "superfamily": null,
+  "summary": "A family of about forty languages spread thinly across the forest and tundra from Norway to the Taymyr Peninsula. It includes the national languages Finnish, Estonian and Hungarian, and many small languages of Russia such as Komi, Udmurt, Khanty, Mansi and Nenets. Its speakers lived for millennia beside Indo-Europeans, and loanwords from Indo-Iranian, Baltic and Germanic are laid down in its vocabulary like growth rings.",
+  "root_branch_id": "proto-uralic",
+  "buried_root": { "name": "No proven deeper root", "note": "Uralo-Altaic? Indo-Uralic? Nostratic? · disputed", "proven": false },
+  "accent": { "light": "146 48 72", "dark": "226 122 146" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Uralic (ural1272).", "url": "https://glottolog.org/resource/languoid/id/ural1272" },
+    { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+  ]
+}
