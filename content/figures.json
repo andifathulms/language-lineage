@@ -355,5 +355,12 @@
     "lifespan": "1801–1846",
     "branch_ids": ["cree-innu"],
     "turning_point_ids": ["tp-cree-syllabics"]
+  },
+  {
+    "id": "john-eliot",
+    "name": "John Eliot",
+    "lifespan": "1604–1690",
+    "branch_ids": ["eastern-algonquian"],
+    "turning_point_ids": ["tp-eliot-bible"]
   }
 ]

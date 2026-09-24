@@ -1,0 +1,85 @@
+{
+  "id": "eastern-algonquian",
+  "family": "algonquian",
+  "name": "Eastern Algonquian",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Atlantic coast from the Maritimes to North Carolina",
+  "defining_innovation": "The only proven subgroup within Algonquian, set up by Ives Goddard on shared innovations. Its languages, among them Mi'kmaq, Wampanoag (Massachusett), Lenape and Powhatan, were the first American languages English speakers met.",
+  "descendants": ["Mi'kmaq", "Wolastoqey-Passamaquoddy", "Wampanoag (Massachusett)", "Lenape", "Mohegan-Pequot", "Powhatan †"],
+  "chapters": [
+    {
+      "title": "The Coast",
+      "body": "Eastern Algonquian languages were spoken along the whole Atlantic coast from Nova Scotia to North Carolina. They were the first American languages that English colonists met, and English took from them *moose*, *skunk*, *moccasin*, *raccoon*, *squash*, *tomahawk* and many place names, including *Massachusetts* and *Connecticut*. Most of them lost their speakers within two centuries of colonisation. Powhatan, the language of Pocahontas, is known only from short word lists."
+    },
+    {
+      "title": "The Eliot Bible and Its Return",
+      "body": "In 1663 the Puritan missionary **John Eliot**, working with Wampanoag translators such as John Sassamon and Job Nesutan, published a complete Bible in Massachusett. It was the first Bible printed in the Americas. Wampanoag communities went on writing letters, deeds and records in the language into the 18th century, and then its last speakers died.\n\nIn 1993 Jessie Little Doe Baird founded the Wôpanâak Language Reclamation Project. Working from the Eliot Bible and the community's colonial documents, she and linguists reconstructed the language. Children are again being raised speaking it, the first after more than a century without speakers."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-eastern-algonquian-split",
+      "branch_id": "eastern-algonquian",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "To the Atlantic",
+      "description": "Eastern Algonquian speakers spread along the Atlantic coast and diverge into the coastal languages. It is the one Algonquian subgroup defined by shared innovations, although its date is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-english-loans-algonquian",
+      "branch_id": "eastern-algonquian",
+      "date": "1600s onward",
+      "type": "CONTACT",
+      "title": "First words of American English",
+      "description": "Colonists in Virginia and New England take Algonquian words for unfamiliar animals, plants and things (*raccoon*, *moose*, *skunk*, *squash*, *moccasin*), which become part of English.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-eliot-bible",
+      "branch_id": "eastern-algonquian",
+      "date": "1663",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Eliot Bible",
+      "description": "John Eliot and Wampanoag translators publish the complete Bible in Massachusett, the first Bible printed in the Americas. A Wampanoag written tradition of letters and deeds follows.",
+      "contested": false,
+      "sources": [
+        { "citation": "Eliot, John, trans. 1663. Mamusse Wunneetupanatamwe Up-Biblum God. Cambridge, MA: Samuel Green & Marmaduke Johnson.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-coastal-extinctions",
+      "branch_id": "eastern-algonquian",
+      "date": "18th – 19th century",
+      "type": "EXTINCTION",
+      "title": "The coastal languages fall silent",
+      "description": "War, epidemics and dispossession end the use of most Eastern Algonquian languages south of Maine, including Massachusett, Powhatan and Mohegan-Pequot. The dates for individual languages are poorly recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-wopanaak",
+      "branch_id": "eastern-algonquian",
+      "date": "1993 onward",
+      "type": "REVITALIZATION",
+      "title": "Wampanoag reclaimed",
+      "description": "The Wôpanâak Language Reclamation Project rebuilds Wampanoag from the Eliot Bible and colonial documents, and a new generation of children grows up speaking it.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne, Leena Huss & Gerald Roche, eds. 2018. The Routledge Handbook of Language Revitalization. New York: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["john-eliot"]
+}
