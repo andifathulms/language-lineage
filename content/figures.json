@@ -243,5 +243,12 @@
     "lifespan": "1876–1950",
     "branch_ids": ["tamil-malayalam"],
     "turning_point_ids": ["tp-pure-tamil"]
+  },
+  {
+    "id": "raghunath-murmu",
+    "name": "Raghunath Murmu",
+    "lifespan": "1905–1982",
+    "branch_ids": ["munda"],
+    "turning_point_ids": ["tp-ol-chiki"]
   }
 ]

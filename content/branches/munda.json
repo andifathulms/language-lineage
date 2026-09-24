@@ -1,0 +1,74 @@
+{
+  "id": "munda",
+  "family": "austroasiatic",
+  "name": "Munda",
+  "parent_ids": ["proto-austroasiatic"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Jharkhand, Odisha, West Bengal and neighbouring states of eastern India",
+  "defining_innovation": "The Austroasiatic languages of India, which took on the verb-final word order and rich verb morphology of their Indo-Aryan and Dravidian neighbours: Santali, Mundari, Ho, Kharia, Sora.",
+  "descendants": ["Santali", "Mundari", "Ho", "Kharia", "Sora", "Juang"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Munda languages are spoken by Adivasi communities in the hills and plateaus of eastern India. Santali is the largest, with around seven million speakers. Their ancestors are thought to have come west from Southeast Asia, perhaps by the second millennium BCE, bringing rice-farming vocabulary. In India they took on features of the languages around them: Munda languages put the verb at the end of the clause and pack subject, object and tense into long verb forms. This is so unlike Vietnamese or Khmer that the family's unity was long doubted.\n\nMunda probably also influenced its neighbours. Some words and features of Sanskrit and the modern Indo-Aryan languages have been traced to Munda, though how much is debated."
+    },
+    {
+      "title": "Ol Chiki",
+      "body": "Santali was written in Bengali, Odia, Devanagari and Latin letters, depending on which state its speakers lived in. In 1925 the Santal writer **Raghunath Murmu** created a script designed for the language, *Ol Chiki*, whose letter shapes are drawn from everyday objects and actions. It has become a symbol of Santal identity. In 2003 Santali was added to the Eighth Schedule of India's constitution, among the officially recognised languages, and Ol Chiki is used in its official publications."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-munda-west",
+      "branch_id": "munda",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Westward into India",
+      "description": "The ancestors of the Munda move west into eastern India and separate from the mainland Austroasiatic languages. Genetic and linguistic evidence points to a Southeast Asian origin. The timing and route are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-munda-restructuring",
+      "branch_id": "munda",
+      "date": "1st millennium BCE onward",
+      "type": "CONTACT",
+      "title": "Becoming South Asian",
+      "description": "Long contact with Indo-Aryan and Dravidian languages turns Munda into verb-final languages with complex agglutinative verbs, and loses most of the old sesquisyllabic word shape. In the other direction, some Indo-Aryan vocabulary is thought to come from Munda.",
+      "contested": true,
+      "sources": [
+        { "citation": "Emeneau, Murray B. 1956. India as a linguistic area. Language 32(1).", "url": null },
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ol-chiki",
+      "branch_id": "munda",
+      "date": "1925",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Ol Chiki",
+      "description": "Raghunath Murmu creates Ol Chiki, an alphabet designed for Santali, which gradually spreads through Santal schools, literature and cultural organisations.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-santali-scheduled",
+      "branch_id": "munda",
+      "date": "2003",
+      "type": "REVITALIZATION",
+      "title": "Santali in the Eighth Schedule",
+      "description": "Santali becomes one of India's constitutionally recognised languages, which brings it into examinations, publishing and government use. Most other Munda languages remain unrecognised and are losing speakers.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["raghunath-murmu"]
+}
