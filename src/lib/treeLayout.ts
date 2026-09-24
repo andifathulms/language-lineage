@@ -192,19 +192,26 @@ export function layoutTree(
   // The canvas grows with the tree: wider per leaf, taller per internal level.
   const internal = branches.filter((b) => kids(b.id).length);
   const maxInternal = internal.length ? Math.max(...internal.map((b) => depthOf(b.id))) : 0;
-  const width = Math.max(1000, leafOrder.length * 150 + 2 * marginX);
+  // Each leaf gets a slot wide enough for its name (about 10.5 units per character
+  // in the 18px display face), never less than 150; spare room is shared out evenly.
+  const need = leafOrder.map((id) => Math.max(150, (byId.get(id)?.name.length ?? 0) * 10.5 + 24));
+  const needed = need.reduce((s, w) => s + w, 0);
+  const width = Math.max(1000, needed + 2 * marginX);
   const height = 780 + 120 * Math.max(0, maxInternal - 1);
   const groundY = height - 130;
 
-  const slot = (width - 2 * marginX) / Math.max(leafOrder.length, 1);
+  const spread = (width - 2 * marginX) / Math.max(needed, 1);
+  const leafX = new Map<string, number>();
+  let cursor = marginX;
+  leafOrder.forEach((id, i) => {
+    leafX.set(id, cursor + (need[i] * spread) / 2);
+    cursor += need[i] * spread;
+  });
   const xMemo = new Map<string, number>();
   const xOf = (id: string): number => {
     if (!xMemo.has(id)) {
       const ks = kids(id);
-      xMemo.set(
-        id,
-        ks.length ? ks.reduce((s, k) => s + xOf(k), 0) / ks.length : marginX + (leafOrder.indexOf(id) + 0.5) * slot,
-      );
+      xMemo.set(id, ks.length ? ks.reduce((s, k) => s + xOf(k), 0) / ks.length : leafX.get(id)!);
     }
     return xMemo.get(id)!;
   };
