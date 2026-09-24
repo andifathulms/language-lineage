@@ -1,0 +1,73 @@
+{
+  "id": "yolngu",
+  "family": "pama-nyungan",
+  "name": "Yolŋu Matha",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Northeast Arnhem Land, Northern Territory",
+  "defining_innovation": "A cluster of closely related languages and clan varieties (Djambarrpuyŋu, Gumatj, Gupapuyŋu and others): a Pama-Nyungan island in Arnhem Land, surrounded by non-Pama-Nyungan languages.",
+  "descendants": ["Djambarrpuyŋu", "Gumatj", "Gupapuyŋu", "Dhuwal", "Wangurri"],
+  "chapters": [
+    {
+      "title": "An Island in the North",
+      "body": "Yolŋu Matha ('people's tongue') is spoken in northeast Arnhem Land, where every other language around it belongs to one of the non-Pama-Nyungan families of the north. How a Pama-Nyungan group came to be there, far from its relatives, is not known. Yolŋu society is organised into clans and moieties, and each clan has its own named variety. People commonly know several, because marriage partners must come from the opposite moiety.\n\nYolŋu languages are still learned by children, and Djambarrpuyŋu serves as a regional lingua franca."
+    },
+    {
+      "title": "Macassans and the Bark Petitions",
+      "body": "From about the early 18th century until 1907, fleets of trepang (sea cucumber) fishermen from Makassar in Sulawesi visited the Arnhem Land coast every year. They left words from Makassarese and Malay, both Austronesian languages recorded on the Austronesian tree, in Yolŋu Matha: *rupiya* 'money', *balanda* 'white person' (from 'Hollander'), *jama* 'work'.\n\nIn 1963, after the federal government excised land at Yirrkala for bauxite mining without consultation, Yolŋu elders sent the Australian Parliament two petitions typed in Gumatj and English and framed by painted bark. The **Yirrkala bark petitions** were the first documents in an Aboriginal language recognised by the Parliament, and they helped begin the land rights movement."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-yolngu-origin",
+      "branch_id": "yolngu",
+      "date": "Unknown",
+      "type": "SPLIT",
+      "title": "A Pama-Nyungan outlier",
+      "description": "The ancestors of Yolŋu speakers settle in northeast Arnhem Land, surrounded by non-Pama-Nyungan languages. Their route, their date and their closest relatives within Pama-Nyungan are all disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bowern, Claire & Quentin D. Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-macassan-contact",
+      "branch_id": "yolngu",
+      "date": "c. 1700 – 1907",
+      "type": "CONTACT",
+      "title": "Macassan trepangers",
+      "description": "Seasonal visits by Makassarese trepang fishermen leave Austronesian loanwords such as *rupiya*, *balanda* and *jama* in Yolŋu Matha. The trade ended when the South Australian government refused licences in 1906–07.",
+      "contested": false,
+      "sources": [
+        { "citation": "Walker, Alan & R. David Zorc. 1981. Austronesian loanwords in Yolngu-Matha of Northeast Arnhem Land. Aboriginal History 5.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bark-petitions",
+      "branch_id": "yolngu",
+      "date": "1963",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Yirrkala bark petitions",
+      "description": "Yolŋu elders petition Parliament in Gumatj and English on painted bark. It is the first document in an Aboriginal language recognised by the Australian Parliament and a landmark in the land rights movement.",
+      "contested": false,
+      "sources": [
+        { "citation": "Yirrkala bark petitions. 1963. Presented to the House of Representatives, Canberra. Parliament of Australia.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yolngu-bilingual",
+      "branch_id": "yolngu",
+      "date": "1970s onward",
+      "type": "REVITALIZATION",
+      "title": "Bilingual schooling",
+      "description": "Northern Territory bilingual education programmes, as at Yirrkala and Galiwin'ku, teach literacy in Yolŋu languages alongside English. The programmes have survived repeated funding cuts and policy reversals.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
