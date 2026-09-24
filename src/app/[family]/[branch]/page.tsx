@@ -7,6 +7,9 @@ import { Prose } from "@/components/Markdown";
 import { OnThisPage } from "@/components/OnThisPage";
 import { Pager } from "@/components/Pager";
 import { ReadingProgress } from "@/components/ReadingProgress";
+import { SampleCard } from "@/components/SampleCard";
+import { SpokenToday } from "@/components/SpokenToday";
+import { VitalityMeter } from "@/components/Vitality";
 import { TurningPointList } from "@/components/TurningPointList";
 import {
   ancestry,
@@ -14,6 +17,8 @@ import {
   getBranch,
   getBranches,
   getFamily,
+  leavesUnder,
+  rollupCountries,
   spineOrder,
   unattachedFigures,
 } from "@/lib/content";
@@ -64,8 +69,12 @@ export default function BranchPage({ params }: { params: { family: string; branc
   const at = spine.findIndex((b) => b.id === branch.id);
   const prev = spine[at - 1];
   const next = spine[at + 1];
+  const isLeaf = !branch.successor_ids.length;
+  const rollup = rollupCountries(leavesUnder(branch));
   const toc = [
     ...branch.chapters.map((c) => ({ href: `#${slugify(c.title)}`, label: c.title })),
+    ...(branch.sample ? [{ href: "#sample", label: "In its own words" }] : []),
+    ...(rollup.length ? [{ href: "#spoken-today", label: isLeaf ? "Where it's spoken" : "Where its languages are spoken" }] : []),
     { href: "#turning-points", label: "Turning points" },
     ...(branch.contested_classifications.length ? [{ href: "#contested", label: "Contested classifications" }] : []),
   ];
@@ -145,6 +154,33 @@ export default function BranchPage({ params }: { params: { family: string; branc
               </section>
             ))}
 
+            {branch.sample && (
+              <section id="sample" aria-labelledby="sample-heading" className="scroll-mt-24 pb-12 pt-4">
+                <p className="meta">A sample</p>
+                <h2 id="sample-heading" className="mb-6 mt-2 text-[1.9rem] font-semibold sm:text-[2.1rem]">
+                  In its own words
+                </h2>
+                <SampleCard sample={branch.sample} />
+              </section>
+            )}
+
+            {rollup.length > 0 && (
+              <section id="spoken-today" aria-labelledby="spoken-heading" className="mt-8 scroll-mt-24 border-t border-ring/60 pb-4 pt-12">
+                <p className="meta">On the map</p>
+                <h2 id="spoken-heading" className="mb-6 mt-2 text-[1.9rem] font-semibold sm:text-[2.1rem]">
+                  {isLeaf ? "Where it’s spoken" : "Where its languages are spoken"}
+                </h2>
+                <SpokenToday
+                  rollup={rollup}
+                  familySlug={family.slug}
+                  subject={isLeaf ? `${branch.name} languages` : `the languages of ${branch.name}`}
+                  showBranches={!isLeaf}
+                  listLimit={8}
+                  stacked
+                />
+              </section>
+            )}
+
             <section id="turning-points" aria-labelledby="tp-heading" className="mt-8 scroll-mt-24 border-t border-ring/60 pt-12">
               <p className="meta">Rings along the limb</p>
               <h2 id="tp-heading" className="mt-2 text-[1.9rem] font-semibold sm:text-[2.1rem]">
@@ -181,6 +217,16 @@ export default function BranchPage({ params }: { params: { family: string; branc
               </div>
 
               <dl className="plate space-y-5 p-5 text-sm">
+                {branch.speakers && (
+                  <div className="border-b border-ring/60 pb-5">
+                    <dt className="meta">Speakers today</dt>
+                    <dd className="mt-1.5 font-display text-lg leading-snug">{branch.speakers.estimate}</dd>
+                    <dd className="mt-2">
+                      <VitalityMeter vitality={branch.speakers.vitality} />
+                    </dd>
+                    {branch.speakers.note && <dd className="mt-2 leading-relaxed text-bark-soft">{branch.speakers.note}</dd>}
+                  </div>
+                )}
                 <div>
                   <dt className="meta">{branch.parent_ids.length > 1 ? "Grafted from" : "Grows from"}</dt>
                   <dd className="mt-1.5 font-display text-lg leading-snug">
