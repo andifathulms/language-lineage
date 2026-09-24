@@ -1,0 +1,74 @@
+{
+  "id": "shawnee",
+  "family": "algonquian",
+  "name": "Shawnee",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "Recorded since the 18th century – present",
+  "region": "Formerly the Ohio valley, with 18th-century settlements from South Carolina to Illinois; today central and northeastern Oklahoma",
+  "defining_innovation": "A single language, named from the Algonquian word for 'southerner', whose speakers were scattered across eastern North America before regrouping in Ohio and then being removed west; it is usually placed closest to Meskwaki-Sauk-Kickapoo.",
+  "descendants": ["Shawnee"],
+  "chapters": [
+    {
+      "title": "A People on the Move",
+      "body": "**Shawnee** takes its name from an Algonquian word meaning 'southerner'. In the 17th century the Shawnee seem to have lived in the middle Ohio valley, though their location before European records is debated. The wars of the later 17th century, in which the Haudenosaunee (Iroquois) Confederacy fought its neighbours for control of the fur trade, scattered them widely. By about 1700 there were Shawnee towns on the Savannah River in South Carolina, in Pennsylvania, on the Cumberland River, among the Creeks in Alabama and in Illinois. Many regrouped in the Ohio country by the 1750s.\n\nOhio was then fought over by Britain, France and the young United States. Early in the 19th century the Shawnee brothers Tecumseh and Tenskwatawa, 'the Prophet', led a movement that sought to unite the peoples of the Ohio valley and the Great Lakes against American expansion; it collapsed with Tecumseh's death in 1813. Over the following decades the Shawnee were removed, some to Missouri and Texas, most to Kansas and finally to Indian Territory. Three federally recognised tribes are now based in Oklahoma: the Absentee Shawnee, the Eastern Shawnee and the Shawnee Tribe.\n\nThe language is Algonquian throughout, with a large vocabulary and many grammatical features in common with Meskwaki-Sauk-Kickapoo, the Shawnee's neighbours and allies at several points in their history. No shared subgroup of the two has been demonstrated."
+    },
+    {
+      "title": "The Shawnee Sun and After",
+      "body": "In 1834 the Baptist missionary Jotham Meeker set up the first printing press west of the Missouri at the Shawnee Baptist Mission in what is now Johnson County, Kansas. In February 1835 he printed the first issue of *Siwinowe Kesibwi*, the *Shawnee Sun*, in an alphabet of his own devising. It appeared irregularly until about 1844 in runs of perhaps a hundred copies, and is often described as the first periodical printed entirely in a Native American language. Only one issue, from November 1841, is known to survive. Meeker's alphabet never caught on.\n\nThe first modern description came from C. F. Voegelin, who worked with Shawnee speakers in Oklahoma in the 1930s and published on its sounds and verb forms. Among its sounds is θ, the *th* of English *thin*, which is unusual among the languages around it.\n\nToday most speakers are Absentee Shawnee in central Oklahoma. Nearly all are older adults, and the tribes run classes and make recordings to pass it on; the Shawnee Tribe has also revived the custom of telling traditional stories in winter."
+    }
+  ],
+  "speakers": {
+    "estimate": "Fewer than 100",
+    "vitality": "severely_endangered",
+    "note": "About 200 speakers were reported in 2002, most of them Absentee Shawnee; later estimates are under 100, nearly all older adults.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "fewer than 100" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-shawnee-dispersal",
+      "branch_id": "shawnee",
+      "date": "Late 17th – mid-18th century",
+      "type": "SPLIT",
+      "title": "Scattered and regrouped",
+      "description": "Warfare in the Ohio valley scatters the Shawnee to South Carolina, Pennsylvania, the Cumberland valley, Alabama and Illinois. Many reunite in Ohio by the 1750s. Where the Shawnee lived before the wars, and how they relate to earlier archaeological cultures of the Ohio valley, is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Callender, Charles. 1978. Shawnee. In Handbook of North American Indians, vol. 15: Northeast, ed. Bruce G. Trigger. Washington, DC: Smithsonian Institution.", "url": null },
+        { "citation": "Warren, Stephen. 2014. The Worlds the Shawnees Made: Migration and Violence in Early America. Chapel Hill: University of North Carolina Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-shawnee-sun",
+      "branch_id": "shawnee",
+      "date": "1835 – 1844",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Shawnee Sun",
+      "description": "Jotham Meeker prints *Siwinowe Kesibwi* at the Shawnee Baptist Mission in Kansas, the first periodical published in Kansas and, as usually counted, the first printed entirely in a Native American language. His alphabet was not taken up by the Shawnee at large.",
+      "contested": false,
+      "sources": [
+        { "citation": "McMurtrie, Douglas C. 1933. The Shawnee Sun: The first Indian-language periodical published in the United States. Kansas Historical Quarterly 2(4).", "url": "https://www.kancoll.org/khq/1933/33_4_mcmurtrie.htm" }
+      ]
+    },
+    {
+      "id": "tp-shawnee-removal",
+      "branch_id": "shawnee",
+      "date": "1831 – 1870s",
+      "type": "CONTACT",
+      "title": "Removal to the west",
+      "description": "The Ohio Shawnee cede their last lands in 1831 and move to Kansas; other bands have already gone to Missouri and Texas. After the Civil War most are moved again to Indian Territory, where the three present-day Shawnee tribes take shape.",
+      "contested": false,
+      "sources": [
+        { "citation": "Callender, Charles. 1978. Shawnee. In Handbook of North American Indians, vol. 15: Northeast, ed. Bruce G. Trigger. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["jotham-meeker"]
+}
