@@ -19,7 +19,7 @@ Sixteen families are covered:
 - **Algonquian** (Algic), 7 branches: Proto-Algonquian → Blackfoot, Arapahoan, Cheyenne, Cree–Innu, Ojibwe, Eastern Algonquian. Only Eastern Algonquian is a proven subgroup; Menominee, Meskwaki, Shawnee and Miami-Illinois are not yet drawn.
 - **Japonic**, 7 branches: Proto-Japonic → Mainland Japonic (→ Japanese, Hachijō), Ryukyuan (→ Northern Ryukyuan, Southern Ryukyuan).
 - **Koreanic**, 3 branches: Proto-Koreanic → Korean, Jeju.
-- **Kra-Dai**, 7 branches: Proto-Kra-Dai, Kra, Hlai, Kam-Sui, Tai, Northern Tai and Southwestern Tai, with the Great Tone Split and the Austro-Tai question.
+- **Kra-Dai**, 7 branches: Proto-Kra-Dai → Kra, Hlai, Kam-Sui, Tai (→ Northern Tai, Southwestern Tai). Central Tai (Tày, Nùng, Southern Zhuang) and Be are not yet drawn.
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
