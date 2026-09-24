@@ -1,0 +1,86 @@
+{
+  "id": "ryukyuan",
+  "family": "japonic",
+  "name": "Ryukyuan",
+  "parent_ids": ["proto-japonic"],
+  "successor_ids": ["northern-ryukyuan", "southern-ryukyuan"],
+  "era": "c. 10th century CE – present",
+  "region": "The Ryukyu Islands, from Amami to Yonaguni",
+  "defining_innovation": "The languages of the Ryukyu Islands, which descend from a sister of Old Japanese and not from Old Japanese itself: they keep vowel distinctions Japanese lost before its first texts.",
+  "descendants": ["Okinawan", "Amami", "Kunigami", "Miyako", "Yaeyama", "Yonaguni"],
+  "chapters": [
+    {
+      "title": "Sister, Not Daughter",
+      "body": "The Ryukyuan languages are not intelligible to Japanese speakers, and they keep distinctions, in some vowels and in the accent system, that Japanese had already merged before the 8th century. So they must come from a language that separated from the ancestor of Japanese earlier. Yet archaeology suggests that farming populations reached the islands from Kyushu only around the 10th–12th centuries, in the Gusuku period. Thomas Pellard and others resolve this by placing the split in Kyushu, with Proto-Ryukyuan speakers moving south later."
+    },
+    {
+      "title": "Kingdom, Annexation, War",
+      "body": "In 1429 the Ryukyu Kingdom unified the islands, trading with China, Japan and Southeast Asia. The Satsuma domain invaded in 1609 and controlled it indirectly, and Japan annexed it as Okinawa Prefecture in 1879. Assimilation policies followed, including 'dialect tags' hung on schoolchildren caught speaking their language. The Battle of Okinawa in 1945 killed about a quarter of the civilian population, and US occupation lasted until 1972. In 2009 UNESCO listed six Ryukyuan languages as endangered."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ryukyuan-south",
+      "branch_id": "ryukyuan",
+      "date": "c. 10th – 12th century CE",
+      "type": "SPLIT",
+      "title": "South into the islands",
+      "description": "Proto-Ryukyuan speakers, already separated from the ancestors of Japanese in Kyushu, move south into the Ryukyu Islands with the Gusuku-period farming expansion. The timing of the split and of the migration are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Pellard, Thomas. 2015. The linguistic archeology of the Ryukyu Islands. In Handbook of the Ryukyuan Languages, ed. Patrick Heinrich, Shinsho Miyara & Michinori Shimoji. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-satsuma",
+      "branch_id": "ryukyuan",
+      "date": "1609",
+      "type": "CONTACT",
+      "title": "The Satsuma invasion",
+      "description": "The Satsuma domain of southern Kyushu invades the Ryukyu Kingdom and brings it under indirect Japanese control while it continues to pay tribute to China.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick. 2012. The Making of Monolingual Japan: Language Ideology and Japanese Modernity. Bristol: Multilingual Matters.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-okinawa-annexation",
+      "branch_id": "ryukyuan",
+      "date": "1879 onward",
+      "type": "CONTACT",
+      "title": "Annexation and assimilation",
+      "description": "Japan annexes the kingdom as Okinawa Prefecture and pursues assimilation through schooling in standard Japanese, including punishing children with 'dialect tags'. Transmission of the Ryukyuan languages collapses in the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Heinrich, Patrick. 2012. The Making of Monolingual Japan: Language Ideology and Japanese Modernity. Bristol: Multilingual Matters.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-unesco-ryukyuan",
+      "branch_id": "ryukyuan",
+      "date": "2009",
+      "type": "REVITALIZATION",
+      "title": "Recognised as endangered languages",
+      "description": "UNESCO lists Amami, Kunigami, Okinawan, Miyako, Yaeyama and Yonaguni as separate endangered languages, a turning point for local revival efforts that treat them as languages and not as dialects of Japanese.",
+      "contested": false,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-ryukyuan-sister",
+      "branch_id": "ryukyuan",
+      "proposed_grouping": "Ryukyuan as a sister of Japanese: Ryukyuan branched off before Old Japanese and does not descend from it",
+      "status": "widely_accepted",
+      "evidence_for": "Ryukyuan keeps some vowel and accent distinctions that Japanese had already merged by the 8th century, so it cannot descend from the language of the Old Japanese texts.",
+      "evidence_against": "Some scholars have argued that Ryukyuan split off later, from a Kyushu dialect of Japanese, and that the apparent archaisms can be explained otherwise. The late archaeological date of the settlement of the islands also needs explaining.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Pellard, Thomas. 2015. The linguistic archeology of the Ryukyu Islands. In Handbook of the Ryukyuan Languages, ed. Patrick Heinrich, Shinsho Miyara & Michinori Shimoji. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
