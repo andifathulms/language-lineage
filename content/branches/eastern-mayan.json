@@ -1,0 +1,33 @@
+{
+  "id": "eastern-mayan",
+  "family": "mayan",
+  "name": "Eastern Mayan",
+  "parent_ids": ["proto-mayan"],
+  "successor_ids": ["mamean", "kichean"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The central and western highlands of Guatemala",
+  "defining_innovation": "The Mayan languages of the Guatemalan highlands, grouped by Kaufman on shared grammar and vocabulary. They keep the uvular stops q and qʼ, which Yucatecan and Cholan merged with k.",
+  "descendants": ["K'iche'", "Q'eqchi'", "Kaqchikel", "Mam", "Ixil", "Tz'utujil"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Eastern Mayan takes in the two groups of the Guatemalan highlands: **K'iche'an**, which includes K'iche', Kaqchikel, Tz'utujil and Q'eqchi', and **Mamean**, which includes Mam and Ixil. Together they have the most speakers of any Mayan branch. They are conservative in one obvious respect: they keep Proto-Mayan's uvular stops, so 'red' is K'iche' *kaq* with *q*, where Yucatec has *chak*. They differ in how they treat `*r`, which K'iche'an keeps and Mamean turns into *t*."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-eastern-split",
+      "branch_id": "eastern-mayan",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "K'iche'an and Mamean part",
+      "description": "The highland dialects divide into K'iche'an in the central highlands and Mamean in the west. The date is a glottochronological estimate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
