@@ -1,0 +1,117 @@
+{
+  "id": "mari",
+  "family": "uralic",
+  "name": "Mari",
+  "parent_ids": ["proto-uralic"],
+  "successor_ids": [],
+  "era": "c. late 1st millennium CE – present",
+  "region": "The middle Volga, mainly the Republic of Mari El in Russia, with eastern communities in Bashkortostan, Tatarstan, Udmurtia and the Perm and Sverdlovsk regions",
+  "defining_innovation": "Mari broke with the Uralic habit of first-syllable stress (in Meadow Mari the stress usually falls on the last full, unreduced vowel of the word), and it absorbed a deep layer of Chuvash-type Turkic vocabulary from the Volga Bulgars.",
+  "descendants": ["Meadow Mari", "Hill Mari", "Northwestern Mari"],
+  "chapters": [
+    {
+      "title": "The Mari of the Volga",
+      "body": "**Mari**, called Cheremis in older Russian sources, is spoken on the middle Volga, mainly in the Republic of Mari El, whose capital is Yoshkar-Ola. It is usually treated as one language with two written standards. Meadow or Eastern Mari, spoken north of the Volga and eastward towards the Urals, is by far the larger. Hill or Western Mari is spoken mainly on the high right bank of the river. A north-western variety in the Kirov and Nizhny Novgorod regions is sometimes counted separately. Hill and Meadow speakers understand each other only with effort, and many linguists, and the standard reference catalogues, count them as two languages.\n\nMari's history is above all one of Turkic neighbours. Its speakers lived beside the Volga Bulgars, whose language survives as Chuvash, and later beside the Tatars of the Golden Horde and the Kazan Khanate. Mari took several hundred words from each: Hill Mari has more of the Chuvash-type loans, Meadow and Eastern Mari more of the Tatar ones. After Ivan IV took Kazan in 1552 the Mari lands passed to Muscovy, and Mari uprisings continued for decades. Between the 16th and 18th centuries many Mari moved east beyond the Kama, away from Russian rule and forced baptism, which is why Mari villages are found today as far east as the Urals."
+    },
+    {
+      "title": "Two Standards and the Old Religion",
+      "body": "The first printed grammar of Mari appeared in St Petersburg in 1775, written in Cyrillic by clergy of the Kazan diocese. For the next century and a half Mari was printed mainly in religious and school texts. Hill and Meadow Mari took their modern standard forms in the Soviet period, after a Mari autonomous region was created in 1920, and a written literature grew up around writers such as the Meadow Mari poet Sergei Chavain, who was shot in 1937 during the purges. Both varieties are written in Cyrillic with extra letters, such as *ӱ*, *ӧ* and *ҥ*, for sounds Russian lacks.\n\nThe Mari are also known for keeping an indigenous religion. Alongside Orthodox Christianity, many Mari, especially in the east, still hold prayers and sacrifices in sacred groves, and the traditional faith has official recognition in Mari El.\n\nSince the 1990s Meadow and Hill Mari have been state languages of Mari El beside Russian. The number of speakers is nevertheless falling fast. The Russian census counted about 450,000 people who spoke Mari in 2010 and about 275,000 in 2021, and fewer children are now taught in the language."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 275,000",
+    "vitality": "mixed",
+    "note": "The 2021 census counted about 259,000 people who spoke Mari (mostly Meadow Mari) and about 15,000 who spoke Hill Mari, down from about 450,000 in 2010. UNESCO rates Meadow Mari definitely endangered and Hill Mari severely endangered.",
+    "sources": [
+      { "citation": "Rosstat. 2022–2023. Itogi Vserossiyskoy perepisi naseleniya 2020 goda [Results of the All-Russian Population Census 2020, held in 2021], vol. 5: national composition and languages.", "url": "https://rosstat.gov.ru/vpn_popul" },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 275,000" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-mari-chuvash-loans",
+      "branch_id": "mari",
+      "date": "c. 8th – 13th century CE",
+      "type": "CONTACT",
+      "title": "Volga Bulgar loanwords",
+      "description": "Mari speakers borrow heavily from Volga Bulgar, the Turkic language of the Volga Bulgar state and the ancestor of Chuvash. The loans are found across Mari, and they help date its later internal changes. When the contact began, and how much of it preceded the split of Mari, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Räsänen, Martti. 1920. Die tschuwassischen Lehnwörter im Tscheremissischen. Mémoires de la Société Finno-Ougrienne 48. Helsinki: Suomalais-Ugrilainen Seura.", "url": null },
+        { "citation": "Bereczki, Gábor. 1992–1994. Grundzüge der tscheremissischen Sprachgeschichte I–II. Szeged: JATE.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mari-hill-meadow-split",
+      "branch_id": "mari",
+      "date": "Late 1st or early 2nd millennium CE",
+      "type": "SPLIT",
+      "title": "Hill and Meadow Mari diverge",
+      "description": "Proto-Mari, spoken on the middle Volga, divides into western (Hill) and eastern (Meadow) varieties. Aikio argues from the Turkic loanwords that Proto-Mari was still a single language relatively late; older accounts placed the split earlier.",
+      "contested": true,
+      "sources": [
+        { "citation": "Aikio, Ante. 2014. On the reconstruction of Proto-Mari vocalism. Journal of Language Relationship 11: 125–157.", "url": null },
+        { "citation": "Bereczki, Gábor. 1992–1994. Grundzüge der tscheremissischen Sprachgeschichte I–II. Szeged: JATE.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mari-russian-conquest",
+      "branch_id": "mari",
+      "date": "1552 onward",
+      "type": "CONTACT",
+      "title": "Fall of Kazan",
+      "description": "Muscovy conquers the Kazan Khanate and with it the Mari lands. Russian becomes the language of administration and church, and many Mari migrate east beyond the Kama over the following two centuries. Meadow and Eastern Mari continue to borrow from Tatar.",
+      "contested": false,
+      "sources": [
+        { "citation": "Räsänen, Martti. 1923. Die tatarischen Lehnwörter im Tscheremissischen. Mémoires de la Société Finno-Ougrienne 50. Helsinki: Suomalais-Ugrilainen Seura.", "url": null },
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mari-first-grammar",
+      "branch_id": "mari",
+      "date": "1775",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "First Mari grammar",
+      "description": "A grammar of Mari in Cyrillic script is printed in St Petersburg, the first published grammar of the language. Its authorship is usually credited to clergy of the Kazan diocese.",
+      "contested": false,
+      "sources": [
+        { "citation": "Sebeok, Thomas A. & Alo Raun, eds. 1956. The First Cheremis Grammar (1775): A Facsimile Edition. Chicago: Newberry Library.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mari-state-language",
+      "branch_id": "mari",
+      "date": "1990s",
+      "type": "REVITALIZATION",
+      "title": "State language of Mari El",
+      "description": "Meadow and Hill Mari become state languages of the Mari El Republic alongside Russian. Official status has not stopped the shift to Russian, and the 2018 federal education law made the study of republic languages voluntary.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-volgaic",
+      "branch_id": "mari",
+      "proposed_grouping": "Volgaic (Volga-Finnic): Mari and Mordvinic share an ancestor after the split from the other Uralic branches",
+      "status": "largely_rejected",
+      "evidence_for": "Traditional handbooks placed Mari and Mordvinic together as the Volgaic branch of Finno-Volgaic, because the two are neighbours on the Volga and share some vocabulary and features.",
+      "evidence_against": "Few if any shared sound changes or grammatical innovations set Mari and Mordvinic apart from the rest of the family, and their common features can be explained by contact or by retention. Salminen and most recent handbooks treat them as separate branches; some scholars see Mordvinic as closer to Finnic and Saami instead.",
+      "linked_branch_ids": [],
+      "sources": [
+        {
+          "citation": "Salminen, Tapani. 2002. Problems in the taxonomy of the Uralic languages in the light of modern comparative studies. In Лингвистический беспредел: сборник статей к 70-летию А. И. Кузнецовой, 44–55. Moscow: Moscow University Press.",
+          "url": null
+        },
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
