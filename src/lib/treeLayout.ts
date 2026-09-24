@@ -282,8 +282,10 @@ export function layoutTree(
     const node = nodes.get(b.id)!;
     const n = b.turning_points.length;
     b.turning_points.forEach((tp, i) => {
-      // The root's label sits at the base of the trunk, so its marks start higher.
-      const t0 = node.isRoot ? 0.26 : 0.14;
+      // The root's label sits at the base of the trunk, so its marks start higher;
+      // limbs leaving a crowded fork start further out so their marks don't pile up.
+      const siblings = Math.max(0, ...parents(b.id).map((p) => kids(p).length));
+      const t0 = node.isRoot ? 0.26 : Math.min(0.3, 0.14 + 0.025 * Math.max(0, siblings - 2));
       const t = n === 1 ? (t0 + 0.88) / 2 : t0 + (i * (0.88 - t0)) / (n - 1);
       marks.push({
         id: tp.id,
