@@ -1,0 +1,75 @@
+{
+  "id": "proto-pama-nyungan",
+  "family": "pama-nyungan",
+  "name": "Proto-Pama-Nyungan",
+  "parent_ids": [],
+  "successor_ids": ["western-desert", "arandic", "thura-yura", "yolngu", "paman", "kulin", "wiradhuric"],
+  "era": "c. 4000 BCE (reconstructed; dating debated)",
+  "region": "Probably the Gulf of Carpentaria region of northern Queensland",
+  "defining_innovation": "The reconstructed ancestor of most Australian languages, with pronouns still recognisable across the continent: *ngayu 'I' and *nyuntu 'you' survive in Pitjantjatjara ngayulu and nyuntu, thousands of kilometres from the homeland.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "People have lived in Australia for more than 50,000 years, but the languages of nine-tenths of the continent belong to a single family, and a young one. Proto-Pama-Nyungan is estimated at about 6,000 years old. Its pronouns and basic words recur from Cape York to Perth: `*ngayu` 'I', `*nyuntu` 'you', `*jina` 'foot'. The name, coined by **Kenneth Hale**, joins the word for 'person' at the family's two ends: *pama* in Cape York and *nyunga* in the southwest.\n\nRemco Bouckaert, Claire Bowern and Quentin Atkinson's phylogenetic study (2018) places the homeland near the Gulf of Carpentaria and traces a spread across the continent over the following millennia. How a single family came to replace the languages of nearly the whole continent, without any obvious technological or farming advantage, is one of the great puzzles of world prehistory. The non-Pama-Nyungan languages, a dozen or more separate families, survive only in the north: the Kimberley, the Top End and Arnhem Land."
+    },
+    {
+      "title": "A Rake of Subgroups",
+      "body": "Below the family level, Pama-Nyungan contains many well-established subgroups, but how they group into larger branches is uncertain. Bowern and Atkinson propose four major clades (Western, Central, Northern and South-Eastern), but they are less secure than the subgroups themselves. This tree draws seven established groups directly from the root: Western Desert, Arandic, Thura-Yura, Yolŋu Matha, Paman, Kulin and Wiradhuric."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ppn-expansion",
+      "branch_id": "proto-pama-nyungan",
+      "date": "c. 4000 BCE onward",
+      "type": "SPLIT",
+      "title": "Across a continent",
+      "description": "Pama-Nyungan spreads from the northeast across most of Australia, replacing or absorbing earlier languages everywhere except the far north. The homeland, the date, and what drove the spread are all disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bouckaert, Remco R., Claire Bowern & Quentin D. Atkinson. 2018. The origin and expansion of Pama–Nyungan languages across Australia. Nature Ecology & Evolution 2.", "url": null },
+        { "citation": "Evans, Nicholas & Patrick McConvell. 1998. The enigma of Pama-Nyungan expansion in Australia. In Archaeology and Language II, ed. Roger Blench & Matthew Spriggs. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-colonisation-australia",
+      "branch_id": "proto-pama-nyungan",
+      "date": "1788 onward",
+      "type": "CONTACT",
+      "title": "Colonisation",
+      "description": "British colonisation from 1788 brings epidemics, frontier violence, dispossession and later the forced removal of children. Of some 250 Australian languages spoken in 1788, only about a dozen are still learned by children today.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-pama-nyungan-family",
+      "branch_id": "proto-pama-nyungan",
+      "proposed_grouping": "Pama-Nyungan as a genetic family: these languages share a single common ancestor",
+      "status": "widely_accepted",
+      "evidence_for": "Regular sound correspondences, shared pronoun and case paradigms, and shared basic vocabulary, set out by Hale, O'Grady and Wurm and later by Koch, Alpher and Bowern. Bowern and Atkinson's computational study recovers the family with strong support.",
+      "evidence_against": "R. M. W. Dixon (2002) argued, within his model of 'punctuated equilibrium', that Australian languages have been in contact for so long that shared features spread by diffusion, and that no Pama-Nyungan family tree can be proven. Most Australianists now reject that view, but it shaped decades of debate.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Dixon, R. M. W. 2002. Australian Languages: Their Nature and Development. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Bowern, Claire & Quentin D. Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4).", "url": null }
+      ]
+    },
+    {
+      "id": "cc-macro-pama-nyungan",
+      "branch_id": "proto-pama-nyungan",
+      "proposed_grouping": "Macro-Pama-Nyungan: Pama-Nyungan is related to several northern families, such as Tangkic and Garrwan",
+      "status": "minority_position",
+      "evidence_for": "Evans and McConvell pointed to shared pronouns and verb morphology between Pama-Nyungan and some of its northern neighbours, which suggests a deeper grouping in the Gulf country.",
+      "evidence_against": "The evidence is thin, and long contact in northern Australia makes it hard to separate inheritance from borrowing. The proposal remains a hypothesis.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Evans, Nicholas & Patrick McConvell. 1998. The enigma of Pama-Nyungan expansion in Australia. In Archaeology and Language II, ed. Roger Blench & Matthew Spriggs. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
