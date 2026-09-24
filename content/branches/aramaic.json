@@ -22,6 +22,34 @@
       "body": "The Aramaic of Edessa, **Syriac**, became the literary language of Christianity in the east from the 2nd century CE. Its missionaries took it to India and China: a bilingual Chinese–Syriac stele was set up in Xi'an in 781. After the Arab conquests, Arabic gradually replaced Aramaic as the spoken language of the region. The **Neo-Aramaic** languages of today survived in mountain villages and among Christian, Jewish and Mandaean minorities.\n\nThe 20th and 21st centuries have been devastating: massacres during the First World War, and war and emigration from Iraq and Syria, have scattered the remaining speakers. Western Neo-Aramaic survives in Maaloula and two neighbouring villages near Damascus."
     }
   ],
+  "speakers": {
+    "estimate": "c. 500,000",
+    "vitality": "mixed",
+    "note": "A rough figure: many speakers now live in diaspora and are hard to count, and every Neo-Aramaic language is rated endangered, from definitely to critically.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IRQ", "name": "Iraq" },
+    { "iso": "SYR", "name": "Syria" },
+    { "iso": "IRN", "name": "Iran" },
+    { "iso": "TUR", "name": "Turkey" },
+    { "iso": "USA", "name": "United States" },
+    { "iso": "SWE", "name": "Sweden" },
+    { "iso": "DEU", "name": "Germany" }
+  ],
+  "sample": {
+    "language": "Classical Syriac",
+    "text": "ܐܒܘܢ ܕܒܫܡܝܐ ܢܬܩܕܫ ܫܡܟ",
+    "transliteration": "ʾaḇūn dḇašmayyā neṯqaddaš šmāḵ",
+    "gloss": "father-our who-in-heaven be.hallowed name-your",
+    "translation": "Our Father in heaven, hallowed be your name (Matthew 6:9 in the Peshitta)",
+    "sources": [
+      { "citation": "Matthew 6:9, the Peshitta (Syriac Bible).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-aramaic-d",

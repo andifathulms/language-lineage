@@ -19,6 +19,28 @@
       "body": "In 1974–75 excavators at Tell Mardikh in Syria found the archives of Ebla, thousands of tablets from the 24th century BCE in a Semitic language now called Eblaite. Most scholars group it with Akkadian as East Semitic, though some see it as closer to West Semitic.\n\nIn the 2nd millennium BCE Akkadian was the diplomatic language of the Near East: pharaohs and Levantine kings wrote to each other in it in the Amarna letters. From the 8th century BCE Aramaic replaced it as the everyday language, first of the Assyrian empire and then of its successors. Akkadian survived as a language of scholarship. The last datable cuneiform tablets, astronomical texts from Babylon, come from the 1st century CE."
     }
   ],
+  "speakers": {
+    "estimate": "None since antiquity",
+    "vitality": "extinct",
+    "note": "Akkadian was probably displaced as a spoken language by Aramaic during the 1st millennium BCE, though it was written until the 1st century CE.",
+    "sources": [
+      { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IRQ", "name": "Iraq" },
+    { "iso": "SYR", "name": "Syria" },
+    { "iso": "TUR", "name": "Turkey" }
+  ],
+  "sample": {
+    "language": "Akkadian (Standard Babylonian)",
+    "text": "ša naqba īmuru išdī māti",
+    "gloss": "who deep saw foundations land.GEN",
+    "translation": "He who saw the Deep, the foundation of the land (opening line of the Epic of Gilgamesh)",
+    "sources": [
+      { "citation": "George, Andrew R. 2003. The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts. Oxford: Oxford University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-akkadian-guttural-loss",

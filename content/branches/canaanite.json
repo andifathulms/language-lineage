@@ -22,6 +22,27 @@
       "body": "Hebrew was the language of the kingdoms of Israel and Judah and of most of the Hebrew Bible. After the Babylonian exile, Aramaic gradually replaced it in daily life. Mishnaic Hebrew, the language of the rabbinic law codes, was probably still spoken in parts of Judea in the 2nd century CE, but by about 200–400 CE Hebrew had stopped being anyone's first language. For the next 1,500 years it lived on as a language of prayer, law, poetry and scholarship, read and written by Jews everywhere but spoken natively by no one.\n\nIts return as a spoken language is unique. From the 1880s, **Eliezer Ben-Yehuda** and the schools of the new Jewish settlements in Ottoman Palestine began to use Hebrew as an everyday language and to coin words for modern life. Within a generation there were children who spoke it as their first language, and in 1922 it became an official language of Mandatory Palestine. Today it has around nine million speakers."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5 million",
+    "vitality": "mixed",
+    "note": "All of them speak Modern Hebrew, which has about as many again second-language speakers; Phoenician, Moabite and the other Canaanite languages are extinct.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "ISR", "name": "Israel", "speakers": "c. 5 million" }
+  ],
+  "sample": {
+    "language": "Biblical Hebrew",
+    "text": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+    "transliteration": "bərēšīṯ bārā ʾĕlōhīm ʾēṯ haššāmayim wəʾēṯ hāʾāreṣ",
+    "gloss": "in-beginning created God OBJ the-heavens and-OBJ the-earth",
+    "translation": "In the beginning God created the heavens and the earth.",
+    "sources": [
+      { "citation": "Genesis 1:1. Biblia Hebraica Stuttgartensia. 1977. Stuttgart: Deutsche Bibelgesellschaft.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-canaanite-shift",

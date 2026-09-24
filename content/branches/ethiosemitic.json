@@ -22,6 +22,28 @@
       "body": "Amharic rose with the Solomonic dynasty from the 13th century as the language of the royal court (*lǝssanä nǝguś*, 'the king's tongue'), and it is now Ethiopia's federal working language. It has moved further from its Semitic roots than its northern relatives Tigrinya and Tigre: it has lost or merged most of the old guttural consonants, and it takes a good deal of vocabulary and grammar from Cushitic neighbours. It is still written in the Ge'ez *fidäl*."
     }
   ],
+  "speakers": {
+    "estimate": "c. 50 million",
+    "vitality": "mixed",
+    "note": "Amharic has about 35 million first-language speakers and Tigrinya about 9 million; Ge'ez survives only in liturgy, and some small languages such as Gafat are extinct.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "ETH", "name": "Ethiopia", "speakers": "c. 45 million" },
+    { "iso": "ERI", "name": "Eritrea", "speakers": "c. 3 million" }
+  ],
+  "sample": {
+    "language": "Ge'ez",
+    "text": "አቡነ ዘበሰማያት ይትቀደስ ስምከ",
+    "transliteration": "ʾabunä zäbäsämayat yətqäddäs səmkä",
+    "gloss": "father-our who-in-heavens be.hallowed name-your",
+    "translation": "Our Father in heaven, hallowed be your name (the Lord's Prayer, Matthew 6:9)",
+    "sources": [
+      { "citation": "Matthew 6:9, Ge'ez text as used in the daily prayers of the Ethiopian and Eritrean Orthodox Tewahedo churches.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-ethiosemitic-arrival",

@@ -18,6 +18,15 @@
       "body": "Ugarit's scribes of the 14th–13th centuries BCE wrote their language in a unique alphabet of 30 wedge-shaped signs, an alphabet pressed into clay in cuneiform style. Its myths of the storm god Baal and the ruler god El illuminate Canaanite religion and the background of the Hebrew Bible. The city was destroyed around 1185 BCE in the upheavals at the end of the Bronze Age, and the language disappeared with it."
     }
   ],
+  "speakers": {
+    "estimate": "c. 5.5 million",
+    "vitality": "mixed",
+    "note": "Hebrew accounts for about 5 million first-language speakers; the Neo-Aramaic languages are all endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-amorites",

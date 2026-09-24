@@ -17,6 +17,14 @@
       "body": "The oldest division is between **East Semitic**, the extinct Akkadian and Eblaite of Mesopotamia and Syria, and **West Semitic**, the ancestor of everything else. This tree then follows the widely used model of Hetzron, Huehnergard and others. West Semitic divides into Central Semitic (Arabic and the Northwest Semitic languages) and the Ethiosemitic languages of the Horn of Africa. The Modern South Arabian languages of Yemen and Oman, and the extinct Old South Arabian, are not drawn, because where they belong is uncertain."
     }
   ],
+  "speakers": {
+    "estimate": "c. 450 million",
+    "vitality": "mixed",
+    "note": "Almost all of them speak Arabic; the figure also counts the Modern South Arabian languages of Yemen and Oman, which this tree does not draw.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-ps-dispersal",

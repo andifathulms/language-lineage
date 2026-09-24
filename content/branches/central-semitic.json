@@ -12,8 +12,20 @@
     {
       "title": "Origins",
       "body": "Central Semitic groups Arabic with the Northwest Semitic languages: Hebrew, Phoenician, Aramaic and Ugaritic. Robert Hetzron set it out in the 1970s, and it has since become the standard view, with John Huehnergard as its main defender. The key evidence is in the verb. The present-future form of the old type, still seen in Akkadian *iparras* and Ge'ez *yəqättəl*, was replaced by a new form built on the old past-tense prefix: Arabic *yaktubu*, Hebrew *yikhtov*.\n\nThis was a change of view. For a long time Arabic was classed with the South Semitic languages of Arabia and Ethiopia, which share with it the 'broken plurals' (Arabic *kitāb* 'book', plural *kutub*). That older grouping appears here as a dotted arc between Arabic and Ethiosemitic."
+    },
+    {
+      "title": "Arabic and Hebrew Side by Side",
+      "body": "Because Arabic and Hebrew are both well documented and closely enough related, they are the pair most often used to show what Central Semitic shares, and where its two halves went separate ways.\n\nThe common ground is easy to see. Both form the past with suffixes and the present-future with prefixes built on the same stem: Arabic *kataba* 'he wrote', *yaktubu* 'he writes'; Hebrew *kātav*, *yikhtōv*. Both have a definite article that the older Semitic languages lacked, though they built it differently: Arabic prefixes *al-* (*al-bayt* 'the house'), Hebrew *ha-* with doubling of the next consonant (*ha-bbayit*). Aramaic went its own way again, marking definiteness with a suffix *-ā* (*baytā*). The article probably arose separately in each line after they parted, a sign that Proto-Central Semitic had none.\n\nThe differences are in the sounds and the plurals. Arabic kept almost the full Proto-Semitic set of consonants, including `*ṯ` and `*ḏ`, which Hebrew merged with *š* and *z*. Hebrew and Aramaic, on the other hand, lost the case endings that Classical Arabic preserves (*-u*, *-i*, *-a*), and they rarely use Arabic's internal 'broken' plurals, preferring suffixes: Hebrew *sūs* 'horse', *sūsīm* 'horses'."
     }
   ],
+  "speakers": {
+    "estimate": "c. 400 million",
+    "vitality": "mixed",
+    "note": "Arabic accounts for nearly all of them; Hebrew adds about 5 million and Neo-Aramaic a few hundred thousand.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-central-split",

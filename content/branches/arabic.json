@@ -22,6 +22,44 @@
       "body": "The conquests of the 7th and 8th centuries carried Arabic from Spain to Central Asia. The spoken dialects that grew up in each region have lost the case endings and much else, and a Moroccan and an Iraqi may struggle to understand each other's everyday speech. Most Arabic speakers therefore live with **diglossia**: a dialect for home and street, and Modern Standard Arabic, the descendant of the classical language modernised in the 19th-century *Nahḍa* ('awakening'), for writing and formal speech. Maltese, descended from Sicilian Arabic, is the only Arabic variety written in the Latin alphabet and an official language of the European Union."
     }
   ],
+  "speakers": {
+    "estimate": "c. 400 million",
+    "vitality": "safe",
+    "note": "Counts first-language speakers of all spoken varieties, including Maltese; nobody's first language is Modern Standard Arabic, which is learned at school, and totals vary with how the varieties are counted.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "EGY", "name": "Egypt", "speakers": "c. 100 million" },
+    { "iso": "SDN", "name": "Sudan", "speakers": "c. 40 million" },
+    { "iso": "DZA", "name": "Algeria", "speakers": "c. 35 million" },
+    { "iso": "IRQ", "name": "Iraq", "speakers": "c. 35 million" },
+    { "iso": "YEM", "name": "Yemen", "speakers": "c. 30 million" },
+    { "iso": "MAR", "name": "Morocco", "speakers": "c. 25 million" },
+    { "iso": "SAU", "name": "Saudi Arabia", "speakers": "c. 20 million" },
+    { "iso": "SYR", "name": "Syria", "speakers": "c. 20 million" },
+    { "iso": "TUN", "name": "Tunisia", "speakers": "c. 12 million" },
+    { "iso": "JOR", "name": "Jordan", "speakers": "c. 10 million" },
+    { "iso": "LBY", "name": "Libya", "speakers": "c. 6 million" },
+    { "iso": "PSE", "name": "Palestine", "speakers": "c. 5 million" },
+    { "iso": "LBN", "name": "Lebanon", "speakers": "c. 5 million" },
+    { "iso": "OMN", "name": "Oman", "speakers": "c. 3 million" },
+    { "iso": "ISR", "name": "Israel", "speakers": "c. 2 million" },
+    { "iso": "TCD", "name": "Chad", "speakers": "c. 2 million" },
+    { "iso": "KWT", "name": "Kuwait", "speakers": "c. 1.5 million" },
+    { "iso": "MLT", "name": "Malta", "speakers": "c. 500,000 (Maltese)" }
+  ],
+  "sample": {
+    "language": "Classical Arabic",
+    "text": "بسم الله الرحمن الرحيم",
+    "transliteration": "bismi llāhi r-raḥmāni r-raḥīm",
+    "gloss": "in.the.name.of God the-Most.Gracious the-Most.Merciful",
+    "translation": "In the name of God, the Most Gracious, the Most Merciful (the opening of the Qur'an)",
+    "sources": [
+      { "citation": "The Qur'an, Sura 1 (al-Fātiḥa), verse 1.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-old-arabic-inscriptions",

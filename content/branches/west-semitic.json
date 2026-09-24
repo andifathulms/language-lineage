@@ -18,6 +18,14 @@
       "body": "Around 1900–1800 BCE, Semitic-speaking workers in Egypt and Sinai adapted a small set of Egyptian hieroglyphs to write their own language. Each sign stood for the first consonant of its Semitic name: a picture of an ox head (`ʾalp`) for *ʾ*, a house (`bayt`) for *b*. The earliest examples, from Wadi el-Hol in Egypt and Serabit el-Khadim in Sinai, are short and hard to read, but the principle, one sign for one consonant, spread. Through Phoenician it became the ancestor of the Greek, Latin, Hebrew and Arabic scripts. The South Arabian branch of the same invention produced the Ge'ez script of Ethiopia."
     }
   ],
+  "speakers": {
+    "estimate": "c. 450 million",
+    "vitality": "mixed",
+    "note": "Every living Semitic language is West Semitic; East Semitic has been extinct for two thousand years.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-west-semitic-split",
