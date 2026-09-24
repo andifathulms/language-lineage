@@ -1,0 +1,73 @@
+{
+  "id": "great-lakes",
+  "family": "bantu",
+  "name": "Great Lakes Bantu",
+  "parent_ids": ["eastern-bantu"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Uganda, Rwanda, Burundi, northwestern Tanzania and the eastern Democratic Republic of the Congo",
+  "defining_innovation": "The Bantu of the interlacustrine kingdoms (Buganda, Rwanda, Burundi, Nkore), a close group whose largest members, Kinyarwanda and Kirundi, are spoken by almost everyone in their countries.",
+  "descendants": ["Kinyarwanda", "Kirundi", "Luganda", "Haya", "Runyankore", "Lusoga"],
+  "chapters": [
+    {
+      "title": "Kingdoms of the Lakes",
+      "body": "Around the great lakes of East Africa, Bantu-speaking farmers built some of the region's most centralised kingdoms: Buganda on the shores of Lake Victoria, and Rwanda and Burundi in the highlands. Their languages, Luganda, Kinyarwanda and Kirundi, belong to a close group together with Haya, Runyankore and others. Nilotic-speaking pastoralists moved into the region over the last thousand years and influenced its societies and some of its languages."
+    },
+    {
+      "title": "Writing and National Languages",
+      "body": "Protestant and Catholic missionaries reached Buganda in 1877–79 and wrote Luganda in the Latin alphabet. A Luganda Bible followed in 1896, and Luganda became the language of the colonial administration in much of Uganda. In Rwanda and Burundi, unusually for African states, a single Bantu language is spoken by nearly the whole population, and Kinyarwanda and Kirundi became national and official languages at independence in 1962."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-great-lakes-kingdoms",
+      "branch_id": "great-lakes",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "The lakes group forms",
+      "description": "Farming communities around the lakes develop into the Great Lakes Bantu group. Later, from the mid-2nd millennium, the Buganda, Rwanda and Burundi kingdoms grow up in the region.",
+      "contested": true,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nilotic-contact",
+      "branch_id": "great-lakes",
+      "date": "c. 1000 – 1700 CE",
+      "type": "CONTACT",
+      "title": "Nilotic neighbours",
+      "description": "Nilotic-speaking pastoralists, among them Luo groups, move into the region. Some assimilate to Bantu languages and others stay distinct, and Nilotic vocabulary, especially for cattle, enters the Bantu languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-luganda-writing",
+      "branch_id": "great-lakes",
+      "date": "1877 – 1896",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Luganda in writing",
+      "description": "Missionaries in Buganda write Luganda in Latin letters, and the complete Luganda Bible is published in 1896. Luganda becomes a written language of administration and education.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-rwanda-burundi-national",
+      "branch_id": "great-lakes",
+      "date": "1962",
+      "type": "REVITALIZATION",
+      "title": "National languages of Rwanda and Burundi",
+      "description": "At independence, Kinyarwanda and Kirundi become national and official languages, spoken by nearly the whole population of each country. That is rare in Africa, where most states have many languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
