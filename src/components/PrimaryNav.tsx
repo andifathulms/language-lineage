@@ -7,7 +7,8 @@ import { usePathname } from "next/navigation";
 export function PrimaryNav({ familyCount }: { familyCount: number }) {
   const path = usePathname() ?? "/";
   const inSoundLaws = path.startsWith("/sound-laws");
-  const inFamilies = !inSoundLaws && path !== "/";
+  const inPrimers = path.startsWith("/primers");
+  const inFamilies = !inSoundLaws && !inPrimers && path !== "/";
   const item = (active: boolean) =>
     `relative py-1 no-underline transition-colors duration-base ease-grow hover:text-bark ${
       active
@@ -21,6 +22,11 @@ export function PrimaryNav({ familyCount }: { familyCount: number }) {
         <li>
           <Link href="/#families" className={item(inFamilies)} aria-current={inFamilies ? "page" : undefined}>
             Families <span className="hidden text-bark-soft/70 sm:inline">{familyCount}</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/primers/" className={item(inPrimers)} aria-current={inPrimers ? "page" : undefined}>
+            Primers
           </Link>
         </li>
         <li>

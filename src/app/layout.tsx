@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto flex h-16 max-w-page items-center justify-between gap-3 px-4 sm:gap-6 sm:px-6">
             <Link href="/" className="group flex shrink-0 items-center gap-2 no-underline sm:gap-2.5">
               <RingGlyph className="h-6 w-6 sm:h-7 sm:w-7 text-heartwood transition-transform duration-base ease-grow group-hover:rotate-[20deg]" />
-              <span className="whitespace-nowrap font-display text-[1.05rem] font-semibold tracking-tight text-bark sm:text-[1.15rem]">Language Lineage</span>
+              <span className="whitespace-nowrap font-display text-[1.05rem] font-semibold tracking-tight text-bark max-[440px]:sr-only sm:text-[1.15rem]">Language Lineage</span>
             </Link>
             <PrimaryNav familyCount={families.length} />
           </div>
@@ -66,6 +66,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <Link href="/primers/" className="text-bark-soft no-underline hover:text-bark">
+                    Primers: how we know
+                  </Link>
+                </li>
                 <li>
                   <Link href="/sound-laws/" className="text-bark-soft no-underline hover:text-bark">
                     Sound laws, compared
