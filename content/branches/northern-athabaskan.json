@@ -1,0 +1,57 @@
+{
+  "id": "northern-athabaskan",
+  "family": "na-dene",
+  "name": "Northern Athabaskan",
+  "parent_ids": ["athabaskan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Interior Alaska, the Yukon, the Northwest Territories, northern British Columbia and the Prairie Provinces",
+  "defining_innovation": "About thirty languages of the subarctic, from Dena'ina to Dene Sųłiné. They form a geographical continuum rather than a proven subgroup.",
+  "descendants": ["Dene Sųłiné", "Gwich'in", "Slavey", "Tłı̨chǫ", "Dena'ina", "Koyukon", "Dakelh", "Tsuut'ina"],
+  "chapters": [
+    {
+      "title": "A Continuum",
+      "body": "The Northern Athabaskan languages stretch from Cook Inlet in Alaska to Hudson Bay, spoken by hunting and fishing peoples who call themselves *Dene*, *Dine* or similar names meaning 'people'. Each language grades into its neighbours, and the borders between them are often better described by features than by clear lines, so the group is geographical rather than a proven genetic subgroup.\n\nIn the 19th century missionaries adapted the Cree syllabics of James Evans to Dene Sųłiné, Slavey and other languages, and some communities still use them. The Northwest Territories now gives official status to several Dene languages, alongside English, French and Inuit languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-dene-syllabics",
+      "branch_id": "northern-athabaskan",
+      "date": "mid-19th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Syllabics for the Dene",
+      "description": "Catholic and Anglican missionaries adapt James Evans's Cree syllabics to Dene Sųłiné, Slavey and other Northern Athabaskan languages for hymns, prayers and letters. The Cree-Innu branch records the original script.",
+      "contested": false,
+      "sources": [
+        { "citation": "Krauss, Michael E. & Victor K. Golla. 1981. Northern Athapaskan languages. In Handbook of North American Indians, vol. 6: Subarctic, ed. June Helm. Washington: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nwt-official",
+      "branch_id": "northern-athabaskan",
+      "date": "1984 – 1990",
+      "type": "REVITALIZATION",
+      "title": "Official in the Northwest Territories",
+      "description": "The Northwest Territories' Official Languages Act recognises Dene languages, and amendments in 1990 make Chipewyan (Dene Sųłiné), Gwich'in, North and South Slavey and Tłı̨chǫ official languages of the territory.",
+      "contested": false,
+      "sources": [
+        { "citation": "Northwest Territories. Official Languages Act, R.S.N.W.T. 1988, c. O-1, as amended.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-northern-athabaskan-shift",
+      "branch_id": "northern-athabaskan",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Residential schools and shift",
+      "description": "Residential and boarding schools in Canada and Alaska separate children from their languages, and most Northern Athabaskan languages fall to a few hundred or fewer fluent speakers. Tanacross, Hän, Tagish and others are near extinction.",
+      "contested": false,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
