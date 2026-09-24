@@ -1,0 +1,104 @@
+{
+  "id": "arabic",
+  "family": "semitic",
+  "name": "Arabic",
+  "parent_ids": ["central-semitic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Northern and central Arabia, then from Morocco to Iraq and the Gulf",
+  "defining_innovation": "The definite article al- (Hebrew has ha-), together with a fully preserved set of case endings in its classical form: kitābu, kitābi, kitāba 'book'.",
+  "descendants": ["Modern Standard Arabic", "Egyptian", "Levantine", "Mesopotamian", "Gulf", "Maghrebi", "Maltese"],
+  "chapters": [
+    {
+      "title": "Old Arabic",
+      "body": "Before Islam, Arabic was a group of dialects of the nomads and oasis towns of northern and central Arabia. It is known mainly from thousands of short graffiti in the deserts of Syria, Jordan and Arabia, the Safaitic and Hismaic inscriptions of roughly the 1st century BCE to the 4th century CE, written in scripts related to South Arabian. The Namara inscription (328 CE), an epitaph for a 'king of all the Arabs', is Arabic written in the Nabataean script. From Nabataean cursive developed the Arabic script itself."
+    },
+    {
+      "title": "The Qur'an and the Grammarians",
+      "body": "With the Qur'an in the 7th century, Arabic became the language of a scripture and, within a century, of an empire. To protect the reading of the text, scholars added dots to distinguish letters and marks for short vowels. In 8th-century Basra, the grammarians produced one of the great early traditions of linguistic analysis. **Sibawayh**'s *al-Kitāb* ('The Book') described Arabic sounds, morphology and syntax with a precision that is still admired. Classical Arabic, fixed in this period, remains the model of the written language today."
+    },
+    {
+      "title": "One Language or Many",
+      "body": "The conquests of the 7th and 8th centuries carried Arabic from Spain to Central Asia. The spoken dialects that grew up in each region have lost the case endings and much else, and a Moroccan and an Iraqi may struggle to understand each other's everyday speech. Most Arabic speakers therefore live with **diglossia**: a dialect for home and street, and Modern Standard Arabic, the descendant of the classical language modernised in the 19th-century *Nahḍa* ('awakening'), for writing and formal speech. Maltese, descended from Sicilian Arabic, is the only Arabic variety written in the Latin alphabet and an official language of the European Union."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-old-arabic-inscriptions",
+      "branch_id": "arabic",
+      "date": "c. 1st century BCE – 328 CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Old Arabic inscriptions",
+      "description": "Safaitic and Hismaic graffiti record Old Arabic dialects in scripts related to South Arabian, and the Namara epitaph of 328 CE writes Arabic in Nabataean letters. The Arabic script develops from Nabataean cursive.",
+      "contested": false,
+      "sources": [
+        { "citation": "Al-Jallad, Ahmad. 2015. An Outline of the Grammar of the Safaitic Inscriptions. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-arabic-grammarians",
+      "branch_id": "arabic",
+      "date": "7th – 8th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Qur'an and the grammarians",
+      "description": "Dots and vowel marks are added to the Arabic script to fix the reading of the Qur'an, and the Basra grammarians, above all Sibawayh, codify Classical Arabic.",
+      "contested": false,
+      "sources": [
+        { "citation": "Versteegh, Kees. 2014. The Arabic Language, 2nd ed. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-arab-conquests",
+      "branch_id": "arabic",
+      "date": "7th – 8th century CE",
+      "type": "SPLIT",
+      "title": "From Spain to Central Asia",
+      "description": "The Arab conquests carry Arabic across the Middle East and North Africa, where it gradually replaces Aramaic, Coptic, Greek and, in part, Berber. Regional dialects diverge from here on.",
+      "contested": false,
+      "sources": [
+        { "citation": "Versteegh, Kees. 2014. The Arabic Language, 2nd ed. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-arabic-case-loss",
+      "branch_id": "arabic",
+      "date": "c. 7th – 9th century CE",
+      "type": "SOUND_LAW",
+      "title": "Case endings lost in speech",
+      "description": "The spoken dialects lose the short final vowels that mark case (*kitābu*, *kitābi*, *kitāba* → *kitāb*). Some scholars think this was under way in pre-Islamic dialects. Others link it to the rapid spread of Arabic among new speakers after the conquests.",
+      "contested": true,
+      "process": "loss",
+      "notation": "-u -i -a (case vowels) → ∅ (kitābu → kitāb)",
+      "sort_year": 750,
+      "sources": [
+        { "citation": "Versteegh, Kees. 2014. The Arabic Language, 2nd ed. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nahda",
+      "branch_id": "arabic",
+      "date": "19th – early 20th century",
+      "type": "REVITALIZATION",
+      "title": "The Nahḍa",
+      "description": "Writers, journalists and translators in Cairo, Beirut and Damascus modernise Classical Arabic for the press, science and the novel, creating Modern Standard Arabic.",
+      "contested": false,
+      "sources": [
+        { "citation": "Versteegh, Kees. 2014. The Arabic Language, 2nd ed. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-maltese",
+      "branch_id": "arabic",
+      "date": "1924 – 1934",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Maltese in Latin letters",
+      "description": "A standard Latin orthography for Maltese is agreed in 1924, and in 1934 Maltese becomes an official language of Malta. It is the only Semitic language written in Latin script as a national standard.",
+      "contested": false,
+      "sources": [
+        { "citation": "Versteegh, Kees. 2014. The Arabic Language, 2nd ed. Edinburgh: Edinburgh University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["sibawayh"]
+}

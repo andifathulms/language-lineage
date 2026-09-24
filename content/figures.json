@@ -173,5 +173,12 @@
     "lifespan": "1858–1922",
     "branch_ids": ["canaanite"],
     "turning_point_ids": ["tp-hebrew-revival"]
+  },
+  {
+    "id": "sibawayh",
+    "name": "Sibawayh",
+    "lifespan": "c. 760–796",
+    "branch_ids": ["arabic"],
+    "turning_point_ids": ["tp-arabic-grammarians"]
   }
 ]
