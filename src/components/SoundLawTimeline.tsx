@@ -72,8 +72,8 @@ export function SoundLawTimeline({ lanes }: { lanes: TimelineLane[] }) {
   }, [lanes]);
 
   return (
-    <figure>
-      <div className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+    <figure className="plate overflow-hidden">
+      <div className="overflow-x-auto">
         <svg
           viewBox={`0 0 ${WIDTH} ${layout.height}`}
           className="h-auto w-full min-w-[640px]"
@@ -103,9 +103,9 @@ export function SoundLawTimeline({ lanes }: { lanes: TimelineLane[] }) {
             </g>
           ))}
 
-          {layout.lanes.map((lane) => (
+          {layout.lanes.map((lane, li) => (
             <g key={lane.slug} className={lane.accentClass}>
-              <rect x={0} y={lane.top} width={WIDTH} height={lane.height} className="fill-soil" fillOpacity={0.5} />
+              <rect x={0} y={lane.top} width={WIDTH} height={lane.height} className="fill-soil" fillOpacity={li % 2 ? 0.55 : 0.2} />
               <text
                 x={12}
                 y={lane.top + lane.height / 2 + 5}
@@ -134,7 +134,7 @@ export function SoundLawTimeline({ lanes }: { lanes: TimelineLane[] }) {
                       cx={d.cx}
                       cy={d.cy}
                       r={DOT}
-                      className="fill-cream stroke-accent"
+                      className="fill-paper stroke-accent"
                       strokeWidth={2}
                       strokeDasharray={d.contested ? "2.4 2" : undefined}
                     />
@@ -149,7 +149,7 @@ export function SoundLawTimeline({ lanes }: { lanes: TimelineLane[] }) {
       </div>
       <figcaption
         aria-live="polite"
-        className="mt-3 flex min-h-[3.5rem] flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ring/60 pt-3 text-sm"
+        className="flex min-h-[3.75rem] flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ring/70 bg-cream/60 px-4 py-3 text-sm sm:px-6"
       >
         {active ? (
           <>
