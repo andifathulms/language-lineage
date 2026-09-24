@@ -1,0 +1,77 @@
+{
+  "id": "northwest-bantu",
+  "family": "bantu",
+  "name": "Northwest Bantu",
+  "parent_ids": ["proto-bantu"],
+  "successor_ids": [],
+  "era": "c. 3000 BCE – present",
+  "region": "Southern Cameroon, Equatorial Guinea, Gabon and the northern Republic of the Congo",
+  "defining_innovation": "Not one branch but several: the languages that stayed closest to the homeland. Many of them have worn down the Proto-Bantu word shape, with shortened stems and reduced prefixes and final vowels.",
+  "descendants": ["Duala", "Basaa", "Ewondo", "Fang", "Myene"],
+  "chapters": [
+    {
+      "title": "Near the Homeland",
+      "body": "The Bantu languages of the northwest, in Cameroon, Equatorial Guinea and Gabon (Guthrie's zones A and B), are the ones that moved least from the Proto-Bantu homeland. Phylogenetic studies do not find a single ancestor for them: they are several early offshoots, each branching off before the ancestors of the rest moved on. 'Northwest Bantu' is therefore a geographical label, drawn here as one limb for legibility.\n\nIn one respect many of them are the least typical Bantu languages. Their words have been worn down: stems reduced to a single syllable, final vowels dropped, noun-class prefixes shortened or merged. This is the opposite of what one might expect of the languages nearest the homeland."
+    },
+    {
+      "title": "Writing and Colonial Rule",
+      "body": "Duala, the language of the port of Douala, was among the first Bantu languages of the region to be written. The English Baptist missionary Alfred Saker published a Duala New Testament in the 1860s. Cameroon passed from German to French and British rule, and French and English became the languages of state. Fang, spread across three countries, and Ewondo are regional lingua francas."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-nw-bantu-early-splits",
+      "branch_id": "northwest-bantu",
+      "date": "c. 3000 – 1000 BCE",
+      "type": "SPLIT",
+      "title": "The first offshoots",
+      "description": "Groups settling in the forests of southern Cameroon and Gabon separate one by one from the Bantu that continues to spread. Their order is disputed, which is why no single Northwest Bantu ancestor is reconstructed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Grollemund, Rebecca, et al. 2015. Bantu expansion shows that habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences 112(43).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nw-bantu-erosion",
+      "branch_id": "northwest-bantu",
+      "date": "Undated; probably 1st millennium BCE onward",
+      "type": "SOUND_LAW",
+      "title": "Erosion of the word",
+      "description": "In many Northwest Bantu languages final vowels are lost and stems shrink to one syllable, while noun-class prefixes shorten or merge. The changes differ from language to language and cannot be dated closely.",
+      "contested": true,
+      "process": "loss",
+      "notation": "CVCV → CVC(V); final V and parts of prefixes → ∅",
+      "sort_year": 0,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-duala-writing",
+      "branch_id": "northwest-bantu",
+      "date": "1840s – 1860s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Duala in print",
+      "description": "Baptist missionaries at Douala write Duala in the Latin alphabet and publish scripture in it. For a time it is the main written African language of coastal Cameroon.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-northwest-bantu",
+      "branch_id": "northwest-bantu",
+      "proposed_grouping": "Northwest Bantu as a single branch: the Bantu languages of Cameroon, Equatorial Guinea and Gabon share one ancestor",
+      "status": "largely_rejected",
+      "evidence_for": "The languages are neighbours, share many areal features such as reduced word shapes, and are often grouped together in surveys for convenience.",
+      "evidence_against": "Lexicostatistical and phylogenetic studies consistently find them to be a series of early, separate splits from the Bantu trunk, not a single subgroup. The features they share are largely retentions from Proto-Bantu or the result of contact between neighbours.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Grollemund, Rebecca, et al. 2015. Bantu expansion shows that habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences 112(43).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
