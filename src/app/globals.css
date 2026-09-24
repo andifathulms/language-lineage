@@ -7,15 +7,17 @@
    can apply alpha. --accent is overridden per family (see FamilyAccent).
    ------------------------------------------------------------------ */
 :root {
-  --bark: 58 42 31;
-  --bark-soft: 107 84 67;
-  --cream: 246 239 225;
+  --bark: 52 38 28;
+  --bark-soft: 104 82 65;
+  --cream: 247 241 229;
+  --paper: 252 249 242;
   --heartwood: 138 90 59;
   --sapwood: 222 203 164;
-  --ring: 203 182 144;
-  --soil: 235 224 201;
-  --moss: 104 115 62;
+  --ring: 212 193 158;
+  --soil: 236 226 205;
+  --moss: 96 110 56;
   --accent: 156 74 34;
+  --grain-opacity: 0.035;
 
   --ease-grow: cubic-bezier(0.22, 1, 0.36, 1);
   --dur-base: 600ms;
@@ -26,15 +28,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bark: 236 225 204;
-    --bark-soft: 186 166 142;
-    --cream: 28 22 18;
-    --heartwood: 190 139 101;
+    --bark: 238 228 210;
+    --bark-soft: 186 168 145;
+    --cream: 25 20 16;
+    --paper: 34 28 23;
+    --heartwood: 196 145 106;
     --sapwood: 92 72 55;
-    --ring: 78 62 49;
-    --soil: 38 30 24;
-    --moss: 151 166 100;
+    --ring: 70 56 45;
+    --soil: 40 32 26;
+    --moss: 156 172 104;
     --accent: 222 134 84;
+    --grain-opacity: 0.05;
     color-scheme: dark;
   }
 }
@@ -43,16 +47,39 @@
   html {
     -webkit-text-size-adjust: 100%;
   }
+  html {
+    scroll-padding-top: 5rem;
+  }
   body {
     @apply bg-cream font-serif text-bark antialiased;
     font-feature-settings: "kern", "liga", "onum";
   }
+  /* Faint grain so large cream fields read as paper, not flat UI beige. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0 0.15 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     @apply font-display text-bark;
     font-variation-settings: "SOFT" 100, "WONK" 0;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+  h1 {
+    letter-spacing: -0.022em;
+  }
+  p,
+  li,
+  dd {
+    text-wrap: pretty;
   }
   a {
     @apply underline decoration-ring decoration-1 underline-offset-[3px] transition-colors duration-base ease-grow;
@@ -71,7 +98,7 @@
 @layer components {
   /* Specimen label: small pinned tag, not a stamp. */
   .specimen {
-    @apply inline-flex max-w-full items-center gap-1.5 rounded-[2px] border border-ring bg-cream px-1.5 py-[1px] font-label text-[0.68rem] font-medium uppercase tracking-[0.12em] text-bark-soft;
+    @apply inline-flex max-w-full items-center gap-1.5 rounded-[3px] border border-ring bg-paper px-2 py-[2px] font-label text-[0.68rem] font-medium uppercase tracking-[0.12em] text-bark-soft;
   }
   .specimen::before {
     content: "";
@@ -120,7 +147,36 @@
     @apply my-1.5;
   }
   .prose-grown blockquote {
-    @apply my-6 border-l-2 border-ring pl-5 italic text-bark-soft;
+    @apply my-6 border-l-2 border-accent/50 pl-5 italic text-bark-soft;
+  }
+  .prose-grown a {
+    @apply decoration-accent/40;
+  }
+  /* Opening paragraph of a branch: a gently larger lede. */
+  .prose-lede > p:first-child {
+    @apply text-[1.2rem] leading-[1.7] text-bark;
+  }
+
+  /* Raised surface: the tree plate, family cards. Flat at rest, warm lift on hover. */
+  .plate {
+    @apply rounded-[10px] border border-ring/80 bg-paper;
+  }
+  .lift {
+    transition:
+      transform var(--dur-base) var(--ease-grow),
+      box-shadow var(--dur-base) var(--ease-grow),
+      border-color var(--dur-base) var(--ease-grow);
+  }
+  .lift:hover,
+  .lift:focus-within {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px -18px rgb(var(--heartwood) / 0.45);
+    border-color: rgb(var(--accent) / 0.55);
+  }
+
+  /* Small mono metadata line used across pages. */
+  .meta {
+    @apply font-label text-[0.7rem] font-medium uppercase tracking-[0.14em] text-bark-soft;
   }
 }
 

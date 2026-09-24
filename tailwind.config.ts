@@ -10,6 +10,7 @@ const config: Config = {
         bark: "rgb(var(--bark) / <alpha-value>)",
         "bark-soft": "rgb(var(--bark-soft) / <alpha-value>)",
         cream: "rgb(var(--cream) / <alpha-value>)",
+        paper: "rgb(var(--paper) / <alpha-value>)",
         heartwood: "rgb(var(--heartwood) / <alpha-value>)",
         sapwood: "rgb(var(--sapwood) / <alpha-value>)",
         ring: "rgb(var(--ring) / <alpha-value>)",
@@ -31,6 +32,7 @@ const config: Config = {
       },
       maxWidth: {
         reading: "40rem",
+        page: "72rem",
       },
     },
   },
