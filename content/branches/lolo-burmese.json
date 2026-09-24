@@ -1,0 +1,76 @@
+{
+  "id": "lolo-burmese",
+  "family": "sino-tibetan",
+  "name": "Lolo-Burmese",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Myanmar and the mountains of Yunnan and Sichuan, extending into northern Thailand, Laos and Vietnam",
+  "defining_innovation": "Burmese together with Yi, Lisu, Lahu, Hani and Akha, a well-established subgroup whose Burmese branch took its script from Mon.",
+  "descendants": ["Burmese", "Yi (Nuosu)", "Lisu", "Lahu", "Hani", "Akha"],
+  "chapters": [
+    {
+      "title": "Burmese",
+      "body": "The ancestors of the Burmese came south from Yunnan into the Irrawaddy valley in the 9th century and founded the kingdom of Pagan. There they adopted Theravada Buddhism and the script of their Mon neighbours; the Myazedi inscription of 1113, recorded on the Austroasiatic tree, sets Burmese beside Mon, Pali and Pyu. Written Burmese still spells the old syllable-final *-k*, *-t* and *-p*, but in the modern language these have all merged into a glottal stop."
+    },
+    {
+      "title": "The Loloish Languages",
+      "body": "The 'Loloish' languages (Yi, Lisu, Lahu, Hani, Akha and others) are spoken by upland peoples across southwest China and the northern parts of mainland Southeast Asia. The Yi had their own logographic script, used by ritual specialists for centuries. In 1974–1980 a standard syllabary based on it was adopted for the Nuosu variety in Sichuan. Lisu is written in the Fraser alphabet, uppercase Latin letters, some rotated, devised around 1915 by the missionary James O. Fraser and the Karen evangelist Sara Ba Thaw."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-burmese-pagan",
+      "branch_id": "lolo-burmese",
+      "date": "9th – 12th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Burmese adopts the Mon script",
+      "description": "The Burmese of Pagan adopt the Mon script and Theravada Buddhism. The Myazedi inscription (1113) records Burmese next to Mon, Pali and Pyu, a link recorded on the Monic branch.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-burmese-finals",
+      "branch_id": "lolo-burmese",
+      "date": "c. 16th – 18th century CE",
+      "type": "SOUND_LAW",
+      "title": "Final stops merge into a glottal stop",
+      "description": "Syllable-final *-k*, *-t* and *-p* all merge into a glottal stop in spoken Burmese, and final nasals reduce to nasalised vowels, while the spelling keeps the old consonants. The timing is debated.",
+      "contested": true,
+      "process": "merger",
+      "notation": "-k -t -p → -ʔ · final nasals → nasal vowels (spelling unchanged)",
+      "sort_year": 1650,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-lisu-fraser",
+      "branch_id": "lolo-burmese",
+      "date": "c. 1915",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Fraser alphabet",
+      "description": "James O. Fraser and Sara Ba Thaw devise an alphabet for Lisu from uppercase Latin letters, some upside down. It is now the standard Lisu script and part of Unicode.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yi-syllabary",
+      "branch_id": "lolo-burmese",
+      "date": "1974 – 1980",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The standard Yi syllabary",
+      "description": "Authorities in Sichuan standardise the traditional Yi script as a syllabary of 819 signs for the Nuosu language, used in schools and publishing.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["james-o-fraser"]
+}

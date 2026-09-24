@@ -334,5 +334,12 @@
     "lifespan": "7th century (traditional)",
     "branch_ids": ["tibetic"],
     "turning_point_ids": ["tp-tibetan-script"]
+  },
+  {
+    "id": "james-o-fraser",
+    "name": "James O. Fraser",
+    "lifespan": "1886–1938",
+    "branch_ids": ["lolo-burmese"],
+    "turning_point_ids": ["tp-lisu-fraser"]
   }
 ]
