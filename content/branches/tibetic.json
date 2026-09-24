@@ -1,0 +1,88 @@
+{
+  "id": "tibetic",
+  "family": "sino-tibetan",
+  "name": "Tibetic",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present (written from the 7th century)",
+  "region": "The Tibetan plateau, Ladakh, Bhutan, Sikkim and northern Nepal",
+  "defining_innovation": "The descendants of Old Tibetan, the language of the Tibetan empire, whose 7th-century spelling still records consonant clusters that modern Lhasa Tibetan has simplified into tones: Written Tibetan brgyad 'eight' is Lhasa gyè.",
+  "descendants": ["Central Tibetan (Lhasa)", "Amdo Tibetan", "Khams Tibetan", "Ladakhi", "Dzongkha", "Sherpa"],
+  "chapters": [
+    {
+      "title": "The Tibetan Script",
+      "body": "Tibetan writing began under the Tibetan empire in the 7th century. Tradition credits the minister **Thonmi Sambhota**, sent to India by King Songtsen Gampo, with adapting an Indian Brahmi-derived script for Tibetan. Historians regard the story as partly legendary. The spelling fixed then records a language rich in consonant clusters, such as *brgyad* 'eight' and *bsgrubs* 'accomplished'.\n\nAround 800 CE a royal commission standardised the translation of Buddhist Sanskrit into Tibetan, producing the *Mahāvyutpatti* glossary. The translations were so exact that lost Sanskrit texts can sometimes be reconstructed from their Tibetan versions."
+    },
+    {
+      "title": "Spelling and Speech",
+      "body": "Spoken Tibetan has moved far from its spelling. In Lhasa Tibetan the clusters have been simplified, and the lost prefixes and voicing distinctions have left behind a contrast between high and low tones: *brgyad* is pronounced something like *gyè*. The eastern dialects of Amdo, by contrast, keep many clusters and have no tones, and they are often closer to the written form.\n\nSince 1950 Tibet has been part of the People's Republic of China, where Mandarin dominates education and public life. After 1959 a Tibetan exile community in India, centred on Dharamsala, developed its own standard. In Bhutan, Dzongkha, a Tibetic language, became the national language in 1971."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tibetan-script",
+      "branch_id": "tibetic",
+      "date": "7th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Tibetan script",
+      "description": "Under the Tibetan empire, a script adapted from an Indian Brahmi-derived model is introduced. Tradition credits Thonmi Sambhota, though the story is partly legendary and the script's exact model is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Tournadre, Nicolas. 2014. The Tibetic languages and their classification. In Trans-Himalayan Linguistics, ed. Thomas Owen-Smith & Nathan W. Hill. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mahavyutpatti",
+      "branch_id": "tibetic",
+      "date": "c. 800 CE",
+      "type": "CONTACT",
+      "title": "Translating the Buddhist canon",
+      "description": "A royal commission standardises the translation of Sanskrit Buddhist terms into Tibetan, and a vast body of scripture is translated. Classical Tibetan becomes the literary and religious language of the whole Tibetan cultural area.",
+      "contested": false,
+      "sources": [
+        { "citation": "Tournadre, Nicolas. 2014. The Tibetic languages and their classification. In Trans-Himalayan Linguistics, ed. Thomas Owen-Smith & Nathan W. Hill. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-lhasa-clusters",
+      "branch_id": "tibetic",
+      "date": "c. 2nd millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Clusters give way to tones",
+      "description": "In Central Tibetan the initial consonant clusters of Old Tibetan simplify, and the lost prefixes and voicing distinctions become a high/low tone contrast: *brgyad* 'eight' → Lhasa *gyè*. Amdo Tibetan keeps clusters and has no tones. The dating is uncertain.",
+      "contested": true,
+      "process": "loss",
+      "notation": "CC- clusters → simple onsets; lost prefixes and voicing → high/low tone (brgyad → gyè 'eight')",
+      "sort_year": 1400,
+      "sources": [
+        { "citation": "Tournadre, Nicolas. 2014. The Tibetic languages and their classification. In Trans-Himalayan Linguistics, ed. Thomas Owen-Smith & Nathan W. Hill. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tibetan-1950",
+      "branch_id": "tibetic",
+      "date": "1950 – 1959 onward",
+      "type": "CONTACT",
+      "title": "Chinese rule and exile",
+      "description": "Tibet is incorporated into the People's Republic of China, and after 1959 the Dalai Lama and tens of thousands of Tibetans go into exile in India. Mandarin gains ground inside Tibet, while exile communities maintain their own standard of spoken and written Tibetan.",
+      "contested": false,
+      "sources": [
+        { "citation": "Tournadre, Nicolas. 2014. The Tibetic languages and their classification. In Trans-Himalayan Linguistics, ed. Thomas Owen-Smith & Nathan W. Hill. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dzongkha",
+      "branch_id": "tibetic",
+      "date": "1971",
+      "type": "REVITALIZATION",
+      "title": "Dzongkha, national language of Bhutan",
+      "description": "Bhutan declares Dzongkha, a Tibetic language written in Tibetan script, its national language, and develops it for education and administration.",
+      "contested": false,
+      "sources": [
+        { "citation": "van Driem, George. 2001. Languages of the Himalayas: An Ethnolinguistic Handbook of the Greater Himalayan Region. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["thonmi-sambhota"]
+}

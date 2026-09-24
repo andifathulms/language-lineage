@@ -327,5 +327,12 @@
     "lifespan": "1906–2017",
     "branch_ids": ["sinitic"],
     "turning_point_ids": ["tp-pinyin"]
+  },
+  {
+    "id": "thonmi-sambhota",
+    "name": "Thonmi Sambhota",
+    "lifespan": "7th century (traditional)",
+    "branch_ids": ["tibetic"],
+    "turning_point_ids": ["tp-tibetan-script"]
   }
 ]
