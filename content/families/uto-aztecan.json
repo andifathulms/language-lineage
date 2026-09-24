@@ -38,5 +38,89 @@
       "url": null
     },
     { "citation": "Langacker, Ronald W. 1977. An Overview of Uto-Aztecan Grammar. Studies in Uto-Aztecan Grammar 1. Arlington: Summer Institute of Linguistics and University of Texas at Arlington.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The six languages below are spread over three thousand kilometres, from the Plains to central Mexico, yet their basic words line up. Watch the first consonant. Where Hopi, Comanche and Cahuilla have *p*, Yaqui has *b* before *a*, O'odham has *v*, and Nahuatl has nothing at all: 'three' is *paayom* in Hopi but *ēyi* in Nahuatl. Watch too how O'odham turns *y* into *d* ('nose') and *w* into *g* ('two'), and how Nahuatl *t* becomes *tl* before *a* ('tooth'). Blank cells mean the language uses an unrelated word.",
+    "proto_label": "Proto-Uto-Aztecan",
+    "languages": [
+      { "name": "Hopi", "branch_id": "hopi" },
+      { "name": "Comanche", "branch_id": "numic" },
+      { "name": "Cahuilla", "branch_id": "takic" },
+      { "name": "Tohono O'odham", "branch_id": "tepiman" },
+      { "name": "Yaqui", "branch_id": "taracahitan" },
+      { "name": "Classical Nahuatl", "branch_id": "aztecan" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "pa",
+        "forms": ["paahu", "paa", "pal", null, "ba'a", "ātl"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "pusi",
+        "forms": ["poosi", "puih", "-puš", "vuhi", "puusi", "īxtli"]
+      },
+      {
+        "gloss": "three",
+        "proto": "paha",
+        "forms": ["paayom", "pahihtʉ", "pah", "vaik", "baahi", "ēyi"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "tama",
+        "forms": ["tama", "tama", "-tama", "tahtami", "tami", "tlantli"]
+      },
+      {
+        "gloss": "moon",
+        "proto": "mïtsa",
+        "forms": ["muuyaw", "mʉa", null, "mashath", "mecha", "mētztli"]
+      },
+      {
+        "gloss": "nose",
+        "proto": "yaka",
+        "forms": ["yaqa", null, null, "daak", "yeka", "yacatl"]
+      },
+      {
+        "gloss": "two",
+        "proto": "wo",
+        "forms": [null, "wahatʉ", "wih", "gook", "woi", "ōme"]
+      },
+      {
+        "gloss": "house",
+        "proto": "kali",
+        "forms": [null, "kahni", null, null, "kari", "calli"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*p",
+        "reflexes": ["p", "p", "p", "v", "b", "Ø"],
+        "rows": [0, 2]
+      },
+      {
+        "label": "*t (before *a)",
+        "reflexes": ["t", "t", "t", "t", "t", "tl"],
+        "rows": [3]
+      },
+      {
+        "label": "*y",
+        "reflexes": ["y", null, null, "d", "y", "y"],
+        "rows": [5]
+      },
+      {
+        "label": "*w",
+        "reflexes": [null, "w", "w", "g", "w", "Ø"],
+        "rows": [6]
+      }
+    ],
+    "sources": [
+      { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Miller, Wick R. 1967. Uto-Aztecan Cognate Sets. University of California Publications in Linguistics 48. Berkeley: University of California Press.", "url": null },
+      { "citation": "Stubbs, Brian D. 2011. Uto-Aztecan: A Comparative Vocabulary. Flower Mound, TX: Shumway Family History Services / Rocky Mountain Books and Productions.", "url": null },
+      { "citation": "Hopi Dictionary Project. 1998. Hopi Dictionary / Hopìikwa Lavàytutuveni. Tucson: University of Arizona Press.", "url": null },
+      { "citation": "Karttunen, Frances. 1983. An Analytical Dictionary of Nahuatl. Austin: University of Texas Press.", "url": null },
+      { "citation": "Molina, Felipe S., Herminia Valenzuela & David Leedom Shaul. 1999. Hippocrene Concise Dictionary: Yoeme-English, English-Yoeme. New York: Hippocrene Books.", "url": null }
+    ]
+  }
 }
