@@ -215,7 +215,7 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
         <svg
           ref={svgRef}
           viewBox={`0 0 ${width} ${height}`}
-          style={{ minWidth: `${Math.round(width * 0.62)}px` }}
+          style={{ minWidth: `${Math.round(width * 0.56)}px` }}
           className="tree-pre h-auto w-full select-none"
           role="group"
           aria-label="Lineage tree. Each limb is a branch; ring-marks along it are turning points; dotted arcs are contested groupings."
