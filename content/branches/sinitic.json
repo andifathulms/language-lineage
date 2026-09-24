@@ -1,0 +1,121 @@
+{
+  "id": "sinitic",
+  "family": "sino-tibetan",
+  "name": "Sinitic",
+  "parent_ids": ["proto-sino-tibetan"],
+  "successor_ids": [],
+  "era": "c. 4000 BCE – present (written from c. 1250 BCE)",
+  "region": "China, Taiwan and Singapore, and diaspora communities worldwide",
+  "defining_innovation": "The Chinese languages (Mandarin, Wu, Yue, Min, Hakka, Xiang, Gan), with the longest continuous written tradition in the world, and tones that arose from lost final consonants.",
+  "descendants": ["Mandarin", "Wu", "Yue (Cantonese)", "Min", "Hakka", "Xiang", "Gan"],
+  "chapters": [
+    {
+      "title": "Old Chinese",
+      "body": "Chinese writing begins with the oracle-bone inscriptions of the Shang dynasty at Anyang, around 1250 BCE: questions to the ancestors cut into ox bones and turtle shells. The characters record words, not sounds. Old Chinese pronunciation has to be reconstructed from the rhymes of the *Book of Odes*, the sound elements inside characters, loanwords and the modern varieties, in work from Bernhard Karlgren to William Baxter and Laurent Sagart. In 221 BCE the Qin dynasty standardised the script across the empire.\n\nOld Chinese was not tonal. André-Georges Haudricourt showed, as he had for Vietnamese, that the Middle Chinese 'rising' tone came from a final glottal stop and the 'departing' tone from a final *-s*, which is why Chinese and Vietnamese developed such similar tone systems."
+    },
+    {
+      "title": "Many Chinese Languages",
+      "body": "The spoken varieties of Chinese are as different from one another as the Romance languages, and speakers of Cantonese and Mandarin cannot understand each other. Min, spoken in Fujian and Taiwan, split off earliest and keeps distinctions older than the 7th-century *Qieyun* rhyme dictionary on which Middle Chinese reconstruction is based. The southern varieties are more conservative in other ways: Cantonese keeps the final *-p*, *-t* and *-k* that northern Mandarin lost by the 14th century, so 'ten' is Cantonese *sap* but Mandarin *shí*."
+    },
+    {
+      "title": "Vernacular, Characters and Pinyin",
+      "body": "For two thousand years educated Chinese wrote in Classical Chinese, far from the spoken language. In the New Culture movement of 1917–1919, **Hu Shi** and others argued for writing in the vernacular (*báihuà*), and within a decade it had become the norm. In the 1950s the People's Republic promoted Mandarin (*Pǔtōnghuà*) as the national standard, simplified the characters (1956), and adopted **pinyin**, a Latin alphabet devised under **Zhou Youguang** (1958), for teaching pronunciation. Pinyin is now the standard way of typing Chinese."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-oracle-bones",
+      "branch_id": "sinitic",
+      "date": "c. 1250 BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Oracle-bone inscriptions",
+      "description": "Shang dynasty diviners at Anyang carve questions and answers onto bones and shells. They are the earliest substantial Chinese writing, already a developed logographic system.",
+      "contested": false,
+      "sources": [
+        { "citation": "Keightley, David N. 1978. Sources of Shang History: The Oracle-Bone Inscriptions of Bronze Age China. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-qin-script",
+      "branch_id": "sinitic",
+      "date": "221 BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Qin standardise the script",
+      "description": "After unifying China, the Qin dynasty imposes a single standard form of the characters on the regional scripts of the Warring States. A common written language across speech varieties is a unifying force from then on.",
+      "contested": false,
+      "sources": [
+        { "citation": "Norman, Jerry. 1988. Chinese. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chinese-tonogenesis",
+      "branch_id": "sinitic",
+      "date": "c. 3rd century BCE – 5th century CE",
+      "type": "SOUND_LAW",
+      "title": "Tones from lost final consonants",
+      "description": "The final glottal stop of Old Chinese becomes the Middle Chinese 'rising' tone, and final *-s* becomes the 'departing' tone. Later the loss of voiced initials splits the tones further. When the tones arose is debated.",
+      "contested": true,
+      "process": "prosody",
+      "notation": "*-ʔ → rising tone · *-s → departing tone",
+      "sort_year": 100,
+      "sources": [
+        { "citation": "Haudricourt, André-Georges. 1954. Comment reconstruire le chinois archaïque. Word 10.", "url": null },
+        { "citation": "Baxter, William H. & Laurent Sagart. 2014. Old Chinese: A New Reconstruction. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mandarin-stop-loss",
+      "branch_id": "sinitic",
+      "date": "By the 14th century CE",
+      "type": "SOUND_LAW",
+      "title": "Mandarin loses its final stops",
+      "description": "Northern Chinese loses the final *-p*, *-t* and *-k*, and the syllables they ended are redistributed among other tones, as recorded in the *Zhongyuan Yinyun* rhyme book of 1324. Cantonese and other southern varieties keep them (Cantonese *sap*, Mandarin *shí* 'ten').",
+      "contested": false,
+      "process": "loss",
+      "notation": "-p -t -k → ∅ (Cantonese sap, Mandarin shí 'ten')",
+      "sort_year": 1250,
+      "sources": [
+        { "citation": "Norman, Jerry. 1988. Chinese. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-baihua",
+      "branch_id": "sinitic",
+      "date": "1917 – 1920s",
+      "type": "REVITALIZATION",
+      "title": "Writing as people speak",
+      "description": "Hu Shi and the New Culture movement campaign to replace Classical Chinese with the vernacular (*báihuà*) as the written language, and within a decade it becomes standard in literature, journalism and education.",
+      "contested": false,
+      "sources": [
+        { "citation": "DeFrancis, John. 1984. The Chinese Language: Fact and Fantasy. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pinyin",
+      "branch_id": "sinitic",
+      "date": "1956 – 1958",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Simplified characters and pinyin",
+      "description": "The People's Republic introduces simplified characters (1956) and adopts pinyin (1958), a Latin alphabet for Mandarin developed by a committee led by Zhou Youguang. It is used for teaching, dictionaries and, today, typing.",
+      "contested": false,
+      "sources": [
+        { "citation": "DeFrancis, John. 1984. The Chinese Language: Fact and Fantasy. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-min-early",
+      "branch_id": "sinitic",
+      "proposed_grouping": "Min as the first Chinese split: Min branched off before the language recorded in the Qieyun, and does not descend from Middle Chinese",
+      "status": "widely_accepted",
+      "evidence_for": "Min keeps distinctions, especially among consonants, that cannot be derived from the Middle Chinese of the *Qieyun*, so its ancestor must be older. Jerry Norman made the case in detail.",
+      "evidence_against": "Some of the Min features can be explained as borrowings from non-Chinese languages or as later layers, and the *Qieyun* may itself be a composite of several varieties rather than one language. How to model the early history of Chinese dialects is still debated.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Norman, Jerry. 1988. Chinese. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["andre-georges-haudricourt", "hu-shi", "zhou-youguang"]
+}

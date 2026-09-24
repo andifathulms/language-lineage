@@ -262,8 +262,8 @@
     "id": "andre-georges-haudricourt",
     "name": "André-Georges Haudricourt",
     "lifespan": "1911–1996",
-    "branch_ids": ["vietic"],
-    "turning_point_ids": ["tp-vietnamese-tonogenesis"]
+    "branch_ids": ["vietic", "sinitic"],
+    "turning_point_ids": ["tp-vietnamese-tonogenesis", "tp-chinese-tonogenesis"]
   },
   {
     "id": "alexandre-de-rhodes",
@@ -313,5 +313,19 @@
     "lifespan": "1728–1779",
     "branch_ids": ["paman"],
     "turning_point_ids": ["tp-kangaroo"]
+  },
+  {
+    "id": "hu-shi",
+    "name": "Hu Shi",
+    "lifespan": "1891–1962",
+    "branch_ids": ["sinitic"],
+    "turning_point_ids": ["tp-baihua"]
+  },
+  {
+    "id": "zhou-youguang",
+    "name": "Zhou Youguang",
+    "lifespan": "1906–2017",
+    "branch_ids": ["sinitic"],
+    "turning_point_ids": ["tp-pinyin"]
   }
 ]
