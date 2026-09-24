@@ -1,0 +1,62 @@
+{
+  "id": "hopi",
+  "family": "uto-aztecan",
+  "name": "Hopi",
+  "parent_ids": ["northern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Hopi mesas of northeastern Arizona",
+  "defining_innovation": "A single language forming its own branch, the only Uto-Aztecan language of the Pueblo world, spoken by maize farmers on the Arizona mesas.",
+  "descendants": ["Hopi"],
+  "chapters": [
+    {
+      "title": "The Mesas",
+      "body": "Hopi is spoken in villages on and below three mesas in northeastern Arizona. Oraibi, among the longest continuously inhabited settlements in North America, has been occupied since around 1100 CE. The Hopi are the westernmost of the Pueblo peoples, sharing the Pueblo way of life with speakers of unrelated Keresan, Tanoan and Zuni. After the Pueblo Revolt of 1680, Tewa-speaking refugees from the Rio Grande settled at Hano on First Mesa, where Arizona Tewa is still spoken beside Hopi."
+    },
+    {
+      "title": "Whorf and Hopi Time",
+      "body": "Hopi became famous in linguistics through Benjamin Lee Whorf, who argued in the 1930s and 1940s that it had “no words, grammatical forms, constructions or expressions that refer directly to what we call ‘time’”. He took this as evidence that language shapes thought. In 1983 Ekkehart Malotki published *Hopi Time*, a 600-page study documenting Hopi's rich vocabulary and grammar of time, tense and calendar. The claim is now regarded as a cautionary example of how a strong hypothesis outran the data."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-hopi-split",
+      "branch_id": "hopi",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Hopi separates",
+      "description": "The ancestors of the Hopi separate from other Northern Uto-Aztecan speakers and settle on the Colorado Plateau, where they take up Pueblo farming and village life. The date is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Miller, Wick R. 1984. The classification of the Uto-Aztecan languages based on lexical evidence. International Journal of American Linguistics 50(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hopi-tewa",
+      "branch_id": "hopi",
+      "date": "c. 1700",
+      "type": "CONTACT",
+      "title": "Tewa at Hano",
+      "description": "After the Pueblo Revolt, Tewa-speaking refugees settle among the Hopi at Hano. Arizona Tewa and Hopi have coexisted there for over three centuries, with the Tewa almost all bilingual in Hopi.",
+      "contested": false,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hopi-dictionary",
+      "branch_id": "hopi",
+      "date": "1998",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Hopi Dictionary",
+      "description": "The Hopi Dictionary Project publishes a 900-page dictionary of the Third Mesa dialect in a standard orthography developed with Hopi speakers, which becomes a basis for Hopi literacy and teaching.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hopi Dictionary Project. 1998. Hopi Dictionary / Hopìikwa Lavàytutuveni. Tucson: University of Arizona Press.", "url": null },
+        { "citation": "Malotki, Ekkehart. 1983. Hopi Time: A Linguistic Analysis of the Temporal Concepts in the Hopi Language. Berlin: Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
