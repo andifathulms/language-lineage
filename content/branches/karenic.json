@@ -1,0 +1,61 @@
+{
+  "id": "karenic",
+  "family": "sino-tibetan",
+  "name": "Karenic",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Eastern Myanmar and western Thailand",
+  "defining_innovation": "S'gaw, Pwo, Kayah (Karenni) and Pa'o, the only Tibeto-Burman languages to put the verb before the object, probably under the influence of Mon and Tai neighbours.",
+  "descendants": ["S'gaw Karen", "Pwo Karen", "Kayah", "Pa'o"],
+  "chapters": [
+    {
+      "title": "A Different Word Order",
+      "body": "The Karen languages are spoken in the hills along the Myanmar–Thailand border. Almost all other Tibeto-Burman languages are verb-final, but Karen puts the object after the verb, like its Mon and Tai neighbours, and this long made scholars unsure whether Karen belonged to Tibeto-Burman at all. It is now generally seen as a Tibeto-Burman branch reshaped by contact."
+    },
+    {
+      "title": "Missions and War",
+      "body": "American Baptist missionaries arrived among the Karen in the 1820s. Jonathan Wade created a Karen script based on the Burmese alphabet in the 1830s, and many Karen became Christian. Since 1949 Karen nationalists have fought the Myanmar state in one of the world's longest-running civil conflicts. Hundreds of thousands of Karen have lived in refugee camps on the Thai border or resettled abroad, where Karen communities now maintain the language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-karen-svo",
+      "branch_id": "karenic",
+      "date": "1st – 2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Verb before object",
+      "description": "Karen adopts verb–object order, probably through long contact with Mon and Tai. It is the only branch of Tibeto-Burman to do so. The timing and mechanism are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-karen-script",
+      "branch_id": "karenic",
+      "date": "1830s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A Karen script",
+      "description": "The Baptist missionary Jonathan Wade adapts the Burmese alphabet for S'gaw and Pwo Karen, and Karen literacy spreads through mission schools and the church.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-karen-conflict",
+      "branch_id": "karenic",
+      "date": "1949 onward",
+      "type": "CONTACT",
+      "title": "Conflict and refuge",
+      "description": "Decades of armed conflict in eastern Myanmar drive large numbers of Karen into camps in Thailand and then to resettlement in the US, Australia and elsewhere, where the language is carried into diaspora.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
