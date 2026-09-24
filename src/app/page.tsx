@@ -117,25 +117,32 @@ export default function Home() {
         </ul>
       </section>
 
-      <section className="mt-20">
-        <Link
-          href="/sound-laws/"
-          className="plate lift group grid gap-6 p-8 no-underline sm:p-10 md:grid-cols-[1fr_auto] md:items-center"
-        >
-          <div>
-            <p className="meta">Across families</p>
-            <p className="mt-3 font-display text-2xl font-semibold leading-snug text-bark sm:text-3xl">
-              Compare sound laws side by side
-            </p>
-            <p className="mt-3 max-w-2xl leading-relaxed text-bark-soft">
-              Grimm&apos;s law beside the Hawaiian shift, lost final consonants in Germanic and in the Pacific, on one
-              timeline. Unrelated languages keep making the same kinds of change.
-            </p>
-          </div>
-          <span className="inline-flex items-center gap-2 justify-self-start rounded-full bg-bark px-6 py-3 font-label text-xs font-medium uppercase tracking-[0.14em] text-cream transition-colors duration-base ease-grow group-hover:bg-heartwood">
-            Open the timeline <span aria-hidden="true">→</span>
-          </span>
-        </Link>
+      <section className="mt-20 grid gap-5 md:grid-cols-2">
+        {[
+          {
+            href: "/primers/",
+            kicker: "Before the trees",
+            title: "How we know",
+            body: "Four short primers: how relationships are proved, what a sound law is, where the dates come from, and why some groupings stay disputed.",
+            cta: "Read the primers",
+          },
+          {
+            href: "/sound-laws/",
+            kicker: "Across families",
+            title: "Compare sound laws side by side",
+            body: "Grimm\u2019s law beside the Hawaiian shift, lost final consonants in Germanic and in the Pacific, on one timeline. Unrelated languages keep making the same kinds of change.",
+            cta: "Open the timeline",
+          },
+        ].map((card) => (
+          <Link key={card.href} href={card.href} className="plate lift group flex flex-col p-8 no-underline sm:p-10">
+            <p className="meta">{card.kicker}</p>
+            <p className="mt-3 font-display text-2xl font-semibold leading-snug text-bark sm:text-3xl">{card.title}</p>
+            <p className="mt-3 max-w-2xl leading-relaxed text-bark-soft">{card.body}</p>
+            <span className="mt-8 inline-flex items-center gap-2 self-start rounded-full bg-bark px-6 py-3 font-label text-xs font-medium uppercase tracking-[0.14em] text-cream transition-colors duration-base ease-grow group-hover:bg-heartwood">
+              {card.cta} <span aria-hidden="true">→</span>
+            </span>
+          </Link>
+        ))}
       </section>
 
       <section aria-labelledby="reading-heading" className="mt-20 border-t border-ring/60 pt-12">
@@ -143,7 +150,7 @@ export default function Home() {
         <h2 id="reading-heading" className="sr-only">
           What each branch records
         </h2>
-        <div className="mt-8 grid gap-10 md:grid-cols-3">
+        <div className="mt-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {[
             {
               title: "Turning points",
@@ -152,6 +159,10 @@ export default function Home() {
             {
               title: "Contested classifications",
               body: "Groupings that remain in dispute, set out with the evidence each side offers. They are shown as dotted arcs outside the tree, because they may never be settled.",
+            },
+            {
+              title: "Speakers and places",
+              body: "How many people speak each branch today, how secure its languages are on UNESCO's scale, where on the map they are spoken, and a short phrase in the language itself.",
             },
             {
               title: "Figures, in context",
