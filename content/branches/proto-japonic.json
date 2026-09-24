@@ -1,0 +1,75 @@
+{
+  "id": "proto-japonic",
+  "family": "japonic",
+  "name": "Proto-Japonic",
+  "parent_ids": [],
+  "successor_ids": ["mainland-japonic", "ryukyuan"],
+  "era": "c. 1st millennium BCE (reconstructed)",
+  "region": "Probably northern Kyushu, arriving from the Korean peninsula",
+  "defining_innovation": "The reconstructed ancestor of Japanese and Ryukyuan, most likely brought to Japan by the Yayoi rice farmers who crossed from Korea in the first millennium BCE.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Most linguists and archaeologists connect the arrival of Japonic in Japan with the Yayoi culture, rice farmers who crossed from the Korean peninsula into northern Kyushu from around the 10th–3rd centuries BCE and spread across the islands, absorbing or displacing the Jōmon population. The Ainu language of Hokkaido, unrelated to Japonic, may be a survivor of the earlier linguistic landscape, and Ainu place names are found in northern Honshu.\n\nJaponic languages may once have been spoken in Korea too. Place names recorded in the Korean chronicle *Samguk sagi* for the former territory of Goguryeo contain words that look Japonic, such as numbers. Alexander Vovin, John Whitman and others argue they are traces of 'Peninsular Japonic', although the interpretation is disputed."
+    },
+    {
+      "title": "Two Branches",
+      "body": "Japonic divides into **Mainland Japonic** (Japanese and Hachijō) and **Ryukyuan**. The Ryukyuan languages keep distinctions that Japanese had already lost by its earliest texts, so they cannot descend from Old Japanese. They must descend from a sister language, even though Ryukyuan speakers probably reached the islands only around 1,000 years ago."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-yayoi",
+      "branch_id": "proto-japonic",
+      "date": "c. 10th – 3rd century BCE",
+      "type": "SPLIT",
+      "title": "Rice farmers cross to Kyushu",
+      "description": "Japonic reaches Japan with Yayoi rice farmers from the Korean peninsula and spreads across the islands. The dates and the scale of the migration are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Whitman, John. 2011. Northeast Asian linguistic ecology and the advent of rice agriculture in Korea and Japan. Rice 4.", "url": null },
+        { "citation": "Vovin, Alexander. 2017. Origins of the Japanese language. In Oxford Research Encyclopedia of Linguistics. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ainu-contact",
+      "branch_id": "proto-japonic",
+      "date": "1st millennium CE onward",
+      "type": "CONTACT",
+      "title": "Ainu neighbours",
+      "description": "Japanese spreads north through Honshu into Ainu-speaking territory. Ainu place names survive in Tohoku, and some Japanese words may be of Ainu origin.",
+      "contested": true,
+      "sources": [
+        { "citation": "Vovin, Alexander. 2017. Origins of the Japanese language. In Oxford Research Encyclopedia of Linguistics. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-japano-koreanic",
+      "branch_id": "proto-japonic",
+      "proposed_grouping": "Japano-Koreanic: Japonic and Koreanic share an ancestor",
+      "status": "minority_position",
+      "evidence_for": "The two families have very similar grammar (verb-final order, postpositions, similar honorific and clause-linking systems), and Whitman and others have proposed sound correspondences in basic vocabulary. The Koreanic tree records the same proposal from the other side, and the Turkic tree records the wider Transeurasian proposal.",
+      "evidence_against": "The number of convincing cognates is small, and the grammatical similarities may reflect centuries of contact in the Korean peninsula. Vovin, originally a supporter, came to reject the relationship. It remains unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Whitman, John. 2012. The relationship between Japanese and Korean. In The Languages of Japan and Korea, ed. Nicolas Tranter. London: Routledge.", "url": null },
+        { "citation": "Vovin, Alexander. 2010. Korea-Japonica: A Re-evaluation of a Common Genetic Origin. Honolulu: University of Hawaii Press.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-peninsular-japonic",
+      "branch_id": "proto-japonic",
+      "proposed_grouping": "Peninsular Japonic: Japonic languages were spoken in the Korean peninsula before Koreanic replaced them",
+      "status": "minority_position",
+      "evidence_for": "Place names in the former Goguryeo territory, recorded with Chinese characters in the *Samguk sagi*, include words that resemble Japonic, such as numerals like 'three', 'five', 'seven' and 'ten'.",
+      "evidence_against": "The place names are few, recorded long after the fact and hard to interpret, and they may reflect the languages of other peoples in the region. Some scholars see them as Koreanic or as belonging to an unknown language.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Vovin, Alexander. 2017. Origins of the Japanese language. In Oxford Research Encyclopedia of Linguistics. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
