@@ -1,0 +1,62 @@
+{
+  "id": "wiradhuric",
+  "family": "pama-nyungan",
+  "name": "Wiradhuric",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Central and northern inland New South Wales",
+  "defining_innovation": "Wiradjuri, Gamilaraay and Ngiyampaa, the languages of the inland plains and river country of New South Wales. Wiradjuri's territory was among the largest of any Australian language.",
+  "descendants": ["Wiradjuri", "Gamilaraay", "Yuwaalaraay", "Ngiyampaa"],
+  "chapters": [
+    {
+      "title": "Rivers and Plains",
+      "body": "The Wiradhuric languages were spoken on the inland plains of New South Wales, along the Lachlan, Macquarie, Murrumbidgee and Namoi rivers. Wiradjuri country stretched across a large part of the state, and the language was one of the most widely spoken in the southeast."
+    },
+    {
+      "title": "Frontier and Revival",
+      "body": "Colonial settlement crossed the Blue Mountains in the 1810s, and the Wiradjuri resisted it. In 1824 the colonial government declared martial law around Bathurst during the frontier war. Over the following century missions and reserves, the removal of children, and English-only schooling all but ended the use of the languages. Revival work since the 1990s, including a Wiradjuri dictionary compiled by the elder Stan Grant Sr and John Rudder and a Gamilaraay dictionary and school programmes, has brought them back into classrooms. In 2017 New South Wales passed the first state law in Australia to recognise Aboriginal languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-wiradhuric-split",
+      "branch_id": "wiradhuric",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "The inland group forms",
+      "description": "Wiradjuri, Gamilaraay and Ngiyampaa diverge on the inland plains of New South Wales. Their place in the southeastern Pama-Nyungan languages is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bowern, Claire & Quentin D. Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bathurst-war",
+      "branch_id": "wiradhuric",
+      "date": "1815 – 1824",
+      "type": "CONTACT",
+      "title": "Across the Blue Mountains",
+      "description": "Colonial settlement spreads onto Wiradjuri land after the Blue Mountains are crossed. Wiradjuri resistance leads to martial law around Bathurst in 1824, followed by dispossession.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nsw-languages-act",
+      "branch_id": "wiradhuric",
+      "date": "1990s – 2017",
+      "type": "REVITALIZATION",
+      "title": "Dictionaries, schools and a languages act",
+      "description": "Community dictionaries and school programmes bring Wiradjuri and Gamilaraay back into use, and the NSW Aboriginal Languages Act 2017 becomes the first Australian law to recognise Aboriginal languages and commit to their revival.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aboriginal Languages Act 2017 (New South Wales).", "url": null },
+        { "citation": "Bowern, Claire, ed. 2023. The Oxford Guide to Australian Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
