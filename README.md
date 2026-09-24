@@ -8,7 +8,7 @@ Five families are covered:
 - **Austronesian**, 7 branches: Proto-Austronesian → Formosan languages, Malayo-Polynesian (→ Malayic, Barito, Oceanic (→ Polynesian)).
 - **Uralic**, 8 branches: Proto-Uralic → Samoyedic, Finnic, Saami, Permic, Ugric (→ Hungarian, Ob-Ugric). The first split is drawn as a fan because the intermediate Finno-Ugric node is disputed.
 - **Turkic**, 7 branches: Proto-Turkic → Oghur, Common Turkic (→ Oghuz, Kipchak, Karluk, Lena Turkic). Of the Siberian Turkic languages only Sakha and Dolgan are drawn, since the grouping of the rest is uncertain.
-- **Semitic** (Afroasiatic), 8 branches: Proto-Semitic → East Semitic †, West Semitic (→ Ethiosemitic, Central Semitic (→ Arabic, Northwest Semitic (→ Aramaic, Canaanite))). The South Arabian languages are left out until their position is clearer.
+- **Semitic** (Afroasiatic), 9 branches: Proto-Semitic → East Semitic †, West Semitic (→ Ethiosemitic, Central Semitic (→ Arabic, Northwest Semitic (→ Aramaic, Canaanite))). The South Arabian languages are left out until their position is clearer.
 
 The **comparative sound-law view** (`/sound-laws/`) lines up every sound law across families on one timeline and in a matrix by kind of change. That completes PRD.md's v2 list.
 
