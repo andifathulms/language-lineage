@@ -1,0 +1,73 @@
+{
+  "id": "thura-yura",
+  "family": "pama-nyungan",
+  "name": "Thura-Yura",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "South Australia: the Adelaide Plains, Yorke and Eyre Peninsulas and the Flinders Ranges",
+  "defining_innovation": "Kaurna, Narungga, Barngarla, Adnyamathanha and their relatives of South Australia, several of which are now being reclaimed from colonial-era records.",
+  "descendants": ["Kaurna", "Narungga", "Barngarla", "Adnyamathanha", "Nukunu"],
+  "chapters": [
+    {
+      "title": "Adelaide's Language",
+      "body": "Kaurna was the language of the Adelaide Plains when South Australia was colonised in 1836. Two German Lutheran missionaries, Christian Teichelmann and **Clamor Schürmann**, learned it and published a grammar and vocabulary in 1840, and they ran a Kaurna-language school for a few years. The colony soon closed the school, and the Kaurna were displaced by settlement and disease. The last known fluent speaker, Ivaritji, died in 1929."
+    },
+    {
+      "title": "Reclaimed from the Records",
+      "body": "From 1990, Kaurna people working with the linguist Rob Amery began to reconstruct the language from Teichelmann and Schürmann's work and other records. Kaurna is now used in songs, speeches of welcome, place names and classes, and new words have been coined for modern life. It is one of the best-known cases of a language revived from written records alone. Barngarla, on the Eyre Peninsula, has followed with its own reclamation based on an 1844 vocabulary."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-thura-yura-split",
+      "branch_id": "thura-yura",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "The South Australian group",
+      "description": "Thura-Yura separates from other Pama-Nyungan groups and spreads around the gulfs of South Australia. Its place within the higher branches of Pama-Nyungan is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bowern, Claire & Quentin D. Atkinson. 2012. Computational phylogenetics and the internal structure of Pama-Nyungan. Language 88(4).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kaurna-grammar",
+      "branch_id": "thura-yura",
+      "date": "1840",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Teichelmann and Schürmann's Kaurna grammar",
+      "description": "Two missionaries publish a grammar, vocabulary and phrasebook of Kaurna, four years after the colony was founded. It later becomes the foundation of the language's revival.",
+      "contested": false,
+      "sources": [
+        { "citation": "Teichelmann, C. G. & C. W. Schürmann. 1840. Outlines of a Grammar, Vocabulary, and Phraseology, of the Aboriginal Language of South Australia. Adelaide.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kaurna-last-speaker",
+      "branch_id": "thura-yura",
+      "date": "1929",
+      "type": "EXTINCTION",
+      "title": "Kaurna falls silent",
+      "description": "Ivaritji, the last known fluent speaker of Kaurna, dies in Adelaide, nearly a century after colonisation.",
+      "contested": false,
+      "sources": [
+        { "citation": "Amery, Rob. 2000. Warrabarna Kaurna! Reclaiming an Australian Language. Lisse: Swets & Zeitlinger.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kaurna-reclamation",
+      "branch_id": "thura-yura",
+      "date": "1990 onward",
+      "type": "REVITALIZATION",
+      "title": "Kaurna reclaimed",
+      "description": "Kaurna people and linguists rebuild the language from the 1840 grammar and other records. It returns to public life in welcomes, songs, place names and classes.",
+      "contested": false,
+      "sources": [
+        { "citation": "Amery, Rob. 2000. Warrabarna Kaurna! Reclaiming an Australian Language. Lisse: Swets & Zeitlinger.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["clamor-schurmann"]
+}

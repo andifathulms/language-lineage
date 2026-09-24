@@ -299,5 +299,12 @@
     "lifespan": "1871–1922",
     "branch_ids": ["arandic"],
     "turning_point_ids": ["tp-hermannsburg"]
+  },
+  {
+    "id": "clamor-schurmann",
+    "name": "Clamor Schürmann",
+    "lifespan": "1815–1893",
+    "branch_ids": ["thura-yura"],
+    "turning_point_ids": ["tp-kaurna-grammar"]
   }
 ]
