@@ -35,5 +35,77 @@
     { "citation": "Lipson, Mark et al. 2018. Ancient genomes document multiple waves of migration in Southeast Asian prehistory. Science 361: 92–95.", "url": null },
     { "citation": "Chaubey, Gyaneshwer et al. 2011. Population genetic structure in Indian Austroasiatic speakers: The role of landscape barriers and sex-specific admixture. Molecular Biology and Evolution 28: 1013–1024.", "url": null },
     { "citation": "Norman, Jerry & Tsu-lin Mei. 1976. The Austroasiatics in ancient South China: Some lexical evidence. Monumenta Serica 32: 274–301.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Read along each row. Vietnamese is tonal and Santali is spoken some 2,000 kilometres to the west, yet the words for 'eye', 'hand' and the low numerals line up. Look at 'three' and 'four': the old `*p` stays *p* in Mon and Santali but has become the implosive `ɓ` in Khmer and Vietnamese, where it is written *b*. Gaps are informative too. Khmer replaced the old word for 'eye' (its *mat* now means 'mouth'), and Khasi replaced 'three' and 'four'. Mon and Khmer are given in phonemic transcription, Santali in Bodding's romanisation, and Khasi and Vietnamese in standard spelling.",
+    "proto_label": "Proto-Austroasiatic",
+    "languages": [
+      { "name": "Vietnamese", "branch_id": "vietic" },
+      { "name": "Khmer", "branch_id": "khmeric" },
+      { "name": "Mon", "branch_id": "monic" },
+      { "name": "Khasi", "branch_id": "khasian" },
+      { "name": "Santali", "branch_id": "munda" }
+    ],
+    "rows": [
+      {
+        "gloss": "one",
+        "proto": "muəjˀ",
+        "forms": ["một", "muəj", "mòa", "wei", "mit'"]
+      },
+      {
+        "gloss": "two",
+        "proto": "ɓaːr",
+        "forms": ["hai", "piː", "ɓa", "ar", "bar"]
+      },
+      {
+        "gloss": "three",
+        "proto": "peːˀ",
+        "forms": ["ba", "ɓəj", "pɔeʔ", null, "pe"]
+      },
+      {
+        "gloss": "four",
+        "proto": "puənˀ",
+        "forms": ["bốn", "ɓuən", "pɔn", null, "pon"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "matˀ",
+        "forms": ["mắt", null, "mòt", "khmat", "met'"]
+      },
+      {
+        "gloss": "hand",
+        "proto": "tiːˀ",
+        "forms": ["tay", "ɗaj", "toa", "kti", "ti"]
+      },
+      {
+        "gloss": "bone",
+        "proto": "cʔaːŋ",
+        "forms": ["xương", "cʰʔəŋ", null, "shyieng", "jaŋ"]
+      },
+      {
+        "gloss": "water",
+        "proto": "ɗaːkˀ",
+        "forms": ["nước", "tɨk", "ɗaik", null, "dak'"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*p",
+        "reflexes": ["b [ɓ]", "ɓ", "p", null, "p"],
+        "rows": [2, 3]
+      },
+      {
+        "label": "*m",
+        "reflexes": ["m", "m", "m", null, "m"],
+        "rows": [0, 4]
+      }
+    ],
+    "sources": [
+      { "citation": "Sidwell, Paul. 2024. 500 Proto Austroasiatic etyma: Version 1.0. Journal of the Southeast Asian Linguistics Society 17(1).", "url": null },
+      { "citation": "Sidwell, Paul & Felix Rau. 2015. Austroasiatic comparative-historical reconstruction: An overview. In The Handbook of Austroasiatic Languages, ed. Mathias Jenny & Paul Sidwell. Leiden: Brill.", "url": null },
+      { "citation": "Shorto, Harry L. 2006. A Mon-Khmer Comparative Dictionary, ed. Paul Sidwell, Doug Cooper & Christian Bauer. Canberra: Pacific Linguistics.", "url": null },
+      { "citation": "Shorto, H. L. 1962. A Dictionary of Modern Spoken Mon. London: Oxford University Press.", "url": null },
+      { "citation": "Bodding, P. O. 1929–1936. A Santal Dictionary. 5 vols. Oslo: Det Norske Videnskaps-Akademi.", "url": null }
+    ]
+  }
 }
