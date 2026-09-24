@@ -1,0 +1,13 @@
+{
+  "slug": "japonic",
+  "name": "Japonic",
+  "superfamily": null,
+  "summary": "Japanese and its relatives: the Ryukyuan languages of Okinawa and the southern islands, and Hachijō on a small island south of Tokyo. Japanese has a written record from the 8th century and some 125 million speakers. The Ryukyuan languages, which the Japanese state long called dialects, are separate languages that split from Japanese before its earliest texts, and all of them are now endangered.",
+  "root_branch_id": "proto-japonic",
+  "buried_root": { "name": "No proven deeper root", "note": "Koreanic? Transeurasian? · disputed", "proven": false },
+  "accent": { "light": "182 36 22", "dark": "246 128 108" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Japonic (japo1237).", "url": "https://glottolog.org/resource/languoid/id/japo1237" },
+    { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
