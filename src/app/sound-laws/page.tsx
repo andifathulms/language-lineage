@@ -77,8 +77,8 @@ export default function SoundLawsPage() {
         </nav>
         <h1 className="mt-4 text-[clamp(2.2rem,5vw,3.6rem)] font-semibold leading-tight">Comparing sound laws</h1>
         <p className="mt-4 max-w-reading text-lg leading-relaxed text-bark-soft">
-          Every sound law recorded here, from {families.length} unrelated families, lined up by kind and placed on one
-          clock. Languages that have never been in contact keep making the same kinds of change: consonants lost at the
+          Every sound law recorded here, from {families.length} families with no proven relationship to each other,
+          lined up by kind and placed on one clock. Languages that have never been in contact keep making the same kinds of change: consonants lost at the
           ends of words, stops moving in chains, contrasts merging.
         </p>
       </header>
@@ -98,8 +98,8 @@ export default function SoundLawsPage() {
         </h2>
         <p className="mt-2 max-w-reading text-bark-soft">
           Rows marked <span className="font-label text-[0.7rem] uppercase tracking-[0.12em] text-bark">parallel</span>{" "}
-          have examples in more than one family. The similarity is one of kind, not of ancestry. These families are not
-          known to be related.
+          have examples in more than one family. The similarity is one of kind, not of ancestry. No relationship between
+          these families has been proven (see the Indo-Uralic and Nostratic debates).
         </p>
 
         <div
