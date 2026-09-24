@@ -11,6 +11,10 @@
     {
       "title": "Origins",
       "body": "Koreanic is reconstructed mainly from Middle Korean, the language of the 15th- and 16th-century texts written in Hangul, and from the modern dialects and Jeju. Older stages are known only through Chinese characters, which record sound poorly. Where the family began is unclear. Many scholars think Koreanic spread southward through the peninsula from the north during the first millennium BCE, perhaps replacing Japonic languages spoken there before.\n\nThe three kingdoms of the early centuries CE, Goguryeo, Baekje and Silla, may not all have spoken Koreanic. Only Silla's language, which became the basis of later Korean after Silla unified the peninsula in 668, is securely Koreanic. The place names of the former Goguryeo territory are disputed: some read them as Koreanic, others as Japonic."
+    },
+    {
+      "title": "Reconstructing from Two Witnesses",
+      "body": "With only two living languages, one of them recently split off, the comparative method can take Koreanic back only a short way. Earlier stages have to be pieced together from other kinds of evidence.\n\nThe most important is Middle Korean itself. The Hangul texts of the 15th and 16th centuries record pitch, consonant clusters and two consonants since lost, `z` (ㅿ) and `β` (ㅸ), and irregular alternations in them point further back. A noun such as `namo` 'tree' appears as `namk-` before a vowel, suggesting an older final consonant. Many nouns end in an `h` that surfaces only before particles.\n\nThe modern dialects add more. Where Seoul has lost the Middle Korean `z`, southeastern dialects and Jeju often have *s*: Middle Korean `kʌzʌl` 'autumn' is Seoul `kaɨl` but Jeju `kɒsɨl`. This suggests that `z` itself came from an earlier `*s`.\n\nFor the period before Hangul, scholars rely on Chinese-character sources: the Silla *hyangga* poems, place names in the *Samguk sagi*, the *Gyerim yusa*, a Chinese envoy's list of several hundred Goryeo words from the early 12th century, and native plant names in the 13th-century medical book *Hyangyak gugeupbang*. Each gives Korean words filtered through Chinese readings, so every interpretation depends on how Chinese was pronounced at the time."
     }
   ],
   "turning_points": [
@@ -43,5 +47,14 @@
       ]
     }
   ],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 80 million",
+    "vitality": "mixed",
+    "note": "Almost all are Korean speakers; Jeju has at most a few thousand, most of them elderly.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  }
 }

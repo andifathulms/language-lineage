@@ -69,5 +69,28 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 5,000–10,000",
+    "vitality": "critically_endangered",
+    "note": "UNESCO's estimate; Yang, O'Grady and Yang think fluent speakers number far fewer than 1,000, all of them elderly.",
+    "sources": [
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Yang, Changyong, William O'Grady & Sejung Yang. 2017. Toward a linguistically realistic assessment of language vitality: The case of Jejueo. Language Documentation & Conservation 11.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "KOR", "name": "South Korea", "speakers": "c. 5,000–10,000" }
+  ],
+  "sample": {
+    "language": "Jeju",
+    "text": "혼저 옵서예",
+    "transliteration": "honjeo opseoye",
+    "gloss": "quickly come.HON.IMP-POL",
+    "translation": "Welcome (literally 'Come quickly')",
+    "sources": [
+      { "citation": "Jeju Special Self-Governing Province. 2009. Gaejeong jeungbo Jejueo sajeon [Revised and enlarged Jejueo dictionary]. Jeju.", "url": null }
+    ]
+  }
 }

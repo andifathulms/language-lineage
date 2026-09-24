@@ -127,5 +127,30 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": ["sejong"]
+  "figure_ids": ["sejong"],
+  "speakers": {
+    "estimate": "c. 80 million",
+    "vitality": "safe",
+    "note": "The national language of both North and South Korea.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "KOR", "name": "South Korea", "speakers": "c. 51 million" },
+    { "iso": "PRK", "name": "North Korea", "speakers": "c. 26 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 1–2 million" },
+    { "iso": "USA", "name": "United States", "speakers": "c. 1 million" }
+  ],
+  "sample": {
+    "language": "Korean",
+    "text": "안녕하세요",
+    "transliteration": "annyeonghaseyo",
+    "ipa": "[an.ɲʌŋ.ɦa.se.jo]",
+    "gloss": "peace-do-HON-POL",
+    "translation": "Hello (literally 'Are you at peace?')",
+    "sources": [
+      { "citation": "Sohn, Ho-min. 1999. The Korean Language. Cambridge: Cambridge University Press.", "url": null }
+    ]
+  }
 }
