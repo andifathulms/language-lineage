@@ -1,0 +1,73 @@
+{
+  "id": "jeju",
+  "family": "koreanic",
+  "name": "Jeju",
+  "parent_ids": ["proto-koreanic"],
+  "successor_ids": [],
+  "era": "c. 13th century CE – present",
+  "region": "Jeju Island, off the southern coast of Korea",
+  "defining_innovation": "The language of Jeju Island, largely unintelligible to mainland Korean speakers. It keeps the Middle Korean vowel ㆍ (arae-a) that the mainland lost, and has words from the island's century of Mongol rule.",
+  "descendants": ["Jeju"],
+  "chapters": [
+    {
+      "title": "An Island Language",
+      "body": "Jeju, called *Jejueo* by its speakers, developed on Jeju Island after it came under Korean rule in the 12th century. The Yuan Mongols ruled the island from 1273 to 1374 and raised horses there, and Jeju still has Mongolic loanwords, especially for horses and their colours. It keeps the old vowel ㆍ (*arae-a*), which mainland Korean lost by the 18th century, and it differs so much in vocabulary and grammar that mainland speakers struggle to understand it. Many linguists therefore treat it as a separate language."
+    },
+    {
+      "title": "4.3 and After",
+      "body": "In the Jeju uprising and its suppression (1948–1954), known as '4.3', government forces and right-wing groups killed tens of thousands of islanders, perhaps one in ten of the population. For decades the event could not be discussed. Together with schooling and media in standard Korean, the trauma left few young speakers. In 2010 UNESCO listed Jeju as critically endangered. Since the 2000s the provincial government and community groups have supported teaching and documentation."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-jeju-split",
+      "branch_id": "jeju",
+      "date": "c. 13th – 15th century CE",
+      "type": "SPLIT",
+      "title": "The island diverges",
+      "description": "Jeju's speech develops separately from mainland Korean after the island is incorporated into Goryeo. When it should be counted as a separate language is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Yang, Changyong, William O'Grady & Sejung Yang. 2017. Toward a linguistically realistic assessment of language vitality: The case of Jejueo. Language Documentation & Conservation 11.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mongol-jeju",
+      "branch_id": "jeju",
+      "date": "1273 – 1374",
+      "type": "CONTACT",
+      "title": "Mongol horse ranches",
+      "description": "Under Yuan rule the island becomes a horse-breeding station, and Jeju takes Mongolic vocabulary for horses and their colours.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-jeju-43",
+      "branch_id": "jeju",
+      "date": "1948 – 1954",
+      "type": "CONTACT",
+      "title": "The 4.3 massacres",
+      "description": "The suppression of the Jeju uprising kills tens of thousands of islanders. Its aftermath and decades of silence contribute to the decline of the language across generations.",
+      "contested": false,
+      "sources": [
+        { "citation": "National Committee for Investigation of the Truth about the Jeju April Third Incident. 2003. The Jeju 4.3 Incident Investigation Report. Jeju.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-jeju-endangered",
+      "branch_id": "jeju",
+      "date": "2007 – 2010",
+      "type": "REVITALIZATION",
+      "title": "Protection and recognition",
+      "description": "Jeju Province passes an ordinance to preserve the language (2007), and UNESCO lists it as critically endangered (2010). Documentation, teaching and media programmes follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "Yang, Changyong, William O'Grady & Sejung Yang. 2017. Toward a linguistically realistic assessment of language vitality: The case of Jejueo. Language Documentation & Conservation 11.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
