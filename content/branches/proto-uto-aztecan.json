@@ -1,0 +1,51 @@
+{
+  "id": "proto-uto-aztecan",
+  "family": "uto-aztecan",
+  "name": "Proto-Uto-Aztecan",
+  "parent_ids": [],
+  "successor_ids": ["northern-uto-aztecan", "southern-uto-aztecan"],
+  "era": "c. 3000 – 2000 BCE (reconstructed; dating debated)",
+  "region": "Disputed: the Great Basin and Southwest, or northwestern and central Mexico",
+  "defining_innovation": "The reconstructed ancestor of about thirty languages from Oregon to El Salvador, with a well-documented set of sound correspondences: Proto-Uto-Aztecan *pa 'water' survives in Hopi paa-, and, with its p lost, in Nahuatl ā-tl.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Uto-Aztecan was one of the first families of the Americas to be established by the comparative method. In the early 20th century Edward Sapir showed that its sound correspondences are as regular as those of Indo-European. It spans an enormous range, from the Shoshone of Idaho to the Pipil of El Salvador, and from desert foragers to the builders of the Aztec empire.\n\nThat range lies behind the central debate about its homeland. The traditional view places Proto-Uto-Aztecan among foragers in the Great Basin or the American Southwest, with the southern languages later moving into Mexico. Jane Hill argued the reverse: Proto-Uto-Aztecan speakers were early maize farmers in Mexico, and their languages spread north together with maize agriculture. Genetic and archaeological studies of how maize reached the Southwest have been cited on both sides."
+    },
+    {
+      "title": "North and South",
+      "body": "Most classifications divide the family into a **Northern** group (Numic, Hopi, Takic and Tübatulabal, all in the United States) and a **Southern** group (Tepiman, Taracahitan, Corachol and Aztecan, mostly in Mexico). The Southern group is widely accepted. The Northern one is more contested, because its members may simply be neighbours that stayed behind. Tübatulabal and the Corachol languages (Cora, Huichol) are not yet drawn here."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pua-homeland",
+      "branch_id": "proto-uto-aztecan",
+      "date": "c. 3000 – 2000 BCE",
+      "type": "SPLIT",
+      "title": "Foragers or farmers?",
+      "description": "Proto-Uto-Aztecan begins to break up. Whether it did so among foragers in the north or among maize farmers in Mexico, and whether the family spread north with maize, is one of the main debates in American historical linguistics.",
+      "contested": true,
+      "sources": [
+        { "citation": "Hill, Jane H. 2001. Proto-Uto-Aztecan: A community of cultivators in central Mexico? American Anthropologist 103(4).", "url": null },
+        { "citation": "Merrill, William L., et al. 2009. The diffusion of maize to the southwestern United States and its impact. Proceedings of the National Academy of Sciences 106(50).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-aztec-tanoan",
+      "branch_id": "proto-uto-aztecan",
+      "proposed_grouping": "Aztec-Tanoan: Uto-Aztecan is related to the Kiowa-Tanoan languages of the Pueblos and the southern Plains",
+      "status": "minority_position",
+      "evidence_for": "Benjamin Lee Whorf and George Trager (1937) proposed sound correspondences between Uto-Aztecan and Kiowa-Tanoan, and Edward Sapir included both in a larger 'Aztec-Tanoan' stock in his sweeping classification of North American languages.",
+      "evidence_against": "The proposed correspondences rest on a small set of words, some of which may be borrowings between neighbours in the Southwest. Campbell and others consider the relationship not demonstrated. Uto-Aztecan is normally treated as a family with no proven relatives.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Whorf, Benjamin Lee & George L. Trager. 1937. The relationship of Uto-Aztecan and Tanoan. American Anthropologist 39(4).", "url": null },
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
