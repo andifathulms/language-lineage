@@ -1,0 +1,59 @@
+{
+  "id": "quechua-ii",
+  "family": "quechuan",
+  "name": "Quechua II",
+  "parent_ids": ["proto-quechua"],
+  "successor_ids": ["northern-peruvian-quechua", "kichwa", "southern-quechua"],
+  "era": "c. 1st millennium CE – present",
+  "region": "From southern Colombia and Ecuador through northern and southern Peru to Bolivia and northwest Argentina",
+  "defining_innovation": "The peripheral branch that spread north and south from central Peru. One of its southern varieties became the common language of the Inca empire and then the missionary 'general language'.",
+  "chapters": [
+    {
+      "title": "An Imperial Language",
+      "body": "Quechua II surrounds Central Quechua on both sides. Torero divided it into II-A in the northern Peruvian highlands, II-B in Ecuador, Colombia and the Peruvian Amazon, and II-C in southern Peru, Bolivia and Argentina. Its spread was partly the work of trade along the coast before the Inca, and partly of the Inca themselves, who used a southern variety across their empire in the 15th century. After the conquest, the Spanish kept that role going: missionaries preached, wrote and printed in a standardised *lengua general*.\n\nThe first grammar of the language, published in 1560 by the Dominican **Domingo de Santo Tomás**, describes a coastal Quechua II variety."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-inca-lingua-franca",
+      "branch_id": "quechua-ii",
+      "date": "15th century CE",
+      "type": "CONTACT",
+      "title": "The language of Tawantinsuyu",
+      "description": "The expanding Inca state uses a Quechua II variety as its language of administration across the empire, carrying it to Ecuador, Bolivia and Argentina. What the Inca court spoke originally, perhaps Aymara or Puquina, is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Cerrón-Palomino, Rodolfo. 2013. Las lenguas de los incas: el puquina, el aimara y el quechua. Frankfurt am Main: Peter Lang.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-santo-tomas-grammar",
+      "branch_id": "quechua-ii",
+      "date": "1560",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The first Quechua grammar",
+      "description": "Domingo de Santo Tomás publishes in Valladolid the *Grammatica o arte de la lengua general de los indios de los reynos del Peru* and a dictionary, writing Quechua in the Latin alphabet for missionary use.",
+      "contested": false,
+      "sources": [
+        { "citation": "Santo Tomás, Domingo de. 1560. Grammatica o arte de la lengua general de los indios de los reynos del Peru. Valladolid: Francisco Fernández de Córdova.", "url": null },
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-quechua-ii-subgroups",
+      "branch_id": "quechua-ii",
+      "proposed_grouping": "Torero's II-A / II-B / II-C: three clean subgroups of Quechua II",
+      "status": "widely_accepted",
+      "evidence_for": "The division fits the main isoglosses and is the standard reference classification, used in most descriptions and in Glottolog's broad outline.",
+      "evidence_against": "Quechua forms a dialect continuum, and transitional varieties such as Pacaraos and those of Yauyos do not fit neatly. II-A in particular may be a geographical collection rather than a true subgroup, and the close ties of II-B and II-C may reflect the Inca and colonial spread rather than descent.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["domingo-de-santo-tomas"]
+}

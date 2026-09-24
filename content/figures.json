@@ -392,6 +392,13 @@
     "turning_point_ids": ["tp-tai-tone-split"]
   },
   {
+    "id": "domingo-de-santo-tomas",
+    "name": "Domingo de Santo Tomás",
+    "lifespan": "1499–1570",
+    "branch_ids": ["quechua-ii"],
+    "turning_point_ids": ["tp-santo-tomas-grammar"]
+  },
+  {
     "id": "alfredo-torero",
     "name": "Alfredo Torero",
     "lifespan": "1930–2004",
