@@ -1,0 +1,57 @@
+{
+  "id": "athabaskan",
+  "family": "na-dene",
+  "name": "Athabaskan",
+  "parent_ids": ["athabaskan-eyak"],
+  "successor_ids": ["northern-athabaskan", "pacific-coast-athabaskan", "apachean"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Interior Alaska and northwestern Canada, the Pacific coast of Oregon and California, and the American Southwest",
+  "defining_innovation": "The large branch named after Lake Athabasca, in Cree. Its languages are spread over three separate regions thousands of kilometres apart, and their tones developed from the glottalised consonants at the end of word stems.",
+  "descendants": ["Navajo", "Dene Sųłiné", "Gwich'in", "Koyukon", "Hupa", "Western Apache"],
+  "chapters": [
+    {
+      "title": "North, West and South",
+      "body": "Proto-Athabaskan was probably spoken in interior Alaska or the Yukon, perhaps two thousand years ago. Most of its descendants remain in the north, in a long chain of closely related languages from Cook Inlet to Hudson Bay. Others travelled far south: one group to the coast of Oregon and California, another through the Plains to the Southwest, where the Navajo and Apache arrived only a few centuries before the Spanish. Because the Northern languages form a continuum, only the southern groups are clear subgroups.\n\nOne proposed trigger for the southward movement is the eruption of Mount Churchill around 850 CE, which spread the White River Ash across the southern Yukon, though this is debated."
+    },
+    {
+      "title": "Tone from Glottalisation",
+      "body": "Proto-Athabaskan had no tone. Instead, some word stems ended in a glottal 'constriction'. In many daughter languages this constriction became a tone, but not the same one everywhere: in some, such as Navajo and Dene Sųłiné, constricted syllables became high, while in others, such as Gwich'in, the same syllables became low. Krauss called the pattern 'tone reversal'. Some languages, such as Koyukon, never developed tone."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-athabaskan-tonogenesis",
+      "branch_id": "athabaskan",
+      "date": "After the Proto-Athabaskan breakup",
+      "type": "SOUND_LAW",
+      "title": "Tone from constriction",
+      "description": "Stem-final glottal constriction turns into tone in many Athabaskan languages, high in some, such as Navajo, and low in others, such as Gwich'in. This 'tone reversal' was worked out by Krauss. Why the two outcomes differ is still debated.",
+      "contested": true,
+      "process": "prosody",
+      "notation": "V + constriction → V́ (high: Navajo) or V̀ (low: Gwich'in); Koyukon keeps no tone",
+      "sort_year": 500,
+      "sources": [
+        { "citation": "Krauss, Michael E. 2005. Athabaskan tone. In Athabaskan Prosody, ed. Sharon Hargus & Keren Rice. Amsterdam: John Benjamins.", "url": null },
+        { "citation": "Kingston, John. 2005. The phonetics of Athabaskan tonogenesis. In Athabaskan Prosody, ed. Sharon Hargus & Keren Rice. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-athabaskan-dispersal",
+      "branch_id": "athabaskan",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "The southern migrations",
+      "description": "Athabaskan groups leave the north, one for the Pacific coast and another eventually for the Southwest. A link with the Mount Churchill eruption and the White River Ash, around 850 CE, has been suggested but is debated.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Workman, William B. 1979. The significance of volcanism in the prehistory of subarctic northwest North America. In Volcanic Activity and Human Ecology, ed. Payson D. Sheets & Donald K. Grayson. New York: Academic Press.",
+          "url": null
+        },
+        { "citation": "Krauss, Michael E. & Victor K. Golla. 1981. Northern Athapaskan languages. In Handbook of North American Indians, vol. 6: Subarctic, ed. June Helm. Washington: Smithsonian Institution.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["michael-krauss"]
+}
