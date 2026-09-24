@@ -1,0 +1,61 @@
+{
+  "id": "cheyenne",
+  "family": "algonquian",
+  "name": "Cheyenne",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Formerly Minnesota and the Great Plains; today southeastern Montana and western Oklahoma",
+  "defining_innovation": "A single Plains language, Tsėhésenėstsestȯtse, whose speakers moved from the woodlands of Minnesota onto the Plains in the 18th century.",
+  "descendants": ["Cheyenne"],
+  "chapters": [
+    {
+      "title": "From Woodland to Plains",
+      "body": "The Cheyenne lived as farmers in the woodlands of Minnesota before moving west onto the Plains in the 18th century, where they took up horses and buffalo hunting and allied with the Arapaho. Their language changed Proto-Algonquian sounds so much that it has only a small consonant inventory and a tonal accent."
+    },
+    {
+      "title": "Sand Creek and After",
+      "body": "In November 1864 Colorado militia attacked a peaceful Cheyenne and Arapaho camp at Sand Creek and killed some 200 people, most of them women, children and old people. The Plains wars that followed ended with the Cheyenne divided between the Northern Cheyenne reservation in Montana (1884) and western Oklahoma. Chief Dull Knife College on the Northern Cheyenne reservation now teaches the language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-cheyenne-west",
+      "branch_id": "cheyenne",
+      "date": "18th century",
+      "type": "SPLIT",
+      "title": "Onto the Plains",
+      "description": "Cheyenne-speaking farmers leave Minnesota for the Plains, becoming horse nomads allied with the Arapaho. The language's earlier history is poorly known.",
+      "contested": true,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sand-creek",
+      "branch_id": "cheyenne",
+      "date": "1864",
+      "type": "CONTACT",
+      "title": "Sand Creek",
+      "description": "Colorado volunteers massacre about 200 Cheyenne and Arapaho, mostly women, children and elders, at Sand Creek. It is a turning point in the Plains wars that lead to reservation life.",
+      "contested": false,
+      "sources": [
+        { "citation": "Greene, Jerome A. & Douglas D. Scott. 2004. Finding Sand Creek: History, Archeology, and the 1864 Massacre Site. Norman: University of Oklahoma Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-northern-cheyenne-reservation",
+      "branch_id": "cheyenne",
+      "date": "1884",
+      "type": "CONTACT",
+      "title": "The Northern Cheyenne reservation",
+      "description": "The Northern Cheyenne secure a reservation in Montana after their 1878–79 flight from Indian Territory. English-only boarding schools follow, and the language declines through the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
