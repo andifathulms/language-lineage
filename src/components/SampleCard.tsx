@@ -10,7 +10,7 @@ export function SampleCard({ sample }: { sample: Sample }) {
     <figure className="plate relative overflow-hidden px-5 py-6 sm:px-8 sm:py-8">
       <span aria-hidden="true" className="absolute inset-y-0 left-0 w-1 bg-accent/70" />
       <p className="meta">{sample.language}</p>
-      <blockquote className="mt-3 font-display text-[clamp(1.5rem,3.5vw,2.1rem)] font-semibold leading-snug">
+      <blockquote dir="auto" className="mt-3 font-display text-[clamp(1.5rem,3.5vw,2.1rem)] font-semibold leading-snug">
         {sample.text}
       </blockquote>
       {sample.ipa && <p className="mt-2 font-ipa text-[1.05rem] text-bark-soft">[{sample.ipa.replace(/^\[|\]$/g, "")}]</p>}
