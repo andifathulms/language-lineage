@@ -34,5 +34,91 @@
     { "citation": "Parker, Gary J. 1963. La clasificación genética de los dialectos quechuas. Revista del Museo Nacional 32.", "url": null },
     { "citation": "Cerrón-Palomino, Rodolfo. 1987. Lingüística quechua. Cusco: Centro de Estudios Rurales Andinos Bartolomé de las Casas.", "url": null },
     { "citation": "Heggarty, Paul & David Beresford-Jones (eds.). 2012. Archaeology and Language in the Andes. Oxford: Oxford University Press for the British Academy.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The four columns come from the three main Quechua branches: Ancash for Central Quechua, Ecuadorian Kichwa for the north, and two southern varieties, Ayacucho and Cusco, to show how close they are. Much of the basic vocabulary is identical everywhere, which reflects the family's shallow age. The differences are regular. Where Proto-Quechua had a uvular `*q`, Kichwa has plain *k*. The old `*š` survives as *sh* in the centre and north but has become *s* in the south. Cusco also adds aspiration unpredictably, as in *phuyu* 'cloud', a trait it shares with neighbouring Aymara.",
+    "proto_label": "Proto-Quechua",
+    "languages": [
+      { "name": "Ancash", "branch_id": "quechua-i" },
+      { "name": "Ecuadorian Kichwa", "branch_id": "kichwa" },
+      { "name": "Ayacucho", "branch_id": "southern-quechua" },
+      { "name": "Cusco", "branch_id": "southern-quechua" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "yaku",
+        "forms": ["yaku", "yaku", "yaku", "yaku"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "ñawi",
+        "forms": ["ñawi", "ñawi", "ñawi", "ñawi"]
+      },
+      {
+        "gloss": "hand",
+        "proto": "maki",
+        "forms": ["maki", "maki", "maki", "maki"]
+      },
+      {
+        "gloss": "stone",
+        "proto": "rumi",
+        "forms": ["rumi", "rumi", "rumi", "rumi"]
+      },
+      {
+        "gloss": "heart",
+        "proto": "šunqu",
+        "forms": ["shunqu", "shunku", "sunqu", "sunqu"]
+      },
+      {
+        "gloss": "mouth",
+        "proto": "šimi",
+        "forms": ["shimi", "shimi", "simi", "simi"]
+      },
+      {
+        "gloss": "lake",
+        "proto": "qucha",
+        "forms": ["qucha", "kucha", "qucha", "qucha"]
+      },
+      {
+        "gloss": "you (sg.)",
+        "proto": "qam",
+        "forms": ["qam", "kan", "qam", "qan"]
+      },
+      {
+        "gloss": "house",
+        "proto": "wasi",
+        "forms": ["wasi", "wasi", "wasi", "wasi"]
+      },
+      {
+        "gloss": "cloud",
+        "proto": "puyu",
+        "forms": ["puyu", "puyu", "puyu", "phuyu"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*q",
+        "reflexes": ["q", "k", "q", "q"],
+        "rows": [6, 7]
+      },
+      {
+        "label": "*š",
+        "reflexes": ["sh", "sh", "s", "s"],
+        "rows": [4, 5]
+      },
+      {
+        "label": "*-m (word-final)",
+        "reflexes": ["m", "n", "m", "n"],
+        "rows": [7]
+      }
+    ],
+    "sources": [
+      { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null },
+      { "citation": "Cerrón-Palomino, Rodolfo. 1987. Lingüística quechua. Cusco: Centro de Estudios Rurales Andinos Bartolomé de las Casas.", "url": null },
+      { "citation": "Parker, Gary J. & Amancio Chávez. 1976. Diccionario quechua Ancash-Huailas. Lima: Ministerio de Educación / Instituto de Estudios Peruanos.", "url": null },
+      { "citation": "Soto Ruiz, Clodoaldo. 1976. Diccionario quechua Ayacucho-Chanca. Lima: Ministerio de Educación / Instituto de Estudios Peruanos.", "url": null },
+      { "citation": "Academia Mayor de la Lengua Quechua. 1995. Diccionario quechua–español–quechua. Cusco: Municipalidad del Qosqo.", "url": null }
+    ]
+  }
 }
