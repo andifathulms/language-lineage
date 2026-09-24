@@ -1,0 +1,62 @@
+{
+  "id": "west-semitic",
+  "family": "semitic",
+  "name": "West Semitic",
+  "parent_ids": ["proto-semitic"],
+  "successor_ids": ["ethiosemitic", "central-semitic"],
+  "era": "c. 3rd millennium BCE – present",
+  "region": "The Levant and the Arabian Peninsula, later the Horn of Africa",
+  "defining_innovation": "The suffix conjugation (qatal-) became a past tense. Arabic kataba and Hebrew kātav mean 'he wrote', while Akkadian uses the matching form as a stative describing a state.",
+  "descendants": ["Arabic", "Hebrew", "Aramaic", "Amharic", "Tigrinya"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "West Semitic takes in every Semitic language except Akkadian and Eblaite. It is defined mainly by a change in the verb: the suffixed form that Akkadian used for states ('he is seated') became a general past tense, which is why *kataba* in Arabic and *kātav* in Hebrew mean 'he wrote'. The branch divides into Central Semitic (Arabic, Aramaic, Hebrew and their relatives) and the Semitic languages of the Horn of Africa and southern Arabia.\n\nMany of its speakers were herders and traders on the desert edge, and it is among them that writing took its most consequential step."
+    },
+    {
+      "title": "The First Alphabet",
+      "body": "Around 1900–1800 BCE, Semitic-speaking workers in Egypt and Sinai adapted a small set of Egyptian hieroglyphs to write their own language. Each sign stood for the first consonant of its Semitic name: a picture of an ox head (`ʾalp`) for *ʾ*, a house (`bayt`) for *b*. The earliest examples, from Wadi el-Hol in Egypt and Serabit el-Khadim in Sinai, are short and hard to read, but the principle, one sign for one consonant, spread. Through Phoenician it became the ancestor of the Greek, Latin, Hebrew and Arabic scripts. The South Arabian branch of the same invention produced the Ge'ez script of Ethiopia."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-west-semitic-split",
+      "branch_id": "west-semitic",
+      "date": "c. 3rd millennium BCE",
+      "type": "SPLIT",
+      "title": "West Semitic divides",
+      "description": "West Semitic separates into Central Semitic and the southern languages of Arabia and the Horn of Africa. The internal structure of the southern group is uncertain, and the date is approximate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-first-alphabet",
+      "branch_id": "west-semitic",
+      "date": "c. 1900 – 1700 BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The first alphabet",
+      "description": "Semitic speakers in Egypt and Sinai use hieroglyph shapes for the first consonant of their Semitic names (ox head `ʾalp` → *ʾ*). The Wadi el-Hol and Serabit el-Khadim inscriptions are the earliest known alphabetic writing. Their exact date and readings are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Darnell, John Coleman, et al. 2005. Two early alphabetic inscriptions from the Wadi el-Ḥôl. Annual of the American Schools of Oriental Research 59.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-south-semitic",
+      "branch_id": "west-semitic",
+      "proposed_grouping": "South Semitic: Ethiosemitic, Modern South Arabian and Old South Arabian share an ancestor within West Semitic",
+      "status": "widely_accepted",
+      "evidence_for": "These languages keep the old imperfective pattern (Ge'ez *yəqättəl*) that Central Semitic replaced, share some vocabulary, and are neighbours across the Red Sea. Most handbooks group them together.",
+      "evidence_against": "Keeping an old form is not a shared innovation, and Huehnergard and Rubin find few changes that only these languages share. Old South Arabian may be closer to Central Semitic. For this reason the tree draws Ethiosemitic directly from West Semitic and leaves the South Arabian languages out until their position is clearer.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
