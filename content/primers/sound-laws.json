@@ -1,0 +1,30 @@
+{
+  "slug": "sound-laws",
+  "order": 2,
+  "title": "What a sound law is",
+  "summary": "Why sound change is regular, how the exceptions are explained, and how to read the notation on this site.",
+  "chapters": [
+    {
+      "title": "Regular, Not Random",
+      "body": "In 1878 a group of young German scholars, the *Junggrammatiker* or Neogrammarians, argued that sound change operates without exceptions: when a sound changes in a given position, it changes in every word where that position occurs, across the whole speech community. A change of this kind is called a **sound law**.\n\nThe claim sounds too strong, and in a sense it is an idealisation. But it proved enormously productive. It made historical linguistics testable: a proposed change that works in some words and not in others is not yet understood. Grimm's law, which turned Indo-European `*p *t *k` into Germanic *f þ h* (Latin *pater*, *trēs*, *centum* : English *father*, *three*, *hundred*), is the classic example on the **Germanic** tree."
+    },
+    {
+      "title": "Conditions and Chains",
+      "body": "Most sound laws are conditioned. They apply only in a certain environment: at the start of a word, between vowels, before a stressed syllable, next to a particular vowel. The notation used on this site states the change and, where needed, the condition after a slash: `k → tʃ / _ i` means *k* becomes *ch* before *i*.\n\nChanges also follow one another in time, and their order matters. If *s* becomes *h* and later *h* disappears, a word can lose a sound it never had at the start. Working out the order, the **relative chronology**, is one of the main ways of dating changes relative to each other. Sometimes changes form a **chain**, as in Grimm's law, where one series of consonants moves into the slot vacated by another, keeping the old distinctions intact."
+    },
+    {
+      "title": "The Apparent Exceptions",
+      "body": "Exceptions are where the interesting discoveries happen. Grimm's law left a set of words where Germanic has *d* or *g* instead of the expected *þ* or *h*. In 1875 Karl Verner showed that these were regular too: they depended on where the accent fell in the ancestral word, as Sanskrit still shows. **Verner's law** turned a list of exceptions into a second sound law.\n\nOther exceptions have other explanations. **Analogy** reshapes words to fit a pattern, as English *cows* replaced older *kine*. **Borrowing** brings in words that never went through the change, which is why English has both native *father* and Latin-derived *paternal*. And some words, especially very frequent ones, erode irregularly. The comparative method only works because such exceptions can usually be explained."
+    },
+    {
+      "title": "Comparing Across Families",
+      "body": "The same kinds of change turn up again and again in unrelated families: voiceless stops become fricatives, consonants weaken between vowels, final sounds are lost, tones arise from lost consonants. The **Sound laws** view on this site lines up every sound law in the collection on a single timeline and sorts them by kind of change. The dates are rough midpoints, often uncertain by centuries, and they are there to allow comparison, not as precise chronology."
+    }
+  ],
+  "sources": [
+    { "citation": "Campbell, Lyle. 2013. Historical Linguistics: An Introduction, 3rd ed. Edinburgh: Edinburgh University Press.", "url": null },
+    { "citation": "Verner, Karl. 1877. Eine Ausnahme der ersten Lautverschiebung. Zeitschrift für vergleichende Sprachforschung 23: 97–130.", "url": null },
+    { "citation": "Osthoff, Hermann & Karl Brugmann. 1878. Morphologische Untersuchungen auf dem Gebiete der indogermanischen Sprachen, vol. 1. Leipzig: Hirzel.", "url": null },
+    { "citation": "Hock, Hans Henrich. 1991. Principles of Historical Linguistics, 2nd ed. Berlin: Mouton de Gruyter.", "url": null }
+  ]
+}
