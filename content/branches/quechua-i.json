@@ -1,0 +1,61 @@
+{
+  "id": "quechua-i",
+  "family": "quechuan",
+  "name": "Central Quechua",
+  "parent_ids": ["proto-quechua"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The central highlands of Peru: Ancash, Huánuco, Pasco, Junín and the highlands of Lima",
+  "defining_innovation": "Torero's Quechua I, the most diverse part of the family. These varieties mark the first person with a long vowel, not the suffix *-y* of Quechua II.",
+  "descendants": ["Ancash", "Huánuco", "Pasco", "Huanca", "Jauja", "Yaru"],
+  "chapters": [
+    {
+      "title": "The Heartland",
+      "body": "Central Quechua, or Quechua I in Torero's terms, is spoken by perhaps a million people in the valleys of central Peru. It never became a colonial 'general language', so it stayed split into many local varieties that can differ sharply from valley to valley and from the Quechua of Cusco. A characteristic feature is the lengthening of a vowel to mark the first person, where Quechua II uses *-y*: Ancash *wasii* 'my house' against Cusco *wasiy*. In Huanca, the variety of the Mantaro valley, the old uvular stop `*q` has become a glottal stop.\n\nThroughout the 20th century many speakers shifted to Spanish, and several varieties now have few young speakers."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-quechua-i-identified",
+      "branch_id": "quechua-i",
+      "date": "1963 – 1964",
+      "type": "SPLIT",
+      "title": "Quechua I recognised",
+      "description": "Gary Parker and Alfredo Torero, working independently, show that the central Peruvian varieties form a distinct primary branch, which Parker calls Quechua B and Torero Quechua I. The finding reverses the idea that Cusco was the centre of the family.",
+      "contested": false,
+      "sources": [
+        { "citation": "Torero, Alfredo. 1964. Los dialectos quechuas. Anales Científicos de la Universidad Agraria 2: 446–478.", "url": null },
+        { "citation": "Parker, Gary J. 1963. La clasificación genética de los dialectos quechuas. Revista del Museo Nacional 32: 241–252.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-huanca-q",
+      "branch_id": "quechua-i",
+      "date": "Colonial period or earlier",
+      "type": "SOUND_LAW",
+      "title": "Huanca *q becomes a glottal stop",
+      "description": "In Huanca Quechua of the Mantaro valley the uvular stop `*q` is lost as a full consonant and becomes a glottal stop: `*qam` 'you' > `ʔam`. When the change happened is not known.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "*q → ʔ (*qam → ʔam 'you')",
+      "sort_year": 1600,
+      "sources": [
+        { "citation": "Cerrón-Palomino, Rodolfo. 1987. Lingüística quechua. Cusco: Centro Bartolomé de Las Casas.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-central-quechua-shift",
+      "branch_id": "quechua-i",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Shift to Spanish",
+      "description": "Migration to Lima, schooling in Spanish and the stigma attached to Quechua lead many Central Quechua communities to stop passing the language on. Some local varieties are now spoken only by older people.",
+      "contested": false,
+      "sources": [
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["alfredo-torero"]
+}
