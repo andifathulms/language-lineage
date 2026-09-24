@@ -18,6 +18,28 @@
       "body": "Kannada changed its sounds visibly over its history. The best-known change is the weakening of initial *p* to *h* in the Middle Kannada period (12th–13th centuries): *pālu* became *hālu* 'milk' and *pattu* became *hattu* 'ten', while Tamil keeps *pāl* and *pattu*. The Badaga of the Nilgiri hills, whose ancestors migrated there from Karnataka, speak a language descended from Kannada. In 2008 Kannada was declared a classical language of India."
     }
   ],
+  "speakers": {
+    "estimate": "c. 44 million",
+    "vitality": "safe",
+    "note": "Kannada is also a second language for many millions in Karnataka; the figure includes Badaga (c. 130,000).",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 44 million" }
+  ],
+  "sample": {
+    "language": "Kannada",
+    "text": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+    "transliteration": "nimma hesaru ēnu?",
+    "gloss": "your name what",
+    "translation": "What is your name?",
+    "sources": [
+      { "citation": "Sridhar, S. N. 1990. Kannada. Descriptive Grammars. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-halmidi",

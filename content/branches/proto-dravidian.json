@@ -21,6 +21,16 @@
       "body": "Following Krishnamurti, Dravidian has four subgroups. **North Dravidian** (Kurukh, Malto, and Brahui in Pakistan) and **Central Dravidian** (Kolami, Parji, Gadaba) are spoken by small, mostly tribal communities in central and eastern India. **South-Central Dravidian** (Telugu, Gondi, Kui) and **South Dravidian I** (Tamil, Malayalam, Kannada, Tulu) share a common South Dravidian ancestor, although the position of South-Central is disputed."
     }
   ],
+  "speakers": {
+    "estimate": "c. 250 million",
+    "vitality": "mixed",
+    "note": "Figures for the smaller tribal languages are uncertain, and many of their speakers also use a regional language.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null },
+      { "citation": "Pakistan Bureau of Statistics. 2023. Seventh Population and Housing Census (Digital Census 2023).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-pd-breakup",

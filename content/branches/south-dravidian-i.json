@@ -12,8 +12,21 @@
     {
       "title": "Origins",
       "body": "South Dravidian I is the branch of the far south. Tulu, on the coast around Mangalore, separated first. The rest divided into Kannada and a Tamil–Malayalam group, with the small Nilgiri languages Toda and Kota and the Kodava of Coorg branching off along the way. These languages have the longest continuous literary traditions in the Dravidian family, and their speakers ruled the kingdoms of the Cheras, Cholas, Pandyas and Hoysalas."
+    },
+    {
+      "title": "The Small Languages of the Hills",
+      "body": "Besides the three great languages of the south, South Dravidian I includes a cluster of small languages in the Nilgiri hills and in Kodagu (Coorg), which have been important for reconstruction precisely because they developed in relative isolation.\n\nToda and Kota are each spoken by only a few thousand people or fewer in the Nilgiris. Murray Emeneau studied both from the 1930s onwards, and his work on Toda song and Kota texts made them among the best-documented small languages of India. Toda has changed so much in sound that its words can be hard to recognise: it has an unusually large set of consonants, including several distinct *r* sounds, and it lost many final vowels.\n\nThe hills also form a small linguistic area. Toda, Kota and Irula live alongside the Badaga, whose language descends from Kannada, and the languages have borrowed from one another over several centuries.\n\nKodava, spoken by some 100,000 people in Kodagu district of Karnataka, is written in Kannada script and has a tradition of oral songs, a large collection of which was published in 1924 as the *Paṭṭōle Palame*. Its speakers have in recent decades pressed for recognition as a language distinct from Kannada."
     }
   ],
+  "speakers": {
+    "estimate": "c. 160 million",
+    "vitality": "mixed",
+    "note": "Tamil, Malayalam and Kannada are secure; Toda and Kota have only a few thousand speakers between them.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-sd1-split",

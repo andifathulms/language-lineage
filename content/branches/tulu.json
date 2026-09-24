@@ -12,7 +12,23 @@
     {
       "title": "The Language of the Coast",
       "body": "Tulu is the everyday language of the coastal strip around Mangalore and Udupi, a region its speakers call Tulu Nadu. It split from the rest of South Dravidian I earliest, and it kept or developed features found in neither Kannada nor Tamil.\n\nIts literary history is thinner than its neighbours'. A regional script, often called Tigalari, was used for Sanskrit and some Tulu manuscripts from about the 15th century, but Tulu came to be written mainly in Kannada script, and today the language is mostly transmitted orally and through local theatre (*Yakshagana*) and film. Its speakers have campaigned for official recognition in India's Eighth Schedule of languages."
+    },
+    {
+      "title": "Epics, Rituals and a Multilingual Coast",
+      "body": "Tulu's literature has been oral for most of its history, and its richest form is the *pāḍdana*, a long sung narrative performed by women during the transplanting of rice and by ritual specialists. The best-known tell of the twin heroes Koti and Chennaya and of Siri, a woman who becomes a deity. These songs are closely tied to *bhūta kōla*, the spirit-worship rituals of the coast, in which a performer embodies a local deity and speaks in Tulu. Folklorists such as Peter Claus recorded and translated many of them in the 20th century.\n\nTulu Nadu has long been one of the most multilingual parts of India. Tulu shares the coast with Kannada, the language of schooling and administration, with Konkani spoken by Catholic and Gaud Saraswat communities, and with Beary, the language of local Muslims. Many Tulu speakers use three or four languages daily, and Tulu has served as a common spoken language for communities whose home languages differ.\n\nToday Tulu is heard in popular films, the first of which appeared in 1971, in theatre and on radio. Its speakers continue to campaign for inclusion among India's scheduled languages and for greater use of Tulu in schools."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 1.8 million",
+    "vitality": "safe",
+    "note": "Still passed on to children across Tulu Nadu, though it has no official status and is little used in schools.",
+    "sources": [
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 1.8 million" }
   ],
   "turning_points": [
     {

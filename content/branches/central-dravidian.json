@@ -12,7 +12,23 @@
     {
       "title": "Languages of the Uplands",
       "body": "The Central Dravidian languages are spoken by tribal communities in the uplands of central India, usually alongside a dominant Indo-Aryan or Dravidian regional language such as Marathi, Telugu, Odia or Halbi. None has more than a few hundred thousand speakers, and Ollari and Gadaba have only a few thousand. They were little known outside the region until Emeneau and Burrow described them in the mid-20th century.\n\nThey matter for reconstruction because they preserve features that the big literary languages lost or changed. Whether they form a real subgroup or a set of neighbours is debated, especially in relation to the South-Central languages."
+    },
+    {
+      "title": "Neighbours and Namesakes",
+      "body": "The Central Dravidian languages are small and scattered. Kolami, the largest, is spoken mainly in Yavatmal district of Maharashtra and in neighbouring Telangana. Parji, also called Duruwa, is spoken in the Bastar region of Chhattisgarh, and Ollari and Gadaba further east, in the border area of Odisha and Andhra Pradesh. Naiki is close to Kolami and is sometimes treated as a dialect of it.\n\nNames cause some confusion. The word *Gadaba* refers to a people rather than a language, and different Gadaba communities speak different languages: some speak the Dravidian languages known as Ollari and Konekor Gadaba, others speak Gutob, a Munda language of the Austroasiatic family that is not related to Dravidian at all.\n\nMost of what is known about these languages comes from mid-20th-century fieldwork. Thomas Burrow and S. Bhattacharya published a grammar of Parji in 1953, and Murray Emeneau a grammar of Kolami in 1955. Since then research has been sporadic.\n\nNearly all speakers are bilingual in Marathi, Telugu, Odia, Halbi or Desia, and schooling takes place in those languages. Younger people in some communities are shifting to them, so the smaller Central languages are generally regarded as endangered."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 200,000",
+    "vitality": "mixed",
+    "note": "Kolami has over 100,000 speakers; Ollari, Gadaba and Naiki have only a few thousand to some ten thousand each, and figures are uncertain.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 200,000" }
   ],
   "turning_points": [
     {

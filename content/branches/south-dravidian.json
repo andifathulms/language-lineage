@@ -12,8 +12,20 @@
     {
       "title": "Origins",
       "body": "South Dravidian takes in all four of the great literary Dravidian languages (Tamil, Telugu, Kannada and Malayalam) and more than 90 per cent of Dravidian speakers. Krishnamurti argued that South-Central Dravidian, the branch of Telugu and Gondi, shares an ancestor with South Dravidian I, the branch of Tamil and Kannada. Others see South-Central as closer to the Central languages, or as a bridge between them. That alternative appears on the tree as a dotted arc between Central and South-Central.\n\nBy the last centuries BCE, South Dravidian speakers were living in the kingdoms of the far south, and their languages begin to appear in inscriptions and poetry."
+    },
+    {
+      "title": "Four Written Traditions",
+      "body": "All four of India's large Dravidian literary languages belong to this branch, and each built its own grammatical tradition. Tamil is the exception in having an early grammar, the *Tolkāppiyam*, that owes little to Sanskrit models. The others were described later, by scholars trained in Sanskrit grammar: Keśirāja's *Śabdamaṇidarpaṇa* (13th century) for Kannada, and the *Līlātilakam* (14th century), written in Sanskrit, for the mixed Malayalam–Sanskrit literary style of Kerala. Telugu grammarians likewise wrote their early grammars in Sanskrit.\n\nAll four scripts come from southern forms of Brahmi, but they developed separately. Kannada and Telugu scripts stayed close to each other, while Tamil script adapted Brahmi with a reduced set of letters suited to Tamil sounds, and Malayalam script developed out of the Grantha script used for Sanskrit in the Tamil country.\n\nOne legacy of these traditions is diglossia, a wide gap between the written standard and everyday speech. In Telugu, reformers led by Gidugu Venkata Ramamurthy campaigned from the early 20th century for writing in the modern spoken language. Tamil still keeps a formal written register that differs markedly in pronunciation and grammar from ordinary speech.\n\nThe smaller South Dravidian languages, Gondi and Kui among them, have no comparable tradition. Most are written, if at all, in the script of the regional language."
     }
   ],
+  "speakers": {
+    "estimate": "c. 245 million",
+    "vitality": "mixed",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-south-dravidian-split",

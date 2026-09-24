@@ -22,6 +22,32 @@
       "body": "Few languages are as bound up with identity as modern Tamil. From 1916 the scholar **Maraimalai Adigal** led the *Tanittamiḻ* ('pure Tamil') movement to replace Sanskrit words with Tamil ones, and resistance to Hindi as a national language in 1937–40 and 1965 shaped the politics of Tamil Nadu. In 2004 Tamil became the first language India declared 'classical'. It is an official language in India, Sri Lanka and Singapore."
     }
   ],
+  "speakers": {
+    "estimate": "c. 110 million",
+    "vitality": "safe",
+    "note": "About 75 million Tamil and 37 million Malayalam speakers; Tamil is also widely spoken as a second language in Tamil Nadu.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 104 million" },
+    { "iso": "LKA", "name": "Sri Lanka", "speakers": "c. 5 million" },
+    { "iso": "MYS", "name": "Malaysia", "speakers": "c. 2 million" },
+    { "iso": "SGP", "name": "Singapore" }
+  ],
+  "sample": {
+    "language": "Old Tamil",
+    "text": "யாதும் ஊரே யாவரும் கேளிர்",
+    "transliteration": "yātum ūrē yāvarum kēḷir",
+    "gloss": "every town-EMPH everyone kin",
+    "translation": "Every town is our town, everyone our kin.",
+    "sources": [
+      { "citation": "Kaṇiyaṉ Pūṅkuṉṟaṉār, Puṟanāṉūṟu 192.", "url": null },
+      { "citation": "Hart, George L. & Hank Heifetz (trans.). 1999. The Four Hundred Songs of War and Wisdom: An Anthology of Poems from Classical Tamil, the Puṟanāṉūṟu. New York: Columbia University Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-tamil-palatalisation",

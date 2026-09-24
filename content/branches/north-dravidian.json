@@ -11,12 +11,27 @@
   "chapters": [
     {
       "title": "Origins",
-      "body": "North Dravidian includes Kurukh (Oraon) and Malto, spoken by Adivasi communities in the hills of eastern India, and **Brahui**, spoken by perhaps two million people in Balochistan, far to the west in Pakistan. All three changed `*k` to a fricative *x* before back vowels, so 'eye' is Kurukh *xann* and Brahui *xan*, against Tamil *kaṇ*. The same change happened, entirely independently, in the Ugric branch of Uralic.\n\nBrahui has been heavily influenced by Balochi and other Iranian languages. Only a small share of its vocabulary is Dravidian, although its grammar and many basic words clearly are."
+      "body": "North Dravidian includes Kurukh (Oraon) and Malto, spoken by Adivasi communities in the hills of eastern India, and **Brahui**, spoken by two to three million people in Balochistan, far to the west in Pakistan. All three changed `*k` to a fricative *x* before back vowels, so 'eye' is Kurukh *xann* and Brahui *xan*, against Tamil *kaṇ*. The same change happened, entirely independently, in the Ugric branch of Uralic.\n\nBrahui has been heavily influenced by Balochi and other Iranian languages. Only a small share of its vocabulary is Dravidian, although its grammar and many basic words clearly are."
     },
     {
       "title": "The Brahui Question",
       "body": "Why is a Dravidian language spoken in Balochistan? One view is that Brahui is a relic of a time when Dravidian languages were spoken across the northwest, perhaps even in the Indus Valley. The other, argued by Josef Elfenbein, is that the Brahui migrated there from central India, relatively recently, after 1000 CE. Their language lacks old Iranian loans that a long residence should have left, and it is close to Kurukh and Malto. The question matters because it is often cited in the Indus debate."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 5 million",
+    "vitality": "mixed",
+    "note": "Kurukh has about 2 million speakers and Malto about 230,000; the 2023 census of Pakistan counted about 2.8 million Brahui speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null },
+      { "citation": "Pakistan Bureau of Statistics. 2023. Seventh Population and Housing Census (Digital Census 2023).", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "PAK", "name": "Pakistan", "speakers": "c. 2.8 million" },
+    { "iso": "IND", "name": "India", "speakers": "c. 2.2 million" },
+    { "iso": "AFG", "name": "Afghanistan" }
   ],
   "turning_points": [
     {

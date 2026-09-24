@@ -18,6 +18,28 @@
       "body": "Telugu words appear in Prakrit inscriptions from the last centuries BCE, and the first inscription wholly in Telugu dates to the 6th century CE. Its literature begins with **Nannaya**'s Telugu rendering of the *Mahābhārata* in the 11th century, written in a highly Sanskritised style. Telugu script developed, like Kannada script, from a southern form of Brahmi, and the two scripts remain closely related. In 2008 India declared Telugu a 'classical language', together with Kannada."
     }
   ],
+  "speakers": {
+    "estimate": "c. 87 million",
+    "vitality": "mixed",
+    "note": "Telugu accounts for about 83 million; Gondi's roughly 3 million speakers are split among many dialects, and several of the smaller languages are losing ground to regional languages.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World. 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011: Language. India, States and Union Territories (Paper 1 of 2018).", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 87 million" }
+  ],
+  "sample": {
+    "language": "Telugu",
+    "text": "దేశ భాషలందు తెలుగు లెస్స",
+    "transliteration": "dēśa bhāṣalandu telugu lessa",
+    "gloss": "country languages-among Telugu finest",
+    "translation": "Among the languages of the land, Telugu is the finest.",
+    "sources": [
+      { "citation": "Krishnadevaraya. Āmuktamālyada (early 16th century).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-apical-displacement",
