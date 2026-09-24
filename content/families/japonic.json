@@ -35,5 +35,86 @@
     { "citation": "Vovin, Alexander. 2010. Koreo-Japonica: A Re-evaluation of a Common Genetic Origin. Honolulu: University of Hawaiʻi Press.", "url": null },
     { "citation": "Lee, Sean & Toshikazu Hasegawa. 2011. Bayesian phylogenetic analysis supports an agricultural origin of Japonic languages. Proceedings of the Royal Society B 278.", "url": null },
     { "citation": "Shibatani, Masayoshi. 1990. The Languages of Japan. Cambridge: Cambridge University Press.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The Japonic family is shallow, so the matches are easy to see once you know the rules. Start with the first consonant of 'flower', 'tooth', 'bone' and 'star': Old Japanese and Miyako keep `p`, while Japanese and Okinawan have weakened it to *h* or *f*. Then compare the vowels: where Japanese has *e* and *o*, Okinawan and Miyako usually have *i* and *u*, as in 'bone'. 'Person' shows how far Okinawan can drift, and 'moon' how consonants before high vowels became affricates. Irabu is written in its phonemic transcription: `ʊ` and `ɨ` are vowels, and `z̞` is a syllabic fricative.",
+    "proto_label": "Proto-Japonic",
+    "languages": [
+      { "name": "Old Japanese", "branch_id": "japanese" },
+      { "name": "Japanese (Tokyo)", "branch_id": "japanese" },
+      { "name": "Okinawan (Shuri)", "branch_id": "northern-ryukyuan" },
+      { "name": "Miyako (Irabu)", "branch_id": "southern-ryukyuan" }
+    ],
+    "rows": [
+      {
+        "gloss": "flower",
+        "proto": "pana",
+        "forms": ["pana", "hana", "hana", "pana"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "pa",
+        "forms": ["pa", "ha", "haa", "paː"]
+      },
+      {
+        "gloss": "bone",
+        "proto": null,
+        "forms": ["pone", "hone", "funi", "pʊni"]
+      },
+      {
+        "gloss": "star",
+        "proto": null,
+        "forms": ["posi", "hoshi", "fushi", "pʊsɨ"]
+      },
+      {
+        "gloss": "person",
+        "proto": "pitə",
+        "forms": ["pitö", "hito", "cchu", "pz̞tʊ"]
+      },
+      {
+        "gloss": "hand",
+        "proto": null,
+        "forms": ["te", "te", "tii", "tiː"]
+      },
+      {
+        "gloss": "tree",
+        "proto": "kəy",
+        "forms": ["kï", "ki", "kii", "kiː"]
+      },
+      {
+        "gloss": "moon",
+        "proto": "tukuy",
+        "forms": ["tukï", "tsuki", "chichi", "tsɨtsɨ"]
+      },
+      {
+        "gloss": "mountain",
+        "proto": "yama",
+        "forms": ["yama", "yama", "yama", "jama"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*p",
+        "reflexes": ["p", "h", "h, f", "p"],
+        "rows": [0, 1, 2, 3]
+      },
+      {
+        "label": "*o, *ə (first syllable)",
+        "reflexes": ["o, ö", "o", "u", "ʊ"],
+        "rows": [2, 3, 4]
+      },
+      {
+        "label": "*e (word-final)",
+        "reflexes": ["e", "e", "i", "i"],
+        "rows": [2, 5]
+      }
+    ],
+    "sources": [
+      { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null },
+      { "citation": "Vovin, Alexander. 2020. A Descriptive and Comparative Grammar of Western Old Japanese, 2nd ed. Leiden: Brill.", "url": null },
+      { "citation": "Kokuritsu Kokugo Kenkyūjo (ed.). 1963. Okinawago jiten [Dictionary of the Okinawan language]. Tokyo: Ōkurashō Insatsukyoku.", "url": null },
+      { "citation": "Shimoji, Michinori. 2007. Irabu phonology. Gengo Jōhōgaku Kenkyū Hōkoku 3. Tokyo University of Foreign Studies.", "url": "https://www.tufs.ac.jp/ts/personal/kazama/shigen/3/Shimoji.pdf" },
+      { "citation": "Shimoji, Michinori & Thomas Pellard (eds.). 2010. An Introduction to Ryukyuan Languages. Tokyo: Research Institute for Languages and Cultures of Asia and Africa (ILCAA).", "url": null }
+    ]
+  }
 }
