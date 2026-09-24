@@ -406,11 +406,17 @@ export function LineageTree({ familySlug, rootId, buriedRoot, branches, classifi
             } else {
               y = n.extinct ? n.end.y - 30 : n.end.y - 44;
             }
-            const sub = n.isLeaf
-              ? n.descendants.length > 1
-                ? `${n.descendants[0]} +${n.descendants.length - 1}`
-                : n.descendants.join("")
-              : null;
+            // Leaf sub-label: first language plus a count, or just the count when the
+            // first name is too long to sit beside its neighbours.
+            const [first, ...rest] = n.descendants;
+            const sub =
+              !n.isLeaf || !first
+                ? null
+                : !rest.length
+                  ? first
+                  : first.length <= 14
+                    ? `${first} +${rest.length}`
+                    : `${n.descendants.length} languages`;
             return (
               <Link
                 key={`label-${n.id}`}
