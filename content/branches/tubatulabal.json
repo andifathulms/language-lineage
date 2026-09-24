@@ -1,0 +1,75 @@
+{
+  "id": "tubatulabal",
+  "family": "uto-aztecan",
+  "name": "Tübatulabal",
+  "parent_ids": ["northern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – 2008",
+  "region": "The Kern River valley and South Fork of the Kern, southern Sierra Nevada, California",
+  "defining_innovation": "A single language forming its own branch, Kroeber's 'Kern River' group, set apart from its Numic and Takic neighbours by sound changes and vocabulary of its own. Its last fluent first-language speaker is reported to have died in 2008.",
+  "descendants": ["Pahkanapil †", "Palagewan †", "Bankalachi †"],
+  "chapters": [
+    {
+      "title": "The Kern River",
+      "body": "Tübatulabal was spoken in the valleys of the Kern River and its South Fork, in the southern Sierra Nevada of California, around what is now Lake Isabella. Its speakers lived by hunting, fishing and gathering acorns and pine nuts, and they traded and intermarried with their neighbours: Numic-speaking Kawaiisu to the south and east, Takic-speaking Kitanemuk further south, and Yokuts to the west. The name is usually explained as 'pine-nut eaters'. The speakers' own name for their language was *Pahkaʼanil*.\n\nThere were three dialects. Pahkanapil and Palagewan were spoken on the Kern itself; Bankalachi was spoken by a small group living among the Yokuts on the western slopes.\n\nIn 1907 Alfred Kroeber, sorting the 'Shoshonean' languages of California, set Tübatulabal apart as a branch of its own, the Kern River group, equal in rank to Numic and Takic. Later classifications have kept it as a separate branch, usually placed within **Northern Uto-Aztecan**, although whether that northern grouping is itself a real branch is disputed. The gold rush of the 1850s and the settlement that followed brought violence, land loss and a steep fall in population, and the language gave way to English over the 20th century."
+    },
+    {
+      "title": "Voegelin's Record and Tübatulabal Stress",
+      "body": "Almost everything known about the structure of Tübatulabal comes from one linguist. Charles Voegelin, a student of Kroeber, worked with Tübatulabal speakers in the early 1930s and published a grammar and a volume of texts in 1935, followed by a working dictionary in 1958. At the time it was one of the most thorough descriptions of any Uto-Aztecan language.\n\nVoegelin's account of stress later became a textbook case. In Tübatulabal the main stress falls on the last syllable of the word, and further stresses fall on alternate beats counting back from the end, with long vowels counting as two beats. Because the stresses can be predicted from the length of the vowels and the division of words into stems and suffixes, the pattern has often been used in metrical phonology, the branch of linguistics that models rhythm, as a clear example of a stress system built from the right edge of the word.\n\nDescendants of Tübatulabal speakers still live in the Kern valley, and for anyone learning the language now, Voegelin's texts and dictionary are the fullest record available."
+    }
+  ],
+  "speakers": {
+    "estimate": "None fluent since 2008",
+    "vitality": "extinct",
+    "note": "The last fluent first-language speaker is reported to have died in 2008; a few community members know some of the language.",
+    "sources": [
+      { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tubatulabal-split",
+      "branch_id": "tubatulabal",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Tübatulabal separates",
+      "description": "The ancestors of the Tübatulabal separate from the other northern Uto-Aztecan groups and settle in the Kern River valley. Kroeber recognised the language as a branch of its own in 1907; the date of the split is only a rough estimate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kroeber, A. L. 1907. Shoshonean dialects of California. University of California Publications in American Archaeology and Ethnology 4(3).", "url": null },
+        { "citation": "Miller, Wick R. 1984. The classification of the Uto-Aztecan languages based on lexical evidence. International Journal of American Linguistics 50(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tubatulabal-gold-rush",
+      "branch_id": "tubatulabal",
+      "date": "1850s – 1860s",
+      "type": "CONTACT",
+      "title": "Gold rush on the Kern",
+      "description": "Gold strikes on the Kern River bring miners and ranchers into Tübatulabal country. Violence culminates in 1863, when soldiers kill a large number of Native men near Keysville, and disease and land loss sharply reduce the population.",
+      "contested": false,
+      "sources": [
+        { "citation": "Smith, Charles R. 1978. Tubatulabal. In Robert F. Heizer (ed.), Handbook of North American Indians, vol. 8: California. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tubatulabal-extinction",
+      "branch_id": "tubatulabal",
+      "date": "2008",
+      "type": "EXTINCTION",
+      "title": "The last fluent speaker",
+      "description": "The last fluent first-language speaker of Tübatulabal is reported to have died in 2008. Voegelin's grammar, texts and dictionary remain the main record of the language.",
+      "contested": true,
+      "sources": [
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null },
+        { "citation": "Voegelin, Charles F. 1935. Tübatulabal Grammar. University of California Publications in American Archaeology and Ethnology 34(2).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
