@@ -1,0 +1,45 @@
+{
+  "id": "northern-tai",
+  "family": "kra-dai",
+  "name": "Northern Tai",
+  "parent_ids": ["tai"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Guangxi and Guizhou, southern China",
+  "defining_innovation": "Northern Zhuang, Bouyei and Saek: the Tai languages that stayed in southern China. Zhuang is the largest minority language of China.",
+  "descendants": ["Northern Zhuang", "Bouyei", "Saek"],
+  "chapters": [
+    {
+      "title": "Zhuang",
+      "body": "The Zhuang are China's largest ethnic minority, with more than 18 million people, most of them in Guangxi. Their language is not a single unit. Northern Zhuang belongs with Bouyei to Northern Tai, while Southern Zhuang is closer to the Central Tai languages of Vietnam. For centuries Zhuang was written in *Sawndip*, 'unfinished characters' modelled on Chinese, used for folk songs, religious texts and contracts. In 1957 the government introduced a Latin-based alphabet for Northern Zhuang, revised in 1982, but Chinese dominates education and public life."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sawndip",
+      "branch_id": "northern-tai",
+      "date": "c. 1st millennium CE onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Sawndip",
+      "description": "Zhuang speakers adapt Chinese characters, borrowing some for sound and creating new ones, to write their language in songs, rituals and documents. When the practice began is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Holm, David. 2013. Mapping the Old Zhuang Character Script: A Vernacular Writing System from Southern China. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-zhuang-romanization",
+      "branch_id": "northern-tai",
+      "date": "1957 – 1982",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A Latin alphabet for Zhuang",
+      "description": "The government introduces a Latin-based alphabet for Zhuang in 1957, revised in 1982, but its use in schools and publishing stays limited next to Chinese.",
+      "contested": false,
+      "sources": [
+        { "citation": "Holm, David. 2013. Mapping the Old Zhuang Character Script: A Vernacular Writing System from Southern China. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
