@@ -1,0 +1,57 @@
+{
+  "id": "tulu",
+  "family": "dravidian",
+  "name": "Tulu",
+  "parent_ids": ["south-dravidian-i"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Tulu Nadu, the coastal districts around Mangalore and Udupi in Karnataka and northern Kerala",
+  "defining_innovation": "The first language to leave South Dravidian I, spoken by nearly two million people on the Karnataka coast but mostly written in Kannada script.",
+  "descendants": ["Tulu"],
+  "chapters": [
+    {
+      "title": "The Language of the Coast",
+      "body": "Tulu is the everyday language of the coastal strip around Mangalore and Udupi, a region its speakers call Tulu Nadu. It split from the rest of South Dravidian I earliest, and it kept or developed features found in neither Kannada nor Tamil.\n\nIts literary history is thinner than its neighbours'. A regional script, often called Tigalari, was used for Sanskrit and some Tulu manuscripts from about the 15th century, but Tulu came to be written mainly in Kannada script, and today the language is mostly transmitted orally and through local theatre (*Yakshagana*) and film. Its speakers have campaigned for official recognition in India's Eighth Schedule of languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tulu-split",
+      "branch_id": "tulu",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Tulu leaves first",
+      "description": "Tulu separates from the other South Dravidian I languages, which later divide into Kannada and Tamil–Malayalam. The date is approximate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tulu-script",
+      "branch_id": "tulu",
+      "date": "c. 15th century onward",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Tigalari and Kannada script",
+      "description": "Tulu appears in manuscripts in the regional Tigalari script, related to Malayalam script, but later comes to be written mostly in Kannada letters. Efforts to revive a distinct Tulu script continue.",
+      "contested": true,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tulu-academy",
+      "branch_id": "tulu",
+      "date": "1994 onward",
+      "type": "REVITALIZATION",
+      "title": "A Tulu academy",
+      "description": "The Karnataka government establishes an academy for Tulu literature and culture, and speakers press for the language's inclusion among India's scheduled languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
