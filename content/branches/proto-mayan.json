@@ -1,0 +1,67 @@
+{
+  "id": "proto-mayan",
+  "family": "mayan",
+  "name": "Proto-Mayan",
+  "parent_ids": [],
+  "successor_ids": ["huastecan", "yucatecan", "western-mayan", "eastern-mayan"],
+  "era": "c. 2200 BCE (reconstructed; dating debated)",
+  "region": "Probably the Cuchumatanes highlands of western Guatemala",
+  "defining_innovation": "The reconstructed ancestor of about thirty languages, rich in glottalised consonants (*kʼ, *tʼ, *qʼ) and with an agricultural vocabulary centred on maize: *ixiʼm 'maize', still ixim in several of its descendants.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Mayan was spoken by maize farmers, and its reconstructed vocabulary includes words for maize (`*ixiʼm`), the grinding stone, the dog (`*tzʼiʼ`) and water (`*jaʼ`). Terrence Kaufman, whose reconstruction and classification most work still follows, placed its homeland in the Cuchumatanes mountains of western Guatemala, where Mayan diversity is greatest, and dated its breakup to around 2200 BCE. The date comes from glottochronology, a method many linguists distrust, so it is best read as a rough order of magnitude.\n\nLike many Mesoamerican languages, the Mayan languages are verb-initial and ergative: the subject of an intransitive verb is marked like the object of a transitive one, not like its subject."
+    },
+    {
+      "title": "Neighbours and the Olmec Question",
+      "body": "Some widespread Mesoamerican culture words appear to have entered Mayan from Mixe-Zoquean, the family often linked with the Olmec civilisation of the Gulf coast (c. 1200–400 BCE). The best known is 'cacao', Mayan *kakaw*. Lyle Campbell and Kaufman argued that these loans reflect Olmec cultural influence. Others have proposed a different, Uto-Aztecan origin for *kakaw*, and the identification of the Olmec language itself is uncertain."
+    },
+    {
+      "title": "The Branches",
+      "body": "Kaufman's classification, followed here, has four main branches. **Huastecan** broke away first and moved far to the north, to the Gulf coast of Mexico. **Yucatecan** occupies the Yucatán Peninsula. **Western Mayan** divides into Cholan-Tzeltalan, the branch of the Classic inscriptions, and Q'anjob'alan. **Eastern Mayan** comprises the K'iche'an and Mamean languages of the Guatemalan highlands."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pm-breakup",
+      "branch_id": "proto-mayan",
+      "date": "c. 2200 BCE",
+      "type": "SPLIT",
+      "title": "Proto-Mayan breaks up",
+      "description": "Huastecan separates first, then the remaining dialects diverge into Yucatecan, Western and Eastern Mayan. Kaufman's date is glottochronological and much disputed, as is the exact homeland.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mixe-zoque-loans",
+      "branch_id": "proto-mayan",
+      "date": "c. 1st millennium BCE",
+      "type": "CONTACT",
+      "title": "Loans from Mixe-Zoquean",
+      "description": "Culture words such as *kakaw* 'cacao' spread into Mayan, which Campbell and Kaufman attributed to Mixe-Zoquean speakers they identified with the Olmec. Both the source of *kakaw* and the Olmec link are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1976. A linguistic look at the Olmecs. American Antiquity 41(1).", "url": null },
+        { "citation": "Dakin, Karen & Søren Wichmann. 2000. Cacao and chocolate: A Uto-Aztecan perspective. Ancient Mesoamerica 11.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-macro-mayan",
+      "branch_id": "proto-mayan",
+      "proposed_grouping": "Macro-Mayan: Mayan is related to Mixe-Zoquean and Totonacan",
+      "status": "minority_position",
+      "evidence_for": "Norman McQuown and later others pointed to lexical and structural resemblances among these neighbouring Mesoamerican families, which share glottalised consonants and some vocabulary.",
+      "evidence_against": "The shared vocabulary is small and much of it looks like borrowing within Mesoamerica, a strong linguistic area where unrelated languages have converged. Campbell and Kaufman reviewed the proposal and found it unproven. Mayan is generally treated as a family without demonstrated relatives.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1985. Mayan linguistics: Where are we now? Annual Review of Anthropology 14.", "url": null },
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
