@@ -404,5 +404,12 @@
     "lifespan": "1930–2004",
     "branch_ids": ["proto-quechua", "quechua-i"],
     "turning_point_ids": ["tp-quechua-first-split", "tp-quechua-i-identified"]
+  },
+  {
+    "id": "michael-krauss",
+    "name": "Michael Krauss",
+    "lifespan": "1934–2019",
+    "branch_ids": ["athabaskan-eyak", "eyak", "athabaskan"],
+    "turning_point_ids": ["tp-eyak-athabaskan-split", "tp-eyak-documentation", "tp-athabaskan-tonogenesis"]
   }
 ]

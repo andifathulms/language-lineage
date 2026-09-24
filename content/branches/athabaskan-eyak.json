@@ -1,0 +1,32 @@
+{
+  "id": "athabaskan-eyak",
+  "family": "na-dene",
+  "name": "Athabaskan-Eyak",
+  "parent_ids": ["proto-na-dene"],
+  "successor_ids": ["eyak", "athabaskan"],
+  "era": "c. 3rd – 1st millennium BCE (reconstructed; uncertain)",
+  "region": "Probably south-central Alaska",
+  "defining_innovation": "The common ancestor of Eyak and the Athabaskan languages, whose close relationship Michael Krauss demonstrated in the 1960s.",
+  "chapters": [
+    {
+      "title": "Eyak's Relatives",
+      "body": "Until the 1930s Eyak was hardly known. The anthropologist Frederica de Laguna recorded it, and in the 1960s **Michael Krauss** showed that it is the sister of the whole Athabaskan branch. It shares with Athabaskan the verb structure and the regular correspondences that allow Proto-Athabaskan-Eyak to be reconstructed, but it stands apart from all the Athabaskan languages in its vocabulary and sounds."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-eyak-athabaskan-split",
+      "branch_id": "athabaskan-eyak",
+      "date": "c. 3rd – 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Eyak and Athabaskan part",
+      "description": "The ancestors of Eyak settle on the south Alaskan coast, while those of the Athabaskans remain in the interior. The date is a rough estimate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krauss, Michael E. 1964. Proto-Athapaskan-Eyak and the problem of Na-Dene: The phonology. International Journal of American Linguistics 30(2): 118–131.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["michael-krauss"]
+}
