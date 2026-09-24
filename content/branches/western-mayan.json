@@ -1,0 +1,48 @@
+{
+  "id": "western-mayan",
+  "family": "mayan",
+  "name": "Western Mayan",
+  "parent_ids": ["proto-mayan"],
+  "successor_ids": ["cholan-tzeltalan", "qanjobalan"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Chiapas, Tabasco and the western highlands and lowlands of Guatemala and Honduras",
+  "defining_innovation": "Kaufman's grouping of Cholan-Tzeltalan with Q'anjob'alan. Proto-Mayan *k became ch here, as in Yucatecan: *kaq 'red' is Yucatec chak beside K'iche' kaq.",
+  "descendants": ["Tzeltal", "Tzotzil", "Ch'ol", "Ch'orti'", "Q'anjob'al", "Chuj", "Tojolab'al"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Western Mayan joins two groups: the Cholan-Tzeltalan languages, spread from the Chiapas highlands down to the lowlands where the great Classic cities stood, and the Q'anjob'alan languages of the Cuchumatanes and the Mexican border. They share the palatalisation of `*k` to *ch*, which Yucatecan also has, and the change of `*r` to *y*. Because both are shared with the neighbouring Yucatecan languages, some scholars see them as changes that spread across the lowlands rather than evidence of a single ancestor."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-western-k-ch",
+      "branch_id": "western-mayan",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "*k becomes ch",
+      "description": "Proto-Mayan `*k` (and `*kʼ`) palatalise to *ch* (*chʼ*) in Western Mayan and in Yucatecan: `*kaq` 'red' → Yucatec *chak*, beside K'iche' *kaq*. Whether it happened once in a shared ancestor or spread across neighbouring languages is debated.",
+      "contested": true,
+      "process": "assimilation",
+      "notation": "*k *kʼ → ch chʼ (*kaq 'red' → chak; K'iche' kaq)",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1985. Mayan linguistics: Where are we now? Annual Review of Anthropology 14.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-western-split",
+      "branch_id": "western-mayan",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Cholan-Tzeltalan and Q'anjob'alan part",
+      "description": "The ancestors of the Cholan-Tzeltalan languages move toward Chiapas and the lowlands, while the Q'anjob'alan languages stay in the Cuchumatanes. The date is a glottochronological estimate.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
