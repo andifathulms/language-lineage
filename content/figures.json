@@ -411,5 +411,12 @@
     "lifespan": "1934–2019",
     "branch_ids": ["athabaskan-eyak", "eyak", "athabaskan"],
     "turning_point_ids": ["tp-eyak-athabaskan-split", "tp-eyak-documentation", "tp-athabaskan-tonogenesis"]
+  },
+  {
+    "id": "harry-hoijer",
+    "name": "Harry Hoijer",
+    "lifespan": "1904–1976",
+    "branch_ids": ["apachean"],
+    "turning_point_ids": ["tp-apachean-arrival"]
   }
 ]

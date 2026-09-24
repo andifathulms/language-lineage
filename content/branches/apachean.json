@@ -1,0 +1,58 @@
+{
+  "id": "apachean",
+  "family": "na-dene",
+  "name": "Apachean",
+  "parent_ids": ["athabaskan"],
+  "successor_ids": [],
+  "era": "c. 1300 CE – present",
+  "region": "Arizona, New Mexico, and formerly Texas, Oklahoma and northern Mexico",
+  "defining_innovation": "Navajo and the Apache languages, the Southern Athabaskans. Navajo is the most widely spoken Native American language in the United States.",
+  "descendants": ["Navajo", "Western Apache", "Chiricahua", "Mescalero", "Jicarilla", "Plains Apache", "Lipan †"],
+  "chapters": [
+    {
+      "title": "Into the Southwest",
+      "body": "The Apachean languages are so close to one another, and so clearly Athabaskan, that their speakers must have reached the Southwest fairly recently, probably around 1300 to 1500 CE. They came either along the eastern edge of the Rockies or through the Great Basin, and the route is still debated. **Harry Hoijer** classified them in 1938 into a western group (Navajo, Western Apache, Chiricahua, Mescalero) and an eastern group (Jicarilla, Lipan, Plains Apache). Plains Apache is now often treated as a separate branch.\n\nNavajo has about 170,000 speakers, more than any other Native language in the United States. During the Second World War, Navajo Code Talkers in the US Marine Corps used it as the basis of a battlefield code that was never broken."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-apachean-arrival",
+      "branch_id": "apachean",
+      "date": "c. 1300 – 1500 CE",
+      "type": "SPLIT",
+      "title": "Arrival in the Southwest",
+      "description": "Apachean speakers arrive in the Southwest from the north, not long before the first Spanish expeditions. The date and route are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Hoijer, Harry. 1938. The southern Athapaskan languages. American Anthropologist 40(1): 75–87.", "url": null },
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-navajo-orthography",
+      "branch_id": "apachean",
+      "date": "1930s – 1940s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Writing Navajo",
+      "description": "Robert Young and William Morgan, a Navajo linguist, develop the Latin-based orthography with tone marks and nasal hooks that becomes the standard for Navajo publishing and schooling.",
+      "contested": false,
+      "sources": [
+        { "citation": "Young, Robert W. & William Morgan Sr. 1987. The Navajo Language: A Grammar and Colloquial Dictionary, rev. ed. Albuquerque: University of New Mexico Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-rough-rock",
+      "branch_id": "apachean",
+      "date": "1966",
+      "type": "REVITALIZATION",
+      "title": "Rough Rock",
+      "description": "The Rough Rock Demonstration School opens on the Navajo Nation, the first school in the United States run by a Native community, teaching in Navajo as well as English.",
+      "contested": false,
+      "sources": [
+        { "citation": "McCarty, Teresa L. 2002. A Place to Be Navajo: Rough Rock and the Struggle for Self-Determination in Indigenous Schooling. Mahwah, NJ: Lawrence Erlbaum.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["harry-hoijer"]
+}
