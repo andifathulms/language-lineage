@@ -6,14 +6,28 @@
   "successor_ids": ["cholan-tzeltalan", "qanjobalan"],
   "era": "c. 1st millennium BCE – present",
   "region": "Chiapas, Tabasco and the western highlands and lowlands of Guatemala and Honduras",
-  "defining_innovation": "Kaufman's grouping of Cholan-Tzeltalan with Q'anjob'alan. Proto-Mayan *k became ch here, as in Yucatecan: *kaq 'red' is Yucatec chak beside K'iche' kaq.",
+  "defining_innovation": "Kaufman's grouping of Cholan-Tzeltalan with Q'anjob'alan. In the Cholan-Tzeltalan languages Proto-Mayan *k became ch, as it did in Yucatecan: *kaq 'red' is Yucatec chak beside K'iche' kaq. Q'anjob'al keeps kaq.",
   "descendants": ["Tzeltal", "Tzotzil", "Ch'ol", "Ch'orti'", "Q'anjob'al", "Chuj", "Tojolab'al"],
   "chapters": [
     {
       "title": "Origins",
-      "body": "Western Mayan joins two groups: the Cholan-Tzeltalan languages, spread from the Chiapas highlands down to the lowlands where the great Classic cities stood, and the Q'anjob'alan languages of the Cuchumatanes and the Mexican border. They share the palatalisation of `*k` to *ch*, which Yucatecan also has, and the change of `*r` to *y*. Because both are shared with the neighbouring Yucatecan languages, some scholars see them as changes that spread across the lowlands rather than evidence of a single ancestor."
+      "body": "Western Mayan joins two groups: the Cholan-Tzeltalan languages, spread from the Chiapas highlands down to the lowlands where the great Classic cities stood, and the Q'anjob'alan languages of the Cuchumatanes and the Mexican border. They share the change of `*r` to *y*. Cholan-Tzeltalan also palatalises `*k` to *ch*, as Yucatecan does, but Q'anjob'alan mostly keeps *k* (Q'anjob'al *kaq* 'red'). Because both are shared with the neighbouring Yucatecan languages, some scholars see them as changes that spread across the lowlands rather than evidence of a single ancestor."
+    },
+    {
+      "title": "Classifiers and Split Ergativity",
+      "body": "Two grammatical features of the Western Mayan languages have drawn particular attention from linguists.\n\nThe Q'anjob'alan languages have noun classifiers: small words placed before a noun that sort it by kind. In Q'anjob'al, *naq* marks men and *ix* women, and other classifiers mark things of wood, stone, maize and so on. They also work like pronouns, so a classifier alone can mean 'he' or 'she'. Q'anjob'al *ay jun naq winaq* 'there is a man' uses *naq* before *winaq* 'man'. Colette Craig's studies of Popti' (Jakaltek) in the 1970s and 1980s made these systems one of the best-known classifier systems in the world.\n\nCh'ol is well known for split ergativity. In the perfective it marks persons in the usual Mayan ergative way, but in the imperfective and progressive the subject of an intransitive verb is marked like the subject of a transitive one. Jessica Coon has argued that this is because these aspects are built on a nominal structure, a kind of 'I am in my sleeping', rather than a change in the verb itself.\n\nThe Tzeltal and Tzotzil of highland Chiapas are among the most thoroughly documented Mayan languages, partly through long-running anthropological projects in Zinacantán and neighbouring communities from the 1950s onwards."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.9 million",
+    "vitality": "mixed",
+    "note": "Mostly in Chiapas; smaller communities in Guatemala and Tabasco.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística y Geografía (INEGI). 2021. Censo de Población y Vivienda 2020. Aguascalientes: INEGI.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-western-k-ch",
@@ -21,7 +35,7 @@
       "date": "c. 1st millennium BCE",
       "type": "SOUND_LAW",
       "title": "*k becomes ch",
-      "description": "Proto-Mayan `*k` (and `*kʼ`) palatalise to *ch* (*chʼ*) in Western Mayan and in Yucatecan: `*kaq` 'red' → Yucatec *chak*, beside K'iche' *kaq*. Whether it happened once in a shared ancestor or spread across neighbouring languages is debated.",
+      "description": "Proto-Mayan `*k` (and `*kʼ`) palatalise to *ch* (*chʼ*) in Cholan-Tzeltalan and in Yucatecan: `*kaq` 'red' → Yucatec *chak*, beside K'iche' *kaq*. Q'anjob'al keeps *kaq*, so the change did not cover all of Western Mayan. Whether it happened once in a shared ancestor or spread across neighbouring languages is debated.",
       "contested": true,
       "process": "assimilation",
       "notation": "*k *kʼ → ch chʼ (*kaq 'red' → chak; K'iche' kaq)",

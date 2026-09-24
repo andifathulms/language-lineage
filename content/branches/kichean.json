@@ -22,6 +22,28 @@
       "body": "In 1987 Guatemala adopted a unified alphabet for its Mayan languages, developed with Maya linguists, and in 1990 it founded the **Academia de Lenguas Mayas de Guatemala**. Its leading members were Maya scholars, part of a Maya cultural movement that grew during and after the civil war. Q'eqchi', which has spread into the Petén lowlands and Belize over the last two centuries, is among the fastest-growing Mayan languages."
     }
   ],
+  "speakers": {
+    "estimate": "c. 3 million",
+    "vitality": "mixed",
+    "note": "Q'eqchi' and K'iche' each have over a million first-language speakers; Uspantek, Sakapultek and Sipakapense a few thousand each.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "GTM", "name": "Guatemala", "speakers": "c. 2.9 million" },
+    { "iso": "BLZ", "name": "Belize", "speakers": "c. 20,000" }
+  ],
+  "sample": {
+    "language": "K'iche' (Popol Vuh, 16th century)",
+    "text": "Are uxe' ojer tzij waral K'iche' ub'i'",
+    "gloss": "this its-root ancient word here K'iche' its-name",
+    "translation": "This is the root of the ancient word, here in the place called K'iche'.",
+    "sources": [
+      { "citation": "Christenson, Allen J. 2007. Popol Vuh: The Sacred Book of the Maya. Norman: University of Oklahoma Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-nahua-contact",

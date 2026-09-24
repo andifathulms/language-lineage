@@ -18,6 +18,21 @@
       "body": "During Guatemala's civil war, the army's counter-insurgency campaigns of the early 1980s destroyed hundreds of highland villages, many of them Q'anjob'al and Chuj. Tens of thousands of people fled to refugee camps in Chiapas. Since the 1990s, large communities of Q'anjob'al and other Mayan speakers have formed in the United States, in Florida, California and elsewhere. Guatemala's 2003 National Languages Law recognises the country's Mayan languages and requires public services to be offered in them."
     }
   ],
+  "speakers": {
+    "estimate": "c. 400,000",
+    "vitality": "mixed",
+    "note": "Mocho' is nearly extinct; the total does not include speakers in the United States, who are not counted separately.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Instituto Nacional de Estadística y Geografía (INEGI). 2021. Censo de Población y Vivienda 2020. Aguascalientes: INEGI.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "GTM", "name": "Guatemala", "speakers": "c. 310,000" },
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 85,000" },
+    { "iso": "USA", "name": "United States" }
+  ],
   "turning_points": [
     {
       "id": "tp-qanjobalan-split",

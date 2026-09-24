@@ -18,6 +18,21 @@
       "body": "In 1982–83, at the height of Guatemala's civil war, the army carried out massacres across the Ixil region, killing thousands of Ixil civilians and destroying most of their villages. In 2013 a Guatemalan court convicted the former head of state Efraín Ríos Montt of genocide against the Ixil. The verdict was annulled on procedural grounds days later, and the retrial was never completed before his death in 2018. Many Mam and Ixil speakers have since migrated to Mexico and the United States, where Mam is now one of the indigenous languages most often needed by interpreters."
     }
   ],
+  "speakers": {
+    "estimate": "c. 750,000",
+    "vitality": "mixed",
+    "note": "Mam accounts for about 600,000; Tektitek has only a few thousand speakers. Speakers in the United States are not included.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Instituto Nacional de Estadística y Geografía (INEGI). 2021. Censo de Población y Vivienda 2020. Aguascalientes: INEGI.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "GTM", "name": "Guatemala", "speakers": "c. 740,000" },
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 12,000" },
+    { "iso": "USA", "name": "United States" }
+  ],
   "turning_points": [
     {
       "id": "tp-mamean-r-t",

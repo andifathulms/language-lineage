@@ -12,8 +12,21 @@
     {
       "title": "Origins",
       "body": "Eastern Mayan takes in the two groups of the Guatemalan highlands: **K'iche'an**, which includes K'iche', Kaqchikel, Tz'utujil and Q'eqchi', and **Mamean**, which includes Mam and Ixil. Together they have the most speakers of any Mayan branch. They are conservative in one obvious respect: they keep Proto-Mayan's uvular stops, so 'red' is K'iche' *kaq* with *q*, where Yucatec has *chak*. They differ in how they treat `*r`, which K'iche'an keeps and Mamean turns into *t*."
+    },
+    {
+      "title": "The Largest Mayan Languages",
+      "body": "Eastern Mayan contains the two most widely spoken Mayan languages. In Guatemala's 2018 census about 1.13 million people said they had learned to speak in Q'eqchi', and about 1.05 million in K'iche'. Mam followed with about 590,000 and Kaqchikel with roughly 400,000. Together the Eastern Mayan languages account for well over half of all Mayan speakers.\n\nThe picture is not uniform. Q'eqchi' has grown fastest, adding over 400,000 first-language speakers between the 2002 and 2018 censuses, helped by high birth rates and by settlement in the Petén lowlands, Izabal and southern Belize. Kaqchikel, spoken close to Guatemala City and the tourist towns of Lake Atitlán and Antigua, lost about 20,000 first-language speakers over the same period as more children grew up speaking Spanish. At the other end of the scale are small K'iche'an languages such as Uspantek, Sakapultek and Sipakapense, and the Mamean Tektitek, each with a few thousand speakers.\n\nThe official languages are also distinguished more finely than linguists might distinguish them. Guatemala recognises 22 Mayan languages, and some of the distinctions, such as those between K'iche' and Achi, follow community identity as much as linguistic distance."
     }
   ],
+  "speakers": {
+    "estimate": "c. 3.7 million",
+    "vitality": "mixed",
+    "note": "Almost all in Guatemala.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-eastern-split",

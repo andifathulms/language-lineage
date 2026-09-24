@@ -22,6 +22,20 @@
       "body": "Ch'olti', the closest modern relative of the language of the glyphs, is known from a manuscript of the 1690s and died out afterwards. Its sister Ch'orti' survives near Copán. In the Chiapas highlands, Tzeltal and Tzotzil each have around half a million speakers and are growing. Their communities formed much of the base of the 1994 Zapatista uprising."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.5 million",
+    "vitality": "mixed",
+    "note": "Tzeltal, Tzotzil and Ch'ol in Mexico make up most of the total; Ch'olti' is extinct and Ch'orti' has about 17,000 speakers in Guatemala.",
+    "sources": [
+      { "citation": "Instituto Nacional de Estadística y Geografía (INEGI). 2021. Censo de Población y Vivienda 2020. Aguascalientes: INEGI.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Instituto Nacional de Estadística (INE). 2019. XII Censo Nacional de Población y VII de Vivienda 2018. Guatemala City: INE.", "url": "https://www.censopoblacion.gt/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 1.45 million" },
+    { "iso": "GTM", "name": "Guatemala", "speakers": "c. 17,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-maya-script",
