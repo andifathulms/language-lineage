@@ -12,6 +12,10 @@
     {
       "title": "The Island Branch",
       "body": "Hlai (Li) is spoken by more than half a million people in the mountains of Hainan Island. It is one of the most distinct Kra-Dai branches. On Hainan it has neighbours of other families: Chinese, and Tsat (Utsat), a Chamic Austronesian language brought by settlers from the coast of Vietnam and related to the Malayic languages of the Austronesian tree. Hainan came under Chinese administration in the Han dynasty, and Chinese settlement gradually pushed the Hlai into the interior."
+    },
+    {
+      "title": "Dialects, Outliers and a Separate Vocabulary",
+      "body": "Hlai is not one language but a cluster. Chinese descriptions distinguish several main dialect groups, among them Ha, Qi, Meifu and Bendi, which are not all mutually intelligible, and Peter Norquest's reconstruction of Proto-Hlai (2007) compares varieties from across the island.\n\nTwo languages on the edge of the cluster complicate the picture. Cun is spoken by around 60,000 people on the west coast of Hainan who are officially classified as Han Chinese, yet their language is Hlai. Jiamao, in the southeast, has Hlai grammar and much Hlai vocabulary, but a large part of its basic vocabulary cannot be traced to Hlai; Norquest and others suggest that it began as a different language whose speakers later adopted Hlai.\n\nHlai is also useful for its separateness. Having been on Hainan for a long time, it often uses its own word where Tai and Kam-Sui share one: 'die' is `ɬaːu` and 'bird' `taȶ`, not the Tai forms. It also has far fewer early Chinese loanwords than Tai. That independent testimony is why comparativists treat Hlai as a primary branch rather than an offshoot of Tai."
     }
   ],
   "turning_points": [
@@ -53,5 +57,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 700,000",
+    "vitality": "vulnerable",
+    "note": "Includes Cun and Jiamao; about 1.6 million people are officially Li, and most Hlai speakers also use Hainanese or Mandarin.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Norquest, Peter K. 2007. A Phonological Reconstruction of Proto-Hlai. PhD dissertation, University of Arizona.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 700,000" }
+  ]
 }

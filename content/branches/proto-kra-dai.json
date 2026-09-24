@@ -11,6 +11,10 @@
     {
       "title": "Origins",
       "body": "Kra-Dai languages are tonal, mostly monosyllabic and isolating, and centuries of contact with Chinese have given them large layers of Chinese vocabulary, including many numerals: Thai *sǎam* 'three' and *sìi* 'four' are Chinese loans. For a long time they were therefore classified with Chinese in Sino-Tibetan. In 1942 Paul Benedict argued instead that their core vocabulary links them with Austronesian ('Austro-Tai'), and Weera Ostapirat later showed regular correspondences in that core.\n\nThe homeland is usually placed in southern China, in the hills and coast of Guangdong and Guangxi, around 2000 BCE. The four main branches, Kra, Hlai, Kam-Sui and Tai, divided there before the Tai languages spread southwest into mainland Southeast Asia much later."
+    },
+    {
+      "title": "Rebuilding the Longer Word",
+      "body": "Modern Kra-Dai words are short, but their ancestors were not. Comparison shows that many roots once had two syllables, or a weak first syllable before a stressed one, and that most branches later dropped the first part. Buyang, a Kra language, still says `ma⁰ ta` for 'eye', where Thai has *taa*; Laha has a similar form. Traces survive inside Tai too. Pittayawat Pittayaporn reconstructs Proto-Tai 'eye' as `*p.ta` and 'water' as `*C̬.nam`, each with a reduced first consonant, and clusters like these are the likely reason why Wuming Zhuang, as recorded by Zhang Junru and colleagues, has `ɣa` 'eye' and `ɣam` 'water' where Thai has *taa* and *náam*.\n\nThis matters for two reasons. It explains correspondences that would otherwise look irregular, such as Thai *t* against Zhuang `ɣ`, or Thai *h* in *hǎw* 'louse' against Kam and Buyang *t*. And it makes the comparison with Austronesian possible at all: Austronesian `*mata` 'eye' and `*maCay` 'die' match the Kra-Dai words only once the first syllable is restored. Ostapirat's reconstructions of Proto-Kra-Dai therefore have two syllables, `*maTaː` and `*maTaːj`, but many details, written with capital letters, are still unresolved, and different scholars reconstruct the same roots differently."
     }
   ],
   "turning_points": [
@@ -70,5 +74,14 @@
       ]
     }
   ],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 90 million",
+    "vitality": "mixed",
+    "note": "About two-thirds speak Thai, Lao or Isan; the total also includes Central Tai (Tày, Nùng, Southern Zhuang) and Be of Hainan, which have no branch of their own here.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+    ]
+  }
 }

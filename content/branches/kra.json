@@ -12,6 +12,10 @@
     {
       "title": "Scattered Survivors",
       "body": "The Kra languages survive in small, isolated communities spread across southwest China and northern Vietnam, surrounded by Chinese, Hmong and Tai speakers. Gelao is spoken by only a few thousand of the more than half a million people officially counted as Gelao; most have shifted to Chinese. Several Kra varieties have only elderly speakers. They are important for reconstruction precisely because they are so different from the better-known Tai languages."
+    },
+    {
+      "title": "Longer Words and Late Discovery",
+      "body": "The Kra languages were among the last members of the family to be documented. Gelao, Lachi and Laha were known in outline by the mid-20th century, but Buyang and Paha in southeastern Yunnan were first described in detail by Chinese linguists, above all Li Jinfang, only in the 1990s. Weera Ostapirat's reconstruction of Proto-Kra in 2000 drew on this new material.\n\nTheir value lies in what they kept. Where Tai and Kam-Sui words are single syllables, Kra languages often keep a first syllable or prefix: Buyang says `ma⁰ ta` for 'eye' and `ma⁰ nuk` for 'bird', and many nouns carry a prefix such as `qa⁰`, as in `qa⁰ tu` 'louse'. These longer shapes resemble Austronesian words and help to reconstruct the ancestor of the whole family. Kra languages also often use native words where Tai uses Chinese loans. Grammatically they share the family's broad pattern, with tones, subject–verb–object order and classifiers, although Gelao has been heavily reshaped by Chinese. Because speakers are few, scattered and nearly all bilingual in Chinese or Vietnamese, some of this evidence is being lost within a generation."
     }
   ],
   "turning_points": [
@@ -41,5 +45,18 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 20,000",
+    "vitality": "mixed",
+    "note": "All Kra languages are endangered; several Gelao varieties have only a few elderly speakers, and figures date mostly from surveys of the 1990s.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 11,000" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 10,000" }
+  ]
 }

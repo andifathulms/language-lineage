@@ -84,5 +84,31 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 60 million",
+    "vitality": "mixed",
+    "note": "Thai, Isan (Lao of northeast Thailand), Northern and Southern Thai, Lao and Shan are secure, while several Tai languages of northeast India are endangered and Ahom has been extinct since about the 18th or 19th century.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "THA", "name": "Thailand", "speakers": "c. 50 million" },
+    { "iso": "LAO", "name": "Laos", "speakers": "c. 4 million" },
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 3 million" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 1.5 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 1 million" }
+  ],
+  "sample": {
+    "language": "Thai",
+    "text": "ในน้ำมีปลา ในนามีข้าว",
+    "transliteration": "nai náam mii plaa nai naa mii khâaw",
+    "gloss": "in water have fish in field have rice",
+    "translation": "In the water there are fish; in the fields there is rice.",
+    "sources": [
+      { "citation": "Griswold, A. B. & Prasert na Nagara. 1971. The inscription of King Rāma Gaṃhèṅ of Sukhodaya (1292 A.D.). Epigraphic and Historical Studies no. 9. Journal of the Siam Society 59(2): 179–228.", "url": null }
+    ]
+  }
 }

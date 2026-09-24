@@ -12,6 +12,10 @@
     {
       "title": "Songs and a Ritual Script",
       "body": "The Kam-Sui languages are spoken in the valleys where Guizhou, Guangxi and Hunan meet. The Kam (Dong) people, about three million strong, are famous for their 'grand songs', polyphonic choral music without instruments, which UNESCO recognised as intangible heritage in 2009. The Sui preserve a traditional script, *Shuishu*, used by ritual specialists for divination and calendars, with characters partly borrowed from Chinese and partly their own."
+    },
+    {
+      "title": "Many Tones, Many Consonants",
+      "body": "The Kam-Sui languages are known among linguists for the size of their sound systems. Southern Kam is often cited as having one of the largest tone inventories on record: counting the tones of syllables ending in a stop separately, descriptions of the Zhanglu dialect give fifteen, all descended from the same four Proto-Tai-type categories as the five tones of Thai.\n\nSui is remarkable for its consonants. Besides ordinary stops and nasals it has prenasalised stops (`ⁿd` in `ⁿda` 'eye'), preglottalised stops (`ʔb`, `ʔd`), voiceless nasals (`m̥` in `m̥a` 'dog') and uvular consonants, so that some descriptions count around seventy possible initial consonants. Many of these contrasts preserve distinctions that Tai has merged, which makes Kam-Sui important for reconstructing the ancestor.\n\nGrammatically the branch follows the family pattern: short words, no inflection, classifiers, and modifiers after the noun. Today most Kam and Sui children still learn the language at home in rural areas, but schooling and migration for work have brought Mandarin into daily life, and the smaller Kam-Sui languages are spoken mainly by older people."
     }
   ],
   "turning_points": [
@@ -53,5 +57,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 2 million",
+    "vitality": "mixed",
+    "note": "Kam (Dong) accounts for about 1.5 million and Sui for about 300,000; Mulam, Maonan, Mak, Then and Ai-Cham are much smaller and endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 2 million" }
+  ]
 }

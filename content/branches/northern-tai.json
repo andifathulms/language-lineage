@@ -12,6 +12,10 @@
     {
       "title": "Zhuang",
       "body": "The Zhuang are China's largest ethnic minority, with more than 18 million people, most of them in Guangxi. Their language is not a single unit. Northern Zhuang belongs with Bouyei to Northern Tai, while Southern Zhuang is closer to the Central Tai languages of Vietnam. For centuries Zhuang was written in *Sawndip*, 'unfinished characters' modelled on Chinese, used for folk songs, religious texts and contracts. In 1957 the government introduced a Latin-based alphabet for Northern Zhuang, revised in 1982, but Chinese dominates education and public life."
+    },
+    {
+      "title": "Sounds of the North",
+      "body": "Northern Tai is defined as much by what it lacks as by what it has. Its languages have no aspirated stops: where Thai and the Central Tai languages distinguish *p* from *ph* and *t* from *th*, Northern Zhuang and Bouyei have one series. They also show distinctive reflexes of old consonant clusters. Standard Zhuang, based on the Wuming dialect, says `ɣam` for 'water' and `ɣok` for 'bird', where Thai has *náam* and *nók*.\n\nThe official Latin alphabet makes these sounds visible in an unusual way. Tones are written with final letters rather than accents: *z*, *j*, *x*, *q* and *h* mark tones 2 to 6, and tone 1 is left unmarked. So 'water' is *raemx* and 'fire' is *feiz*, with *r* standing for `ɣ`. The same system, with small differences, was used for Bouyei.\n\nSaek, the outlier, is spoken far from the rest of the group, along the Mekong in central Laos and in Nakhon Phanom province of Thailand, surrounded by Lao. William Gedney's work in the 1970s showed that it keeps Northern Tai features and several old distinctions lost in other Tai languages, which makes it valuable for reconstructing Proto-Tai."
     }
   ],
   "turning_points": [
@@ -41,5 +45,17 @@
     }
   ],
   "contested_classifications": [],
-  "figure_ids": []
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 12 million",
+    "vitality": "mixed",
+    "note": "Uncertain: Chinese censuses count ethnicity, not language (19.6 million Zhuang and 3.6 million Bouyei in 2020), and many urban Zhuang no longer speak it; Saek, with a few tens of thousands of speakers in Laos and Thailand, is endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "National Bureau of Statistics of China. 2022. China Population Census Yearbook 2020. Beijing: China Statistics Press.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 12 million" }
+  ]
 }
