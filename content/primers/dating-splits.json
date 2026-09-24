@@ -1,0 +1,31 @@
+{
+  "slug": "dating-splits",
+  "order": 3,
+  "title": "How splits are dated",
+  "summary": "Where the dates on the trees come from, and why most of them are ranges.",
+  "chapters": [
+    {
+      "title": "Relative Before Absolute",
+      "body": "Linguistic evidence on its own gives order, not dates. From the comparative method we know that Proto-Germanic came before Old English, and that Grimm's law applied before Verner's law. Turning that order into years needs something else: a written record, an archaeological link, or a statistical model. Each of these has its own uncertainties, and a date on a tree is usually a combination of them. That is why the trees on this site give most early dates as broad ranges, and mark disputed ones."
+    },
+    {
+      "title": "Written Records and Loanwords",
+      "body": "The firmest anchors are texts. Hittite tablets from about 1650 BCE show that Anatolian had split from the rest of Indo-European by then. The Orkhon inscriptions of the 8th century fix Old Turkic, and Middle Korean texts in Hangul fix the state of Korean in the 15th century.\n\nLoanwords give dates indirectly. If a language borrowed a word from a neighbour whose history is known, the borrowing can be dated by its form. Finnic words taken from Germanic and Baltic, or Southwestern Tai words taken from Chinese at a known stage of Chinese pronunciation, give a window for when the borrowers were where. Pittayawat Pittayaporn's dating of the Southwestern Tai spread, on the **Kra-Dai** tree, uses exactly this kind of evidence."
+    },
+    {
+      "title": "Words and Archaeology",
+      "body": "If a word can be reconstructed for a proto-language, the thing it names was presumably known to its speakers. Proto-Indo-European has words for the wheel and the wagon, so it cannot be much older than wheeled vehicles, around 3500 BCE. Words for crops, animals and trees can point to a landscape and a period. This method, sometimes called **linguistic palaeontology**, is suggestive rather than decisive: words can change meaning, be borrowed later, or survive by chance in only a few branches.\n\nLinking a language to an archaeological culture, or to ancient DNA, is another approach. It can be persuasive when several lines of evidence agree, but pots and genes do not speak, and population movement and language spread do not always coincide."
+    },
+    {
+      "title": "Counting Changes",
+      "body": "**Glottochronology**, proposed by Morris Swadesh in the 1950s, assumed that languages replace basic vocabulary at a constant rate, so the proportion of shared words gives the time since a split. The constant rate turned out not to hold, and the method is now rarely trusted.\n\nIts modern successor is **Bayesian phylogenetics**, borrowed from evolutionary biology. It estimates trees and dates from cognate data while allowing rates to vary between words and branches, and it anchors the results to known dates from texts and history. Studies of this kind have produced dates for Indo-European, Austronesian, Sino-Tibetan, Bantu and other families. They give ranges with explicit uncertainty, but their results still depend on the cognate judgements and calibrations fed into them, and specialists disagree about how much weight to give them."
+    }
+  ],
+  "sources": [
+    { "citation": "Campbell, Lyle. 2013. Historical Linguistics: An Introduction, 3rd ed. Edinburgh: Edinburgh University Press.", "url": null },
+    { "citation": "Mallory, J. P. & D. Q. Adams. 2006. The Oxford Introduction to Proto-Indo-European and the Proto-Indo-European World. Oxford: Oxford University Press.", "url": null },
+    { "citation": "Swadesh, Morris. 1955. Towards greater accuracy in lexicostatistic dating. International Journal of American Linguistics 21(2): 121–137.", "url": null },
+    { "citation": "Gray, Russell D. & Quentin D. Atkinson. 2003. Language-tree divergence times support the Anatolian theory of Indo-European origin. Nature 426: 435–439.", "url": null },
+    { "citation": "Pittayaporn, Pittayawat. 2014. Layers of Chinese loanwords in Proto-Southwestern Tai as evidence for the dating of the spread of Southwestern Tai. MANUSYA: Journal of Humanities, Special Issue 20.", "url": null }
+  ]
+}
