@@ -1,0 +1,13 @@
+{
+  "slug": "uto-aztecan",
+  "name": "Uto-Aztecan",
+  "superfamily": null,
+  "summary": "About thirty languages stretching from Idaho and Oregon to El Salvador. They include Nahuatl, the language of the Aztec empire; Hopi of the Arizona mesas; Comanche, Shoshone and Paiute of the Great Basin and Plains; and Yaqui, Rarámuri and O'odham of the Sonoran borderlands. It is one of the best-established language families of the Americas, although where it began, among desert foragers or among early maize farmers, is still argued.",
+  "root_branch_id": "proto-uto-aztecan",
+  "buried_root": { "name": "No proven deeper root", "note": "Aztec-Tanoan? · disputed", "proven": false },
+  "accent": { "light": "150 34 112", "dark": "236 132 204" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Uto-Aztecan (utoa1244).", "url": "https://glottolog.org/resource/languoid/id/utoa1244" },
+    { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+  ]
+}
