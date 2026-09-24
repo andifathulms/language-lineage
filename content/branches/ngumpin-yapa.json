@@ -1,0 +1,100 @@
+{
+  "id": "ngumpin-yapa",
+  "family": "pama-nyungan",
+  "name": "Ngumpin-Yapa",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "Undated (a shallow subgroup) – present",
+  "region": "The Tanami Desert and the Victoria River District of the Northern Territory, west into the southern Kimberley of Western Australia",
+  "defining_innovation": "A bundle of shared innovations in sounds, verb and pronoun morphology and basic vocabulary, set out by McConvell and Laughren (2004), unites the Ngumpin languages of the Victoria River and Kimberley country with the Yapa languages, Warlpiri and Warlmanpa, of the Tanami Desert.",
+  "descendants": ["Warlpiri", "Warlmanpa", "Gurindji", "Mudburra", "Bilinarra", "Ngarinyman", "Jaru", "Walmajarri"],
+  "chapters": [
+    {
+      "title": "Desert and River Country",
+      "body": "**Ngumpin-Yapa** is a group of about a dozen closely related languages spoken across the Tanami Desert and the country to its north and west. Its Yapa branch is Warlpiri and Warlmanpa, in the Tanami. Its Ngumpin branch stretches from the Victoria River District of the Northern Territory into the southern Kimberley of Western Australia: Gurindji, Bilinarra, Ngarinyman and Mudburra in the east, and Jaru, Walmajarri and Ngardi in the west. *Yapa* is the Warlpiri word for an Aboriginal person, and *ngumpin* is a word for 'man' in several Ngumpin languages.\n\nEarlier classifications treated Ngumpin and Yapa (then called Ngarrka) as separate groups. Patrick McConvell and Mary Laughren (2004) showed that they share a set of innovations in sound, grammar and vocabulary, and so descend from a single ancestor within Pama-Nyungan. The languages are close enough that the group is thought to have spread relatively recently, but when, and in which direction, is debated.\n\nWarlpiri is by far the largest, with about 2,600 people using it at home in the 2021 census, mostly in Yuendumu, Lajamanu, Willowra and Nyirrpi, and it is still learned by children. Kenneth Hale's work on it from the late 1950s made it one of the most closely studied Australian languages. Gurindji country is the setting of the 1966 Wave Hill walk-off, a turning point in the Aboriginal land rights movement."
+    },
+    {
+      "title": "Free Word Order and New Mixed Languages",
+      "body": "Warlpiri is the textbook example of free word order. In *Ngarrka-ngku ka wawirri panti-rni* 'The man is spearing the kangaroo', the ergative suffix *-ngku* marks the man as the doer, so the nouns and the verb can appear in almost any order. The one fixed point is the auxiliary, here *ka*, which comes second in the clause and carries tense and bound pronouns. Hale (1983) used such sentences to argue that some languages lack the fixed phrase structure of English, an idea known as non-configurationality that is still debated in syntactic theory.\n\nThe group has also produced two of the best-documented new languages in Australia. **Light Warlpiri**, described by Carmel O'Shannessy (2005), arose at Lajamanu from the 1970s and 1980s; it combines Warlpiri noun endings with verbs drawn largely from English and Kriol, and has an auxiliary system of its own. It has about 350 speakers, all under about 40, who also speak Warlpiri. **Gurindji Kriol**, spoken at Kalkaringi and Daguragu, takes its verb structure from Kriol and its nouns and case endings from Gurindji (McConvell and Meakins 2005). Both are the first language of many children, while the older languages are learned alongside them."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 3,500–4,000",
+    "vitality": "mixed",
+    "note": "2021 census home users: Warlpiri c. 2,600, Gurindji c. 600, Walmajarri c. 300; Jaru, Mudburra, Ngarinyman, Bilinarra and Warlmanpa have far fewer. Warlpiri is still learned by children; the smaller languages are endangered. Not counted here: Light Warlpiri (about 350 speakers) and Gurindji Kriol, mixed languages that grew out of the group. Census figures count people who use a language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "O'Shannessy, Carmel. 2005. Light Warlpiri: a new language. Australian Journal of Linguistics 25(1): 31–57.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "c. 3,500–4,000" }
+  ],
+  "sample": {
+    "language": "Warlpiri",
+    "text": "Ngarrka-ngku ka wawirri panti-rni.",
+    "gloss": "man-ERG PRES kangaroo spear-NPST",
+    "translation": "The man is spearing the kangaroo.",
+    "sources": [
+      { "citation": "Hale, Kenneth. 1983. Warlpiri and the grammar of non-configurational languages. Natural Language and Linguistic Theory 1(1): 5–47.", "url": null }
+    ]
+  },
+  "turning_points": [
+    {
+      "id": "tp-ngumpin-yapa-spread",
+      "branch_id": "ngumpin-yapa",
+      "date": "Undated",
+      "type": "SPLIT",
+      "title": "One group, two halves",
+      "description": "The ancestor of Ngumpin and Yapa separates from other Pama-Nyungan languages, and its descendants spread across the Tanami and into the Victoria River country. The languages' closeness suggests a fairly recent spread, but its date and direction are disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "McConvell, Patrick & Mary Laughren. 2004. The Ngumpin-Yapa subgroup. In Australian Languages: Classification and the Comparative Method, ed. Claire Bowern & Harold Koch, 151–177. Amsterdam: John Benjamins.", "url": null },
+        { "citation": "McConvell, Patrick. 1996. Backtracking to Babel: the chronology of Pama-Nyungan expansion in Australia. Archaeology in Oceania 31(3): 125–144.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-wave-hill-walk-off",
+      "branch_id": "ngumpin-yapa",
+      "date": "1966",
+      "type": "CONTACT",
+      "title": "Wave Hill walk-off",
+      "description": "Gurindji stockmen and their families, led by Vincent Lingiari, walk off Wave Hill cattle station in protest at wages and conditions. The strike becomes a claim to their own land; in 1975 the Commonwealth hands part of it back at Daguragu.",
+      "contested": false,
+      "sources": [
+        { "citation": "Meakins, Felicity & Patrick McConvell. 2021. A Grammar of Gurindji. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-yuendumu-bilingual",
+      "branch_id": "ngumpin-yapa",
+      "date": "1974",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Warlpiri in the classroom",
+      "description": "Yuendumu school begins teaching in Warlpiri and English under the Northern Territory bilingual education programme, spreading literacy in the language's Latin-based spelling. Other Warlpiri schools follow; the programme's funding has since been repeatedly cut.",
+      "contested": false,
+      "sources": [
+        { "citation": "Devlin, Brian, Samantha Disbray & Nancy Regine Friedman Devlin, eds. 2017. History of Bilingual Education in the Northern Territory: People, Programs and Policies. Singapore: Springer.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-light-warlpiri-gurindji-kriol",
+      "branch_id": "ngumpin-yapa",
+      "date": "1970s–1980s",
+      "type": "CONTACT",
+      "title": "New mixed languages",
+      "description": "Children at Kalkaringi and Lajamanu grow up speaking Gurindji Kriol and Light Warlpiri, which combine the nouns and case endings of the older language with verbs and verb structure from Kriol and English. Both began in code-switching between adults, but how they became separate languages is still being studied.",
+      "contested": false,
+      "sources": [
+        { "citation": "McConvell, Patrick & Felicity Meakins. 2005. Gurindji Kriol: a mixed language emerges from code-switching. Australian Journal of Linguistics 25(1): 9–30.", "url": null },
+        { "citation": "O'Shannessy, Carmel. 2005. Light Warlpiri: a new language. Australian Journal of Linguistics 25(1): 31–57.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["kenneth-hale", "vincent-lingiari"]
+}
