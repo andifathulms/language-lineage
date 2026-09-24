@@ -1,0 +1,30 @@
+{
+  "slug": "disputed-groupings",
+  "order": 4,
+  "title": "Why some groupings stay disputed",
+  "summary": "What it takes to prove a relationship, why deep proposals rarely get there, and how this site labels them.",
+  "chapters": [
+    {
+      "title": "The Burden of Proof",
+      "body": "A language family is accepted when specialists agree that regular sound correspondences, in basic vocabulary and in grammar, cannot be explained by chance or borrowing. Most of the families on this site passed that test long ago. Many proposals have not: Altaic, Austric, Austro-Tai, Nostratic, Dene-Yeniseian and others. They are not necessarily wrong, but their evidence has not persuaded most of the people best placed to judge it.\n\nThe disagreement is rarely about the facts on the page. It is about whether those facts are enough. Supporters see a pattern; critics see a handful of lookalikes that any two languages would produce."
+    },
+    {
+      "title": "Three Things That Mimic Descent",
+      "body": "**Chance.** With thousands of words and a loose enough notion of similarity, any two languages will share dozens of lookalikes. The larger the time depth, the harder it is to separate signal from noise.\n\n**Borrowing and areal convergence.** Neighbouring languages can come to share vocabulary, sounds and even grammar without being related. Quechua and Aymara, Tai and Chinese, and the languages of the Balkans are well-known cases. Long contact can look very much like common descent.\n\n**Typology.** Some features, such as verb-final word order, suffixes stacked on a root, or vowel harmony, arise independently again and again. Similar structure alone is weak evidence, which is why the Altaic debate has been so hard to settle."
+    },
+    {
+      "title": "Mass Comparison and Its Critics",
+      "body": "In the 1950s Joseph Greenberg classified the languages of Africa by comparing many words across many languages at once, looking for resemblances without first working out sound correspondences. His African classification has largely held up in outline, but when he applied the same method to the Americas, proposing a vast 'Amerind' family, most specialists rejected it. The dispute helped sharpen the standard: resemblances can suggest hypotheses, but proof needs regular correspondences."
+    },
+    {
+      "title": "How This Site Shows Them",
+      "body": "Proposals that have not won general acceptance are drawn outside the tree proper, as dotted arcs or as the 'buried root' beneath the trunk, and each is given a status:\n\n- **Widely accepted**: most specialists agree, though some details are argued over.\n- **Minority position**: serious scholars defend it, but most are not convinced.\n- **Largely rejected**: once proposed, now abandoned by nearly all specialists.\n\nFor each one the site gives the evidence for and against, with sources, and does not decide the question. These labels describe the state of the debate, not the truth, and some will change as new evidence and methods come in."
+    }
+  ],
+  "sources": [
+    { "citation": "Campbell, Lyle & William J. Poser. 2008. Language Classification: History and Method. Cambridge: Cambridge University Press.", "url": null },
+    { "citation": "Ringe, Donald A. 1992. On calculating the factor of chance in language comparison. Transactions of the American Philosophical Society 82(1).", "url": null },
+    { "citation": "Greenberg, Joseph H. 1963. The Languages of Africa. Bloomington: Indiana University Press.", "url": null },
+    { "citation": "Aikhenvald, Alexandra Y. & R. M. W. Dixon, eds. 2001. Areal Diffusion and Genetic Inheritance. Oxford: Oxford University Press.", "url": null }
+  ]
+}
