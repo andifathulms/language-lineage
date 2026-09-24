@@ -1,0 +1,91 @@
+{
+  "id": "corachol",
+  "family": "uto-aztecan",
+  "name": "Corachol",
+  "parent_ids": ["southern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Sierra Madre Occidental of Nayarit, northern Jalisco and neighbouring Durango and Zacatecas, Mexico",
+  "defining_innovation": "Cora and Huichol, two closely related languages that share sound changes found nowhere else in the family except, on one view, in Aztecan. Among them, word-initial `*p` weakened to *h*.",
+  "descendants": ["Cora (Náayeri)", "Huichol (Wixárika)"],
+  "chapters": [
+    {
+      "title": "The Sierra del Nayar",
+      "body": "The Corachol languages are spoken in the rugged canyon country of the Sierra Madre Occidental, where the states of Nayarit, Jalisco, Durango and Zacatecas meet. Cora, whose speakers call themselves Náayeri, is spoken mainly in Nayarit, around Jesús María, Mesa del Nayar and Santa Teresa. Huichol, whose speakers call themselves Wixáritari and their language Wixárika, is spoken to the south and east, chiefly in northern Jalisco and Nayarit. Both peoples farm maize in the mountains, and both have kept a distinctive religious life. The Huichol pilgrimage to Wirikuta in the desert of San Luis Potosí is the best known of its ceremonies.\n\nThe two languages are clearly related but not mutually intelligible. Campbell and Langacker set out the sound changes they share in 1978, and Corachol is one of the best-supported subgroups of **Southern Uto-Aztecan**. Its relation to **Aztecan** is less certain: some scholars see a common ancestor, others centuries of contact.\n\nThe mountains long protected both peoples. The Cora of the Mesa del Nayar held out against Spanish rule until 1722, two centuries after the fall of Tenochtitlan, and the Huichol communities, though later brought under missions, kept much of their autonomy."
+    },
+    {
+      "title": "Space in the Grammar, and the Languages Today",
+      "body": "Cora is known in linguistics for how much of its grammar is about space. Verbs carry prefixes that locate an action relative to the slope of the land, to the speaker and to boundaries, and the same prefixes extend from physical senses such as 'inside' and 'outside' to meanings such as being within view. Eugene Casad and Ronald Langacker made this system a classic study in cognitive grammar in the 1980s, arguing that the meanings follow from how Cora speakers picture the mountainous terrain around them. Huichol has a similarly rich set of verbal prefixes, and both languages build long words out of many small parts.\n\nBoth are still learned by children in many communities. Mexico's 2020 census counted about 60,000 speakers of Huichol and about 33,000 of Cora aged three and over, and since 2003 both have been national languages of Mexico. Huichol in particular has a growing written use in schools, religious texts and the captions of Huichol artists, whose yarn paintings and beadwork have made the Wixárika name widely known. Spanish is nonetheless spreading, especially among families who move to the towns and cities of the lowlands."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 93,000",
+    "vitality": "vulnerable",
+    "note": "About 60,000 Huichol and 33,000 Cora speakers aged three and over (2020 census).",
+    "sources": [
+      { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 93,000" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-corachol-split",
+      "branch_id": "corachol",
+      "date": "c. 1st millennium BCE – 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Cora and Huichol diverge",
+      "description": "The common ancestor of Cora and Huichol splits into the two languages in the Sierra Madre Occidental. The date is a rough estimate, and whether Corachol first shared a period of common development with Aztecan is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle & Ronald W. Langacker. 1978. Proto-Aztecan vowels. International Journal of American Linguistics 44(2–4).", "url": null },
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-conquest-of-nayar",
+      "branch_id": "corachol",
+      "date": "1722",
+      "type": "CONTACT",
+      "title": "The conquest of the Nayar",
+      "description": "Spanish forces take the Mesa del Nayar, the last independent Cora stronghold, and Jesuit missions are founded among the Cora. The Huichol, further from the missions, keep much of their autonomy.",
+      "contested": false,
+      "sources": [
+        { "citation": "Gerhard, Peter. 1982. The North Frontier of New Spain. Princeton: Princeton University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cora-vocabulario",
+      "branch_id": "corachol",
+      "date": "1732",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Ortega's Cora vocabulary",
+      "description": "The Jesuit missionary José de Ortega publishes a Spanish–Cora vocabulary in Mexico City, the first printed work in a Corachol language, written in the Latin alphabet.",
+      "contested": false,
+      "sources": [
+        { "citation": "Ortega, José de. 1732. Vocabulario en lengua castellana y cora. México.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-corachol-aztecan",
+      "branch_id": "corachol",
+      "proposed_grouping": "Corachol-Aztecan: Cora, Huichol and the Aztecan languages share an ancestor within Southern Uto-Aztecan",
+      "status": "minority_position",
+      "evidence_for": "Campbell and Langacker (1978) proposed shared sound changes, among them a change in one of the Proto-Uto-Aztecan vowels and the weakening of word-initial `*p` to *h*, which later disappeared entirely in Nahuatl.",
+      "evidence_against": "Terrence Kaufman and Karen Dakin argue that the shared features are better explained by long contact between neighbouring peoples in western Mexico, and the proposed shared sound changes are few and open to other interpretations. Many classifications list Corachol and Aztecan as separate branches of Southern Uto-Aztecan.",
+      "linked_branch_ids": ["aztecan"],
+      "sources": [
+        { "citation": "Campbell, Lyle & Ronald W. Langacker. 1978. Proto-Aztecan vowels. International Journal of American Linguistics 44(2–4).", "url": null },
+        {
+          "citation": "Dakin, Karen. 2017. Western and Central Nahua dialects: Possible influences from contact with Cora and Huichol. In Karen Dakin, Claudia Parodi & Natalie Operstein (eds.), Language Contact and Change in Mesoamerica and Beyond. Amsterdam: John Benjamins.",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "figure_ids": []
+}

@@ -3,7 +3,7 @@
   "family": "uto-aztecan",
   "name": "Southern Uto-Aztecan",
   "parent_ids": ["proto-uto-aztecan"],
-  "successor_ids": ["tepiman", "taracahitan", "aztecan"],
+  "successor_ids": ["tepiman", "taracahitan", "corachol", "aztecan"],
   "era": "c. 2nd millennium BCE – present",
   "region": "Northwestern and central Mexico, southern Arizona, and Central America",
   "defining_innovation": "The Uto-Aztecan languages of Mexico and the Sonoran borderlands (Tepiman, Taracahitan, Corachol and Aztecan), a grouping more securely established than its northern counterpart.",
@@ -19,9 +19,9 @@
     }
   ],
   "speakers": {
-    "estimate": "c. 1.9 million",
+    "estimate": "c. 2 million",
     "vitality": "mixed",
-    "note": "Cora and Huichol (Corachol), not yet drawn here, add about 93,000 more.",
+    "note": "Mostly Nahuatl speakers; Cora and Huichol (Corachol) account for about 93,000.",
     "sources": [
       { "citation": "INEGI. 2021. Censo de Población y Vivienda 2020: población de 3 años y más hablante de lengua indígena. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": "https://www.inegi.org.mx/programas/ccpv/2020/" },
       { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig (eds.). 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
