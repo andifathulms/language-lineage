@@ -1,0 +1,88 @@
+{
+  "id": "lena-turkic",
+  "family": "turkic",
+  "name": "Lena Turkic",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 13th century CE – present",
+  "region": "The Lena basin of northeastern Siberia and the Taymyr Peninsula",
+  "defining_innovation": "Sakha and Dolgan, the northernmost Turkic languages, which lost initial *s: *sub 'water' is Sakha uu, beside Turkish su.",
+  "descendants": ["Sakha", "Dolgan"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Sakha (Yakut) is spoken in the Sakha Republic, the largest subdivision of Russia, where winter temperatures fall below −60 °C. The ancestors of its speakers came north from the Lake Baikal region, probably between the 13th and 15th centuries, bringing horses and cattle into the Arctic. They kept the animals through the winter in heated barns.\n\nIsolated from the rest of Turkic for centuries, Sakha changed a good deal. It lost initial `*s`, so `*sub` 'water' is *uu* and `*säkiz` 'eight' is *aγïs*. Contact with Mongolic speakers before the migration, and with Evenki and Even herders afterwards, left a large layer of borrowed words, and Sakha's closest Turkic relatives are hard to identify."
+    },
+    {
+      "title": "Sakha and Dolgan Today",
+      "body": "With some 450,000 speakers, Sakha is among the most vigorous indigenous languages of Russia and serves as a lingua franca for smaller groups in the republic. Its first modern alphabet, a Latin-based script devised by **Semyon Novgorodov** in the 1910s and 1920s, was replaced by Cyrillic in 1939.\n\nDolgan, on the Taymyr Peninsula, grew out of Sakha in the 18th and 19th centuries, as Evenki reindeer herders, Sakha and Russian settlers formed a new community that spoke a Sakha-based language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-mongolic-sakha",
+      "branch_id": "lena-turkic",
+      "date": "Before c. 13th century CE",
+      "type": "CONTACT",
+      "title": "Mongolic loanwords",
+      "description": "While still in the south, the ancestors of the Sakha borrow a large share of vocabulary from Mongolic neighbours. It is one of the heaviest Mongolic layers in any Turkic language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Pakendorf, Brigitte. 2007. Contact in the Prehistory of the Sakha (Yakuts): Linguistic and Genetic Perspectives. Utrecht: LOT.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sakha-s-loss",
+      "branch_id": "lena-turkic",
+      "date": "Undated; before the modern records",
+      "type": "SOUND_LAW",
+      "title": "Loss of initial *s",
+      "description": "Initial `*s` disappears: `*sub` 'water' → *uu*, `*säkiz` 'eight' → *aγïs*. It is one of the changes that make Sakha look so unlike the other Turkic languages. When it happened relative to the move north is unclear.",
+      "contested": true,
+      "process": "loss",
+      "notation": "*s- → ∅ (*sub → uu 'water', *säkiz → aγïs 'eight')",
+      "sort_year": 1300,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sakha-migration",
+      "branch_id": "lena-turkic",
+      "date": "c. 13th – 15th century CE",
+      "type": "SPLIT",
+      "title": "North to the Lena",
+      "description": "Horse- and cattle-herding Turkic speakers move from the Baikal region down the Lena into the far north. They separate from the rest of Turkic and absorb Evenki and Even speakers along the way. The date and route are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Pakendorf, Brigitte. 2007. Contact in the Prehistory of the Sakha (Yakuts): Linguistic and Genetic Perspectives. Utrecht: LOT.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-dolgan",
+      "branch_id": "lena-turkic",
+      "date": "18th – 19th century CE",
+      "type": "SPLIT",
+      "title": "Dolgan on the Taymyr",
+      "description": "A mixed community of Evenki, Sakha and Russian origin on the Taymyr Peninsula develops Dolgan, a Sakha-based language that is today counted as separate.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-novgorodov-alphabet",
+      "branch_id": "lena-turkic",
+      "date": "1917 – 1939",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Novgorodov's alphabet",
+      "description": "Semyon Novgorodov creates a Latin-based, largely phonetic alphabet for Sakha, used in schools and print in the 1920s and 1930s before Cyrillic replaces it in 1939.",
+      "contested": false,
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["semyon-novgorodov"]
+}
