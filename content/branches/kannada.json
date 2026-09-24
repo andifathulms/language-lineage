@@ -1,0 +1,76 @@
+{
+  "id": "kannada",
+  "family": "dravidian",
+  "name": "Kannada",
+  "parent_ids": ["south-dravidian-i"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Karnataka and neighbouring areas",
+  "defining_innovation": "Word-initial p became h in Middle Kannada: Tamil pāl 'milk' and pal 'tooth' correspond to Kannada hālu and hallu.",
+  "descendants": ["Kannada", "Badaga"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Kannada, spoken by around 45 million people, has a written record of more than 1,500 years. The Halmidi inscription, usually dated to the mid-5th century CE, is often cited as the earliest Kannada inscription, though its date is disputed. The earliest surviving literary work, the *Kavirājamārga*, a treatise on poetics from the 9th-century court of the Rashtrakuta king Amoghavarsha I, refers to an existing tradition of Kannada poetry. Kannada script developed from the southern Brahmi of the Kadamba and Chalukya dynasties and is close to Telugu script."
+    },
+    {
+      "title": "Old, Middle and Modern",
+      "body": "Kannada changed its sounds visibly over its history. The best-known change is the weakening of initial *p* to *h* in the Middle Kannada period (12th–13th centuries): *pālu* became *hālu* 'milk' and *pattu* became *hattu* 'ten', while Tamil keeps *pāl* and *pattu*. The Badaga of the Nilgiri hills, whose ancestors migrated there from Karnataka, speak a language descended from Kannada. In 2008 Kannada was declared a classical language of India."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-halmidi",
+      "branch_id": "kannada",
+      "date": "c. 450 CE (disputed)",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Halmidi inscription",
+      "description": "An inscription found at Halmidi is usually cited as the oldest Kannada inscription. Its date, based on its script and the dynasty it names, has been questioned, and some scholars place it later.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kavirajamarga",
+      "branch_id": "kannada",
+      "date": "9th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Kavirājamārga",
+      "description": "The oldest surviving Kannada literary work, a treatise on poetics from the Rashtrakuta court, names earlier poets whose work is lost and describes the regional varieties of the language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kannada-p-h",
+      "branch_id": "kannada",
+      "date": "c. 12th – 13th century CE",
+      "type": "SOUND_LAW",
+      "title": "Initial p becomes h",
+      "description": "Word-initial *p* weakens to *h* in Middle Kannada: *pālu* → *hālu* 'milk', *pattu* → *hattu* 'ten'. It happened during the period of written records, so it can be dated from spelling changes in inscriptions.",
+      "contested": false,
+      "process": "lenition",
+      "notation": "p- → h- (pālu → hālu 'milk'; Tamil pāl)",
+      "sort_year": 1150,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kannada-classical",
+      "branch_id": "kannada",
+      "date": "2008",
+      "type": "REVITALIZATION",
+      "title": "Classical language status",
+      "description": "India declares Kannada a classical language, together with Telugu, after campaigns in Karnataka. The status funds research into its early literature.",
+      "contested": false,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
