@@ -257,5 +257,19 @@
     "lifespan": "1810–1849",
     "branch_ids": ["khasian"],
     "turning_point_ids": ["tp-khasi-latin"]
+  },
+  {
+    "id": "andre-georges-haudricourt",
+    "name": "André-Georges Haudricourt",
+    "lifespan": "1911–1996",
+    "branch_ids": ["vietic"],
+    "turning_point_ids": ["tp-vietnamese-tonogenesis"]
+  },
+  {
+    "id": "alexandre-de-rhodes",
+    "name": "Alexandre de Rhodes",
+    "lifespan": "1593–1660",
+    "branch_ids": ["vietic"],
+    "turning_point_ids": ["tp-quoc-ngu"]
   }
 ]

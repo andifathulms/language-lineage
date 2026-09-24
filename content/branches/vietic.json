@@ -1,0 +1,106 @@
+{
+  "id": "vietic",
+  "family": "austroasiatic",
+  "name": "Vietic",
+  "parent_ids": ["proto-austroasiatic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Vietnam and adjacent Laos",
+  "defining_innovation": "Vietnamese, Muong and their small relatives, which became tonal: Vietnamese's six tones grew out of lost final consonants and the loss of voiced initial consonants.",
+  "descendants": ["Vietnamese", "Muong", "Chut", "Thavung"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Vietic languages are spoken in Vietnam and the hills of neighbouring Laos. Vietnamese, with some 85 million speakers, is by far the largest Austroasiatic language. Muong, spoken in the hills of northern Vietnam, is its closest relative, and small languages such as Chut and Thavung preserve older features the major languages lost. Proto-Vietic was probably spoken in north-central Vietnam in the first millennium BCE."
+    },
+    {
+      "title": "A Thousand Years of Chinese Rule",
+      "body": "From 111 BCE to 938 CE, northern Vietnam was ruled by Chinese dynasties. Even after independence, Classical Chinese remained the language of government, scholarship and examinations until the early 20th century. Vietnamese absorbed an enormous layer of 'Sino-Vietnamese' vocabulary, which today accounts for much of its learned and abstract vocabulary. From about the 13th century, Vietnamese was also written in *chữ Nôm*, a script that adapted Chinese characters for native words."
+    },
+    {
+      "title": "Tones and Quốc Ngữ",
+      "body": "Vietnamese has six tones, and for a long time this led scholars to classify it with Tai or Chinese. In 1954 **André-Georges Haudricourt** showed how the tones arose. Syllables that once ended in a glottal stop developed rising tones, those that ended in *-h* (earlier *-s*) developed falling tones, and later the loss of voiced initial consonants split each tone in two. Tones could thus develop in a language that was originally toneless, and Vietnamese's place in Austroasiatic was secured.\n\nIn the 17th century Portuguese and French Jesuits developed a Latin alphabet with diacritics for tones and vowels. **Alexandre de Rhodes** published a Vietnamese–Portuguese–Latin dictionary in it in 1651. Under French rule this *quốc ngữ* ('national script') spread, and after 1945 it became the standard script of Vietnam."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-chinese-rule-vietnam",
+      "branch_id": "vietic",
+      "date": "111 BCE – 938 CE and after",
+      "type": "CONTACT",
+      "title": "Chinese rule and Sino-Vietnamese",
+      "description": "A millennium of Chinese rule, followed by centuries of Classical Chinese as the written language of state, gives Vietnamese a vast Sino-Vietnamese vocabulary with its own systematic pronunciations of Chinese characters.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-vietnamese-tonogenesis",
+      "branch_id": "vietic",
+      "date": "c. 6th – 12th century CE",
+      "type": "SOUND_LAW",
+      "title": "Vietnamese tonogenesis",
+      "description": "Final glottal stops give rise to rising tones, final *-h* (from *-s*) to falling tones, and the later devoicing of initial consonants splits each tone into high and low, for six tones in all. Haudricourt's account became the standard model of how tones arise.",
+      "contested": false,
+      "process": "prosody",
+      "notation": "*-ʔ → rising · *-h (< *-s) → falling · voiced onsets → low register: 3 × 2 = 6 tones",
+      "sort_year": 900,
+      "sources": [
+        { "citation": "Haudricourt, André-Georges. 1954. De l'origine des tons en vietnamien. Journal Asiatique 242.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chu-nom",
+      "branch_id": "vietic",
+      "date": "c. 13th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Chữ Nôm",
+      "description": "Vietnamese writers adapt Chinese characters, combining them for sound and meaning, to write their own language, and a vernacular literature follows. When the script began is debated, and it was never standardised.",
+      "contested": true,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-quoc-ngu",
+      "branch_id": "vietic",
+      "date": "1620s – 1651",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Quốc ngữ: Vietnamese in Latin letters",
+      "description": "Jesuit missionaries, working with Vietnamese converts, create a Latin alphabet with diacritics for vowels and tones. Alexandre de Rhodes's dictionary of 1651 fixes much of it.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-vietnamese-national",
+      "branch_id": "vietic",
+      "date": "1945",
+      "type": "REVITALIZATION",
+      "title": "Vietnamese as the language of state",
+      "description": "With independence in 1945, Vietnamese written in *quốc ngữ* replaces French and Classical Chinese in government and education, backed by a mass literacy campaign.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-vietnamese-tai",
+      "branch_id": "vietic",
+      "proposed_grouping": "Vietnamese as Tai (or Sino-Tibetan): Vietnamese belongs with Thai or Chinese, not with Mon-Khmer",
+      "status": "largely_rejected",
+      "evidence_for": "Henri Maspero (1912) pointed to Vietnamese's tones, monosyllabic words and vocabulary shared with Tai and Chinese, which made it look like its northern neighbours.",
+      "evidence_against": "Haudricourt showed that the tones developed late and regularly from final consonants, and that the basic vocabulary (body parts, numerals, pronouns) matches the Austroasiatic languages. The shared Tai and Chinese words are loans. Vietnamese's Austroasiatic affiliation is no longer disputed.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Maspero, Henri. 1912. Études sur la phonétique historique de la langue annamite: les initiales. Bulletin de l'École française d'Extrême-Orient 12.", "url": null },
+        { "citation": "Haudricourt, André-Georges. 1954. De l'origine des tons en vietnamien. Journal Asiatique 242.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["andre-georges-haudricourt", "alexandre-de-rhodes"]
+}
