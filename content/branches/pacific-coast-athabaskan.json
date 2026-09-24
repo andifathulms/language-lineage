@@ -1,0 +1,45 @@
+{
+  "id": "pacific-coast-athabaskan",
+  "family": "na-dene",
+  "name": "Pacific Coast Athabaskan",
+  "parent_ids": ["athabaskan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Southwestern Oregon and northwestern California",
+  "defining_innovation": "Hupa, Tolowa and their neighbours, far from the northern Athabaskan homeland. Most of these languages were silenced after the California Gold Rush.",
+  "descendants": ["Hupa", "Tolowa", "Tututni", "Mattole †", "Wailaki †", "Kato †"],
+  "chapters": [
+    {
+      "title": "The Coast Group",
+      "body": "Athabaskan speakers reached the coast of Oregon and northern California about a thousand years ago and adopted the salmon-and-acorn way of life of their neighbours, the Yurok and Karuk. Hupa, in the Hoopa Valley, is one of the best documented Native languages of California, recorded by Pliny Earle Goddard in the early 1900s and later by Edward Sapir. Violence and dispossession after the Gold Rush of 1849 destroyed many of these communities, and most of the languages ceased to be spoken during the 20th century. Hupa and Tolowa are now taught in revival programmes."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pca-migration",
+      "branch_id": "pacific-coast-athabaskan",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "South to the coast",
+      "description": "Athabaskan-speaking groups settle along the rivers and coast of Oregon and northern California. Whether they came in one migration or several is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-pca-gold-rush",
+      "branch_id": "pacific-coast-athabaskan",
+      "date": "1850s – 20th century",
+      "type": "EXTINCTION",
+      "title": "After the Gold Rush",
+      "description": "Massacres, disease and removal after 1849 shatter Athabaskan communities in California and Oregon. Mattole, Wailaki, Kato and most other coast languages lose their last speakers in the 20th century.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
