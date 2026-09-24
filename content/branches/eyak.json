@@ -1,0 +1,45 @@
+{
+  "id": "eyak",
+  "family": "na-dene",
+  "name": "Eyak",
+  "parent_ids": ["athabaskan-eyak"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – 2008",
+  "region": "The Copper River delta around Cordova, south-central Alaska",
+  "defining_innovation": "A single language, the only sister of the whole Athabaskan branch. Its last first-language speaker died in 2008.",
+  "descendants": ["Eyak †"],
+  "chapters": [
+    {
+      "title": "The Last Speaker",
+      "body": "Eyak was spoken in a few villages near the mouth of the Copper River, between Tlingit to the east and the Alutiiq (Sugpiaq) to the west, and was already declining when it was first recorded. **Michael Krauss** worked with its last speakers from the 1960s and produced a dictionary and a large body of texts. The last, Marie Smith Jones, died in 2008, and her death drew worldwide attention to language loss.\n\nThanks to Krauss's documentation Eyak can still be learned, and since the 2010s a small group of learners, including a Frenchman who taught himself from the materials, has worked to bring it back into use."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-eyak-documentation",
+      "branch_id": "eyak",
+      "date": "1930s – 1970s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Recording Eyak",
+      "description": "Frederica de Laguna records Eyak in the 1930s, and from the 1960s Michael Krauss documents it with its last speakers, producing a dictionary, grammar notes and texts.",
+      "contested": false,
+      "sources": [
+        { "citation": "Krauss, Michael E. 2006. A history of Eyak language documentation and study: Fredericæ de Laguna in memoriam. Arctic Anthropology 43(2): 172–217.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-eyak-extinction",
+      "branch_id": "eyak",
+      "date": "2008",
+      "type": "EXTINCTION",
+      "title": "Marie Smith Jones",
+      "description": "Marie Smith Jones, the last first-language speaker of Eyak, dies in Anchorage on 21 January 2008.",
+      "contested": false,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["michael-krauss"]
+}
