@@ -37,5 +37,95 @@
       "url": "https://doi.org/10.1093/jole/lzz010"
     },
     { "citation": "Johanson, Lars. 2021. Turkic. Cambridge: Cambridge University Press.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Read each row across. The Common Turkic languages (Turkish, Kazakh, Uzbek and Sakha) are often nearly identical, and the differences between them are regular: Turkish voices some initial *t-* to *d-*, Kazakh has *j-* where the others have *y-*, and Sakha has lost initial *s-*. Chuvash, the only living descendant of **Oghur**, looks the most different, but its differences are just as regular. Watch its *r* where the others have *z* ('nine', 'eight', 'hundred') and its *l* where they have *š* ('stone').",
+    "proto_label": "Proto-Turkic",
+    "languages": [
+      { "name": "Chuvash", "branch_id": "oghur" },
+      { "name": "Turkish", "branch_id": "oghuz" },
+      { "name": "Kazakh", "branch_id": "kipchak" },
+      { "name": "Uzbek", "branch_id": "karluk" },
+      { "name": "Sakha", "branch_id": "lena-turkic" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "sub",
+        "forms": ["šïv", "su", "su", "suv", "uu"]
+      },
+      {
+        "gloss": "horse",
+        "proto": "at",
+        "forms": ["ut", "at", "at", "ot", "at"]
+      },
+      {
+        "gloss": "blood",
+        "proto": "kān",
+        "forms": ["jun", "kan", "qan", "qon", "xaan"]
+      },
+      {
+        "gloss": "year",
+        "proto": "yïl",
+        "forms": ["śul", "yıl", "jıl", "yil", "sïl"]
+      },
+      {
+        "gloss": "hundred",
+        "proto": "yüz",
+        "forms": ["śĕr", "yüz", "jüz", "yuz", "süüs"]
+      },
+      {
+        "gloss": "nine",
+        "proto": "tokuz",
+        "forms": ["tăxăr", "dokuz", "toğız", "toʻqqiz", "toγus"]
+      },
+      {
+        "gloss": "eight",
+        "proto": "säkiz",
+        "forms": ["sakăr", "sekiz", "segiz", "sakkiz", "aγïs"]
+      },
+      {
+        "gloss": "stone",
+        "proto": "tāš",
+        "forms": ["čul", "taş", "tas", "tosh", "taas"]
+      },
+      {
+        "gloss": "iron",
+        "proto": "temür",
+        "forms": ["timĕr", "demir", "temir", "temir", "timir"]
+      },
+      {
+        "gloss": "come",
+        "proto": "käl-",
+        "forms": ["kil-", "gel-", "kel-", "kel-", "kel-"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*z",
+        "reflexes": ["r", "z", "z", "z", "s"],
+        "rows": [4, 5, 6]
+      },
+      {
+        "label": "*š",
+        "reflexes": ["l", "ş", "s", "sh", "s"],
+        "rows": [7]
+      },
+      {
+        "label": "*y-",
+        "reflexes": ["ś", "y", "j", "y", "s"],
+        "rows": [3, 4]
+      },
+      {
+        "label": "*t-",
+        "reflexes": ["t", "d", "t", "t", "t"],
+        "rows": [5, 8]
+      }
+    ],
+    "sources": [
+      { "citation": "Clauson, Gerard. 1972. An Etymological Dictionary of Pre-Thirteenth-Century Turkish. Oxford: Clarendon Press.", "url": null },
+      { "citation": "Räsänen, Martti. 1969. Versuch eines etymologischen Wörterbuchs der Türksprachen. Helsinki: Suomalais-Ugrilainen Seura.", "url": null },
+      { "citation": "Johanson, Lars & Éva Ágnes Csató (eds.). 1998. The Turkic Languages. London: Routledge.", "url": null }
+    ]
+  }
 }
