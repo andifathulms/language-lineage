@@ -1,0 +1,106 @@
+{
+  "id": "south-siberian-turkic",
+  "family": "turkic",
+  "name": "South Siberian Turkic",
+  "parent_ids": ["common-turkic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The Sayan and Altai uplands and the upper Yenisei: Tuva, Khakassia, the northern Altai Republic, Mountain Shoria, and parts of Irkutsk and Tomsk regions in Russia, with outliers in western Mongolia and northern China",
+  "defining_innovation": "The Turkic languages of the Sayan–Altai uplands, held together as much by long contact as by shared innovations. Within the group the treatment of Proto-Turkic `*d` divides them: the Sayan languages keep it (Tuvan *adak* 'foot'), while the Khakas group turns it into *z* (*azax*).",
+  "descendants": ["Tuvan", "Tofa", "Khakas", "Shor", "Northern Altai", "Chulym"],
+  "chapters": [
+    {
+      "title": "Between the Sayan and the Altai",
+      "body": "The South Siberian Turkic languages are spoken in the mountains and river valleys where Russia meets Mongolia: **Tuvan** in Tuva, **Tofa** on the northern slopes of the Eastern Sayan, **Khakas** in the Minusinsk basin of the Yenisei, **Shor** in the forests of Mountain Shoria, **Chulym** along a tributary of the Ob, and the northern varieties of Altai. Most classifications split them into a Sayan group (Tuvan, Tofa) and a Yenisei group (Khakas, Shor, Chulym, Northern Altai). Southern Altai, spoken in the same republic as Northern Altai, is usually placed with Kyrgyz in **Kipchak** instead.\n\nThis is one of the oldest Turkic-speaking regions. Runic inscriptions from the upper Yenisei, many of them funerary stones, are among the earliest Turkic texts, and the Yenisei Kyrgyz who ruled here destroyed the Uyghur khaganate in 840. Over the following millennium Turkic spread through the taiga at the expense of other languages: many Khakas, Shor, Tofa and Chulym speakers descend from speakers of Samoyedic and Yeniseian languages who shifted to Turkic, some as late as the 19th century.\n\nThe group is partly defined by geography. Its members differ in basic sound changes, and even the two main Shor dialects fall on opposite sides of the `*d` boundary: Mrassu Shor says *azaq* 'foot', Kondoma Shor *ayaq*. Johanson and others join these languages with Sakha in a wider Siberian branch, but how far any of these groupings reflect common descent rather than centuries of contact is still debated."
+    },
+    {
+      "title": "Tuvan and the Small Languages",
+      "body": "The languages of the group are in very different situations. **Tuvan** is the strongest. In 2021 about 250,000 people in Russia reported speaking it, most of them in Tuva, where Tuvans are a large majority and the language is used at home, in schools and in the media. Tuva was nominally independent as the Tuvan People's Republic from 1921 until it joined the Soviet Union in 1944, and Tuvan was written first in a Latin alphabet and then in Cyrillic. Smaller Tuvan-speaking communities live across the border in western Mongolia and in Xinjiang.\n\nTuvan is known for its vowels. Besides short and long vowels it has short vowels said with a low, often creaky pitch, so that *at* 'name' is distinct from *àt* (written аът) 'horse'. The contrast is linked to the old Proto-Turkic distinction of vowel length.\n\nThe others are much weaker. Khakas had about 29,000 speakers in 2021, out of some 60,000 ethnic Khakas, and is little passed on to children. Shor has a few thousand speakers, and Tofa and Chulym only a few dozen elderly ones each. Much of what is known of the smallest languages comes from documentation since the 1990s, including work on Tofa and Middle Chulym by K. David Harrison and Gregory Anderson."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 300,000",
+    "vitality": "mixed",
+    "note": "Mostly Tuvan speakers (about 250,000 in Russia in 2021). Khakas had about 29,000 speakers; Shor, Tofa and Chulym are severely or critically endangered.",
+    "sources": [
+      { "citation": "Rosstat. 2023. All-Russian Population Census 2021, vol. 5: National Composition and Language Proficiency. Moscow: Federal State Statistics Service.", "url": null },
+      { "citation": "Moseley, Christopher (ed.). 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "RUS", "name": "Russia", "speakers": "c. 290,000" },
+    { "iso": "MNG", "name": "Mongolia", "speakers": "a few thousand (Tuvan and Dukha)" },
+    { "iso": "CHN", "name": "China", "speakers": "a few thousand (Tuvan in Xinjiang)" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-yenisei-inscriptions",
+      "branch_id": "south-siberian-turkic",
+      "date": "c. 8th – 10th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Yenisei inscriptions",
+      "description": "Short runic inscriptions, mostly epitaphs, are carved on stones in the upper Yenisei basin in what is now Tuva and Khakassia, usually linked to the Yenisei Kyrgyz. Their dating, and how their language relates to the modern South Siberian languages, are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kormušin, Igor' V. 1997. Tjurkskie enisejskie epitafii: teksty i issledovanija. Moscow: Nauka.", "url": null },
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-khakas-d-z",
+      "branch_id": "south-siberian-turkic",
+      "date": "Undated; after the Old Turkic period",
+      "type": "SOUND_LAW",
+      "title": "*d becomes z",
+      "description": "In Khakas, Mrassu Shor and Middle Chulym, Proto-Turkic `*d` between vowels and at the end of words becomes *z*: `*adaq` 'foot' is Khakas *azax*, where the Sayan languages keep *d* (Tuvan *adak*) and most other Turkic languages have *y* (Turkish *ayak*). It is the classic criterion for dividing the South Siberian languages, but when it happened is unknown.",
+      "contested": true,
+      "process": "lenition",
+      "notation": "*d → z (*adaq → Khakas azax 'foot')",
+      "sort_year": 1300,
+      "sources": [
+        { "citation": "Menges, Karl H. 1995. The Turkic Languages and Peoples: An Introduction to Turkic Studies, 2nd ed. Wiesbaden: Harrassowitz.", "url": null },
+        { "citation": "Johanson, Lars & Éva Á. Csató, eds. 2022. The Turkic Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-siberian-shift-to-turkic",
+      "branch_id": "south-siberian-turkic",
+      "date": "c. 17th – 19th century CE",
+      "type": "CONTACT",
+      "title": "Shift from Samoyedic and Yeniseian",
+      "description": "Speakers of Samoyedic languages such as Kamassian and Mator, and of Yeniseian languages such as Kott and Arin, gradually shift to Turkic (or to Russian). Kott was recorded in the 1840s, not long before it ceased to be spoken. These groups leave traces in the vocabulary and place names of the region.",
+      "contested": false,
+      "sources": [
+        { "citation": "Vajda, Edward J. 2001. Yeniseian Peoples and Languages: A History of Yeniseian Studies with an Annotated Bibliography and a Source Guide. Richmond: Curzon.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tuvan-alphabets",
+      "branch_id": "south-siberian-turkic",
+      "date": "1930 – 1940s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Tuvan alphabets",
+      "description": "The Tuvan People's Republic introduces a Latin-based alphabet for Tuvan in 1930, replacing Mongolian as the written language. It is replaced by Cyrillic in the early 1940s, shortly before Tuva joins the Soviet Union in 1944.",
+      "contested": false,
+      "sources": [
+        { "citation": "Anderson, Gregory D. S. & K. David Harrison. 1999. Tyvan. Munich: Lincom Europa.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-south-siberian-unity",
+      "branch_id": "south-siberian-turkic",
+      "proposed_grouping": "South Siberian Turkic as a single genealogical branch",
+      "status": "widely_accepted",
+      "evidence_for": "Standard classifications, including Johanson's and Glottolog's, recognise a South Siberian group with Sayan and Yenisei subgroups. Its members share a number of sound changes and much vocabulary, and Johanson joins it with Sakha–Dolgan in a wider Northeastern (Siberian) branch.",
+      "evidence_against": "The group's members differ in diagnostic sound changes such as the reflex of `*d`, which even splits the two main Shor dialects, and many shared features could come from centuries of contact and a common substrate of Samoyedic and Yeniseian speakers. Its boundaries are also unstable: Southern Altai is usually placed in Kipchak, Kyrgyz has Siberian features, and West Yugur in China may be of South Siberian origin. Glottolog does not group Sakha with it.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Johanson, Lars & Éva Ágnes Csató (eds.). 1998. The Turkic Languages. London: Routledge.", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: South Siberian Turkic (sout2693).", "url": "https://glottolog.org/resource/languoid/id/sout2693" }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
