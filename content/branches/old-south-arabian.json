@@ -1,0 +1,108 @@
+{
+  "id": "old-south-arabian",
+  "family": "semitic",
+  "name": "Old South Arabian",
+  "parent_ids": ["west-semitic"],
+  "successor_ids": [],
+  "era": "c. 10th–8th century BCE – 6th century CE",
+  "region": "The ancient kingdoms of Yemen (Saba, Maʿin, Qataban and Hadramawt), with outposts in the Hejaz and the Ethiopian highlands",
+  "defining_innovation": "A definite article placed after the noun, `-n` (Sabaic *mlkn* 'the king'), set against `-m` on indefinite nouns (*mlkm* 'a king').",
+  "extinct": true,
+  "descendants": ["Sabaic †", "Minaic †", "Qatabanic †", "Hadramitic †"],
+  "chapters": [
+    {
+      "title": "The Languages of Sheba",
+      "body": "Old South Arabian is the name given to four closely related languages written in the kingdoms of ancient Yemen: **Sabaic**, of Saba (the biblical Sheba) with its capital at Marib; **Minaic**, of the kingdom of Maʿin in the Jawf valley; **Qatabanic**, of Qataban; and **Hadramitic**, of Hadramawt. They are known from thousands of inscriptions on stone and bronze, from the early first millennium BCE to the 6th century CE. The kingdoms grew rich on the incense trade, and Minaean merchants left inscriptions far to the north, at Dedan in the Hejaz, and as far away as Egypt and the Aegean island of Delos.\n\nSabaic is by far the best attested and lasted longest. Minaic, Qatabanic and Hadramitic stopped being written as their kingdoms were absorbed by their neighbours, and by about 300 CE, when Himyar had united the south, Sabaic was the only written language left. The last dated inscriptions come from the mid-6th century, not long before Arabic replaced it.\n\nThe name suggests an ancestor of the Modern South Arabian languages, but it is not one: those languages are a separate branch. How Old South Arabian itself fits into West Semitic is uncertain, partly because its script does not show vowels."
+    },
+    {
+      "title": "The Musnad Script",
+      "body": "The inscriptions use an alphabet of 29 letters, called *musnad* by later Arab writers. It descends from the same early alphabetic invention as the Levantine scripts, and it is the ancestor of the Ge'ez script of Ethiopia. Its letters keep apart all the consonants reconstructed for Proto-Semitic, including three sibilants usually transcribed *s₁*, *s₂* and *s₃*, whose exact pronunciation is debated. Like other early Semitic scripts it writes consonants only; short vowels and doubled consonants are never marked, so much of the grammar has to be inferred.\n\nWhat can be seen shows real differences between the four languages. Sabaic forms causative verbs with a prefix *h-* and uses *h-* in its third-person pronouns, while Minaic, Qatabanic and Hadramitic use *s-* in both places, the older pattern also found in Akkadian (*š-*). For this reason some scholars treat Sabaic as one group and the other three as another.\n\nThe monumental inscriptions are formal and formulaic. Since the 1970s, several thousand palm-leaf stalks and wooden sticks inscribed in a cursive form of the script have come to light, carrying letters, contracts and writing exercises, and they give a rare view of everyday Sabaic."
+    }
+  ],
+  "speakers": {
+    "estimate": "None (extinct since the 6th–7th century CE)",
+    "vitality": "extinct",
+    "note": "The written record ends in the mid-6th century CE. How long Sabaic continued to be spoken after Arabic became dominant is unknown.",
+    "sources": [
+      { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "YEM", "name": "Yemen" },
+    { "iso": "SAU", "name": "Saudi Arabia" },
+    { "iso": "OMN", "name": "Oman" },
+    { "iso": "ETH", "name": "Ethiopia" },
+    { "iso": "ERI", "name": "Eritrea" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-osa-earliest-inscriptions",
+      "branch_id": "old-south-arabian",
+      "date": "c. 10th – 8th century BCE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The first Sabaic inscriptions",
+      "description": "The earliest Sabaic inscriptions are carved in the *musnad* alphabet. Their dates depend on a long-running dispute between a 'short' chronology, which placed the beginnings around the 5th century BCE, and a 'long' chronology, which radiocarbon dating and links with Assyrian records now generally support.",
+      "contested": true,
+      "sources": [
+        { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Nebes, Norbert & Peter Stein. 2004. Ancient South Arabian. In The Cambridge Encyclopedia of the World's Ancient Languages, ed. Roger D. Woodard. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-osa-ethiopia",
+      "branch_id": "old-south-arabian",
+      "date": "c. 8th – 5th century BCE",
+      "type": "CONTACT",
+      "title": "Sabaic across the Red Sea",
+      "description": "Inscriptions in Sabaic, with South Arabian-style temples, appear in the Ethiopian and Eritrean highlands, at Yeha and other sites of the kingdom of Daʿmat. Whether they reflect settlers from Saba or a local elite adopting South Arabian culture is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Nebes, Norbert & Peter Stein. 2004. Ancient South Arabian. In The Cambridge Encyclopedia of the World's Ancient Languages, ed. Roger D. Woodard. Cambridge: Cambridge University Press.", "url": null },
+        { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-osa-sabaic-alone",
+      "branch_id": "old-south-arabian",
+      "date": "c. 1st century BCE – c. 300 CE",
+      "type": "EXTINCTION",
+      "title": "Sabaic stands alone",
+      "description": "Minaic, Qatabanic and then Hadramitic cease to be written as their kingdoms fall to their neighbours. By about 300 CE, when Himyar controls the whole south, Sabaic is the only written language of Yemen. The exact dates are uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Beeston, A. F. L. 1984. Sabaic Grammar. Journal of Semitic Studies Monograph 6. Manchester: University of Manchester.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-osa-last-inscriptions",
+      "branch_id": "old-south-arabian",
+      "date": "Mid-6th century CE",
+      "type": "EXTINCTION",
+      "title": "The last inscriptions",
+      "description": "The written record ends in the 550s CE. Among the last long texts is the inscription of the Aksumite ruler Abraha recording the repair of the Marib dam (548 CE). With Islam, Arabic replaces Sabaic; how long it survived in speech is unknown.",
+      "contested": true,
+      "sources": [
+        { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Nebes, Norbert & Peter Stein. 2004. Ancient South Arabian. In The Cambridge Encyclopedia of the World's Ancient Languages, ed. Roger D. Woodard. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-osa-south-semitic",
+      "branch_id": "old-south-arabian",
+      "proposed_grouping": "South Semitic: Old South Arabian forms a subgroup of West Semitic with Modern South Arabian and Ethiosemitic",
+      "status": "widely_accepted",
+      "evidence_for": "The traditional classification, found in most handbooks, rests on geography, the close link between the South Arabian and Ethiopian scripts, and features shared with Ethiosemitic and Modern South Arabian such as the `-k` endings of the first-person singular and second-person past tense (Sabaic *-k*).",
+      "evidence_against": "The script hides vowels and doubled consonants, so it cannot show whether Old South Arabian kept the old doubled imperfective of Ethiosemitic or had the Central Semitic form. Huehnergard and Rubin and others note that it shares some features with Central Semitic, such as a definite article, and treat it as a separate branch of West Semitic whose exact position is unknown. Some scholars also doubt that its four languages form a single group.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Stein, Peter. 2011. Ancient South Arabian. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null },
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
