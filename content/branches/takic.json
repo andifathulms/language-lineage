@@ -1,0 +1,74 @@
+{
+  "id": "takic",
+  "family": "uto-aztecan",
+  "name": "Takic",
+  "parent_ids": ["northern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Southern California, from the Los Angeles Basin to the inland deserts",
+  "defining_innovation": "The Uto-Aztecan languages of southern California: Luiseño, Cahuilla, Serrano, and the now-silent Cupeño and Tongva (Gabrielino).",
+  "descendants": ["Luiseño", "Cahuilla", "Serrano", "Cupeño †", "Tongva †", "Kitanemuk †"],
+  "chapters": [
+    {
+      "title": "Southern California",
+      "body": "The Takic languages were spoken across southern California, from the coast and islands of the Los Angeles Basin, home of the Tongva, to the Cahuilla of the inland deserts. Their speakers were among the densest foraging populations in North America, living on acorns, seeds and seafood."
+    },
+    {
+      "title": "Missions and Silence",
+      "body": "Spanish missions from 1769 onward, including San Gabriel among the Tongva and San Luis Rey among the Luiseño, gathered Takic speakers into mission communities where disease and forced labour devastated them. The American period brought land loss and boarding schools. Several Takic languages lost their last native speakers in the 20th century. Cupeño's last speaker, Roscinda Nolasquez, died in 1987 after working with the linguist Jane Hill. Tongva and Luiseño communities are now reclaiming their languages from historical records and recordings."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-takic-split",
+      "branch_id": "takic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Takic moves toward the coast",
+      "description": "Takic speakers spread across southern California, perhaps displacing or absorbing earlier coastal populations. When they arrived is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-california-missions",
+      "branch_id": "takic",
+      "date": "1769 – 1830s",
+      "type": "CONTACT",
+      "title": "The mission system",
+      "description": "Spanish Franciscan missions concentrate Takic speakers at San Gabriel, San Juan Capistrano, San Luis Rey and elsewhere, bringing Spanish, Christianity, forced labour and epidemics.",
+      "contested": false,
+      "sources": [
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-takic-extinctions",
+      "branch_id": "takic",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Tongva and Cupeño fall silent",
+      "description": "Tongva loses its last fluent speakers early in the 20th century, and Cupeño's last speaker dies in 1987. Both are documented in field notes and recordings.",
+      "contested": true,
+      "sources": [
+        { "citation": "Hill, Jane H. 2005. A Grammar of Cupeño. Berkeley: University of California Press.", "url": null },
+        { "citation": "Golla, Victor. 2011. California Indian Languages. Berkeley: University of California Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-takic-reclamation",
+      "branch_id": "takic",
+      "date": "1990s onward",
+      "type": "REVITALIZATION",
+      "title": "Reclaiming from the archive",
+      "description": "Tongva, Luiseño and Cahuilla communities build language programmes from field notes, recordings and the last speakers' knowledge, part of a California-wide movement of language reclamation.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne & Ken Hale, eds. 2001. The Green Book of Language Revitalization in Practice. San Diego: Academic Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
