@@ -1,0 +1,73 @@
+{
+  "id": "tepiman",
+  "family": "uto-aztecan",
+  "name": "Tepiman",
+  "parent_ids": ["southern-uto-aztecan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Sonoran desert of southern Arizona and northern Sonora, and the Sierra Madre Occidental of Chihuahua and Durango",
+  "defining_innovation": "O'odham, Pima Bajo and the Tepehuan languages, a chain running from the Arizona desert down the Sierra Madre, divided today by the US–Mexico border.",
+  "descendants": ["O'odham", "Pima Bajo", "Northern Tepehuan", "Southern Tepehuan", "Tepecano †"],
+  "chapters": [
+    {
+      "title": "Desert and Sierra",
+      "body": "The Tepiman languages form a long chain: O'odham (formerly called Papago and Pima) in the Sonoran desert, Pima Bajo in Sonora, and the Tepehuan languages in the mountains of Chihuahua and Durango. The O'odham are thought by many to be connected with the Hohokam, the canal-building farmers of prehistoric southern Arizona, though the link is debated."
+    },
+    {
+      "title": "Missions, a Border and an Alphabet",
+      "body": "The Jesuit Eusebio Kino founded missions among the O'odham from 1687. In 1853 the Gadsden Purchase drew the US–Mexico border through the middle of O'odham land, dividing communities that still cross it for family and ceremony. In the 1970s the linguist **Kenneth Hale** and the Tohono O'odham scholar Albert Alvarez developed a practical alphabet for O'odham. It has since been used in dictionaries and teaching, and it became a model for linguists working with communities, not just on them."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tepiman-split",
+      "branch_id": "tepiman",
+      "date": "c. 1st millennium BCE – 1st millennium CE",
+      "type": "SPLIT",
+      "title": "A chain from desert to sierra",
+      "description": "Tepiman speakers spread from the Sierra Madre into the Sonoran desert, and the chain diverges into O'odham, Pima Bajo and Tepehuan. Their relationship to the prehistoric Hohokam is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kino-missions",
+      "branch_id": "tepiman",
+      "date": "1687 onward",
+      "type": "CONTACT",
+      "title": "Jesuit missions",
+      "description": "Eusebio Kino's missions bring Spanish, Christianity, wheat and cattle into O'odham country, and Spanish loanwords into the language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Spicer, Edward H. 1962. Cycles of Conquest: The Impact of Spain, Mexico, and the United States on the Indians of the Southwest, 1533–1960. Tucson: University of Arizona Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-gadsden-border",
+      "branch_id": "tepiman",
+      "date": "1853",
+      "type": "CONTACT",
+      "title": "A border through O'odham land",
+      "description": "The Gadsden Purchase places the US–Mexico border across O'odham territory. On the US side English, and on the Mexican side Spanish, become the pressure languages, and the northern and southern communities drift apart.",
+      "contested": false,
+      "sources": [
+        { "citation": "Spicer, Edward H. 1962. Cycles of Conquest: The Impact of Spain, Mexico, and the United States on the Indians of the Southwest, 1533–1960. Tucson: University of Arizona Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-oodham-alphabet",
+      "branch_id": "tepiman",
+      "date": "1970s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Alvarez–Hale alphabet",
+      "description": "Albert Alvarez and Kenneth Hale create a practical O'odham orthography, adopted for dictionaries, literature and school programmes.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hinton, Leanne & Ken Hale, eds. 2001. The Green Book of Language Revitalization in Practice. San Diego: Academic Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["kenneth-hale"]
+}
