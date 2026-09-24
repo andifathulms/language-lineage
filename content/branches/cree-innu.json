@@ -18,6 +18,28 @@
       "body": "In 1840 the Methodist missionary **James Evans** at Norway House devised a syllabary for Cree, in which the shape of a sign gives the consonant and its orientation gives the vowel. It spread rapidly through Cree communities, often ahead of the missionaries themselves, and was later adapted for Ojibwe and Inuktitut.\n\nOn the Plains, the Métis children of Cree mothers and French fur traders developed **Michif**, a mixed language with Cree verbs and French nouns, one of the clearest cases of a new language born of contact."
     }
   ],
+  "speakers": {
+    "estimate": "c. 83,000",
+    "vitality": "mixed",
+    "note": "2021 Canadian census mother-tongue count for Cree, Innu, Atikamekw and Naskapi; about 106,000 people can hold a conversation in one of them.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous Language Families: Algonquian languages (2021 Census of Population).", "url": "https://www150.statcan.gc.ca/n1/pub/41-20-0002/412000022025002-eng.htm" },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 83,000" }
+  ],
+  "sample": {
+    "language": "Plains Cree",
+    "text": "tânisi isiyîhkâsoyan?",
+    "gloss": "how be.called.so-2SG",
+    "translation": "What is your name?",
+    "sources": [
+      { "citation": "Okimāsis, Jean L. 2018. Cree: Language of the Plains, 2nd ed. Regina: University of Regina Press.", "url": null },
+      { "citation": "Wolfart, H. Christoph & Freda Ahenakew. 1998. The Student's Dictionary of Literary Plains Cree. Winnipeg: Algonquian and Iroquoian Linguistics.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-swampy-cree-htk",

@@ -17,6 +17,16 @@
       "body": "In 1913 Edward Sapir proposed that Wiyot and Yurok, two languages of northern California far from any Algonquian language, were related to Algonquian. Truman Michelson rejected it vigorously, and the dispute became one of the bitterest in American linguistics. In 1958 Mary Haas published evidence that settled it: Wiyot, Yurok and Algonquian form the **Algic** family, with Proto-Algic buried below this tree.\n\nWithin Algonquian, only **Eastern Algonquian** is a proven subgroup. 'Central' and 'Plains' Algonquian are geographical labels. This tree draws six branches directly from the root: Blackfoot, Arapahoan, Cheyenne, Cree–Innu, Ojibwe and Eastern Algonquian. Menominee, Meskwaki, Shawnee and Miami-Illinois are not yet drawn."
     }
   ],
+  "speakers": {
+    "estimate": "c. 130,000",
+    "vitality": "mixed",
+    "note": "Almost all in Canada; the total includes Menominee, Meskwaki-Sauk-Kickapoo and other languages not yet drawn as branches, and census figures undercount some reserves.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous Language Families: Algonquian languages (2021 Census of Population).", "url": "https://www150.statcan.gc.ca/n1/pub/41-20-0002/412000022025002-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-pa-dispersal",

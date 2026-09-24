@@ -18,6 +18,20 @@
       "body": "In 1663 the Puritan missionary **John Eliot**, working with Wampanoag translators such as John Sassamon and Job Nesutan, published a complete Bible in Massachusett. It was the first Bible printed in the Americas. Wampanoag communities went on writing letters, deeds and records in the language into the 18th century, and then its last speakers died.\n\nIn 1993 Jessie Little Doe Baird founded the Wôpanâak Language Reclamation Project. Working from the Eliot Bible and the community's colonial documents, she and linguists reconstructed the language. Children are again being raised speaking it, the first after more than a century without speakers."
     }
   ],
+  "speakers": {
+    "estimate": "c. 7,000",
+    "vitality": "mixed",
+    "note": "Mostly Mi'kmaq (about 6,500 in Canada); Wolastoqey-Passamaquoddy has a few hundred speakers, Munsee one or two, and Unami, Abenaki and most coastal languages have none, though Wampanoag is again being learned by children.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous Language Families: Algonquian languages (2021 Census of Population).", "url": "https://www150.statcan.gc.ca/n1/pub/41-20-0002/412000022025002-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 7,000" },
+    { "iso": "USA", "name": "United States", "speakers": "a few hundred" }
+  ],
   "turning_points": [
     {
       "id": "tp-eastern-algonquian-split",

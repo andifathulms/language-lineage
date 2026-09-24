@@ -18,6 +18,19 @@
       "body": "After the Plains wars the Arapaho were divided. The Northern Arapaho were settled on the Wind River Reservation in Wyoming in 1878, alongside the Eastern Shoshone, and the Southern Arapaho in Oklahoma with the Southern Cheyenne. Gros Ventre speakers at Fort Belknap in Montana dwindled through the 20th century. Northern Arapaho communities now run immersion programmes for children."
     }
   ],
+  "speakers": {
+    "estimate": "A few hundred",
+    "vitality": "severely_endangered",
+    "note": "Census surveys have counted around 1,000 people who speak Arapaho at home, but fluent first-language speakers, almost all elderly and in Wyoming, number far fewer; Gros Ventre has had no fluent speakers since the early 21st century.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "Cowell, Andrew & Alonzo Moss Sr. 2008. The Arapaho Language. Boulder: University Press of Colorado.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "a few hundred" }
+  ],
   "turning_points": [
     {
       "id": "tp-arapahoan-split",

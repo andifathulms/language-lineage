@@ -18,6 +18,19 @@
       "body": "After the buffalo were destroyed in the 1880s and the reserve and reservation era began, residential and boarding schools broke the transmission of Blackfoot in many families. In 1995 the Piegan Institute opened the Cuts Wood School in Browning, Montana, a Blackfoot immersion school that became a model for Native language revival in the United States."
     }
   ],
+  "speakers": {
+    "estimate": "c. 3,000–5,000",
+    "vitality": "definitely_endangered",
+    "note": "The 2021 Canadian census recorded 4,945 people with Blackfoot as mother tongue, up from about 2,900 in 2016; most fluent speakers are over fifty, and only a small number remain in Montana.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous Language Families: Algonquian languages (2021 Census of Population).", "url": "https://www150.statcan.gc.ca/n1/pub/41-20-0002/412000022025002-eng.htm" },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 3,000–5,000" },
+    { "iso": "USA", "name": "United States" }
+  ],
   "turning_points": [
     {
       "id": "tp-blackfoot-west",

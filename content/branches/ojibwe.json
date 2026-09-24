@@ -18,6 +18,29 @@
       "body": "In the 20th century the Odawa and eastern Ojibwe dialects dropped their short unstressed vowels on a large scale, so *Anishinaabe* became *Nishnaabe*. The change happened within living memory and has been studied as it happened. Since the 1990s immersion schools, such as Waadookodaading in Wisconsin (founded 2000), have been raising new child speakers."
     }
   ],
+  "speakers": {
+    "estimate": "c. 30,000",
+    "vitality": "mixed",
+    "note": "Canadian 2021 mother-tongue counts are about 16,000 for Ojibwe, 12,000 for Oji-Cree and 1,000 for Algonquin; first-language speakers in the United States are far fewer and mostly elderly.",
+    "sources": [
+      { "citation": "Statistics Canada. 2025. Indigenous Language Families: Algonquian languages (2021 Census of Population).", "url": "https://www150.statcan.gc.ca/n1/pub/41-20-0002/412000022025002-eng.htm" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CAN", "name": "Canada", "speakers": "c. 29,000" },
+    { "iso": "USA", "name": "United States", "speakers": "under 1,000" }
+  ],
+  "sample": {
+    "language": "Ojibwe",
+    "text": "Aaniin ezhinikaazoyan?",
+    "gloss": "how be.called.so-2SG",
+    "translation": "What is your name?",
+    "sources": [
+      { "citation": "Nichols, John D. & Earl Nyholm. 1995. A Concise Dictionary of Minnesota Ojibwe. Minneapolis: University of Minnesota Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-ojibwe-fur-trade",
