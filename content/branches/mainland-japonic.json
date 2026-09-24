@@ -1,0 +1,33 @@
+{
+  "id": "mainland-japonic",
+  "family": "japonic",
+  "name": "Mainland Japonic",
+  "parent_ids": ["proto-japonic"],
+  "successor_ids": ["japanese", "hachijo"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Kyushu, Shikoku and Honshu, and the Izu Islands",
+  "defining_innovation": "Japanese together with Hachijō. Already in the 8th century Old Japanese had a western (Nara) standard and eastern dialects, and Hachijō descends from the east.",
+  "descendants": ["Japanese", "Hachijō"],
+  "chapters": [
+    {
+      "title": "West and East",
+      "body": "The earliest Japanese texts reflect the western dialect of the Nara court. The great 8th-century poetry anthology, the *Man'yōshū*, also preserves *Azuma-uta* ('eastern songs') and poems by eastern frontier guards (*sakimori*) in a noticeably different Eastern Old Japanese. Modern Japanese descends mainly from the western variety. Hachijō, spoken on islands south of Tokyo, keeps some features of the eastern one."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-east-west-old-japanese",
+      "branch_id": "mainland-japonic",
+      "date": "By the 8th century CE",
+      "type": "SPLIT",
+      "title": "Western and Eastern Old Japanese",
+      "description": "The *Man'yōshū* records Eastern Old Japanese poems alongside the western court language, showing an old dialect division within mainland Japonic.",
+      "contested": false,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
