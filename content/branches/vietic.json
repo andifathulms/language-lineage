@@ -22,6 +22,30 @@
       "body": "Vietnamese has six tones, and for a long time this led scholars to classify it with Tai or Chinese. In 1954 **André-Georges Haudricourt** showed how the tones arose. Syllables that once ended in a glottal stop developed rising tones, those that ended in *-h* (earlier *-s*) developed falling tones, and later the loss of voiced initial consonants split each tone in two. Tones could thus develop in a language that was originally toneless, and Vietnamese's place in Austroasiatic was secured.\n\nIn the 17th century Portuguese and French Jesuits developed a Latin alphabet with diacritics for tones and vowels. **Alexandre de Rhodes** published a Vietnamese–Portuguese–Latin dictionary in it in 1651. Under French rule this *quốc ngữ* ('national script') spread, and after 1945 it became the standard script of Vietnam."
     }
   ],
+  "speakers": {
+    "estimate": "c. 87 million",
+    "vitality": "mixed",
+    "note": "Almost all speak Vietnamese; Muong has over a million speakers, while Chut, Thavung and the other small Vietic languages are endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "General Statistics Office of Vietnam. 2020. Completed Results of the 2019 Viet Nam Population and Housing Census. Hanoi.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 85 million" },
+    { "iso": "USA", "name": "United States", "speakers": "c. 1.5 million" },
+    { "iso": "LAO", "name": "Laos" }
+  ],
+  "sample": {
+    "language": "Vietnamese (proverb)",
+    "text": "Uống nước nhớ nguồn",
+    "gloss": "drink water remember source",
+    "translation": "When you drink water, remember its source (be grateful to those who came before)",
+    "sources": [
+      { "citation": "Traditional Vietnamese proverb (tục ngữ).", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-chinese-rule-vietnam",

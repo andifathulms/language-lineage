@@ -12,7 +12,23 @@
     {
       "title": "Island Languages",
       "body": "The Nicobarese languages are spoken on the Nicobar Islands, far out in the Bay of Bengal between Myanmar and Sumatra. They are the only island branch of Austroasiatic. When and how their speakers crossed the sea is unknown, and some linguists see a closer link with the Aslian languages of the Malay Peninsula. Unlike most of the family they put the verb first in the clause.\n\nThe islands are a restricted area of India, and the languages have been studied relatively little. The 2004 Indian Ocean tsunami devastated many Nicobarese communities and left them dispersed."
+    },
+    {
+      "title": "Island by Island",
+      "body": "The languages are usually divided by island group. Car is spoken on the northernmost island and has the most speakers; Chaura and Teressa lie further south; Central Nicobarese, often called Nancowry, is spoken on the Nancowry group; and Southern Nicobarese on Great and Little Nicobar. Shompen, the language of a small forest-dwelling people in the interior of Great Nicobar, is very different, and specialists disagree over whether it belongs to the branch or forms a separate one.\n\nStructurally, Nicobarese has kept more of the old Austroasiatic word-building than most mainland languages. Nouns and verbs are derived from roots with prefixes and infixes that mark causatives, instruments and the like, a system that R. Radhakrishnan described in detail for Nancowry in 1981. Jean Critchfield Braine wrote a grammar of Car in 1970, and much earlier, in 1889, the colonial officer Edward Horace Man published a dictionary of Central Nicobarese. Apart from these works and some recent fieldwork, the languages remain thinly documented, partly because outsiders need special permission to visit the islands."
     }
+  ],
+  "speakers": {
+    "estimate": "c. 30,000",
+    "vitality": "vulnerable",
+    "note": "The 2011 Census of India counted about 29,000 speakers of Nicobarese.",
+    "sources": [
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011, Paper 1 of 2018: Language. New Delhi.", "url": "https://censusindia.gov.in/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 30,000" }
   ],
   "turning_points": [
     {

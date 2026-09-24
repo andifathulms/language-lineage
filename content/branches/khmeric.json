@@ -22,6 +22,30 @@
       "body": "Under the French protectorate (1863–1953), the Buddhist monk and scholar **Chuon Nath** compiled the first great dictionary of Khmer (published from 1938) and coined Khmer and Pali-based words for modern concepts. This laid the foundation of the standard language. Under the Khmer Rouge (1975–1979) teachers, monks and writers were killed in large numbers, and much of the country's literature and many of its books were destroyed."
     }
   ],
+  "speakers": {
+    "estimate": "c. 18 million",
+    "vitality": "safe",
+    "note": "Khmer is the national language of Cambodia; Northern Khmer in Thailand is under pressure from Thai and Lao.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "General Statistics Office of Vietnam. 2020. Completed Results of the 2019 Viet Nam Population and Housing Census. Hanoi.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "KHM", "name": "Cambodia", "speakers": "c. 15 million" },
+    { "iso": "THA", "name": "Thailand", "speakers": "c. 1.4 million" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 1.3 million" }
+  ],
+  "sample": {
+    "language": "Khmer",
+    "text": "ខ្ញុំស្រឡាញ់អ្នក",
+    "transliteration": "khnhom srolanh neak",
+    "gloss": "I love you",
+    "translation": "I love you",
+    "sources": [
+      { "citation": "Headley, Robert K. et al. 1977. Cambodian-English Dictionary. Washington, DC: Catholic University of America Press.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-old-khmer-inscriptions",

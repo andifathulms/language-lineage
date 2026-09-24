@@ -18,6 +18,21 @@
       "body": "Santali was written in Bengali, Odia, Devanagari and Latin letters, depending on which state its speakers lived in. In 1925 the Santal writer **Raghunath Murmu** created a script designed for the language, *Ol Chiki*, whose letter shapes are drawn from everyday objects and actions. It has become a symbol of Santal identity. In 2003 Santali was added to the Eighth Schedule of India's constitution, among the officially recognised languages, and Ol Chiki is used in its official publications."
     }
   ],
+  "speakers": {
+    "estimate": "c. 11 million",
+    "vitality": "mixed",
+    "note": "Santali alone had about 7.4 million speakers in the 2011 Census of India; Ho, Mundari, Korku, Sora and Kharia have hundreds of thousands each, while Juang and several others are small and endangered.",
+    "sources": [
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011, Paper 1 of 2018: Language. New Delhi.", "url": "https://censusindia.gov.in/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 11 million" },
+    { "iso": "BGD", "name": "Bangladesh" },
+    { "iso": "NPL", "name": "Nepal", "speakers": "c. 50,000" }
+  ],
   "turning_points": [
     {
       "id": "tp-munda-west",

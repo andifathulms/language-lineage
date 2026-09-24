@@ -18,6 +18,19 @@
       "body": "Khasi was first written systematically by the Welsh Calvinist missionary **Thomas Jones**, who arrived in 1841 and adapted the Latin alphabet to it, using Welsh spelling conventions in places. Mission schools and a Khasi Bible followed, and Khasi developed a lively literature and press. It is an associate official language of Meghalaya. Its speakers have long campaigned for its inclusion in India's Eighth Schedule."
     }
   ],
+  "speakers": {
+    "estimate": "c. 1.4 million",
+    "vitality": "mixed",
+    "note": "The 2011 Census of India counted about 1.43 million speakers under Khasi, including Pnar and War; Khasi is used in schools and the media, while small varieties such as Lyngngam are more vulnerable.",
+    "sources": [
+      { "citation": "Office of the Registrar General & Census Commissioner, India. 2018. Census of India 2011, Paper 1 of 2018: Language. New Delhi.", "url": "https://censusindia.gov.in/" },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IND", "name": "India", "speakers": "c. 1.4 million" },
+    { "iso": "BGD", "name": "Bangladesh" }
+  ],
   "turning_points": [
     {
       "id": "tp-khasian-split",

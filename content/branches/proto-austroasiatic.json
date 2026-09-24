@@ -17,6 +17,15 @@
       "body": "The family has about a dozen primary branches, and their mutual relationships are unclear. The traditional view divided it into **Munda** in India and **Mon-Khmer** for everything else, but recent comparative work finds no good evidence for a Mon-Khmer ancestor. This tree therefore draws seven of the best-known branches growing from one fork: Munda, Khasian, Vietic, Khmeric, Monic, Aslian and Nicobarese. Palaungic, Khmuic, Katuic, Bahnaric, Pearic, Pakanic and Mangic are not yet drawn."
     }
   ],
+  "speakers": {
+    "estimate": "c. 120 million",
+    "vitality": "mixed",
+    "note": "More than two-thirds speak Vietnamese. The figure covers the seven branches drawn here; Palaungic, Bahnaric, Katuic, Khmuic and the other undrawn branches add several million more.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-paa-dispersal",
