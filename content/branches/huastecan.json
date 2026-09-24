@@ -1,0 +1,57 @@
+{
+  "id": "huastecan",
+  "family": "mayan",
+  "name": "Huastecan",
+  "parent_ids": ["proto-mayan"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "The Huasteca on the Gulf coast of Mexico (Veracruz and San Luis Potosí); Chicomuseltec in Chiapas",
+  "defining_innovation": "The first branch to leave, and the only Mayan language far from the Maya area: Huastec (Teenek) is spoken hundreds of kilometres north of any other Mayan language.",
+  "descendants": ["Huastec (Teenek)", "Chicomuseltec †"],
+  "chapters": [
+    {
+      "title": "Far to the North",
+      "body": "Huastec, whose speakers call it *Teenek*, is spoken in the Huasteca region of the Mexican Gulf coast, separated from all other Mayan languages by Nahuatl- and Totonac-speaking areas. It split from the rest of Mayan earliest, and how its speakers came to be so far north is not known: they may have moved up the coast, or the Mayan languages in between may have been replaced.\n\nIts closest relative, Chicomuseltec, was spoken in Chiapas near the Guatemalan border and became extinct in the late 20th century. Huastec itself is still spoken by around 170,000 people, and in the 15th century the Huastec region was conquered by the Aztecs and absorbed many Nahuatl loanwords."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-huastec-north",
+      "branch_id": "huastecan",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "To the Gulf coast",
+      "description": "The ancestors of the Huastec separate from the other Mayan speakers and end up on the northern Gulf coast. The route and the date are unknown, and glottochronological estimates are unreliable.",
+      "contested": true,
+      "sources": [
+        { "citation": "Kaufman, Terrence. 1976. Archaeological and linguistic correlations in Mayaland and associated areas of Meso-America. World Archaeology 8(1).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-huastec-nahuatl",
+      "branch_id": "huastecan",
+      "date": "15th century onward",
+      "type": "CONTACT",
+      "title": "Aztec conquest and Nahuatl",
+      "description": "The Aztec empire conquers the Huasteca, and Nahuatl becomes a neighbouring and administrative language. Huastec absorbs Nahuatl vocabulary, and Nahuatl-speaking communities settle within the region.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chicomuseltec-extinction",
+      "branch_id": "huastecan",
+      "date": "Late 20th century",
+      "type": "EXTINCTION",
+      "title": "Chicomuseltec falls silent",
+      "description": "Chicomuseltec, the only other Huastecan language, loses its last speakers in Chiapas. It is documented only in short word lists and notes.",
+      "contested": false,
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1985. Mayan linguistics: Where are we now? Annual Review of Anthropology 14.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
