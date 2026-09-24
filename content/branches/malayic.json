@@ -26,6 +26,30 @@
       "body": "In the Dutch East Indies, Malay became the language of administration alongside Dutch, and Charles van Ophuijsen's spelling (1901) standardised it in Latin letters. On 28 October 1928 the Youth Congress in Batavia adopted the *Sumpah Pemuda* (Youth Pledge), which proclaimed 'Bahasa Indonesia' the language of national unity. Choosing Malay, and not the numerically larger Javanese, gave the new nation a language that belonged to no single dominant group. The 1945 constitution made it the national language.\n\nIndonesian and Malaysian Malay are two standards of one language, differing in vocabulary and, until 1972, in spelling. That year both countries adopted a common spelling (in Indonesia, the *Ejaan yang Disempurnakan*). Indonesian now has more than two hundred million speakers, most of whom speak another regional language at home."
     }
   ],
+  "speakers": {
+    "estimate": "c. 100 million",
+    "vitality": "safe",
+    "note": "Counts first-language Malay and Indonesian, Minangkabau, Banjar, Iban and local Malay varieties; about 200 million more speak Indonesian or Malay as a second language.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IDN", "name": "Indonesia", "speakers": "c. 80 million" },
+    { "iso": "MYS", "name": "Malaysia", "speakers": "c. 17 million" },
+    { "iso": "THA", "name": "Thailand", "speakers": "c. 1–3 million" },
+    { "iso": "SGP", "name": "Singapore", "speakers": "c. 350,000" },
+    { "iso": "BRN", "name": "Brunei", "speakers": "c. 300,000" }
+  ],
+  "sample": {
+    "language": "Indonesian",
+    "text": "Selamat pagi, apa kabar?",
+    "gloss": "safe morning what news",
+    "translation": "Good morning, how are you?",
+    "sources": [
+      { "citation": "Sneddon, James Neil, Alexander Adelaar, Dwi N. Djenar & Michael C. Ewing. 2010. Indonesian: A Comprehensive Grammar, 2nd ed. London: Routledge.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-malayic-borneo",

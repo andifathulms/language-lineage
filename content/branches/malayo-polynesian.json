@@ -22,6 +22,15 @@
       "body": "This tree follows three well-supported branches of Malayo-Polynesian: **Malayic**, **Barito** and **Oceanic**. The groupings between them are less certain. 'Western Malayo-Polynesian', long used for everything from the Philippines to Madagascar, is now generally seen as a geographical grouping without a common ancestor. Blust places Oceanic within 'Central-Eastern' and 'Eastern' Malayo-Polynesian, but these intermediate nodes are disputed, so here Oceanic grows directly from Malayo-Polynesian."
     }
   ],
+  "speakers": {
+    "estimate": "c. 310 million",
+    "vitality": "mixed",
+    "note": "All Austronesian speakers except the Formosan languages of Taiwan; the largest languages are Javanese, Malay/Indonesian and Tagalog.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-mp-mergers",

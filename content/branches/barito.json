@@ -22,6 +22,27 @@
       "body": "Malagasy was first written in **Sorabe**, an Arabic-derived script used by scribes in the southeast from about the 15th or 16th century, mostly for religious and astrological texts. In 1823 King Radama I adopted a Latin alphabet devised with missionaries of the London Missionary Society, and a printed Bible, schools and a standard written language based on the Merina dialect followed within a generation."
     }
   ],
+  "speakers": {
+    "estimate": "c. 25–30 million",
+    "vitality": "safe",
+    "note": "Almost all are speakers of Malagasy; the Barito languages of southern Borneo have around a million speakers between them.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MDG", "name": "Madagascar", "speakers": "c. 25–30 million" },
+    { "iso": "IDN", "name": "Indonesia", "speakers": "c. 1 million" }
+  ],
+  "sample": {
+    "language": "Malagasy",
+    "text": "Manao ahoana ianao?",
+    "gloss": "do how you",
+    "translation": "How are you?",
+    "sources": [
+      { "citation": "Rajemisa-Raolison, Régis. 1985. Rakibolana malagasy. Fianarantsoa: Ambozontany.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-malay-javanese-in-barito",

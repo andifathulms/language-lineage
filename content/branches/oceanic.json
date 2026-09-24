@@ -22,6 +22,15 @@
       "body": "European contact brought writing, largely through missionaries. Fijian spelling, devised in the 1830s, uses *c* for `ð` and *b* for `ᵐb`, which is why the chief written *Cakobau* is pronounced 'Thakombau'. The 19th-century plantation labour trade brought speakers of many Oceanic languages together and produced English-based pidgins, which became **Tok Pisin**, **Bislama** and **Solomons Pijin**. Their grammar owes a good deal to Oceanic languages such as Tolai."
     }
   ],
+  "speakers": {
+    "estimate": "c. 2–3 million",
+    "vitality": "mixed",
+    "note": "A rough total over some 500 languages, many with only a few hundred speakers each.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Lynch, John, Malcolm Ross & Terry Crowley. 2002. The Oceanic Languages. Richmond: Curzon.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-poc-schwa",

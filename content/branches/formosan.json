@@ -18,6 +18,18 @@
       "body": "When the Dutch East India Company held southwestern Taiwan (1624–1662), missionaries wrote Siraya in the Latin alphabet and printed a Gospel of Matthew in it. Siraya communities went on using the script for land contracts, the *Sinckan Manuscripts*, into the early 19th century.\n\nFrom the 17th century, large-scale Hoklo and Hakka settlement pushed the plains peoples into language shift, and most plains languages were no longer spoken by the 20th century. Japanese rule (1895–1945) and then Mandarin-only schooling pressed on the mountain languages too. Since the 1990s Taiwan has recognised its indigenous peoples officially, and the Indigenous Languages Development Act of 2017 made their languages national languages."
     }
   ],
+  "speakers": {
+    "estimate": "Fewer than 200,000",
+    "vitality": "mixed",
+    "note": "Estimates vary widely; most fluent speakers are older adults, and around ten Formosan languages are extinct.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "TWN", "name": "Taiwan" }
+  ],
   "turning_points": [
     {
       "id": "tp-dutch-formosa",

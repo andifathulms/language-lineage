@@ -21,6 +21,15 @@
       "body": "The first division is between the **Formosan languages**, which stayed in Taiwan, and **Malayo-Polynesian**, which left. 'Formosan' is a geographical label and not a branch: Taiwan's languages form perhaps nine or ten separate primary branches. This tree draws them as one limb for legibility and records the dispute under Contested Classifications."
     }
   ],
+  "speakers": {
+    "estimate": "c. 310 million",
+    "vitality": "mixed",
+    "note": "Ethnologue's sum of first-language speakers; other tallies run higher, and Malay and Indonesian add some 200 million second-language speakers.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+    ]
+  },
   "turning_points": [
     {
       "id": "tp-taiwan-settlement",
