@@ -1,0 +1,45 @@
+{
+  "id": "kra",
+  "family": "kra-dai",
+  "name": "Kra",
+  "parent_ids": ["proto-kra-dai"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Scattered villages in Guizhou, Yunnan and Guangxi (China) and northern Vietnam",
+  "defining_innovation": "Gelao, Lachi, Laha, Buyang and their relatives, small and scattered languages that gave the family the first half of its name. Kra is their word for 'person'.",
+  "descendants": ["Gelao", "Lachi", "Laha", "Buyang", "Paha"],
+  "chapters": [
+    {
+      "title": "Scattered Survivors",
+      "body": "The Kra languages survive in small, isolated communities spread across southwest China and northern Vietnam, surrounded by Chinese, Hmong and Tai speakers. Gelao is spoken by only a few thousand of the more than half a million people officially counted as Gelao; most have shifted to Chinese. Several Kra varieties have only elderly speakers. They are important for reconstruction precisely because they are so different from the better-known Tai languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kra-split",
+      "branch_id": "kra",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Into the uplands",
+      "description": "The ancestors of the Kra languages separate from the rest of Kra-Dai and settle in the uplands of the southwest. Their present scattered distribution suggests later fragmentation.",
+      "contested": true,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-gelao-shift",
+      "branch_id": "kra",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Shift to Chinese",
+      "description": "Most Gelao communities shift to Southwestern Mandarin, and several Kra varieties fall silent or survive only among elders. The dates for individual varieties are poorly recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
