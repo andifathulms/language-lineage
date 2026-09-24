@@ -1,0 +1,94 @@
+{
+  "id": "eastern-bantu",
+  "family": "bantu",
+  "name": "Eastern Bantu",
+  "parent_ids": ["proto-bantu"],
+  "successor_ids": ["great-lakes", "sabaki", "kusi"],
+  "era": "c. 1000 BCE – present",
+  "region": "From the Great Lakes of East Africa south to the Cape, and along the Indian Ocean coast",
+  "defining_innovation": "The Bantu that reached the Great Lakes and spread east and south. Most members show spirantisation of stops before the high vowels (*-kúpa 'bone' → Swahili mfupa) and a merger of the seven Proto-Bantu vowels into five.",
+  "descendants": ["Swahili", "Luganda", "Kinyarwanda", "Kikuyu", "Shona", "Zulu", "Xhosa", "Sotho"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Eastern Bantu (sometimes called *Mashariki*, Swahili for 'east') took shape around the Great Lakes of East Africa in the first millennium BCE. There its speakers took up iron-working, visible in the Urewe pottery tradition from around 500 BCE. They met Central Sudanic and Cushitic speakers, from whom, according to Christopher Ehret, they took words for cattle, sheep and grain crops. From the lakes, Eastern Bantu spread quickly: to the Indian Ocean coast and, in the first millennium CE, across the savannas of southern Africa to the Cape.\n\nTwo sound changes are typical. Stops before the Proto-Bantu high vowels became fricatives or affricates ('spirantisation'), so `*-kúpa` 'bone' is Swahili *mfupa*. And the seven Proto-Bantu vowels fell together into five in most languages."
+    },
+    {
+      "title": "Branches",
+      "body": "This tree draws three well-marked groups: **Great Lakes Bantu** (Luganda, Kinyarwanda, Kirundi), **Sabaki** (Swahili and its coastal relatives), and the southern languages that Ehret calls **Kusi** (Shona, Zulu, Xhosa, Sotho-Tswana). Many other Eastern Bantu languages, such as Kikuyu and Chaga in Kenya and Tanzania or Nyakyusa and Bemba further south, are not yet drawn. How they fit together is less certain."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-eastern-bantu-lakes",
+      "branch_id": "eastern-bantu",
+      "date": "c. 1000 – 500 BCE",
+      "type": "SPLIT",
+      "title": "Around the Great Lakes",
+      "description": "Bantu speakers settle around the Great Lakes, and Eastern Bantu becomes a distinct group. Its date and whether it arrived early or late relative to Western Bantu are tied to the debate over the expansion route.",
+      "contested": true,
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null },
+        { "citation": "Grollemund, Rebecca, et al. 2015. Bantu expansion shows that habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences 112(43).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bantu-spirantisation",
+      "branch_id": "eastern-bantu",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "Bantu spirantisation",
+      "description": "Before the Proto-Bantu high vowels `*i` and `*u`, stops become fricatives or affricates: `*-kúpa` 'bone' → Swahili *mfupa*. The change is found widely, including outside Eastern Bantu. Whether it spread once or arose several times is debated.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "*p *t *k → fricatives or affricates / _ *i *u (*-kúpa → mfupa 'bone')",
+      "sort_year": -500,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-central-sudanic-cushitic",
+      "branch_id": "eastern-bantu",
+      "date": "1st millennium BCE",
+      "type": "CONTACT",
+      "title": "Cattle and grain from neighbours",
+      "description": "Around the Great Lakes, Eastern Bantu speakers borrow vocabulary for cattle, milking and grain crops from Central Sudanic and Cushitic speakers, according to Ehret's reconstruction. The reading of these loans is not universally accepted.",
+      "contested": true,
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-seven-to-five",
+      "branch_id": "eastern-bantu",
+      "date": "1st millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Seven vowels become five",
+      "description": "Proto-Bantu's two degrees of high vowels merge, reducing seven vowels to five in Swahili, Zulu, Shona and many others. The merger probably happened separately in several areas, not once.",
+      "contested": true,
+      "process": "merger",
+      "notation": "*i *ɪ → i · *u *ʊ → u (7 vowels → 5)",
+      "sort_year": 500,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-kaskazi-kusi",
+      "branch_id": "eastern-bantu",
+      "proposed_grouping": "Kaskazi and Kusi: Eastern Bantu divides first into a northern Kaskazi branch (including Great Lakes and Sabaki) and a southern Kusi branch",
+      "status": "minority_position",
+      "evidence_for": "Ehret groups the languages by shared vocabulary innovations, many of them for cattle, crops and iron. The division fits the archaeological picture of two streams of settlement.",
+      "evidence_against": "Eastern Bantu behaves more like a dialect network than a tree, and lexicostatistical and phylogenetic studies do not consistently reproduce a Kaskazi–Kusi split. Some of Ehret's innovations may be borrowings that spread between neighbours.",
+      "linked_branch_ids": ["great-lakes", "sabaki"],
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null },
+        { "citation": "Grollemund, Rebecca, et al. 2015. Bantu expansion shows that habitat alters the route and pace of human dispersals. Proceedings of the National Academy of Sciences 112(43).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
