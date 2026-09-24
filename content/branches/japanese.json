@@ -1,0 +1,117 @@
+{
+  "id": "japanese",
+  "family": "japonic",
+  "name": "Japanese",
+  "parent_ids": ["mainland-japonic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present (written from the 8th century)",
+  "region": "Japan",
+  "defining_innovation": "The language of the Nara court and its successors, written with Chinese characters and two syllabaries derived from them, and remodelled by a large Chinese vocabulary.",
+  "descendants": ["Japanese", "Kansai", "Kyushu", "Tohoku"],
+  "chapters": [
+    {
+      "title": "Old Japanese and Its Writing",
+      "body": "The first Japanese texts, the *Kojiki* (712) and the *Man'yōshū* (compiled around 759), write Japanese with Chinese characters used for their sounds (*man'yōgana*). From these, simplified syllabaries developed in the 9th and 10th centuries: *hiragana*, used for the court literature of women such as Murasaki Shikibu, and *katakana*, for glossing Buddhist texts. Written Japanese has combined characters and kana ever since.\n\nIn 1917 **Hashimoto Shinkichi** noticed that Old Japanese texts consistently use two different sets of characters for some syllables, such as *ki*, *mi* and *ko*. He concluded that Old Japanese had eight vowels, not five. They merged into the modern five by the Heian period."
+    },
+    {
+      "title": "From p to h",
+      "body": "Modern Japanese *h* goes back to an older *p*: *hana* 'flower' was once *pana*. Between Old Japanese and the 17th century the sound weakened to `ɸ`, and when Portuguese Jesuits arrived in the 16th century they wrote it with *f*. João Rodrigues's grammar and the 1603 Jesuit dictionary have *fana*. The Jesuits also left the first Western loans, such as *pan* 'bread' and *tabako*.\n\nIn the Meiji era writers and educators built a modern standard (*hyōjungo*) on the speech of Tokyo, and the *genbun itchi* movement brought written language close to speech. After 1946 the government limited the characters for general use and reformed kana spelling."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kojiki",
+      "branch_id": "japanese",
+      "date": "712 – c. 759",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Kojiki and Man'yōshū",
+      "description": "The earliest Japanese texts use Chinese characters both for meaning and for sound (*man'yōgana*), and record Old Japanese poetry and myth.",
+      "contested": false,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sino-japanese",
+      "branch_id": "japanese",
+      "date": "5th – 9th century CE onward",
+      "type": "CONTACT",
+      "title": "The Chinese layer",
+      "description": "Buddhism, Confucian learning and Chinese statecraft bring thousands of Chinese words, read in Japanese pronunciations, into Japanese. Sino-Japanese vocabulary comes to make up much of the learned lexicon.",
+      "contested": false,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-eight-vowels",
+      "branch_id": "japanese",
+      "date": "c. 8th – 10th century CE",
+      "type": "SOUND_LAW",
+      "title": "Eight vowels become five",
+      "description": "Old Japanese distinguished two kinds of *i*, *e* and *o* in certain syllables, spelled with different characters. These merge by the early Heian period. Hashimoto Shinkichi's discovery of the distinction in 1917 transformed the study of Old Japanese. What the eight vowels sounded like is still debated.",
+      "contested": true,
+      "process": "merger",
+      "notation": "i₁ i₂ · e₁ e₂ · o₁ o₂ → i e o (8 vowels → 5)",
+      "sort_year": 850,
+      "sources": [
+        { "citation": "Hashimoto, Shinkichi. 1917. Kokugo kanazukai kenkyūshi-jō no ichi hakken. Teikoku Bungaku 23.", "url": null },
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kana",
+      "branch_id": "japanese",
+      "date": "9th – 10th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Hiragana and katakana",
+      "description": "Simplified forms of *man'yōgana* become the two kana syllabaries, used for Heian court literature and for annotating Chinese texts.",
+      "contested": false,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-japanese-p-h",
+      "branch_id": "japanese",
+      "date": "c. 8th – 17th century CE",
+      "type": "SOUND_LAW",
+      "title": "p becomes h",
+      "description": "Old Japanese `*p` weakens to `ɸ` and then to *h* before most vowels: *pana* → *fana* → *hana* 'flower'. Portuguese records of around 1600 still write *f*.",
+      "contested": false,
+      "process": "lenition",
+      "notation": "*p → ɸ → h (pana → fana → hana 'flower')",
+      "sort_year": 1100,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-portuguese-japan",
+      "branch_id": "japanese",
+      "date": "1543 – 1639",
+      "type": "CONTACT",
+      "title": "The Portuguese and the Jesuits",
+      "description": "Portuguese traders and Jesuit missionaries bring words such as *pan* and *tabako*, and produce the first Western grammars and dictionaries of Japanese, among them João Rodrigues's *Arte da Lingoa de Iapam*. They record the pronunciation of the time.",
+      "contested": false,
+      "sources": [
+        { "citation": "Rodrigues, João. 1604–1608. Arte da Lingoa de Iapam. Nagasaki: Collegio de Iapão da Companhia de Iesu.", "url": null },
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hyojungo",
+      "branch_id": "japanese",
+      "date": "1880s – 1946",
+      "type": "REVITALIZATION",
+      "title": "A modern standard",
+      "description": "Meiji reformers promote a standard language based on Tokyo speech and a written style close to speech (*genbun itchi*). After 1946 the list of characters for general use is limited and kana spelling is modernised.",
+      "contested": false,
+      "sources": [
+        { "citation": "Frellesvig, Bjarke. 2010. A History of the Japanese Language. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["hashimoto-shinkichi", "joao-rodrigues"]
+}

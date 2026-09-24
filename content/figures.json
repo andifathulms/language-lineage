@@ -362,5 +362,19 @@
     "lifespan": "1604–1690",
     "branch_ids": ["eastern-algonquian"],
     "turning_point_ids": ["tp-eliot-bible"]
+  },
+  {
+    "id": "hashimoto-shinkichi",
+    "name": "Hashimoto Shinkichi",
+    "lifespan": "1882–1945",
+    "branch_ids": ["japanese"],
+    "turning_point_ids": ["tp-eight-vowels"]
+  },
+  {
+    "id": "joao-rodrigues",
+    "name": "João Rodrigues",
+    "lifespan": "c. 1561–1633",
+    "branch_ids": ["japanese"],
+    "turning_point_ids": ["tp-portuguese-japan"]
   }
 ]
