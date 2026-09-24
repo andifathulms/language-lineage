@@ -1,0 +1,13 @@
+{
+  "slug": "semitic",
+  "name": "Semitic",
+  "superfamily": "Afroasiatic",
+  "summary": "The branch of Afroasiatic that gave the world its first alphabet and its longest continuous written record, from Akkadian cuneiform around 2500 BCE to the present. Its languages include Arabic, Hebrew, Amharic, Tigrinya and the Aramaic still spoken in a few villages. Akkadian, Phoenician and Ge'ez are gone as spoken languages, and Hebrew is the only one to have returned.",
+  "root_branch_id": "proto-semitic",
+  "buried_root": { "name": "Proto-Afroasiatic", "note": "buried root · outside this tree", "proven": true },
+  "accent": { "light": "40 78 140", "dark": "134 168 222" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Semitic (semi1276).", "url": "https://glottolog.org/resource/languoid/id/semi1276" },
+    { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+  ]
+}
