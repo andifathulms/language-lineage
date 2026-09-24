@@ -1,0 +1,57 @@
+{
+  "id": "hlai",
+  "family": "kra-dai",
+  "name": "Hlai",
+  "parent_ids": ["proto-kra-dai"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The interior of Hainan Island, China",
+  "defining_innovation": "The languages of the Li people of Hainan, which separated from the other Kra-Dai languages when their speakers crossed to the island.",
+  "descendants": ["Ha", "Qi", "Meifu", "Cun", "Jiamao"],
+  "chapters": [
+    {
+      "title": "The Island Branch",
+      "body": "Hlai (Li) is spoken by more than half a million people in the mountains of Hainan Island. It is one of the most distinct Kra-Dai branches. On Hainan it has neighbours of other families: Chinese, and Tsat (Utsat), a Chamic Austronesian language brought by settlers from the coast of Vietnam and related to the Malayic languages of the Austronesian tree. Hainan came under Chinese administration in the Han dynasty, and Chinese settlement gradually pushed the Hlai into the interior."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-hlai-hainan",
+      "branch_id": "hlai",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Across to Hainan",
+      "description": "The ancestors of the Hlai cross to Hainan Island and separate from mainland Kra-Dai. The date of the crossing is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hainan-chinese",
+      "branch_id": "hlai",
+      "date": "110 BCE onward",
+      "type": "CONTACT",
+      "title": "Chinese administration",
+      "description": "The Han dynasty establishes commanderies on Hainan. Over the following centuries Chinese settlement along the coasts confines Hlai speakers to the interior.",
+      "contested": false,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-hlai-romanization",
+      "branch_id": "hlai",
+      "date": "1957",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A Latin alphabet for Hlai",
+      "description": "As part of the programme of writing systems for China's minority languages, a Latin-based alphabet is created for Hlai, though it has seen limited use.",
+      "contested": false,
+      "sources": [
+        { "citation": "Diller, Anthony V. N., Jerold A. Edmondson & Yongxian Luo, eds. 2008. The Tai-Kadai Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
