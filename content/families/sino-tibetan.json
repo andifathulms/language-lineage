@@ -38,5 +38,87 @@
     },
     { "citation": "Zhang, Menghan, Shi Yan, Wuyun Pan & Li Jin. 2019. Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic. Nature 569: 112–115.", "url": null },
     { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Chinese is compared here with four Tibeto-Burman languages in their traditional written forms (tones not marked), next to James Matisoff's reconstructed Proto-Tibeto-Burman. Old Chinese is itself a reconstruction, from William Baxter and Laurent Sagart's system. Look first at the initial consonants: a velar nasal `ŋ` (spelled *ng*) in 'I' and 'five' almost everywhere, and an `s` in 'die' and 'three' that Mizo regularly turns into *th*. Then notice the prefixes Tibetan spelling keeps (*l-nga*, *g-sum*, *r-na*) and the extra syllables in Jingpho (*ma-nga*, *ma-sum*): the roots underneath are the same.",
+    "proto_label": "Proto-Tibeto-Burman",
+    "languages": [
+      { "name": "Old Chinese", "branch_id": "sinitic" },
+      { "name": "Written Tibetan", "branch_id": "tibetic" },
+      { "name": "Written Burmese", "branch_id": "lolo-burmese" },
+      { "name": "Mizo", "branch_id": "kuki-chin" },
+      { "name": "Jingpho", "branch_id": "sal" }
+    ],
+    "rows": [
+      {
+        "gloss": "I",
+        "proto": "ŋa",
+        "forms": ["ŋˤa", "nga", "nga", null, "ngai"]
+      },
+      {
+        "gloss": "five",
+        "proto": "l-ŋa",
+        "forms": ["C.ŋˤaʔ", "lnga", "nga", "panga", "manga"]
+      },
+      {
+        "gloss": "ear",
+        "proto": "r-na",
+        "forms": ["C.nəʔ", "rna", "na", null, "na"]
+      },
+      {
+        "gloss": "name",
+        "proto": "r-miŋ",
+        "forms": ["C.meŋ", "ming", "mañ", "hming", "mying"]
+      },
+      {
+        "gloss": "die",
+        "proto": "səy",
+        "forms": ["sijʔ", "shi", "se", "thi", "si"]
+      },
+      {
+        "gloss": "three",
+        "proto": "g-sum",
+        "forms": ["s.rum", "gsum", "sum", "thum", "masum"]
+      },
+      {
+        "gloss": "sun, day",
+        "proto": "nəy",
+        "forms": ["C.nik", "nyi", "ne", "ni", null]
+      },
+      {
+        "gloss": "dog",
+        "proto": "kʷəy",
+        "forms": ["[k]ʷʰˤ[e][n]ʔ", "khyi", "khwe", "ui", "gwi"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "s-mik",
+        "forms": ["C.m(r)[u]k", "mig", "myak", "mit", "myi"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*ŋ",
+        "reflexes": ["ŋ", "ng", "ng", "ng", "ng"],
+        "rows": [0, 1]
+      },
+      {
+        "label": "*s",
+        "reflexes": ["s", "s (sh before i)", "s", "th", "s"],
+        "rows": [4, 5]
+      },
+      {
+        "label": "*n",
+        "reflexes": ["n", "n (ny before i)", "n", "n", "n"],
+        "rows": [2, 6]
+      }
+    ],
+    "sources": [
+      { "citation": "Matisoff, James A. 2003. Handbook of Proto-Tibeto-Burman: System and Philosophy of Sino-Tibetan Reconstruction. Berkeley: University of California Press.", "url": null },
+      { "citation": "Baxter, William H. & Laurent Sagart. 2014. Old Chinese: A New Reconstruction. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Benedict, Paul K. 1972. Sino-Tibetan: A Conspectus. Cambridge: Cambridge University Press.", "url": null },
+      { "citation": "Lorrain, James Herbert. 1940. Dictionary of the Lushai Language. Calcutta: Royal Asiatic Society of Bengal.", "url": null },
+      { "citation": "Hanson, Ola. 1906. A Dictionary of the Kachin Language. Rangoon: American Baptist Mission Press.", "url": null }
+    ]
+  }
 }
