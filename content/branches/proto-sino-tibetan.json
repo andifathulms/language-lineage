@@ -1,0 +1,63 @@
+{
+  "id": "proto-sino-tibetan",
+  "family": "sino-tibetan",
+  "name": "Proto-Sino-Tibetan",
+  "parent_ids": [],
+  "successor_ids": ["sinitic", "tibeto-burman"],
+  "era": "c. 5000 – 4000 BCE (reconstructed; dating debated)",
+  "region": "Probably the upper and middle Yellow River basin of northern China; a Himalayan or southwestern origin has also been proposed",
+  "defining_innovation": "The reconstructed ancestor of Chinese and the Tibeto-Burman languages, with shared basic words such as *ŋa 'I' (Old Chinese 吾 *ŋˤa, Written Tibetan nga, Burmese ŋa) and numerals: 'five' is Old Chinese 五 *ŋˤaʔ and Tibetan lnga.",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The relationship between Chinese and Tibetan was recognised in the 19th century from shared basic vocabulary: the pronoun 'I' (Old Chinese `*ŋˤa`, Tibetan *nga*, Burmese *ŋa*), 'five' (Old Chinese `*ŋˤaʔ`, Tibetan *lnga*) and 'fish' (Old Chinese `*ŋa`, Burmese *ŋa*). Reconstruction is hard, because Chinese is written in characters that do not record pronunciation directly, and many Tibeto-Burman languages are poorly documented.\n\nTwo phylogenetic studies published in 2019, by Laurent Sagart and colleagues and by Menghan Zhang and colleagues, both placed the origin of the family among Neolithic millet farmers of northern China, around 7,000–6,000 years ago, and found Sinitic to be the first branch to split off. George van Driem and others instead favour an origin further southwest, in Sichuan or the Himalayas, and question the whole idea of a 'Tibeto-Burman' branch."
+    },
+    {
+      "title": "The Shape of the Tree",
+      "body": "The traditional division is into **Sinitic** (the Chinese languages) and **Tibeto-Burman** (everything else). This tree follows it, since both 2019 phylogenies support Sinitic as the first split. Tibeto-Burman itself contains dozens of subgroups, and this tree draws five of the best established: Tibetic, Lolo-Burmese, Karenic, Kuki-Chin and Sal. Many others (Kiranti, Tani, Qiangic, Nungish, Tamangic and more) are not yet drawn."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-pst-dispersal",
+      "branch_id": "proto-sino-tibetan",
+      "date": "c. 5000 – 4000 BCE",
+      "type": "SPLIT",
+      "title": "Millet farmers of the Yellow River",
+      "description": "Sinitic and the ancestors of Tibeto-Burman part, as millet farmers spread west and southwest from northern China toward the Tibetan plateau and the Himalayas. The homeland and date are disputed, and the alternative places the origin in the southwest.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sagart, Laurent, et al. 2019. Dated language phylogenies shed light on the ancestry of Sino-Tibetan. Proceedings of the National Academy of Sciences 116(21).", "url": null },
+        { "citation": "Zhang, Menghan, et al. 2019. Phylogenetic evidence for Sino-Tibetan origin in northern China in the Late Neolithic. Nature 569.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-sino-austronesian",
+      "branch_id": "proto-sino-tibetan",
+      "proposed_grouping": "Sino-Austronesian: Sino-Tibetan and Austronesian share an ancestor",
+      "status": "minority_position",
+      "evidence_for": "Laurent Sagart has proposed sound correspondences and shared vocabulary between Old Chinese and Proto-Austronesian, linked to the spread of millet and rice farming from northern China. The Austronesian tree records the related Austro-Tai debate.",
+      "evidence_against": "The proposed cognates are few, and borrowing between Neolithic farming populations along the Chinese coast could explain them. Most specialists regard the case as unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Sagart, Laurent. 2005. Sino-Tibetan–Austronesian: An updated and improved argument. In The Peopling of East Asia, ed. Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas. London: RoutledgeCurzon.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-dene-caucasian",
+      "branch_id": "proto-sino-tibetan",
+      "proposed_grouping": "Dene-Caucasian (Sino-Caucasian): Sino-Tibetan is related to Yeniseian, North Caucasian, Basque and Na-Dene",
+      "status": "largely_rejected",
+      "evidence_for": "Sergei Starostin proposed lexical correspondences linking Sino-Tibetan, Yeniseian and North Caucasian, and others later added Basque, Burushaski and Na-Dene.",
+      "evidence_against": "The families are separated by great distances and time depths, the proposed cognates are loosely matched, and reconstructions are compared with other reconstructions. Most historical linguists do not accept it. The better-supported Dene–Yeniseian link, between Yeniseian and Na-Dene, is a separate and narrower proposal.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Starostin, Sergei A. 1984. Gipoteza o genetičeskix svjazjax sinotibetskix jazykov s enisejskimi i severnokavkazskimi jazykami. In Lingvističeskaja rekonstrukcija i drevnejšaja istorija Vostoka. Moscow: Nauka.", "url": null },
+        { "citation": "Campbell, Lyle & William J. Poser. 2008. Language Classification: History and Method. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
