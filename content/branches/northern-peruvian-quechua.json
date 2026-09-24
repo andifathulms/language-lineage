@@ -1,0 +1,33 @@
+{
+  "id": "northern-peruvian-quechua",
+  "family": "quechuan",
+  "name": "Northern Peruvian",
+  "parent_ids": ["quechua-ii"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The northern highlands of Peru: Cajamarca and Lambayeque (Cañaris, Incahuasi)",
+  "defining_innovation": "Torero's Quechua II-A, small highland varieties north of the Central Quechua area.",
+  "descendants": ["Cajamarca", "Cañaris-Incahuasi"],
+  "chapters": [
+    {
+      "title": "Northern Outliers",
+      "body": "Torero's Quechua II-A takes in the Quechua of Cajamarca and of the Cañaris and Incahuasi districts in the highlands of Lambayeque, spoken by a few tens of thousands of people. They share some features with Central Quechua, their southern neighbour, and some with Quechua II, and their exact position is one of the unsettled points in Quechua classification. They are threatened by the spread of Spanish in the northern highlands."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-quechua-iia-split",
+      "branch_id": "northern-peruvian-quechua",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "A northern foothold",
+      "description": "Quechua II speakers establish themselves in the northern Peruvian highlands. Whether this group is a true branch or a geographical grouping is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
