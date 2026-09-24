@@ -1,0 +1,13 @@
+{
+  "slug": "sino-tibetan",
+  "name": "Sino-Tibetan",
+  "superfamily": null,
+  "summary": "The family of Chinese, Tibetan and Burmese, and of some 450 other languages across the Himalayas and mainland Southeast Asia. With more than 1.4 billion speakers it is second only to Indo-European. Chinese has a written record going back more than 3,000 years, but most of the family's languages are small, unwritten, and spoken in the mountains of Nepal, northeast India, Myanmar and southwest China. Where it began, and whether 'Tibeto-Burman' is a real branch, are still argued.",
+  "root_branch_id": "proto-sino-tibetan",
+  "buried_root": { "name": "No proven deeper root", "note": "Sino-Austronesian? Dene-Caucasian? · disputed", "proven": false },
+  "accent": { "light": "14 104 132", "dark": "104 196 220" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Sino-Tibetan (sino1245).", "url": "https://glottolog.org/resource/languoid/id/sino1245" },
+    { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+  ]
+}
