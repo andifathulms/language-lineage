@@ -1,0 +1,89 @@
+{
+  "id": "kusi",
+  "family": "bantu",
+  "name": "Kusi",
+  "parent_ids": ["eastern-bantu"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Southern Africa: Zimbabwe, Mozambique, South Africa, Lesotho, Eswatini, Botswana",
+  "defining_innovation": "The southern Bantu languages (Ehret's 'Kusi', 'south'), including Shona, Sotho-Tswana and the Nguni languages. Nguni borrowed click consonants from Khoe and San neighbours.",
+  "descendants": ["Zulu", "Xhosa", "Shona", "Sotho", "Tswana", "Tsonga", "Venda", "Ndebele"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "In the first millennium CE, Bantu-speaking farmers and iron-workers spread into southern Africa, bringing cattle, sorghum and millet into lands long occupied by Khoe herders and San hunter-gatherers. Their languages developed into the southern Bantu groups: **Shona** in Zimbabwe, whose speakers built Great Zimbabwe, **Sotho-Tswana** on the highveld, **Tsonga** and **Venda**, and **Nguni** (Zulu, Xhosa, Swati, Ndebele) along the east coast."
+    },
+    {
+      "title": "Borrowed Clicks",
+      "body": "Clicks are rare in the world's languages and are native only to the Khoe and San languages of southern Africa and a few in Tanzania. Yet Xhosa and Zulu have them in thousands of words, and Xhosa has some fifteen click consonants. They entered through long contact and intermarriage with Khoe and San speakers. One route was *hlonipha*, a custom of respectful avoidance in which married women avoided the syllables of their in-laws' names and replaced them with alternatives, often click-containing words from Khoe. The name *Xhosa* itself begins with a click."
+    },
+    {
+      "title": "Upheaval, Print and Constitution",
+      "body": "In the 1820s–30s the rise of the Zulu kingdom and the wars and migrations known as the *Mfecane* carried Nguni languages far to the north, to Zimbabwe (Ndebele) and as far as Malawi and Tanzania (Ngoni). How this period should be described is itself disputed. Missionaries wrote down Xhosa, Sotho and Tswana from the 1820s. Robert Moffat's complete Tswana Bible appeared in 1857, and **Sol Plaatje**, journalist and founding member of the ANC, published a collection of Tswana proverbs (1916) and translations of Shakespeare. South Africa's 1996 constitution recognises nine Bantu languages among its official languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kusi-south",
+      "branch_id": "kusi",
+      "date": "c. 200 – 1000 CE",
+      "type": "SPLIT",
+      "title": "Into southern Africa",
+      "description": "Bantu-speaking farmers spread across southern Africa, and the Shona, Sotho-Tswana, Nguni and other southern groups begin to diverge. The routes and the order of arrival are debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Ehret, Christopher. 1998. An African Classical Age: Eastern and Southern Africa in World History, 1000 B.C. to A.D. 400. Charlottesville: University Press of Virginia.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-click-borrowing",
+      "branch_id": "kusi",
+      "date": "c. 1st – 2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Clicks from Khoe and San",
+      "description": "Through intermarriage, bilingualism and *hlonipha* avoidance speech, Xhosa, Zulu and, to a lesser degree, Southern Sotho take in click consonants from Khoe and San languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Herbert, Robert K. 1990. The sociohistory of clicks in Southern Bantu. Anthropological Linguistics 32.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mfecane",
+      "branch_id": "kusi",
+      "date": "1820s – 1830s",
+      "type": "SPLIT",
+      "title": "The Mfecane",
+      "description": "Wars and migrations around the rise of the Zulu kingdom carry Nguni languages north: Ndebele to Zimbabwe, Ngoni to Malawi and Tanzania. Historians dispute the causes and scale of the Mfecane, and even whether it should be treated as a single event.",
+      "contested": true,
+      "sources": [
+        { "citation": "Hamilton, Carolyn, ed. 1995. The Mfecane Aftermath: Reconstructive Debates in Southern African History. Johannesburg: Witwatersrand University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-southern-bantu-print",
+      "branch_id": "kusi",
+      "date": "1820s – 1916",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Print in Xhosa, Sotho and Tswana",
+      "description": "Mission presses publish grammars, scripture and newspapers. The Tswana Bible appears in 1857, and African writers such as Sol Plaatje soon use the languages for their own journalism and scholarship.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-sa-official-languages",
+      "branch_id": "kusi",
+      "date": "1996",
+      "type": "REVITALIZATION",
+      "title": "Official languages of South Africa",
+      "description": "The post-apartheid constitution gives official status to nine Bantu languages (Zulu, Xhosa, Swati, Ndebele, Northern and Southern Sotho, Tswana, Tsonga and Venda) alongside English and Afrikaans. In practice English still dominates public life.",
+      "contested": false,
+      "sources": [
+        { "citation": "Van de Velde, Mark, Koen Bostoen, Derek Nurse & Gérard Philippson, eds. 2019. The Bantu Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["sol-plaatje"]
+}

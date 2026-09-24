@@ -194,5 +194,12 @@
     "lifespan": "1922–1999",
     "branch_ids": ["sabaki"],
     "turning_point_ids": ["tp-swahili-national"]
+  },
+  {
+    "id": "sol-plaatje",
+    "name": "Sol Plaatje",
+    "lifespan": "1876–1932",
+    "branch_ids": ["kusi"],
+    "turning_point_ids": ["tp-southern-bantu-print"]
   }
 ]
