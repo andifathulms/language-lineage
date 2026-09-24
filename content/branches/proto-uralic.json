@@ -1,0 +1,111 @@
+{
+  "id": "proto-uralic",
+  "family": "uralic",
+  "name": "Proto-Uralic",
+  "parent_ids": [],
+  "successor_ids": ["finnic", "saami", "permic", "ugric", "samoyedic"],
+  "era": "c. 3000–2000 BCE (reconstructed; dating debated)",
+  "region": "Probably the forest zone around the Volga–Kama basin and the Urals",
+  "defining_innovation": "The reconstructed ancestor of about forty languages, known from a few hundred shared words such as *kala 'fish' (Finnish kala, Hungarian hal) and *nimi 'name' (Finnish nimi, Hungarian név).",
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Proto-Uralic is rebuilt from a relatively small inherited core, a few hundred reliable word families, because its daughters have been apart for so long. What survives is basic: `*kala` 'fish' (Finnish *kala*, Hungarian *hal*, Mansi *xul*), `*weti` 'water' (Finnish *vesi*, Hungarian *víz*), `*nimi` 'name' (Finnish *nimi*, Hungarian *név*). The vocabulary describes hunters and fishers of the northern forest, and has no inherited words for farming.\n\nWhere and when it was spoken is disputed. Most proposals put it in the forest zone on either side of the Ural Mountains, often the Volga–Kama region, between about 3000 and 2000 BCE. Recent work by Finnish scholars favours a later and more westerly homeland than older textbooks did."
+    },
+    {
+      "title": "Neighbours to the South",
+      "body": "Uralic speakers lived next to Indo-Europeans from the start, and the loanwords can be dated by their sound shapes like layers in a trunk. The oldest are Indo-Iranian: Finnish *sata* and Hungarian *száz* 'hundred' come from a form like Indo-Iranian `*śata-`, and Finnish *vasara* 'hammer' matches Sanskrit *vájra-*, the thunderbolt of the god Indra. Later layers, which appear only in some branches, came from Baltic and Germanic neighbours."
+    },
+    {
+      "title": "Discovering the Family",
+      "body": "The Uralic family was recognised early. In 1770 the Hungarian Jesuit János Sajnovics, after visiting Saami speakers in northern Norway, argued that Hungarian and Saami were the same language in origin. In 1799 Sámuel Gyarmathi made a systematic case for the relationship of Hungarian with Finnish and its relatives, comparing grammar as well as words. Both came before Rask and Grimm, and they are counted among the pioneers of comparative linguistics."
+    },
+    {
+      "title": "The Shape of the Tree",
+      "body": "Older handbooks split Uralic in two, **Samoyedic** and **Finno-Ugric**, and then divided Finno-Ugric step by step into Ugric, Permic and so on. Many specialists now doubt most of these intermediate steps, because the shared innovations that should define them are few. This tree therefore draws the main branches growing from one fork: **Finnic**, **Saami**, **Permic**, **Ugric** and **Samoyedic**. Mordvinic, Mari and some smaller branches are not yet drawn."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-indo-iranian-loans",
+      "branch_id": "proto-uralic",
+      "date": "c. 3rd – 2nd millennium BCE",
+      "type": "CONTACT",
+      "title": "Indo-Iranian loanwords",
+      "description": "Words for numbers, metals, and wealth or rank enter from Indo-Iranian, among them *sata*/*száz* 'hundred' and *vasara* 'hammer'. Whether the oldest layer reached Proto-Uralic itself or only some later branches, and in what order, is debated.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Koivulehto, Jorma. 2001. The earliest contacts between Indo-European and Uralic speakers in the light of lexical loans. In Early Contacts between Uralic and Indo-European, ed. Christian Carpelan, Asko Parpola & Petteri Koskikallio. Helsinki: Suomalais-Ugrilainen Seura.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "tp-pu-dispersal",
+      "branch_id": "proto-uralic",
+      "date": "c. 2500–2000 BCE",
+      "type": "SPLIT",
+      "title": "Dispersal from the homeland",
+      "description": "Proto-Uralic speakers spread west towards the Baltic, north into the tundra and east across the Urals, and the branches begin to diverge. The homeland, the date and the order of the splits are all contested.",
+      "contested": true,
+      "sources": [
+        { "citation": "Häkkinen, Jaakko. 2009. Kantauralin ajoitus ja paikannus: perustelut puntarissa. Suomalais-Ugrilaisen Seuran Aikakauskirja 92.", "url": null },
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-finno-ugric",
+      "branch_id": "proto-uralic",
+      "proposed_grouping": "Finno-Ugric: all Uralic languages except Samoyedic share an intermediate ancestor",
+      "status": "widely_accepted",
+      "evidence_for": "The traditional tree rests on vocabulary that Samoyedic lacks and the other branches share, and it is still used in many handbooks and in the names of institutions.",
+      "evidence_against": "Salminen and others argue that the 'Finno-Ugric' words may simply have been lost in Samoyedic, which is poorly attested and has changed its vocabulary heavily, so they do not prove a shared ancestor. Few sound changes set Finno-Ugric apart. For this reason the tree here does not draw a Finno-Ugric node.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Salminen, Tapani. 2002. Problems in the taxonomy of the Uralic languages in the light of modern comparative studies. In Lingvističeskij bespredel. Moscow: Moscow State University Press.", "url": null },
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-uralo-altaic",
+      "branch_id": "proto-uralic",
+      "proposed_grouping": "Uralo-Altaic: Uralic is related to Turkic, Mongolic and Tungusic",
+      "status": "largely_rejected",
+      "evidence_for": "Nineteenth-century scholars noticed that these languages share vowel harmony, agglutinating suffixes, verb-final word order, postpositions and a lack of grammatical gender.",
+      "evidence_against": "These are typological features, common among unrelated languages worldwide, and not evidence of shared ancestry. No regular sound correspondences in basic vocabulary have been demonstrated. The 'Altaic' half is itself disputed, and many linguists explain its similarities as the result of contact.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-indo-uralic",
+      "branch_id": "proto-uralic",
+      "proposed_grouping": "Indo-Uralic: Uralic and Indo-European descend from one ancestor",
+      "status": "minority_position",
+      "evidence_for": "The two families share some core grammar: first- and second-person pronouns in *m-* and *t-* (Proto-Uralic `*mi`, `*ti` beside PIE `*me-`, `*te-`), an accusative in `*-m`, and a plural in `*-t`. Collinder in 1934, and later Kortlandt, argued that such basic morphemes are rarely borrowed.",
+      "evidence_against": "The set of matching morphemes is small and made of short, common sound shapes, so chance is hard to rule out. Millennia of contact and borrowing between the two families make inherited and borrowed words hard to separate. Most specialists regard the case as suggestive but unproven.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Collinder, Björn. 1934. Indo-uralisches Sprachgut. Uppsala: Lundequistska.", "url": null }
+      ]
+    },
+    {
+      "id": "cc-nostratic",
+      "branch_id": "proto-uralic",
+      "proposed_grouping": "Nostratic: Uralic, Indo-European, Altaic, Kartvelian, Dravidian and perhaps Afroasiatic form one macro-family",
+      "status": "largely_rejected",
+      "evidence_for": "Illich-Svitych and Dolgopolsky compiled hundreds of proposed cognate sets with sound correspondences across these families, and later supporters such as Bomhard have extended them.",
+      "evidence_against": "The proposed common ancestor would be more than 12,000 years old, which many linguists think is beyond the reach of the comparative method. Critics such as Campbell point to loose semantic matching, reconstructed forms compared with other reconstructions, and correspondences that do not hold consistently. Most historical linguists do not accept it.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Illich-Svitych, Vladislav M. 1971–1984. Opyt sravnenija nostratičeskix jazykov. Moscow: Nauka.", "url": null },
+        { "citation": "Campbell, Lyle. 1998. Nostratic: A personal assessment. In Nostratic: Sifting the Evidence, ed. Brian D. Joseph & Joseph C. Salmons. Amsterdam: John Benjamins.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
