@@ -250,5 +250,12 @@
     "lifespan": "1905–1982",
     "branch_ids": ["munda"],
     "turning_point_ids": ["tp-ol-chiki"]
+  },
+  {
+    "id": "thomas-jones-khasi",
+    "name": "Thomas Jones",
+    "lifespan": "1810–1849",
+    "branch_ids": ["khasian"],
+    "turning_point_ids": ["tp-khasi-latin"]
   }
 ]
