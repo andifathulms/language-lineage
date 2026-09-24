@@ -1,0 +1,91 @@
+{
+  "id": "cree-innu",
+  "family": "algonquian",
+  "name": "Cree–Innu",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Across the Canadian subarctic, from the Rockies to Labrador",
+  "defining_innovation": "A continuum of Cree, Innu (Montagnais) and Naskapi dialects across Canada, famous for the different ways its dialects reflect Proto-Algonquian *r: y, n, th, l or r ('you': Plains Cree kīya, Swampy Cree kīna, Woods Cree kītha).",
+  "descendants": ["Plains Cree", "Swampy Cree", "Woods Cree", "Moose Cree", "Atikamekw", "Innu", "Naskapi"],
+  "chapters": [
+    {
+      "title": "One Language Across a Continent",
+      "body": "Cree, Innu and Naskapi form a dialect continuum from Alberta to Labrador, spoken by more than 100,000 people, the largest Indigenous language group in Canada. The dialects are traditionally classified by how they pronounce one Proto-Algonquian consonant, `*r`. It is *y* in Plains Cree, *n* in Swampy Cree, *th* in Woods Cree, *l* in Moose Cree and *r* in Atikamekw, so 'you' is *kīya*, *kīna*, *kītha* and so on. Swampy Cree also confirmed Leonard Bloomfield's famous prediction: it keeps the reconstructed cluster `*çk` distinct, as *htk*."
+    },
+    {
+      "title": "Syllabics and Michif",
+      "body": "In 1840 the Methodist missionary **James Evans** at Norway House devised a syllabary for Cree, in which the shape of a sign gives the consonant and its orientation gives the vowel. It spread rapidly through Cree communities, often ahead of the missionaries themselves, and was later adapted for Ojibwe and Inuktitut.\n\nOn the Plains, the Métis children of Cree mothers and French fur traders developed **Michif**, a mixed language with Cree verbs and French nouns, one of the clearest cases of a new language born of contact."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-swampy-cree-htk",
+      "branch_id": "cree-innu",
+      "date": "Undated; identified 1925",
+      "type": "SOUND_LAW",
+      "title": "Bloomfield's *çk: Swampy Cree htk",
+      "description": "Bloomfield reconstructed Proto-Algonquian `*çk` from a single correspondence set (Fox *hk*, Ojibwe *šk*, Menominee *čk*, Plains Cree *sk*) and predicted it would be kept distinct somewhere. Swampy Cree, recorded later, has *htk*, a result often cited as proof that sound change is regular.",
+      "contested": false,
+      "process": "consonant_shift",
+      "notation": "PA *çk → Swampy Cree htk (Plains Cree sk, Ojibwe šk)",
+      "sort_year": 1000,
+      "sources": [
+        { "citation": "Bloomfield, Leonard. 1925. On the sound-system of Central Algonquian. Language 1(4).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cree-r-dialects",
+      "branch_id": "cree-innu",
+      "date": "2nd millennium CE",
+      "type": "SOUND_LAW",
+      "title": "The y-, n-, th-, l- and r-dialects",
+      "description": "Proto-Algonquian `*r` develops differently across the Cree continuum: *y* in Plains Cree, *n* in Swampy Cree, *th* in Woods Cree, *l* in Moose Cree, *r* in Atikamekw. The pattern is the standard way of classifying Cree dialects. Its dating is uncertain.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "PA *r → y · n · ð · l · r by dialect (kīya, kīna, kītha 'you')",
+      "sort_year": 1400,
+      "sources": [
+        { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-fur-trade-cree",
+      "branch_id": "cree-innu",
+      "date": "1670 onward",
+      "type": "CONTACT",
+      "title": "The fur trade",
+      "description": "The Hudson's Bay Company's posts around Hudson Bay make Cree a language of the fur trade, and Cree and French intermarriage produces the Métis people.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakker, Peter. 1997. A Language of Our Own: The Genesis of Michif, the Mixed Cree-French Language of the Canadian Métis. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cree-syllabics",
+      "branch_id": "cree-innu",
+      "date": "1840",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Cree syllabics",
+      "description": "James Evans devises a syllabary for Cree at Norway House. Literacy in it spreads quickly among Cree speakers, and it is later adapted for Ojibwe, Naskapi and Inuktitut.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-michif",
+      "branch_id": "cree-innu",
+      "date": "c. 1800 – 1850",
+      "type": "SPLIT",
+      "title": "Michif, a mixed language",
+      "description": "Among the Plains Métis a new language forms, Michif, with Cree verbs and grammar and French nouns and noun phrases. It is a rare example of a language with two parent languages.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bakker, Peter. 1997. A Language of Our Own: The Genesis of Michif, the Mixed Cree-French Language of the Canadian Métis. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["leonard-bloomfield", "james-evans"]
+}

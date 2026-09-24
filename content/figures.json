@@ -348,5 +348,12 @@
     "lifespan": "1887–1949",
     "branch_ids": ["proto-algonquian", "cree-innu"],
     "turning_point_ids": ["tp-swampy-cree-htk"]
+  },
+  {
+    "id": "james-evans",
+    "name": "James Evans",
+    "lifespan": "1801–1846",
+    "branch_ids": ["cree-innu"],
+    "turning_point_ids": ["tp-cree-syllabics"]
   }
 ]
