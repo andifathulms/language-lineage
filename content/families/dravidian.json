@@ -35,5 +35,90 @@
     { "citation": "Southworth, Franklin C. 2005. Linguistic Archaeology of South Asia. London: RoutledgeCurzon.", "url": null },
     { "citation": "Steever, Sanford B. (ed.). 2019. The Dravidian Languages. 2nd ed. London: Routledge.", "url": null },
     { "citation": "Narasimhan, Vagheesh M. et al. 2019. The formation of human populations in South and Central Asia. Science 365 (6457).", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The table sets the four large literary languages beside two languages of the northern branch. Look first at 'eye' and 'ear': where Tamil, Kannada and Telugu have *k*, Kurukh and Brahui have *x*, the sound of Scottish *loch*. Before a front vowel, Tamil and Telugu turn the same *k* into *c*. Kannada has *h* where the others have *p* ('tooth'), and it shares *b* for *v* with the northern languages ('come'). Brahui has borrowed most of its vocabulary from Iranian neighbours, but pronouns, low numerals and a core of basic words like these are still Dravidian.",
+    "proto_label": "Proto-Dravidian",
+    "languages": [
+      { "name": "Tamil", "branch_id": "tamil-malayalam" },
+      { "name": "Kannada", "branch_id": "kannada" },
+      { "name": "Telugu", "branch_id": "south-central-dravidian" },
+      { "name": "Kurukh", "branch_id": "north-dravidian" },
+      { "name": "Brahui", "branch_id": "north-dravidian" }
+    ],
+    "rows": [
+      {
+        "gloss": "eye",
+        "proto": "kaṇ",
+        "forms": ["kaṇ", "kaṇṇu", "kannu", "xann", "xan"]
+      },
+      {
+        "gloss": "ear",
+        "proto": "kew-i",
+        "forms": ["cevi", "kivi", "cevi", "xebdā", "xaf"]
+      },
+      {
+        "gloss": "two",
+        "proto": "ir-aṇṭu",
+        "forms": ["iraṇṭu", "eraḍu", "reṇḍu", null, "irāṭ"]
+      },
+      {
+        "gloss": "three",
+        "proto": "mū-",
+        "forms": ["mūṉṟu", "mūru", "mūḍu", "mūnd", "musiṭ"]
+      },
+      {
+        "gloss": "I",
+        "proto": "yān",
+        "forms": ["nāṉ", "nānu", "nēnu", "ēn", "ī"]
+      },
+      {
+        "gloss": "you (singular)",
+        "proto": "nīn",
+        "forms": ["nī", "nīnu", "nīvu", "nīn", "nī"]
+      },
+      {
+        "gloss": "come",
+        "proto": "wā-",
+        "forms": ["vā-", "bā-", "vaccu", "bar-", "bar-"]
+      },
+      {
+        "gloss": "water",
+        "proto": "nīr",
+        "forms": ["nīr", "nīru", "nīru", null, "dīr"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "pal",
+        "forms": ["pal", "hallu", "pallu", "pall", null]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*k",
+        "reflexes": ["k", "k", "k", "x", "x"],
+        "rows": [0]
+      },
+      {
+        "label": "*k before front vowel",
+        "reflexes": ["c", "k", "c", "x", "x"],
+        "rows": [1]
+      },
+      {
+        "label": "*p",
+        "reflexes": ["p", "h", "p", "p", null],
+        "rows": [8]
+      },
+      {
+        "label": "*w",
+        "reflexes": ["v", "b", "v", "b", "b"],
+        "rows": [6]
+      }
+    ],
+    "sources": [
+      { "citation": "Burrow, T. & M. B. Emeneau. 1984. A Dravidian Etymological Dictionary. 2nd ed. Oxford: Clarendon Press.", "url": "https://dsal.uchicago.edu/dictionaries/burrow/" },
+      { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null },
+      { "citation": "Andronov, Mikhail S. 1980. The Brahui Language. Moscow: Nauka.", "url": null }
+    ]
+  }
 }
