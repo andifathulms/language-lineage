@@ -15,9 +15,9 @@ export function PrimaryNav({ familyCount }: { familyCount: number }) {
         : ""
     }`;
   return (
-    <nav aria-label="Primary" className="font-label text-[0.7rem] font-medium uppercase tracking-[0.14em] text-bark-soft">
+    <nav aria-label="Primary" className="font-label text-[0.68rem] font-medium uppercase tracking-[0.08em] text-bark-soft sm:text-[0.7rem] sm:tracking-[0.14em]">
       {/* One entry for all families: the list lives on the landing page and scales with it. */}
-      <ul className="flex gap-x-4 whitespace-nowrap sm:gap-x-6">
+      <ul className="flex gap-x-3.5 whitespace-nowrap sm:gap-x-6">
         <li>
           <Link href="/#families" className={item(inFamilies)} aria-current={inFamilies ? "page" : undefined}>
             Families <span className="hidden text-bark-soft/70 sm:inline">{familyCount}</span>

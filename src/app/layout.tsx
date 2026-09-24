@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <header className="sticky top-0 z-40 border-b border-ring/60 bg-cream/85 backdrop-blur-md supports-[backdrop-filter]:bg-cream/70">
-          <div className="mx-auto flex h-16 max-w-page items-center justify-between gap-6 px-4 sm:px-6">
+          <div className="mx-auto flex h-16 max-w-page items-center justify-between gap-3 px-4 sm:gap-6 sm:px-6">
             <Link href="/" className="group flex shrink-0 items-center gap-2 no-underline sm:gap-2.5">
               <RingGlyph className="h-6 w-6 sm:h-7 sm:w-7 text-heartwood transition-transform duration-base ease-grow group-hover:rotate-[20deg]" />
               <span className="whitespace-nowrap font-display text-[1.05rem] font-semibold tracking-tight text-bark sm:text-[1.15rem]">Language Lineage</span>
