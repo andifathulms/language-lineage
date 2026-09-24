@@ -11,9 +11,17 @@ function accentCss(family: Family) {
 }
 
 // Scopes --accent to one family's earth tone, in both colour schemes.
-export function FamilyAccent({ family, children }: { family: Family; children: React.ReactNode }) {
+export function FamilyAccent({
+  family,
+  className,
+  children,
+}: {
+  family: Family;
+  className?: string;
+  children: React.ReactNode;
+}) {
   return (
-    <div className={accentClass(family)}>
+    <div className={className ? `${accentClass(family)} ${className}` : accentClass(family)}>
       <style dangerouslySetInnerHTML={{ __html: accentCss(family) }} />
       {children}
     </div>

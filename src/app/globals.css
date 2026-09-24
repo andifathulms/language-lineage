@@ -71,7 +71,7 @@
     @apply font-display text-bark;
     font-variation-settings: "SOFT" 100, "WONK" 0;
     letter-spacing: -0.012em;
-    text-wrap: balance;
+    text-wrap-style: balance;
   }
   h1 {
     letter-spacing: -0.022em;
@@ -79,7 +79,7 @@
   p,
   li,
   dd {
-    text-wrap: pretty;
+    text-wrap-style: pretty;
   }
   a {
     @apply underline decoration-ring decoration-1 underline-offset-[3px] transition-colors duration-base ease-grow;
@@ -246,5 +246,20 @@ html.js .tree-pre [data-limb] {
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Landing hero: rings grow outward from the pith.
+   ------------------------------------------------------------------ */
+.hero-ring {
+  transform-box: view-box;
+  transform-origin: 46.5% 53.5%;
+  animation: hero-ring 1100ms var(--ease-grow) both;
+}
+@keyframes hero-ring {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
   }
 }
