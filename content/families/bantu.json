@@ -38,5 +38,91 @@
     },
     { "citation": "Lipson, Mark, et al. 2020. Ancient West African foragers in the context of African population history. Nature 577: 665–670.", "url": null },
     { "citation": "Bostoen, Koen. 2018. The Bantu Expansion. Oxford Research Encyclopedia of African History. Oxford: Oxford University Press.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "Look first at the beginnings of the words. The same class prefixes recur in every column: `*mʊ-` for a single person or tree, `*ba-` for people. Luganda and Zulu add an extra initial vowel (*o-muntu*, *u-muntu*), and Swahili has shortened *mu-* to *m-*. Then compare the stems, which change by regular rules: Swahili turns `*b` into *w*, Zulu aspirates `*t` as *th*, and everywhere `*k` became *f* before the high vowel `*u` in 'die'. The worn-down languages of the northwest are left out; their forms are much harder to line up.",
+    "proto_label": "Proto-Bantu",
+    "languages": [
+      { "name": "Kikongo", "branch_id": "western-bantu" },
+      { "name": "Luganda", "branch_id": "great-lakes" },
+      { "name": "Swahili", "branch_id": "sabaki" },
+      { "name": "Zulu", "branch_id": "kusi" }
+    ],
+    "rows": [
+      {
+        "gloss": "person",
+        "proto": "mʊ-ntʊ",
+        "forms": ["muntu", "omuntu", "mtu", "umuntu"]
+      },
+      {
+        "gloss": "people",
+        "proto": "ba-ntʊ",
+        "forms": ["bantu", "abantu", "watu", "abantu"]
+      },
+      {
+        "gloss": "tree",
+        "proto": "mʊ-tɪ",
+        "forms": ["nti", "omuti", "mti", "umuthi"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "-jino",
+        "forms": ["dinu", "erinnyo", "jino", "izinyo"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "-jico",
+        "forms": ["disu", "eriiso", "jicho", "iso"]
+      },
+      {
+        "gloss": "die",
+        "proto": "-ku-",
+        "forms": ["-fwa", "-fa", "-fa", "-fa"]
+      },
+      {
+        "gloss": "eat",
+        "proto": "-dɪ-",
+        "forms": ["-dia", "-lya", "-la", "-dla"]
+      },
+      {
+        "gloss": "two",
+        "proto": "-bɪdɪ",
+        "forms": [null, "-biri", "-wili", "-bili"]
+      },
+      {
+        "gloss": "three",
+        "proto": "-tatʊ",
+        "forms": ["-tatu", "-satu", "-tatu", "-thathu"]
+      },
+      {
+        "gloss": "five",
+        "proto": "-taano",
+        "forms": ["-tanu", "-taano", "-tano", "-hlanu"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*b",
+        "reflexes": ["b", "b", "w", "b"],
+        "rows": [1, 7]
+      },
+      {
+        "label": "*t",
+        "reflexes": ["t", "t", "t", "th"],
+        "rows": [2]
+      },
+      {
+        "label": "*k before *u",
+        "reflexes": ["f", "f", "f", "f"],
+        "rows": [5]
+      }
+    ],
+    "sources": [
+      { "citation": "Bastin, Yvonne, André Coupez, Evariste Mumba & Thilo C. Schadeberg, eds. 2002. Bantu Lexical Reconstructions 3. Tervuren: Royal Museum for Central Africa.", "url": null },
+      { "citation": "Laman, Karl E. 1936. Dictionnaire kikongo-français. Brussels: Institut Royal Colonial Belge.", "url": null },
+      { "citation": "Snoxall, R. A. 1967. Luganda–English Dictionary. Oxford: Clarendon Press.", "url": null },
+      { "citation": "Johnson, Frederick. 1939. A Standard Swahili–English Dictionary. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Doke, C. M. & B. W. Vilakazi. 1948. Zulu–English Dictionary. Johannesburg: Witwatersrand University Press.", "url": null }
+    ]
+  }
 }
