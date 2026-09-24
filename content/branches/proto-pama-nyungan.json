@@ -3,7 +3,7 @@
   "family": "pama-nyungan",
   "name": "Proto-Pama-Nyungan",
   "parent_ids": [],
-  "successor_ids": ["western-desert", "arandic", "thura-yura", "yolngu", "paman", "kulin", "wiradhuric"],
+  "successor_ids": ["western-desert", "ngumpin-yapa", "arandic", "karnic", "thura-yura", "yolngu", "paman", "kulin", "wiradhuric"],
   "era": "c. 4000 BCE (reconstructed; dating debated)",
   "region": "Probably the Gulf of Carpentaria region of northern Queensland",
   "defining_innovation": "The reconstructed ancestor of most Australian languages, with pronouns still recognisable across the continent: *ngayu 'I' and *nyuntu 'you' survive in Pitjantjatjara ngayulu and nyuntu, thousands of kilometres from the homeland.",
@@ -14,13 +14,13 @@
     },
     {
       "title": "A Rake of Subgroups",
-      "body": "Below the family level, Pama-Nyungan contains many well-established subgroups, but how they group into larger branches is uncertain. Bowern and Atkinson propose four major clades (Western, Central, Northern and South-Eastern), but they are less secure than the subgroups themselves. This tree draws seven established groups directly from the root: Western Desert, Arandic, Thura-Yura, Yolŋu Matha, Paman, Kulin and Wiradhuric."
+      "body": "Below the family level, Pama-Nyungan contains many well-established subgroups, but how they group into larger branches is uncertain. Bowern and Atkinson propose four major clades (Western, Central, Northern and South-Eastern), but they are less secure than the subgroups themselves. This tree draws nine established groups directly from the root: Western Desert, Ngumpin-Yapa, Arandic, Karnic, Thura-Yura, Yolŋu Matha, Paman, Kulin and Wiradhuric."
     }
   ],
   "speakers": {
-    "estimate": "c. 20,000 (groups shown here)",
+    "estimate": "c. 24,000 (groups shown here)",
     "vitality": "mixed",
-    "note": "Other Pama-Nyungan languages not drawn on this tree, such as Warlpiri (about 2,600 home users in the 2021 census), add several thousand more.",
+    "note": "Other Pama-Nyungan languages not drawn on this tree add a few thousand more. Census figures count people who use a language at home, including some who are not fully fluent.",
     "sources": [
       {
         "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",

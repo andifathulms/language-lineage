@@ -283,7 +283,7 @@
     "id": "kenneth-hale",
     "name": "Kenneth Hale",
     "lifespan": "1934–2001",
-    "branch_ids": ["tepiman", "paman"],
+    "branch_ids": ["tepiman", "paman", "ngumpin-yapa"],
     "turning_point_ids": ["tp-oodham-alphabet", "tp-paman-initial-dropping"]
   },
   {
@@ -297,8 +297,8 @@
     "id": "carl-strehlow",
     "name": "Carl Strehlow",
     "lifespan": "1871–1922",
-    "branch_ids": ["arandic"],
-    "turning_point_ids": ["tp-hermannsburg"]
+    "branch_ids": ["arandic", "karnic"],
+    "turning_point_ids": ["tp-hermannsburg", "tp-killalpaninna"]
   },
   {
     "id": "clamor-schurmann",
@@ -346,8 +346,8 @@
     "id": "leonard-bloomfield",
     "name": "Leonard Bloomfield",
     "lifespan": "1887–1949",
-    "branch_ids": ["proto-algonquian", "cree-innu"],
-    "turning_point_ids": ["tp-swampy-cree-htk"]
+    "branch_ids": ["proto-algonquian", "cree-innu", "menominee"],
+    "turning_point_ids": ["tp-swampy-cree-htk", "tp-menominee-bloomfield"]
   },
   {
     "id": "james-evans",
@@ -425,5 +425,45 @@
     "lifespan": "1920–2003",
     "branch_ids": ["arghu"],
     "turning_point_ids": ["tp-khalaj-documentation", "tp-kashgari-arghu"]
+  },
+  {
+    "id": "vincent-lingiari",
+    "name": "Vincent Lingiari",
+    "lifespan": "c. 1908–1988",
+    "branch_ids": ["ngumpin-yapa"],
+    "turning_point_ids": ["tp-wave-hill-walk-off"]
+  },
+  {
+    "id": "johann-georg-reuther",
+    "name": "Johann Georg Reuther",
+    "lifespan": "1861–1914",
+    "branch_ids": ["karnic"],
+    "turning_point_ids": ["tp-killalpaninna"]
+  },
+  {
+    "id": "ada-deer",
+    "name": "Ada Deer",
+    "lifespan": "1935–2023",
+    "branch_ids": ["menominee"],
+    "turning_point_ids": ["tp-menominee-termination"]
+  },
+  {
+    "id": "jotham-meeker",
+    "name": "Jotham Meeker",
+    "lifespan": "1804–1855",
+    "branch_ids": ["shawnee"],
+    "turning_point_ids": ["tp-shawnee-sun"]
+  },
+  {
+    "id": "daryl-baldwin",
+    "name": "Daryl Baldwin",
+    "branch_ids": ["miami-illinois"],
+    "turning_point_ids": ["tp-myaamia-reclamation"]
+  },
+  {
+    "id": "david-costa",
+    "name": "David J. Costa",
+    "branch_ids": ["miami-illinois"],
+    "turning_point_ids": ["tp-myaamia-reclamation"]
   }
 ]

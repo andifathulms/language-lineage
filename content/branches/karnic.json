@@ -1,0 +1,111 @@
+{
+  "id": "karnic",
+  "family": "pama-nyungan",
+  "name": "Karnic",
+  "parent_ids": ["proto-pama-nyungan"],
+  "successor_ids": [],
+  "era": "Undated – present",
+  "region": "The Lake Eyre (Kati Thanda) Basin: northeastern South Australia, southwestern Queensland and the far northwest of New South Wales",
+  "defining_innovation": "New pronoun paradigms shared across the group: a partly suppletive first-person singular (`*ngathu` ergative, `*nganyi` nominative, `*nganha` accusative) and a pronoun dative built on the old Pama-Nyungan locative `*-nga`.",
+  "descendants": ["Diyari", "Arabana", "Wangkangurru", "Yandruwandha", "Wangkumara", "Ngamini†", "Mithaka†", "Pitta Pitta†"],
+  "chapters": [
+    {
+      "title": "The Languages of Lake Eyre",
+      "body": "**Karnic** languages were spoken around Lake Eyre (Kati Thanda) and through the Channel Country to its north and east. Diyari was spoken along Cooper Creek east of the lake, Arabana to its west and Wangkangurru in the Simpson Desert; Yandruwandha, Ngamini, Mithaka and Wangkumara lay to the north and east, and Pitta Pitta around Boulia in western Queensland. The name comes from *karna*, the word for 'person' in several of the languages.\n\nGavan Breen (1971) first argued for a genetic grouping here, and Peter Austin (1990) and Claire Bowern (2001) reconstructed its vocabulary and grammar. The strongest evidence lies in the pronouns: irregular paradigms of a kind rarely borrowed recur across the group, while its languages share little with neighbours such as Arrernte despite long contact.\n\nPastoralists moved into the region from the 1860s. The explorers Burke and Wills died on Cooper Creek in 1861, in Yandruwandha country, where local people kept the survivor John King alive. Lutheran missionaries founded Killalpaninna mission on Cooper Creek in the late 1860s and wrote Diyari down; their New Testament, printed in 1897, is often described as the first in an Australian language. Disease, violence and dispossession emptied much of the basin, and most Karnic languages have lost their last fluent speakers. Much of what is known comes from recordings by Breen, Austin and Luise Hercus with the last speakers in the later 20th century."
+    },
+    {
+      "title": "Prestopped Consonants and Tense on Nouns",
+      "body": "Several Karnic languages, including Diyari and Arabana-Wangkangurru, have 'prestopped' nasals and laterals: after a stressed first syllable, an `n` or `l` begins with a brief stop closure, so it sounds close to `dn` or `dl`. The feature is rare worldwide; in Australia it also occurs in a few other languages, among them Arrernte.\n\nThe group is also known for grammar that is unusual even by Australian standards. In Pitta Pitta, described by Barry Blake (1979), tense is marked not only on the verb but on nouns: the case endings on the subject and object differ depending on whether the clause refers to the future or not. Rachel Nordlinger and Louisa Sadler (2004) cite it as a clear case of 'nominal tense'. Diyari, described in Austin's grammar (1981), has switch-reference: a dependent verb carries a suffix showing whether its subject is the same as that of the main clause, which lets speakers keep track of who is doing what across a chain of clauses.\n\nIn the 2021 census Diyari and Arabana each had about 30 home users. Since the late 2000s Diyari people and Austin have worked together on teaching materials and language workshops."
+    }
+  ],
+  "speakers": {
+    "estimate": "Under 100",
+    "vitality": "critically_endangered",
+    "note": "2021 census home users: Diyari c. 34 and Arabana c. 31; the other Karnic languages have few or no fluent speakers. Census figures count people who use a language at home, including some who are not fully fluent.",
+    "sources": [
+      {
+        "citation": "Australian Bureau of Statistics. 2022. Census of Population and Housing 2021: language used at home (Aboriginal and Torres Strait Islander languages).",
+        "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/language-statistics-aboriginal-and-torres-strait-islander-peoples/latest-release"
+      },
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "AUS", "name": "Australia", "speakers": "Under 100" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-proto-karnic",
+      "branch_id": "karnic",
+      "date": "Undated",
+      "type": "SPLIT",
+      "title": "Proto-Karnic",
+      "description": "The ancestor of the Lake Eyre languages separates from other Pama-Nyungan languages and reshapes its pronouns, turning the old locative `*-nga` into a pronoun dative. The date is unknown, and the exact membership of the group is disputed.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Bowern, Claire. 2001. Karnic classification revisited. In Forty Years On: Ken Hale and Australian Languages, ed. Jane Simpson, David Nash, Mary Laughren, Peter Austin & Barry Alpher, 245–261. Canberra: Pacific Linguistics.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "tp-killalpaninna",
+      "branch_id": "karnic",
+      "date": "Late 1860s – 1897",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Killalpaninna and the Diyari Testament",
+      "description": "Lutheran missionaries at Killalpaninna on Cooper Creek write Diyari in the Latin alphabet and teach in it. Johann Georg Reuther and Carl Strehlow translate the New Testament, printed in 1897 as *Testamenta Marra*.",
+      "contested": false,
+      "sources": [
+        { "citation": "Austin, Peter. 1981. A Grammar of Diyari, South Australia. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-karnic-last-speakers",
+      "branch_id": "karnic",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Last speakers",
+      "description": "After the mission closes in 1914 and pastoral settlement disperses the people of the basin, most Karnic languages lose their last fluent speakers. Linguists record several of them, including Arabana, Wangkangurru and Yandruwandha, from elderly speakers in the 1960s–1990s.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hercus, Luise A. 1994. A Grammar of the Arabana-Wangkangurru Language, Lake Eyre Basin, South Australia. Canberra: Pacific Linguistics.", "url": null },
+        { "citation": "Austin, Peter. 1981. A Grammar of Diyari, South Australia. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-diyari-revival",
+      "branch_id": "karnic",
+      "date": "2008 onward",
+      "type": "REVITALIZATION",
+      "title": "Diyari revival",
+      "description": "Diyari community members and Peter Austin develop teaching materials, hold language workshops and publish resources online, drawing on Reuther's dictionary and Austin's recordings.",
+      "contested": false,
+      "sources": [
+        { "citation": "Diyari (Dieri) Language website: Language.", "url": "https://diyari.org/language/" }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-karnic-subgroup",
+      "branch_id": "karnic",
+      "proposed_grouping": "Karnic as a single genetic subgroup of Pama-Nyungan, including Pitta Pitta and Arabana-Wangkangurru",
+      "status": "widely_accepted",
+      "evidence_for": "Bowern (2001) points to irregular pronoun paradigms and lexical replacements shared across the group and found in no neighbouring language, the kind of evidence least likely to be borrowed. Glottolog recognises Karnic as a subgroup.",
+      "evidence_against": "Membership has shifted between classifications: Austin (1990) left Arabana-Wangkangurru out as an isolate within Pama-Nyungan. Gavan Breen (2007) challenged the evidence for a single Karnic node, and the debate continued in replies by Bowern (2009) and Breen (2011). The languages have also borrowed heavily from one another, which makes inheritance hard to separate from contact.",
+      "linked_branch_ids": [],
+      "sources": [
+        {
+          "citation": "Bowern, Claire. 2001. Karnic classification revisited. In Forty Years On: Ken Hale and Australian Languages, ed. Jane Simpson, David Nash, Mary Laughren, Peter Austin & Barry Alpher, 245–261. Canberra: Pacific Linguistics.",
+          "url": null
+        },
+        { "citation": "Breen, Gavan. 2007. Reassessing Karnic. Australian Journal of Linguistics 27(2): 175–199.", "url": null },
+        { "citation": "Bowern, Claire. 2009. Reassessing Karnic: a reply to Breen (2007). Australian Journal of Linguistics 29(3).", "url": null },
+        { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Karnic (karn1253).", "url": "https://glottolog.org/resource/languoid/id/karn1253" }
+      ]
+    }
+  ],
+  "figure_ids": ["carl-strehlow", "johann-georg-reuther"]
+}
