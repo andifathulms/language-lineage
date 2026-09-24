@@ -1,0 +1,93 @@
+{
+  "id": "southern-quechua",
+  "family": "quechuan",
+  "name": "Southern Quechua",
+  "parent_ids": ["quechua-ii"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Southern Peru (Ayacucho, Cusco, Puno), Bolivia, northwest Argentina and northern Chile",
+  "defining_innovation": "Torero's Quechua II-C, the largest branch, with millions of speakers. It includes the Quechua of Cusco and Bolivia, which took aspirated and ejective consonants from Aymara.",
+  "descendants": ["Cusco-Collao", "Ayacucho-Chanka", "Bolivian", "Santiagueño"],
+  "chapters": [
+    {
+      "title": "Cusco and Ayacucho",
+      "body": "Southern Quechua is the most widely spoken Quechua, with several million speakers. Its two main varieties are Ayacucho-Chanka and Cusco-Collao, which extends into Bolivia. They are mutually intelligible but sound quite different. Cusco-Collao has aspirated and ejective stops, *p pʰ pʼ*, a contrast it shares with Aymara, its neighbour on the altiplano, and it has weakened consonants at the end of syllables, so that *llaqta* 'town' is pronounced *llaxta*.\n\nIn 1584 the Third Council of Lima printed a trilingual catechism in Spanish, Quechua and Aymara, the first book printed in South America. It was written in a standard based on southern Quechua."
+    },
+    {
+      "title": "Suppression and Recognition",
+      "body": "After the great rebellion of Túpac Amaru II in 1780–1781, colonial authorities treated Quechua culture as dangerous. The sentence against the rebels banned Inca dress and symbols and ordered that Indigenous people be taught Castilian. Quechua remained the everyday language of the southern Andes but lost its prestige. Peru made Quechua an official language in 1975, and Bolivia's 2009 constitution recognises it among 36 official Indigenous languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-cusco-ejectives",
+      "branch_id": "southern-quechua",
+      "date": "Before the 16th century CE",
+      "type": "SOUND_LAW",
+      "title": "Aspirates and ejectives from Aymara",
+      "description": "Cusco-Collao and Bolivian Quechua gain a three-way contrast of plain, aspirated and ejective stops, like Aymara's, which Ayacucho Quechua lacks. Contact with Aymara is the usual explanation, but how and when the contrast arose is debated.",
+      "contested": true,
+      "process": "consonant_shift",
+      "notation": "p t ch k q → p pʰ pʼ, t tʰ tʼ … (Cusco-Collao, contact with Aymara)",
+      "sort_year": 1400,
+      "sources": [
+        { "citation": "Mannheim, Bruce. 1991. The Language of the Inka since the European Invasion. Austin: University of Texas Press.", "url": null },
+        { "citation": "Adelaar, Willem F. H. with Pieter C. Muysken. 2004. The Languages of the Andes. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-doctrina-christiana",
+      "branch_id": "southern-quechua",
+      "date": "1584",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The first book printed in South America",
+      "description": "Antonio Ricardo prints in Lima the *Doctrina Christiana y catecismo para instruccion de los Indios*, in Spanish, Quechua and Aymara, prepared for the Third Council of Lima. It sets a standard for missionary Quechua.",
+      "contested": false,
+      "sources": [
+        { "citation": "Mannheim, Bruce. 1991. The Language of the Inka since the European Invasion. Austin: University of Texas Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cusco-spirantization",
+      "branch_id": "southern-quechua",
+      "date": "16th – 18th century CE",
+      "type": "SOUND_LAW",
+      "title": "Syllable-final weakening in Cusco",
+      "description": "In Cusco-Collao Quechua, stops at the end of a syllable become fricatives or are otherwise weakened: *llaqta* 'town' > [ʎaχta], *rimaq* 'speaker' > [rimaχ]. Colonial texts let the change be dated.",
+      "contested": false,
+      "process": "lenition",
+      "notation": "stops → fricatives / _ $ (llaqta → ʎaχta)",
+      "sort_year": 1650,
+      "sources": [
+        { "citation": "Mannheim, Bruce. 1991. The Language of the Inka since the European Invasion. Austin: University of Texas Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tupac-amaru-ban",
+      "branch_id": "southern-quechua",
+      "date": "1781",
+      "type": "CONTACT",
+      "title": "After Túpac Amaru II",
+      "description": "Following the defeat of Túpac Amaru II's rebellion, colonial authorities ban Inca dress and symbols and order that Indigenous people be taught Castilian, ending Quechua's colonial prestige. How far the language itself was banned is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Mannheim, Bruce. 1991. The Language of the Inka since the European Invasion. Austin: University of Texas Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-quechua-official",
+      "branch_id": "southern-quechua",
+      "date": "1975 – 2009",
+      "type": "REVITALIZATION",
+      "title": "Official status",
+      "description": "Peru's government under Juan Velasco makes Quechua an official language in 1975, and Bolivia's 2009 constitution lists it among its official languages. In both countries use in schools and government remains limited.",
+      "contested": false,
+      "sources": [
+        { "citation": "Decreto Ley N.º 21156. 1975. Lima: Gobierno del Perú.", "url": null },
+        { "citation": "Constitución Política del Estado Plurinacional de Bolivia. 2009. Artículo 5.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
