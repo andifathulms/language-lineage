@@ -1,0 +1,45 @@
+{
+  "id": "central-dravidian",
+  "family": "dravidian",
+  "name": "Central Dravidian",
+  "parent_ids": ["proto-dravidian"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "Maharashtra, Telangana, Chhattisgarh, Odisha and Andhra Pradesh in central India",
+  "defining_innovation": "Kolami, Naiki, Parji, Ollari and Gadaba, small languages of central India grouped by shared sound and grammatical changes.",
+  "descendants": ["Kolami", "Naiki", "Parji", "Ollari", "Gadaba"],
+  "chapters": [
+    {
+      "title": "Languages of the Uplands",
+      "body": "The Central Dravidian languages are spoken by tribal communities in the uplands of central India, usually alongside a dominant Indo-Aryan or Dravidian regional language such as Marathi, Telugu, Odia or Halbi. None has more than a few hundred thousand speakers, and Ollari and Gadaba have only a few thousand. They were little known outside the region until Emeneau and Burrow described them in the mid-20th century.\n\nThey matter for reconstruction because they preserve features that the big literary languages lost or changed. Whether they form a real subgroup or a set of neighbours is debated, especially in relation to the South-Central languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-central-dravidian-split",
+      "branch_id": "central-dravidian",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Kolami–Naiki and Parji–Gadaba",
+      "description": "Central Dravidian divides into a western pair (Kolami, Naiki) and an eastern group (Parji, Ollari, Gadaba). The dates are rough estimates.",
+      "contested": true,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-central-indo-aryan-contact",
+      "branch_id": "central-dravidian",
+      "date": "1st millennium CE onward",
+      "type": "CONTACT",
+      "title": "Indo-Aryan and Munda neighbours",
+      "description": "Central Dravidian speakers live alongside Indo-Aryan (Marathi, Halbi, Desia) and Munda speakers and borrow words and grammatical patterns from them. Many communities are now bilingual, and some have shifted to the regional language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Emeneau, Murray B. 1956. India as a linguistic area. Language 32(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
