@@ -1,0 +1,76 @@
+{
+  "id": "yucatecan",
+  "family": "mayan",
+  "name": "Yucatecan",
+  "parent_ids": ["proto-mayan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Yucatán Peninsula of Mexico, northern Guatemala (Petén) and Belize",
+  "defining_innovation": "Proto-Mayan *r became y, as in Yucatec yáax 'green' against K'iche' rax, and *k became ch, as in chak 'red' against K'iche' kaq.",
+  "descendants": ["Yucatec Maya", "Lacandon", "Itzaʼ", "Mopan"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "The Yucatecan languages (Yucatec Maya, Lacandon, Itza' and Mopan) are spoken across the flat limestone lowlands of the Yucatán Peninsula. Two sound changes set them apart from the highland languages: Proto-Mayan `*r` became *y* (*yáax* 'green', K'iche' *rax*), and `*k` became *ch* (*chak* 'red', K'iche' *kaq*). The second change is shared with the Western Mayan languages and probably spread between neighbours.\n\nThe great northern cities of the Late Classic and Postclassic, Chichén Itzá and Mayapán, were in Yucatec-speaking territory, and the few surviving Maya books, such as the Dresden Codex, contain Yucatecan features."
+    },
+    {
+      "title": "Conquest and the Books of Chilam Balam",
+      "body": "The Spanish conquest of Yucatán took two decades (1527–1546). In 1562 the Franciscan Diego de Landa held an auto-da-fé at Maní in which Maya books were burned. A few years later he wrote an account of Yucatán that recorded what he took to be a Maya 'alphabet', a set of glyphs with Spanish letter values. Three centuries later it became a key to reading the script.\n\nIn colonial times Yucatec Maya scribes wrote their own history, prophecy and calendar lore in Latin letters in the *Books of Chilam Balam*. Yucatec is still spoken by around 800,000 people, one of the largest Mayan languages, and since 2003 it has been one of Mexico's national languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-yucatecan-r-y",
+      "branch_id": "yucatecan",
+      "date": "c. 1st millennium BCE",
+      "type": "SOUND_LAW",
+      "title": "*r becomes y",
+      "description": "Proto-Mayan `*r` becomes *y*: `*raax` 'green' → Yucatec *yáax*, beside K'iche' *rax*. The Western Mayan languages share this change. The Eastern languages keep *r* (K'iche'an) or turn it into *t* (Mamean).",
+      "contested": false,
+      "process": "consonant_shift",
+      "notation": "*r → y (*raax → yáax 'green'; K'iche' rax)",
+      "sort_year": -800,
+      "sources": [
+        { "citation": "Campbell, Lyle & Terrence Kaufman. 1985. Mayan linguistics: Where are we now? Annual Review of Anthropology 14.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-landa",
+      "branch_id": "yucatecan",
+      "date": "1562 – 1566",
+      "type": "CONTACT",
+      "title": "Landa burns the books, and records the glyphs",
+      "description": "Diego de Landa burns Maya books at Maní in 1562. His account of Yucatán (c. 1566) records glyphs he thought were an alphabet. They were in fact syllables, and in the 20th century they helped Knorozov show the script was phonetic.",
+      "contested": false,
+      "sources": [
+        { "citation": "Coe, Michael D. 1992. Breaking the Maya Code. London: Thames & Hudson.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-chilam-balam",
+      "branch_id": "yucatecan",
+      "date": "16th – 19th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Books of Chilam Balam",
+      "description": "Yucatec scribes adapt the Latin alphabet, with extra letters for glottalised consonants, and write their own chronicles, prophecies and calendars, preserving knowledge from the pre-conquest books.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mexico-linguistic-rights",
+      "branch_id": "yucatecan",
+      "date": "2003",
+      "type": "REVITALIZATION",
+      "title": "A national language of Mexico",
+      "description": "Mexico's General Law on the Linguistic Rights of Indigenous Peoples declares its indigenous languages, including Yucatec and the other Mayan languages of Mexico, national languages alongside Spanish.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["diego-de-landa"]
+}
