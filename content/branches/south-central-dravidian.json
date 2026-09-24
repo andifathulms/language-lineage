@@ -1,0 +1,76 @@
+{
+  "id": "south-central-dravidian",
+  "family": "dravidian",
+  "name": "South-Central Dravidian",
+  "parent_ids": ["south-dravidian"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Andhra Pradesh and Telangana, and the Gond and Kui–Kuvi areas of central and eastern India",
+  "defining_innovation": "Apical displacement: an initial vowel was lost and a following r, l or ḍ moved to the front of the word, so Proto-Dravidian *iraṇṭu 'two' is Telugu reṇḍu, against Tamil iraṇṭu.",
+  "descendants": ["Telugu", "Gondi", "Konda", "Kui", "Kuvi", "Pengo"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "South-Central Dravidian includes Telugu, with more than 80 million speakers the largest Dravidian language, and a string of tribal languages across central India: Gondi, Konda, Kui, Kuvi and Pengo. Bhadriraju Krishnamurti, himself a Telugu speaker, defined the branch by a sound change he called **apical displacement**. In words like `*iraṇṭu` 'two', the initial vowel disappeared and the tongue-tip consonant moved forward: Telugu *reṇḍu*, against Tamil *iraṇṭu*."
+    },
+    {
+      "title": "Telugu",
+      "body": "Telugu words appear in Prakrit inscriptions from the last centuries BCE, and the first inscription wholly in Telugu dates to the 6th century CE. Its literature begins with **Nannaya**'s Telugu rendering of the *Mahābhārata* in the 11th century, written in a highly Sanskritised style. Telugu script developed, like Kannada script, from a southern form of Brahmi, and the two scripts remain closely related. In 2008 India declared Telugu a 'classical language', together with Kannada."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-apical-displacement",
+      "branch_id": "south-central-dravidian",
+      "date": "Proto-South-Central Dravidian period",
+      "type": "SOUND_LAW",
+      "title": "Apical displacement",
+      "description": "Word-initial vowels drop and a following apical consonant moves to the start of the word: `*iraṇṭu` 'two' → Telugu *reṇḍu*. Krishnamurti's identification of this change was a landmark in Dravidian comparative phonology. Its date is uncertain.",
+      "contested": true,
+      "process": "loss",
+      "notation": "V C(apical) … → C(apical) V … (*iraṇṭu → reṇḍu 'two')",
+      "sort_year": -300,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-telugu-inscriptions",
+      "branch_id": "south-central-dravidian",
+      "date": "6th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Telugu inscriptions",
+      "description": "After centuries of Telugu words appearing in Prakrit and Sanskrit inscriptions, the first inscriptions wholly in Telugu appear, in a script derived from southern Brahmi.",
+      "contested": false,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-nannaya",
+      "branch_id": "south-central-dravidian",
+      "date": "11th century CE",
+      "type": "CONTACT",
+      "title": "Nannaya and Sanskrit",
+      "description": "Nannaya's Telugu *Mahābhārata* begins Telugu literature in a style full of Sanskrit vocabulary. The gap between this literary register and everyday speech lasts until 20th-century reformers push for a written language closer to speech.",
+      "contested": false,
+      "sources": [
+        { "citation": "Krishnamurti, Bhadriraju. 2003. The Dravidian Languages. Cambridge: Cambridge University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-telugu-classical",
+      "branch_id": "south-central-dravidian",
+      "date": "2008",
+      "type": "REVITALIZATION",
+      "title": "Classical language status",
+      "description": "The Government of India declares Telugu a classical language, recognising its antiquity and literary tradition and funding its study. Meanwhile, the tribal South-Central languages such as Gondi and Kui are losing speakers to regional languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Steever, Sanford B., ed. 2020. The Dravidian Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["nannaya"]
+}

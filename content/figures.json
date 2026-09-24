@@ -229,5 +229,12 @@
     "lifespan": "1666–c. 1729",
     "branch_ids": ["kichean"],
     "turning_point_ids": ["tp-popol-vuh"]
+  },
+  {
+    "id": "nannaya",
+    "name": "Nannaya",
+    "lifespan": "11th century",
+    "branch_ids": ["south-central-dravidian"],
+    "turning_point_ids": ["tp-nannaya"]
   }
 ]
