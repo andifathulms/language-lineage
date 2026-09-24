@@ -1,0 +1,79 @@
+{
+  "id": "cholan-tzeltalan",
+  "family": "mayan",
+  "name": "Cholan-Tzeltalan",
+  "parent_ids": ["western-mayan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Chiapas highlands, the Usumacinta lowlands, Tabasco, and the Copán region of Guatemala and Honduras",
+  "defining_innovation": "The branch of the Classic Maya inscriptions: the hieroglyphic texts of cities such as Palenque, Tikal and Copán are written in an early Cholan language.",
+  "descendants": ["Tzeltal", "Tzotzil", "Ch'ol", "Ch'orti'", "Chontal", "Ch'olti' †"],
+  "chapters": [
+    {
+      "title": "The Language of the Glyphs",
+      "body": "Maya writing combined logograms (word signs) with syllabic signs, and it recorded a real spoken language with its grammar. The earliest texts, at San Bartolo in Guatemala, date to around 300 BCE. In the Classic period (c. 250–900 CE) kings raised inscribed monuments in dozens of cities. Stephen Houston, John Robertson and David Stuart argued in 2000 that the inscriptions are written in 'Classic Ch'olti'an', the ancestor of Ch'olti' and Ch'orti'. This language served as a prestige written standard across the lowlands, including in areas where Yucatecan was spoken."
+    },
+    {
+      "title": "Reading It Again",
+      "body": "After the conquest, knowledge of the script was lost. In 1952 the Soviet linguist **Yuri Knorozov** argued, using Landa's 'alphabet', that many glyphs were syllables, and that the script could therefore be read like other logo-syllabic systems. In 1960 **Tatiana Proskouriakoff** showed that the dates on monuments at Piedras Negras marked the births, accessions and deaths of rulers, which meant the inscriptions were history, not only calendar and ritual. Their combined insights opened the way to the decipherment of most of the script by the 1990s."
+    },
+    {
+      "title": "Today",
+      "body": "Ch'olti', the closest modern relative of the language of the glyphs, is known from a manuscript of the 1690s and died out afterwards. Its sister Ch'orti' survives near Copán. In the Chiapas highlands, Tzeltal and Tzotzil each have around half a million speakers and are growing. Their communities formed much of the base of the 1994 Zapatista uprising."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-maya-script",
+      "branch_id": "cholan-tzeltalan",
+      "date": "c. 300 BCE – 16th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Maya hieroglyphic writing",
+      "description": "A logo-syllabic script records Classic Maya on stone monuments, pottery and bark-paper books. After the conquest it was forgotten, then deciphered in the 20th century through Knorozov's phonetic approach and Proskouriakoff's historical reading of the dates.",
+      "contested": false,
+      "sources": [
+        { "citation": "Saturno, William A., David Stuart & Boris Beltrán. 2006. Early Maya writing at San Bartolo, Guatemala. Science 311.", "url": null },
+        { "citation": "Coe, Michael D. 1992. Breaking the Maya Code. London: Thames & Hudson.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-classic-cholti-an",
+      "branch_id": "cholan-tzeltalan",
+      "date": "c. 250 – 900 CE",
+      "type": "CONTACT",
+      "title": "A written prestige language",
+      "description": "Classic Ch'olti'an serves as the language of inscriptions across the lowlands, even where people spoke other Mayan languages, much as Latin did in medieval Europe. The extent of Yucatecan influence in northern texts is still discussed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Houston, Stephen, John Robertson & David Stuart. 2000. The language of Classic Maya inscriptions. Current Anthropology 41(3).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cholti-extinction",
+      "branch_id": "cholan-tzeltalan",
+      "date": "18th – 19th century",
+      "type": "EXTINCTION",
+      "title": "Ch'olti' disappears",
+      "description": "Ch'olti', recorded in a grammar and vocabulary manuscript of the 1690s, falls out of use. Its sister Ch'orti' becomes the only living Eastern Cholan language.",
+      "contested": true,
+      "sources": [
+        { "citation": "Houston, Stephen, John Robertson & David Stuart. 2000. The language of Classic Maya inscriptions. Current Anthropology 41(3).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-classic-mayan",
+      "branch_id": "cholan-tzeltalan",
+      "proposed_grouping": "Classic Mayan as Ch'olti'an: the hieroglyphic inscriptions record an Eastern Cholan language, ancestral to Ch'olti' and Ch'orti'",
+      "status": "widely_accepted",
+      "evidence_for": "Houston, Robertson and Stuart matched distinctive grammar and vocabulary in the inscriptions with Eastern Cholan, and found the same written language used across the lowlands, which suggests a prestige standard.",
+      "evidence_against": "Inscriptions from northern Yucatán and some southern sites show Yucatecan or Western Cholan features, and some epigraphers see more regional variation than a single standard implies. How far the written language reflected speech is also debated.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Houston, Stephen, John Robertson & David Stuart. 2000. The language of Classic Maya inscriptions. Current Anthropology 41(3).", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": ["yuri-knorozov", "tatiana-proskouriakoff"]
+}

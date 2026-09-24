@@ -208,5 +208,19 @@
     "lifespan": "1524–1579",
     "branch_ids": ["yucatecan"],
     "turning_point_ids": ["tp-landa"]
+  },
+  {
+    "id": "yuri-knorozov",
+    "name": "Yuri Knorozov",
+    "lifespan": "1922–1999",
+    "branch_ids": ["cholan-tzeltalan"],
+    "turning_point_ids": ["tp-maya-script"]
+  },
+  {
+    "id": "tatiana-proskouriakoff",
+    "name": "Tatiana Proskouriakoff",
+    "lifespan": "1909–1985",
+    "branch_ids": ["cholan-tzeltalan"],
+    "turning_point_ids": ["tp-maya-script"]
   }
 ]
