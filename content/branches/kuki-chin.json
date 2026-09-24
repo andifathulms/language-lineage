@@ -1,0 +1,61 @@
+{
+  "id": "kuki-chin",
+  "family": "sino-tibetan",
+  "name": "Kuki-Chin",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "Mizoram and Manipur in northeast India, the Chin Hills of Myanmar, and the Chittagong Hill Tracts of Bangladesh",
+  "defining_innovation": "Mizo, the Chin languages and Thadou, spoken across the India–Myanmar border hills, many of them written in Latin script since missionary times.",
+  "descendants": ["Mizo", "Hakha Chin", "Tedim", "Thadou", "Falam"],
+  "chapters": [
+    {
+      "title": "The Border Hills",
+      "body": "The Kuki-Chin languages are spoken across the hills where India, Myanmar and Bangladesh meet. They have many languages and dialects, some spoken by only a few villages. From the 1890s Welsh and other missionaries brought Christianity and literacy, and Mizoram and the Chin Hills are now among the most Christian regions of Asia."
+    },
+    {
+      "title": "Mizo",
+      "body": "In 1894 the missionaries J. H. Lorrain and F. W. Savidge devised a Latin alphabet for Mizo (then called Lushai), and literacy spread fast. Mizoram now has one of the highest literacy rates in India. When Mizoram became a Union Territory in 1972 and a state in 1987, Mizo became its official language, the language of a flourishing press and literature."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-kuki-chin-split",
+      "branch_id": "kuki-chin",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Into the border hills",
+      "description": "Kuki-Chin speakers spread through the hills between the Chindwin valley and the Bengal plains and diverge into many languages. How Kuki-Chin relates to the Naga languages and to Meitei is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mizo-alphabet",
+      "branch_id": "kuki-chin",
+      "date": "1894",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Mizo alphabet",
+      "description": "Lorrain and Savidge create a Latin alphabet for Mizo, and the grammar and dictionary they publish in 1898 lay the foundation for Mizo literacy and literature.",
+      "contested": false,
+      "sources": [
+        { "citation": "Lorrain, J. Herbert & F. W. Savidge. 1898. A Grammar and Dictionary of the Lushai Language. Shillong: Assam Secretariat Printing Office.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-mizo-official",
+      "branch_id": "kuki-chin",
+      "date": "1970s – 1987",
+      "type": "REVITALIZATION",
+      "title": "Official language of Mizoram",
+      "description": "After decades of insurgency and the 1986 peace accord, Mizoram becomes a state of India in 1987 with Mizo as its official language.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
