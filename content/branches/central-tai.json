@@ -1,0 +1,76 @@
+{
+  "id": "central-tai",
+  "family": "kra-dai",
+  "name": "Central Tai",
+  "parent_ids": ["tai"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The borderland of southwestern Guangxi and southeastern Yunnan (China) and northeastern Vietnam (Cao Bằng, Lạng Sơn, Bắc Kạn, Hà Giang)",
+  "defining_innovation": "Tày, Nùng and Southern Zhuang, grouped by Li Fang-Kuei on shared vocabulary and on their treatment of some Proto-Tai initials. Unlike Northern Tai they keep aspirated stops, but that is a retention, and no innovation shared by all of them is agreed.",
+  "descendants": ["Tày", "Nùng", "Zuojiang Zhuang", "Yongnan Zhuang", "Dai Zhuang", "Nong Zhuang"],
+  "chapters": [
+    {
+      "title": "A Border Group",
+      "body": "**Central Tai** is the name Li Fang-Kuei gave to the Tai languages of the borderland between Guangxi and northern Vietnam. On the Vietnamese side they are Tày, spoken in Cao Bằng, Lạng Sơn, Bắc Kạn, Hà Giang and neighbouring provinces, and Nùng, whose speakers live alongside the Tày; the 2019 census counted about 1.8 million Tày and 1.1 million Nùng by ethnicity. On the Chinese side they are the Southern Zhuang varieties of southwestern Guangxi and southeastern Yunnan, among them Zuojiang (around Longzhou), Yongnan, Dai Zhuang and Nong Zhuang. The varieties shade into one another across the frontier, and many Nùng subgroups trace their ancestry to districts on the Chinese side.\n\nThe frontier itself is old. In the 11th century the region lay between Song China and the Vietnamese state of Đại Việt, and local Tai chiefs played one off against the other; the best known, Nong Zhigao (Nùng Trí Cao), rose against both and led a rebellion into Guangdong in 1052. After the Song–Đại Việt war of 1075–77 a border was settled through the Tai uplands. Speakers on its southern side became the Tày and Nùng of Vietnam, while those on the northern side were classified in the 1950s as part of the Zhuang nationality, together with the Northern Zhuang, whose language belongs to a different group."
+    },
+    {
+      "title": "Aspiration and Two Scripts",
+      "body": "The feature Li used most to separate Central from Northern Tai is aspiration. Tày, Nùng and Southern Zhuang distinguish plain `p t k` from aspirated `pʰ tʰ kʰ`, as Thai and the other Southwestern Tai languages do, while Northern Zhuang and Bouyei have a single series. In several common words the aspirate reflects an old cluster: in Tày and many Southern Zhuang varieties 'eye' is *tha*, where Thai has *taa* and Wuming Zhuang `ɣa`. All three are traced to the Proto-Tai form Pittayawat Pittayaporn reconstructs as `*p.ta`.\n\nWriting reflects the border. Tày and Nùng scholars and ritual specialists long wrote their language in *chữ Nôm Tày*, characters adapted from Chinese in the same way as Vietnamese *chữ Nôm* and Zhuang *Sawndip*, above all for the *Then* ritual songs and verse narratives. In 1961 a Latin alphabet for Tày and Nùng was created on the model of Vietnamese *quốc ngữ*; it has been used in primers, some schooling and local broadcasting. In China, Southern Zhuang speakers are served only by the standard Zhuang alphabet, which is based on the northern Wuming dialect and fits their speech poorly. On both sides most speakers are now bilingual in Vietnamese or Chinese, and younger people in towns often no longer use the language."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-central-tai-frontier",
+      "branch_id": "central-tai",
+      "date": "11th century",
+      "type": "CONTACT",
+      "title": "A frontier through the Tai uplands",
+      "description": "Caught between Song China and Đại Việt, Tai chiefs of the border region shift allegiance; Nong Zhigao's rebellion of 1052 is suppressed, and after the war of 1075–77 a border is settled that later divides Central Tai speakers between China and Vietnam.",
+      "contested": false,
+      "sources": [
+        { "citation": "Anderson, James A. 2007. The Rebel Den of Nùng Trí Cao: Loyalty and Identity along the Sino-Vietnamese Frontier. Seattle: University of Washington Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tay-nung-alphabet",
+      "branch_id": "central-tai",
+      "date": "1961",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "A Latin alphabet for Tày and Nùng",
+      "description": "A shared Tày-Nùng orthography is created on the basis of the Vietnamese alphabet and later approved by government decree, replacing the character-based *chữ Nôm Tày* for most practical purposes.",
+      "contested": false,
+      "sources": [
+        { "citation": "Đào Thị Tấm & Nguyễn Hồng Cúc. 2013. Học tiếng Tày [Learning Tày]. Hanoi: Nhà xuất bản Khoa học xã hội.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-central-tai-subgroup",
+      "branch_id": "central-tai",
+      "proposed_grouping": "Central Tai as a genetic subgroup: Tày, Nùng and Southern Zhuang descend from a single ancestor that split from the rest of Tai",
+      "status": "minority_position",
+      "evidence_for": "Li Fang-Kuei (1977) set the group apart by shared vocabulary and by the way its languages treat some Proto-Tai initial consonants, and his three-way division into Northern, Central and Southwestern Tai is still the usual framework. Later computational comparison by Jerold Edmondson found Tày and Nùng varieties clustering coherently.",
+      "evidence_against": "The aspirated stops that mark the group are inherited from Proto-Tai, not a shared innovation. Scholars disagreed early about its affinities: William Gedney saw it as closer to Southwestern Tai, André-Georges Haudricourt to Northern Tai. Pittayawat Pittayaporn (2009) found no innovations common to all Central Tai languages and treats the group as paraphyletic, a set of lineages from which Southwestern Tai itself emerged. Some border varieties also mix Northern and Central features. Most specialists now use Central Tai as a geographical label rather than a proven branch.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Li, Fang-Kuei. 1977. A Handbook of Comparative Tai. Honolulu: University of Hawaii Press.", "url": null },
+        { "citation": "Pittayaporn, Pittayawat. 2009. The Phonology of Proto-Tai. PhD dissertation, Cornell University.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": [],
+  "speakers": {
+    "estimate": "c. 7 million",
+    "vitality": "vulnerable",
+    "note": "Rough: the Vietnamese census of 2019 counted about 1.8 million Tày and 1.1 million Nùng by ethnicity, not all of whom speak the language, and Southern Zhuang speakers in China are counted only as Zhuang.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "General Statistics Office of Viet Nam. 2020. Completed Results of the 2019 Viet Nam Population and Housing Census. Hanoi: Statistical Publishing House.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "CHN", "name": "China", "speakers": "c. 4 million" },
+    { "iso": "VNM", "name": "Vietnam", "speakers": "c. 3 million" }
+  ]
+}
