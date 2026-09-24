@@ -35,5 +35,96 @@
     { "citation": "Kari, James & Ben A. Potter, eds. 2010. The Dene-Yeniseian Connection. Anthropological Papers of the University of Alaska, new series, vol. 5. Fairbanks: University of Alaska.", "url": null },
     { "citation": "Reich, David, et al. 2012. Reconstructing Native American population history. Nature 488: 370–374.", "url": null },
     { "citation": "Flegontov, Pavel, et al. 2019. Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature 570: 236–240.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The table compares four Athabaskan languages from the three main groups, so the column on the left is Proto-Athabaskan. Tlingit and Eyak are left out: their links to Athabaskan are regular, but they show up mostly in verb prefixes and in stems whose meanings have drifted, not in a neat basic-vocabulary list. Read down the columns. Proto-Athabaskan `*ts` is *tth* in Dene Sųłiné and *kw* in Tłı̨chǫ but stays *ts* in the south, so 'stone' is *tthe*, *kwe*, *tse* and *tsé*. Hupa turns `*q` into *x*, and Tłı̨chǫ turns *n* into *d*. A dash marks a stem that takes a possessive prefix.",
+    "proto_label": "Proto-Athabaskan",
+    "languages": [
+      { "name": "Dene Sųłiné", "branch_id": "northern-athabaskan" },
+      { "name": "Tłı̨chǫ", "branch_id": "northern-athabaskan" },
+      { "name": "Hupa", "branch_id": "pacific-coast-athabaskan" },
+      { "name": "Navajo", "branch_id": "apachean" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "tuː",
+        "forms": ["tu", "tı", "to", "tó"]
+      },
+      {
+        "gloss": "stone",
+        "proto": "tseː",
+        "forms": ["tthe", "kwe", "tse", "tsé"]
+      },
+      {
+        "gloss": "bone",
+        "proto": "tsʼən",
+        "forms": ["tth'ën", "-kw'ǫǫ̀", "ts'in", "tsʼin"]
+      },
+      {
+        "gloss": "fish",
+        "proto": null,
+        "forms": ["łue", "łıwe", "ło:q'", "łóóʼ"]
+      },
+      {
+        "gloss": "dog (Navajo 'horse')",
+        "proto": null,
+        "forms": ["łį", "tłı̨", "łing'", "łį́į́ʼ"]
+      },
+      {
+        "gloss": "fire",
+        "proto": null,
+        "forms": ["kǫ́n", "kǫ̀", "xong'", "kǫʼ"]
+      },
+      {
+        "gloss": "foot",
+        "proto": "-qeʔ",
+        "forms": ["-ke", "-kè", "xe'", "-keeʼ"]
+      },
+      {
+        "gloss": "tooth",
+        "proto": "-ɣuʔ",
+        "forms": ["-ghu", "-ghòò", "-wo'", "-wooʼ"]
+      },
+      {
+        "gloss": "eye",
+        "proto": "-naːʔ",
+        "forms": ["-nághe", "-daà", "-na:'", "-náá'"]
+      },
+      {
+        "gloss": "three",
+        "proto": null,
+        "forms": ["taghe", "taı", "ta:q'", "tááʼ"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*ts",
+        "reflexes": ["tth", "kw", "ts", "ts"],
+        "rows": [1, 2]
+      },
+      {
+        "label": "*q",
+        "reflexes": ["k", "k", "x", "k"],
+        "rows": [5, 6]
+      },
+      {
+        "label": "*qʼ",
+        "reflexes": [null, null, "q'", "ʼ"],
+        "rows": [3, 9]
+      },
+      {
+        "label": "*n",
+        "reflexes": ["n", "d", "n", "n"],
+        "rows": [8]
+      }
+    ],
+    "sources": [
+      { "citation": "Young, Robert W. & William Morgan, Sr. 1987. The Navajo Language: A Grammar and Colloquial Dictionary, rev. ed. Albuquerque: University of New Mexico Press.", "url": null },
+      { "citation": "Golla, Victor. 1996. Hupa Language Dictionary, 2nd ed. Hoopa, CA: Hoopa Valley Tribe.", "url": "https://pages.uoregon.edu/jusp/dictionaries/hupa-lexicon.php" },
+      { "citation": "Dogrib Divisional Board of Education. 1996. Tłı̨chǫ Yatıı̀ Enı̨htł'è: A Dogrib Dictionary. Rae-Edzo, NWT. Online edition: Tłı̨chǫ Online Dictionary.", "url": "https://tlichodictionary.ca/" },
+      { "citation": "Cook, Eung-Do. 2004. A Grammar of Dëne Sųłiné (Chipewyan). Winnipeg: Algonquian and Iroquoian Linguistics.", "url": null },
+      { "citation": "Krauss, Michael E. & Victor Golla. 1981. Northern Athapaskan languages. In June Helm, ed., Handbook of North American Indians, vol. 6: Subarctic, 67–85. Washington, DC: Smithsonian Institution.", "url": null }
+    ]
+  }
 }
