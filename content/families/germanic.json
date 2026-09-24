@@ -35,5 +35,96 @@
     { "citation": "Nielsen, Hans Frede. 1989. The Germanic Languages: Origins and Early Dialectal Interrelations. Tuscaloosa: University of Alabama Press.", "url": null },
     { "citation": "Robinson, Orrin W. 1992. Old English and Its Closest Relatives. Stanford: Stanford University Press.", "url": null },
     { "citation": "Fortson, Benjamin W., IV. 2010. Indo-European Language and Culture: An Introduction. 2nd ed. Chichester: Wiley-Blackwell.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The five columns are the oldest well-recorded language from each part of the tree, all written down between the 4th and 13th centuries. Read across a row and the words are plainly the same word. Then read down a column and watch individual consonants. Old High German has `z` where every other column has `t`, and `d` where the others have `þ` or `th`: that is the High German consonant shift at work. Gothic ends many nouns in *-s* where Old Norse has *-r* and the West Germanic languages have lost the ending altogether. The differences are as regular as the resemblances.",
+    "proto_label": "Proto-Germanic",
+    "languages": [
+      { "name": "Gothic", "branch_id": "east-germanic" },
+      { "name": "Old Norse", "branch_id": "west-norse" },
+      { "name": "Old English", "branch_id": "anglic" },
+      { "name": "Old Saxon", "branch_id": "low-german" },
+      { "name": "Old High German", "branch_id": "high-german" }
+    ],
+    "rows": [
+      {
+        "gloss": "father",
+        "proto": "fadēr",
+        "forms": ["fadar", "faðir", "fæder", "fadar", "fater"]
+      },
+      {
+        "gloss": "mother",
+        "proto": "mōdēr",
+        "forms": [null, "móðir", "mōdor", "mōdar", "muoter"]
+      },
+      {
+        "gloss": "brother",
+        "proto": "brōþēr",
+        "forms": ["brōþar", "bróðir", "brōþor", "brōthar", "bruoder"]
+      },
+      {
+        "gloss": "heart",
+        "proto": "hertō",
+        "forms": ["hairtō", "hjarta", "heorte", "herta", "herza"]
+      },
+      {
+        "gloss": "foot",
+        "proto": "fōts",
+        "forms": ["fōtus", "fótr", "fōt", "fōt", "fuoz"]
+      },
+      {
+        "gloss": "water",
+        "proto": "watōr",
+        "forms": ["watō", "vatn", "wæter", "watar", "wazzar"]
+      },
+      {
+        "gloss": "day",
+        "proto": "dagaz",
+        "forms": ["dags", "dagr", "dæg", "dag", "tag"]
+      },
+      {
+        "gloss": "three",
+        "proto": "þrīz",
+        "forms": ["þreis", "þrír", "þrīe", "thria", "drī"]
+      },
+      {
+        "gloss": "ten",
+        "proto": "tehun",
+        "forms": ["taihun", "tíu", "tīen", "tehan", "zehan"]
+      },
+      {
+        "gloss": "fish",
+        "proto": "fiskaz",
+        "forms": ["fisks", "fiskr", "fisc", "fisk", "fisk"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*t",
+        "reflexes": ["t", "t", "t", "t", "z, zz"],
+        "rows": [3, 4, 5, 8]
+      },
+      {
+        "label": "*þ",
+        "reflexes": ["þ", "þ, ð", "þ", "th", "d"],
+        "rows": [2, 7]
+      },
+      {
+        "label": "*d",
+        "reflexes": ["d", "d, ð", "d", "d", "t"],
+        "rows": [0, 6]
+      },
+      {
+        "label": "*-z (noun ending)",
+        "reflexes": ["-s", "-r", "lost", "lost", "lost"],
+        "rows": [6, 9]
+      }
+    ],
+    "sources": [
+      { "citation": "Ringe, Don. 2017. From Proto-Indo-European to Proto-Germanic. 2nd ed. Oxford: Oxford University Press.", "url": null },
+      { "citation": "Kroonen, Guus. 2013. Etymological Dictionary of Proto-Germanic. Leiden: Brill.", "url": null },
+      { "citation": "Robinson, Orrin W. 1992. Old English and Its Closest Relatives. Stanford: Stanford University Press.", "url": null },
+      { "citation": "Harbert, Wayne. 2007. The Germanic Languages. Cambridge: Cambridge University Press.", "url": null }
+    ]
+  }
 }
