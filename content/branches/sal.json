@@ -1,0 +1,73 @@
+{
+  "id": "sal",
+  "family": "sino-tibetan",
+  "name": "Sal",
+  "parent_ids": ["tibeto-burman"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "Assam, Meghalaya, Tripura and Nagaland in northeast India, and Kachin State in northern Myanmar",
+  "defining_innovation": "Bodo-Garo, Konyak and Jingpho, grouped by Robbins Burling and named after their shared word for 'sun', *sal.",
+  "descendants": ["Bodo", "Garo", "Kokborok", "Dimasa", "Jingpho", "Konyak"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "In 1983 Robbins Burling grouped three sets of northeastern languages: Bodo-Garo in the Brahmaputra valley and Meghalaya, the Konyak languages of the Naga hills, and Jingpho (Kachin) of northern Myanmar. He named the group 'Sal' after a word for 'sun' they share. The Bodo-Garo languages are among the few Tibeto-Burman languages spoken on the plains, and Bodo, Garo and Kokborok (in Tripura) each have hundreds of thousands of speakers or more."
+    },
+    {
+      "title": "Scripts and Recognition",
+      "body": "The choice of script has been a political question. Garo and Jingpho were written in Latin letters by missionaries. The Jingpho alphabet was devised by the Swedish-American missionary Ola Hanson in the 1890s. The Bodo movement argued in the 1970s over whether to use Latin or Devanagari script, and Bodo was eventually written in Devanagari. In 2003 Bodo was added to India's Eighth Schedule, in the same amendment that added Santali, recorded on the Austroasiatic tree."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-sal-split",
+      "branch_id": "sal",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Bodo-Garo, Konyak and Jingpho",
+      "description": "The Sal languages diverge across the Brahmaputra valley, the Naga hills and northern Myanmar. Burling's grouping is widely used, but how the three parts relate to other Tibeto-Burman groups is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Burling, Robbins. 1983. The Sal languages. Linguistics of the Tibeto-Burman Area 7(2).", "url": null }
+      ]
+    },
+    {
+      "id": "tp-jingpho-alphabet",
+      "branch_id": "sal",
+      "date": "1890s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Jingpho in Latin letters",
+      "description": "The missionary Ola Hanson devises a Latin alphabet for Jingpho and compiles a dictionary, the basis of Kachin literacy and literature in Myanmar.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bodo-script",
+      "branch_id": "sal",
+      "date": "1974 – 1975",
+      "type": "CONTACT",
+      "title": "The Bodo script question",
+      "description": "The Bodo Sahitya Sabha's campaign for Latin script leads to protests and a political settlement in which Bodo is written in Devanagari.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-bodo-scheduled",
+      "branch_id": "sal",
+      "date": "2003",
+      "type": "REVITALIZATION",
+      "title": "Bodo in the Eighth Schedule",
+      "description": "Bodo becomes one of India's constitutionally recognised languages, which brings it into examinations, government use and university study.",
+      "contested": false,
+      "sources": [
+        { "citation": "Thurgood, Graham & Randy J. LaPolla, eds. 2017. The Sino-Tibetan Languages, 2nd ed. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
