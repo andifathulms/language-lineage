@@ -1,0 +1,107 @@
+{
+  "id": "palaungic",
+  "family": "austroasiatic",
+  "name": "Palaungic",
+  "parent_ids": ["proto-austroasiatic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The hills of Shan State in Myanmar and south-western Yunnan in China, with outliers in northern Thailand and north-western Laos",
+  "defining_innovation": "Nearly thirty upland languages, among them Palaung, Wa, Blang and Lamet, most of which lost the old voicing contrast of their consonants and replaced it with register or tone.",
+  "descendants": ["Palaung", "Riang", "Wa", "Blang", "Lawa", "Lamet", "Danau"],
+  "chapters": [
+    {
+      "title": "Between the Salween and the Mekong",
+      "body": "The Palaungic languages are the northernmost branch of mainland Austroasiatic. They are spoken in the hills of Shan State in Myanmar and south-western Yunnan in China, with outliers in northern Thailand and north-western Laos. Like other hill peoples of the region, their speakers have long lived above valleys held by Tai-speaking Shan, Tai Nuea and Tai Lue.\n\nThere are nearly thirty languages. Paul Sidwell's 2015 classification treats Danau as the most divergent. A western group contains **Palaung** (Ta'ang), with more than half a million speakers, and Riang. A larger eastern group contains the Waic languages, the Angkuic languages and Lamet. The Waic languages include **Wa**, with perhaps 800,000 to 900,000 speakers on both sides of the Myanmar–China border, Blang (Bulang) of Xishuangbanna, and Lawa of northern Thailand. Lamet is spoken in north-western Laos. Palaungic has been in close contact with the neighbouring Khmuic branch, and the two share many loanwords.\n\nThe Palaung are Theravada Buddhists and famous tea growers, especially around Namhsan in northern Shan State. The Blang also grow tea on the hills of Xishuangbanna. The Wa hills were largely outside any state until the 20th century. Today much of the Wa area in Myanmar is governed by the Wa State army, which uses Wa alongside Chinese and Burmese."
+    },
+    {
+      "title": "Registers, Tones and Scripts",
+      "body": "Proto-Austroasiatic distinguished voiced from voiceless stops, and most Palaungic languages have lost that distinction. What was once a difference in the consonant now survives in the vowel that follows it, and the languages have done this in different ways. Wa varieties have breathy and clear vowels, the Palaung–Riang languages have registers, and the Angkuic languages have developed contour tones. Diffloth's reconstruction of Proto-Waic in 1980 and Sidwell's later work on the branch show that these changes rest on the same old contrast.\n\nThe branch also shows that writing followed religion. Buddhist Palaung monks used the Shan script, and in 1972 a script based on Burmese was adopted to make Pali texts easier to read in Palaung. In the south, some Palaung also write in the Tai Tham script used for Buddhist texts in the region. Wa was first written in 1931 by the American Baptist missionary William Marcus Young and his helpers, in a Latin alphabet in which the Wa New Testament appeared in 1938. In the 1950s China created a second Latin orthography for Wa, based on its pinyin spelling of Chinese, and the two systems remain in use on either side of the border. Literacy in Palaungic languages remains low."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 1.5 million",
+    "vitality": "mixed",
+    "note": "Very approximate, since Myanmar publishes no language census. Wa has perhaps 800,000–900,000 speakers and Palaung over half a million; China's 2010 census counted about 120,000 Blang and 20,000 De'ang (Palaung). Many small Palaungic languages are endangered.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Sidwell, Paul. 2015. The Palaungic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null },
+      { "citation": "Bradley, David. 1994. East and Southeast Asia. In Atlas of the World's Languages, ed. Christopher Moseley & R. E. Asher. London: Routledge.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "MMR", "name": "Myanmar", "speakers": "c. 1 million" },
+    { "iso": "CHN", "name": "China", "speakers": "c. 500,000" },
+    { "iso": "LAO", "name": "Laos" },
+    { "iso": "THA", "name": "Thailand" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-palaungic-split",
+      "branch_id": "palaungic",
+      "date": "c. 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Into the northern hills",
+      "description": "Proto-Palaungic, spoken somewhere in the uplands between the Salween and the Mekong, divides into Danau, a western Palaung–Riang group and an eastern group of Waic, Angkuic and Lamet. The date is an estimate, and Danau's position is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Sidwell, Paul. 2015. The Palaungic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-palaungic-devoicing",
+      "branch_id": "palaungic",
+      "date": "c. 1st – 2nd millennium CE",
+      "type": "SOUND_LAW",
+      "title": "Voicing becomes register and tone",
+      "description": "In most Palaungic languages the old voiced stops become voiceless, and the lost contrast moves onto the vowel: breathy against clear voice in Wa, register in Palaung–Riang, contour tones in Angkuic. The change seems to have happened separately in different subgroups, and its dating is uncertain.",
+      "contested": true,
+      "process": "prosody",
+      "notation": "*b *d *ɟ *g → voiceless + register (Wa, Palaung) or tone (Angkuic)",
+      "sort_year": 1000,
+      "sources": [
+        { "citation": "Diffloth, Gérard. 1980. The Wa languages. Linguistics of the Tibeto-Burman Area 5(2).", "url": null },
+        { "citation": "Sidwell, Paul. 2015. The Palaungic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-palaungic-tai-buddhism",
+      "branch_id": "palaungic",
+      "date": "2nd millennium CE",
+      "type": "CONTACT",
+      "title": "Shan valleys and Buddhism",
+      "description": "Tai-speaking Shan, Tai Nuea and Tai Lue dominate the valleys below the Palaungic hills. The Palaung and Blang adopt Theravada Buddhism and borrow Tai and Pali vocabulary, and Palaung monks write in the Shan script.",
+      "contested": false,
+      "sources": [
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-wa-latin",
+      "branch_id": "palaungic",
+      "date": "1931 – 1950s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Wa in Latin letters",
+      "description": "The Baptist missionary William Marcus Young and Wa helpers devise a Latin orthography in 1931, used for hymns (1933) and the New Testament (1938). In the 1950s China introduces a second, pinyin-based Wa orthography, and the two remain in use.",
+      "contested": false,
+      "sources": [
+        { "citation": "Watkins, Justin. 2002. The Phonetics of Wa: Experimental Phonetics, Phonology, Orthography and Sociolinguistics. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-khasi-palaungic",
+      "branch_id": "palaungic",
+      "proposed_grouping": "Khasi-Palaungic: Khasian and Palaungic descend from one intermediate ancestor",
+      "status": "widely_accepted",
+      "evidence_for": "Diffloth placed Khasian and Palaungic together in a northern division of the family, and Sidwell, while treating most of Austroasiatic as a rake of separate branches, has tentatively accepted the pairing on the basis of shared vocabulary and sound changes. Several recent classifications, including Glottolog, have a Khasi-Palaungic node.",
+      "evidence_against": "The shared innovations are few, and Sidwell himself describes the grouping as provisional. Khasian has been separated from Palaungic for a long time, and some similarities could be inherited from Proto-Austroasiatic or result from early contact. This tree draws the two as separate branches.",
+      "linked_branch_ids": ["khasian"],
+      "sources": [
+        { "citation": "Sidwell, Paul. 2015. The Palaungic Languages: Classification, Reconstruction and Comparative Lexicon. Munich: LINCOM Europa.", "url": null },
+        { "citation": "Jenny, Mathias & Paul Sidwell, eds. 2015. The Handbook of Austroasiatic Languages. Leiden: Brill.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
