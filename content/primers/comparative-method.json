@@ -1,0 +1,31 @@
+{
+  "slug": "comparative-method",
+  "order": 1,
+  "title": "The comparative method",
+  "summary": "How linguists prove that languages are related, and how they reconstruct a language nobody wrote down.",
+  "chapters": [
+    {
+      "title": "Similar Is Not Enough",
+      "body": "Any two languages share some words that look alike. Some resemblances are chance: Persian *bad* and English *bad* are unrelated. Some are borrowings: Japanese *pan* 'bread' comes from Portuguese, not from a common ancestor. Some are 'sound-symbolic' words like *mama* and *papa*, which babies everywhere produce and which languages reinvent again and again. A list of lookalikes therefore proves nothing.\n\nWhat does prove relationship is regularity. When English has *f* where Latin has *p*, not in one word but across dozens (*father* : *pater*, *foot* : *pēs*, *fish* : *piscis*, *five* : Greek *pénte*), chance becomes an implausible explanation. Borrowing is ruled out too, because the words involved are basic vocabulary (body parts, numbers, kin terms) that languages rarely borrow, and because the correspondences work in both directions at once."
+    },
+    {
+      "title": "Correspondences, Not Resemblances",
+      "body": "The comparative method, worked out in the 19th century on the Indo-European languages, looks for **regular sound correspondences**: sets of words in which sound A in one language repeatedly matches sound B in another in the same position. The matched sounds need not look alike at all. Armenian *erku* 'two' and Latin *duo* share hardly a letter, yet they are exact cognates, because Armenian *erk-* regularly matches Indo-European `*dw-`.\n\nThe cognate tables on each family page show this at work. Choose a sound, and the rows that show it light up: the same ancestral sound turning up as the same new sound in every word of one language, and as a different but equally consistent sound in another. A single set like that is suggestive. Several sets that fit together, across basic vocabulary and grammatical endings, are what convinces specialists."
+    },
+    {
+      "title": "Reconstruction and the Asterisk",
+      "body": "Once the correspondences are known, it is possible to work backwards. If one language has *p*, another *f*, and a third *h* in the same words, the ancestor most likely had `*p`, because *p* > *f* > *h* is a common path of change and the reverse is rare. Repeating this for every correspondence yields a reconstructed word, such as Proto-Indo-European `*ph₂tḗr` 'father'.\n\nThe asterisk marks a form that is not attested anywhere: it is a hypothesis about the ancestor, not a quotation. Reconstructions are best thought of as formulas that summarise the correspondences. They are fairly reliable for sounds and basic words and much less so for meaning, grammar and culture.\n\nThe method has been tested. Leonard Bloomfield reconstructed a Proto-Algonquian consonant cluster from the correspondences alone and predicted that some undocumented language would keep it distinct. Swampy Cree, recorded later, turned out to do exactly that."
+    },
+    {
+      "title": "What the Method Cannot Do",
+      "body": "The comparative method works only as long as enough cognates survive. After many thousands of years, sound change and word replacement erode the evidence until the signal is lost among chance resemblances. Most specialists put that limit somewhere around 8,000 to 10,000 years, which is why proposals linking established families are so hard to prove or disprove. The primer on disputed groupings takes this up.\n\nIt also assumes that languages split cleanly and then develop apart. In reality neighbouring dialects keep influencing each other, languages borrow heavily, and whole groups can form a continuum without sharp splits. For that reason the trees on this site are drawn with contact links and disputed groupings shown outside the tree, rather than as one clean branching diagram."
+    }
+  ],
+  "sources": [
+    { "citation": "Campbell, Lyle. 2013. Historical Linguistics: An Introduction, 3rd ed. Edinburgh: Edinburgh University Press.", "url": null },
+    { "citation": "Fox, Anthony. 1995. Linguistic Reconstruction: An Introduction to Theory and Method. Oxford: Oxford University Press.", "url": null },
+    { "citation": "Bloomfield, Leonard. 1925. On the sound-system of Central Algonquian. Language 1(4): 130–156.", "url": null },
+    { "citation": "Bloomfield, Leonard. 1928. A note on sound-change. Language 4(2): 99–100.", "url": null },
+    { "citation": "Ringe, Don & Joseph F. Eska. 2013. Historical Linguistics: Toward a Twenty-First Century Reintegration. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
