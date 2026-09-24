@@ -1,0 +1,47 @@
+{
+  "id": "central-semitic",
+  "family": "semitic",
+  "name": "Central Semitic",
+  "parent_ids": ["west-semitic"],
+  "successor_ids": ["arabic", "northwest-semitic"],
+  "era": "c. 3rd – 2nd millennium BCE – present",
+  "region": "The Levant, Syria and northern Arabia",
+  "defining_innovation": "A new imperfective, yaqtulu, replaced the older yiqattal type: Arabic yaktubu and Hebrew yikhtov 'he writes', against Ge'ez yəqättəl, which keeps the old pattern.",
+  "descendants": ["Arabic", "Hebrew", "Aramaic"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Central Semitic groups Arabic with the Northwest Semitic languages: Hebrew, Phoenician, Aramaic and Ugaritic. Robert Hetzron set it out in the 1970s, and it has since become the standard view, with John Huehnergard as its main defender. The key evidence is in the verb. The present-future form of the old type, still seen in Akkadian *iparras* and Ge'ez *yəqättəl*, was replaced by a new form built on the old past-tense prefix: Arabic *yaktubu*, Hebrew *yikhtov*.\n\nThis was a change of view. For a long time Arabic was classed with the South Semitic languages of Arabia and Ethiopia, which share with it the 'broken plurals' (Arabic *kitāb* 'book', plural *kutub*). That older grouping appears here as a dotted arc between Arabic and Ethiosemitic."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-central-split",
+      "branch_id": "central-semitic",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Arabic and Northwest Semitic part",
+      "description": "The ancestors of Arabic in northern Arabia and of the Northwest Semitic languages in the Levant and Syria diverge. The date is inferred rather than documented: Arabic is not written until the first millennium BCE.",
+      "contested": true,
+      "sources": [
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-arabic-south-semitic",
+      "branch_id": "central-semitic",
+      "proposed_grouping": "Arabic as South Semitic: Arabic belongs with the Ethiopian and South Arabian languages rather than with Hebrew and Aramaic",
+      "status": "largely_rejected",
+      "evidence_for": "Arabic shares 'broken' internal plurals with Ethiosemitic and South Arabian (*kitāb* 'book' → *kutub*), and the peoples were neighbours across Arabia. This was the standard classification in 19th- and early 20th-century handbooks.",
+      "evidence_against": "Broken plurals are probably an old Semitic feature that the Northwest Semitic languages mostly lost, so sharing them proves nothing. Arabic shares with Northwest Semitic the new imperfective *yaqtulu* and other innovations. Following Hetzron and Huehnergard, Arabic is now generally placed in Central Semitic.",
+      "linked_branch_ids": ["ethiosemitic", "arabic"],
+      "sources": [
+        { "citation": "Hetzron, Robert. 1976. Two principles of genetic reconstruction. Lingua 38.", "url": null },
+        { "citation": "Huehnergard, John & Aaron D. Rubin. 2011. Phyla and waves: Models of classification of the Semitic languages. In The Semitic Languages: An International Handbook, ed. Stefan Weninger. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}
