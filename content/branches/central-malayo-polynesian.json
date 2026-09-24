@@ -1,0 +1,110 @@
+{
+  "id": "central-malayo-polynesian",
+  "family": "austronesian",
+  "name": "Central Malayo-Polynesian",
+  "parent_ids": ["malayo-polynesian"],
+  "successor_ids": [],
+  "era": "c. 2nd millennium BCE – present",
+  "region": "The Lesser Sunda Islands from eastern Sumbawa to Timor, and the central and southern Moluccas (Buru, Seram, Ambon, Kei, Tanimbar)",
+  "defining_innovation": "A grouping of well over a hundred languages of eastern Indonesia and Timor-Leste proposed by Blust (1993) on a small number of shared sound changes and words. Many of its languages place the possessor before the possessed noun, a pattern shared with neighbouring Papuan languages.",
+  "descendants": ["Bimanese", "Manggarai", "Kambera", "Lamaholot", "Tetum", "Uab Meto", "Buru", "Kei"],
+  "chapters": [
+    {
+      "title": "The Islands East of Bali",
+      "body": "East of Bali and Lombok the Austronesian languages change character. From Bima on the eastern half of Sumbawa, through Flores, Sumba, Timor and the small islands around them, and north into Buru, Seram, Ambon and the Kei and Tanimbar islands, well over a hundred languages are spoken, most by a few thousand to a few hundred thousand people. Manggarai of western Flores, Bimanese, Uab Meto (Dawan) of West Timor and Tetum are among the largest; Kambera is the main language of eastern Sumba. On Ambon and Seram the local languages have lost much ground to Ambonese Malay, which is a Malayic language and not part of this group.\n\nRobert Blust proposed in 1993 that these languages form one branch, **Central Malayo-Polynesian**, sister to the Eastern Malayo-Polynesian languages of Halmahera, western New Guinea and the Pacific. The evidence is thin, and the group may be a chain of related dialects that spread and diverged in place rather than the descendants of one clearly separate ancestor; see the classification note below.\n\nMalayo-Polynesian speakers arrived among Papuan-speaking populations who had lived in the region for tens of thousands of years. On Timor, Alor and Pantar, Papuan languages are still spoken alongside the Austronesian ones, and the two families have influenced each other deeply."
+    },
+    {
+      "title": "Beyond the Brandes Line",
+      "body": "In 1884 the Dutch scholar J. L. A. Brandes noticed that Austronesian languages in the east put a possessor before the thing possessed, the reverse of the western order. Malay says *rumah saya* 'house I' for 'my house', but Tetum says *ha'u nia uma* 'I POSSESSIVE house'. The boundary, known as the Brandes Line, runs through the Lesser Sundas and the Moluccas. Most linguists attribute the eastern order to Papuan languages, which put the possessor first, though the details of that contact are hard to reconstruct.\n\nTetum shows another layer of contact. Portuguese traders and missionaries reached Timor in the 16th century, and the Tetum of Dili grew into a lingua franca full of Portuguese words: *obrigadu* 'thank you', *xave* 'key', *eskola* 'school'. Both Tetum and Portuguese were made official languages of Timor-Leste at independence in 2002, while Indonesian and English are recognised as working languages. Across the border in Indonesian West Timor, and everywhere else in the region, Indonesian dominates schooling and government, and many smaller languages are losing speakers to it."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 5–6 million",
+    "vitality": "mixed",
+    "note": "Most languages have fewer than 100,000 speakers; Manggarai, Bimanese and Uab Meto are the largest. Tetum is also a second language for most of Timor-Leste's population. Many languages of Ambon and Seram are endangered by the spread of Ambonese Malay and Indonesian.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "IDN", "name": "Indonesia", "speakers": "c. 4–5 million" },
+    { "iso": "TLS", "name": "Timor-Leste", "speakers": "c. 1 million" }
+  ],
+  "sample": {
+    "language": "Tetum",
+    "text": "Obrigadu barak.",
+    "gloss": "thanks much",
+    "translation": "Thank you very much.",
+    "sources": [
+      { "citation": "Williams-van Klinken, Catharina, John Hajek & Rachel Nordlinger. 2002. Tetun Dili: A Grammar of an East Timorese Language. Canberra: Pacific Linguistics.", "url": null }
+    ]
+  },
+  "turning_points": [
+    {
+      "id": "tp-cmp-settlement",
+      "branch_id": "central-malayo-polynesian",
+      "date": "c. 2nd millennium BCE",
+      "type": "SPLIT",
+      "title": "Into the Lesser Sundas and Moluccas",
+      "description": "Malayo-Polynesian speakers settle the islands of eastern Indonesia, among long-established Papuan-speaking populations. Archaeological evidence for the arrival is sparse, and the dates and routes are uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bellwood, Peter. 2007. Prehistory of the Indo-Malaysian Archipelago, 3rd ed. Canberra: ANU E Press.", "url": null },
+        { "citation": "Blust, Robert. 2013. The Austronesian Languages, revised ed. Canberra: Asia-Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-brandes-line",
+      "branch_id": "central-malayo-polynesian",
+      "date": "c. 1st millennium BCE – 1st millennium CE",
+      "type": "CONTACT",
+      "title": "Papuan contact and the Brandes Line",
+      "description": "Long contact with Papuan languages is thought to lie behind the possessor-first order of eastern Austronesian languages and other shared features of the region. Which features are due to contact, and when it happened, is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Klamer, Marian, Ger Reesink & Miriam van Staden. 2008. East Nusantara as a linguistic area. In From Linguistic Areas to Areal Linguistics, ed. Pieter Muysken. Amsterdam: John Benjamins.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-portuguese-timor",
+      "branch_id": "central-malayo-polynesian",
+      "date": "16th – 20th century",
+      "type": "CONTACT",
+      "title": "Portuguese in Timor",
+      "description": "Portuguese traders, drawn by sandalwood, and Dominican missionaries reach Timor in the 16th century. Portuguese rule over the east of the island lasts until 1975, and Dili Tetum absorbs a large Portuguese vocabulary as it becomes the colony's lingua franca.",
+      "contested": false,
+      "sources": [
+        { "citation": "Williams-van Klinken, Catharina, John Hajek & Rachel Nordlinger. 2002. Tetun Dili: A Grammar of an East Timorese Language. Canberra: Pacific Linguistics.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tetum-official",
+      "branch_id": "central-malayo-polynesian",
+      "date": "2002",
+      "type": "SPLIT",
+      "title": "Tetum becomes official",
+      "description": "The constitution of independent Timor-Leste makes Tetum and Portuguese the official languages. A standard spelling has since been set, and Tetum is used in parliament, broadcasting and increasingly in schools.",
+      "contested": false,
+      "sources": [
+        { "citation": "Taylor-Leech, Kerry. 2009. The language situation in Timor-Leste. Current Issues in Language Planning 10(1).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [
+    {
+      "id": "cc-central-mp",
+      "branch_id": "central-malayo-polynesian",
+      "proposed_grouping": "Central Malayo-Polynesian: the Austronesian languages of the Lesser Sundas east of Sumbawa and of the central and southern Moluccas form one subgroup",
+      "status": "minority_position",
+      "evidence_for": "Blust (1993) identified a small set of sound changes and lexical innovations he found across the area and not elsewhere. The label is widely used for classifying the region's languages, including in Ethnologue, and Blust defended it in 2009 while acknowledging that the region poses some of the hardest subgrouping problems in the family.",
+      "evidence_against": "Donohue and Grimes (2008) re-examined the proposed innovations and found that several are also found outside the group, are missing from many members, or could have spread by contact. They concluded that the languages meet the usual standard neither for a subgroup nor even for a linkage.",
+      "linked_branch_ids": [],
+      "sources": [
+        { "citation": "Blust, Robert. 1993. Central and Central-Eastern Malayo-Polynesian. Oceanic Linguistics 32(2).", "url": null },
+        { "citation": "Donohue, Mark & Charles E. Grimes. 2008. Yet more on the position of the languages of eastern Indonesia and East Timor. Oceanic Linguistics 47(1): 114–158.", "url": null },
+        { "citation": "Blust, Robert. 2009. The position of the languages of eastern Indonesia: A reply to Donohue and Grimes. Oceanic Linguistics 48(1): 36–77.", "url": null }
+      ]
+    }
+  ],
+  "figure_ids": []
+}

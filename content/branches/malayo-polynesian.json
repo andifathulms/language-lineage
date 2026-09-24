@@ -3,7 +3,7 @@
   "family": "austronesian",
   "name": "Malayo-Polynesian",
   "parent_ids": ["proto-austronesian"],
-  "successor_ids": ["malayic", "barito", "oceanic"],
+  "successor_ids": ["philippine", "chamic", "malayic", "barito", "central-malayo-polynesian", "oceanic"],
   "era": "c. 2500 BCE – present",
   "region": "The Philippines and Indonesia, then Madagascar, mainland Southeast Asia and the Pacific",
   "defining_innovation": "Three mergers that no Formosan language shares: *C with *t, *N with *n, and *S becoming *h (Proto-Austronesian *Cau 'person' → Tagalog tao; *Sapuy 'fire' → *hapuy, Malay api).",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Subgroups",
-      "body": "This tree follows three well-supported branches of Malayo-Polynesian: **Malayic**, **Barito** and **Oceanic**. The groupings between them are less certain. 'Western Malayo-Polynesian', long used for everything from the Philippines to Madagascar, is now generally seen as a geographical grouping without a common ancestor. Blust places Oceanic within 'Central-Eastern' and 'Eastern' Malayo-Polynesian, but these intermediate nodes are disputed, so here Oceanic grows directly from Malayo-Polynesian."
+      "body": "This tree draws six branches of Malayo-Polynesian: **Philippine**, **Chamic**, **Malayic**, **Barito**, **Central Malayo-Polynesian** and **Oceanic**. Malayic, Chamic, Barito and Oceanic are well-supported subgroups; whether Philippine and Central Malayo-Polynesian are genuine subgroups or regional groupings is debated, and the groupings between the branches are less certain still. 'Western Malayo-Polynesian', long used for everything from the Philippines to Madagascar, is now generally seen as a geographical grouping without a common ancestor. Blust places Oceanic within 'Central-Eastern' and 'Eastern' Malayo-Polynesian, but these intermediate nodes are disputed, so here Oceanic grows directly from Malayo-Polynesian."
     }
   ],
   "speakers": {
