@@ -222,5 +222,12 @@
     "lifespan": "1909–1985",
     "branch_ids": ["cholan-tzeltalan"],
     "turning_point_ids": ["tp-maya-script"]
+  },
+  {
+    "id": "francisco-ximenez",
+    "name": "Francisco Ximénez",
+    "lifespan": "1666–c. 1729",
+    "branch_ids": ["kichean"],
+    "turning_point_ids": ["tp-popol-vuh"]
   }
 ]

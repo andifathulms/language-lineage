@@ -1,0 +1,77 @@
+{
+  "id": "kichean",
+  "family": "mayan",
+  "name": "K'iche'an",
+  "parent_ids": ["eastern-mayan"],
+  "successor_ids": [],
+  "era": "c. 1st millennium CE – present",
+  "region": "The central highlands of Guatemala, and the Alta Verapaz, Petén and southern Belize",
+  "defining_innovation": "The largest Mayan branch: K'iche', Kaqchikel, Tz'utujil, Q'eqchi' and the Poqom languages. K'iche', with around a million speakers, is the most widely spoken Mayan language.",
+  "descendants": ["K'iche'", "Q'eqchi'", "Kaqchikel", "Tz'utujil", "Achi", "Poqomchi'", "Poqomam"],
+  "chapters": [
+    {
+      "title": "Highland Kingdoms",
+      "body": "In the Postclassic period, the K'iche' and Kaqchikel built rival kingdoms in the Guatemalan highlands, with capitals at Q'umarkaj and Iximche'. Their ruling lineages claimed descent from the legendary Tollan, and their languages took words from Nahuatl, the prestige language of central Mexico. The Spanish under Pedro de Alvarado conquered them from 1524."
+    },
+    {
+      "title": "The Popol Vuh",
+      "body": "In the 1550s, K'iche' nobles wrote down in Latin letters the *Popol Vuh* ('Council Book'): the creation of the world, the adventures of the Hero Twins in the underworld, and the history of the K'iche' lineages. The original is lost. What survives is a copy made around 1701 by the Dominican friar **Francisco Ximénez**, with his Spanish translation alongside. It is the most important surviving work of Maya literature. The Kaqchikel wrote their own history, the *Annals of the Kaqchikels*, in the same period."
+    },
+    {
+      "title": "Revival",
+      "body": "In 1987 Guatemala adopted a unified alphabet for its Mayan languages, developed with Maya linguists, and in 1990 it founded the **Academia de Lenguas Mayas de Guatemala**. Its leading members were Maya scholars, part of a Maya cultural movement that grew during and after the civil war. Q'eqchi', which has spread into the Petén lowlands and Belize over the last two centuries, is among the fastest-growing Mayan languages."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-nahua-contact",
+      "branch_id": "kichean",
+      "date": "c. 1000 – 1524 CE",
+      "type": "CONTACT",
+      "title": "Nahua prestige",
+      "description": "Highland K'iche'an elites adopt Nahuatl titles and vocabulary and claim links with central Mexican Tollan. How much actual Nahua migration lay behind this is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-guatemala-conquest",
+      "branch_id": "kichean",
+      "date": "1524 onward",
+      "type": "CONTACT",
+      "title": "The Spanish conquest",
+      "description": "Pedro de Alvarado's campaigns destroy the K'iche' kingdom and subjugate the Kaqchikel. Spanish becomes the language of power, and missionaries write grammars and religious texts in the highland languages.",
+      "contested": false,
+      "sources": [
+        { "citation": "Aissen, Judith, Nora C. England & Roberto Zavala Maldonado, eds. 2017. The Mayan Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-popol-vuh",
+      "branch_id": "kichean",
+      "date": "c. 1554 – 1558",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Popol Vuh written down",
+      "description": "K'iche' nobles record the *Popol Vuh* in Latin letters. It survives only through Ximénez's copy of around 1701, now in the Newberry Library in Chicago.",
+      "contested": false,
+      "sources": [
+        { "citation": "Christenson, Allen J. 2003. Popol Vuh: The Sacred Book of the Maya. Winchester: O Books.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-almg",
+      "branch_id": "kichean",
+      "date": "1987 – 1990",
+      "type": "REVITALIZATION",
+      "title": "Unified alphabet and the Maya language academy",
+      "description": "Guatemala adopts a unified alphabet for the Mayan languages (1987) and founds the Academia de Lenguas Mayas de Guatemala (1990), run largely by Maya linguists. Standardisation and schooling in K'iche', Kaqchikel and Q'eqchi' follow.",
+      "contested": false,
+      "sources": [
+        { "citation": "England, Nora C. 2003. Mayan language revival and revitalization politics: Linguists and linguistic ideologies. American Anthropologist 105(4).", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["francisco-ximenez"]
+}
