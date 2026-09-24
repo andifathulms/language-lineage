@@ -35,5 +35,89 @@
     { "citation": "Goddard, Ives, ed. 1996. Handbook of North American Indians, vol. 17: Languages. Washington, DC: Smithsonian Institution.", "url": null },
     { "citation": "Campbell, Lyle. 1997. American Indian Languages: The Historical Linguistics of Native America. New York: Oxford University Press.", "url": null },
     { "citation": "Mithun, Marianne. 1999. The Languages of Native North America. Cambridge: Cambridge University Press.", "url": null }
-  ]
+  ],
+  "cognates": {
+    "intro": "The five languages below are spoken thousands of kilometres apart, and their words can look unrelated. Read down a column for the proto-sound, not across for resemblance. The cluster `*θk` in 'woman' and 'bear' comes out as *sk* in Cree, plain *k* in Ojibwe and *xk* in Lenape, every time. The Proto-Algonquian `*r` of 'man' is Cree *y*, Ojibwe and Arapaho *n*, Cheyenne *t* and Lenape *l*, the same consonant whose reflexes divide the Cree dialects. Blackfoot is left out because its correspondences are still only partly understood.",
+    "proto_label": "Proto-Algonquian",
+    "languages": [
+      { "name": "Plains Cree", "branch_id": "cree-innu" },
+      { "name": "Ojibwe", "branch_id": "ojibwe" },
+      { "name": "Cheyenne", "branch_id": "cheyenne" },
+      { "name": "Arapaho", "branch_id": "arapahoan" },
+      { "name": "Unami (Lenape)", "branch_id": "eastern-algonquian" }
+    ],
+    "rows": [
+      {
+        "gloss": "water",
+        "proto": "nepyi",
+        "forms": ["nipiy", "nibi", "mahpe", "néc", "mpi"]
+      },
+      {
+        "gloss": "woman",
+        "proto": "eθkwe·wa",
+        "forms": ["iskwêw", "ikwe", "hē'e", "hisei", "xkwe"]
+      },
+      {
+        "gloss": "man, person",
+        "proto": "erenyiwa",
+        "forms": ["iyiniw", "inini", "hetane", "hinén", "lënu"]
+      },
+      {
+        "gloss": "dog",
+        "proto": "aθemwa",
+        "forms": ["atim", "animosh", "hótame", "he3", null]
+      },
+      {
+        "gloss": "bear",
+        "proto": "maθkwa",
+        "forms": ["maskwa", "makwa", null, "wox", "màxkw"]
+      },
+      {
+        "gloss": "two",
+        "proto": "nyi·šwi",
+        "forms": ["nîso", "niizh", "neše", "niis", "nisha"]
+      },
+      {
+        "gloss": "four",
+        "proto": "nye·wi",
+        "forms": ["nêwo", "niiwin", "neve", "yein", "newa"]
+      },
+      {
+        "gloss": "five",
+        "proto": "nya·θanwi",
+        "forms": ["niyânan", "naanan", "noho", "yoo3ón", null]
+      },
+      {
+        "gloss": "land, earth",
+        "proto": "askyi",
+        "forms": ["askiy", "aki", "ho'e", null, "hàki"]
+      }
+    ],
+    "correspondences": [
+      {
+        "label": "*θk",
+        "reflexes": ["sk", "k", null, null, "xk"],
+        "rows": [1, 4]
+      },
+      {
+        "label": "*r",
+        "reflexes": ["y", "n", "t", "n", "l"],
+        "rows": [2]
+      },
+      {
+        "label": "*š",
+        "reflexes": ["s", "zh", "š", "s", "sh"],
+        "rows": [5]
+      }
+    ],
+    "sources": [
+      { "citation": "Hewson, John. 1993. A Computer-Generated Dictionary of Proto-Algonquian. Canadian Ethnology Service, Mercury Series Paper 125. Hull: Canadian Museum of Civilization.", "url": null },
+      { "citation": "Goddard, Ives. 1994. The west-to-east cline in Algonquian dialectology. In William Cowan, ed., Papers of the Twenty-Fifth Algonquian Conference, 187–211. Ottawa: Carleton University.", "url": null },
+      { "citation": "Wolfart, H. Christoph & Freda Ahenakew. 1998. The Student's Dictionary of Literary Plains Cree. Winnipeg: Algonquian and Iroquoian Linguistics.", "url": null },
+      { "citation": "Nichols, John D. & Earl Nyholm. 1995. A Concise Dictionary of Minnesota Ojibwe. Minneapolis: University of Minnesota Press.", "url": null },
+      { "citation": "Cowell, Andrew & Alonzo Moss Sr. 2008. The Arapaho Language. Boulder: University Press of Colorado.", "url": null },
+      { "citation": "Fisher, Louise, Wayne Leman, Leroy Pine Sr. & Marie Sanchez, comps. Cheyenne Dictionary. Lame Deer, MT: Chief Dull Knife College.", "url": null },
+      { "citation": "Delaware Tribe of Indians. Lenape Talking Dictionary.", "url": "https://www.talk-lenape.org" }
+    ]
+  }
 }
