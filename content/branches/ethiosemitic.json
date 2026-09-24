@@ -1,0 +1,96 @@
+{
+  "id": "ethiosemitic",
+  "family": "semitic",
+  "name": "Ethiosemitic",
+  "parent_ids": ["west-semitic"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The highlands of Ethiopia and Eritrea",
+  "defining_innovation": "The Semitic languages of the Horn of Africa, shaped by long contact with Cushitic: verb-final word order, and in Amharic the loss of most of the old guttural consonants.",
+  "descendants": ["Amharic", "Tigrinya", "Tigre", "Ge'ez (liturgical)", "Harari", "Gurage"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "About a dozen Semitic languages are spoken in Ethiopia and Eritrea, including Amharic, one of the most widely spoken Semitic languages after Arabic, and Tigrinya. Their ancestors are generally thought to have crossed from southern Arabia in the first millennium BCE, around the time South Arabian-style inscriptions appear in the Ethiopian highlands. Some scholars argue for an earlier or more gradual presence. Kitchen and colleagues' computational study (2009) estimated a single arrival around 800 BCE.\n\nIn Africa, Ethiosemitic speakers lived among speakers of Cushitic languages, and the contact reshaped them. Most Ethiosemitic languages put the verb at the end of the clause, a Cushitic pattern and not a Semitic one. They also realise the Semitic 'emphatic' consonants as ejectives (`tʼ`, `sʼ`, `kʼ`), which some scholars think was the original Proto-Semitic pronunciation."
+    },
+    {
+      "title": "Ge'ez and Its Script",
+      "body": "**Ge'ez** was the language of the kingdom of Aksum. It was first written in a consonantal script taken from South Arabian. In the 4th century, in the inscriptions of King **Ezana**, who adopted Christianity, vowel markings attached to each consonant appeared, turning the script into the Ethiopic *fidäl*. Each character stands for a consonant plus a vowel. Ge'ez ceased to be spoken some time in the late first or early second millennium CE, but it remains the liturgical language of the Ethiopian and Eritrean Orthodox churches, much as Latin was in the West."
+    },
+    {
+      "title": "Amharic",
+      "body": "Amharic rose with the Solomonic dynasty from the 13th century as the language of the royal court (*lǝssanä nǝguś*, 'the king's tongue'), and it is now Ethiopia's federal working language. It has moved further from its Semitic roots than its northern relatives Tigrinya and Tigre: it has lost or merged most of the old guttural consonants, and it takes a good deal of vocabulary and grammar from Cushitic neighbours. It is still written in the Ge'ez *fidäl*."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-ethiosemitic-arrival",
+      "branch_id": "ethiosemitic",
+      "date": "c. early 1st millennium BCE",
+      "type": "SPLIT",
+      "title": "Across the Red Sea",
+      "description": "Semitic speakers from southern Arabia settle in the Ethiopian highlands, and Ethiosemitic begins its separate history. Whether this was one migration, several, or a longer process of contact is debated.",
+      "contested": true,
+      "sources": [
+        {
+          "citation": "Kitchen, Andrew, Christopher Ehret, Shiferaw Assefa & Connie J. Mulligan. 2009. Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Proceedings of the Royal Society B 276.",
+          "url": null
+        },
+        { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-cushitic-contact",
+      "branch_id": "ethiosemitic",
+      "date": "1st millennium BCE onward",
+      "type": "CONTACT",
+      "title": "Cushitic neighbours",
+      "description": "Long bilingualism with Cushitic languages such as Agaw and Oromo gives Ethiosemitic verb-final word order, new vocabulary and, in the southern languages especially, Cushitic sound patterns.",
+      "contested": false,
+      "sources": [
+        { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-geez-script",
+      "branch_id": "ethiosemitic",
+      "date": "4th century CE",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The vocalised Ge'ez script",
+      "description": "Under King Ezana of Aksum, the consonantal script inherited from South Arabian gains systematic vowel markings attached to each consonant and becomes the Ethiopic *fidäl*, still used for Amharic, Tigrinya and Ge'ez.",
+      "contested": false,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-geez-spoken-ends",
+      "branch_id": "ethiosemitic",
+      "date": "c. 10th – 13th century CE",
+      "type": "EXTINCTION",
+      "title": "Ge'ez becomes a church language",
+      "description": "Ge'ez stops being spoken and survives as the language of liturgy and scholarship, while Tigrinya, Tigre and Amharic become the spoken languages. The date is uncertain because the written language hardly changed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Weninger, Stefan, ed. 2011. The Semitic Languages: An International Handbook. Berlin: De Gruyter Mouton.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-amharic-gutturals",
+      "branch_id": "ethiosemitic",
+      "date": "Before the earliest Amharic texts (14th century CE)",
+      "type": "SOUND_LAW",
+      "title": "Amharic loses the gutturals",
+      "description": "The pharyngeal and laryngeal consonants inherited from Semitic (`ʕ ḥ h ʔ`) are lost or merged in Amharic, although Ge'ez spelling still writes them. Tigrinya keeps them. Cushitic influence is often suggested as the cause.",
+      "contested": true,
+      "process": "loss",
+      "notation": "*ʕ *ḥ *h *ʔ → ∅ or merged (kept in Tigrinya)",
+      "sort_year": 1100,
+      "sources": [
+        { "citation": "Hetzron, Robert, ed. 1997. The Semitic Languages. London: Routledge.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["ezana"]
+}

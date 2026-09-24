@@ -180,5 +180,12 @@
     "lifespan": "c. 760–796",
     "branch_ids": ["arabic"],
     "turning_point_ids": ["tp-arabic-grammarians"]
+  },
+  {
+    "id": "ezana",
+    "name": "Ezana of Aksum",
+    "lifespan": "reigned c. 320s–360s",
+    "branch_ids": ["ethiosemitic"],
+    "turning_point_ids": ["tp-geez-script"]
   }
 ]
