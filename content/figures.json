@@ -383,5 +383,12 @@
     "lifespan": "1397–1450",
     "branch_ids": ["korean"],
     "turning_point_ids": ["tp-hangul"]
+  },
+  {
+    "id": "li-fang-kuei",
+    "name": "Li Fang-Kuei",
+    "lifespan": "1902–1987",
+    "branch_ids": ["tai"],
+    "turning_point_ids": ["tp-tai-tone-split"]
   }
 ]

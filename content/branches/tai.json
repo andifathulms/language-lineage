@@ -1,0 +1,53 @@
+{
+  "id": "tai",
+  "family": "kra-dai",
+  "name": "Tai",
+  "parent_ids": ["proto-kra-dai"],
+  "successor_ids": ["northern-tai", "southwestern-tai"],
+  "era": "c. 1st millennium BCE – present",
+  "region": "From Guangxi and Guizhou southwest to Laos, Thailand, Myanmar and Assam",
+  "defining_innovation": "The branch of Thai, Lao, Shan and Zhuang. Proto-Tai had three tones plus 'dead' checked syllables, and every tone later split in two according to the old initial consonant.",
+  "descendants": ["Thai", "Lao", "Zhuang", "Shan", "Bouyei", "Tai Lue"],
+  "chapters": [
+    {
+      "title": "Three Groups",
+      "body": "**Li Fang-Kuei**, whose *Handbook of Comparative Tai* (1977) founded modern Tai reconstruction, divided the Tai languages into Northern, Central and Southwestern groups. Northern Tai (Zhuang, Bouyei) stayed in southern China, and Southwestern Tai (Thai, Lao, Shan) spread across mainland Southeast Asia. Recent work by Pittayawat Pittayaporn treats the tree as a series of splits in southern China, with Southwestern Tai as a late branch."
+    },
+    {
+      "title": "The Great Tone Split",
+      "body": "Proto-Tai had three tones on 'live' syllables, conventionally A, B and C, plus 'dead' syllables ending in a stop (D). Later, each tone split according to the kind of consonant a syllable began with, voiced or voiceless, aspirated or glottalised, so that the modern languages have five, six or more tones in patterns that correspond regularly across the branch. The Thai script still marks the old consonant classes, and readers use them to work out the tone."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-tai-tone-split",
+      "branch_id": "tai",
+      "date": "c. 1000 – 1500 CE",
+      "type": "SOUND_LAW",
+      "title": "The Great Tone Split",
+      "description": "Each of the Proto-Tai tones splits in two, or more, according to whether the syllable began with a voiced or a voiceless consonant, and the old voiced consonants then lose their voicing. The Thai script's 'high', 'mid' and 'low' consonant classes still encode the difference. The dating is debated.",
+      "contested": true,
+      "process": "prosody",
+      "notation": "tones A B C (+ D) split by initial voicing → 5–9 tones; voiced initials devoice",
+      "sort_year": 1250,
+      "sources": [
+        { "citation": "Li, Fang-Kuei. 1977. A Handbook of Comparative Tai. Honolulu: University of Hawaii Press.", "url": null },
+        { "citation": "Haudricourt, André-Georges. 1961. Bipartition et tripartition des systèmes de tons dans quelques langues d'Extrême-Orient. Bulletin de la Société de Linguistique de Paris 56.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-tai-split",
+      "branch_id": "tai",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Northern and Southwestern Tai part",
+      "description": "The Tai dialects of Guangxi and Guizhou diverge, and the ancestors of Southwestern Tai begin to move southwest. The internal structure of Tai is debated.",
+      "contested": true,
+      "sources": [
+        { "citation": "Pittayaporn, Pittayawat. 2009. The Phonology of Proto-Tai. PhD dissertation, Cornell University.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": ["li-fang-kuei"]
+}
