@@ -1,0 +1,76 @@
+{
+  "id": "meskwaki-sauk-kickapoo",
+  "family": "algonquian",
+  "name": "Meskwaki-Sauk-Kickapoo",
+  "parent_ids": ["proto-algonquian"],
+  "successor_ids": [],
+  "era": "Recorded since the 18th century – present",
+  "region": "Formerly Wisconsin and Michigan; today the Meskwaki Settlement in Iowa, Sac and Fox and Kickapoo communities in Kansas and Oklahoma, and Kickapoo villages in Coahuila, Mexico, and Eagle Pass, Texas",
+  "defining_innovation": "The closely related speech of the Meskwaki (Fox), Sauk and Kickapoo, which share sound changes and vocabulary that mark them off from their neighbours and remain largely mutually intelligible; Kickapoo has diverged the most.",
+  "descendants": ["Meskwaki (Fox)", "Sauk", "Kickapoo"],
+  "chapters": [
+    {
+      "title": "Fox, Sauk and Kickapoo",
+      "body": "**Meskwaki-Sauk-Kickapoo** is the speech of three allied peoples who in the 17th century lived in what is now Wisconsin and Michigan. The French called the Meskwaki *Renards*, 'foxes', after one of their clans, and 'Fox' became their English name. Meskwaki and Sauk differ very little. Kickapoo is further apart, and whether it counts as a dialect of the same language or as a separate language is partly a matter of definition: Ives Goddard treats all three as one language, while Ethnologue and Glottolog list Kickapoo separately.\n\nTheir history is one of repeated displacement. In the Fox Wars, from 1712 into the 1730s, the Meskwaki fought French control of the route between the Great Lakes and the Mississippi and were nearly destroyed; the survivors took refuge among the Sauk. After the Black Hawk War of 1832 the Sauk and Meskwaki were pushed west of the Mississippi and later to Kansas and Oklahoma. In 1857 a group of Meskwaki bought land of their own in Tama County, Iowa, now the Meskwaki Settlement, where the language has kept its strongest hold.\n\nThe Kickapoo scattered further still. Bands settled in Kansas and Oklahoma, and one moved to northern Mexico around 1850, where it was granted land at El Nacimiento in Coahuila. Its members still move between Coahuila and the Texas border, and their community has been the most conservative in language and custom."
+    },
+    {
+      "title": "Writing and the Fox Texts",
+      "body": "By the late 19th century many Meskwaki, Sauk and Kickapoo could write their language in a script of their own, now called the Great Lakes Algonquian syllabary. It uses the letters of a European, probably French, cursive alphabet in a syllabic way, and was passed from person to person without schools or missionaries; its exact origin is uncertain. It was used for letters, notes and religious texts, and was also taken up by the Potawatomi and the Ho-Chunk.\n\nAs a result Meskwaki has one of the largest bodies of native-written text of any North American language. William Jones, himself of part-Meskwaki descent, published *Fox Texts* in 1907, and Truman Michelson of the Smithsonian's Bureau of American Ethnology collected thousands of pages of syllabic manuscripts from Meskwaki writers in the 1910s and 1920s, many of them by Alfred Kiyana. Bloomfield used the published Fox material in his Proto-Algonquian comparisons, and Ives Goddard has since re-edited and analysed much of it.\n\nKickapoo is also known for a whistled form of speech, described among the Mexican Kickapoo in the 1950s, in which the rhythm and pitch of spoken words are whistled to carry messages over a distance, notably between young men and women during courtship."
+    }
+  ],
+  "speakers": {
+    "estimate": "c. 700",
+    "vitality": "mixed",
+    "note": "Ethnologue gives about 250 speakers of Meskwaki and Sauk, most of them Meskwaki in Iowa, and about 400 of Kickapoo in the United States. Mexico's census counted 423 Kickapoo speakers in 2010 but only about 60 in 2020. Sauk is critically endangered; Kickapoo has been passed on to children longest in the Mexican community.",
+    "sources": [
+      { "citation": "Eberhard, David M., Gary F. Simons & Charles D. Fennig, eds. 2024. Ethnologue: Languages of the World, 27th ed. Dallas: SIL International.", "url": null },
+      { "citation": "Moseley, Christopher, ed. 2010. Atlas of the World's Languages in Danger, 3rd ed. Paris: UNESCO Publishing.", "url": null },
+      { "citation": "INEGI. 2020. Censo de Población y Vivienda 2020. Aguascalientes: Instituto Nacional de Estadística y Geografía.", "url": null }
+    ]
+  },
+  "countries": [
+    { "iso": "USA", "name": "United States", "speakers": "c. 650" },
+    { "iso": "MEX", "name": "Mexico", "speakers": "c. 60" }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-fox-wars",
+      "branch_id": "meskwaki-sauk-kickapoo",
+      "date": "1712 – 1730s",
+      "type": "CONTACT",
+      "title": "The Fox Wars",
+      "description": "The Meskwaki resist French control of the Fox–Wisconsin waterway and are attacked by the French and their Native allies. By the 1730s the Meskwaki are reduced to a few hundred people and take refuge among the Sauk, beginning the close association of the two peoples.",
+      "contested": false,
+      "sources": [
+        { "citation": "Edmunds, R. David & Joseph L. Peyser. 1993. The Fox Wars: The Mesquakie Challenge to New France. Norman: University of Oklahoma Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-kickapoo-mexico",
+      "branch_id": "meskwaki-sauk-kickapoo",
+      "date": "c. 1850",
+      "type": "SPLIT",
+      "title": "Kickapoo in Mexico",
+      "description": "A band of Kickapoo moves south into Mexico and is granted land at El Nacimiento, Coahuila. Separated from the other Kickapoo, the Mexican community keeps the language longer than any other group of the three.",
+      "contested": false,
+      "sources": [
+        { "citation": "Latorre, Felipe A. & Dolores L. Latorre. 1976. The Mexican Kickapoo Indians. Austin: University of Texas Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-great-lakes-syllabary",
+      "branch_id": "meskwaki-sauk-kickapoo",
+      "date": "Second half of the 19th century",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "The Great Lakes syllabary",
+      "description": "Meskwaki, Sauk and Kickapoo take up a syllabic script built from the letters of a European cursive alphabet, spread entirely among the people themselves. Where and when it began is uncertain.",
+      "contested": true,
+      "sources": [
+        { "citation": "Walker, Willard B. 1996. Native writing systems. In Handbook of North American Indians, vol. 17: Languages, ed. Ives Goddard. Washington, DC: Smithsonian Institution.", "url": null },
+        { "citation": "Jones, William. 1907. Fox Texts. Publications of the American Ethnological Society 1. Leyden: E. J. Brill.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
