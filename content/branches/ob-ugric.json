@@ -1,0 +1,85 @@
+{
+  "id": "ob-ugric",
+  "family": "uralic",
+  "name": "Ob-Ugric",
+  "parent_ids": ["ugric"],
+  "successor_ids": [],
+  "era": "c. 1st millennium BCE – present",
+  "region": "The Ob and Irtysh basins of western Siberia",
+  "defining_innovation": "Khanty and Mansi, the Siberian relatives of Hungarian, grouped by their shared vocabulary and neighbouring territory. Whether they form a true subgroup of their own is debated.",
+  "descendants": ["Northern Khanty", "Eastern Khanty", "Northern Mansi", "Southern Khanty †", "Southern Mansi †"],
+  "chapters": [
+    {
+      "title": "Origins",
+      "body": "Khanty and Mansi are spoken by small communities of fishers, hunters and reindeer herders along the Ob and its tributaries. They are Hungarian's closest living relatives, although the connection has become hard to see after nearly three thousand years apart. Each is really a cluster of very different dialects: the eastern and northern varieties of Khanty are barely mutually intelligible.\n\nThe two languages share a good deal of vocabulary and grammar, partly inherited and partly the result of centuries as neighbours, and they are traditionally grouped as 'Ob-Ugric'. Some specialists argue that the shared features are mostly the result of contact."
+    },
+    {
+      "title": "Under Russian Rule",
+      "body": "Russian conquest of western Siberia began in the 1580s, followed by tribute, Christianisation and settlement. Soviet language policy gave Khanty and Mansi Latin-based alphabets in the early 1930s, replaced them with Cyrillic in 1937, and then promoted Russian in schools. The discovery of oil and gas in the region from the 1960s brought mass immigration, and Khanty and Mansi are now small minorities in the Khanty-Mansi Autonomous Okrug named after them. The southern dialects of both languages died out in the 20th century."
+    }
+  ],
+  "turning_points": [
+    {
+      "id": "tp-khanty-mansi-split",
+      "branch_id": "ob-ugric",
+      "date": "c. 1st millennium CE",
+      "type": "SPLIT",
+      "title": "Khanty and Mansi diverge",
+      "description": "Khanty and Mansi develop separately along different stretches of the Ob and its tributaries. Whether they first shared a common Ob-Ugric stage after leaving Hungarian behind is disputed.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-siberia-conquest",
+      "branch_id": "ob-ugric",
+      "date": "1580s onward",
+      "type": "CONTACT",
+      "title": "Russian conquest of Siberia",
+      "description": "Russian forts, tribute collection and missions reach the Ob. Russian loans and, in places, a shift to Russian follow, along with contact with Komi and Tatar traders and settlers.",
+      "contested": false,
+      "sources": [
+        { "citation": "Abondolo, Daniel, ed. 1998. The Uralic Languages. London: Routledge.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-ob-ugric-alphabets",
+      "branch_id": "ob-ugric",
+      "date": "1930s",
+      "type": "WRITING_SYSTEM_ADOPTED",
+      "title": "Soviet alphabets",
+      "description": "Khanty and Mansi receive Latin-based alphabets under the Soviet programme for northern peoples, which are replaced by Cyrillic from 1937. With so many different dialects, no single written standard fits all speakers.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-southern-ob-ugric-extinction",
+      "branch_id": "ob-ugric",
+      "date": "20th century",
+      "type": "EXTINCTION",
+      "title": "Southern dialects disappear",
+      "description": "The southern varieties of Mansi and Khanty, closest to Russian and Tatar settlement, lose their last speakers. Their exact end dates are poorly recorded.",
+      "contested": true,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    },
+    {
+      "id": "tp-oil-boom",
+      "branch_id": "ob-ugric",
+      "date": "1960s onward",
+      "type": "CONTACT",
+      "title": "Oil, gas and immigration",
+      "description": "Oil and gas production in western Siberia brings hundreds of thousands of Russian-speaking settlers. Khanty and Mansi become small minorities in their homeland, and most children now grow up speaking Russian.",
+      "contested": false,
+      "sources": [
+        { "citation": "Bakró-Nagy, Marianne, Johanna Laakso & Elena Skribnik, eds. 2022. The Oxford Guide to the Uralic Languages. Oxford: Oxford University Press.", "url": null }
+      ]
+    }
+  ],
+  "contested_classifications": [],
+  "figure_ids": []
+}
