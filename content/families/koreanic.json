@@ -1,0 +1,13 @@
+{
+  "slug": "koreanic",
+  "name": "Koreanic",
+  "superfamily": null,
+  "summary": "A small family with a large language: Korean, spoken by about 80 million people, and Jeju, the language of Jeju Island, now critically endangered. Korean is written in Hangul, an alphabet designed in the 15th century to fit the language's sounds. Koreanic has no proven relatives, although links with Japonic and with the Transeurasian languages have long been proposed.",
+  "root_branch_id": "proto-koreanic",
+  "buried_root": { "name": "No proven deeper root", "note": "Japonic? Transeurasian? · disputed", "proven": false },
+  "accent": { "light": "70 82 98", "dark": "170 182 198" },
+  "sources": [
+    { "citation": "Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. Glottolog: Koreanic (kore1284).", "url": "https://glottolog.org/resource/languoid/id/kore1284" },
+    { "citation": "Lee, Ki-Moon & S. Robert Ramsey. 2011. A History of the Korean Language. Cambridge: Cambridge University Press.", "url": null }
+  ]
+}
