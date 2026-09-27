@@ -1,18 +1,56 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { getFamilies } from "@/lib/content";
 import { fontVariables } from "@/lib/fonts";
+import { absolute, ogImage, siteName, siteUrl, withBase } from "@/lib/site";
 import { PrimaryNav } from "@/components/PrimaryNav";
 import { RingGlyph } from "@/components/RingGlyph";
 import "./globals.css";
 
+const description =
+  "A narrative encyclopedia of language families: how branches split, the sound laws and contact that drove each split, and the classifications still in dispute.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "Language Lineage",
-    template: "%s · Language Lineage",
+    default: siteName,
+    template: `%s \u00b7 ${siteName}`,
   },
-  description:
-    "A narrative encyclopedia of language families: how branches split, the sound laws and contact that drove each split, and the classifications still in dispute.",
+  description,
+  applicationName: siteName,
+  alternates: { canonical: withBase("/") },
+  manifest: withBase("/manifest.webmanifest"),
+  icons: {
+    icon: [
+      { url: withBase("/favicon.svg"), type: "image/svg+xml" },
+      { url: withBase("/favicon-32.png"), sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: withBase("/apple-touch-icon.png"), sizes: "180x180", type: "image/png" }],
+  },
+  // Per-page opengraph-image.tsx files fill in the image; everything else is
+  // inherited so a shared link reads the same wherever it lands.
+  openGraph: {
+    type: "website",
+    siteName,
+    locale: "en_US",
+    title: siteName,
+    description,
+    url: absolute("/"),
+    images: [ogImage("/", "Language Lineage — a narrative encyclopedia of language families")],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description,
+    images: [ogImage("/", "Language Lineage — a narrative encyclopedia of language families")],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#EDE3D3" },
+    { media: "(prefers-color-scheme: dark)", color: "#1C1712" },
+  ],
 };
 
 // Marks the document as JS-enabled before first paint so the tree can start

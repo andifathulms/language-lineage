@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CognateGrid } from "@/components/CognateGrid";
@@ -33,7 +34,12 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { family: string } }): Metadata {
   const family = getFamily(params.family);
-  return family ? { title: `${family.name} tree`, description: family.summary } : {};
+  if (!family) return {};
+  return pageMetadata({
+    title: `${family.name} tree`,
+    description: family.summary,
+    path: `/${family.slug}/`,
+  });
 }
 
 function depthOf(id: string, byId: Map<string, Branch>): number {

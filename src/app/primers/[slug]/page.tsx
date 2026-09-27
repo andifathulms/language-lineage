@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FamilyEssay } from "@/components/FamilyEssay";
@@ -14,7 +15,8 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const primer = getPrimer(params.slug);
-  return primer ? { title: primer.title, description: primer.summary } : {};
+  if (!primer) return {};
+  return pageMetadata({ title: primer.title, description: primer.summary, path: `/primers/${primer.slug}/` });
 }
 
 export default function PrimerPage({ params }: { params: { slug: string } }) {

@@ -1,0 +1,16 @@
+{
+  "name": "Language Lineage",
+  "short_name": "Lineage",
+  "description": "A narrative encyclopedia of language families: how branches split, the sound laws and contact that drove each split, and the classifications still in dispute.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1C1712",
+  "theme_color": "#1C1712",
+  "icons": [
+    { "src": "./brand/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "./brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./brand/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./brand/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

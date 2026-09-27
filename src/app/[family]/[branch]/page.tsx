@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/site";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ClassificationList } from "@/components/ClassificationList";
@@ -32,7 +33,12 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { branch: string } }): Metadata {
   const branch = getBranch(params.branch);
-  return branch ? { title: branch.name, description: branch.defining_innovation } : {};
+  if (!branch) return {};
+  return pageMetadata({
+    title: branch.name,
+    description: branch.defining_innovation,
+    path: `/${branch.family}/${branch.id}/`,
+  });
 }
 
 const slugify = (s: string) =>

@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/site";
 import Link from "next/link";
 import { accentClass, FamilyAccentStyles } from "@/components/FamilyAccent";
 import { PROCESSES } from "@/components/labels";
 import { SoundLawTimeline, type TimelineLane } from "@/components/SoundLawTimeline";
 import { getFamilies, getSoundLaws, type SoundLawEntry } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Comparing sound laws",
   description: "Sound changes from every family covered, lined up by kind and placed on one timeline.",
-};
+  path: "/sound-laws/",
+});
 
 const lawHref = (e: SoundLawEntry) => `/${e.family.slug}/${e.branch.id}/#${e.tp.id}`;
 

@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/site";
 import Link from "next/link";
 import { getPrimers } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Primers",
   description: "Short explainers on how language families are proved, dated and argued over.",
-};
+  path: "/primers/",
+});
 
 export default function PrimersPage() {
   const primers = getPrimers();

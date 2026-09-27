@@ -6,3 +6,7 @@ next-env.d.ts
 .DS_Store
 .env*.local
 npm-debug.log*
+
+# Brand export masters — regenerated from the design source, not shipped in the build.
+# The subset the site actually serves lives in public/brand/.
+exports/
